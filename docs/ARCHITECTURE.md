@@ -30,7 +30,7 @@ content/  covers/  assets/  locales/
 | **i18n** | stringhe UI e negoziazione lingua | `internal/i18n/`, `locales/` |
 | **Notifier** | invio messaggi al bot Telegram (segnalazioni, contatti) | `internal/notify/` |
 | **Web** | server, routing, endpoint HTMX, header di sicurezza, rate-limit | `internal/web/` |
-| **CLI** | `lyrica new ...`, `lyrica build`, `lyrica serve` | `cmd/lyrica/` |
+| **CLI** | `lyrica new ...`, `lyrica valida`, `lyrica build`, `lyrica serve` | `cmd/lyrica/` |
 
 Il codice sta in inglese, i contenuti e i doc in italiano (`GUIDELINES.md` §4).
 
@@ -80,12 +80,15 @@ Lo script si invoca con `bash` esplicito, non con `./`: nel repo non ha il bit d
 
 | Comando | Cosa fa |
 |---|---|
-| `lyrica new band \| album \| brano` | genera i template di contenuto — **FASE 2** |
-| `lyrica build` | valida i contenuti e genera `public/` — **FASE 2** |
+| `lyrica valida` | controlla i contenuti e stampa errori e avvisi, **senza generare nulla** — **disponibile** |
 | `lyrica serve` | serve il sito in locale — **disponibile** |
 | `lyrica help` | mostra i comandi — **disponibile** |
+| `lyrica build` | valida i contenuti e genera `public/` — **FASE 2** |
+| `lyrica new band \| album \| brano` | genera i template di contenuto — **FASE 2** |
 
 I comandi non ancora implementati **restituiscono un errore esplicito**, non fingono di aver funzionato.
+
+`lyrica valida` esce con codice ≠ 0 se c'è anche un solo problema bloccante, e stampa **tutti** i problemi trovati (non si ferma al primo). Gli avvisi non fanno fallire il comando: restano visibili su stderr.
 
 ### Cosa farà `lyrica build`, in ordine (FASE 2)
 
@@ -101,7 +104,7 @@ I comandi non ancora implementati **restituiscono un errore esplicito**, non fin
 | Workflow | Evento | Cosa fa |
 |---|---|---|
 | `ci.yml` | **PR** e **push su `main`** | job `Compila`: `go mod tidy` → `templ generate` → `go vet` → `go build` |
-| `ci.yml` | **PR** (FASE 2) | job `valida`: esegue `lyrica build` sui contenuti; contenuti rotti = PR rossa |
+| `ci.yml` | **PR** e **push su `main`** | job `Valida i contenuti`: `go run ./cmd/lyrica valida`; contenuti rotti = PR rossa |
 | `docker-build-push.yml` | **push su `main`** | build dell'immagine e push su Docker Hub (`:latest` e `:<sha>`) |
 
 Perché esiste il job `Compila`: l'ambiente in cui scrive l'agente **non ha un compilatore Go**, quindi gli errori di sintassi si vedono solo qui. Non è un test unitario: è la verifica dell'artefatto.
@@ -164,6 +167,7 @@ Si fissa l'immagine `filippogrande/lyrica:<sha>` al posto di `latest` nel compos
 | **Porta host già occupata** | il container non parte: `Bind for 0.0.0.0:PORT failed: port is already allocated` → si cambia la mappa nel compose |
 | Immagine `latest` con un bug | si fa rollback al tag SHA |
 | Secrets Docker Hub assenti/scaduti | la CI è rossa e `latest` resta quella vecchia (il sito non si rompe, non si aggiorna) |
+| Contenuto invalido mergiato | la CI è rossa prima del merge; se sfugge, `build` non produce `public/` e l'immagine non aggiorna il sito |
 | `.env` con un valore sbagliato | il container parte ma l'app non si comporta come previsto: `docker compose logs` |
 
 Il deploy **non è automatico**: il runner pubblica l'immagine e non ha accesso al home-lab.
@@ -219,6 +223,7 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 3. **Lo script asset si invoca come `bash scripts/fetch-assets.sh`**: senza il bit di esecuzione, `./scripts/...` fallisce con **exit 126** e fa fallire la build dell'immagine.
 4. **`*_templ.go` non si committano mai**: sono artefatti di generazione.
 5. **La porta host va scelta guardando cosa è già occupato** (`docker ps --format '{{.Names}} - {{.Ports}}'` o `ss -tlnp`), non copiando un default: sul master la 8085 era libera solo in teoria.
+6. **Anche i comandi che non generano nulla richiedono `templ generate`**: `lyrica valida` compila `internal/web` → `internal/render`, quindi un job CI che lo invoca deve generare i template prima di eseguirlo.
 
 ## Limiti noti
 
@@ -226,6 +231,7 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 - La ricerca è **full-text**, deliberatamente: niente semantica, niente tolleranza ai refusi.
 - I contenuti richiedono un **nuovo build + deploy**: non si pubblica nulla "a caldo".
 - Nessun ambiente di staging: `main` è produzione.
+- Il validatore **non** controlla ancora le chiavi dei locale mancanti rispetto a `it.yaml` (warning previsto da `CONTENT.md`): arriva con l'i18n delle pagine.
 
 ## Dove vive cosa
 
