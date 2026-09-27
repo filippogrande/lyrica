@@ -1,0 +1,15 @@
+# Segreti: mai committare
+.env
+.env.*
+!.env.example
+
+# Output generato dal build
+public/
+lyrica
+*.exe
+
+# Editor e OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
