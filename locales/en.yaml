@@ -29,6 +29,7 @@ band.formed: "Active since"
 band.members: "Members"
 band.tags: "Genres"
 band.albums: "albums"
+band.photo_alt: "Band photo"
 
 album.tracks: "Tracks"
 album.cover_alt: "Album cover"
