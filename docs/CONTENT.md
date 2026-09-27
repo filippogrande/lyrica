@@ -92,12 +92,12 @@ tracks:
 
 ### Da dove arrivano le immagini
 
-Si prendono da **archivi pubblici**, non dal primo risultato di una ricerca per immagini.
+Si prendono da **archivi pubblici**, per MBID, non dal primo risultato di una ricerca per immagini.
 
-| Cosa | Fonte | Chiave API |
-|---|---|---|
-| Cover di un album | **Cover Art Archive** (MusicBrainz + Internet Archive), per **release-group MBID** | no |
-| Foto di una band | **fanart.tv**, per **artist MBID** | sì, personale |
+| Cosa | Fonte | Identificativo | Chiave API |
+|---|---|---|---|
+| Cover di un album | [Cover Art Archive](https://coverartarchive.org/) (MusicBrainz + Internet Archive) | release-group MBID | no |
+| Foto di una band | [fanart.tv](https://fanart.tv/) | artist MBID | sì, personale |
 
 ```
 # dalla root del repo
@@ -105,12 +105,19 @@ bash scripts/fetch-covers.sh cover <release-group-mbid> <album-slug>
 bash scripts/fetch-covers.sh band  <artist-mbid>        <band-slug>
 ```
 
-- Lo script scarica l'immagine, la converte in **600x600 webp** (ritaglio centrale) e la scrive in `covers/<slug>.webp`. **Non tocca i file di contenuto**: alla fine stampa la riga da aggiungere al front-matter.
-- Il **MBID** si legge nell'URL della pagina MusicBrainz: `musicbrainz.org/release-group/<mbid>` per un album, `musicbrainz.org/artist/<mbid>` per una band.
-- La **chiave di fanart.tv** si passa in `FANART_API_KEY` o si scrive in `~/.fanart_api_key`: **non entra mai nel repo** (D83), e serve solo per le foto delle band.
-- Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv, sempre per lo stesso MBID.
-- Gli archivi pubblici non sono una fonte di licenza: le immagini restano **dei rispettivi proprietari** (vale il disclaimer in footer, D07). Si scarica **un'immagine per volta**, senza script che martellano l'API.
+- Lo script scarica l'immagine, la converte in **600x600 webp** (ritaglio centrale) e la scrive in `covers/<slug>.webp`. **Non tocca i file di contenuto**: alla fine stampa la riga da aggiungere al front-matter. Se il file esiste già si ferma, a meno di `--force`.
+- Il **MBID** si legge nell'URL della pagina MusicBrainz: `musicbrainz.org/release-group/<mbid>` per un album, `musicbrainz.org/artist/<mbid>` per una band. Per le band lo script stampa il **nome dell'artista** trovato: serve a confermare di aver preso quello giusto.
+- Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv, sempre per lo stesso MBID (di solito `artistthumb`).
+- **Le immagini restano nel repo**: si scaricano una volta e il sito le serve da `covers/`. Nessuna chiamata alle API a runtime, nessuna a ogni build — l'API si interroga solo quando aggiungi una band o un album (D82).
+- Il **footer attribuisce** le immagini con i link a Cover Art Archive e fanart.tv (D84): gli archivi non sono una fonte di licenza, le immagini restano **dei rispettivi proprietari** (vale il disclaimer in footer, D07). Si scarica **un'immagine per volta**, senza script che martellano l'API.
 - Serve **ImageMagick** (`brew install imagemagick`) e `curl`: se mancano, lo script esce con un errore esplicito e non scrive niente.
+
+#### Chiave di fanart.tv (solo per le foto delle band)
+
+- Chiave di **progetto** → `FANART_API_KEY`, oppure una riga in `~/.fanart_api_key`.
+- Chiave **personale** → `FANART_CLIENT_KEY`, oppure una riga in `~/.fanart_client_key`.
+- Basta una delle due; se ci sono entrambe, si mandano entrambe (la personale ha priorità sul livello di accesso).
+- Le chiavi **non stanno nel repo**, non si stampano e non finiscono nei log: viaggiano in un header HTTP, mai nell'URL.
 
 ## `tracks/<slug>.md`
 
@@ -211,7 +218,7 @@ Il flusso normale: si generano i file con la CLI e si riempiono. Non si scrive a
 lyrica new band "Nome Band"
 ```
 
-Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe). La **foto della band** è opzionale: si prende dal Cover Art Archive/fanart.tv con lo script (vedi sopra), si mette in `covers/<band-slug>.webp` e si dichiara con `image`.
+Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe). La **foto della band** è opzionale: si scarica con lo script (vedi sopra), finisce in `covers/<band-slug>.webp` e si dichiara con `image`.
 
 ### 2. Nuovo album
 
