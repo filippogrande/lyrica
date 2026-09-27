@@ -1,0 +1,41 @@
+name: CI
+
+# La CI fa due cose:
+#   1. verifica che il progetto COMPILI (la compilazione non è possibile
+#      nell'ambiente dell'agente, quindi è qui che gli errori emergono);
+#   2. in FASE 2 si aggiunge la validazione dei contenuti.
+# Non ci sono test unitari per scelta: vedi DEVELOPMENT_GUIDELINES.md §6.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  compila:
+    name: Compila
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Go 1.27.1
+        uses: actions/setup-go@v7
+        with:
+          go-version: "1.27.1"
+          cache: true
+
+      - name: Risolvi le dipendenze
+        run: go mod tidy
+
+      - name: Genera i template Templ
+        run: go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate
+
+      - name: Vet
+        run: go vet ./...
+
+      - name: Build
+        run: go build ./...
