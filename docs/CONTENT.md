@@ -99,25 +99,34 @@ Si prendono da **archivi pubblici**, per MBID, non dal primo risultato di una ri
 | Cover di un album | [Cover Art Archive](https://coverartarchive.org/) (MusicBrainz + Internet Archive) | release-group MBID | no |
 | Foto di una band | [fanart.tv](https://fanart.tv/) | artist MBID | sì, personale |
 
+Il **MBID** si legge nell'URL della pagina MusicBrainz: `musicbrainz.org/release-group/<mbid>` per un album, `musicbrainz.org/artist/<mbid>` per una band.
+
+**Le immagini restano nel repo**: si scaricano una volta e il sito le serve da `covers/`. Nessuna chiamata alle API a runtime, nessuna a ogni build — l'API si interroga solo quando aggiungi una band o un album (D82). Il footer attribuisce le immagini con i link ai due archivi (D84): gli archivi non sono una fonte di licenza, le immagini restano **dei rispettivi proprietari** (vale il disclaimer in footer, D07).
+
+#### Dal browser, un click per immagine (consigliato)
+
+1. GitHub → **Actions** → **Immagini dagli archivi** → **Run workflow**.
+2. Tre campi: `tipo` (`cover` o `band`), `mbid`, `slug`. In più, se vuoi, il **file di contenuto** da aggiornare (`content/bands/<band>/band.md` o `.../<album>/album.md`).
+3. Il workflow scarica l'immagine, la mette in `covers/<slug>.webp` a 600x600, scrive il campo nel file se gliel'hai indicato e apre da sé una PR `immagini/<slug>`.
+
+Resta da fare solo: guardare l'immagine e mergiare. La chiave di fanart.tv va nei **secret del repo** (`Settings → Secrets and variables → Actions`): `FANART_API_KEY` (progetto) o `FANART_CLIENT_KEY` (personale). Serve solo al workflow (D85).
+
+#### Dal proprio computer (stessi passi, senza browser)
+
 ```
 # dalla root del repo
 bash scripts/fetch-covers.sh cover <release-group-mbid> <album-slug>
 bash scripts/fetch-covers.sh band  <artist-mbid>        <band-slug>
+
+# e, per scrivere il campo senza aprire l'editor:
+python3 scripts/declare-image.py content/bands/<band>/band.md band <band-slug>.webp
 ```
 
-- Lo script scarica l'immagine, la converte in **600x600 webp** (ritaglio centrale) e la scrive in `covers/<slug>.webp`. **Non tocca i file di contenuto**: alla fine stampa la riga da aggiungere al front-matter. Se il file esiste già si ferma, a meno di `--force`.
-- Il **MBID** si legge nell'URL della pagina MusicBrainz: `musicbrainz.org/release-group/<mbid>` per un album, `musicbrainz.org/artist/<mbid>` per una band. Per le band lo script stampa il **nome dell'artista** trovato: serve a confermare di aver preso quello giusto.
-- Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv, sempre per lo stesso MBID (di solito `artistthumb`).
-- **Le immagini restano nel repo**: si scaricano una volta e il sito le serve da `covers/`. Nessuna chiamata alle API a runtime, nessuna a ogni build — l'API si interroga solo quando aggiungi una band o un album (D82).
-- Il **footer attribuisce** le immagini con i link a Cover Art Archive e fanart.tv (D84): gli archivi non sono una fonte di licenza, le immagini restano **dei rispettivi proprietari** (vale il disclaimer in footer, D07). Si scarica **un'immagine per volta**, senza script che martellano l'API.
-- Serve **ImageMagick** (`brew install imagemagick`) e `curl`: se mancano, lo script esce con un errore esplicito e non scrive niente.
-
-#### Chiave di fanart.tv (solo per le foto delle band)
-
-- Chiave di **progetto** → `FANART_API_KEY`, oppure una riga in `~/.fanart_api_key`.
-- Chiave **personale** → `FANART_CLIENT_KEY`, oppure una riga in `~/.fanart_client_key`.
-- Basta una delle due; se ci sono entrambe, si mandano entrambe (la personale ha priorità sul livello di accesso).
-- Le chiavi **non stanno nel repo**, non si stampano e non finiscono nei log: viaggiano in un header HTTP, mai nell'URL.
+- Lo script scarica, converte in **600x600 webp** (ritaglio centrale) e **verifica il risultato**; se il file esiste già si ferma, a meno di `--force`. Non tocca i file di contenuto: stampa la riga da aggiungere (oppure la scrive `declare-image.py`).
+- Per le band stampa il **nome dell'artista** trovato: serve a confermare di aver preso il MBID giusto. Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv (di solito `artistthumb`).
+- Chiavi sul proprio computer: `FANART_API_KEY` / `FANART_CLIENT_KEY`, oppure una riga in `~/.fanart_api_key` / `~/.fanart_client_key`. Basta una delle due. **Mai nel repo**, mai stampate, mai nell'URL.
+- Serve **ImageMagick** (`brew install imagemagick`), `curl` e `python3`: se manca qualcosa, lo script esce con un errore esplicito e non scrive niente.
+- Si scarica **un'immagine per volta**, senza script che martellano l'API.
 
 ## `tracks/<slug>.md`
 
@@ -218,7 +227,7 @@ Il flusso normale: si generano i file con la CLI e si riempiono. Non si scrive a
 lyrica new band "Nome Band"
 ```
 
-Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe). La **foto della band** è opzionale: si scarica con lo script (vedi sopra), finisce in `covers/<band-slug>.webp` e si dichiara con `image`.
+Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe). La **foto della band** è opzionale: si scarica con il workflow o con lo script (vedi sopra), finisce in `covers/<band-slug>.webp` e si dichiara con `image`.
 
 ### 2. Nuovo album
 
@@ -226,7 +235,7 @@ Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compila
 lyrica new album "Nome Band" "Titolo Album" --year 1995
 ```
 
-Crea `album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover si scarica con lo script in `covers/<album-slug>.webp`, **600x600 quadrata**: se non c'è, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
+Crea `album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover si scarica in `covers/<album-slug>.webp`, **600x600 quadrata**: se non c'è, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
 
 ### 3. Nuovo brano
 
