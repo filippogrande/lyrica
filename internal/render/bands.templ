@@ -1,0 +1,38 @@
+package render
+
+// Bands è l'elenco completo delle band pubblicate, in ordine alfabetico.
+templ Bands(v BandsView) {
+	@Layout(v.Page) {
+		<h1 class="page-title">{ v.Page.T("nav.bands") }</h1>
+		if len(v.Bands) == 0 {
+			<section class="empty-state">
+				<p>{ v.Page.T("bands.empty") }</p>
+			</section>
+		} else {
+			@bandList(v.Page, v.Bands)
+		}
+	}
+}
+
+// bandList è l'elenco delle band, condiviso fra home e pagina Bands.
+templ bandList(page PageData, cards []BandCard) {
+	<ul class="band-list">
+		for _, card := range cards {
+			<li class="band-list-item">
+				<a class="band-list-name" href={ card.URL }>{ card.Name }</a>
+				<span class="band-list-meta">
+					if card.Country != "" {
+						<span class="band-country">{ card.Country }</span>
+					}
+					if card.TagsText != "" {
+						<span class="band-tags">{ card.TagsText }</span>
+					}
+					<span class="band-albums">{ page.T("band.albums") }: { card.AlbumsText }</span>
+				</span>
+				if card.Description != "" {
+					<p class="band-list-description">{ card.Description }</p>
+				}
+			</li>
+		}
+	}
+}

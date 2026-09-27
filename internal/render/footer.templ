@@ -1,15 +1,14 @@
 package render
 
-// Footer contiene disclaimer, licenza, contatti e collegamenti di servizio.
+// Footer contiene disclaimer e licenza.
+//
+// I collegamenti a contatti, note legali e feed NON stanno qui finché quelle
+// pagine non esistono (FASE 4/5): un link che porta a un 404 è peggio di un
+// link assente. Quando le pagine esisteranno, tornano qui.
 templ Footer(d PageData) {
 	<footer class="site-footer">
 		<div class="container">
 			<p class="footer-line">{ d.T("footer.disclaimer") }</p>
-			<ul class="footer-links">
-				<li><a href={ d.URL("contatti") }>{ d.T("footer.contact") }</a></li>
-				<li><a href={ d.URL("legali") }>{ d.T("footer.legal") }</a></li>
-				<li><a href={ d.URL("rss.xml") }>{ d.T("footer.rss") }</a></li>
-			</ul>
 			<p class="footer-line">{ d.T("footer.license") }</p>
 		</div>
 	</footer>

@@ -1,0 +1,18 @@
+package render
+
+// breadcrumb è il percorso di navigazione: Home / Bands / Band / Album / Brano.
+templ breadcrumb(label string, crumbs []Crumb) {
+	<nav class="breadcrumb-nav" aria-label={ label }>
+		<ol class="breadcrumb">
+			for _, crumb := range crumbs {
+				if crumb.Current {
+					<li class="breadcrumb-item active" aria-current="page">{ crumb.Label }</li>
+				} else {
+					<li class="breadcrumb-item">
+						<a href={ crumb.URL }>{ crumb.Label }</a>
+					</li>
+				}
+			}
+		</ol>
+	</nav>
+}
