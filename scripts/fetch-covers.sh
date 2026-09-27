@@ -7,7 +7,11 @@
 # Le cover degli album arrivano dal Cover Art Archive (MusicBrainz + Internet
 # Archive) e le foto delle band da fanart.tv, che le indicizza per MBID di
 # MusicBrainz. Lo script scrive covers/<slug>.webp a 600x600, la sola
-# dimensione che il sito usa (docs/CONTENT.md).
+# dimensione che il sito usa (docs/CONTENT.md), e non tocca i file di
+# contenuto: stampa la riga da aggiungere al front-matter.
+#
+# Le immagini finiscono NEL REPO: il sito le serve da /covers/, quindi
+# l'API si chiama una volta per immagine, mai a runtime e mai a ogni build.
 #
 # Regole rispettate (docs/GUIDELINES.md, D76):
 #   - nessun fallback silenzioso: se manca uno strumento, l'immagine o la
@@ -15,9 +19,11 @@
 #   - nessun file temporaneo lasciato in giro: si scarica in una cartella
 #     temporanea e la si cancella sempre (trap).
 #
-# La chiave di fanart.tv NON sta nel repo: si passa in FANART_API_KEY oppure si
-# scrive in ~/.fanart_api_key (una riga sola). Serve solo per le foto delle
-# band: le cover non richiedono chiavi.
+# Chiavi fanart.tv (servono solo per le foto delle band, le cover no):
+#   FANART_API_KEY     chiave di progetto    -> header api-key    (~/.fanart_api_key)
+#   FANART_CLIENT_KEY  chiave personale      -> header client-key (~/.fanart_client_key)
+# Basta una delle due. Le chiavi NON stanno nel repo e non vengono mai
+# stampate, né finite nei log.
 #
 # Si invoca con `bash` esplicito, come scripts/fetch-assets.sh: nel repo gli
 # script non hanno il bit di esecuzione.
@@ -29,12 +35,15 @@ readonly QUALITY=82
 readonly CAA_URL="https://coverartarchive.org"
 readonly FANART_API="https://webservice.fanart.tv/v3.2/music"
 readonly FANART_KEY_FILE="${HOME}/.fanart_api_key"
+readonly FANART_CLIENT_KEY_FILE="${HOME}/.fanart_client_key"
 readonly COVERS_DIR="covers"
 # MusicBrainz chiede un User-Agent che identifichi chi chiama.
 readonly USER_AGENT="lyrica-covers/1.0 (+https://github.com/filippogrande/lyrica)"
 
 IM=""
 TMP_DIR=""
+FANART_PROJECT=""
+FANART_PERSONAL=""
 
 usage() {
 	cat >&2 <<'FINE'
@@ -50,6 +59,9 @@ Il MBID si legge nell'URL della pagina MusicBrainz:
   musicbrainz.org/release-group/<release-group-mbid>   -> cover di un album
   musicbrainz.org/artist/<artist-mbid>                 -> foto di una band
 
+Chiave fanart.tv (solo per le band): in FANART_API_KEY, FANART_CLIENT_KEY o nei
+file ~/.fanart_api_key / ~/.fanart_client_key.
+
 Scrive covers/<slug>.webp a 600x600. Non tocca i file di contenuto: la riga da
 aggiungere al front-matter te la stampa alla fine.
 FINE
@@ -61,7 +73,7 @@ die() {
 }
 
 cleanup() {
-	[ -n "$TMP_DIR" ] && rm -rf "$TMP_DIR"
+	if [ -n "$TMP_DIR" ]; then rm -rf "$TMP_DIR"; fi
 	return 0
 }
 
@@ -134,18 +146,25 @@ fetch_cover() {
 	to_webp "${TMP_DIR}/cover" "$target"
 }
 
-# fanart_key legge la chiave dall'ambiente o dal file, senza mai stamparla.
-fanart_key() {
-	local key="${FANART_API_KEY:-}"
-	if [ -z "$key" ] && [ -f "$FANART_KEY_FILE" ]; then
-		key="$(tr -d '[:space:]' < "$FANART_KEY_FILE")"
+# fanart_keys legge le chiavi dall'ambiente o dai file, senza mai stamparle.
+# Ne basta una: la di progetto (api-key) o la personale (client-key).
+fanart_keys() {
+	FANART_PROJECT="${FANART_API_KEY:-}"
+	FANART_PERSONAL="${FANART_CLIENT_KEY:-}"
+	if [ -z "$FANART_PROJECT" ] && [ -f "$FANART_KEY_FILE" ]; then
+		FANART_PROJECT="$(tr -d '[:space:]' < "$FANART_KEY_FILE")"
 	fi
-	[ -n "$key" ] || die "manca la chiave fanart.tv: esporta FANART_API_KEY o scrivila in ${FANART_KEY_FILE}"
-	printf '%s' "$key"
+	if [ -z "$FANART_PERSONAL" ] && [ -f "$FANART_CLIENT_KEY_FILE" ]; then
+		FANART_PERSONAL="$(tr -d '[:space:]' < "$FANART_CLIENT_KEY_FILE")"
+	fi
+	if [ -z "$FANART_PROJECT" ] && [ -z "$FANART_PERSONAL" ]; then
+		die "manca la chiave fanart.tv: esporta FANART_API_KEY (o FANART_CLIENT_KEY), oppure scrivila in ${FANART_KEY_FILE}"
+	fi
 }
 
-# best_artist_thumb sceglie la foto più apprezzata fra quelle disponibili.
-best_artist_thumb() {
+# artist_thumb legge la risposta e stampa nome dell'artista e URL della foto
+# più apprezzata: due righe, nome per primo.
+artist_thumb() {
 	python3 - "$1" <<'PY'
 import json, sys
 
@@ -154,21 +173,27 @@ thumbs = data.get("artistthumb") or []
 if not thumbs:
     sys.exit(1)
 best = max(thumbs, key=lambda image: int(image.get("likes") or 0))
+print(data.get("name", ""))
 print(best.get("url", ""))
 PY
 }
 
 fetch_band() {
-	local mbid="$1" target="$2" key="" url=""
-	key="$(fanart_key)"
+	local mbid="$1" target="$2" info="" name="" url=""
+	local -a headers=()
+	fanart_keys
+	# Le chiavi viaggiano in header: non finiscono né nell'URL né nei log.
+	if [ -n "$FANART_PROJECT" ]; then headers+=(-H "api-key: ${FANART_PROJECT}"); fi
+	if [ -n "$FANART_PERSONAL" ]; then headers+=(-H "client-key: ${FANART_PERSONAL}"); fi
 	echo "foto della band da fanart.tv ($mbid)..." >&2
-	# La chiave viaggia in un header: non finisce né nell'URL né nei log.
-	curl -fsSL --max-time 60 -H "api-key: ${key}" -o "${TMP_DIR}/artist.json" \
-		"${FANART_API}/${mbid}" \
+	curl -fsSL --max-time 60 "${headers[@]}" -o "${TMP_DIR}/artist.json" "${FANART_API}/${mbid}" \
 		|| die "nessuna risposta per l'artista $mbid: chiave non valida (401) o artista assente su fanart.tv (404)"
-	url="$(best_artist_thumb "${TMP_DIR}/artist.json")" \
+	info="$(artist_thumb "${TMP_DIR}/artist.json")" \
 		|| die "nessuna foto (artistthumb) per l'artista $mbid su fanart.tv"
+	name="${info%%$'\n'*}"
+	url="${info#*$'\n'}"
 	[ -n "$url" ] || die "foto senza URL per l'artista $mbid"
+	echo "band trovata: ${name}" >&2
 	curl -fsSL --max-time 120 -o "${TMP_DIR}/artist" "$url" \
 		|| die "download della foto fallito: $url"
 	to_webp "${TMP_DIR}/artist" "$target"
@@ -176,18 +201,20 @@ fetch_band() {
 
 main() {
 	[ "$#" -ge 1 ] || { usage; exit 2; }
-	local action="$1" mbid="" slug="" force="no" target=""
+	local action="$1" mbid="" slug="" force="no" target="" arg=""
 	shift
 	case "$action" in
 	-h | --help | help) usage; exit 0 ;;
 	esac
 	for arg in "$@"; do
-		[ "$arg" = "--force" ] && force="yes"
+		if [ "$arg" = "--force" ]; then force="yes"; fi
 	done
 	mbid="${1:-}"
 	slug="${2:-}"
-	[ -n "$mbid" ] && [ "$slug" != "" ] || { usage; exit 2; }
-	[ "$slug" != "--force" ] || { usage; exit 2; }
+	if [ -z "$mbid" ] || [ -z "$slug" ] || [ "$slug" = "--force" ]; then
+		usage
+		exit 2
+	fi
 
 	require_tools
 	check_mbid "$mbid"
