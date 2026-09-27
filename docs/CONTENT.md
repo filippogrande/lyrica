@@ -46,7 +46,7 @@ description: >
 
 | Campo | Obbl. | Note |
 |---|---|---|
-| `name` | sì | come si legge in pagina |
+| `name` | sì | come si legge in pagina; è anche il nome con cui si cerca la foto della band |
 | `slug` | sì | deve coincidere con il nome della cartella |
 | `country` | no | sigla ISO a 2 lettere |
 | `tags` | no | **tag liberi** di genere; generano le pagine `/it/tag/{tag}` |
@@ -78,6 +78,7 @@ tracks:
 - `tracks` definisce **l'ordine** della tracklist così com'è scritta.
 - `instrumental: true` segna il brano strumentale: sta in tracklist ma **non ha pagina**.
 - `cover` è il **nome del file** in `covers/`; se assente, la pagina album va senza immagine.
+- `title` e `year` sono anche i dati con cui si cerca la cover: vanno scritti come sono sull'album, non come viene più comodo.
 
 ## Immagini (`covers/`)
 
@@ -92,41 +93,52 @@ tracks:
 
 ### Da dove arrivano le immagini
 
-Si prendono da **archivi pubblici**, per MBID, non dal primo risultato di una ricerca per immagini.
+Si prendono da **archivi pubblici**, per identificativo, non dal primo risultato di una ricerca per immagini.
 
 | Cosa | Fonte | Identificativo | Chiave API |
 |---|---|---|---|
-| Cover di un album | [Cover Art Archive](https://coverartarchive.org/) (MusicBrainz + Internet Archive) | release-group MBID | no |
-| Foto di una band | [fanart.tv](https://fanart.tv/) | artist MBID | sì, personale |
+| Cover di un album | [Cover Art Archive](https://coverartarchive.org/) (MusicBrainz + Internet Archive) | release-group, cercato da titolo + anno | no |
+| Foto di una band | [fanart.tv](https://fanart.tv/) | artist, cercato dal nome della band | sì, personale |
 
-Il **MBID** si legge nell'URL della pagina MusicBrainz: `musicbrainz.org/release-group/<mbid>` per un album, `musicbrainz.org/artist/<mbid>` per una band.
+**Le immagini restano nel repo**: si scaricano una volta e il sito le serve da `covers/`. Nessuna chiamata alle API a runtime, nessuna a ogni build — l'API si interroga solo quando si aggiunge una band o un album (D82). Il footer attribuisce le immagini con i link ai due archivi (D84): gli archivi non sono una fonte di licenza, le immagini restano **dei rispettivi proprietari** (vale il disclaimer in footer, D07).
 
-**Le immagini restano nel repo**: si scaricano una volta e il sito le serve da `covers/`. Nessuna chiamata alle API a runtime, nessuna a ogni build — l'API si interroga solo quando aggiungi una band o un album (D82). Il footer attribuisce le immagini con i link ai due archivi (D84): gli archivi non sono una fonte di licenza, le immagini restano **dei rispettivi proprietari** (vale il disclaimer in footer, D07).
+#### Dal browser, un click (il modo normale)
 
-#### Dal browser, un click per immagine (consigliato)
+1. GitHub → **Actions** → **Immagini mancanti** → **Run workflow**. Il campo `band` si può lasciare vuoto: così guarda **tutte** le band.
+2. Il workflow cerca da solo quello che manca — band senza `image`, album senza `cover` (o con un `cover` che punta a un file che non c'è) — e lo scarica: la band si riconosce dal `name` in `band.md`, l'album dal `title` e dall'`year` in `album.md`. **Nessun MBID, nessuno slug da digitare.**
+3. Scrive i campi mancanti nel front-matter e apre **una PR sola** con tutte le immagini.
 
-1. GitHub → **Actions** → **Immagini dagli archivi** → **Run workflow**.
-2. Tre campi: `tipo` (`cover` o `band`), `mbid`, `slug`. In più, se vuoi, il **file di contenuto** da aggiornare (`content/bands/<band>/band.md` o `.../<album>/album.md`).
-3. Il workflow scarica l'immagine, la mette in `covers/<slug>.webp` a 600x600, scrive il campo nel file se gliel'hai indicato e apre da sé una PR `immagini/<slug>`.
+Nel **riepilogo del run** (`Actions` → il run → `Summary`) c'è il report: per ogni immagine se è stata scaricata o perché è stata saltata (già presente, nessuna corrispondenza su MusicBrainz, archivio che non ce l'ha).
 
-Resta da fare solo: guardare l'immagine e mergiare. La chiave di fanart.tv va nei **secret del repo** (`Settings → Secrets and variables → Actions`): `FANART_API_KEY` (progetto) o `FANART_CLIENT_KEY` (personale). Serve solo al workflow (D85).
+Prima di mergiare: **guardare le immagini**. La corrispondenza è automatica e prudente — nome esatto e punteggio alto per la band; per l'album solo `Album` con anno a un anno di distanza e punteggio alto — ma un titolo omonimo (live, compilation, edizione estera) può portare alla release sbagliata.
 
-#### Dal proprio computer (stessi passi, senza browser)
+Quello che l'archivio non ha **non è un errore**: l'album resta senza cover (D36) e la card della home usa il segnaposto con l'iniziale.
+
+#### Una immagine sola, quando serve la certezza
+
+Se la cover scelta è quella sbagliata, si corregge indicando il MBID a mano: **Actions → Immagini dagli archivi** (tipo, MBID, slug, e il file da aggiornare). Il MBID si legge nell'URL della pagina MusicBrainz: `musicbrainz.org/release-group/<mbid>` per un album, `musicbrainz.org/artist/<mbid>` per una band.
+
+La chiave di fanart.tv va nei **secret del repo** (`Settings → Secrets and variables → Actions`): `FANART_API_KEY` (progetto) o `FANART_CLIENT_KEY` (personale). Serve solo alle foto delle band (D85).
+
+#### Dal proprio computer (gli stessi passi, senza browser)
 
 ```
-# dalla root del repo
+bash scripts/fetch-images.sh              # riempie tutte le immagini mancanti
+bash scripts/fetch-images.sh rammstein    # solo una band
+
 bash scripts/fetch-covers.sh cover <release-group-mbid> <album-slug>
 bash scripts/fetch-covers.sh band  <artist-mbid>        <band-slug>
 
-# e, per scrivere il campo senza aprire l'editor:
 python3 scripts/declare-image.py content/bands/<band>/band.md band <band-slug>.webp
 ```
 
-- Lo script scarica, converte in **600x600 webp** (ritaglio centrale) e **verifica il risultato**; se il file esiste già si ferma, a meno di `--force`. Non tocca i file di contenuto: stampa la riga da aggiungere (oppure la scrive `declare-image.py`).
-- Per le band stampa il **nome dell'artista** trovato: serve a confermare di aver preso il MBID giusto. Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv (di solito `artistthumb`).
+- `fetch-images.sh` è quello che fa il lavoro da solo: per ogni band e ogni album legge i dati già scritti nei file di contenuto, cerca l'identificativo, scarica e scrive il campo. Salta ciò che è a posto e stampa il report (anche nel riepilogo del run, se `GITHUB_STEP_SUMMARY` è impostato).
+- `fetch-covers.sh` scarica **una** immagine dal MBID, converte in **600x600 webp** con ritaglio centrale e **verifica le dimensioni**; `--force` per riscrivere, `--allow-missing` per uscire con 3 invece che con errore quando l'archivio non ha l'immagine. Non tocca i file di contenuto.
+- `declare-image.py` scrive `cover:` / `image:` nel front-matter (aggiorna la riga se c'è, la aggiunge se manca, errore esplicito se non c'è front-matter).
+- Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv (di solito `artistthumb`, si prende quella con più like).
 - Chiavi sul proprio computer: `FANART_API_KEY` / `FANART_CLIENT_KEY`, oppure una riga in `~/.fanart_api_key` / `~/.fanart_client_key`. Basta una delle due. **Mai nel repo**, mai stampate, mai nell'URL.
-- Serve **ImageMagick** (`brew install imagemagick`), `curl` e `python3`: se manca qualcosa, lo script esce con un errore esplicito e non scrive niente.
-- Si scarica **un'immagine per volta**, senza script che martellano l'API.
+- Serve **ImageMagick** (`brew install imagemagick`), `curl` e `python3`: se manca qualcosa, gli script escono con un errore esplicito e non scrivono niente.
+- MusicBrainz accetta **una richiesta al secondo**: gli script aspettano da soli fra una ricerca e l'altra. Duecento album richiedono qualche minuto, non duecento click.
 
 ## `tracks/<slug>.md`
 
@@ -227,7 +239,7 @@ Il flusso normale: si generano i file con la CLI e si riempiono. Non si scrive a
 lyrica new band "Nome Band"
 ```
 
-Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe). La **foto della band** è opzionale: si scarica con il workflow o con lo script (vedi sopra), finisce in `covers/<band-slug>.webp` e si dichiara con `image`.
+Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe). La **foto della band** è opzionale: la prende il workflow "Immagini mancanti" o `scripts/fetch-images.sh` (vedi sopra), finisce in `covers/<band-slug>.webp` e si dichiara con `image`.
 
 ### 2. Nuovo album
 
@@ -235,7 +247,7 @@ Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compila
 lyrica new album "Nome Band" "Titolo Album" --year 1995
 ```
 
-Crea `album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover si scarica in `covers/<album-slug>.webp`, **600x600 quadrata**: se non c'è, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
+Crea `album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover la scarica il workflow (o `fetch-images.sh`), **600x600 quadrata**: se l'archivio non ce l'ha, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
 
 ### 3. Nuovo brano
 
@@ -271,6 +283,7 @@ lyrica serve      # serve il risultato su una porta locale
 - [ ] `added_date` è la data di pubblicazione reale.
 - [ ] Slug, cartelle e nome della cover **coincidono**.
 - [ ] Le immagini dichiarate (`cover`, `image`) **esistono** in `covers/` e sono 600x600 webp.
+- [ ] Se la cover l'ha scelta il workflow, **l'hai guardata**: titolo e anno possono combaciare con la release sbagliata.
 - [ ] I nomi dei cantanti sono solo nei brani multi-voce, e su ogni strofa.
 - [ ] Nessuna annotazione per verso.
 - [ ] Il contenuto si legge bene **da telefono**, non solo da desktop.

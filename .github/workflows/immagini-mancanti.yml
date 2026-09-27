@@ -1,0 +1,77 @@
+name: Immagini mancanti
+
+# Un click e basta: cerca le immagini che mancano (foto delle band e cover degli
+# album), le scarica dagli archivi pubblici e apre una PR con tutte insieme.
+#
+# Niente MBID da copiare a mano: la band si riconosce dal nome in band.md,
+# l'album dal titolo e dall'anno in album.md (D86).
+#
+# Chiavi fanart.tv: secret del repo FANART_API_KEY / FANART_CLIENT_KEY (servono
+# solo per le foto delle band: le cover non richiedono chiavi).
+#
+# Il report con gli esiti finisce nel riepilogo del run (Summary): leggi quello
+# prima di mergiare, perché la corrispondenza è automatica (D86).
+
+on:
+  workflow_dispatch:
+    inputs:
+      band:
+        description: "Opzionale: una sola band (slug). Vuoto = tutte le band."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  immagini:
+    name: Cerca, scarica e apri la PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: ImageMagick
+        run: sudo apt-get update -qq && sudo apt-get install -y imagemagick
+
+      # L'input passa dall'ambiente, non interpolato nel comando: un valore
+      # scritto a mano non deve poter eseguire codice nel runner.
+      - name: Riempie le immagini mancanti
+        env:
+          BAND: ${{ inputs.band }}
+          FANART_API_KEY: ${{ secrets.FANART_API_KEY }}
+          FANART_CLIENT_KEY: ${{ secrets.FANART_CLIENT_KEY }}
+        run: bash scripts/fetch-images.sh "$BAND"
+
+      - name: Commit, branch e PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BAND: ${{ inputs.band }}
+        run: |
+          set -euo pipefail
+          BRANCH="immagini/mancanti"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          if [ -d covers ]; then git add covers; fi
+          git add content
+          if git diff --cached --quiet; then
+            echo "::notice::nessuna immagine nuova: non c'è niente da committare"
+            exit 0
+          fi
+          FILE="$(git diff --cached --numstat | wc -l)"
+          git commit -m "content(immagini): riempie le immagini mancanti (${BAND:all})"
+          git push -u origin "$BRANCH"
+          APERTA="$(gh pr list --head "$BRANCH" --json number --jq '.[0].number // empty')"
+          if [ -n "$APERTA" ]; then
+            echo "::notice::PR già aperta e aggiornata: https://github.com/${GITHUB_REPOSITORY}/pull/${APERTA}"
+            exit 0
+          fi
+          gh pr create --base main --head "$BRANCH" \
+            --title "content(immagini): riempie le immagini mancanti" \
+            --body "Immagini scaricate dagli archivi pubblici (Cover Art Archive per le cover, fanart.tv per le foto delle band) e convertite in 600x600 webp.
+
+          File toccati: ${FILE}
+
+          **Guardale prima di mergiare.** La corrispondenza è automatica (nome della band; titolo e anno dell'album), quindi può pescare la release sbagliata (live, compilation, edizione estera). Il report degli esiti è nel riepilogo di questo run: Actions -> il run -> Summary."
