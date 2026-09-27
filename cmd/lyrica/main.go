@@ -11,9 +11,9 @@ import (
 const usage = `lyrica - toolchain del sito Lyrica
 
 Uso:
-  lyrica serve                     avvia il sito in locale
+  lyrica build                     valida i contenuti e genera public/
+  lyrica serve                     serve public/ in locale
   lyrica valida                    controlla i contenuti e stampa errori e avvisi
-  lyrica build                     valida i contenuti e genera public/ (FASE 2)
   lyrica new band|album|brano ...  crea i template di contenuto (FASE 2)
   lyrica help                      mostra questo messaggio
 `
@@ -34,12 +34,12 @@ func run(args []string) error {
 	}
 
 	switch args[0] {
+	case "build":
+		return runBuild()
 	case "serve":
 		return web.Serve()
 	case "valida":
 		return validateContent()
-	case "build":
-		return fmt.Errorf("comando 'build' non ancora implementato: arriva in FASE 2 (vedi ROADMAP.md)")
 	case "new":
 		return fmt.Errorf("comando 'new' non ancora implementato: arriva in FASE 2 (vedi ROADMAP.md)")
 	case "help", "-h", "--help":
