@@ -5,23 +5,27 @@
 ## Struttura della pagina
 
 ```
-┌─ header (sticky) ───────────────────────────────┐
-├─ breadcrumb: Home > Band > Album > Brano ───────┤
-├─ titolo brano + band + badge lingue ────────────┤
-├─ [ selettore lingua:  DE | IT | EN ] ───────────┤
-├──────────────────────┬──────────────────────────┤
-│  ORIGINALE           │  TRADUZIONE              │
-│  (nome cantante)     │  (nome cantante)         │
-│  strofa 1            │  strofa 1                │
-│                      │                          │
-│  (nome cantante)     │  (nome cantante)         │
-│  strofa 2            │  strofa 2                │
-└──────────────────────┴──────────────────────────┘
+┌─ header (sticky) ───────────────────────────────────────┐
+├─ breadcrumb: Home > Band > Album > Brano ───────────────┤
+├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
+├─ titolo brano + band + badge lingue ────────────────────┤
+├─ [ selettore lingua:  DE | IT | EN ] ───────────────────┤
+│         │                        │                      │
+│  [ads]  │  ORIGINALE             │  TRADUZIONE         │  [ads]
+│  later. │  (nome cantante)       │  (nome cantante)    │  later.
+│         │  strofa 1              │  strofa 1           │
+│         │                        │                     │
+│  solo   │  (nome cantante)       │  (nome cantante)    │  solo
+│  xl+    │  strofa 2              │  strofa 2           │  xl+
+├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤
+├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
+├─ footer ────────────────────────────────────────────────┤
 ```
 
-## Desktop (`lg` e oltre)
+## Desktop (`xl` e oltre)
 
-- Due colonne **affiancate** (`col-lg-6` ciascuna), allineate in alto.
+- Due colonne **affiancate** con il testo, più **due colonne sottili ai lati** per gli ads (vedi `ADS_DESIGN.md`): `2 + 4 + 4 + 2` sulla griglia da 12.
+- Tra `lg` e `xl` (tablet orizzontale e laptop piccoli): **solo le due colonne di testo**, nessuna colonna laterale — lo spazio non basta senza comprimere la lettura.
 - Le strofe corrispondenti stanno **alla stessa altezza**: la griglia si costruisce **per strofa** (riga per riga), non con due colonne di testo indipendenti. Se una strofa ha un numero di versi diverso dall'originale, la riga cresce e resta allineata in alto.
 - Nessuna linea verticale di separazione pesante: lo spazio fa il lavoro.
 
@@ -30,6 +34,7 @@
 - **Una colonna**: prima l'originale, poi la traduzione, sempre nella stessa pagina (nessun tab nascosto: il testo si scorre).
 - Il **selettore lingua resta sticky** sotto l'header: cambiare lingua non deve richiedere di risalire la pagina.
 - Blocchi separati da titoletti "Originale" / "Traduzione" in maiuscoletto.
+- **Nessuna colonna laterale di ads**: resta solo il banner in alto e quello in basso dopo la sezione "chiedi altre canzoni".
 
 ## Strofe e cantanti
 
@@ -46,6 +51,12 @@
 - La lingua scelta si riflette nell'URL come parametro (`?lang=de`) via `history.replaceState`, così il link è condivisibile: nessuna pagina separata per lingua, nessun URL duplicato.
 - Il selettore è usabile da tastiera e annuncia il cambio (aria-live) agli screen reader.
 
+## Sezione "chiedi altre canzoni"
+
+- Sta **sotto il testo**, prima del banner finale: chi ha appena letto una traduzione è la persona con più probabilità di proporne un'altra.
+- È una fascia breve con una frase e un link al **form di segnalazione** (`SUGGESTIONS_DESIGN.md`): nessun form inline, nessun popup.
+- Su ogni pagina brano, non solo su alcune.
+
 ## Note dentro la pagina
 
 - **Nessuna annotazione per verso** (D33). Il testo resta pulito.
@@ -61,3 +72,4 @@
 | Traduzione con strofe più corte | la colonna resta allineata in alto, nessun riempimento artificiale |
 | Numero di voci mancante | nessuna etichetta cantante |
 | Lingua con alfabeto diverso | il font multialfabeto deve coprirla, altrimenti si segnala come bug |
+| Nessun advertiser | gli slot non esistono nel DOM: il testo prende tutta la larghezza (vedi `ADS_DESIGN.md`) |
