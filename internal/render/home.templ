@@ -1,7 +1,8 @@
 package render
 
-// Home è la pagina iniziale: in evidenza, brani recenti ed elenco delle band.
-// Se non c'è nulla da mostrare lo stato vuoto è dichiarato, non finto.
+// Home è la pagina iniziale: una sequenza di corsie orizzontali (in evidenza,
+// ultimi brani, ultime band). Una corsia vuota non esiste nel DOM; se non c'è
+// nulla da mostrare lo stato vuoto è dichiarato, non finto.
 templ Home(v HomeView) {
 	@Layout(v.Page) {
 		<section class="home-hero">
@@ -9,21 +10,8 @@ templ Home(v HomeView) {
 			<p class="lead">{ v.Page.T("home.lead") }</p>
 		</section>
 		if v.HasContent() {
-			if len(v.Featured) > 0 {
-				<section class="home-section">
-					<h2 class="section-title">{ v.Page.T("home.featured") }</h2>
-					@trackList(v.Featured)
-				</section>
-			}
-			<section class="home-section">
-				<h2 class="section-title">{ v.Page.T("home.recent") }</h2>
-				@trackList(v.Recent)
-			</section>
-			if len(v.Bands) > 0 {
-				<section class="home-section">
-					<h2 class="section-title">{ v.Page.T("home.bands") }</h2>
-					@bandList(v.Page, v.Bands)
-				</section>
+			for _, rail := range v.Rails {
+				@railBlock(rail)
 			}
 		} else {
 			<section class="empty-state">
@@ -31,19 +19,4 @@ templ Home(v HomeView) {
 			</section>
 		}
 	}
-}
-
-// trackList è l'elenco dei brani: si usa in home e nelle sezioni di elenco.
-templ trackList(cards []TrackCard) {
-	<ul class="track-list">
-		for _, card := range cards {
-			<li class="track-list-item">
-				<a class="track-list-title" href={ card.URL }>{ card.Title }</a>
-				<span class="track-list-meta">{ card.MetaText }</span>
-				if card.LangsText != "" {
-					<span class="track-list-langs">{ card.LangsText }</span>
-				}
-			</li>
-		}
-	</ul>
 }

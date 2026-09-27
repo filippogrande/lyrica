@@ -1,6 +1,6 @@
 # Stringhe dell'interfaccia in inglese.
 #
-# Regole (docs/FRONTEND.md): chiavi piatte e parlanti; ogni lingua ha le STESSE
+# Regole (docs/FRONTEND.md): chiavi piatte e parlate; ogni lingua ha le STESSE
 # chiavi di locales/it.yaml; i nomi propri (band, brani, cantanti) non si
 # traducono e non stanno qui.
 
@@ -19,7 +19,8 @@ home.lead: "Translations of song lyrics, with the original and the translation s
 home.no_content: "Nothing published yet."
 home.featured: "Featured"
 home.recent: "Latest songs"
-home.bands: "Bands"
+home.latest_bands: "Latest bands"
+home.all_bands: "All bands"
 
 bands.empty: "No bands published yet."
 
@@ -27,7 +28,7 @@ band.country: "Country"
 band.formed: "Active since"
 band.members: "Members"
 band.tags: "Genres"
-band.albums: "Albums"
+band.albums: "albums"
 
 album.tracks: "Tracks"
 album.cover_alt: "Album cover"

@@ -13,7 +13,8 @@ content/
                 ├── <track-slug>.md     # testo originale + traduzioni
                 └── ...
 covers/
-└── <album-slug>.webp                   # 600x600, quadrata
+├── <album-slug>.webp                   # cover dell'album, 600x600
+└── <band-slug>.webp                    # foto della band, 600x600 (opzionale)
 ```
 
 Lo slug è la chiave di tutto: **cartella, URL e nome della cover devono coincidere**.
@@ -37,6 +38,7 @@ tags: ["indie", "hamburger schule"]
 original_langs: ["de"]
 formed_year: 1993
 members: ["Dirk von Lowtzow", "Jan Müller", "Arne Zank"]
+image: "tocotronic.webp"            # opzionale: foto della band in covers/
 description: >
   Band di Amburgo, una delle voci principali della Hamburger Schule.
 ---
@@ -51,6 +53,7 @@ description: >
 | `original_langs` | sì | una o più lingue originali della band |
 | `formed_year` | no | numero |
 | `members` | no | lista di stringhe |
+| `image` | no | **nome del file** in `covers/` con la foto della band; se manca, la card usa il segnaposto con l'iniziale |
 | `description` | no | Markdown breve, mostrato nella pagina band |
 
 ## `album.md`
@@ -74,7 +77,19 @@ tracks:
 
 - `tracks` definisce **l'ordine** della tracklist così com'è scritta.
 - `instrumental: true` segna il brano strumentale: sta in tracklist ma **non ha pagina**.
-- `cover` è il **nome del file** in `covers/`; se assente, il layout va senza immagine.
+- `cover` è il **nome del file** in `covers/`; se assente, la pagina album va senza immagine.
+
+## Immagini (`covers/`)
+
+| Uso | File | Dove si dichiara |
+|---|---|---|
+| Cover di un album | `covers/<album-slug>.webp` | `cover` in `album.md` |
+| Foto di una band | `covers/<band-slug>.webp` | `image` in `band.md` |
+
+- **600x600, quadrata, webp**: una sola dimensione per tutte le immagini, così il formato non si sceglie ogni volta.
+- Le carica l'autore e le committa nel repo: il sito **non scarica né genera** immagini.
+- Un'immagine **dichiarata e assente è un errore** (regola 6 per le cover, regola 10 per le band): il sito non deve avere link rotti.
+- Un'immagine **non dichiarata non è un errore**: la pagina album va senza immagine, le card della home usano il **segnaposto con l'iniziale** (una lettera su fondo del tema, non un'immagine finta).
 
 ## `tracks/<slug>.md`
 
@@ -114,7 +129,7 @@ Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del te
 | `title` | sì | titolo mostrato |
 | `slug` | sì | coincide col nome del file |
 | `added_date` | sì | ordina i "recenti" e il feed RSS |
-| `featured` | no | `true` = può entrare nella sezione "in evidenza" |
+| `featured` | no | `true` = entra nella corsia "In evidenza" della home |
 | `instrumental` | no | `true` = nessuna pagina |
 | `original_langs` | sì | una o più |
 | `singers` | no | elenco delle voci del brano |
@@ -152,6 +167,7 @@ Un contenuto è **invalido** se:
 7. `original_langs` contiene una lingua che non compare in nessun blocco.
 8. Un `title` in `tracks` di `album.md` non ha il file corrispondente in `tracks/` (o viceversa).
 9. Un link interno a un band/album/brano inesistente.
+10. `image` di una band punta a un file inesistente in `covers/` (o a una cartella invece che a un file).
 
 La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 
@@ -159,6 +175,7 @@ La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 
 - brano senza nessuna traduzione (da segnare "solo originale");
 - album senza cover;
+- **band senza immagine**: la card usa il segnaposto con l'iniziale (non è un errore: una band può restare tipografica);
 - tag usato una volta sola (possibile refuso: `metal` vs `metalcore`);
 - descrizione band mancante;
 - chiavi di locale mancanti rispetto a `it.yaml`.
@@ -173,7 +190,7 @@ Il flusso normale: si generano i file con la CLI e si riempiono. Non si scrive a
 lyrica new band "Nome Band"
 ```
 
-Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe).
+Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe). La **foto della band** è opzionale: si mette in `covers/<band-slug>.webp` e si dichiara con `image`.
 
 ### 2. Nuovo album
 
@@ -181,7 +198,7 @@ Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compila
 lyrica new album "Nome Band" "Titolo Album" --year 1995
 ```
 
-Crea `album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover va in `covers/<album-slug>.webp`, **600x600 quadrata**: se non c'è, il layout va senza immagine — **nessun placeholder**.
+Crea `album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover va in `covers/<album-slug>.webp`, **600x600 quadrata**: se non c'è, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
 
 ### 3. Nuovo brano
 
@@ -195,6 +212,7 @@ Crea `tracks/<track-slug>.md` con lo scheletro dei blocchi lingua. Poi, a mano:
 - se il brano ha più voci, aggiungi `singer:` a **ogni** strofa;
 - scrivi la traduzione **completa**: strofe della stessa lunghezza dell'originale;
 - `added_date` = il giorno in cui la pubblichi;
+- `featured: true` solo se il brano deve stare nella corsia "In evidenza" della home;
 - niente annotazioni per verso.
 
 ### 4. Verifica in locale
@@ -215,6 +233,7 @@ lyrica serve      # serve il risultato su una porta locale
 - [ ] La traduzione è **completa** strofa per strofa.
 - [ ] `added_date` è la data di pubblicazione reale.
 - [ ] Slug, cartelle e nome della cover **coincidono**.
+- [ ] Le immagini dichiarate (`cover`, `image`) **esistono** in `covers/` e sono 600x600 webp.
 - [ ] I nomi dei cantanti sono solo nei brani multi-voce, e su ogni strofa.
 - [ ] Nessuna annotazione per verso.
 - [ ] Il contenuto si legge bene **da telefono**, non solo da desktop.
