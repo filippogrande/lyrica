@@ -1,15 +1,13 @@
 package render
 
-import "github.com/a-h/templ"
-
 // Header è l'intestazione sticky: brand, navigazione, tema, dimensione testo.
 templ Header(d PageData) {
 	<header class="site-header">
 		<nav class="container site-nav" aria-label={ d.T("nav.label") }>
-			@brandLink(d)
+			<a class="site-brand" href={ d.URL("") }>Lyrica</a>
 			<div class="site-nav-actions">
-				<a class="nav-link" href={ templ.URL(d.Path("")) }>{ d.T("nav.home") }</a>
-				<a class="nav-link" href={ templ.URL(d.Path("bands")) }>{ d.T("nav.bands") }</a>
+				<a class="nav-link" href={ d.URL("") }>{ d.T("nav.home") }</a>
+				<a class="nav-link" href={ d.URL("bands") }>{ d.T("nav.bands") }</a>
 				<button type="button" class="btn btn-sm btn-outline-secondary" data-theme-toggle="1">
 					{ d.T("nav.theme") }
 				</button>

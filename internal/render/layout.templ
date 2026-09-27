@@ -3,6 +3,9 @@ package render
 // Layout è la struttura comune di ogni pagina: header, contenuto, footer.
 // L'attributo data-bs-theme NON è impostato qui: lo imposta assets/js/theme.js
 // prima del primo paint, leggendo la preferenza salvata o il tema di sistema.
+//
+// Nota: nei file .templ non si importa "github.com/a-h/templ" — la generazione
+// lo importa da sé. Gli URL arrivano da PageData.URL come templ.SafeURL.
 templ Layout(d PageData) {
 	<!DOCTYPE html>
 	<html lang={ d.Lang }>
