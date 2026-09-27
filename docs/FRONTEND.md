@@ -23,6 +23,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | Vista a fronte (pagina brano) | `col-12` sotto `lg`, `col-lg-6` da `lg` in su |
 | Elenco band | 1 colonna su mobile, 2 da `md`, 3 da `lg` |
 | Card album | 1 su mobile, 2-3 da `md` |
+| Corsie della home | card larghe `--rail-card`: **10rem** su mobile, **12rem** da `md` |
 | Header | sticky sempre, nav compressa sotto `lg` con offcanvas |
 
 ## Tipografia
@@ -46,7 +47,8 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Header** | sticky; nome del sito, nav (Home / Bands / Ricerca), toggle tema, A-/A+; sotto `lg` nav in **offcanvas** |
 | **Ricerca** | dropdown live nell'header |
 | **Breadcrumb** | su tutte le pagine interne |
-| **Card band** | nome + tag; nessuna immagine |
+| **Card band** | foto se dichiarata (`image` in `band.md`), altrimenti **segnaposto con l'iniziale**; nome, paese, generi, numero di album |
+| **Corsia (rail)** | elenco orizzontale della home: titolo, link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie") |
 | **Card album** | cover se esiste, altrimenti layout testuale (titolo + anno + n° brani) |
 | **Badge lingua** | lingue disponibili di un brano (`DE`, `IT`, ...) |
 | **Strofa** | blocco di testo con eventuale nome del cantante sopra |
@@ -73,6 +75,74 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 - Nessun **bundle JS** di Bootstrap, nessun framework JS.
 - Nessun **font icon** pesante: le poche icone sono SVG inline.
 - Nessuna immagine di sfondo, nessun carosello, nessun popup.
+- Nessuno **slider con scorrimento automatico** e nessuna libreria di caroselli: le corsie della home sono elenchi in overflow (vedi "Home a corsie").
+
+---
+
+# Home a corsie
+
+La home non è un elenco verticale: è una **sequenza di corsie orizzontali**, ognuna con un titolo e le card delle novità. Le corsie esistono **solo in home**: band, album e brani restano elenchi verticali.
+
+## Le corsie
+
+| Ordine | Corsia | Cosa contiene | Dove porta |
+|---|---|---|---|
+| 1 | "In evidenza" (`home.featured`) | brani con `featured: true`, nell'ordine già ricevuto | pagina brano |
+| 2 | "Ultimi brani tradotti" (`home.recent`) | brani pubblicati, dalla data di aggiunta più recente | pagina brano |
+| 3 | "Ultime band aggiunte" (`home.latest_bands`), con link "Tutte le band" (`home.all_bands`) | band pubblicate, dalla più attiva | pagina band / elenco band |
+
+- **Massimo 12 card per corsia**: oltre, la home smette di essere "le novità" e diventa un archivio da scaricare tutto.
+- Una corsia **senza contenuti non esiste nel DOM**; se non c'è nessuna corsia, la home mostra lo **stato vuoto dichiarato** (`home.no_content`), non un layout finto.
+- **Pubblicato** significa "con almeno una traduzione": un brano solo originale resta in tracklist e non entra nelle corsie.
+
+## Ordine
+
+- "Ultimi brani tradotti": **data di aggiunta** (`added_date`) decrescente (D37).
+- "Ultime band aggiunte": **contributo più recente** della band — la data del suo brano pubblicato più recente, non la data in cui è nata la cartella; a parità di data, **nome alfabetico**. Una band senza brani pubblicati non ha una data e non compare (D79).
+
+## Anatomia di una card
+
+```
+┌──────────────┐
+│              │   immagine 1:1 — cover dell'album (corsia brani)
+│   immagine   │   o foto della band (corsia band)
+│              │   oppure segnaposto con l'iniziale
+└──────────────┘
+Titolo del brano            ← riga 1 (o nome della band)
+Band — Album                ← riga 2, in secondo piano
+```
+
+- **Immagine**: cover dell'album nella corsia dei brani, foto della band in quella delle band; il file sta in `covers/` (`docs/CONTENT.md`).
+- **Segnaposto**: quando l'immagine non c'è si mostra **l'iniziale** (dell'album per i brani, del nome per le band) su fondo del tema. È un segnaposto **dichiarato**: nessuna immagine inventata, nessuna richiesta in rete, e la card non cambia dimensioni.
+- **Seconda riga unica**: per i brani `Band — Album`, per le band `Paese · Generi · N album`. Le parti vuote si saltano, il separatore resta uno solo.
+- Sotto la card non c'è altro: niente descrizione, niente badge lingua (quelli stanno in pagina).
+
+## Scorrimento senza JavaScript
+
+- La corsia è un **elenco `<ul>` che scorre lateralmente** (`overflow-x: auto` + `scroll-snap-type: x proximity`): swipe sul telefono, rotella o frecce da tastiera. **Nessun carosello**, nessuno scorrimento automatico, nessun pallino di paginazione: le card restano nel flusso del documento e sono leggibili da uno screen reader.
+- Ogni card è **un link normale**: si apre in una nuova scheda, si copia, si mette nei preferiti. Nessun click intercettato da JS.
+- Larghezza della card: custom property **`--rail-card`** (10rem su mobile, 12rem da `md`), immagine sempre **1:1** (`aspect-ratio`).
+- L'unica scorciatoia è **"Tutte le band"** nella corsia delle band: l'elenco dei brani non esiste come pagina, quindi non c'è un "vedi tutti".
+
+## Immagini nelle corsie
+
+- `loading="lazy"`, `decoding="async"` e `width`/`height` **600x600** dichiarati: le corsie non spostano il layout mentre caricano e non pesano sul primo paint.
+- `alt=""`: l'immagine è **decorativa** perché il titolo è nella stessa card — ripeterlo farebbe rumore a uno screen reader. Il segnaposto è `aria-hidden`.
+- Nessun formato diverso dal webp e nessun `srcset` per ora: la dimensione è una sola (600x600) e si aggiunge complessità solo se il budget lo chiede.
+
+## Budget immagini
+
+Il budget delle immagini si misura **sul numero di immagini che una pagina carica**, non solo sul peso della singola.
+
+| Contesto | Immagini | Caricamento |
+|---|---|---|
+| Corsia della home | 1 per card, fino a 12 per corsia | `lazy`: contano quando l'utente scorre |
+| Copertina di un album in pagina album | 1 | `lazy` |
+| Card band nell'elenco band | 1 per band | `lazy` |
+
+- Una home con tre corsie piene dichiara fino a **36 immagini**: è il caso peggiore, ed è il motivo per cui tutte sono `lazy` e con dimensioni dichiarate.
+- Le immagini caricate dall'autore sono **600x600 webp, una sola dimensione** (D78): nessuna miniatura separata, nessun ridimensionamento a runtime.
+- Se una pagina sfonda il budget, **si riduce il numero di card** (o si esclude una corsia), non si alza il budget.
 
 ---
 
@@ -189,6 +259,7 @@ Caso iniziale: **italiano + inglese**, con le successive quando la prima traduzi
 - **La radice `/` non è una pagina**: risponde con un **redirect** verso la lingua negoziata.
 - Ogni pagina dichiara `<link rel="alternate" hreflang="...">` per tutte le lingue disponibili + `x-default`.
 - `canonical` sempre verso l'URL corrente.
+- I link interni passano **sempre** dal prefisso di lingua (helper di percorso), dalle corsie della home in poi: un link costruito a mano senza prefisso è un 404.
 
 ## Negoziazione
 
