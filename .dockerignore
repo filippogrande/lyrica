@@ -1,11 +1,15 @@
 # Contesto di build ridotto: quello che non serve a compilare non entra
 # nell'immagine né nella cache.
+#
+# ATTENZIONE: non si escludono i .md in blocco. `lyrica build` gira DENTRO
+# l'immagine e legge content/**/*.md: escluderli farebbe fallire la build
+# (o, peggio in passato, genererebbe un sito vuoto).
 
 .git
 .github
 public
 *_templ.go
-*.md
+README.md
 LICENSE
 .gitignore
 .env

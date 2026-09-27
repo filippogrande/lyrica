@@ -3,10 +3,10 @@ name: CI
 # La CI fa tre cose:
 #   1. verifica che il progetto COMPILI (la compilazione non è possibile
 #      nell'ambiente dell'agente, quindi è qui che gli errori emergono);
-#   2. valida i CONTENUTI (FASE 2): una traduzione incompleta o uno slug
-#      sbagliato rendono la PR rossa, prima del merge;
-#   3. (FASE 2) in futuro il job di validazione resterà questo: `build` serve
-#      a generare, non ci si duplica il lavoro in CI.
+#   2. valida i CONTENUTI: una traduzione incompleta o uno slug sbagliato
+#      rendono la PR rossa, prima del merge;
+#   3. GENERA il sito (`lyrica build`): se un template non rende, si vede qui e
+#      non in produzione.
 # Non ci sono test unitari per scelta: vedi GUIDELINES.md §6.
 
 on:
@@ -44,7 +44,7 @@ jobs:
         run: go build ./...
 
   valida:
-    name: Valida i contenuti
+    name: Valida e genera
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -59,10 +59,22 @@ jobs:
       - name: Risolvi le dipendenze
         run: go mod tidy
 
-      # Il comando importa internal/web (e quindi i template generati): senza
-      # questo passo non compila.
+      # Il comando importa internal/web e internal/render (i template generati):
+      # senza questo passo non compila.
       - name: Genera i template Templ
         run: go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate
 
       - name: Valida i contenuti
         run: go run ./cmd/lyrica valida
+
+      # Questa è la verifica vera: rende ogni pagina dai contenuti reali.
+      - name: Genera il sito
+        run: go run ./cmd/lyrica build
+
+      - name: Controlla che le pagine attese esistano
+        run: |
+          test -f public/it/index.html
+          test -f public/it/bands/index.html
+          test -f public/en/index.html
+          echo "pagine generate:"
+          find public -name '*.html' | sort

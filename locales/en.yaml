@@ -12,10 +12,33 @@ nav.theme: "Theme"
 a11y.skip_to_content: "Skip to the text"
 a11y.text_smaller: "Make text smaller"
 a11y.text_bigger: "Make text bigger"
+a11y.breadcrumb: "Breadcrumb"
 
 home.title: "Lyrica"
 home.lead: "Translations of song lyrics, with the original and the translation side by side."
 home.no_content: "Nothing published yet."
+home.featured: "Featured"
+home.recent: "Latest songs"
+home.bands: "Bands"
+
+bands.empty: "No bands published yet."
+
+band.country: "Country"
+band.formed: "Active since"
+band.members: "Members"
+band.tags: "Genres"
+band.albums: "Albums"
+
+album.tracks: "Tracks"
+album.cover_alt: "Album cover"
+
+track.original: "Original"
+track.translation: "Translation"
+track.added: "Added on"
+track.singers: "Vocals"
+track.instrumental: "Instrumental"
+track.only_original: "Original only"
+track.no_translation: "Translation not available in this language."
 
 error.not_found_title: "Page not found"
 error.not_found_body: "This address does not match any page of the site."
