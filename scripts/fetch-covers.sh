@@ -155,16 +155,28 @@ prepare_target() {
 }
 
 # to_webp converte in 600x600 webp quadrato (ritaglio centrale) e verifica il
-# risultato: se non è 600x600 webp, non si scrive niente.
+# risultato: se non è 600x600 webp, non si scrive niente. Un file scritto a
+# metà viene cancellato: in covers/ non deve restare niente di rotto, perché
+# il resto del flusso considera presente qualunque file col nome giusto.
 to_webp() {
 	local source="$1" target="$2" dims=""
-	"$IM" "$source" -resize "${SIZE}x${SIZE}^" -gravity center -extent "${SIZE}x${SIZE}" \
-		-quality "$QUALITY" -strip "$target" || die "conversione fallita: $source"
+	if ! "$IM" "$source" -resize "${SIZE}x${SIZE}^" -gravity center -extent "${SIZE}x${SIZE}" \
+		-quality "$QUALITY" -strip "$target"; then
+		rm -f "$target"
+		die "conversione fallita: $source"
+	fi
 	# IM_IDENTIFY è volutamente senza virgolette: su ImageMagick 7 sono due
 	# parole («magick identify»), su ImageMagick 6 un binario solo.
 	# shellcheck disable=SC2086
-	dims="$($IM_IDENTIFY -format '%wx%h %m' "$target")"
-	[ "$dims" = "${SIZE}x${SIZE} WEBP" ] || die "conversione inattesa: $target risulta $dims"
+	if ! dims="$($IM_IDENTIFY -format '%wx%h %m' "$target")"; then
+		rm -f "$target"
+		die "non riesco a leggere le dimensioni di $target"
+	fi
+	if [ "$dims" != "${SIZE}x${SIZE} WEBP" ]; then
+		rm -f "$target"
+		die "conversione inattesa: $target risulta $dims"
+	fi
+	return 0
 }
 
 write_line() {
