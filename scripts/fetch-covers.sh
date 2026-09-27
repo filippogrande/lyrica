@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# fetch-covers.sh — scarica le immagini del sito dagli archivi pubblici.
+# fetch-covers.sh — scarica UNA immagine dagli archivi pubblici, sapendo il MBID.
 #
 #   bash scripts/fetch-covers.sh cover <release-group-mbid> <album-slug>
 #   bash scripts/fetch-covers.sh band  <artist-mbid>        <band-slug>
@@ -12,6 +12,17 @@
 #
 # Le immagini finiscono NEL REPO: il sito le serve da /covers/, quindi
 # l'API si chiama una volta per immagine, mai a runtime e mai a ogni build.
+#
+# Per riempire tutto quello che manca senza copiare MBID a mano c'è
+# scripts/fetch-images.sh: li risolve dal nome della band e dal titolo
+# dell'album (D86) e chiama questo script.
+#
+# Codici di uscita:
+#   0  immagine scaricata
+#   1  errore (strumento mancante, rete, chiave rifiutata, conversione)
+#   2  uso sbagliato
+#   3  immagine non disponibile nell'archivio (solo con --allow-missing):
+#      non è un errore, è un archivio che quella cover o quella foto non ce l'ha
 #
 # Regole rispettate (docs/GUIDELINES.md, D76):
 #   - nessun fallback silenzioso: se manca uno strumento, l'immagine o la
@@ -44,12 +55,15 @@ IM=""
 TMP_DIR=""
 FANART_PROJECT=""
 FANART_PERSONAL=""
+ALLOW_MISSING="no"
+FORCE="no"
+ARGS=()
 
 usage() {
 	cat >&2 <<'FINE'
 uso:
-  bash scripts/fetch-covers.sh cover <release-group-mbid> <album-slug> [--force]
-  bash scripts/fetch-covers.sh band  <artist-mbid>        <band-slug>  [--force]
+  bash scripts/fetch-covers.sh cover <release-group-mbid> <album-slug> [--force] [--allow-missing]
+  bash scripts/fetch-covers.sh band  <artist-mbid>        <band-slug>  [--force] [--allow-missing]
 
 esempi:
   bash scripts/fetch-covers.sh cover c31a5e2b-0bf8-32e0-8aeb-ef4ba9973932 liebe-ist-fuer-alle-da
@@ -58,6 +72,10 @@ esempi:
 Il MBID si legge nell'URL della pagina MusicBrainz:
   musicbrainz.org/release-group/<release-group-mbid>   -> cover di un album
   musicbrainz.org/artist/<artist-mbid>                 -> foto di una band
+
+--force           riscrive un file già presente in covers/
+--allow-missing   se l'archivio non ha quell'immagine esce con 3 invece che con
+                  errore: serve a chi riempie in blocco (scripts/fetch-images.sh)
 
 Chiave fanart.tv (solo per le band): in FANART_API_KEY, FANART_CLIENT_KEY o nei
 file ~/.fanart_api_key / ~/.fanart_client_key.
@@ -70,6 +88,16 @@ FINE
 die() {
 	echo "errore: $*" >&2
 	exit 1
+}
+
+# missing_or_die distingue "l'archivio non ce l'ha" da "qualcosa è andato
+# storto": in blocco la prima cosa si salta, la seconda no.
+missing_or_die() {
+	if [ "$ALLOW_MISSING" = "yes" ]; then
+		echo "saltata: $*" >&2
+		exit 3
+	fi
+	die "$*"
 }
 
 cleanup() {
@@ -137,12 +165,19 @@ write_line() {
 	fi
 }
 
+# fetch_cover chiede la cover al Cover Art Archive e distingue il 404 (l'album
+# non ha cover) da un errore di rete.
 fetch_cover() {
-	local mbid="$1" target="$2"
+	local mbid="$1" target="$2" code=""
 	echo "cover di un album dal Cover Art Archive ($mbid)..." >&2
-	curl -fsSL --max-time 120 -A "$USER_AGENT" -o "${TMP_DIR}/cover" \
-		"${CAA_URL}/release-group/${mbid}/front-1200" \
-		|| die "nessuna cover per il release group $mbid (404) o errore di rete"
+	code="$(curl -sS -o "${TMP_DIR}/cover" -w '%{http_code}' --max-time 120 -A "$USER_AGENT" \
+		"${CAA_URL}/release-group/${mbid}/front-1200")" \
+		|| die "errore di rete verso il Cover Art Archive ($mbid)"
+	case "$code" in
+	200) ;;
+	404) missing_or_die "nessuna cover per il release group $mbid sul Cover Art Archive" ;;
+	*) die "risposta inattesa dal Cover Art Archive per $mbid (HTTP $code)" ;;
+	esac
 	to_webp "${TMP_DIR}/cover" "$target"
 }
 
@@ -178,18 +213,26 @@ print(best.get("url", ""))
 PY
 }
 
+# fetch_band: la chiave rifiutata (401/403) è un errore, l'artista o la foto
+# assenti (404) sono "l'archivio non ce l'ha".
 fetch_band() {
-	local mbid="$1" target="$2" info="" name="" url=""
+	local mbid="$1" target="$2" info="" name="" url="" code=""
 	local -a headers=()
 	fanart_keys
 	# Le chiavi viaggiano in header: non finiscono né nell'URL né nei log.
 	if [ -n "$FANART_PROJECT" ]; then headers+=(-H "api-key: ${FANART_PROJECT}"); fi
 	if [ -n "$FANART_PERSONAL" ]; then headers+=(-H "client-key: ${FANART_PERSONAL}"); fi
 	echo "foto della band da fanart.tv ($mbid)..." >&2
-	curl -fsSL --max-time 60 "${headers[@]}" -o "${TMP_DIR}/artist.json" "${FANART_API}/${mbid}" \
-		|| die "nessuna risposta per l'artista $mbid: chiave non valida (401) o artista assente su fanart.tv (404)"
+	code="$(curl -sS -o "${TMP_DIR}/artist.json" -w '%{http_code}' --max-time 60 "${headers[@]}" \
+		"${FANART_API}/${mbid}")" || die "errore di rete verso fanart.tv ($mbid)"
+	case "$code" in
+	200) ;;
+	404) missing_or_die "nessuna scheda per l'artista $mbid su fanart.tv" ;;
+	401 | 403) die "chiave fanart.tv rifiutata (HTTP $code): controlla FANART_API_KEY / FANART_CLIENT_KEY" ;;
+	*) die "risposta inattesa da fanart.tv per $mbid (HTTP $code)" ;;
+	esac
 	info="$(artist_thumb "${TMP_DIR}/artist.json")" \
-		|| die "nessuna foto (artistthumb) per l'artista $mbid su fanart.tv"
+		|| missing_or_die "nessuna foto (artistthumb) per l'artista $mbid su fanart.tv"
 	name="${info%%$'\n'*}"
 	url="${info#*$'\n'}"
 	[ -n "$url" ] || die "foto senza URL per l'artista $mbid"
@@ -199,19 +242,31 @@ fetch_band() {
 	to_webp "${TMP_DIR}/artist" "$target"
 }
 
+# parse_args separa i flag dagli argomenti posizionali.
+parse_args() {
+	local arg=""
+	ARGS=()
+	for arg in "$@"; do
+		case "$arg" in
+		--force) FORCE="yes" ;;
+		--allow-missing) ALLOW_MISSING="yes" ;;
+		-*) usage; exit 2 ;;
+		*) ARGS+=("$arg") ;;
+		esac
+	done
+}
+
 main() {
 	[ "$#" -ge 1 ] || { usage; exit 2; }
-	local action="$1" mbid="" slug="" force="no" target="" arg=""
+	local action="$1" mbid="" slug="" target=""
 	shift
 	case "$action" in
 	-h | --help | help) usage; exit 0 ;;
 	esac
-	for arg in "$@"; do
-		if [ "$arg" = "--force" ]; then force="yes"; fi
-	done
-	mbid="${1:-}"
-	slug="${2:-}"
-	if [ -z "$mbid" ] || [ -z "$slug" ] || [ "$slug" = "--force" ]; then
+	parse_args "$@"
+	mbid="${ARGS[0]:-}"
+	slug="${ARGS[1]:-}"
+	if [ -z "$mbid" ] || [ -z "$slug" ]; then
 		usage
 		exit 2
 	fi
@@ -220,7 +275,7 @@ main() {
 	check_mbid "$mbid"
 	check_slug "$slug"
 	TMP_DIR="$(mktemp -d)"
-	target="$(prepare_target "$slug" "$force")"
+	target="$(prepare_target "$slug" "$FORCE")"
 
 	case "$action" in
 	cover) fetch_cover "$mbid" "$target" ;;
