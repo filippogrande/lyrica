@@ -21,7 +21,7 @@ Nessuno di questi utenti ha un account, né lo avrà.
 | `/it/tag/{tag}` | Band per genere | stesso elenco della pagina band, filtrato |
 | `/it/band/{band}` | Band | descrizione, tag, album (solo con traduzioni) |
 | `/it/band/{band}/album/{album}` | Album | anno, cover, tracklist |
-| `/it/band/{band}/album/{album}/brano/{brano}` | **Brano** | vista a fronte + selettore lingua |
+| `/it/band/{band}/album/{album}/brano/{brano}` | **Brano** | vista a fronte, selettore lingua, "chiedi altre canzoni" |
 | `/it/segnala` | Segnala un brano | form → Telegram |
 | `/it/contatti` | Contatti | form → Telegram + info |
 | `/it/legali` | Note legali | disclaimer, licenze, privacy |
@@ -55,12 +55,27 @@ Endpoint non-pagina: `/it/api/cerca` (frammento HTML per HTMX), `POST /it/api/se
 - Ogni brano tradotto: link alla pagina brano + etichetta delle lingue disponibili.
 
 ### Brano (la pagina centrale)
-- **Sinistra**: testo originale, diviso in strofe.
-- **Destra**: traduzione nella lingua selezionata.
+
+Struttura verticale, dall'alto in basso:
+
+```
+[ banner ads ]                        (solo se le ads sono attive)
+  titolo brano + band + lingue disponibili
+  selettore lingua
+  ┌─────┬──────────────────┬──────────────────┬─────┐
+  │ ads │  ORIGINALE       │  TRADUZIONE      │ ads │   (colonne laterali solo da xl in su)
+  └─────┴──────────────────┴──────────────────┴─────┘
+[ chiedi altre canzoni → form segnalazione ]
+[ banner ads ]                        (solo se le ads sono attive)
+```
+
+- **Sinistra**: testo originale, diviso in strofe. **Destra**: traduzione nella lingua selezionata.
 - Se il brano ha **più voci**, sopra ogni strofa compare **il nome del cantante**; nessuna etichetta strutturale (mai "ritornello", "bridge").
-- **Selettore lingua** in alto: solo le lingue realmente presenti per quel brano (originali multipli inclusi).
+- **Selettore lingua**: solo le lingue realmente presenti per quel brano (originali multipli inclusi).
 - L'originale è sempre disponibile; non esistono stati vuoti.
-- Nessuna annotazione per verso: il testo resta pulito.
+- **Nessuna annotazione per verso**: il testo resta pulito.
+- **"Chiedi altre canzoni"**: fascia in fondo al testo con il link al form di segnalazione (D71).
+- Gli **slot pubblicitari** compaiono solo se attivati (`ADS_DESIGN.md`); a ads spente il DOM non li contiene e il testo prende tutta la larghezza.
 
 ### Segnala / Contatti
 - Form semplici, senza account: i dati vengono **inoltrabili al bot Telegram** dell'autore.
@@ -71,7 +86,7 @@ Endpoint non-pagina: `/it/api/cerca` (frammento HTML per HTMX), `POST /it/api/se
 
 - **Tema** chiaro/scuro: automatico dal sistema + toggle manuale.
 - **Dimensione testo** A- / A+ (accessibilità).
-- **Lingua dell'interfaccia**: negoziata dal browser, fallback italiano.
+- **Lingua dell'interfaccia**: negoziata dal browser, fallback italiano; le lingue disponibili seguono quelle delle traduzioni presenti (`I18N_DESIGN.md`).
 - **Breadcrumb** su tutte le pagine interne.
 - **Contatori** pubblici nel footer.
 - **Header** sticky su mobile con nav compressa.
@@ -97,3 +112,4 @@ Endpoint non-pagina: `/it/api/cerca` (frammento HTML per HTMX), `POST /it/api/se
 | Lingua UI non tradotta | fallback italiano |
 | Slug cambiato | redirect 301 dal file dei redirect |
 | Band omonima | slug disambiguato (`nirvana-us`) |
+| Ads spente | nessun contenitore nel DOM, nessuno spazio vuoto |

@@ -100,7 +100,15 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D67 | **Nessuna email automatica al lancio** (l'avviso "traduzione pronta" è in backlog) | doppio opt-in e deliverability non valgono il costo ora |
 | D68 | Segnalazioni: **rate-limit + honeypot + informativa GDPR**, niente account | il form resta aperto a tutti senza diventare uno spam gateway |
 
-## G. Backlog esplicito (deciso di NON fare ora)
+## G. Revisioni successive alla prima stesura dei doc
+
+| # | Decisione | Perché |
+|---|---|---|
+| D69 | Le **lingue dell'interfaccia derivano dalle lingue di traduzione** presenti nei contenuti (non dalle lingue degli originali) + italiano di default | se un brano ha traduzioni in IT ed EN, il pubblico parla IT o EN e quasi mai tedesco; quando arriveranno traduzioni in francese, servirà anche l'interfaccia francese |
+| D70 | **Ads anche nella pagina brano**, con collocazione precisa: banner largo e basso **sopra il titolo**, **due colonne laterali** ai lati del testo (solo da `xl` in su, mai sticky, mai tra originale e traduzione), banner largo e basso **dopo la sezione "chiedi altre canzoni"** | collocazione voluta dall'autore: gli ads ai lati possono convivere con la lettura a fronte, purché il testo non si stringa sugli schermi piccoli |
+| D71 | **Sezione "chiedi altre canzoni"** in fondo a ogni pagina brano, con link al form di segnalazione | chi ha appena letto una traduzione è la persona con più probabilità di proporne un'altra |
+
+## H. Backlog esplicito (deciso di NON fare ora)
 
 | # | Rimandato |
 |---|---|
