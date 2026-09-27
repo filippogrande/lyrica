@@ -16,6 +16,11 @@
 # avanti. Un errore vero (rete, chiave rifiutata, conversione) fa uscire con 1,
 # e il report dice quale immagine.
 #
+# Alla fine ricontrolla che ogni immagine dichiarata nei contenuti esista: è la
+# regola che la CI applica al merge, e le PR create dal workflow non fanno partire
+# la CI (GitHub non esegue workflow per gli eventi creati da GITHUB_TOKEN), quindi
+# il controllo va fatto qui o non si fa.
+#
 # Stampa il report in Markdown; con GITHUB_STEP_SUMMARY impostato lo copia anche
 # nel riepilogo del run, così si legge senza aprire i log. Ogni cosa viene
 # stampata una volta sola: il log del run non deve contenere la tabella due volte.
@@ -36,6 +41,9 @@ readonly MB_API="https://musicbrainz.org/ws/2"
 readonly USER_AGENT="lyrica-covers/1.0 (+https://github.com/filippogrande/lyrica)"
 # MusicBrainz chiede al massimo una richiesta al secondo.
 readonly MB_DELAY=1
+# Pausa fra un'immagine e l'altra: gli archivi non amano le raffiche, e in blocco
+# si arriva facilmente al "troppe richieste".
+readonly IMAGE_DELAY=2
 
 TMP_DIR=""
 ROWS=()
@@ -190,6 +198,7 @@ do_band() {
 	bash "$FETCH_SCRIPT" band "$mbid" "$slug" --allow-missing
 	rc=$?
 	set -e
+	sleep "$IMAGE_DELAY"
 	case "$rc" in
 	0)
 		declare "$band_file" band "$slug"
@@ -245,6 +254,7 @@ do_album() {
 	bash "$FETCH_SCRIPT" cover "$mbid" "$slug" --allow-missing
 	rc=$?
 	set -e
+	sleep "$IMAGE_DELAY"
 	case "$rc" in
 	0)
 		declare "$album_file" cover "$slug"
@@ -256,6 +266,35 @@ do_album() {
 		ERRORS=$((ERRORS + 1))
 		;;
 	esac
+	return 0
+}
+
+# check_declared_images verifica che ogni immagine dichiarata nei contenuti
+# esista in covers/: è la stessa cosa che la CI controlla al merge (regola 6 per
+# le cover, regola 10 per le band), e va fatta qui perché questa PR non fa
+# partire la CI.
+check_declared_images() {
+	local band_dir="" band_file="" band_slug="" album_dir="" album_file="" album_slug="" declared=""
+	for band_dir in "$CONTENT_DIR"/*/; do
+		[ -d "$band_dir" ] || continue
+		band_slug="$(basename "$band_dir")"
+		band_file="${band_dir}band.md"
+		declared="$(frontmatter_field "$band_file" image)"
+		if [ -n "$declared" ] && [ ! -f "${COVERS_DIR}/${declared}" ]; then
+			row "foto" "$band_slug" "errore: dichiara ${declared}, che non esiste in ${COVERS_DIR}/"
+			ERRORS=$((ERRORS + 1))
+		fi
+		for album_dir in "$band_dir"*/; do
+			[ -d "$album_dir" ] || continue
+			album_slug="$(basename "$album_dir")"
+			album_file="${album_dir}album.md"
+			declared="$(frontmatter_field "$album_file" cover)"
+			if [ -n "$declared" ] && [ ! -f "${COVERS_DIR}/${declared}" ]; then
+				row "cover" "${band_slug}/${album_slug}" "errore: dichiara ${declared}, che non esiste in ${COVERS_DIR}/"
+				ERRORS=$((ERRORS + 1))
+			fi
+		done
+	done
 	return 0
 }
 
@@ -313,6 +352,7 @@ main() {
 			do_album "$band_name" "$album_dir"
 		done
 	done
+	check_declared_images
 	print_report
 	if [ "$ERRORS" -ne 0 ]; then
 		echo "errore: ${ERRORS} immagini non riuscite" >&2
