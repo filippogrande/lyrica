@@ -165,10 +165,10 @@ func BuildHomeView(page PageData, catalog *content.Catalog) HomeView {
 
 	view := HomeView{Page: page}
 	if featured := filterFeatured(entries); len(featured) > 0 {
-		view.Rails = append(view.Rails, newTrackRail(page.T("home.featured"), featured, ""))
+		view.Rails = append(view.Rails, newTrackRail(page, page.T("home.featured"), featured))
 	}
 	if len(entries) > 0 {
-		view.Rails = append(view.Rails, newTrackRail(page.T("home.recent"), entries, ""))
+		view.Rails = append(view.Rails, newTrackRail(page, page.T("home.recent"), entries))
 	}
 	if bands := latestBands(catalog); len(bands) > 0 {
 		view.Rails = append(view.Rails, newBandRail(page, bands))
@@ -211,22 +211,23 @@ func filterFeatured(entries []trackEntry) []trackEntry {
 }
 
 // newTrackRail costruisce la corsia dei brani.
-func newTrackRail(title string, entries []trackEntry, more string) Rail {
-	rail := Rail{Title: title, MoreText: more}
+func newTrackRail(page PageData, title string, entries []trackEntry) Rail {
+	rail := Rail{Title: title}
 	for _, entry := range entries {
 		if len(rail.Cards) == railLimit {
 			break
 		}
-		rail.Cards = append(rail.Cards, newTrackCard(entry))
+		rail.Cards = append(rail.Cards, newTrackCard(page, entry))
 	}
 	return rail
 }
 
 // newTrackCard prepara la card di un brano: immagine = copertina dell'album,
 // segnaposto = iniziale dell'album (è quello che l'immagine rappresenta).
-func newTrackCard(entry trackEntry) RailCard {
+// L'URL passa da PageData: senza il prefisso di lingua sarebbe un 404.
+func newTrackCard(page PageData, entry trackEntry) RailCard {
 	card := RailCard{
-		URL:     templ.URL(pathFor(entry.band.Slug, entry.album.Slug, entry.track.Slug)),
+		URL:     templ.URL(page.TrackPath(entry.band.Slug, entry.album.Slug, entry.track.Slug)),
 		Title:   entry.track.Title,
 		Meta:    entry.band.Name + " — " + entry.album.Title,
 		Initial: initialOf(entry.album.Title),
@@ -276,7 +277,7 @@ func latestBands(catalog *content.Catalog) []*content.Band {
 		if !ok {
 			continue
 		}
-		dated = append(dated, datedBand{band: band, latest: latest})
+		 dated = append(dated, datedBand{band: band, latest: latest})
 	}
 	sort.SliceStable(dated, func(i, j int) bool {
 		if dated[i].latest.After(dated[j].latest) {
@@ -310,11 +311,6 @@ func latestTrackDate(band *content.Band) (content.Date, bool) {
 		}
 	}
 	return latest, found
-}
-
-// pathFor è il percorso della pagina di un brano, dalla lingua corrente.
-func pathFor(bandSlug, albumSlug, trackSlug string) string {
-	return "/band/" + bandSlug + "/album/" + albumSlug + "/brano/" + trackSlug + "/"
 }
 
 // initialOf restituisce la lettera del segnaposto: maiuscola, vuota se il nome

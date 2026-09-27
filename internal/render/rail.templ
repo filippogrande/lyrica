@@ -1,0 +1,35 @@
+package render
+
+// railBlock è una corsia orizzontale della home.
+//
+// Non è un carosello: è un elenco <ul> che si scorre lateralmente (swipe sul
+// telefono, rotella o frecce da tastiera), quindi resta nel flusso del
+// documento, è leggibile da uno screen reader e ogni card è un link normale.
+// Nessun JS: solo overflow e scroll-snap (docs/FRONTEND.md, "Home a corsie").
+templ railBlock(rail Rail) {
+	<section class="rail">
+		<div class="rail-head">
+			<h2 class="section-title">{ rail.Title }</h2>
+			if rail.MoreText != "" {
+				<a class="rail-more" href={ rail.MoreURL }>{ rail.MoreText }</a>
+			}
+		</div>
+		<ul class="rail-track">
+			for _, card := range rail.Cards {
+				<li class="rail-card">
+					<a class="rail-link" href={ card.URL }>
+						if card.HasImage {
+							<img class="rail-image" src={ card.ImageURL } alt={ card.ImageAlt } width="600" height="600" loading="lazy" decoding="async"/>
+						} else {
+							<span class="rail-placeholder" aria-hidden="true">{ card.Initial }</span>
+						}
+						<span class="rail-title">{ card.Title }</span>
+						if card.Meta != "" {
+							<span class="rail-meta">{ card.Meta }</span>
+						}
+					</a>
+				</li>
+			}
+		</ul>
+	</section>
+}
