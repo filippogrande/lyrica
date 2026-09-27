@@ -58,6 +58,9 @@ jobs:
         run: |
           set -euo pipefail
           BRANCH="immagini/mancanti"
+          # Un input vuoto resta una variabile impostata: il default va chiesto
+          # con :- , non con : (cioe' «${BAND:-tutte le band}» e mai «${BAND:x}»).
+          ETICHETTA="${BAND:-tutte le band}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B "$BRANCH"
@@ -68,7 +71,7 @@ jobs:
             exit 0
           fi
           FILE="$(git diff --cached --numstat | wc -l)"
-          git commit -m "content(immagini): riempie le immagini mancanti (${BAND:all})"
+          git commit -m "content(immagini): riempie le immagini mancanti (${ETICHETTA})"
           git push -u origin "$BRANCH"
           APERTA="$(gh pr list --head "$BRANCH" --json number --jq '.[0].number // empty')"
           if [ -n "$APERTA" ]; then
