@@ -49,6 +49,8 @@ error.back_home: "Torna alla home"
 
 footer.disclaimer: "I testi originali appartengono ai rispettivi autori ed editori. Le traduzioni sono opere amatoriali, senza scopo di lucro."
 footer.license: "Traduzioni con licenza CC BY-NC 4.0; codice del sito con licenza MIT."
+footer.credits_covers: "Immagini delle cover:"
+footer.credits_bands: "foto delle band:"
 footer.contact: "Contatti"
 footer.legal: "Note legali"
 footer.rss: "Feed RSS"
