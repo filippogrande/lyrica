@@ -48,6 +48,8 @@ error.back_home: "Back to the home page"
 
 footer.disclaimer: "Original lyrics belong to their respective authors and publishers. The translations are amateur works, done for no profit."
 footer.license: "Translations are licensed CC BY-NC 4.0; the site code is licensed MIT."
+footer.credits_covers: "Cover images:"
+footer.credits_bands: "band photos:"
 footer.contact: "Contact"
 footer.legal: "Legal notes"
 footer.rss: "RSS feed"

@@ -1,15 +1,24 @@
 package render
 
-// Footer contiene disclaimer e licenza.
+// Footer contiene disclaimer, licenza e attribuzione delle immagini.
 //
 // I collegamenti a contatti, note legali e feed NON stanno qui finché quelle
 // pagine non esistono (FASE 4/5): un link che porta a un 404 è peggio di un
 // link assente. Quando le pagine esisteranno, tornano qui.
+//
+// Fuori dal footer non si vede da dove vengono le immagini: questa riga è
+// l'attribuzione (D84), con i link ai due archivi.
 templ Footer(d PageData) {
 	<footer class="site-footer">
 		<div class="container">
 			<p class="footer-line">{ d.T("footer.disclaimer") }</p>
 			<p class="footer-line">{ d.T("footer.license") }</p>
+			<p class="footer-line">
+				{ d.T("footer.credits_covers") }
+				<a href="https://coverartarchive.org/">Cover Art Archive</a>
+				· { d.T("footer.credits_bands") }
+				<a href="https://fanart.tv/">fanart.tv</a>
+			</p>
 		</div>
 	</footer>
 }
