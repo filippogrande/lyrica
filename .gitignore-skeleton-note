@@ -1,0 +1,9 @@
+# Lyrica — toolchain
+
+# Comandi disponibili:
+#   lyrica serve
+#   lyrica build   (FASE 2)
+#   lyrica new     (FASE 2)
+
+# I file *_templ.go sono generati da `templ generate` e non si committano.
+*_templ.go

@@ -1,0 +1,15 @@
+package render
+
+// Home è la pagina iniziale: in evidenza, contatori e recenti arrivano con i
+// contenuti (FASE 2-3). Fino ad allora lo stato vuoto è dichiarato, non finto.
+templ Home(d PageData) {
+	@Layout(d) {
+		<section class="home-hero">
+			<h1 class="home-title">Lyrica</h1>
+			<p class="lead">{ d.T("home.lead") }</p>
+		</section>
+		<section class="empty-state" aria-live="polite">
+			<p>{ d.T("home.no_content") }</p>
+		</section>
+	}
+}
