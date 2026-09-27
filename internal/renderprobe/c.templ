@@ -1,0 +1,10 @@
+// SONDA TEMPORANEA: len() come condizione di un if dentro un elemento.
+package renderprobe
+
+templ C(items []string) {
+	<ul class="l">
+		if len(items) > 0 {
+			<li>{ items[0] }</li>
+		}
+	</ul>
+}

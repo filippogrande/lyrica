@@ -1,0 +1,16 @@
+// SONDA TEMPORANEA: copia semplificata di trackList (home.templ).
+package renderprobe
+
+templ D(cards []string) {
+	<ul class="track-list">
+		for _, card := range cards {
+			<li class="track-list-item">
+				<a class="track-list-title" href={ card }>{ card }</a>
+				<span class="track-list-meta">{ card }</span>
+				if card != "" {
+					<span class="track-list-langs">{ card }</span>
+				}
+			</li>
+		}
+	}
+}

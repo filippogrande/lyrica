@@ -1,0 +1,18 @@
+// SONDA TEMPORANEA: copia semplificata di bandList (bands.templ).
+package renderprobe
+
+templ E(page string, cards []string) {
+	<ul class="band-list">
+		for _, card := range cards {
+			<li class="band-list-item">
+				<a class="band-list-name" href={ card }>{ card }</a>
+				<span class="band-list-meta">
+					if card != "" {
+						<span class="band-country">{ card }</span>
+					}
+					<span class="band-albums">{ page }: { card }</span>
+				</span>
+			</li>
+		}
+	}
+}
