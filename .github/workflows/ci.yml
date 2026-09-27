@@ -1,10 +1,13 @@
 name: CI
 
-# La CI fa due cose:
+# La CI fa tre cose:
 #   1. verifica che il progetto COMPILI (la compilazione non è possibile
 #      nell'ambiente dell'agente, quindi è qui che gli errori emergono);
-#   2. in FASE 2 si aggiunge la validazione dei contenuti.
-# Non ci sono test unitari per scelta: vedi DEVELOPMENT_GUIDELINES.md §6.
+#   2. valida i CONTENUTI (FASE 2): una traduzione incompleta o uno slug
+#      sbagliato rendono la PR rossa, prima del merge;
+#   3. (FASE 2) in futuro il job di validazione resterà questo: `build` serve
+#      a generare, non ci si duplica il lavoro in CI.
+# Non ci sono test unitari per scelta: vedi GUIDELINES.md §6.
 
 on:
   pull_request:
@@ -39,3 +42,27 @@ jobs:
 
       - name: Build
         run: go build ./...
+
+  valida:
+    name: Valida i contenuti
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Go 1.27.1
+        uses: actions/setup-go@v7
+        with:
+          go-version: "1.27.1"
+          cache: true
+
+      - name: Risolvi le dipendenze
+        run: go mod tidy
+
+      # Il comando importa internal/web (e quindi i template generati): senza
+      # questo passo non compila.
+      - name: Genera i template Templ
+        run: go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate
+
+      - name: Valida i contenuti
+        run: go run ./cmd/lyrica valida
