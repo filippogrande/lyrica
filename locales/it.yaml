@@ -30,6 +30,7 @@ band.formed: "Attiva dal"
 band.members: "Membri"
 band.tags: "Generi"
 band.albums: "album"
+band.photo_alt: "Foto della band"
 
 album.tracks: "Brani"
 album.cover_alt: "Copertina dell'album"

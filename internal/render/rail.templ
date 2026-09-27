@@ -9,7 +9,7 @@ package render
 templ railBlock(rail Rail) {
 	<section class="rail">
 		<div class="rail-head">
-			<h2 class="section-title">{ rail.Title }</h2>
+			<h2 class="rail-heading">{ rail.Title }</h2>
 			if rail.MoreText != "" {
 				<a class="rail-more" href={ rail.MoreURL }>{ rail.MoreText }</a>
 			}
