@@ -32,10 +32,10 @@ Endpoint non-pagina: `/it/api/cerca` (frammento HTML per HTMX), `POST /it/api/se
 ## Dettaglio delle pagine
 
 ### Home
-- **In evidenza**: da 3 a 5 elementi scelti a mano (band o brani), in cima.
+- **In evidenza**: da 3 a 5 elementi scelti a mano, in cima.
 - **Contatori**: brani tradotti / band / lingue.
 - **Recenti**: elenco ordinato per data di aggiunta, il più nuovo prima.
-- Il campo di ricerca è raggiungibile dall'header (dropdown live), non serve una sezione dedicata.
+- La ricerca sta nell'header (dropdown live), non ha una sezione dedicata.
 
 ### Elenco band
 - Ordine **alfabetico**.
@@ -43,16 +43,16 @@ Endpoint non-pagina: `/it/api/cerca` (frammento HTML per HTMX), `POST /it/api/se
 - Ogni voce: nome band + tag.
 
 ### Band
-- Nome, descrizione breve, tag, paese/lingua originale, anno di formazione.
-- Elenco degli **album che hanno almeno una traduzione pubblicata**. Gli altri non compaiono.
+- Nome, descrizione breve, tag, paese, lingue originali, anno di formazione.
+- Elenco dei **soli album con almeno una traduzione pubblicata**.
 - Album senza cover: nessuna immagine, layout senza copertina.
 
 ### Album
 - Titolo, anno, cover (600x600 webp) se presente.
 - **Tracklist completa** in ordine.
-- Brani strumentali: presenti in tracklist con la nota "strumentale", **senza link**.
-- Brani senza alcuna traduzione: presenti con la nota "solo originale", **senza link**.
-- Ogni brano tradotto: link alla pagina brano + etichetta delle lingue disponibili.
+- Brani strumentali: in tracklist con la nota "strumentale", **senza link**.
+- Brani senza alcuna traduzione: in tracklist con la nota "solo originale", **senza link**.
+- Brani tradotti: link alla pagina + etichetta delle lingue disponibili.
 
 ### Brano (la pagina centrale)
 
@@ -72,13 +72,13 @@ Struttura verticale, dall'alto in basso:
 - **Sinistra**: testo originale, diviso in strofe. **Destra**: traduzione nella lingua selezionata.
 - Se il brano ha **più voci**, sopra ogni strofa compare **il nome del cantante**; nessuna etichetta strutturale (mai "ritornello", "bridge").
 - **Selettore lingua**: solo le lingue realmente presenti per quel brano (originali multipli inclusi).
-- L'originale è sempre disponibile; non esistono stati vuoti.
+- L'originale è sempre disponibile: non esistono stati vuoti.
 - **Nessuna annotazione per verso**: il testo resta pulito.
-- **"Chiedi altre canzoni"**: fascia in fondo al testo con il link al form di segnalazione (D71).
-- Gli **slot pubblicitari** compaiono solo se attivati (`ADS_DESIGN.md`); a ads spente il DOM non li contiene e il testo prende tutta la larghezza.
+- **"Chiedi altre canzoni"**: fascia in fondo al testo con il link al form di segnalazione.
+- Gli **slot pubblicitari** compaiono solo se attivati: a ads spente il DOM non li contiene e il testo prende tutta la larghezza.
 
 ### Segnala / Contatti
-- Form semplici, senza account: i dati vengono **inoltrabili al bot Telegram** dell'autore.
+- Form semplici, senza account: i dati vengono **inoltrati al bot Telegram** dell'autore.
 - Protezione: rate-limit, honeypot, informativa privacy inline.
 - Al lancio non parte nessuna email.
 
@@ -86,7 +86,7 @@ Struttura verticale, dall'alto in basso:
 
 - **Tema** chiaro/scuro: automatico dal sistema + toggle manuale.
 - **Dimensione testo** A- / A+ (accessibilità).
-- **Lingua dell'interfaccia**: negoziata dal browser, fallback italiano; le lingue disponibili seguono quelle delle traduzioni presenti (`I18N_DESIGN.md`).
+- **Lingua dell'interfaccia**: negoziata dal browser, fallback italiano; le lingue disponibili seguono quelle delle traduzioni presenti.
 - **Breadcrumb** su tutte le pagine interne.
 - **Contatori** pubblici nel footer.
 - **Header** sticky su mobile con nav compressa.
@@ -97,7 +97,7 @@ Struttura verticale, dall'alto in basso:
 - Nessun commento, nessun upload, nessun contenuto generato dagli utenti.
 - Nessun "preferito" o ricerca salvata.
 - Nessuna newsletter, nessuna email automatica (al lancio).
-- Nessuna API pubblica documentata: l'unico endpoint dinamico è la ricerca.
+- Nessuna API pubblica documentata: gli unici endpoint dinamici sono ricerca e form.
 - Nessun dato personale conservato sul server (i form inoltrano e dimenticano).
 
 ## Casi limite e come si comportano
@@ -108,8 +108,9 @@ Struttura verticale, dall'alto in basso:
 | Brano strumentale | in tracklist con nota, nessuna pagina |
 | Brano senza traduzioni | in tracklist con nota "solo originale", nessuna pagina |
 | Brano con più lingue originali | sono opzioni del selettore lingua come le traduzioni |
-| Traduzione a metà | non si pubblica (o meglio: non si costruisce la pagina) |
+| Traduzione a metà | non si pubblica, non si costruisce la pagina |
 | Lingua UI non tradotta | fallback italiano |
 | Slug cambiato | redirect 301 dal file dei redirect |
 | Band omonima | slug disambiguato (`nirvana-us`) |
 | Ads spente | nessun contenitore nel DOM, nessuno spazio vuoto |
+| Ricerca senza risultati | messaggio breve, non un errore |

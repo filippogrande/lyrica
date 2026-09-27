@@ -1,4 +1,4 @@
-# Registro decisioni — Lyrica
+# DECISIONS — registro delle decisioni
 
 Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si cancella**: si aggiunge una nuova voce che la sostituisce.
 
@@ -27,9 +27,9 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D14 | Contenuti in **Markdown + front-matter YAML nel repo**, **build-time static site** | niente database, contenuti versionati con il codice |
 | D15 | Deploy su **Docker nel home-lab dietro Cloudflare Tunnel** (non k3s) | k3s in dismissione; tunnel già in uso |
 | D16 | **Nessun database, nessuno stato server-side** | elimina backup, migrazioni, GDPR sui dati a riposo |
-| D17 | Test: **solo validazione dei contenuti in CI** (+ compilazione, vedi D72) | i test di codice non sono richiesti ora |
+| D17 | Test: **solo validazione dei contenuti in CI** (+ compilazione, vedi D73) | i test di codice non sono richiesti ora |
 | D18 | Budget di performance **~300 KB/pagina**; immagini **webp + lazy** | sito leggero, buono anche da mobile |
-| D19 | **Font web multialfabeto** (latino, cirillico, greco, CJK) | le band possono avere testi in alfabeti non latini |
+| D19 | **Font web multialfabeto** (latino, cirillico, greco, CJK di sistema) | le band possono avere testi in alfabeti non latini |
 | D20 | **CLI `lyrica new band\|album\|brano`** che genera i template di contenuto | evita errori di struttura nei front-matter |
 | D21 | Cover: **600x600 webp quadrata**, nome file = slug dell'album | uniformità di resa senza dover pensare al formato |
 | D22 | Umami: **riuso dell'istanza self-hosted esistente** | nessun container in più da mantenere |
@@ -45,7 +45,7 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D27 | **Qualsiasi lingua**, non solo IT/EN/DE | l'architettura non deve porre limiti |
 | D28 | Un brano può avere **più lingue originali** (band bilingui) | esistono davvero, non ha senso escluderle |
 | D29 | Una traduzione si pubblica **solo se completa** | un testo a metà non serve a nessuno |
-| D30 | L'**originale è sempre attivo**; il dropdown lingua mostra solo le lingue presenti per quel brano | zero vicoli ciechi |
+| D30 | L'**originale è sempre attivo**; il selettore mostra solo le lingue presenti per quel brano | zero vicoli ciechi |
 | D31 | Brani **strumentali**: in tracklist con nota, **senza pagina** | non c'è testo da mostrare |
 | D32 | Versione **live/acustica**: blocco con nota dentro lo stesso brano, non pagina separata | è lo stesso testo |
 | D33 | **Nessuna nota/annotazione per verso. Mai.** Testo pulito | l'autore non le vuole |
@@ -66,7 +66,7 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D43 | "In evidenza" **scelto a mano** | scelta editoriale, non algoritmica |
 | D44 | Pagina **Bands**: elenco alfabetico + filtro per tag | trovare una band senza cercarla per nome |
 | D45 | Etichetta della strofa = **solo nome del cantante**; niente Verse/Chorus/Bridge. Nei brani multi-voce il nome sta su **ogni strofa** | è l'informazione utile; l'autore non vuole etichette strutturali |
-| D46 | **Breadcrumb** sulle pagine interne (`Home > Band > Album > Brano`) | orientamento |
+| D46 | **Breadcrumb** sulle pagine interne | orientamento |
 | D47 | Mobile: **header sticky con nav compressa + offcanvas** | il testo deve restare protagonista |
 | D48 | **Header**: Home / Bands / Ricerca | minimo indispensabile |
 | D49 | **Footer**: disclaimer + licenza CC + contatti + RSS + contatori | tutto ciò che è obbligatorio o utile, fuori dai piedi |
@@ -107,8 +107,11 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D69 | Le **lingue dell'interfaccia derivano dalle lingue di traduzione** presenti nei contenuti (non dalle lingue degli originali) + italiano di default | se un brano ha traduzioni in IT ed EN, il pubblico parla IT o EN e quasi mai tedesco; quando arriveranno traduzioni in francese, servirà anche l'interfaccia francese |
 | D70 | **Ads anche nella pagina brano**, con collocazione precisa: banner largo e basso **sopra il titolo**, **due colonne laterali** ai lati del testo (solo da `xl` in su, mai sticky, mai tra originale e traduzione), banner largo e basso **dopo la sezione "chiedi altre canzoni"** | collocazione voluta dall'autore: gli ads ai lati possono convivere con la lettura a fronte, purché il testo non si stringa sugli schermi piccoli |
 | D71 | **Sezione "chiedi altre canzoni"** in fondo a ogni pagina brano, con link al form di segnalazione | chi ha appena letto una traduzione è la persona con più probabilità di proporne un'altra |
-| D72 | **Docker da subito** (non in FASE 5): immagine multi-stage su **Docker Hub** `filippogrande/lyrica` con tag `latest` e `<sha>`, build e push automatici da GitHub Actions su push in `main`, `docker-compose.yml` nel repo, **deploy manuale** con `docker compose pull && docker compose up -d` sul home-lab | Filippo vuole poter tirare su il sito con docker compose appena c'è un'immagine, come per gli altri suoi servizi; il deploy resta una decisione esplicita e il runner non ha accesso al home-lab |
-| D73 | La CI **compila il progetto** a ogni PR e push (job `Compila`), oltre alla validazione dei contenuti che arriverà in FASE 2 | l'ambiente dell'agente non ha un compilatore Go: la compilazione è l'unica verifica disponibile dell'artefatto e non è un test unitario |
+| D72 | **Docker da subito** (non in FASE 5): immagine multi-stage su **Docker Hub** `filippogrande/lyrica` con tag `latest` e `<sha>`, build e push automatici da GitHub Actions su push in `main`, compose nel repo, **deploy manuale** con `docker compose pull && docker compose up -d` sul home-lab | poter tirare su il sito con docker compose appena c'è un'immagine, come per gli altri servizi; il deploy resta una decisione esplicita e il runner non ha accesso al home-lab |
+| D73 | La CI **compila il progetto** a ogni PR e push, oltre alla validazione dei contenuti che arriverà in FASE 2 | l'ambiente dell'agente non ha un compilatore Go: la compilazione è l'unica verifica disponibile dell'artefatto |
+| D74 | **Struttura della documentazione**: 8 file dentro `docs/` (GUIDELINES, DECISIONS, ROADMAP, SPEC, ARCHITECTURE, CONTENT, FRONTEND, FEATURES). I doc di design di una fase, a fase chiusa, si **assorbono** in una sezione "come funziona" o si **eliminano** | 20 file in root rendevano il repo illeggibile; i doc-progetto che sopravvivono al codice iniziano a descrivere qualcosa che non esiste più |
+| D75 | I file di deploy (`docker-compose.yml`, `.env.example`) stanno in **`deploy/`**, non nella root | la root del repo deve mostrare il progetto, non l'infrastruttura |
+| D76 | Regole di codice **vincolanti**: max **500 righe per file**, max **50 righe per funzione**, **vietati i fallback silenziosi** (eccezione: fallback progettato e dichiarato, es. lingua UI → italiano), **vietati i file di test temporanei/usa-e-getta**, **PR multi-file tematiche ammesse** | sono le regole degli altri progetti dell'autore: un file grosso nasconde il disordine, un fallback silenzioso nasconde un bug, un test usa-e-getta maschera i bug veri |
 
 ## H. Backlog esplicito (deciso di NON fare ora)
 

@@ -1,6 +1,4 @@
-# CONTENT_SCHEMA — schema dei contenuti
-
-Come sono fatti i file di contenuto. È la specifica di riferimento per la CLI (`lyrica new`) e per il validatore in CI.
+# CONTENT — schema dei contenuti e come si aggiungono
 
 ## Struttura delle cartelle
 
@@ -49,7 +47,7 @@ description: >
 | `name` | sì | come si legge in pagina |
 | `slug` | sì | deve coincidere con il nome della cartella |
 | `country` | no | sigla ISO a 2 lettere |
-| `tags` | no | **tag liberi** di genere; generano le pagine `/tag/{tag}` |
+| `tags` | no | **tag liberi** di genere; generano le pagine `/it/tag/{tag}` |
 | `original_langs` | sì | una o più lingue originali della band |
 | `formed_year` | no | numero |
 | `members` | no | lista di stringhe |
@@ -153,10 +151,83 @@ Un contenuto è **invalido** se:
 6. `cover` punta a un file inesistente in `covers/`.
 7. `original_langs` contiene una lingua che non compare in nessun blocco.
 8. Un `title` in `tracks` di `album.md` non ha il file corrispondente in `tracks/` (o viceversa).
-9. Un link interno a un brano/band inesistente.
+9. Un link interno a un band/album/brano inesistente.
 
-La regola 4 è la più importante: **una traduzione a metà non si pubblica** (D29).
+La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 
-## Esempio minimo completo
+### Warning (build verde, da sistemare o giustificare in PR)
 
-Band → album con un brano tradotto, senza cover e con un brano strumentale: è il contenuto da usare per il primo test della pipeline in FASE 2.
+- brano senza nessuna traduzione (da segnare "solo originale");
+- album senza cover;
+- tag usato una volta sola (possibile refuso: `metal` vs `metalcore`);
+- descrizione band mancante;
+- chiavi di locale mancanti rispetto a `it.yaml`.
+
+## Come si aggiunge un contenuto
+
+Il flusso normale: si generano i file con la CLI e si riempiono. Non si scrive a mano partendo da zero.
+
+### 1. Nuova band
+
+```
+lyrica new band "Nome Band"
+```
+
+Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe).
+
+### 2. Nuovo album
+
+```
+lyrica new album "Nome Band" "Titolo Album" --year 1995
+```
+
+Crea `album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover va in `covers/<album-slug>.webp`, **600x600 quadrata**: se non c'è, il layout va senza immagine — **nessun placeholder**.
+
+### 3. Nuovo brano
+
+```
+lyrica new brano "Nome Band" "album-slug" "Titolo Brano"
+```
+
+Crea `tracks/<track-slug>.md` con lo scheletro dei blocchi lingua. Poi, a mano:
+
+- scrivi il testo originale **strofa per strofa**, un verso per riga;
+- se il brano ha più voci, aggiungi `singer:` a **ogni** strofa;
+- scrivi la traduzione **completa**: strofe della stessa lunghezza dell'originale;
+- `added_date` = il giorno in cui la pubblichi;
+- niente annotazioni per verso.
+
+### 4. Verifica in locale
+
+```
+lyrica build      # valida i contenuti e genera public/
+lyrica serve      # serve il risultato su una porta locale
+```
+
+### 5. Pubblicazione
+
+- Commit su un **branch** (`content/<band-slug>`).
+- **Pull Request** verso `main`.
+- La CI **valida i contenuti**; il merge in `main` fa deploy.
+
+### Checklist prima di aprire la PR
+
+- [ ] La traduzione è **completa** strofa per strofa.
+- [ ] `added_date` è la data di pubblicazione reale.
+- [ ] Slug, cartelle e nome della cover **coincidono**.
+- [ ] I nomi dei cantanti sono solo nei brani multi-voce, e su ogni strofa.
+- [ ] Nessuna annotazione per verso.
+- [ ] Il contenuto si legge bene **da telefono**, non solo da desktop.
+- [ ] Se un brano non ha traduzioni, è segnato come "solo originale" e non è linkato.
+
+### Aggiungere una lingua di traduzione a un brano
+
+Aggiungi al file un blocco con `role: translation`, `lang:`, `translator:` e le strofe **complete**. Il validatore controlla che combacino con l'originale: se non combaciano, la PR è rossa. Il selettore lingua in pagina si aggiorna da solo.
+
+### Aggiungere una lingua all'interfaccia
+
+Copia `locales/it.yaml` in `locales/<lang>.yaml` e traduci i **valori**, non le chiavi. Il build genera `/<lang>/...` con hreflang. Una chiave mancante è un errore in CI.
+
+### Rinominare uno slug (cambio URL)
+
+Rinomina cartella o file, aggiungi la **regola di redirect 301** nel file dei redirect (vecchio URL → nuovo URL) e verifica il redirect nella build locale.
