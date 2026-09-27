@@ -1,10 +1,16 @@
 package render
 
-// Band è la pagina di una band: anagrafica, album pubblicati, breadcrumb.
+// Band è la pagina di una band: anagrafica, foto (se dichiarata), album
+// pubblicati, breadcrumb.
 templ Band(v BandView) {
 	@Layout(v.Page) {
 		@breadcrumb(v.Page.T("a11y.breadcrumb"), v.Crumbs)
 		<h1 class="page-title">{ v.Name }</h1>
+		if v.HasImage {
+			<figure class="band-photo">
+				<img src={ v.ImageURL } alt={ v.Page.T("band.photo_alt") } width="600" height="600" loading="lazy"/>
+			</figure>
+		}
 		<dl class="band-facts">
 			if v.Country != "" {
 				<dt>{ v.Page.T("band.country") }</dt>
