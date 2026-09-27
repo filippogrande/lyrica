@@ -1,0 +1,159 @@
+---
+title: "Sonne"
+slug: "sonne"
+added_date: 2026-09-27
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, aus!"
+      - lines:
+          - "Alle warten auf das Licht"
+          - "Fürchtet euch, fürchtet euch nicht"
+          - "Die Sonne scheint mir aus den Augen"
+          - "Sie wird heut Nacht nicht untergeh'n"
+          - "Und die Welt zählt laut bis zehn"
+      - lines:
+          - "Eins, hier kommt die Sonne"
+          - "Zwei, hier kommt die Sonne"
+          - "Drei, sie ist der hellste Stern von allen"
+          - "Vier, hier kommt die Sonne"
+      - lines:
+          - "Die Sonne scheint mir aus den Händen"
+          - "Kann verbrennen, kann euch blenden"
+          - "Wenn sie aus den Fäusten bricht"
+          - "Legt sich heiß auf das Gesicht"
+          - "Sie wird heut Nacht nicht untergeh'n"
+          - "Und die Welt zählt laut bis zehn"
+      - lines:
+          - "Eins, hier kommt die Sonne"
+          - "Zwei, hier kommt die Sonne"
+          - "Drei, sie ist der hellste Stern von allen"
+          - "Vier, hier kommt die Sonne"
+          - "Fünf, hier kommt die Sonne"
+          - "Sechs, hier kommt die Sonne"
+          - "Sieben, sie ist der hellste Stern von allen"
+          - "Acht, neun, hier kommt die Sonne"
+      - lines:
+          - "Die Sonne scheint mir aus den Händen"
+          - "Kann verbrennen, kann dich blenden"
+          - "Wenn sie aus den Fäusten bricht"
+          - "Legt sich heiß auf dein Gesicht"
+          - "Legt sich schmerzend auf die Brust"
+          - "Das Gleichgewicht wird zum Verlust"
+          - "Lässt dich hart zu Boden geh'n"
+          - "Und die Welt zählt laut bis zehn"
+      - lines:
+          - "Eins, hier kommt die Sonne"
+          - "Zwei, hier kommt die Sonne"
+          - "Drei, sie ist der hellste Stern von allen"
+          - "Vier, und wird nie vom Himmel fallen"
+          - "Fünf, hier kommt die Sonne"
+          - "Sechs, hier kommt die Sonne"
+          - "Sieben, sie ist der hellste Stern von allen"
+          - "Acht, neun, Hier kommt die Sonne"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "One, two, three, four, five, six, seven, eight, nine, out"
+      - lines:
+          - "Everyone is waiting for the light"
+          - "Be afraid, don't be afraid"
+          - "The sun is shining out of my eyes"
+          - "It will not set tonight"
+          - "And the world counts loudly to ten"
+      - lines:
+          - "One, here comes the sun"
+          - "Two, here comes the sun"
+          - "Three, it is the brightest star of them all"
+          - "Four, here comes the sun"
+      - lines:
+          - "The sun is shining out of my hands"
+          - "It can burn, it can blind you all"
+          - "When it breaks out of the fists"
+          - "It lays down hotly on the face"
+          - "It will not set tonight"
+          - "And the world counts loudly to ten"
+      - lines:
+          - "One, here comes the sun"
+          - "Two, here comes the sun"
+          - "Three, it is the brightest star of them all"
+          - "Four, here comes the sun"
+          - "Five, here comes the sun"
+          - "Six, here comes the sun"
+          - "Seven, it is the brightest star of them all"
+          - "Eight, nine, here comes the sun"
+      - lines:
+          - "The sun is shining out of my hands"
+          - "It can burn, it can blind you"
+          - "When it breaks out of the fists"
+          - "It lays down hotly on your face"
+          - "It lays down painfully on your chest"
+          - "Balance is lost"
+          - "It lets you go hard to the floor"
+          - "And the world counts loudly to ten"
+      - lines:
+          - "One, here comes the sun"
+          - "Two, here comes the sun"
+          - "Three, it is the brightest star of them all"
+          - "Four, and it will never fall from the sky"
+          - "Five, here comes the sun"
+          - "Six, here comes the sun"
+          - "Seven, it is the brightest star of them all"
+          - "Eight, nine, here comes the sun"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Uno, due, tre, quattro, cinque, sei, sette, otto, nove, fuori!"
+      - lines:
+          - "Tutti aspettano la luce"
+          - "Temete, non temete"
+          - "Il sole mi brilla dagli occhi"
+          - "Stanotte non tramonterà"
+          - "E il mondo conta forte fino a dieci"
+      - lines:
+          - "Uno, ecco che arriva il sole"
+          - "Due, ecco che arriva il sole"
+          - "Tre, è la stella più luminosa di tutte"
+          - "Quattro, ecco che arriva il sole"
+      - lines:
+          - "Il sole mi brilla dalle mani"
+          - "Può bruciare, può accecarvi"
+          - "Quando irrompe dai pugni"
+          - "Si posa caldo sul viso"
+          - "Stanotte non tramonterà"
+          - "E il mondo conta forte fino a dieci"
+      - lines:
+          - "Uno, ecco che arriva il sole"
+          - "Due, ecco che arriva il sole"
+          - "Tre, è la stella più luminosa di tutte"
+          - "Quattro, ecco che arriva il sole"
+          - "Cinque, ecco che arriva il sole"
+          - "Sei, ecco che arriva il sole"
+          - "Sette, è la stella più luminosa di tutte"
+          - "Otto, nove, ecco che arriva il sole"
+      - lines:
+          - "Il sole mi brilla dalle mani"
+          - "Può bruciare, può accecarti"
+          - "Quando irrompe dai pugni"
+          - "Si posa caldo sul tuo viso"
+          - "Si posa doloroso sul petto"
+          - "L'equilibrio diventa perdita"
+          - "Ti fa cadere a terra pesantemente"
+          - "E il mondo conta forte fino a dieci"
+      - lines:
+          - "Uno, ecco che arriva il sole"
+          - "Due, ecco che arriva il sole"
+          - "Tre, è la stella più luminosa di tutte"
+          - "Quattro, e non cadrà mai dal cielo"
+          - "Cinque, ecco che arriva il sole"
+          - "Sei, ecco che arriva il sole"
+          - "Sette, è la stella più luminosa di tutte"
+          - "Otto, nove, ecco che arriva il sole"
+---
