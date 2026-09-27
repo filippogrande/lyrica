@@ -5,7 +5,7 @@ Regole non negoziabili del progetto. Se una PR contraddice questo file, la PR è
 ## 1. Workflow git
 
 - Ogni modifica passa da **branch + Pull Request**. **Mai** push diretto su `main`.
-- Nomi branch: `feat/<slug>`, `fix/<slug>`, `docs/<slug>`, `ci/<slug>`.
+- Nomi branch: `feat/<slug>`, `fix/<slug>`, `docs/<slug>`, `ci/<slug>`, `content/<band-slug>`.
 - **Merge su `main` = deploy.** Dalla FASE 5 in avanti `main` è produzione: quello che mergi va online.
 - PR piccole e su un solo tema. Nel body: cosa cambia, come verificarlo, cosa potrebbe rompersi.
 - **La documentazione si aggiorna nella stessa PR** che la invalida. Mai "aggiorno i doc dopo".
@@ -27,37 +27,46 @@ Regole non negoziabili del progetto. Se una PR contraddice questo file, la PR è
 - CSS custom tramite custom properties in `assets/css/`.
 - Nessun framework JS, nessun passaggio npm come prerequisito per servire il sito.
 
-## 4. Struttura del codice
+## 4. Dimensione del codice — limiti VINCOLANTI
 
-- **Nessun file oltre ~1000 righe.**
-- Si divide per **coesione semantica**, non a caso per numero di righe: un file per funzione o per gruppo di funzioni affini. Molti moduli piccoli che fanno una cosa sola battono pochi file grossi.
+- **Massimo 500 righe per file.** Limite vincolante, non un'indicazione.
+- **Massimo 50 righe per funzione.** Limite vincolante.
+- Un file che sfora va **diviso per responsabilità** (coesione semantica): non si taglia a metà per fare numero, si separa per ciò che il codice fa. Due file da 500 righe spezzati a caso sono peggio di uno da 1000 ben coeso.
+- Preferire molti moduli piccoli che fanno **una cosa sola** a pochi file grossi: i file grossi si rompono e sono difficili da revisionare.
 - Codice in **inglese** (nomi, commenti, log). Contenuti e documentazione in **italiano**.
 
-## 5. Test e verifica
+## 5. Nessun fallback silenzioso
+
+- **Vietato** restituire valori fittizi, vuoti o di default per mascherare un errore: niente `return []`, `return {}`, `return nil` "tanto per non far crashare", niente dati mock al posto dei dati reali.
+- Se un contenuto è invalido, un file manca o una chiamata al bot Telegram fallisce, il codice **restituisce l'errore e lo rende visibile** (build rossa in locale/CI, messaggio d'errore in pagina, log esplicito).
+- Una pagina che finge che tutto vada bene è peggio di una pagina con un errore: il fallback silenzioso nasconde i bug invece di rivelarli.
+- L'unico fallback ammesso è quello **dichiarato e progettato**: la lingua dell'interfaccia che non esiste ricade sull'italiano (`I18N_DESIGN.md`) — ed è scritto nei doc, non improvvisato nel codice.
+
+## 6. Test e verifica
 
 - **La CI valida i contenuti, non il codice**: front-matter, slug duplicati, link interni, traduzioni incomplete, cover mancanti.
-- Non si scrivono test isolati o usa-e-getta che verificano solo la sintassi: mascherano i bug invece di rivelarli.
-- La verifica si fa sulla **build reale** (`lyrica build` e poi il sito aperto), non su un frammento di codice.
-- Una cosa è "fatta" quando è **verificata sull'artefatto** (la pagina generata, l'output del comando), non quando il codice è stato scritto.
+- **Vietati i file di test temporanei o usa-e-getta.** Un mini-test scritto per l'occasione carica solo una parte del codice, quindi segnala al massimo errori di battitura e **maschera i bug veri** invece di rivelarli.
+- La verifica si fa sulla **build reale** (`lyrica build` e poi il sito aperto), con i moduli veri caricati, non su un frammento isolato.
+- Una cosa è "fatta" quando è **verificata sull'artefatto** (la pagina generata, l'output del comando), non quando il codice è stato scritto. Se una verifica non è stata eseguita, va detto esplicitamente.
 
-## 6. Performance e accessibilità
+## 7. Performance e accessibilità
 
 - Budget: **~300 KB per pagina** (HTML + CSS; immagini escluse perché ottimizzate a parte).
 - Immagini: **webp** + `loading="lazy"`.
 - Ogni pagina usabile da tastiera, con contrasto sufficiente e controllo della dimensione del testo.
 - Design **mobile-first**: si guarda prima da telefono.
 
-## 7. Sicurezza e segreti
+## 8. Sicurezza e segreti
 
 - Segreti (token del bot Telegram) **solo** via variabili d'ambiente o `.env` non committato.
 - Header di sicurezza e CSP sempre presenti (vedi `SECURITY.md`).
 - Nessun dato personale raccolto senza necessità e senza informativa (vedi `LEGAL_DESIGN.md`).
 
-## 8. Dipendenze
+## 9. Dipendenze
 
 - Ogni manifest presente nel repo (Go modules, `Dockerfile`, `docker-compose.yml`) deve essere coperto da `.github/dependabot.yml`, aggiornato **nella stessa PR** che introduce il manifest.
 
-## 9. Documentazione
+## 10. Documentazione
 
 - Gli MD di questo repo sono scritti per essere letti **da un agente AI** che deve capire e modificare il sito: ogni file dichiara scope, decisioni e dove vive il codice.
 - Un doc che non descrive più la realtà va **corretto o cancellato** nella stessa PR. Mai lasciare stub o note "in realtà ora è diverso".
