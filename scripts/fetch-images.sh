@@ -16,8 +16,9 @@
 # avanti. Un errore vero (rete, chiave rifiutata, conversione) fa uscire con 1,
 # e il report dice quale immagine.
 #
-# Stampa un report in Markdown; con GITHUB_STEP_SUMMARY impostato lo copia anche
-# nel riepilogo del run, così si legge senza aprire i log.
+# Stampa il report in Markdown; con GITHUB_STEP_SUMMARY impostato lo copia anche
+# nel riepilogo del run, così si legge senza aprire i log. Ogni cosa viene
+# stampata una volta sola: il log del run non deve contenere la tabella due volte.
 #
 # La corrispondenza è automatica e quindi non è infallibile (titolo uguale per
 # un album live o un'edizione diversa): il report serve proprio a controllare
@@ -280,7 +281,7 @@ print_report() {
 	done
 	riepilogo="${tot} immagini considerate, ${scaricate} scaricate, ${saltate} saltate, ${ERRORS} errori."
 	echo ""
-	report_table | tee /dev/stderr
+	report_table
 	echo "${riepilogo}"
 	if [ -n "${GITHUB_STEP_SUMMARY:-}" ]; then
 		{
