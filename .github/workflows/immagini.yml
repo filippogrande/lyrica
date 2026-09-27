@@ -1,0 +1,108 @@
+name: Immagini dagli archivi
+
+# Un click per immagine, dal browser: si scelgono tipo/MBID/slug, il runner
+# scarica dall'archivio pubblico, converte in 600x600 webp e apre una PR con
+# covers/<slug>.webp (più la riga nel file di contenuto, se lo indichi).
+#
+# Non gira da sola e non gira mai durante la build del sito: le immagini
+# restano nel repo e la CI non chiama nessuna API (D82, D85).
+#
+# La chiave di fanart.tv sta nei secret del repo (Settings -> Secrets and
+# variables -> Actions): FANART_API_KEY (chiave di progetto) o
+# FANART_CLIENT_KEY (personale). Serve solo alle foto delle band: le cover
+# non richiedono chiavi.
+
+on:
+  workflow_dispatch:
+    inputs:
+      tipo:
+        description: "Cosa scaricare"
+        required: true
+        type: choice
+        options:
+          - cover
+          - band
+      mbid:
+        description: "MBID MusicBrainz: release-group per una cover, artist per una band"
+        required: true
+      slug:
+        description: "Slug: nome del file in covers/ (album-slug o band-slug)"
+        required: true
+      file_md:
+        description: "Opzionale: file di contenuto da aggiornare (es. content/bands/tbs/band.md)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  immagine:
+    name: Scarica e apri la PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: ImageMagick
+        run: sudo apt-get update -qq && sudo apt-get install -y imagemagick
+
+      # Gli input passano dall'ambiente, non interpolati nel comando: un valore
+      # scritto a mano non deve poter eseguire codice nel runner.
+      - name: Scarica l'immagine
+        env:
+          TIPO: ${{ inputs.tipo }}
+          MBID: ${{ inputs.mbid }}
+          SLUG: ${{ inputs.slug }}
+          FANART_API_KEY: ${{ secrets.FANART_API_KEY }}
+          FANART_CLIENT_KEY: ${{ secrets.FANART_CLIENT_KEY }}
+        run: bash scripts/fetch-covers.sh "$TIPO" "$MBID" "$SLUG"
+
+      - name: Aggiorna il file di contenuto
+        if: inputs.file_md != ''
+        env:
+          FILE_MD: ${{ inputs.file_md }}
+          TIPO: ${{ inputs.tipo }}
+          SLUG: ${{ inputs.slug }}
+        run: python3 scripts/declare-image.py "$FILE_MD" "$TIPO" "$SLUG.webp"
+
+      - name: Commit, branch e PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TIPO: ${{ inputs.tipo }}
+          SLUG: ${{ inputs.slug }}
+          FILE_MD: ${{ inputs.file_md }}
+        run: |
+          set -euo pipefail
+          if [ "$TIPO" = "band" ]; then
+            FONTE="fanart.tv"
+            RIGA="image: \"${SLUG}.webp\""
+          else
+            FONTE="Cover Art Archive"
+            RIGA="cover: \"${SLUG}.webp\""
+          fi
+          BRANCH="immagini/${SLUG}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add covers
+          if [ -n "$FILE_MD" ]; then git add "$FILE_MD"; fi
+          if git diff --cached --quiet; then
+            echo "::notice::niente da committare: covers/${SLUG}.webp è già identico a quello nel repo"
+            exit 0
+          fi
+          git commit -m "content(immagini): ${SLUG} (${TIPO})"
+          git push -u origin "$BRANCH"
+          APERTA="$(gh pr list --head "$BRANCH" --json number --jq '.[0].number // empty')"
+          if [ -n "$APERTA" ]; then
+            echo "::notice::PR già aperta: https://github.com/${GITHUB_REPOSITORY}/pull/${APERTA}"
+            exit 0
+          fi
+          gh pr create --base main --head "$BRANCH" \
+            --title "content(immagini): ${SLUG} (${TIPO})" \
+            --body "Immagine scaricata da ${FONTE}, convertita in 600x600 webp in \`covers/${SLUG}.webp\`.
+
+          Riga da avere nel file di contenuto: \`${RIGA}\`
+
+          Verifica: il job Valida e genera controlla che l'immagine dichiarata esista (regola 6 per le cover, regola 10 per le band)."
