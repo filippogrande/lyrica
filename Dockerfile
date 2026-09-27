@@ -10,7 +10,10 @@ FROM golang:1.27.1-alpine3.24 AS build
 WORKDIR /src
 
 # curl serve a scripts/fetch-assets.sh (Bootstrap pinnato, niente CDN a runtime).
-RUN apk add --no-cache curl
+# bash NON e' opzionale: lo script ha shebang bash e usa "set -euo pipefail",
+# e l'immagine alpine di Go non include bash (fallirebbe con
+# "env: bash: No such file or directory").
+RUN apk add --no-cache curl bash
 
 # 1) dipendenze: questo layer resta in cache finché non cambia go.mod
 COPY go.mod ./
