@@ -1,0 +1,12 @@
+# Contesto di build ridotto: quello che non serve a compilare non entra
+# nell'immagine né nella cache.
+
+.git
+.github
+public
+*_templ.go
+*.md
+LICENSE
+.gitignore
+.env
+.env.*

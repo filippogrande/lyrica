@@ -1,0 +1,19 @@
+# Compose di Lyrica — sito statico, nessun database, nessuno stato.
+#
+# Da usare sul home-lab in /mnt/applicazioni/yml/docker/lyrica/
+# (stessa convenzione degli altri servizi). Aggiornamento:
+#   docker compose pull
+#   docker compose up -d
+
+services:
+  web:
+    image: filippogrande/lyrica:latest
+    pull_policy: always
+    ports:
+      # host:container — la porta host e' da confermare libera (vedi DEPLOY.md)
+      - "8085:8080"
+    environment:
+      - LYRICA_ADDR=:8080
+    # Il token del bot Telegram (FASE 6) arrivera' da un .env accanto a questo
+    # file, con env_file. Nessun segreto nel repo.
+    restart: unless-stopped
