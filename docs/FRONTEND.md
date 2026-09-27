@@ -48,8 +48,9 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Ricerca** | dropdown live nell'header |
 | **Breadcrumb** | su tutte le pagine interne |
 | **Card band** | foto se dichiarata (`image` in `band.md`), altrimenti **segnaposto con l'iniziale**; nome, paese, generi, numero di album |
-| **Corsia (rail)** | elenco orizzontale della home: titolo, link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie") |
+| **Corsia (rail)** | elenco orizzontale della home: titolo (`.rail-heading`), link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie") |
 | **Card album** | cover se esiste, altrimenti layout testuale (titolo + anno + n° brani) |
+| **Foto della band (pagina band)** | immagine singola sotto il titolo, larghezza massima 20rem come la copertina dell'album; se `image` manca, nessuna immagine |
 | **Badge lingua** | lingue disponibili di un brano (`DE`, `IT`, ...) |
 | **Strofa** | blocco di testo con eventuale nome del cantante sopra |
 | **Avvisi** | "strumentale", "solo originale": testo semplice, non allarmi colorati |
@@ -138,9 +139,10 @@ Il budget delle immagini si misura **sul numero di immagini che una pagina caric
 |---|---|---|
 | Corsia della home | 1 per card, fino a 12 per corsia | `lazy`: contano quando l'utente scorre |
 | Copertina di un album in pagina album | 1 | `lazy` |
-| Card band nell'elenco band | 1 per band | `lazy` |
+| Foto della band in pagina band | 1 | `lazy` |
 
 - Una home con tre corsie piene dichiara fino a **36 immagini**: è il caso peggiore, ed è il motivo per cui tutte sono `lazy` e con dimensioni dichiarate.
+- L'**elenco band resta testuale**: nessuna immagine per riga, così la pagina non carica una foto per band.
 - Le immagini caricate dall'autore sono **600x600 webp, una sola dimensione** (D78): nessuna miniatura separata, nessun ridimensionamento a runtime.
 - Se una pagina sfonda il budget, **si riduce il numero di card** (o si esclude una corsia), non si alza il budget.
 
