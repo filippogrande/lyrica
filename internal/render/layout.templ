@@ -1,11 +1,11 @@
 package render
 
-import "github.com/a-h/templ"
-
 // Layout è la struttura comune di ogni pagina: header, contenuto, footer.
+// L'attributo data-bs-theme NON è impostato qui: lo imposta assets/js/theme.js
+// prima del primo paint, leggendo la preferenza salvata o il tema di sistema.
 templ Layout(d PageData) {
 	<!DOCTYPE html>
-	<html lang={ d.Lang } data-bs-theme="auto">
+	<html lang={ d.Lang }>
 		<head>
 			<meta charset="utf-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -24,9 +24,4 @@ templ Layout(d PageData) {
 			<script src="/assets/js/lyrica.js" defer></script>
 		</body>
 	</html>
-}
-
-// brandLink è l'URL della home nella lingua corrente.
-templ brandLink(d PageData) {
-	<a class="site-brand" href={ templ.URL(d.Path("")) }>Lyrica</a>
 }
