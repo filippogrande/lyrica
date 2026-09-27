@@ -20,6 +20,7 @@ I comandi non ancora implementati **restituiscono un errore esplicito**, non fin
 | **Go 1.27.1** | compilare il binario |
 | **templ v0.3.1020** | i file `.templ` vanno convertiti in Go con `templ generate`. I file generati (`*_templ.go`) **non si committano** (sono in `.gitignore`) |
 | **assets/css/vendor/bootstrap.min.css** | CSS di terze parti servito dal repo: si scarica con `./scripts/fetch-assets.sh` (Bootstrap 5.3.8) |
+| **bash** | `scripts/fetch-assets.sh` ha shebang bash e usa `set -euo pipefail` |
 
 Comandi locali, nell'ordine:
 
@@ -31,6 +32,14 @@ go run ./cmd/lyrica serve
 ```
 
 Senza `templ generate` il progetto **non compila**: la generazione non è opzionale.
+
+## Trappole già pagate
+
+Errori che hanno **già** rotto la CI o la build dell'immagine: non si ripetono.
+
+1. **Nei file `.templ` non si importa `github.com/a-h/templ`.** Il generatore lo importa da sé, e un import esplicito produce `templ redeclared in this block` + `"github.com/a-h/templ" imported and not used` (e, a cascata, `undefined:` su componenti dello stesso package). Se serve un valore tipizzato da templ (es. `templ.SafeURL` per un `href`), lo si costruisce in un **file Go** (`internal/render/model.go`) ed esposto come metodo di `PageData`: il `.templ` lo consuma senza importare nulla.
+2. **`golang:*-alpine` non ha bash.** Lo stage di build dell'immagine deve fare `apk add --no-cache curl bash`, altrimenti `RUN ./scripts/fetch-assets.sh` muore con `env: bash: No such file or directory`.
+3. **`*_templ.go` non si committano mai** (`.gitignore`): sono artefatti di generazione e committarli fa divergere codice e template.
 
 ## Cosa farà `lyrica build`, in ordine (FASE 2)
 
@@ -69,22 +78,22 @@ Sono l'unica forma di test richiesta al lancio (D17) e la loro assenza è un err
 
 ## CI (GitHub Actions)
 
-Il workflow è in `.github/workflows/ci.yml`.
-
-| Evento | Job | Cosa fa |
+| Workflow | Evento | Cosa fa |
 |---|---|---|
-| **Pull Request** e **push su `main`** | `compila` | `go mod tidy` → `templ generate` → `go vet` → `go build` |
-| **Pull Request** (FASE 2) | `valida` | esegue `lyrica build` sui contenuti: se i contenuti sono rotti, la PR è rossa |
-| **Push su `main`** (FASE 5) | `deploy` | build dell'immagine Docker, push nel registry, deploy sul home-lab |
+| `ci.yml` | **Pull Request** e **push su `main`** | job `Compila`: `go mod tidy` → `templ generate` → `go vet` → `go build` |
+| `ci.yml` | **Pull Request** (FASE 2) | job `valida`: esegue `lyrica build` sui contenuti; se i contenuti sono rotti, la PR è rossa |
+| `docker-build-push.yml` | **push su `main`** | build dell'immagine e push su Docker Hub (`:latest` e `:<sha>`) |
 
-Perché esiste il job `compila`: l'ambiente in cui scrive l'agente **non ha un compilatore Go**, quindi la compilazione — e quindi gli errori di sintassi — si verificano qui. Non è un test unitario: è la verifica dell'artefatto.
+Perché esiste il job `Compila`: l'ambiente in cui scrive l'agente **non ha un compilatore Go**, quindi la compilazione — e quindi gli errori di sintassi — si verificano qui. Non è un test unitario: è la verifica dell'artefatto.
 
-## Cache della build Docker (FASE 5)
+Il workflow dell'immagine **non gira sulle PR**: una PR non deve poter pubblicare un tag `latest`. Il deploy sul home-lab resta manuale (`DEPLOY.md`).
 
-Nel `Dockerfile` gli asset e i contenuti si copiano **dopo** il download delle dipendenze Go e **prima** della compilazione, nell'ordine che non invalida la cache a ogni modifica di un testo:
+## Cache della build Docker
 
-1. `go.mod` / `go.sum` → `go mod download`
-2. codice Go → compilazione
-3. `content/`, `covers/`, `assets/`, `locales/` → render finale
+Nel `Dockerfile` i passi sono ordinati perché una modifica a un **testo** non deve invalidare la cache delle dipendenze:
 
-Regola: una modifica a un **testo** non deve invalidare la cache delle dipendenze.
+1. `go.mod` → `go mod download`
+2. codice e asset (`COPY . .`) → `go mod tidy`
+3. `templ generate` → `fetch-assets.sh` → `go build`
+
+L'immagine finale **non** contiene il toolchain Go: solo il binario statico, `assets/` e `locales/`.
