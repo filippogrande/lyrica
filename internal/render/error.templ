@@ -1,5 +1,7 @@
 package render
 
+import "github.com/a-h/templ"
+
 // NotFound è la pagina 404: messaggio breve, con il campo di ricerca (che
 // arriva in FASE 4, vedi SEARCH_DESIGN.md).
 templ NotFound(d PageData) {
@@ -7,7 +9,7 @@ templ NotFound(d PageData) {
 		<section class="error-page">
 			<h1>{ d.T("error.not_found_title") }</h1>
 			<p>{ d.T("error.not_found_body") }</p>
-			<p><a href={ d.Path("") }>{ d.T("error.back_home") }</a></p>
+			<p><a href={ templ.URL(d.Path("")) }>{ d.T("error.back_home") }</a></p>
 		</section>
 	}
 }
