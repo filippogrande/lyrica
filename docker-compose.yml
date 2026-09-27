@@ -13,7 +13,13 @@ services:
       # host:container — la porta host e' da confermare libera (vedi DEPLOY.md)
       - "8085:8080"
     environment:
+      # Default sicuro: il container parte anche senza .env.
       - LYRICA_ADDR=:8080
-    # Il token del bot Telegram (FASE 6) arrivera' da un .env accanto a questo
-    # file, con env_file. Nessun segreto nel repo.
+    env_file:
+      # .env non e' nel repo: si crea dal template .env.example (DEPLOY.md).
+      # required: false -> il primo `docker compose up -d` non fallisce se il
+      # file non c'e' ancora. I segreti (bot Telegram, Umami) arrivano da qui:
+      # mai scritti nel compose, mai committati.
+      - path: .env
+        required: false
     restart: unless-stopped

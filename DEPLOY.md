@@ -2,7 +2,7 @@
 
 ## Dove gira
 
-Home-lab di Filippo, **Docker**, esposto in rete locale; il tunnel **Cloudflare** e il dominio `lyrica.filippomoscatelli.com` arrivano quando il sito ha contenuti (FASE 5). **Non** k3s: in dismissione (D15).
+Home-lab di Filippo, **Docker**, esposto in rete locale; il tunnel **Cloudflare** e il dominio `lyrica.filippomoscatellis.com` arrivano quando il sito ha contenuti (FASE 5). **Non** k3s: in dismissione (D15).
 
 Esiste un container **dalla FASE 1**: il sito si avvia con `docker compose` fin da subito, appena c'è un'immagine pubblicata.
 
@@ -11,7 +11,7 @@ Esiste un container **dalla FASE 1**: il sito si avvia con `docker compose` fin 
 - Registry: **Docker Hub**, `filippogrande/lyrica` (stessa convenzione degli altri repo).
 - Tag: `latest` e `<sha del commit>` — il tag con la SHA serve al rollback.
 - `Dockerfile` **multi-stage**:
-  - stage `build`: `golang:1.27.1-alpine3.24` → dipendenze, `templ generate`, `scripts/fetch-assets.sh` (Bootstrap 5.3.8 dentro l'immagine), binario statico `CGO_ENABLED=0`;
+  - stage `build`: `golang:1.27.1-alpine3.24` → dipendenze, `templ generate`, script asset (Bootstrap 5.3.8 dentro l'immagine), binario statico `CGO_ENABLED=0`;
   - stage finale: `alpine:3.24.2` + `ca-certificates`, utente non privilegiato (`lyrica`, uid 10001), **solo** binario, `assets/` e `locales/`.
 - `HEALTHCHECK` sull'endpoint `/healthz`.
 
@@ -25,13 +25,30 @@ Workflow `.github/workflows/docker-build-push.yml`, su **push su `main`**:
 
 L'immagine **non** viene buildata sulle PR: una PR non deve poter pubblicare un tag `latest`.
 
-## Deploy sul home-lab (manuale)
+## .env: cosa ci va e cosa non ci va
 
-Compose atteso in **`/mnt/applicazioni/yml/docker/lyrica/docker-compose.yml`**, con il file `docker-compose.yml` di questo repo copiato lì.
+Il compose legge un file **`.env`** accanto a sé (`env_file`), che **non sta nel repo**: `.gitignore` esclude `.env` e `.env.*`, ma tiene `.env.example`. Nel repo c'è solo il **template** [`.env.example`](.env.example).
 
-Aggiornamento, dalla cartella del compose:
+Sul home-lab:
 
 ```
+cp .env.example .env
+```
+
+Regole:
+
+- i **segreti** (token del bot Telegram, ecc.) stanno **solo** nel `.env`, mai nel compose, mai nel repo;
+- il compose resta valido anche **senza** `.env` (`required: false`): il container parte con i default;
+- se una variabile non è ancora letta dall'applicazione, resta **commentata** nel template: nessun valore finto che finge di funzionare.
+
+Variabili previste: `LYRICA_ADDR` (attiva), `LYRICA_BASE_URL` (FASE 4/5), `UMAMI_URL`/`UMAMI_SITE_ID` (FASE 5), `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID` (FASE 6).
+
+## Deploy sul home-lab (manuale)
+
+Compose atteso in **`/mnt/applicazioni/yml/docker/lyrica/docker-compose.yml`**, con il `docker-compose.yml` e il `.env` di questo repo copiati lì:
+
+```
+cp .env.example .env
 docker compose pull
 docker compose up -d
 ```
@@ -66,6 +83,7 @@ Per fissare una versione precisa si usa l'immagine `filippogrande/lyrica:<sha>` 
 | Porta 8085 già occupata | il container non parte: `Bind for 0.0.0.0:8085 failed` |
 | Immagine `latest` con un bug | il compose riparte con la stessa immagine rotta: si fa rollback al tag SHA |
 | Secrets Docker Hub assenti/scaduti nel repo | la CI è rossa e `latest` resta quella vecchia (il sito non si rompe, non si aggiorna) |
+| `.env` con una variabile sbagliata | il container parte ma l'app non funziona come previsto: si controlla `docker compose logs` |
 
 ## Perché non c'è deploy automatico dal runner
 
