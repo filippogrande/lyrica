@@ -2,6 +2,7 @@ package content
 
 import (
 	"fmt"
+	"strings"
 	"time"
 
 	"gopkg.in/yaml.v3"
@@ -17,18 +18,32 @@ type Date struct {
 
 const dateLayout = "2006-01-02"
 
-// UnmarshalYAML accetta solo stringhe YYYY-MM-DD.
+// UnmarshalYAML accetta YYYY-MM-DD sia scritta con le virgolette (!!str) sia
+// nuda (che YAML classifica come !!timestamp: sono la stessa data, e il formato
+// documentato è senza virgolette). Qualsiasi altro tipo è un errore.
 func (d *Date) UnmarshalYAML(value *yaml.Node) error {
-	var raw string
-	if err := value.Decode(&raw); err != nil {
-		return fmt.Errorf("data attesa come stringa YYYY-MM-DD: %w", err)
+	switch value.Tag {
+	case "!!timestamp":
+		var parsed time.Time
+		if err := value.Decode(&parsed); err != nil {
+			return fmt.Errorf("data non valida: %w", err)
+		}
+		d.t = time.Date(parsed.Year(), parsed.Month(), parsed.Day(), 0, 0, 0, 0, time.UTC)
+		return nil
+	case "!!str":
+		var raw string
+		if err := value.Decode(&raw); err != nil {
+			return fmt.Errorf("data non valida: %w", err)
+		}
+		parsed, err := time.Parse(dateLayout, strings.TrimSpace(raw))
+		if err != nil {
+			return fmt.Errorf("data %q non valida: il formato e' YYYY-MM-DD", raw)
+		}
+		d.t = parsed
+		return nil
+	default:
+		return fmt.Errorf("data attesa come YYYY-MM-DD, trovato un valore di tipo %s", value.Tag)
 	}
-	parsed, err := time.Parse(dateLayout, raw)
-	if err != nil {
-		return fmt.Errorf("data %q non valida: il formato e' YYYY-MM-DD", raw)
-	}
-	d.t = parsed
-	return nil
 }
 
 // IsZero dice se la data non è stata impostata.
