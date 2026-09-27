@@ -50,6 +50,10 @@ readonly FANART_CLIENT_KEY_FILE="${HOME}/.fanart_client_key"
 readonly COVERS_DIR="covers"
 # MusicBrainz chiede un User-Agent che identifichi chi chiama.
 readonly USER_AGENT="lyrica-covers/1.0 (+https://github.com/filippogrande/lyrica)"
+# Ripetizioni sulle risposte "troppe richieste"/errore server: in blocco l'API
+# risponde 429 (e fanart.tv risponde 403 quando si supera il limite orario).
+readonly RETRY_TRIES=3
+readonly RETRY_WAIT=5
 
 IM=""
 # Su ImageMagick 7 si usa `magick identify`; su ImageMagick 6 `identify` è un
@@ -110,6 +114,29 @@ cleanup() {
 }
 
 trap cleanup EXIT
+
+# http_code_with_retry scarica in un file e stampa il codice HTTP finale,
+# ripetendo quando il server chiede di rallentare (429) o sbaglia lui (5xx).
+# Senza questo, un "troppe richieste" qualunque fa fallire l'immagine e lascia
+# credere che l'archivio non ce l'abbia.
+http_code_with_retry() {
+	local out="$1" url="$2" tries="$RETRY_TRIES" wait="$RETRY_WAIT" code=""
+	shift 2
+	while :; do
+		code="$(curl -sSL -o "$out" -w '%{http_code}' "$@" "$url")" || code="000"
+		case "$code" in
+		429 | 5??)
+			tries=$((tries - 1))
+			if [ "$tries" -le 0 ]; then break; fi
+			echo "  il server ha risposto $code: riprovo fra ${wait}s" >&2
+			sleep "$wait"
+			wait=$((wait * 2))
+			;;
+		*) break ;;
+		esac
+	done
+	printf '%s' "$code"
+}
 
 # require_tools verifica ciò che serve PRIMA di scaricare qualcosa, e sceglie
 # i nomi giusti dei comandi di ImageMagick (7: magick; 6: convert + identify).
@@ -196,12 +223,12 @@ write_line() {
 fetch_cover() {
 	local mbid="$1" target="$2" code=""
 	echo "cover di un album dal Cover Art Archive ($mbid)..." >&2
-	code="$(curl -sSL -o "${TMP_DIR}/cover" -w '%{http_code}' --max-time 120 -A "$USER_AGENT" \
-		"${CAA_URL}/release-group/${mbid}/front-1200")" \
-		|| die "errore di rete verso il Cover Art Archive ($mbid)"
+	code="$(http_code_with_retry "${TMP_DIR}/cover" "${CAA_URL}/release-group/${mbid}/front-1200" \
+		--max-time 120 -A "$USER_AGENT")"
 	case "$code" in
 	200) ;;
 	404) missing_or_die "nessuna cover per il release group $mbid sul Cover Art Archive" ;;
+	429) die "il Cover Art Archive chiede di rallentare (429) anche dopo ${RETRY_TRIES} tentativi: rilancia fra qualche minuto" ;;
 	*) die "risposta inattesa dal Cover Art Archive per $mbid (HTTP $code)" ;;
 	esac
 	to_webp "${TMP_DIR}/cover" "$target"
@@ -239,8 +266,10 @@ print(best.get("url", ""))
 PY
 }
 
-# fetch_band: la chiave rifiutata (401/403) è un errore, l'artista o la foto
-# assenti (404) sono "l'archivio non ce l'ha".
+# fetch_band: la chiave rifiutata (401) è un errore di configurazione; il 403
+# può essere la chiave O il limite di chiamate superato (fanart.tv usa 403 per
+# entrambi), e il messaggio lo dice invece di far credere a una chiave sbagliata.
+# L'artista o la foto assenti (404) sono "l'archivio non ce l'ha".
 fetch_band() {
 	local mbid="$1" target="$2" info="" name="" url="" code=""
 	local -a headers=()
@@ -249,12 +278,13 @@ fetch_band() {
 	if [ -n "$FANART_PROJECT" ]; then headers+=(-H "api-key: ${FANART_PROJECT}"); fi
 	if [ -n "$FANART_PERSONAL" ]; then headers+=(-H "client-key: ${FANART_PERSONAL}"); fi
 	echo "foto della band da fanart.tv ($mbid)..." >&2
-	code="$(curl -sS -o "${TMP_DIR}/artist.json" -w '%{http_code}' --max-time 60 "${headers[@]}" \
-		"${FANART_API}/${mbid}")" || die "errore di rete verso fanart.tv ($mbid)"
+	code="$(http_code_with_retry "${TMP_DIR}/artist.json" "${FANART_API}/${mbid}" \
+		--max-time 60 "${headers[@]}")"
 	case "$code" in
 	200) ;;
 	404) missing_or_die "nessuna scheda per l'artista $mbid su fanart.tv" ;;
-	401 | 403) die "chiave fanart.tv rifiutata (HTTP $code): controlla FANART_API_KEY / FANART_CLIENT_KEY" ;;
+	401) die "chiave fanart.tv rifiutata (HTTP 401): controlla FANART_API_KEY / FANART_CLIENT_KEY" ;;
+	403) die "fanart.tv ha risposto 403 anche dopo ${RETRY_TRIES} tentativi: o la chiave non vale, o hai superato il limite di chiamate (riprova più tardi)" ;;
 	*) die "risposta inattesa da fanart.tv per $mbid (HTTP $code)" ;;
 	esac
 	info="$(artist_thumb "${TMP_DIR}/artist.json")" \
