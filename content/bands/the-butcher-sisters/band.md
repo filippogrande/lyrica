@@ -7,5 +7,5 @@ original_langs: ["de"]
 formed_year: 2011
 members: ["Alexander Bechtel", "Nicklas Stroppel", "Manuel Renner", "David Schneider", "Kai Richler", "Bastian Gölz"]
 description: >
-  Band di Mannheim attiva dal 2011, a meta fra Deutschrap, metal e beatdown hardcore: una voce fuori dal coro della scena tedesca.
+  Band di Mannheim attiva dal 2011, a metà fra Deutschrap, metal e beatdown hardcore.
 ---
