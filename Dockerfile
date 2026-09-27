@@ -26,8 +26,11 @@ RUN go mod tidy
 # 3) i file .templ diventano Go: senza questo passo il progetto non compila
 RUN go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate
 
-# 4) CSS di terze parti (Bootstrap 5.3.8) dentro l'immagine
-RUN ./scripts/fetch-assets.sh
+# 4) CSS di terze parti (Bootstrap 5.3.8) dentro l'immagine.
+# Invocato come "bash scripts/..." e NON "./scripts/...": il file non ha il bit
+# di esecuzione nel repo (i commit passano dalle API), quindi "./" fallisce
+# con exit 126 / Permission denied.
+RUN bash scripts/fetch-assets.sh
 
 # 5) binario statico
 RUN CGO_ENABLED=0 go build -trimpath -ldflags="-s -w" -o /out/lyrica ./cmd/lyrica

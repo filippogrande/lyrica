@@ -34,10 +34,10 @@ L'immagine viene buildata e pubblicata **automaticamente** da GitHub Actions a o
 
 ## Avvio in locale senza Docker
 
-Serve **Go 1.27.1** e la CLI **templ**.
+Serve **Go 1.27.1** e la CLI **templ**. Nota: lo script degli asset si invoca con `bash`, non con `./` (nel repo non ha il bit di esecuzione).
 
 ```
-./scripts/fetch-assets.sh                                  # scarica Bootstrap 5.3.8 (una volta)
+bash scripts/fetch-assets.sh                               # scarica Bootstrap 5.3.8 (una volta)
 go mod tidy
 go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate   # dopo ogni modifica ai file .templ
 go run ./cmd/lyrica serve                                  # http://localhost:8080

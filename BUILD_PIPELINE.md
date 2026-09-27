@@ -19,17 +19,20 @@ I comandi non ancora implementati **restituiscono un errore esplicito**, non fin
 |---|---|
 | **Go 1.27.1** | compilare il binario |
 | **templ v0.3.1020** | i file `.templ` vanno convertiti in Go con `templ generate`. I file generati (`*_templ.go`) **non si committano** (sono in `.gitignore`) |
-| **assets/css/vendor/bootstrap.min.css** | CSS di terze parti servito dal repo: si scarica con `./scripts/fetch-assets.sh` (Bootstrap 5.3.8) |
-| **bash** | `scripts/fetch-assets.sh` ha shebang bash e usa `set -euo pipefail` |
+| **assets/css/vendor/bootstrap.min.css** | CSS di terze parti servito dal repo: si scarica con lo script asset (Bootstrap 5.3.8) |
+| **bash** | lo script asset ha shebang bash e usa `set -euo pipefail` |
+| **curl** | download di Bootstrap |
 
 Comandi locali, nell'ordine:
 
 ```
-./scripts/fetch-assets.sh                                  # una volta (o quando cambi versione)
+bash scripts/fetch-assets.sh                               # una volta (o quando cambi versione)
 go mod tidy
 go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate   # dopo ogni modifica ai .templ
 go run ./cmd/lyrica serve
 ```
+
+**Lo script si invoca con `bash` esplicito, non con `./`**: nel repo il file non ha il bit di esecuzione. Se lo vuoi eseguibile nella tua copia locale, basta `chmod +x scripts/fetch-assets.sh` (e non committare il cambio di permessi per sbaglio).
 
 Senza `templ generate` il progetto **non compila**: la generazione non è opzionale.
 
@@ -38,8 +41,9 @@ Senza `templ generate` il progetto **non compila**: la generazione non è opzion
 Errori che hanno **già** rotto la CI o la build dell'immagine: non si ripetono.
 
 1. **Nei file `.templ` non si importa `github.com/a-h/templ`.** Il generatore lo importa da sé, e un import esplicito produce `templ redeclared in this block` + `"github.com/a-h/templ" imported and not used` (e, a cascata, `undefined:` su componenti dello stesso package). Se serve un valore tipizzato da templ (es. `templ.SafeURL` per un `href`), lo si costruisce in un **file Go** (`internal/render/model.go`) ed esposto come metodo di `PageData`: il `.templ` lo consuma senza importare nulla.
-2. **`golang:*-alpine` non ha bash.** Lo stage di build dell'immagine deve fare `apk add --no-cache curl bash`, altrimenti `RUN ./scripts/fetch-assets.sh` muore con `env: bash: No such file or directory`.
-3. **`*_templ.go` non si committano mai** (`.gitignore`): sono artefatti di generazione e committarli fa divergere codice e template.
+2. **`golang:*-alpine` non ha bash.** Lo stage di build dell'immagine deve fare `apk add --no-cache curl bash`, altrimenti lo script asset muore con `env: bash: No such file or directory`.
+3. **Lo script asset si invoca come `bash scripts/fetch-assets.sh`.** Nel repo non ha il bit di esecuzione: `./scripts/fetch-assets.sh` fallisce con **exit 126** (`did not complete successfully: exit code: 126`) e fa fallire la build dell'immagine.
+4. **`*_templ.go` non si committano mai** (`.gitignore`): sono artefatti di generazione e committarli fa divergere codice e template.
 
 ## Cosa farà `lyrica build`, in ordine (FASE 2)
 
@@ -94,6 +98,6 @@ Nel `Dockerfile` i passi sono ordinati perché una modifica a un **testo** non d
 
 1. `go.mod` → `go mod download`
 2. codice e asset (`COPY . .`) → `go mod tidy`
-3. `templ generate` → `fetch-assets.sh` → `go build`
+3. `templ generate` → script asset → `go build`
 
 L'immagine finale **non** contiene il toolchain Go: solo il binario statico, `assets/` e `locales/`.
