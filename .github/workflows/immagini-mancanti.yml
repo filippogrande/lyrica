@@ -11,6 +11,11 @@ name: Immagini mancanti
 #
 # Il report con gli esiti finisce nel riepilogo del run (Summary): leggi quello
 # prima di mergiare, perché la corrispondenza è automatica (D86).
+#
+# Un'immagine che non riesce NON deve far perdere le altre: il passo che scarica
+# non blocca il job (continue-on-error), così la PR si apre lo stesso con quelle
+# riuscite, e il job risulta rosso alla fine per segnalare che qualcosa è andato
+# storto (il motivo sta nel report).
 
 on:
   workflow_dispatch:
@@ -38,6 +43,8 @@ jobs:
       # L'input passa dall'ambiente, non interpolato nel comando: un valore
       # scritto a mano non deve poter eseguire codice nel runner.
       - name: Riempie le immagini mancanti
+        id: scarica
+        continue-on-error: true
         env:
           BAND: ${{ inputs.band }}
           FANART_API_KEY: ${{ secrets.FANART_API_KEY }}
@@ -75,3 +82,11 @@ jobs:
           File toccati: ${FILE}
 
           **Guardale prima di mergiare.** La corrispondenza è automatica (nome della band; titolo e anno dell'album), quindi può pescare la release sbagliata (live, compilation, edizione estera). Il report degli esiti è nel riepilogo di questo run: Actions -> il run -> Summary."
+
+      # Il job resta rosso se qualche immagine non è riuscita, ma la PR è già
+      # aperta: il rosso è il promemoria, non la perdita del lavoro fatto.
+      - name: Segnala le immagini non riuscite
+        if: steps.scarica.outcome == 'failure'
+        run: |
+          echo "::error::alcune immagini non sono riuscite: guarda il report nel riepilogo del run"
+          exit 1

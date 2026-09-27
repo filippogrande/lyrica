@@ -52,6 +52,10 @@ readonly COVERS_DIR="covers"
 readonly USER_AGENT="lyrica-covers/1.0 (+https://github.com/filippogrande/lyrica)"
 
 IM=""
+# Su ImageMagick 7 si usa `magick identify`; su ImageMagick 6 `identify` è un
+# binario a sé: chiamare `convert identify` non esiste e la conversione non
+# arriva mai in fondo.
+IM_IDENTIFY=""
 TMP_DIR=""
 FANART_PROJECT=""
 FANART_PERSONAL=""
@@ -107,14 +111,19 @@ cleanup() {
 
 trap cleanup EXIT
 
-# require_tools verifica ciò che serve PRIMA di scaricare qualcosa.
+# require_tools verifica ciò che serve PRIMA di scaricare qualcosa, e sceglie
+# i nomi giusti dei comandi di ImageMagick (7: magick; 6: convert + identify).
 require_tools() {
 	command -v curl >/dev/null 2>&1 || die "manca curl"
 	command -v python3 >/dev/null 2>&1 || die "manca python3 (serve per leggere la risposta di fanart.tv)"
 	if command -v magick >/dev/null 2>&1; then
 		IM="magick"
+		IM_IDENTIFY="magick identify"
 	elif command -v convert >/dev/null 2>&1; then
 		IM="convert"
+		IM_IDENTIFY="identify"
+		command -v identify >/dev/null 2>&1 \
+			|| die "ImageMagick 6 senza il binario identify: reinstallalo (niente conversioni a metà)"
 	else
 		die "manca ImageMagick: installalo (macOS: brew install imagemagick) — niente conversioni a metà"
 	fi
@@ -146,13 +155,28 @@ prepare_target() {
 }
 
 # to_webp converte in 600x600 webp quadrato (ritaglio centrale) e verifica il
-# risultato: se non è 600x600 webp, non si scrive niente.
+# risultato: se non è 600x600 webp, non si scrive niente. Un file scritto a
+# metà viene cancellato: in covers/ non deve restare niente di rotto, perché
+# il resto del flusso considera presente qualunque file col nome giusto.
 to_webp() {
 	local source="$1" target="$2" dims=""
-	"$IM" "$source" -resize "${SIZE}x${SIZE}^" -gravity center -extent "${SIZE}x${SIZE}" \
-		-quality "$QUALITY" -strip "$target" || die "conversione fallita: $source"
-	dims="$("$IM" identify -format '%wx%h %m' "$target")"
-	[ "$dims" = "${SIZE}x${SIZE} WEBP" ] || die "conversione inattesa: $target risulta $dims"
+	if ! "$IM" "$source" -resize "${SIZE}x${SIZE}^" -gravity center -extent "${SIZE}x${SIZE}" \
+		-quality "$QUALITY" -strip "$target"; then
+		rm -f "$target"
+		die "conversione fallita: $source"
+	fi
+	# IM_IDENTIFY è volutamente senza virgolette: su ImageMagick 7 sono due
+	# parole («magick identify»), su ImageMagick 6 un binario solo.
+	# shellcheck disable=SC2086
+	if ! dims="$($IM_IDENTIFY -format '%wx%h %m' "$target")"; then
+		rm -f "$target"
+		die "non riesco a leggere le dimensioni di $target"
+	fi
+	if [ "$dims" != "${SIZE}x${SIZE} WEBP" ]; then
+		rm -f "$target"
+		die "conversione inattesa: $target risulta $dims"
+	fi
+	return 0
 }
 
 write_line() {
@@ -166,11 +190,13 @@ write_line() {
 }
 
 # fetch_cover chiede la cover al Cover Art Archive e distingue il 404 (l'album
-# non ha cover) da un errore di rete.
+# non ha cover) da un errore di rete. Il Cover Art Archive risponde 307 verso
+# archive.org, quindi il redirect va seguito (-L): senza, ogni cover sembra un
+# errore.
 fetch_cover() {
 	local mbid="$1" target="$2" code=""
 	echo "cover di un album dal Cover Art Archive ($mbid)..." >&2
-	code="$(curl -sS -o "${TMP_DIR}/cover" -w '%{http_code}' --max-time 120 -A "$USER_AGENT" \
+	code="$(curl -sSL -o "${TMP_DIR}/cover" -w '%{http_code}' --max-time 120 -A "$USER_AGENT" \
 		"${CAA_URL}/release-group/${mbid}/front-1200")" \
 		|| die "errore di rete verso il Cover Art Archive ($mbid)"
 	case "$code" in
