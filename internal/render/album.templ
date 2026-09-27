@@ -1,0 +1,44 @@
+package render
+
+// Album è la pagina di un album: copertina (se c'è), tracklist nell'ordine
+// dichiarato in album.md. I brani senza traduzione restano in elenco ma non
+// sono linkati; gli strumentali sono segnalati.
+templ Album(v AlbumView) {
+	@Layout(v.Page) {
+		@breadcrumb(v.Page.T("a11y.breadcrumb"), v.Crumbs)
+		<h1 class="page-title">{ v.Title }</h1>
+		<p class="album-meta">
+			<a href={ v.BandURL }>{ v.BandName }</a>
+			if v.YearText != "" {
+				<span class="album-year">{ v.YearText }</span>
+			}
+		</p>
+		if v.ShowCover {
+			<figure class="album-cover">
+				<img src={ v.CoverURL } alt={ v.CoverAlt } width="600" height="600" loading="lazy"/>
+			</figure>
+		}
+		<section class="page-section">
+			<h2 class="section-title">{ v.Page.T("album.tracks") }</h2>
+			<ol class="track-items">
+				for _, row := range v.Tracklist {
+					<li class="track-item">
+						if row.Linked {
+							<a class="track-item-title" href={ row.URL }>{ row.Title }</a>
+						} else {
+							<span class="track-item-title">{ row.Title }</span>
+							if row.Instrumental {
+								<span class="track-flag">{ v.Page.T("track.instrumental") }</span>
+							} else {
+								<span class="track-flag">{ v.Page.T("track.only_original") }</span>
+							}
+						}
+						if row.LangsText != "" {
+							<span class="track-item-langs">{ row.LangsText }</span>
+						}
+					</li>
+				}
+			</ol>
+		</section>
+	}
+}

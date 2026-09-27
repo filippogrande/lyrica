@@ -1,0 +1,44 @@
+package render
+
+// Band è la pagina di una band: anagrafica, album pubblicati, breadcrumb.
+templ Band(v BandView) {
+	@Layout(v.Page) {
+		@breadcrumb(v.Page.T("a11y.breadcrumb"), v.Crumbs)
+		<h1 class="page-title">{ v.Name }</h1>
+		<dl class="band-facts">
+			if v.Country != "" {
+				<dt>{ v.Page.T("band.country") }</dt>
+				<dd>{ v.Country }</dd>
+			}
+			if v.FormedText != "" {
+				<dt>{ v.Page.T("band.formed") }</dt>
+				<dd>{ v.FormedText }</dd>
+			}
+			if v.MembersText != "" {
+				<dt>{ v.Page.T("band.members") }</dt>
+				<dd>{ v.MembersText }</dd>
+			}
+			if v.TagsText != "" {
+				<dt>{ v.Page.T("band.tags") }</dt>
+				<dd>{ v.TagsText }</dd>
+			}
+		</dl>
+		if v.Description != "" {
+			<p class="band-description">{ v.Description }</p>
+		}
+		<section class="page-section">
+			<h2 class="section-title">{ v.Page.T("band.albums") }</h2>
+			<ul class="album-list">
+				for _, album := range v.Albums {
+					<li class="album-list-item">
+						<a class="album-list-title" href={ album.URL }>{ album.Title }</a>
+						if album.YearText != "" {
+							<span class="album-list-year">{ album.YearText }</span>
+						}
+						<span class="album-list-tracks">{ v.Page.T("album.tracks") }: { album.TracksText }</span>
+					</li>
+				}
+			</ul>
+		</section>
+	}
+}

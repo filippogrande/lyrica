@@ -1,15 +1,49 @@
 package render
 
-// Home è la pagina iniziale: in evidenza, contatori e recenti arrivano con i
-// contenuti (FASE 2-3). Fino ad allora lo stato vuoto è dichiarato, non finto.
-templ Home(d PageData) {
-	@Layout(d) {
+// Home è la pagina iniziale: in evidenza, brani recenti ed elenco delle band.
+// Se non c'è nulla da mostrare lo stato vuoto è dichiarato, non finto.
+templ Home(v HomeView) {
+	@Layout(v.Page) {
 		<section class="home-hero">
-			<h1 class="home-title">Lyrica</h1>
-			<p class="lead">{ d.T("home.lead") }</p>
+			<h1 class="home-title">{ v.Page.T("home.title") }</h1>
+			<p class="lead">{ v.Page.T("home.lead") }</p>
 		</section>
-		<section class="empty-state" aria-live="polite">
-			<p>{ d.T("home.no_content") }</p>
-		</section>
+		if v.HasContent() {
+			if len(v.Featured) > 0 {
+				<section class="home-section">
+					<h2 class="section-title">{ v.Page.T("home.featured") }</h2>
+					@trackList(v.Featured)
+				</section>
+			}
+			<section class="home-section">
+				<h2 class="section-title">{ v.Page.T("home.recent") }</h2>
+				@trackList(v.Recent)
+			</section>
+			if len(v.Bands) > 0 {
+				<section class="home-section">
+					<h2 class="section-title">{ v.Page.T("home.bands") }</h2>
+					@bandList(v.Page, v.Bands)
+				</section>
+			}
+		} else {
+			<section class="empty-state">
+				<p>{ v.Page.T("home.no_content") }</p>
+			</section>
+		}
 	}
+}
+
+// trackList è l'elenco dei brani: si usa in home e nelle sezioni di elenco.
+templ trackList(cards []TrackCard) {
+	<ul class="track-list">
+		for _, card := range cards {
+			<li class="track-list-item">
+				<a class="track-list-title" href={ card.URL }>{ card.Title }</a>
+				<span class="track-list-meta">{ card.MetaText }</span>
+				if card.LangsText != "" {
+					<span class="track-list-langs">{ card.LangsText }</span>
+				}
+			</li>
+		}
+	</ul>
 }

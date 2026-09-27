@@ -1,0 +1,66 @@
+package render
+
+// Track è la pagina di un brano: originale a sinistra, traduzione a destra.
+// Sotto il titolo ci sono i dati del brano; il nome del cantante compare sopra
+// la strofa solo se il contenuto lo dichiara (brani multi-voce).
+templ Track(v TrackView) {
+	@Layout(v.Page) {
+		@breadcrumb(v.Page.T("a11y.breadcrumb"), v.Crumbs)
+		<header class="track-header">
+			<h1 class="page-title">{ v.Title }</h1>
+			<p class="track-meta">
+				<a href={ v.BandURL }>{ v.BandName }</a>
+				<a href={ v.AlbumURL }>{ v.AlbumTitle }</a>
+				if v.DateText != "" {
+					<span class="track-date">{ v.Page.T("track.added") }: { v.DateText }</span>
+				}
+			</p>
+			if v.SingersText != "" {
+				<p class="track-singers">{ v.Page.T("track.singers") }: { v.SingersText }</p>
+			}
+		</header>
+		<div class="track-blocks">
+			<section class="block" lang={ v.Original.Lang }>
+				<h2 class="block-title">
+					{ v.Page.T("track.original") }
+					<span class="block-lang">{ v.Original.Lang }</span>
+				</h2>
+				@stanzas(v.Original)
+			</section>
+			if v.HasTranslation {
+				<section class="block" lang={ v.Translation.Lang }>
+					<h2 class="block-title">
+						{ v.Page.T("track.translation") }
+						<span class="block-lang">{ v.Translation.Lang }</span>
+					</h2>
+					@stanzas(v.Translation)
+				</section>
+			} else {
+				<section class="block">
+					<h2 class="block-title">{ v.Page.T("track.translation") }</h2>
+					<p class="empty-state">{ v.Page.T("track.no_translation") }</p>
+				</section>
+			}
+		</div>
+	}
+}
+
+// stanzas stampa le strofe di un blocco: un verso per riga, nessuna
+// annotazione per verso (decisione di prodotto: le note per verso non
+// esistono nello schema).
+templ stanzas(block BlockView) {
+	<div class="stanzas">
+		for _, stanza := range block.Stanzas {
+			<div class="stanza">
+				if stanza.Singer != "" {
+					<p class="stanza-singer">{ stanza.Singer }</p>
+				}
+				<p class="stanza-lines">
+					for _, line := range stanza.Lines {
+						<span class="verse">{ line }</span>
+					}
+				</p>
+			</div>
+		}
+	</div>
+}
