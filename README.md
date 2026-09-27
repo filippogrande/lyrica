@@ -10,14 +10,29 @@ Sito web che raccoglie **traduzioni di testi musicali** (lyric) di qualsiasi ban
 
 **FASE 0 (documentazione) chiusa. FASE 1 (fondamenta) in corso.**
 
-Esiste lo scheletro: server Go, routing di base, layout con header/footer, tema chiaro/scuro e controllo dimensione testo. **Non esistono ancora contenuti**: nessuna band, nessun brano, nessuna pagina pubblica oltre a home e 404.
+Esiste lo scheletro: server Go in container, routing di base, layout con header/footer, tema chiaro/scuro e controllo dimensione testo. **Non esistono ancora contenuti**: nessuna band, nessun brano, nessuna pagina pubblica oltre a home e 404.
 
 - Piano e criteri di chiusura per fase → [`ROADMAP.md`](ROADMAP.md)
-- Decisioni prese (D01–D71) → [`DECISION.md`](DECISION.md)
+- Decisioni prese (D01–D73) → [`DECISION.md`](DECISION.md)
 - Cosa fa il sito → [`SPEC.md`](SPEC.md)
 - Come è fatto → [`ARCHITECTURE.md`](ARCHITECTURE.md)
 
-## Come si esegue in locale
+## Avvio rapido con Docker
+
+L'immagine è su Docker Hub (`filippogrande/lyrica`) e il `docker-compose.yml` è in questo repo.
+
+```
+docker compose pull
+docker compose up -d
+```
+
+Il sito risponde su **http://localhost:8085** (porta host; la 8080 è quella interna al container).
+
+Compose usato sul home-lab: `/mnt/applicazioni/yml/docker/lyrica/docker-compose.yml` — dettagli, verifica e rollback in [`DEPLOY.md`](DEPLOY.md).
+
+L'immagine viene buildata e pubblicata **automaticamente** da GitHub Actions a ogni push su `main` (tag `latest` e `<sha>`).
+
+## Avvio in locale senza Docker
 
 Serve **Go 1.27.1** e la CLI **templ**.
 
@@ -34,7 +49,7 @@ Altri comandi: `lyrica help`, `lyrica build` e `lyrica new` (arrivano in FASE 2;
 
 ## Stack in una riga
 
-Go + Templ per l'HTML, HTMX per le interazioni, Bootstrap 5 CSS-only per il layout, contenuti in Markdown/YAML nel repo, **build-time static site**, deploy su Docker nel home-lab dietro Cloudflare Tunnel.
+Go + Templ per l'HTML, HTMX per le interazioni, Bootstrap 5 CSS-only per il layout, contenuti in Markdown/YAML nel repo, **build-time static site**, container Docker dietro Cloudflare Tunnel.
 
 ## Struttura del repo
 
@@ -47,11 +62,13 @@ Go + Templ per l'HTML, HTMX per le interazioni, Bootstrap 5 CSS-only per il layo
 │   └── web/             # server HTTP: routing, handler, header di sicurezza
 ├── locales/             # stringhe UI per lingua (it.yaml, ...)
 ├── assets/
-│   ├── css/             # CSS custom + vendor/ (Bootstrap, non committato)
+│   ├── css/             # CSS custom + vendor/ (Bootstrap, scaricato, non committato)
 │   └── js/              # theme.js (tema prima del paint), lyrica.js (interazioni)
 ├── scripts/             # fetch-assets.sh
 ├── content/             # (FASE 2) band, album, brani e traduzioni
 ├── covers/              # (FASE 2) copertine 600x600 webp, nome = slug album
+├── Dockerfile           # immagine multi-stage (build + runtime minimale)
+├── docker-compose.yml   # avvio sul home-lab
 ├── ads.yaml             # (FASE 6) configurazione slot pubblicitari
 └── *.md                 # questa documentazione
 ```
