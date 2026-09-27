@@ -1,6 +1,7 @@
 package content
 
 import (
+	"os"
 	"path/filepath"
 	"strings"
 )
@@ -21,11 +22,31 @@ func validateBand(catalog *Catalog, band *Band, opts Options, report *Report) {
 	if len(band.Albums) == 0 {
 		report.Warnf(where, "band senza album pubblicati: non compare nell'elenco finché non ne ha uno con traduzioni")
 	}
+	checkBandImage(band, opts, report)
 	checkDuplicateAlbums(band, report)
 	for _, album := range band.Albums {
 		validateAlbum(catalog, album, opts, report)
 	}
 	checkLinks(catalog, where, band.Description, report)
+}
+
+// checkBandImage verifica la regola 10: se la foto della band è dichiarata deve
+// esistere in covers/. Senza foto la card usa il segnaposto con le iniziali:
+// è un avviso, non un errore (una band può restare tipografica).
+func checkBandImage(band *Band, opts Options, report *Report) {
+	if strings.TrimSpace(band.Image) == "" {
+		report.Warnf(band.Directory, "band senza immagine: la card usa il segnaposto con le iniziali")
+		return
+	}
+	path := filepath.Join(opts.CoversDir, band.Image)
+	info, err := os.Stat(path)
+	if err != nil {
+		report.Errorf(band.Directory, "immagine %q non trovata in %s (regola 10)", band.Image, opts.CoversDir)
+		return
+	}
+	if info.IsDir() {
+		report.Errorf(band.Directory, "immagine %q è una cartella, non un file (regola 10)", band.Image)
+	}
 }
 
 // checkDuplicateAlbums verifica la regola 2 fra album della stessa band.

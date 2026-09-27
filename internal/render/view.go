@@ -9,6 +9,10 @@ import (
 	"github.com/filippogrande/lyrica/internal/content"
 )
 
+// railLimit è quante card entrano in una corsia. Oltre, la home smetterebbe di
+// essere "le novità" e diventerebbe un archivio da scaricare tutto.
+const railLimit = 12
+
 // Crumb è una voce del breadcrumb.
 type Crumb struct {
 	Label   string
@@ -16,16 +20,27 @@ type Crumb struct {
 	Current bool
 }
 
-// TrackCard è un brano in un elenco (home, sezioni "in evidenza"/"recenti").
-type TrackCard struct {
-	Title     string
-	URL       templ.SafeURL
-	MetaText  string
-	DateText  string
-	LangsText string
+// RailCard è una card di una corsia orizzontale: immagine (o segnaposto),
+// titolo e una riga di informazioni.
+type RailCard struct {
+	URL      templ.SafeURL
+	ImageURL templ.SafeURL
+	HasImage bool
+	// ImageAlt è vuoto quando il titolo è nella stessa card: l'immagine è
+	// decorativa e ripetere il titolo farebbe rumore a uno screen reader.
+	ImageAlt string
+	// Initial è la lettera del segnaposto, usata quando HasImage è false.
+	Initial string
+	Title   string
+	Meta    string
+}
 
-	// added serve solo a ordinare i recenti: non si stampa.
-	added content.Date
+// Rail è una corsia orizzontale della home.
+type Rail struct {
+	Title    string
+	MoreURL  templ.SafeURL
+	MoreText string
+	Cards    []RailCard
 }
 
 // BandCard è una band in un elenco.
@@ -34,8 +49,13 @@ type BandCard struct {
 	URL         templ.SafeURL
 	Country     string
 	TagsText    string
-	Description string
 	AlbumsText  string
+	Description string
+	// MetaText è la riga unica delle corsie: paese, generi, numero di album.
+	MetaText string
+	ImageURL templ.SafeURL
+	HasImage bool
+	Initial  string
 }
 
 // AlbumCard è un album elencato nella pagina di una band.
@@ -70,16 +90,14 @@ type BlockView struct {
 	Stanzas    []StanzaView
 }
 
-// HomeView sono i dati della home.
+// HomeView sono i dati della home: una sequenza di corsie.
 type HomeView struct {
-	Page     PageData
-	Featured []TrackCard
-	Recent   []TrackCard
-	Bands    []BandCard
+	Page  PageData
+	Rails []Rail
 }
 
-// HasContent dice se il sito ha qualcosa da mostrare in home.
-func (v HomeView) HasContent() bool { return len(v.Recent) > 0 }
+// HasContent dice se la home ha qualcosa da mostrare.
+func (v HomeView) HasContent() bool { return len(v.Rails) > 0 }
 
 // BandsView sono i dati della pagina con l'elenco delle band.
 type BandsView struct {
@@ -97,6 +115,8 @@ type BandView struct {
 	MembersText string
 	TagsText    string
 	Description string
+	ImageURL    templ.SafeURL
+	HasImage    bool
 	Albums      []AlbumCard
 }
 
@@ -130,24 +150,185 @@ type TrackView struct {
 	HasTranslation bool
 }
 
-// BuildHomeView assembla la home: in evidenza, recenti ed elenco delle band.
+// trackEntry è un brano pubblicato con la sua band e il suo album.
+type trackEntry struct {
+	band  *content.Band
+	album *content.Album
+	track *content.Track
+}
+
+// BuildHomeView assembla la home: corsie "in evidenza", "ultimi brani",
+// "ultime band". Una corsia senza contenuti non esiste nel DOM.
 func BuildHomeView(page PageData, catalog *content.Catalog) HomeView {
-	view := HomeView{Page: page, Bands: BuildBandCards(page, catalog.Bands)}
-	forEachPublishedTrack(catalog, func(band *content.Band, album *content.Album, track *content.Track) {
-		card := newTrackCard(page, band, album, track)
-		view.Recent = append(view.Recent, card)
-		if track.Featured {
-			view.Featured = append(view.Featured, card)
-		}
-	})
-	sortCardsByDate(view.Recent)
-	sortCardsByDate(view.Featured)
+	entries := collectPublishedTracks(catalog)
+	sortTrackEntries(entries)
+
+	view := HomeView{Page: page}
+	if featured := filterFeatured(entries); len(featured) > 0 {
+		view.Rails = append(view.Rails, newTrackRail(page.T("home.featured"), featured, ""))
+	}
+	if len(entries) > 0 {
+		view.Rails = append(view.Rails, newTrackRail(page.T("home.recent"), entries, ""))
+	}
+	if bands := latestBands(catalog); len(bands) > 0 {
+		view.Rails = append(view.Rails, newBandRail(page, bands))
+	}
 	return view
 }
 
+// collectPublishedTracks visita i brani pubblicati: quelli con almeno una
+// traduzione. Un brano senza traduzioni resta in tracklist ma non ha pagina.
+func collectPublishedTracks(catalog *content.Catalog) []trackEntry {
+	var entries []trackEntry
+	for _, band := range catalog.Bands {
+		for _, album := range band.Albums {
+			for _, track := range album.Tracks {
+				if track.HasTranslations() {
+					entries = append(entries, trackEntry{band: band, album: album, track: track})
+				}
+			}
+		}
+	}
+	return entries
+}
+
+// sortTrackEntries ordina i brani dal più recente (data di aggiunta).
+func sortTrackEntries(entries []trackEntry) {
+	sort.SliceStable(entries, func(i, j int) bool {
+		return entries[i].track.AddedDate.After(entries[j].track.AddedDate)
+	})
+}
+
+// filterFeatured tiene i brani in evidenza, nell'ordine già ricevuto.
+func filterFeatured(entries []trackEntry) []trackEntry {
+	var featured []trackEntry
+	for _, entry := range entries {
+		if entry.track.Featured {
+			featured = append(featured, entry)
+		}
+	}
+	return featured
+}
+
+// newTrackRail costruisce la corsia dei brani.
+func newTrackRail(title string, entries []trackEntry, more string) Rail {
+	rail := Rail{Title: title, MoreText: more}
+	for _, entry := range entries {
+		if len(rail.Cards) == railLimit {
+			break
+		}
+		rail.Cards = append(rail.Cards, newTrackCard(entry))
+	}
+	return rail
+}
+
+// newTrackCard prepara la card di un brano: immagine = copertina dell'album,
+// segnaposto = iniziale dell'album (è quello che l'immagine rappresenta).
+func newTrackCard(entry trackEntry) RailCard {
+	card := RailCard{
+		URL:     templ.URL(pathFor(entry.band.Slug, entry.album.Slug, entry.track.Slug)),
+		Title:   entry.track.Title,
+		Meta:    entry.band.Name + " — " + entry.album.Title,
+		Initial: initialOf(entry.album.Title),
+	}
+	if entry.album.Cover != "" {
+		card.HasImage = true
+		card.ImageURL = templ.URL("/covers/" + entry.album.Cover)
+	}
+	return card
+}
+
+// newBandRail costruisce la corsia delle band, con il link all'elenco completo.
+func newBandRail(page PageData, bands []*content.Band) Rail {
+	rail := Rail{
+		Title:    page.T("home.latest_bands"),
+		MoreURL:  templ.URL(page.BandsPath()),
+		MoreText: page.T("home.all_bands"),
+	}
+	for _, band := range bands {
+		if len(rail.Cards) == railLimit {
+			break
+		}
+		card := newBandCard(page, band)
+		rail.Cards = append(rail.Cards, RailCard{
+			URL:      card.URL,
+			ImageURL: card.ImageURL,
+			HasImage: card.HasImage,
+			Initial:  card.Initial,
+			Title:    card.Name,
+			Meta:     card.MetaText,
+		})
+	}
+	return rail
+}
+
+// latestBands elenca le band pubblicate, dalla più attiva: una band è "nuova"
+// quando lo è il suo contributo più recente. A parità di data, ordine
+// alfabetico. Una band senza brani pubblicati non ha data e non compare.
+func latestBands(catalog *content.Catalog) []*content.Band {
+	type datedBand struct {
+		band   *content.Band
+		latest content.Date
+	}
+	var dated []datedBand
+	for _, band := range catalog.Bands {
+		latest, ok := latestTrackDate(band)
+		if !ok {
+			continue
+		}
+		dated = append(dated, datedBand{band: band, latest: latest})
+	}
+	sort.SliceStable(dated, func(i, j int) bool {
+		if dated[i].latest.After(dated[j].latest) {
+			return true
+		}
+		if dated[j].latest.After(dated[i].latest) {
+			return false
+		}
+		return dated[i].band.Name < dated[j].band.Name
+	})
+	bands := make([]*content.Band, 0, len(dated))
+	for _, item := range dated {
+		bands = append(bands, item.band)
+	}
+	return bands
+}
+
+// latestTrackDate è la data del brano pubblicato più recente della band.
+func latestTrackDate(band *content.Band) (content.Date, bool) {
+	var latest content.Date
+	found := false
+	for _, album := range band.Albums {
+		for _, track := range album.Tracks {
+			if !track.HasTranslations() {
+				continue
+			}
+			if !found || track.AddedDate.After(latest) {
+				latest = track.AddedDate
+				found = true
+			}
+		}
+	}
+	return latest, found
+}
+
+// pathFor è il percorso della pagina di un brano, dalla lingua corrente.
+func pathFor(bandSlug, albumSlug, trackSlug string) string {
+	return "/band/" + bandSlug + "/album/" + albumSlug + "/brano/" + trackSlug + "/"
+}
+
+// initialOf restituisce la lettera del segnaposto: maiuscola, vuota se il nome
+// è vuoto. Lavora sulle rune: un nome che inizia con un carattere non ASCII
+// non deve rompere la card.
+func initialOf(name string) string {
+	for _, r := range strings.TrimSpace(name) {
+		return strings.ToUpper(string(r))
+	}
+	return ""
+}
+
 // BuildBandCards costruisce le schede delle band che compaiono nel sito: solo
-// quelle con almeno un album pubblicato (una band senza album pubblicati non
-// compare in nessun elenco).
+// quelle con almeno un album pubblicato.
 func BuildBandCards(page PageData, bands []*content.Band) []BandCard {
 	var cards []BandCard
 	for _, band := range bands {
@@ -166,7 +347,7 @@ func BuildBandView(page PageData, band *content.Band) BandView {
 	for _, album := range albums {
 		cards = append(cards, newAlbumCard(page, band, album))
 	}
-	return BandView{
+	view := BandView{
 		Page:        page,
 		Crumbs:      bandCrumbs(page, band, nil),
 		Name:        band.Name,
@@ -177,6 +358,11 @@ func BuildBandView(page PageData, band *content.Band) BandView {
 		Description: band.Description,
 		Albums:      cards,
 	}
+	if band.Image != "" {
+		view.HasImage = true
+		view.ImageURL = templ.URL("/covers/" + band.Image)
+	}
+	return view
 }
 
 // BuildAlbumView assembla la pagina di un album con la sua tracklist.
@@ -231,20 +417,6 @@ func BuildTrackView(page PageData, band *content.Band, album *content.Album, tra
 	return view
 }
 
-// forEachPublishedTrack visita i brani pubblicati: quelli con almeno una
-// traduzione. Un brano senza traduzioni resta in tracklist ma non ha pagina.
-func forEachPublishedTrack(catalog *content.Catalog, visit func(*content.Band, *content.Album, *content.Track)) {
-	for _, band := range catalog.Bands {
-		for _, album := range band.Albums {
-			for _, track := range album.Tracks {
-				if track.HasTranslations() {
-					visit(band, album, track)
-				}
-			}
-		}
-	}
-}
-
 // publishedAlbums elenca gli album pubblicati: quelli con almeno un brano
 // tradotto.
 func publishedAlbums(band *content.Band) []*content.Album {
@@ -258,18 +430,6 @@ func publishedAlbums(band *content.Band) []*content.Album {
 		}
 	}
 	return albums
-}
-
-// newTrackCard prepara un brano per un elenco.
-func newTrackCard(page PageData, band *content.Band, album *content.Album, track *content.Track) TrackCard {
-	return TrackCard{
-		Title:     track.Title,
-		URL:       templ.URL(page.TrackPath(band.Slug, album.Slug, track.Slug)),
-		MetaText:  band.Name + " — " + album.Title,
-		DateText:  track.AddedDate.String(),
-		LangsText: strings.Join(track.TranslationLangs(), " · "),
-		added:     track.AddedDate,
-	}
 }
 
 // newTrackRow prepara una riga di tracklist.
@@ -286,16 +446,36 @@ func newTrackRow(page PageData, band *content.Band, album *content.Album, track 
 	return row
 }
 
-// newBandCard prepara una band per un elenco.
+// newBandCard prepara una band per un elenco: i campi separati servono alla
+// pagina Bands, MetaText alle corsie della home.
 func newBandCard(page PageData, band *content.Band) BandCard {
-	return BandCard{
+	albumsText := strconv.Itoa(len(publishedAlbums(band)))
+	card := BandCard{
 		Name:        band.Name,
 		URL:         templ.URL(page.BandPath(band.Slug)),
 		Country:     band.Country,
 		TagsText:    strings.Join(band.Tags, " · "),
+		AlbumsText:  albumsText,
 		Description: band.Description,
-		AlbumsText:  strconv.Itoa(len(publishedAlbums(band))),
+		Initial:     initialOf(band.Name),
 	}
+	card.MetaText = metaParts(band.Country, card.TagsText, albumsText+" "+page.T("band.albums"))
+	if band.Image != "" {
+		card.HasImage = true
+		card.ImageURL = templ.URL("/covers/" + band.Image)
+	}
+	return card
+}
+
+// metaParts unisce le parti non vuote con un separatore medio.
+func metaParts(parts ...string) string {
+	var kept []string
+	for _, part := range parts {
+		if strings.TrimSpace(part) != "" {
+			kept = append(kept, part)
+		}
+	}
+	return strings.Join(kept, " · ")
 }
 
 // newAlbumCard prepara un album per un elenco.
@@ -306,13 +486,6 @@ func newAlbumCard(page PageData, band *content.Band, album *content.Album) Album
 		YearText:   yearText(album),
 		TracksText: strconv.Itoa(len(album.Tracks)),
 	}
-}
-
-// sortCardsByDate ordina i brani dal più recente.
-func sortCardsByDate(cards []TrackCard) {
-	sort.SliceStable(cards, func(i, j int) bool {
-		return cards[i].added.After(cards[j].added)
-	})
 }
 
 // bandCrumbs costruisce il breadcrumb: Home / Bands / Band [/ Album].

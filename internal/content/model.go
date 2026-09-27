@@ -29,6 +29,9 @@ type Band struct {
 	FormedYear    int      `yaml:"formed_year"`
 	Members       []string `yaml:"members"`
 	Description   string   `yaml:"description"`
+	// Image è il nome del file in covers/ con la foto della band: opzionale.
+	// Se manca, la card della band usa il segnaposto con le iniziali.
+	Image string `yaml:"image"`
 
 	// Directory è la cartella della band: la popola il loader.
 	Directory string `yaml:"-"`
