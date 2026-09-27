@@ -9,8 +9,10 @@ services:
     image: filippogrande/lyrica:latest
     pull_policy: always
     ports:
-      # host:container — la porta host e' da confermare libera (vedi docs/ARCHITECTURE.md)
-      - "8085:8080"
+      # host:container — la porta host e' quella libera sulla macchina che ospita
+      # il sito: sul master e' la 8097 (8090-8096 sono occupate). Se e' occupata
+      # anche la tua, si cambia SOLO questo numero: e' una riga, non un deploy.
+      - "8097:8080"
     environment:
       # Default sicuro: il container parte anche senza .env.
       - LYRICA_ADDR=:8080

@@ -130,7 +130,9 @@ docker compose pull
 docker compose up -d
 ```
 
-Il container ascolta sulla **8080 interna**, mappata sull'host sulla **8085** (porta da confermare libera: 8090-8095 sono già usate da altri servizi).
+- Il container ascolta sulla **8080 interna**.
+- La **porta host è locale alla macchina**, non un valore del progetto: si sceglie quella libera. Sul master è la **8097** (8090-8096 risultano occupate). Se è occupata, si cambia **solo quel numero** nel compose — non è un deploy, non si tocca né il repo né la `.env`.
+- Il file sul server **non si riscarica a ogni modifica del repo**: si aggiorna a mano quando serve. La copia nel repo è la versione di riferimento.
 
 ### `.env`
 
@@ -143,9 +145,11 @@ Variabili: `LYRICA_ADDR` (attiva), `LYRICA_BASE_URL` (FASE 4/5), `UMAMI_URL`/`UM
 
 ### Verifica dopo il deploy
 
+Con `PORT` = la porta host scelta (sul master: 8097):
+
 1. `docker compose ps` → `running` e healthcheck `healthy`.
-2. `curl -I http://localhost:8085/` → **302** verso `/it/`.
-3. `curl http://localhost:8085/healthz` → `ok`.
+2. `curl -I http://localhost:PORT/` → **302** verso `/it/`.
+3. `curl http://localhost:PORT/healthz` → `ok`.
 4. `docker compose logs --tail=50 web` → nessun errore di rendering.
 
 ### Rollback
@@ -157,7 +161,7 @@ Si fissa l'immagine `filippogrande/lyrica:<sha>` al posto di `latest` nel compos
 | Azione | Rischio |
 |---|---|
 | `docker compose down` | il sito sparisce fino al `up -d`: nessun dato perso (non c'è database) |
-| Porta 8085 occupata | il container non parte: `Bind for 0.0.0.0:8085 failed` |
+| **Porta host già occupata** | il container non parte: `Bind for 0.0.0.0:PORT failed: port is already allocated` → si cambia la mappa nel compose |
 | Immagine `latest` con un bug | si fa rollback al tag SHA |
 | Secrets Docker Hub assenti/scaduti | la CI è rossa e `latest` resta quella vecchia (il sito non si rompe, non si aggiorna) |
 | `.env` con un valore sbagliato | il container parte ma l'app non si comporta come previsto: `docker compose logs` |
@@ -214,6 +218,7 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 2. **`golang:*-alpine` non ha bash**: lo stage di build deve fare `apk add --no-cache curl bash`, altrimenti lo script asset muore con `env: bash: No such file or directory`.
 3. **Lo script asset si invoca come `bash scripts/fetch-assets.sh`**: senza il bit di esecuzione, `./scripts/...` fallisce con **exit 126** e fa fallire la build dell'immagine.
 4. **`*_templ.go` non si committano mai**: sono artefatti di generazione.
+5. **La porta host va scelta guardando cosa è già occupato** (`docker ps --format '{{.Names}} - {{.Ports}}'` o `ss -tlnp`), non copiando un default: sul master la 8085 era libera solo in teoria.
 
 ## Limiti noti
 
