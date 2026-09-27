@@ -1,0 +1,30 @@
+package render
+
+// Layout è la struttura comune di ogni pagina: header, contenuto, footer.
+// L'attributo data-bs-theme NON è impostato qui: lo imposta assets/js/theme.js
+// prima del primo paint, leggendo la preferenza salvata o il tema di sistema.
+//
+// Nota: nei file .templ non si importa "github.com/a-h/templ" — la generazione
+// lo importa da sé. Gli URL arrivano da PageData.URL come templ.SafeURL.
+templ Layout(d PageData) {
+	<!DOCTYPE html>
+	<html lang={ d.Lang }>
+		<head>
+			<meta charset="utf-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1"/>
+			<title>{ d.Title }</title>
+			<link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css"/>
+			<link rel="stylesheet" href="/assets/css/lyrica.css"/>
+			<script src="/assets/js/theme.js"></script>
+		</head>
+		<body>
+			<a class="skip-link" href="#contenuto">{ d.T("a11y.skip_to_content") }</a>
+			@Header(d)
+			<main id="contenuto" class="container py-4">
+				{ children... }
+			</main>
+			@Footer(d)
+			<script src="/assets/js/lyrica.js" defer></script>
+		</body>
+	</html>
+}

@@ -1,0 +1,29 @@
+# Stringhe dell'interfaccia in italiano (locale di default).
+#
+# Regole (I18N_DESIGN.md):
+#   - chiavi piatte e parlanti;
+#   - ogni altra lingua deve avere le STESSE chiavi;
+#   - i nomi propri (band, brani, cantanti) non si traducono e non stanno qui.
+
+nav.label: "Navigazione principale"
+nav.home: "Home"
+nav.bands: "Bands"
+nav.theme: "Tema"
+
+a11y.skip_to_content: "Vai al testo"
+a11y.text_smaller: "Riduci la dimensione del testo"
+a11y.text_bigger: "Aumenta la dimensione del testo"
+
+home.title: "Lyrica"
+home.lead: "Traduzioni di testi musicali, con l'originale e la traduzione a fronte."
+home.no_content: "Nessun contenuto pubblicato: le prime band e i primi brani arrivano con la FASE 2."
+
+error.not_found_title: "Pagina non trovata"
+error.not_found_body: "L'indirizzo non corrisponde a nessuna pagina del sito."
+error.back_home: "Torna alla home"
+
+footer.disclaimer: "I testi originali appartengono ai rispettivi autori ed editori. Le traduzioni sono opere amatoriali, senza scopo di lucro."
+footer.license: "Traduzioni con licenza CC BY-NC 4.0; codice del sito con licenza MIT."
+footer.contact: "Contatti"
+footer.legal: "Note legali"
+footer.rss: "Feed RSS"

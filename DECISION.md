@@ -15,7 +15,7 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D07 | Disclaimer copyright nel footer + dichiarazione "traduzioni amatoriali, sito no profit" | mitiga il rischio con gli editori dei testi |
 | D08 | **Zero login e zero account**, nemmeno per l'autore. Nessun pannello admin. | il sito non ha stato utente; l'autore testa in produzione |
 | D09 | Workflow git: **sempre branch + PR**, anche per l'autore | storico leggibile e ogni cambiamento annullabile |
-| D10 | **Merge su `main` = deploy** (Actions → SSH → compose up → healthcheck) | una sola strada per mettere online |
+| D10 | **Merge su `main` = deploy** (immagine su Docker Hub; il `up -d` sul home-lab resta manuale) | una sola strada per mettere online, senza automatismi che sfuggono di mano |
 
 ## B. Stack e infrastruttura
 
@@ -27,7 +27,7 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D14 | Contenuti in **Markdown + front-matter YAML nel repo**, **build-time static site** | niente database, contenuti versionati con il codice |
 | D15 | Deploy su **Docker nel home-lab dietro Cloudflare Tunnel** (non k3s) | k3s in dismissione; tunnel già in uso |
 | D16 | **Nessun database, nessuno stato server-side** | elimina backup, migrazioni, GDPR sui dati a riposo |
-| D17 | Test: **solo validazione dei contenuti in CI** | i test di codice non sono richiesti ora |
+| D17 | Test: **solo validazione dei contenuti in CI** (+ compilazione, vedi D72) | i test di codice non sono richiesti ora |
 | D18 | Budget di performance **~300 KB/pagina**; immagini **webp + lazy** | sito leggero, buono anche da mobile |
 | D19 | **Font web multialfabeto** (latino, cirillico, greco, CJK) | le band possono avere testi in alfabeti non latini |
 | D20 | **CLI `lyrica new band\|album\|brano`** che genera i template di contenuto | evita errori di struttura nei front-matter |
@@ -100,13 +100,15 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D67 | **Nessuna email automatica al lancio** (l'avviso "traduzione pronta" è in backlog) | doppio opt-in e deliverability non valgono il costo ora |
 | D68 | Segnalazioni: **rate-limit + honeypot + informativa GDPR**, niente account | il form resta aperto a tutti senza diventare uno spam gateway |
 
-## G. Revisioni successive alla prima stesura dei doc
+## G. Revisioni successive
 
 | # | Decisione | Perché |
 |---|---|---|
 | D69 | Le **lingue dell'interfaccia derivano dalle lingue di traduzione** presenti nei contenuti (non dalle lingue degli originali) + italiano di default | se un brano ha traduzioni in IT ed EN, il pubblico parla IT o EN e quasi mai tedesco; quando arriveranno traduzioni in francese, servirà anche l'interfaccia francese |
 | D70 | **Ads anche nella pagina brano**, con collocazione precisa: banner largo e basso **sopra il titolo**, **due colonne laterali** ai lati del testo (solo da `xl` in su, mai sticky, mai tra originale e traduzione), banner largo e basso **dopo la sezione "chiedi altre canzoni"** | collocazione voluta dall'autore: gli ads ai lati possono convivere con la lettura a fronte, purché il testo non si stringa sugli schermi piccoli |
 | D71 | **Sezione "chiedi altre canzoni"** in fondo a ogni pagina brano, con link al form di segnalazione | chi ha appena letto una traduzione è la persona con più probabilità di proporne un'altra |
+| D72 | **Docker da subito** (non in FASE 5): immagine multi-stage su **Docker Hub** `filippogrande/lyrica` con tag `latest` e `<sha>`, build e push automatici da GitHub Actions su push in `main`, `docker-compose.yml` nel repo, **deploy manuale** con `docker compose pull && docker compose up -d` sul home-lab | Filippo vuole poter tirare su il sito con docker compose appena c'è un'immagine, come per gli altri suoi servizi; il deploy resta una decisione esplicita e il runner non ha accesso al home-lab |
+| D73 | La CI **compila il progetto** a ogni PR e push (job `Compila`), oltre alla validazione dei contenuti che arriverà in FASE 2 | l'ambiente dell'agente non ha un compilatore Go: la compilazione è l'unica verifica disponibile dell'artefatto e non è un test unitario |
 
 ## H. Backlog esplicito (deciso di NON fare ora)
 

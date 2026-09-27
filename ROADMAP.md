@@ -6,19 +6,21 @@ Le task vivono su **Vikunja, progetto `Lyrica`** (`#1`–`#18`); qui c'è solo l
 
 ## FASE 0 — Documentazione
 
-**Task**: #13 (priorità massima).
+**Task**: #13.
 
-**Artefatto**: questo set di MD completo nel repo. La documentazione viene **prima** del codice: è la sorgente da cui si sviluppa.
+**Artefatto**: il set di MD nel repo (20 file). La documentazione **precede** il codice: è la sorgente da cui si sviluppa.
 
-**Criterio di chiusura**: ogni decisione presa è scritta in `DECISION.md`; ogni area ha il suo doc; un agente AI può leggere `README.md` e `ARCHITECTURE.md` e sapere cosa fare senza chiedere.
+**Stato**: ✅ chiusa (PR #1 mergiata).
 
 ## FASE 1 — Fondamenta
 
-**Task**: #3 (scheletro Go + Templ), #7 (design system), #4 (routing).
+**Task**: #3 (scheletro Go + Templ), #7 (design system), #4 (routing), più **Docker e CI dell'immagine** (D72).
 
-**Artefatto**: il binario compila, serve una homepage vuota ma **navigabile** con header, footer, tema chiaro/scuro e toggle dimensione testo. In locale, non online.
+**Artefatto**: il binario compila e gira **in container**; il sito mostra una home navigabile con header, footer, tema chiaro/scuro, controllo dimensione testo e 404; l'immagine è pubblicata su Docker Hub da GitHub Actions.
 
-**Criterio di chiusura**: `docker compose up` in locale risponde su una porta e si vedono header, footer, breadcrumb e switch tema funzionanti.
+**Criterio di chiusura**: `docker compose pull && docker compose up -d` sul home-lab tira su il sito e risponde su `/healthz`; la CI che compila è verde sulla PR.
+
+**Stato**: in corso (PR #2).
 
 ## FASE 2 — Contenuti
 
@@ -26,7 +28,7 @@ Le task vivono su **Vikunja, progetto `Lyrica`** (`#1`–`#18`); qui c'è solo l
 
 **Artefatto**: la CLI genera i template; 2-3 band reali con un album e alcuni brani sono nel repo; la validazione in CI passa; il sito mostra una band e un album veri.
 
-**Criterio di chiusura**: `lyrica build` produce le pagine di band/album dai contenuti reali, e la validazione **fallisce** su un contenuto rotto di prova (trad. incompleta, slug duplicato).
+**Criterio di chiusura**: `lyrica build` produce le pagine di band/album dai contenuti reali, e la validazione **fallisce** su un contenuto rotto di prova (traduzione incompleta, slug duplicato).
 
 ## FASE 3 — Pagine pubbliche
 
@@ -44,13 +46,15 @@ Le task vivono su **Vikunja, progetto `Lyrica`** (`#1`–`#18`); qui c'è solo l
 
 **Criterio di chiusura**: cercando un frammento di verso si arriva al brano giusto dal dropdown; il feed è valido.
 
-## FASE 5 — Deploy e osservabilità
+## FASE 5 — Messa online e osservabilità
 
-**Task**: #8 (deploy), #14 (Umami), #15 (pagine legali).
+**Task**: #8 (Cloudflare Tunnel + dominio), #14 (Umami), #15 (pagine legali).
 
-**Artefatto**: il sito è **online** su `lyrica.filippomoscatelli.com` dietro Cloudflare Tunnel; merge su `main` fa deploy da solo; Umami registra le visite; le pagine legali esistono e sono linkate dal footer.
+Il container esiste già dalla FASE 1: qui si aggiunge ciò che manca per essere **pubblici**.
 
-**Criterio di chiusura**: un merge su `main` arriva in produzione senza intervento manuale, e Umami mostra gli eventi.
+**Artefatto**: il sito risponde su `lyrica.filippomoscatelli.com` dietro Cloudflare Tunnel; Umami registra le visite; le pagine legali esistono e sono linkate dal footer.
+
+**Criterio di chiusura**: l'URL pubblico risponde, e Umami mostra gli eventi.
 
 ## FASE 6 — Extra
 
@@ -62,7 +66,8 @@ Le task vivono su **Vikunja, progetto `Lyrica`** (`#1`–`#18`); qui c'è solo l
 
 ## Regole del piano
 
-- **Non si salta la FASE 0.** Il codice segue i doc, non il contrario.
+- **Non si salta la FASE 0**: il codice segue i doc, non il contrario.
 - Non si inizia una fase senza che la precedente abbia il suo artefatto verificabile.
+- **Ogni fase si verifica su un container reale**, non solo in locale: `docker compose up -d` è la prova che la fase tiene.
 - Le task dentro una fase possono procedere in parallelo solo dove non ci sono dipendenze: #2 e #3 sbloccano tutto il resto; #6, #7 e #4 sono paralleli dopo #3.
 - Se durante lo sviluppo una decisione cambia, si aggiorna `DECISION.md` **nella stessa PR**, non dopo.

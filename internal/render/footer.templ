@@ -1,0 +1,16 @@
+package render
+
+// Footer contiene disclaimer, licenza, contatti e collegamenti di servizio.
+templ Footer(d PageData) {
+	<footer class="site-footer">
+		<div class="container">
+			<p class="footer-line">{ d.T("footer.disclaimer") }</p>
+			<ul class="footer-links">
+				<li><a href={ d.URL("contatti") }>{ d.T("footer.contact") }</a></li>
+				<li><a href={ d.URL("legali") }>{ d.T("footer.legal") }</a></li>
+				<li><a href={ d.URL("rss.xml") }>{ d.T("footer.rss") }</a></li>
+			</ul>
+			<p class="footer-line">{ d.T("footer.license") }</p>
+		</div>
+	</footer>
+}

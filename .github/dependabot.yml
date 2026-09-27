@@ -1,0 +1,26 @@
+version: 2
+
+# Ogni ecosistema presente nel repo va coperto qui, aggiornato nella stessa PR
+# che introduce il manifest (DEVELOPMENT_GUIDELINES.md §9).
+# La versione dei file statici di terze parti (Bootstrap in
+# assets/css/vendor/README.md) NON è coperta da Dependabot: si aggiorna
+# cambiando la versione in scripts/fetch-assets.sh.
+
+updates:
+  - package-ecosystem: gomod
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5

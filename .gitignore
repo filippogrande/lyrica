@@ -8,6 +8,9 @@ public/
 lyrica
 *.exe
 
+# Codice generato da `templ generate`: non si committa
+*_templ.go
+
 # Editor e OS
 .vscode/
 .idea/
