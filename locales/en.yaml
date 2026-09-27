@@ -1,0 +1,28 @@
+# Stringhe dell'interfaccia in inglese.
+#
+# Regole (docs/FRONTEND.md): chiavi piatte e parlanti; ogni lingua ha le STESSE
+# chiavi di locales/it.yaml; i nomi propri (band, brani, cantanti) non si
+# traducono e non stanno qui.
+
+nav.label: "Main navigation"
+nav.home: "Home"
+nav.bands: "Bands"
+nav.theme: "Theme"
+
+a11y.skip_to_content: "Skip to the text"
+a11y.text_smaller: "Make text smaller"
+a11y.text_bigger: "Make text bigger"
+
+home.title: "Lyrica"
+home.lead: "Translations of song lyrics, with the original and the translation side by side."
+home.no_content: "Nothing published yet."
+
+error.not_found_title: "Page not found"
+error.not_found_body: "This address does not match any page of the site."
+error.back_home: "Back to the home page"
+
+footer.disclaimer: "Original lyrics belong to their respective authors and publishers. The translations are amateur works, done for no profit."
+footer.license: "Translations are licensed CC BY-NC 4.0; the site code is licensed MIT."
+footer.contact: "Contact"
+footer.legal: "Legal notes"
+footer.rss: "RSS feed"

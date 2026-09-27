@@ -16,7 +16,7 @@ a11y.text_bigger: "Aumenta la dimensione del testo"
 
 home.title: "Lyrica"
 home.lead: "Traduzioni di testi musicali, con l'originale e la traduzione a fronte."
-home.no_content: "Nessun contenuto pubblicato: le prime band e i primi brani arrivano con la FASE 2."
+home.no_content: "Nessun contenuto pubblicato."
 
 error.not_found_title: "Pagina non trovata"
 error.not_found_body: "L'indirizzo non corrisponde a nessuna pagina del sito."
