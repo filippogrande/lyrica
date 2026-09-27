@@ -38,7 +38,8 @@ func Load(root string) (*Catalog, error) {
 }
 
 // isIgnorable riconosce i file di servizio del sistema operativo (.DS_Store,
-// editor) che non sono contenuti e non devono far fallire il caricamento.
+// file di editor) che non sono contenuti e non devono far fallire il
+// caricamento.
 func isIgnorable(name string) bool {
 	return strings.HasPrefix(name, ".")
 }
@@ -57,7 +58,8 @@ func loadBand(dir string) (*Band, error) {
 	return band, nil
 }
 
-// loadAlbums legge le sottocartelle di una band: ognuna è un album.
+// loadAlbums legge le sottocartelle di una band: ognuna è un album. I file
+// nella cartella della band (band.md) non sono album e si saltano.
 func loadAlbums(bandDir string, band *Band) ([]*Album, error) {
 	entries, err := os.ReadDir(bandDir)
 	if err != nil {
@@ -105,15 +107,25 @@ func loadTracks(dir string, album *Album) ([]*Track, error) {
 		if entry.IsDir() || !strings.HasSuffix(entry.Name(), ".md") {
 			return nil, fmt.Errorf("%s: attesi solo file .md, trovato %q", dir, entry.Name())
 		}
-		tracks = append(tracks, loadTrackFile(filepath.Join(dir, entry.Name()), album))
+		track, err := loadTrack(filepath.Join(dir, entry.Name()), album)
+		if err != nil {
+			return nil, err
+		}
+		tracks = append(tracks, track)
 	}
 	return tracks, nil
 }
 
-// loadTrackFile legge un singolo brano.
-func loadTrackFile(path string, album *Album) *Track {
+// loadTrack legge un singolo brano: front-matter nei modelli, corpo in Notes
+// (le note redazionali non si stampano mai nella pagina).
+func loadTrack(path string, album *Album) (*Track, error) {
 	track := &Track{Path: path, Album: album}
-	return track // sostituito dal file successivo: vedi loadTrack
+	notes, err := readFrontMatterFile(path, track)
+	if err != nil {
+		return nil, err
+	}
+	track.Notes = notes
+	return track, nil
 }
 
 // orderByTracklist ordina i brani come dichiarato in album.md: l'ordine
@@ -124,15 +136,16 @@ func orderByTracklist(album *Album, tracks []*Track) []*Track {
 	for i, ref := range album.Tracklist {
 		positions[ref.Slug] = i
 	}
+	last := len(positions) + 1
 	ordered := append([]*Track(nil), tracks...)
 	sort.SliceStable(ordered, func(i, j int) bool {
-		pi, oki := positions[ordered[i].Slug]
-		pj, okj := positions[ordered[j].Slug]
-		if !oki {
-			pi = len(positions) + 1
+		pi, ok := positions[ordered[i].Slug]
+		if !ok {
+			pi = last
 		}
-		if !okj {
-			pj = len(positions) + 1
+		pj, ok := positions[ordered[j].Slug]
+		if !ok {
+			pj = last
 		}
 		return pi < pj
 	})
