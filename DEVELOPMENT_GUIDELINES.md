@@ -7,7 +7,8 @@ Regole non negoziabili del progetto. Se una PR contraddice questo file, la PR è
 - Ogni modifica passa da **branch + Pull Request**. **Mai** push diretto su `main`.
 - Nomi branch: `feat/<slug>`, `fix/<slug>`, `docs/<slug>`, `ci/<slug>`, `content/<band-slug>`.
 - **Merge su `main` = deploy.** Dalla FASE 5 in avanti `main` è produzione: quello che mergi va online.
-- PR piccole e su un solo tema. Nel body: cosa cambia, come verificarlo, cosa potrebbe rompersi.
+- PR piccole e su **un solo tema**: cosa cambia, come verificarlo, cosa potrebbe rompersi.
+- **Una PR può toccare più file** quando fanno parte della stessa modifica (es. modulo + rotta + template + doc che lo descrive). La regola "una PR = un file" usata in altri progetti **qui non si applica**: il criterio è il tema della PR, non il numero di file — purché resti piccola e leggibile.
 - **La documentazione si aggiorna nella stessa PR** che la invalida. Mai "aggiorno i doc dopo".
 - Ogni modifica corrisponde a **una task tracciata** (Vikunja, progetto `Lyrica`).
 
