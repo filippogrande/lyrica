@@ -34,7 +34,11 @@ band.albums: "albums"
 band.latest_albums: "Latest albums"
 band.photo_alt: "Band photo"
 
+album.band: "Band"
+album.year: "Year"
 album.tracks: "Tracks"
+album.langs: "Translated languages"
+album.other_albums: "Other albums by the band"
 album.cover_alt: "Album cover"
 
 track.original: "Original"

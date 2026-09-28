@@ -35,7 +35,11 @@ band.albums: "album"
 band.latest_albums: "Ultimi album pubblicati"
 band.photo_alt: "Foto della band"
 
+album.band: "Band"
+album.year: "Anno"
 album.tracks: "Brani"
+album.langs: "Lingue tradotte"
+album.other_albums: "Altri album della band"
 album.cover_alt: "Copertina dell'album"
 
 track.original: "Originale"
