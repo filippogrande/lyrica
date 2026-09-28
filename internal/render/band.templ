@@ -1,50 +1,57 @@
 package render
 
-// Band è la pagina di una band: anagrafica, foto (se dichiarata), album
-// pubblicati, breadcrumb.
+// Band è la pagina di una band: nome, anagrafica affiancata alla foto (se
+// dichiarata), poi gli album pubblicati e i brani tradotti della band, come
+// corsie nello stesso formato della home.
 templ Band(v BandView) {
 	@Layout(v.Page) {
 		@breadcrumb(v.Page.T("a11y.breadcrumb"), v.Crumbs)
 		<h1 class="page-title">{ v.Name }</h1>
 		if v.HasImage {
-			<figure class="band-photo">
-				<img src={ v.ImageURL } alt={ v.Page.T("band.photo_alt") } width="600" height="600" loading="lazy"/>
-			</figure>
+			<div class="band-hero row">
+				<figure class="band-photo col-12 col-md-4">
+					<img src={ v.ImageURL } alt={ v.Page.T("band.photo_alt") } width="600" height="600" loading="lazy"/>
+				</figure>
+				<div class="col-12 col-md-8">
+					@bandFacts(v)
+				</div>
+			</div>
+		} else {
+			<div class="band-hero">
+				@bandFacts(v)
+			</div>
 		}
-		<dl class="band-facts">
-			if v.Country != "" {
-				<dt>{ v.Page.T("band.country") }</dt>
-				<dd>{ v.Country }</dd>
-			}
-			if v.FormedText != "" {
-				<dt>{ v.Page.T("band.formed") }</dt>
-				<dd>{ v.FormedText }</dd>
-			}
-			if v.MembersText != "" {
-				<dt>{ v.Page.T("band.members") }</dt>
-				<dd>{ v.MembersText }</dd>
-			}
-			if v.TagsText != "" {
-				<dt>{ v.Page.T("band.tags") }</dt>
-				<dd>{ v.TagsText }</dd>
-			}
-		</dl>
-		if v.Description != "" {
-			<p class="band-description">{ v.Description }</p>
+		if len(v.AlbumRail.Cards) > 0 {
+			@railBlock(v.AlbumRail)
 		}
-		<section class="page-section">
-			<h2 class="section-title">{ v.Page.T("band.albums") }</h2>
-			<ul class="album-list">
-				for _, album := range v.Albums {
-					<li class="album-list-item">
-						<a class="album-list-title" href={ album.URL }>{ album.Title }</a>
-						if album.YearText != "" {
-							<span class="album-list-year">{ album.YearText }</span>
-						}
-						<span class="album-list-tracks">{ v.Page.T("album.tracks") }: { album.TracksText }</span>
-					</li>
-				}
-			</ul>
-		</section>
+		if len(v.TrackRail.Cards) > 0 {
+			@railBlock(v.TrackRail)
+		}
+	}
+}
+
+// bandFacts è l'anagrafica della band più la descrizione: sta a destra della
+// foto, o a tutta larghezza quando la foto non c'è.
+templ bandFacts(v BandView) {
+	<dl class="band-facts">
+		if v.Country != "" {
+			<dt>{ v.Page.T("band.country") }</dt>
+			<dd>{ v.Country }</dd>
+		}
+		if v.FormedText != "" {
+			<dt>{ v.Page.T("band.formed") }</dt>
+			<dd>{ v.FormedText }</dd>
+		}
+		if v.MembersText != "" {
+			<dt>{ v.Page.T("band.members") }</dt>
+			<dd>{ v.MembersText }</dd>
+		}
+		if v.TagsText != "" {
+			<dt>{ v.Page.T("band.tags") }</dt>
+			<dd>{ v.TagsText }</dd>
+		}
+	</dl>
+	if v.Description != "" {
+		<p class="band-description">{ v.Description }</p>
 	}
 }

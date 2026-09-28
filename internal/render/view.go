@@ -58,14 +58,6 @@ type BandCard struct {
 	Initial  string
 }
 
-// AlbumCard è un album elencato nella pagina di una band.
-type AlbumCard struct {
-	Title      string
-	URL        templ.SafeURL
-	YearText   string
-	TracksText string
-}
-
 // TrackRow è una riga di tracklist: linkata se il brano è pubblicato, altrimenti
 // solo dichiarata (strumentale o ancora senza traduzione).
 type TrackRow struct {
@@ -119,7 +111,8 @@ type LetterGroup struct {
 	Cards  []BandCard
 }
 
-// BandView sono i dati della pagina di una band.
+// BandView sono i dati della pagina di una band: anagrafica, corsia degli album
+// pubblicati e corsia dei brani tradotti della band.
 type BandView struct {
 	Page        PageData
 	Crumbs      []Crumb
@@ -131,7 +124,10 @@ type BandView struct {
 	Description string
 	ImageURL    templ.SafeURL
 	HasImage    bool
-	Albums      []AlbumCard
+	// AlbumRail è la corsia degli album pubblicati, dal più recente per anno.
+	AlbumRail Rail
+	// TrackRail è la corsia dei brani tradotti della band, dal più recente.
+	TrackRail Rail
 }
 
 // AlbumView sono i dati della pagina di un album.
@@ -388,31 +384,6 @@ func groupByInitial(cards []BandCard) ([]LetterGroup, []string) {
 	return groups, letters
 }
 
-// BuildBandView assembla la pagina di una band.
-func BuildBandView(page PageData, band *content.Band) BandView {
-	albums := publishedAlbums(band)
-	cards := make([]AlbumCard, 0, len(albums))
-	for _, album := range albums {
-		cards = append(cards, newAlbumCard(page, band, album))
-	}
-	view := BandView{
-		Page:        page,
-		Crumbs:      bandCrumbs(page, band, nil),
-		Name:        band.Name,
-		Country:     band.Country,
-		FormedText:  formedText(band),
-		MembersText: strings.Join(band.Members, ", "),
-		TagsText:    strings.Join(band.Tags, " · "),
-		Description: band.Description,
-		Albums:      cards,
-	}
-	if band.Image != "" {
-		view.HasImage = true
-		view.ImageURL = templ.URL("/covers/" + band.Image)
-	}
-	return view
-}
-
 // BuildAlbumView assembla la pagina di un album con la sua tracklist.
 func BuildAlbumView(page PageData, band *content.Band, album *content.Album) AlbumView {
 	rows := make([]TrackRow, 0, len(album.Tracks))
@@ -524,16 +495,6 @@ func metaParts(parts ...string) string {
 		}
 	}
 	return strings.Join(kept, " · ")
-}
-
-// newAlbumCard prepara un album per un elenco.
-func newAlbumCard(page PageData, band *content.Band, album *content.Album) AlbumCard {
-	return AlbumCard{
-		Title:      album.Title,
-		URL:        templ.URL(page.AlbumPath(band.Slug, album.Slug)),
-		YearText:   yearText(album),
-		TracksText: strconv.Itoa(len(album.Tracks)),
-	}
 }
 
 // bandCrumbs costruisce il breadcrumb: Home / Bands / Band [/ Album].

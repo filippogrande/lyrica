@@ -229,6 +229,29 @@ main {
   border-radius: 0.25rem;
 }
 
+/* --- Pagina band: foto a sinistra, anagrafica a destra ------------------ */
+/* La foto occupa la colonna di sinistra e l'anagrafica sta a destra; sotto md
+   si impilano (griglia Bootstrap). Dentro l'hero la foto riempie la sua colonna
+   invece di fermarsi a 20rem: lo spazio stretto chiede la resa, non la misura
+   fissa. Ritaglia la descrizione a --measure, che resta la misura di lettura. */
+.band-hero {
+  align-items: start;
+  margin-bottom: var(--space-section);
+}
+
+.band-hero .band-photo {
+  margin: 0 0 1rem;
+}
+
+.band-hero .band-photo img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.band-hero .band-facts {
+  margin-bottom: 0.75rem;
+}
+
 /* --- Album -------------------------------------------------------------- */
 
 .album-meta {
