@@ -46,6 +46,7 @@ track.translation: "Translation"
 track.added: "Added on"
 track.singers: "Vocals"
 track.instrumental: "Instrumental"
+track.pending: "Coming soon"
 track.only_original: "Original only"
 track.no_translation: "Translation not available in this language."
 
