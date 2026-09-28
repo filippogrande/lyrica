@@ -23,19 +23,19 @@ func BuildTrackView(page PageData, band *content.Band, album *content.Album, tra
 	translations := blocksWithRole(track, content.RoleTranslation)
 
 	view := TrackView{
-		Page:        page,
-		Crumbs:      trackCrumbs(page, band, album, track),
-		Title:       track.Title,
-		BandName:    band.Name,
-		BandURL:     templ.URL(page.BandPath(band.Slug)),
-		AlbumTitle:  album.Title,
-		AlbumURL:    templ.URL(page.AlbumPath(band.Slug, album.Slug)),
-		YearText:    yearText(album),
-		DateText:    track.AddedDate.String(),
-		SingersText: strings.Join(track.Singers, ", "),
-		LangsText:   trackLanguages(originals, translations),
-		CoverAlt:    page.T("album.cover_alt"),
-		Originals:   newTextViews(originals, 0),
+		Page:         page,
+		Crumbs:       trackCrumbs(page, band, album, track),
+		Title:        track.Title,
+		BandName:     band.Name,
+		BandURL:      templ.URL(page.BandPath(band.Slug)),
+		AlbumTitle:   album.Title,
+		AlbumURL:     templ.URL(page.AlbumPath(band.Slug, album.Slug)),
+		YearText:     yearText(album),
+		DateText:     track.AddedDate.String(),
+		SingersText:  strings.Join(track.Singers, ", "),
+		LangsText:    trackLanguages(originals, translations),
+		CoverAlt:     page.T("album.cover_alt"),
+		Originals:    newTextViews(originals, 0),
 		Translations: newTextViews(translations, translationIndex(translations, page.Lang)),
 	}
 	if album.Cover != "" {
@@ -45,10 +45,10 @@ func BuildTrackView(page PageData, band *content.Band, album *content.Album, tra
 	return view
 }
 
-// blocksWithRole tiene i blocchi di testo con quel ruolo: l'originale o le
-// traduzioni. L'ordine è quello del file, cioè quello in cui l'autore li ha
-// scritti.
-func blocksWithRole(track *content.Track, role content.Role) []content.Block {
+// blocksWithRole tiene i blocchi di testo con quel ruolo (l'originale o le
+// traduzioni, vedi content.RoleOriginal e content.RoleTranslation). L'ordine è
+// quello del file, cioè quello in cui l'autore li ha scritti.
+func blocksWithRole(track *content.Track, role string) []content.Block {
 	var blocks []content.Block
 	for _, block := range track.Blocks {
 		if block.Role == role {
