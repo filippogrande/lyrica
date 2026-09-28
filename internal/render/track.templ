@@ -78,25 +78,31 @@ templ trackFacts(v TrackView) {
 // textSide stampa un lato del testo: l'intestazione del lato (nome + lingua) e
 // un blocco per ogni lingua disponibile.
 //
-// L'intestazione c'è **sempre su entrambi i lati**, anche quando la lingua è una
-// sola: è lei a tenere allineate le due colonne. L'intestazione della traduzione
-// è più alta di quella dell'originale — c'è dentro il menu — e con il testo che
-// parte dalla propria intestazione le due colonne cominciavano ad altezze
-// diverse. La lingua del lato con una sola lingua non è un menu da aprire: è il
-// menu stesso, con una voce sola.
+// L'intestazione c'è **sempre su entrambi i lati**: è lei a tenere allineate le
+// due colonne, e la lingua di un lato si mostra in due modi — un **menu** quando
+// c'è più di una lingua da scegliere, un'**etichetta fissa** quando la lingua è
+// una sola (D95). L'originale ha quasi sempre una lingua sola: un menu lì non
+// servirebbe a niente. Il menu e l'etichetta hanno la stessa altezza
+// (assets/css/lyrica.css), quindi le due intestazioni restano pari.
 //
 // Tutte le lingue restano nel DOM e il menu commuta quella visibile; senza JS la
-// pagina mostra le intestazioni dei singoli blocchi (il CSS nasconde il menu e
+// pagina mostra i titoli dei singoli blocchi (il CSS nasconde l'intestazione e
 // mostra i titoli dei blocchi solo quando JS c'è).
 templ textSide(page PageData, side string, label string, chooseLabel string, blocks []TextView) {
 	<section class="track-side">
 		<div class="side-head">
 			<h2 class="side-label">{ label }</h2>
-			<select class="lang-select" data-lang-select={ side } aria-label={ chooseLabel }>
+			if len(blocks) > 1 {
+				<select class="lang-select" data-lang-select={ side } aria-label={ chooseLabel }>
+					for _, block := range blocks {
+						<option value={ block.Code } selected?={ block.Selected }>{ block.Label }</option>
+					}
+				</select>
+			} else {
 				for _, block := range blocks {
-					<option value={ block.Code } selected?={ block.Selected }>{ block.Label }</option>
+					<span class="side-lang">{ block.Label }</span>
 				}
-			</select>
+			}
 		</div>
 		for _, block := range blocks {
 			<article class="text-block" data-text-block={ side } data-text-lang={ block.Code } data-text-selected={ block.SelectedValue() }>
