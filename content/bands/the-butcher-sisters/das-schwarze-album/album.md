@@ -5,7 +5,6 @@ year: 2026
 tracks:
   - slug: "piep-piep-piep"
     title: "Piep Piep Piep"
-    status: "pending"
   - slug: "cityroller"
     title: "Cityroller"
     status: "pending"
