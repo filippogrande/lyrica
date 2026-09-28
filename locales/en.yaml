@@ -23,6 +23,8 @@ home.latest_bands: "Latest bands"
 home.all_bands: "All bands"
 
 bands.empty: "No bands published yet."
+bands.letters_label: "Filter bands by initial"
+bands.all: "All"
 
 band.country: "Country"
 band.formed: "Active since"
