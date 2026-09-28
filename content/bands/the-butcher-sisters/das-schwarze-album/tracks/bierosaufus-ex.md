@@ -1,0 +1,243 @@
+---
+title: "Bierosaufus Ex"
+slug: "bierosaufus-ex"
+added_date: 2026-09-28
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Seh die Biere"
+          - "Sauf sie weg"
+          - "Seh die Biere"
+          - "Sauf sie weg"
+          - "Seh die Biere"
+          - "Auf sie weg"
+      - lines:
+          - "Ich bin kein Dinosaurus Rex"
+          - "Ich bin der Bierosaufus Ex"
+          - "Wo habt ihr denn das Bier versteckt?"
+          - "Ich klaue es und sauf es weg"
+      - lines:
+          - "Wenn du mir nich sagst wo ihr Bier habt"
+          - "Wenn ich nich in jeder Kralle gleich 4 hab"
+          - "Wenn ich keine Mio Bier in meinem Kopf hab"
+          - "Dann beiss ich dein Kopf ab, yo"
+      - lines:
+          - "Ich bin so ein durstiger Dino"
+          - "Bitte nur ein ganz kleines Piwo"
+          - "Ich bin doch nur ein durstiger Dinomann"
+          - "Ich will saufen oh Mannomann"
+      - lines:
+          - "Seh die Biere"
+          - "Sauf sie weg"
+          - "Seh die Biere"
+          - "Sauf sie weg"
+          - "Seh die Biere"
+          - "Auf sie weg"
+      - lines:
+          - "Ich bin König im Exen"
+          - "Und du bist nur ein Clown"
+          - "Ich seh deine Biere und werde sie mit meinen Klauen klaun yeah"
+          - "Yabba dabba dabba dabba dabba dabba dabba dabba du"
+          - "Ich ballere ballere ballere ballere baller alle Biere in mein Maul auf"
+          - "Ex ex ex ex ex"
+          - "Seh die Biere sauf sie"
+          - "Weg weg weg weg weg"
+          - "B b Bierosaufus"
+          - "Ex ex ex ex ex"
+          - "Seh die Biere sauf sie"
+          - "Weg"
+      - lines:
+          - "[*rülps*]"
+          - "Seh die Biere sauf sie weg"
+          - "Ich sauf sie weg"
+      - lines:
+          - "Ich lalle ala Ballermann"
+          - "Wie'n Alleman auf Malle wallah"
+          - "Schalalala fall auf alle Viere aller"
+          - "Mann ich schaller mir die Biere"
+          - "In die Birne bis ich schiele"
+          - "Ich will Biere in mir drinne"
+          - "Ich bin Bierosaufus Ex"
+      - lines:
+          - "Ex ex ex ex ex"
+          - "Seh die Biere sauf sie"
+          - "Weg weg weg weg weg"
+          - "B b Bierosaufus"
+          - "Ex ex ex ex ex"
+          - "Seh die Biere sauf sie"
+          - "Weg weg weg weg weg"
+          - "Ich sauf sie"
+      - lines:
+          - "Ich bin so ein durstiger Dino"
+          - "Bitte nur ein ganz kleines Piwo"
+          - "Ich bin doch nur ein durstiger Dinomann"
+          - "Ich will saufen oh Mannomann"
+      - lines:
+          - "Seh die Biere"
+          - "Sauf sie weg"
+          - "Seh die Biere"
+          - "Sauf sie weg"
+          - "Seh die Biere"
+          - "Auf sie weg"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "See the beers"
+          - "Gulp them down"
+          - "See the beers"
+          - "Gulp them down"
+          - "See the beers"
+          - "Chug them away"
+      - lines:
+          - "I ain't no Dinosaurus Rex"
+          - "I'm the Bierosaufus Ex"
+          - "Where did you guys hide the beer?"
+          - "I steal it and gulp it down"
+      - lines:
+          - "If you don't tell me where you keep your beer"
+          - "If I don't have 4 in every claw right away"
+          - "If I don't have a million beers in my head"
+          - "Then I bite your head off, yo"
+      - lines:
+          - "I'm such a thirsty dino"
+          - "Please just one tiny little beer"
+          - "I'm just a thirsty Dinomann"
+          - "I wanna booze, oh man oh man"
+      - lines:
+          - "See the beers"
+          - "Gulp them down"
+          - "See the beers"
+          - "Gulp them down"
+          - "See the beers"
+          - "Chug them away"
+      - lines:
+          - "I'm the king of chugging"
+          - "And you're just a clown"
+          - "I see your beers and I'm gonna steal 'em with my claws yeah"
+          - "Yabba dabba dabba dabba dabba dabba dabba dabba du"
+          - "I blast blast blast blast blast all the beers into my mouth"
+          - "Ex ex ex ex ex"
+          - "See the beers gulp 'em"
+          - "Down down down down down"
+          - "B b Bierosaufus"
+          - "Ex ex ex ex ex"
+          - "See the beers gulp 'em"
+          - "Down"
+      - lines:
+          - "[*burp*]"
+          - "See the beers gulp them down"
+          - "I gulp them down"
+      - lines:
+          - "I'm slur-singing like Ballermann"
+          - "Like a German on Malle, wallah"
+          - "Schalalala fall on all fours, mate"
+          - "Man, I'm blasting the beers"
+          - "Into my head till I go cross-eyed"
+          - "I want beers inside me"
+          - "I'm Bierosaufus Ex"
+      - lines:
+          - "Ex ex ex ex ex"
+          - "See the beers gulp 'em"
+          - "Down down down down down"
+          - "B b Bierosaufus"
+          - "Ex ex ex ex ex"
+          - "See the beers gulp 'em"
+          - "Down down down down down"
+          - "I gulp 'em"
+      - lines:
+          - "I'm such a thirsty dino"
+          - "Please just one tiny little beer"
+          - "I'm just a thirsty Dinomann"
+          - "I wanna booze, oh man oh man"
+      - lines:
+          - "See the beers"
+          - "Gulp them down"
+          - "See the beers"
+          - "Gulp them down"
+          - "See the beers"
+          - "Chug them away"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Vedo le birre"
+          - "Le butto giù"
+          - "Vedo le birre"
+          - "Le butto giù"
+          - "Vedo le birre"
+          - "Le mando giù"
+      - lines:
+          - "Non sono un Dinosaurus Rex"
+          - "Sono il Bierosaufus Ex"
+          - "Dove avete nascosto la birra?"
+          - "La rubo e la butto giù"
+      - lines:
+          - "Se non mi dici dove tenete la birra"
+          - "Se non ho subito 4 in ogni artiglio"
+          - "Se non ho un milione di birre in testa"
+          - "Allora ti stacco la testa, yo"
+      - lines:
+          - "Sono un dino così assetato"
+          - "Ti prego solo una piccolissima birra"
+          - "Sono solo un Dinomann assetato"
+          - "Voglio bere, oh mamma mia"
+      - lines:
+          - "Vedo le birre"
+          - "Le butto giù"
+          - "Vedo le birre"
+          - "Le butto giù"
+          - "Vedo le birre"
+          - "Le mando giù"
+      - lines:
+          - "Sono il re del tracannare"
+          - "E tu sei solo un clown"
+          - "Vedo le tue birre e me le frego con gli artigli yeah"
+          - "Yabba dabba dabba dabba dabba dabba dabba dabba du"
+          - "Sparo sparo sparo sparo sparo tutte le birre nella mia bocca"
+          - "Ex ex ex ex ex"
+          - "Vedo le birre le tracanno"
+          - "Giù giù giù giù giù"
+          - "B b Bierosaufus"
+          - "Ex ex ex ex ex"
+          - "Vedo le birre le tracanno"
+          - "Giù"
+      - lines:
+          - "[*rutto*]"
+          - "Vedo le birre le butto giù"
+          - "Le butto giù"
+      - lines:
+          - "Balbetto come a Ballermann"
+          - "Come un tedesco a Maiorca, wallah"
+          - "Schalalala cadi a quattro zampe, amico"
+          - "Amico, mi sparo le birre"
+          - "Nel cervello finché non strabico"
+          - "Voglio birre dentro di me"
+          - "Sono Bierosaufus Ex"
+      - lines:
+          - "Ex ex ex ex ex"
+          - "Vedo le birre le tracanno"
+          - "Giù giù giù giù giù"
+          - "B b Bierosaufus"
+          - "Ex ex ex ex ex"
+          - "Vedo le birre le tracanno"
+          - "Giù giù giù giù giù"
+          - "Le tracanno"
+      - lines:
+          - "Sono un dino così assetato"
+          - "Ti prego solo una piccolissima birra"
+          - "Sono solo un Dinomann assetato"
+          - "Voglio bere, oh mamma mia"
+      - lines:
+          - "Vedo le birre"
+          - "Le butto giù"
+          - "Vedo le birre"
+          - "Le butto giù"
+          - "Vedo le birre"
+          - "Le mando giù"
+---

@@ -1,0 +1,261 @@
+---
+title: "Scheiß für mich"
+slug: "scheiss-fuer-mich"
+added_date: 2026-09-28
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Endlich daheim"
+          - "Daheim bei dir"
+          - "Du bist mein Lieblingshunditier"
+          - "In deinem Maul"
+          - "Für mich ein Dosibier"
+          - "Dankeschön"
+      - lines:
+          - "Ich will auf die Couch"
+          - "Doch mein Wau Wau"
+          - "Muss noch Kakapupu aus dem Popo raus"
+          - "23 Uhr noch Gassi gehn"
+          - "Na dankeschön"
+      - lines:
+          - "Oh schau mich nicht so an"
+          - "Ich weiß, dass du es kannst"
+          - "Warum dauert das so lang"
+      - lines:
+          - "Ich will nur, dass du scheißt oho"
+          - "Dann könn wir endlich wieder heim"
+          - "Ich will nur, dass du weißt oho"
+          - "Ohne dich könnt ich längst wieder rein"
+          - "Ich bin komplett nass und du stinkst"
+          - "Wehe du verteilst daheim deinen Stink"
+          - "Ich will nur, dass du scheißt"
+          - "Woho"
+          - "Dann könn wir endlich wieder"
+          - "Endlich wieder heim"
+      - lines:
+          - "Wir sind unterwegs um 1 Uhr nachts"
+          - "Ich hab so Angst, dass mein Hundi platzt"
+          - "Ich massiere seinen Enddarmtrakt"
+          - "Bis er kackt"
+      - lines:
+          - "Ich lauf zehnten Mal um denselben Block"
+          - "Du machst kein Kaka und ich hab keinen Bock"
+          - "Spür den eiskalten Regen auf meinem Kopf"
+          - "Oh wieso ist mein gottverdammter Hund verstopft"
+          - "Oh noo"
+      - lines:
+          - "Ich will nur, dass du scheißt oho"
+          - "Dann könn wir endlich wieder heim"
+          - "Ich will nur, dass du weißt oho"
+          - "Ohne dich könnt ich längst wieder rein"
+          - "Ich bin komplett nass und du stinkst"
+          - "Wehe du verteilst daheim deinen Stink"
+          - "Ich will nur, dass du scheißt"
+          - "Woho"
+          - "Dann könn wir endlich wieder"
+          - "Endlich wieder heim"
+      - lines:
+          - "Scheiß für mich"
+          - "Scheiß für mich"
+          - "Scheiß für mich"
+          - "Scheiß für mich"
+      - lines:
+          - "Scheiß für mich"
+          - "Scheiß für mich"
+          - "Scheiß für mich"
+          - "Scheiß für mich"
+      - lines:
+          - "Ich will nur, dass du scheißt oho"
+          - "Dann könn wir endlich wieder heim"
+          - "Ich will nur, dass du weißt oho"
+          - "Ohne dich könnt ich längst wieder rein"
+          - "Ich bin komplett nass und du stinkst"
+          - "Wehe du verteilst daheim deinen Stink"
+          - "Ich will nur, dass du scheißt"
+          - "Woho"
+          - "Dann könn wir endlich wieder"
+          - "Endlich wieder heim"
+      - lines:
+          - "Ich will heim"
+          - "Ich will heim"
+      - lines:
+          - "Hundi scheiß für mich"
+          - "Scheiß für mich oh"
+          - "Scheiß für mich"
+          - "Scheiß nur für mich"
+          - "Scheiß für mich"
+          - "Scheiß für mich"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Finally home"
+          - "Home with you"
+          - "You're my favourite doggy animal"
+          - "In your mouth"
+          - "A canned beer for me"
+          - "Thank you"
+      - lines:
+          - "I wanna get on the couch"
+          - "But my woof woof"
+          - "Still gotta get his kakapupu out of his butt"
+          - "Still gotta walk the dog at 11 pm"
+          - "Well, thank you"
+      - lines:
+          - "Oh don't look at me like that"
+          - "I know that you can do it"
+          - "Why is it taking so long"
+      - lines:
+          - "I just want you to shit oho"
+          - "Then we can finally go home again"
+          - "I just want you to know oho"
+          - "Without you I could've gone back in long ago"
+          - "I'm completely soaked and you stink"
+          - "Don't you dare spread your stink at home"
+          - "I just want you to shit"
+          - "Woho"
+          - "Then we can finally go"
+          - "Finally go home"
+      - lines:
+          - "We're out and about at 1 a.m."
+          - "I'm so scared my doggy will burst"
+          - "I'm massaging his rectum tract"
+          - "Until he poops"
+      - lines:
+          - "I'm doing my tenth lap around the same block"
+          - "You're not doing a poo and I can't be arsed"
+          - "I feel the ice-cold rain on my head"
+          - "Oh why is my goddamn dog constipated"
+          - "Oh noo"
+      - lines:
+          - "I just want you to shit oho"
+          - "Then we can finally go home again"
+          - "I just want you to know oho"
+          - "Without you I could've gone back in long ago"
+          - "I'm completely soaked and you stink"
+          - "Don't you dare spread your stink at home"
+          - "I just want you to shit"
+          - "Woho"
+          - "Then we can finally go"
+          - "Finally go home"
+      - lines:
+          - "Shit for me"
+          - "Shit for me"
+          - "Shit for me"
+          - "Shit for me"
+      - lines:
+          - "Shit for me"
+          - "Shit for me"
+          - "Shit for me"
+          - "Shit for me"
+      - lines:
+          - "I just want you to shit oho"
+          - "Then we can finally go home again"
+          - "I just want you to know oho"
+          - "Without you I could've gone back in long ago"
+          - "I'm completely soaked and you stink"
+          - "Don't you dare spread your stink at home"
+          - "I just want you to shit"
+          - "Woho"
+          - "Then we can finally go"
+          - "Finally go home"
+      - lines:
+          - "I wanna go home"
+          - "I wanna go home"
+      - lines:
+          - "Doggy shit for me"
+          - "Shit for me oh"
+          - "Shit for me"
+          - "Shit just for me"
+          - "Shit for me"
+          - "Shit for me"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Finalmente a casa"
+          - "A casa da te"
+          - "Sei il mio animale-cagnolino preferito"
+          - "Nella tua bocca"
+          - "Per me una birra in lattina"
+          - "Grazie mille"
+      - lines:
+          - "Voglio andare sul divano"
+          - "Ma il mio wau wau"
+          - "Deve ancora fare kakapupu dal popò"
+          - "Alle 23 ancora a portarlo a spasso"
+          - "Beh, grazie"
+      - lines:
+          - "Oh non guardarmi così"
+          - "Lo so che ci riesci"
+          - "Perché ci mette così tanto"
+      - lines:
+          - "Voglio solo che tu caghi oho"
+          - "Così possiamo finalmente tornare a casa"
+          - "Voglio solo che tu sappia oho"
+          - "Senza di te sarei già rientrato da un pezzo"
+          - "Sono fradicio e tu puzzi"
+          - "Guai a te se spargi il tuo puzzo in casa"
+          - "Voglio solo che tu caghi"
+          - "Woho"
+          - "Così possiamo finalmente"
+          - "Finalmente tornare a casa"
+      - lines:
+          - "Siamo in giro all'una di notte"
+          - "Ho tanta paura che il mio cagnolino scoppi"
+          - "Gli massaggio il tratto dell'intestino finale"
+          - "Finché non caga"
+      - lines:
+          - "Faccio il decimo giro intorno allo stesso isolato"
+          - "Tu non fai la cacca e io non ho voglia"
+          - "Sento la pioggia gelida sulla testa"
+          - "Oh perché il mio cane dannato è stitico"
+          - "Oh noo"
+      - lines:
+          - "Voglio solo che tu caghi oho"
+          - "Così possiamo finalmente tornare a casa"
+          - "Voglio solo che tu sappia oho"
+          - "Senza di te sarei già rientrato da un pezzo"
+          - "Sono fradicio e tu puzzi"
+          - "Guai a te se spargi il tuo puzzo in casa"
+          - "Voglio solo che tu caghi"
+          - "Woho"
+          - "Così possiamo finalmente"
+          - "Finalmente tornare a casa"
+      - lines:
+          - "Caga per me"
+          - "Caga per me"
+          - "Caga per me"
+          - "Caga per me"
+      - lines:
+          - "Caga per me"
+          - "Caga per me"
+          - "Caga per me"
+          - "Caga per me"
+      - lines:
+          - "Voglio solo che tu caghi oho"
+          - "Così possiamo finalmente tornare a casa"
+          - "Voglio solo che tu sappia oho"
+          - "Senza di te sarei già rientrato da un pezzo"
+          - "Sono fradicio e tu puzzi"
+          - "Guai a te se spargi il tuo puzzo in casa"
+          - "Voglio solo che tu caghi"
+          - "Woho"
+          - "Così possiamo finalmente"
+          - "Finalmente tornare a casa"
+      - lines:
+          - "Voglio andare a casa"
+          - "Voglio andare a casa"
+      - lines:
+          - "Cagnolino caga per me"
+          - "Caga per me oh"
+          - "Caga per me"
+          - "Caga solo per me"
+          - "Caga per me"
+          - "Caga per me"
+---
