@@ -27,6 +27,16 @@ Lo slug è la chiave di tutto: **cartella, URL e nome della cover devono coincid
 - Le date sono `YYYY-MM-DD` in ora locale italiana.
 - Nessun campo opzionale viene inventato: se manca, il validatore decide se è errore o se si usa un default.
 
+### Lingua di un brano (soglia per la seconda lingua)
+
+Un brano ha **una sola lingua originale**, quella dominante, in cui è cantata la maggior parte del testo. Le traduzioni vanno verso una lingua singola (`role: translation`). Non si fanno traduzioni automatiche né istantanee, quindi non serve una "doppia vista" per i brani con più lingue:
+
+- **Parole o frasi isolate** in altre lingue **non** rendono il brano multilingue: es. *ADIEU* (Rammstein) è tedesco anche se contiene parole non-tedesche. Una lingua sola, nessuna traduzione extra.
+- Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**. Si dichiara una seconda lingua solo se ha senso come vista completa a sé; altrimenti si resta sulla lingua dominante e la traduzione va verso la lingua unica scelta (es. inglese).
+- Nei brani davvero bilingu delti in parti uguali si sceglie comunque **una** lingua dominante per `original_langs` e si traduce il resto verso la lingua unica di traduzione.
+
+È un criterio umano, non automatico: il validatore non misura percentuali, decide chi scrive il contenuto.
+
 ## `band.md`
 
 ```yaml
