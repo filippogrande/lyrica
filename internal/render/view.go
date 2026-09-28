@@ -79,12 +79,30 @@ type StanzaView struct {
 	Lines  []string
 }
 
-// BlockView è un blocco di testo: l'originale o una traduzione.
-type BlockView struct {
-	Lang       string
+// TextView è un blocco di testo del brano — l'originale o una traduzione — con
+// la sua lingua: è quello che si stampa in pagina ed è anche la voce del menu
+// che lo sceglie.
+type TextView struct {
+	// Code è il codice lingua della pagina (es. de): è il valore del menu e il
+	// parametro che finisce nell'URL (?lang=de, ?orig=de).
+	Code string
+	// Label è la lingua come si legge in pagina: bandiera e codice ("🇩🇪 DE").
+	Label string
+	// Selected è la lingua mostrata all'apertura della pagina.
+	Selected bool
+	// Translator è chi ha tradotto il testo: vuoto sull'originale.
 	Translator string
-	Live       bool
 	Stanzas    []StanzaView
+}
+
+// SelectedValue è il valore di data-text-selected: "1" per la lingua mostrata
+// all'apertura, "0" per le altre. Il CSS nasconde le altre solo quando JS c'è
+// (assets/css/lyrica.css), così senza JS i testi restano tutti visibili.
+func (b TextView) SelectedValue() string {
+	if b.Selected {
+		return "1"
+	}
+	return "0"
 }
 
 // HomeView sono i dati della home: una sequenza di corsie.
@@ -151,28 +169,40 @@ type AlbumView struct {
 	// TracksText è il numero di tracce della tracklist, come stringa: la
 	// pagina album mostra la tracklist completa, anche dei brani senza testo.
 	TracksText string
-	// LangsText sono le lingue delle traduzioni presenti nell'album; vuoto se
-	// nell'album non c'è ancora nessuna traduzione.
+	// LangsText sono le lingue delle traduzioni presenti nell'album, con la
+	// bandiera accanto al codice; vuoto se nell'album non c'è ancora nessuna
+	// traduzione.
 	LangsText string
 	Tracklist []TrackRow
 	// OtherAlbums è la corsia "altri album della band", senza l'album corrente.
 	OtherAlbums Rail
 }
 
-// TrackView sono i dati della pagina di un brano: originale e traduzione.
+// TrackView sono i dati della pagina di un brano: hero con la copertina
+// dell'album e l'anagrafica, originale a sinistra e traduzione a destra. Le
+// lingue disponibili sono tutte in pagina: il menu di ogni lato sceglie quella
+// da leggere.
 type TrackView struct {
-	Page           PageData
-	Crumbs         []Crumb
-	Title          string
-	BandName       string
-	BandURL        templ.SafeURL
-	AlbumTitle     string
-	AlbumURL       templ.SafeURL
-	DateText       string
-	SingersText    string
-	Original       BlockView
-	Translation    BlockView
-	HasTranslation bool
+	Page         PageData
+	Crumbs       []Crumb
+	Title        string
+	BandName     string
+	BandURL      templ.SafeURL
+	AlbumTitle   string
+	AlbumURL     templ.SafeURL
+	YearText     string
+	DateText     string
+	SingersText  string
+	ShowCover    bool
+	CoverURL     templ.SafeURL
+	CoverAlt     string
+	LangsText    string
+	// Originals sono le lingue originali del brano (di solito una sola): il
+	// menu di sinistra compare solo se sono più di una.
+	Originals []TextView
+	// Translations sono tutte le traduzioni del brano, in ordine di file: la
+	// Selected è quella mostrata all'apertura.
+	Translations []TextView
 }
 
 // trackEntry è un brano pubblicato con la sua band e il suo album.
@@ -399,35 +429,6 @@ func groupByInitial(cards []BandCard) ([]LetterGroup, []string) {
 	return groups, letters
 }
 
-// BuildTrackView assembla la pagina di un brano: originale e traduzione a
-// fronte. La traduzione mostrata è quella nella lingua della pagina; se il
-// brano non ce l'ha, si mostra la prima disponibile (la lingua del blocco è
-// stampata in pagina, quindi non è un fallback nascosto).
-func BuildTrackView(page PageData, band *content.Band, album *content.Album, track *content.Track) TrackView {
-	original, _ := track.Original()
-	translation, found := track.Translation(page.Lang)
-	if !found {
-		translation, found = firstTranslation(track)
-	}
-	view := TrackView{
-		Page:           page,
-		Crumbs:         trackCrumbs(page, band, album, track),
-		Title:          track.Title,
-		BandName:       band.Name,
-		BandURL:        templ.URL(page.BandPath(band.Slug)),
-		AlbumTitle:     album.Title,
-		AlbumURL:       templ.URL(page.AlbumPath(band.Slug, album.Slug)),
-		DateText:       track.AddedDate.String(),
-		SingersText:    strings.Join(track.Singers, ", "),
-		Original:       newBlockView(original),
-		HasTranslation: found,
-	}
-	if found {
-		view.Translation = newBlockView(translation)
-	}
-	return view
-}
-
 // publishedAlbums elenca gli album pubblicati: quelli con almeno un brano
 // tradotto.
 func publishedAlbums(band *content.Band) []*content.Album {
@@ -490,17 +491,6 @@ func bandCrumbs(page PageData, band *content.Band, album *content.Album) []Crumb
 	)
 }
 
-// trackCrumbs costruisce il breadcrumb completo di un brano.
-func trackCrumbs(page PageData, band *content.Band, album *content.Album, track *content.Track) []Crumb {
-	return []Crumb{
-		{Label: page.T("nav.home"), URL: page.URL("")},
-		{Label: page.T("nav.bands"), URL: templ.URL(page.BandsPath())},
-		{Label: band.Name, URL: templ.URL(page.BandPath(band.Slug))},
-		{Label: album.Title, URL: templ.URL(page.AlbumPath(band.Slug, album.Slug))},
-		{Label: track.Title, Current: true},
-	}
-}
-
 // formedText è l'anno di formazione, vuoto se non dichiarato.
 func formedText(band *content.Band) string {
 	if band.FormedYear <= 0 {
@@ -515,29 +505,4 @@ func yearText(album *content.Album) string {
 		return ""
 	}
 	return strconv.Itoa(album.Year)
-}
-
-// newBlockView prepara un blocco di testo per la stampa.
-func newBlockView(block content.Block) BlockView {
-	stanzas := make([]StanzaView, 0, len(block.Stanzas))
-	for _, stanza := range block.Stanzas {
-		stanzas = append(stanzas, StanzaView{Singer: stanza.Singer, Lines: stanza.Lines})
-	}
-	return BlockView{
-		Lang:       block.Lang,
-		Translator: block.Translator,
-		Live:       block.Live,
-		Stanzas:    stanzas,
-	}
-}
-
-// firstTranslation restituisce la prima traduzione del brano, in ordine di
-// file: serve quando il brano è pubblicato ma non nella lingua della pagina.
-func firstTranslation(track *content.Track) (content.Block, bool) {
-	for _, block := range track.Blocks {
-		if block.Role == content.RoleTranslation {
-			return block, true
-		}
-	}
-	return content.Block{}, false
 }

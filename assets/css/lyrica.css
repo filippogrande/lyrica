@@ -283,20 +283,23 @@ main {
   border-radius: 0.25rem;
 }
 
-/* Pagina album: stessa logica della pagina band. Copertina nella colonna di
-   sinistra, anagrafica a destra; sotto md si impilano e la copertina riempie la
-   sua colonna. Se la copertina non c'è, l'anagrafica prende tutta la
+/* Pagine album e brano: stessa logica della pagina band. Copertina nella
+   colonna di sinistra, anagrafica a destra; sotto md si impilano e la copertina
+   riempie la sua colonna. Se la copertina non c'è, l'anagrafica prende tutta la
    larghezza. */
-.album-hero {
+.album-hero,
+.track-hero {
   align-items: start;
   margin-bottom: var(--space-section);
 }
 
-.album-hero .album-cover {
+.album-hero .album-cover,
+.track-hero .album-cover {
   margin: 0 0 1rem;
 }
 
-.album-hero .album-cover img {
+.album-hero .album-cover img,
+.track-hero .album-cover img {
   width: 100%;
   max-width: 100%;
 }
@@ -515,12 +518,9 @@ main {
 
 /* --- Vista a fronte (brano) -------------------------------------------- */
 /* Una colonna sotto i 992px, due colonne da lì in su: originale a sinistra,
-   traduzione a destra. Nessuna colonna di ads: sono spente al lancio
-   (docs/FEATURES.md). */
-
-.track-header {
-  margin-bottom: 1rem;
-}
+   traduzione a destra. In alto l'hero con la copertina dell'album e
+   l'anagrafica (stessa resa della pagina album). Nessuna colonna di ads: sono
+   spente al lancio (docs/FEATURES.md). */
 
 .track-meta {
   display: flex;
@@ -548,6 +548,48 @@ main {
   }
 }
 
+/* Le lingue del brano stanno tutte nel DOM: il menu di ogni lato sceglie quella
+   visibile (assets/js/lyrica.js). Questa regola nasconde le altre lingue SOLO
+   quando JS c'è — theme.js mette .js su <html> — quindi senza JS i testi
+   restano tutti leggibili, uno sotto l'altro. */
+.js .text-block[data-text-selected="0"] {
+  display: none;
+}
+
+.track-side {
+  margin-bottom: var(--space-section);
+}
+
+.side-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.side-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bs-secondary-color);
+}
+
+.lang-select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.25rem;
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font: inherit;
+}
+
+/* Quando le lingue si vedono tutte (senza JS) i blocchi devono staccarsi l'uno
+   dall'altro. */
+.text-block + .text-block {
+  margin-top: 1.5rem;
+}
+
 .block-title {
   font-size: 0.95rem;
   text-transform: uppercase;
@@ -561,6 +603,12 @@ main {
 .block-lang {
   font-size: 0.8rem;
   font-weight: 400;
+}
+
+.block-translator {
+  font-size: 0.9rem;
+  color: var(--bs-secondary-color);
+  margin-bottom: 0.75rem;
 }
 
 .stanzas {

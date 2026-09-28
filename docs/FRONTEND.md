@@ -11,8 +11,9 @@
 
 - **Bootstrap 5, solo CSS**, servito **dal repo** (`assets/css/vendor/`), non da CDN: serve all'offline della PWA e a non dipendere da terzi a runtime.
 - Personalizzazioni in `assets/css/lyrica.css`, **solo custom properties** dove possibile.
-- **JS custom ridotto al minimo** (tema, dimensione testo, menu, selettore lingua, filtro alfabetico delle band): poche decine di righe, nessun bundle.
+- **JS custom ridotto al minimo** (tema, dimensione testo, menu, lingua del brano, filtro alfabetico delle band): poche decine di righe, nessun bundle.
 - **Nessuno script inline**: la CSP non ammette `unsafe-inline`, quindi anche il tema è un file (`assets/js/theme.js`) caricato nel `<head>` **prima** del paint.
+- **`theme.js` mette la classe `.js` su `<html>`**: il CSS che nasconde contenuto in attesa di JS (lingue del brano) vale solo lì, così senza JS non sparisce niente.
 
 ## Griglia e breakpoints
 
@@ -21,9 +22,9 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | Contesto | Regola |
 |---|---|
 | Vista a fronte (pagina brano) | `col-12` sotto `lg`, `col-lg-6` da `lg` in su |
-| Elenco band (pagina Bands) | griglia di card `auto-fill`: 1 colonna su mobile, 2-3 da `md`, 3-4 da `lg` |
 | Hero della pagina band | foto `col-12 col-md-4`, anagrafica `col-12 col-md-8`; sotto `md` si impilano |
 | Hero della pagina album | copertina `col-12 col-md-4`, anagrafica `col-12 col-md-8`; sotto `md` si impilano |
+| Hero della pagina brano | copertina `col-12 col-md-4`, anagrafica `col-12 col-md-8`; sotto `md` si impilano |
 | Card album (corsie delle pagine band e album) | stessa misura delle card di corsia (`--rail-card`) |
 | Corsie | card larghe `--rail-card`: **10rem** su mobile, **12rem** da `md` |
 | Header | sticky sempre, nav compressa sotto `lg` con offcanvas |
@@ -54,7 +55,9 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Card album** | cover se esiste, altrimenti **segnaposto con l'iniziale**; titolo e anno di pubblicazione (corsie della pagina band e della pagina album) |
 | **Anagrafica band** | blocco `dl` con paese, attiva dal, membri, generi, più la descrizione; nella **pagina band** sta a **destra** della foto |
 | **Anagrafica album** | blocco `dl` con band (link), anno, numero di brani, lingue tradotte; nella **pagina album** sta a **destra** della copertina |
-| **Badge lingua** | lingue disponibili di un brano (`DE`, `IT`, ...) |
+| **Anagrafica brano** | blocco `dl` con band (link), album (link), anno, lingue disponibili; nella **pagina brano** sta a **destra** della copertina |
+| **Etichetta lingua (bandiera)** | una lingua si scrive **bandiera + codice** (`🇩🇪 DE`): vale in ogni pagina (anagrafiche, tracklist, intestazioni dei blocchi) — vedi "Etichette e bandiere" |
+| **Menu della lingua** | `<select>` per lato del testo nella pagina brano, con l'etichetta della lingua scelta; compare solo dove c'è più di una lingua (D92) |
 | **Etichetta di stato** | motivo per cui una traccia non ha una pagina: "In arrivo", "Strumentale", "Solo originale" (classe `.track-flag`, testo dai locale) |
 | **Strofa** | blocco di testo con eventuale nome del cantante sopra |
 | **Footer** | disclaimer, licenza CC, contatti, RSS, contatori |
@@ -66,6 +69,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 - Controllo **dimensione testo A-/A+**: scala la root `font-size`, salva la preferenza, si ferma a un massimo ragionevole.
 - Immagini decorative con `alt=""`; cover con `alt` descrittivo.
 - Ogni blocco di testo ha l'attributo **`lang` corretto**: uno screen reader deve leggere il tedesco come tedesco.
+- I menu delle lingue sono **controlli nativi** (`<select>` con il suo `<label>`), quindi funzionano da tastiera e sono annunciati dal sistema: nessun widget da imparare.
 - Contrasto verificato in entrambi i temi prima di chiudere la PR che tocca i colori.
 
 ## Budget di performance
@@ -80,6 +84,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 - Nessun **font icon** pesante: le poche icone sono SVG inline.
 - Nessuna immagine di sfondo, nessun carosello, nessun popup.
 - Nessuno **slider con scorrimento automatico** e nessuna libreria di caroselli: le corsie sono elenchi in overflow (vedi "Home a corsie").
+- Nessun **menu a tendina disegnato a mano**: per scegliere una lingua si usa il `<select>` del browser.
 
 ---
 
@@ -120,7 +125,7 @@ Band — Album                ← riga 2, in secondo piano
 - **Immagine**: cover dell'album nelle corsie dei brani e degli album, foto della band in quella delle band; il file sta in `covers/` (`docs/CONTENT.md`).
 - **Segnaposto**: quando l'immagine non c'è si mostra **l'iniziale** (dell'album o del nome) su fondo del tema. È un segnaposto **dichiarato**: nessuna immagine inventata, nessuna richiesta in rete, e la card non cambia dimensioni.
 - **Seconda riga unica**: per i brani `Band — Album`, per le band `Paese · Generi · N album`, per gli album l'**anno di pubblicazione** (vuota se l'anno non è dichiarato). Le parti vuote si saltano, il separatore resta uno solo.
-- Sotto la card non c'è altro: niente descrizione, niente badge lingua (quelli stanno in pagina).
+- Sotto la card non c'è altro: niente descrizione, niente etichetta di lingua (quelle stanno in pagina).
 
 ## Scorrimento senza JavaScript
 
@@ -145,11 +150,12 @@ Il budget delle immagini si misura **sul numero di immagini che una pagina caric
 | Pagina Bands | 1 per band, più la corsia in cima | `lazy`: contano quando l'utente scorre |
 | Pagina band | 1 foto + fino a 24 nelle due corsie (12 + 12) | `lazy`: contano quando l'utente scorre |
 | Pagina album | 1 copertina + fino a 12 nella corsia degli altri album | `lazy` |
+| Pagina brano | 1 copertina (è la copertina dell'album) | `lazy` |
 | Copertina di un album in pagina album | 1 | `lazy` |
 
 - Una home con tre corsie piene dichiara fino a **36 immagini**: è il caso peggiore, ed è il motivo per cui tutte sono `lazy` e con dimensioni dichiarate.
 - La **pagina Bands** mostra le band come card con foto (stesso formato delle corsie, D87): una pagina con N band dichiara N immagini, tutte `lazy` e con dimensioni dichiarate, quindi contano solo quando si scorre.
-- La **pagina band** ha due corsie (album e brani della band) più la foto: anche qui tutto è `lazy` e con dimensioni dichiarate. La **pagina album** aggiunge la corsia degli altri album.
+- La **pagina band** ha due corsie (album e brani della band) più la foto: anche qui tutto è `lazy` e con dimensioni dichiarate. La **pagina album** aggiunge la corsia degli altri album, la **pagina brano** la copertina dell'album in alto.
 - Le immagini caricate dall'autore sono **600x600 webp, una sola dimensione** (D78): nessuna miniatura separata, nessun ridimensionamento a runtime.
 - Se una pagina sfonda il budget, **si riduce il numero di card** (o si esclude una corsia), non si alza il budget.
 
@@ -168,7 +174,7 @@ Stesso formato delle card delle corsie: immagine 1:1 (foto della band, o **segna
 
 ## Il filtro per lettera
 
-- **Tutte le band sono già nel DOM**, raggruppate per iniziale; il filtro **nasconde e mostra i gruppi** con l'attributo `hidden` (`assets/js/lyrica.js`), come il selettore di lingua della pagina brano: nessuna chiamata al server, nessuna pagina separata, funziona **offline** (D87).
+- **Tutte le band sono già nel DOM**, raggruppate per iniziale; il filtro **nasconde e mostra i gruppi** con l'attributo `hidden` (`assets/js/lyrica.js`), come il menu della lingua della pagina brano: nessuna chiamata al server, nessuna pagina separata, funziona **offline** (D87).
 - **Senza JavaScript** i gruppi restano **tutti visibili**: il filtro è un di più, non un requisito. Nessun contenuto è nascosto dietro lo script.
 - La barra è una `<nav>` con `aria-label` tradotto (`bands.letters_label`); il pulsante attivo è marcato con `aria-pressed` e la classe `is-active`. "Tutte" (`bands.all`) mostra di nuovo tutti i gruppi.
 
@@ -196,13 +202,13 @@ La pagina di una band mostra, in quest'ordine (D88):
 
 La pagina di un album mostra, in quest'ordine (D89):
 
-1. **Titolo** (titolo dell'album) su tutta la larghezza, poi l'**hero a due colonne**: **copertina a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link alla pagina band), **anno**, **numero di tracce**, **lingue tradotte** (le lingue delle traduzioni presenti nell'album, senza ripetizioni e in ordine alfabetico). Sotto `md` le colonne **si impilano**. Se la copertina manca, l'anagrafica prende **tutta la larghezza**. La riga delle lingue è **assente** finché nell'album non c'è nessuna traduzione: nessun campo vuoto stampato.
+1. **Titolo** (titolo dell'album) su tutta la larghezza, poi l'**hero a due colonne**: **copertina a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link alla pagina band), **anno**, **numero di tracce**, **lingue tradotte** (le lingue delle traduzioni presenti nell'album, senza ripetizioni e in ordine alfabetico, ognuna con la **bandiera**: `🇩🇪 DE · 🇮🇹 IT`). Sotto `md` le colonne **si impilano**. Se la copertina manca, l'anagrafica prende **tutta la larghezza**. La riga delle lingue è **assente** finché nell'album non c'è nessuna traduzione: nessun campo vuoto stampato.
 2. **Tracklist numerata e completa** (`album.tracks`): **tutte** le tracce dichiarate in `tracks:` in `album.md`, nell'ordine del disco, ognuna con il **numero di traccia**.
    - Il numero è la **posizione nell'album**, non quella fra i brani tradotti: non cambia quando si pubblica una traduzione in più, quindi resta un riferimento stabile al disco.
-   - I brani **pubblicati** (con almeno una traduzione) sono **link** alla pagina del brano, con le lingue disponibili accanto.
+   - I brani **pubblicati** (con almeno una traduzione) sono **link** alla pagina del brano, con le **lingue disponibili accanto, con la bandiera** (`🇩🇪 DE`).
    - Ogni altra voce resta in elenco **senza link e non cliccabile**, con il **motivo** accanto al titolo: *"In arrivo"* (`track.pending`: il testo non è ancora scritto), *"Strumentale"* (`track.instrumental`), *"Solo originale"* (`track.only_original`: c'è il testo ma non una traduzione). Il motivo è un **testo tradotto dai locale**, mai scritto nel codice (D90).
    - La tracklist **non si accorcia** mai: mostrare solo i brani tradotti nasconderebbe che manca ancora del lavoro.
-   - Sulle voci **"in arrivo"** arriverà la call to action "segnalaci che vuoi questa traduzione", **insieme al form di segnalazione** (FASE 6, D90): finché il form non esiste la riga resta senza link, perché un link a una pagina che non c'è è peggio di nessun link.
+   - Sulle voci **"in arrivo"** arriverà la call to action "segnalaci che vuoi questa traduzione", **insieme al form di segnalazione** (FASE 6, D91): finché il form non esiste la riga resta senza link, perché un link a una pagina che non c'è è peggio di nessun link.
 3. **Corsia "Altri album della band"** (`album.other_albums`): gli altri album **pubblicati** della stessa band, **anno di pubblicazione** decrescente, **escluso quello che si sta guardando**. Stesse card della pagina band (copertina o segnaposto con l'iniziale, titolo, anno). Se l'album è l'unico pubblicato della band, la corsia **non esiste nel DOM**.
 
 - La corsia degli album è **la stessa** della pagina band: il costruttore sta in `internal/render/album_rail.go`, cambia solo il titolo.
@@ -212,7 +218,7 @@ La pagina di un album mostra, in quest'ordine (D89):
 
 # La vista a fronte (pagina brano)
 
-È la pagina per cui esiste il sito: originale a sinistra, traduzione a destra.
+È la pagina per cui esiste il sito: originale a sinistra, traduzione a destra (D92).
 
 ## Struttura
 
@@ -220,18 +226,26 @@ La pagina di un album mostra, in quest'ordine (D89):
 ┌─ header (sticky) ───────────────────────────────────────┐
 ├─ breadcrumb: Home > Band > Album > Brano ───────────────┤
 ├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
-├─ titolo brano + band + badge lingue ────────────────────┤
-├─ [ selettore lingua:  DE | IT | EN ] ───────────────────┤
-│         │                        │                      │
-│  [ads]  │  ORIGINALE             │  TRADUZIONE         │  [ads]
-│  later. │  (nome cantante)       │  (nome cantante)    │  later.
-│         │  strofa 1              │  strofa 1           │
-│  solo   │  (nome cantante)       │  (nome cantante)    │  solo
-│  xl+    │  strofa 2              │  strofa 2           │  xl+
+│  ┌────────┐  TITOLO DEL BRANO                          │
+│  │ cover  │  Band · Album · Anno · Lingue 🇩🇪 DE       │
+│  └────────┘  aggiunto il … · voci …                     │
+├──────────────────────────────────────────────────────────┤
+│                             │ [ scegli la traduzione ▾ ] │
+│  [ads]  │  ORIGINALE 🇩🇪 DE   │  TRADUZIONE 🇮🇹 IT       │  [ads]
+│  later. │  (nome cantante)    │  tradotto da …          │  later.
+│         │  strofa 1           │  strofa 1               │
+│  solo   │  (nome cantante)    │  (nome cantante)        │  solo
+│  xl+    │  strofa 2           │  strofa 2               │  xl+
 ├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤
 ├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
 ├─ footer ────────────────────────────────────────────────┤
 ```
+
+## Hero
+
+- **Copertina dell'album a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link), **album** (link), **anno**, **lingue disponibili** (l'originale e le traduzioni, con la bandiera). Sotto `md` le colonne **si impilano**; senza copertina l'anagrafica prende **tutta la larghezza**.
+- Sotto l'anagrafica la riga **data di aggiunta** e **voci** (quando il brano le dichiara).
+- La copertina è quella dell'**album** (il brano non ha immagine propria): `covers/<album>.webp`, `loading="lazy"`, con `width`/`height` dichiarati.
 
 ## Desktop (`xl` e oltre)
 
@@ -243,8 +257,8 @@ La pagina di un album mostra, in quest'ordine (D89):
 ## Mobile (sotto `lg`)
 
 - **Una colonna**: prima l'originale, poi la traduzione, nella stessa pagina (nessun tab nascosto: il testo si scorre).
-- Il **selettore lingua resta sticky** sotto l'header.
-- Blocchi separati da titoletti "Originale" / "Traduzione" in maiuscoletto.
+- I menu della lingua stanno **in cima al lato a cui appartengono**, quindi su mobile si incontrano scorrendo: nessun selettore fisso che copre il testo.
+- Blocchi separati dall'intestazione "Originale" / "Traduzione" in maiuscoletto, con la lingua accanto.
 - **Nessuna colonna laterale di ads**: solo il banner in alto e quello dopo "chiedi altre canzoni".
 
 ## Strofe e cantanti
@@ -254,13 +268,22 @@ La pagina di un album mostra, in quest'ordine (D89):
 - Se il brano ha **più voci**, sopra ogni strofa compare **il nome del cantante**, su **ogni** strofa. Se il brano ha una voce sola, nessuna etichetta (sarebbe rumore).
 - Il nome del cantante compare **anche nella colonna della traduzione**, così le due colonne restano leggibili in parallelo.
 
-## Selettore lingua
+## Menu della lingua
 
-- Mostra **solo le lingue realmente presenti** per quel brano, comprese le lingue originali quando sono più di una.
-- L'**originale** è sempre selezionabile; non esistono stati vuoti.
-- Implementazione: **tutte le lingue presenti nel DOM** e commutate lato client con poche righe di JS (attributo `hidden`), **nessuna chiamata al server**: cambio istantaneo e funzionante **offline**.
-- La lingua scelta si riflette nell'URL come parametro (`?lang=de`) via `history.replaceState`: link condivisibile, nessuna pagina separata, nessun URL duplicato.
-- Usabile da tastiera, annuncia il cambio (`aria-live`).
+- **Un menu per lato** (D92): a sinistra quello dell'**originale** — e compare **solo se il brano ha più di una lingua originale** (D28) — a destra quello della **traduzione**. Dove c'è una lingua sola il menu **non esiste nel DOM**: un menu con una voce sola è rumore.
+- Il menu è un **`<select>` nativo** (`.lang-select`), preceduto dal suo `<label>` tradotto (`track.choose_original`, `track.choose_translation`): si apre col pollice, con la rotella e con la tastiera, senza una riga di codice in più.
+- Ogni voce è l'**etichetta della lingua con la bandiera** (`🇩🇪 DE`), la stessa che si legge sopra il blocco.
+- **Tutte le lingue del brano sono nel DOM**: il cambio è lato client e **istantaneo**, nessuna chiamata al server, funziona **offline** (come il filtro delle band, D87).
+- La lingua scelta si riflette nell'URL via `history.replaceState`: **`?lang=de`** per la traduzione, **`?orig=de`** per l'originale. Il link si copia e si condivide, e chi lo apre trova la lingua scelta (lo script applica il parametro al caricamento); nessuna pagina separata e nessun URL duplicato.
+- L'intestazione del blocco porta la lingua del testo che si sta leggendo (`ORIGINALE 🇩🇪 DE`, `TRADUZIONE 🇮🇹 IT`): non c'è un titolo di colonna che può contraddire quello che si legge. Il traduttore, quando dichiarato, sta sotto l'intestazione della traduzione (`track.translator`).
+- **Senza JS** i blocchi restano **tutti visibili**, uno sotto l'altro, ciascuno con la sua intestazione: un menu che non funziona sarebbe peggio di nessun menu, e il testo non si nasconde dietro lo script.
+
+## Etichette e bandiere
+
+- Una lingua si scrive **sempre come bandiera + codice** (`🇩🇪 DE`, `🇬🇧 EN`, `🇮🇹 IT`): la bandiera si legge prima, il codice dice la lingua esatta a chi non distingue le bandiere e a chi usa uno screen reader.
+- La mappa sta in `internal/render/lang_flags.go`; l'**inglese è 🇬🇧** (scelta dichiarata dall'autore). Una lingua senza bandiera — o un codice non previsto — mostra il **globo 🌐**: meglio un segno dichiarato che una bandiera inventata.
+- Le etichette si usano **ovunque si nominano lingue**: anagrafiche (brano, album), tracklist dell'album, intestazioni dei blocchi e voci dei menu. Nessuna pagina scrive più un codice lingua nudo.
+- I codici lingua restano quelli dello schema (`de`, `it`, `es`…): **non si traducono** e viaggiano nell'URL (`?lang=de`), dove una bandiera non ha senso.
 
 ## Sezione "chiedi altre canzoni"
 
@@ -281,6 +304,9 @@ La pagina di un album mostra, in quest'ordine (D89):
 | Brano con una sola lingua (nessuna traduzione) | **non ha pagina**: in tracklist come "solo originale" |
 | Traccia dichiarata in `album.md` senza testo | in tracklist, **senza link**, con "In arrivo" |
 | Brano strumentale | in tracklist con nota, nessuna pagina |
+| Brano con **più lingue originali** | l'originale mostrato è il primo dichiarato; il menu di sinistra le elenca tutte |
+| Lingua non prevista nella mappa delle bandiere | **globo 🌐** accanto al codice, nessuna bandiera inventata |
+| **JS disattivato** | i blocchi restano tutti visibili, uno sotto l'altro; il menu non compare |
 | Traduzione con strofe più corte | colonna allineata in alto, nessun riempimento artificiale |
 | Numero di voci mancante | nessuna etichetta cantante |
 | Lingua con alfabeto diverso | il font multialfabeto deve coprirla, altrimenti è un bug |
@@ -295,7 +321,7 @@ La pagina di un album mostra, in quest'ordine (D89):
 | Concetto | Cos'è | Dove si sceglie |
 |---|---|---|
 | **Lingua dell'interfaccia** | la lingua delle parti fisse del sito (Home, Bands, Ricerca, breadcrumb, messaggi) | prefisso URL: `/it/...`, `/en/...` |
-| **Lingua del testo** | la lingua di una traduzione di un brano | selettore nella pagina brano (`?lang=xx`) |
+| **Lingua del testo** | la lingua del testo di un brano: l'originale o una traduzione | menu della lingua nella pagina brano (`?orig=xx`, `?lang=xx`), lato client |
 
 `/it/` non significa "traduzione italiana": significa "sito in italiano". Un utente può leggere il sito in italiano e il testo in tedesco con traduzione in inglese.
 
@@ -325,6 +351,7 @@ Caso iniziale: **italiano + inglese**, con le successive quando la prima traduzi
 - Ogni pagina dichiara `<link rel="alternate" hreflang="...">` per tutte le lingue disponibili + `x-default`.
 - `canonical` sempre verso l'URL corrente.
 - I link interni passano **sempre** dal prefisso di lingua (helper di percorso), dalle corsie della home in poi: un link costruito a mano senza prefisso è un 404.
+- I **parametri della lingua del testo** (`?orig=`, `?lang=`) sono preferenze di lettura, non pagine: non entrano in `canonical` né in `hreflang`.
 
 ## Negoziazione
 
@@ -337,7 +364,7 @@ Caso iniziale: **italiano + inglese**, con le successive quando la prima traduzi
 - Tutte le stringhe visibili stanno in `locales/<lang>.yaml`: **nessun testo hard-coded nei template**.
 - Chiavi piatte e parlanti (`nav.home`, `track.translator`, `search.no_results`).
 - **Chiave mancante = fallback italiano** + warning in build (non blocca, ma la PR deve sistemarlo o giustificarlo).
-- I nomi propri (band, brani, cantanti) **non si traducono mai**.
+- I nomi propri (band, brani, cantanti) **non si traducono mai**, e **nemmeno i codici lingua** (una bandiera non è un testo da tradurre).
 
 ## Cosa si adatta e cosa no
 
@@ -426,6 +453,7 @@ Un testo tradotto serve spesso **senza rete** (in metro, in aereo, in un posto s
 |---|---|
 | Pagine brano già visitate (tutte le lingue, cambio lingua compreso) | sì |
 | Navigazione tra pagine già visitate | sì |
+| Menu della lingua del brano (originale e traduzione) | sì (è locale) |
 | Cambio tema e dimensione testo | sì (è locale) |
 | Filtro alfabetico delle band | sì (è locale) |
 | Ricerca | no (avviso chiaro) |

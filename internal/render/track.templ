@@ -1,56 +1,117 @@
 package render
 
-// Track è la pagina di un brano: originale a sinistra, traduzione a destra.
-// Sotto il titolo ci sono i dati del brano; il nome del cantante compare sopra
-// la strofa solo se il contenuto lo dichiara (brani multi-voce).
+// Track è la pagina di un brano: in alto l'hero con la copertina dell'album e
+// l'anagrafica (band, album, anno, lingue disponibili), poi l'originale a
+// sinistra e la traduzione a destra.
+//
+// Le lingue del brano sono tutte in pagina e il menu di ogni lato sceglie quella
+// da leggere (assets/js/lyrica.js); senza JS restano visibili tutte. Il nome del
+// cantante compare sopra la strofa solo se il contenuto lo dichiara (brani
+// multi-voce).
 templ Track(v TrackView) {
 	@Layout(v.Page) {
 		@breadcrumb(v.Page.T("a11y.breadcrumb"), v.Crumbs)
-		<header class="track-header">
-			<h1 class="page-title">{ v.Title }</h1>
-			<p class="track-meta">
-				<a href={ v.BandURL }>{ v.BandName }</a>
-				<a href={ v.AlbumURL }>{ v.AlbumTitle }</a>
-				if v.DateText != "" {
-					<span class="track-date">{ v.Page.T("track.added") }: { v.DateText }</span>
-				}
-			</p>
-			if v.SingersText != "" {
-				<p class="track-singers">{ v.Page.T("track.singers") }: { v.SingersText }</p>
-			}
-		</header>
+		@trackHero(v)
 		<div class="track-blocks">
-			<section class="block" lang={ v.Original.Lang }>
-				<h2 class="block-title">
-					{ v.Page.T("track.original") }
-					<span class="block-lang">{ v.Original.Lang }</span>
-				</h2>
-				@stanzas(v.Original)
-			</section>
-			if v.HasTranslation {
-				<section class="block" lang={ v.Translation.Lang }>
-					<h2 class="block-title">
-						{ v.Page.T("track.translation") }
-						<span class="block-lang">{ v.Translation.Lang }</span>
-					</h2>
-					@stanzas(v.Translation)
-				</section>
-			} else {
-				<section class="block">
+			@textSide(v.Page, "original", v.Page.T("track.original"), v.Page.T("track.choose_original"), v.Originals)
+			if len(v.Translations) == 0 {
+				<section class="track-side">
 					<h2 class="block-title">{ v.Page.T("track.translation") }</h2>
 					<p class="empty-state">{ v.Page.T("track.no_translation") }</p>
 				</section>
+			} else {
+				@textSide(v.Page, "translation", v.Page.T("track.translation"), v.Page.T("track.choose_translation"), v.Translations)
 			}
 		</div>
 	}
 }
 
-// stanzas stampa le strofe di un blocco: un verso per riga, nessuna
-// annotazione per verso (decisione di prodotto: le note per verso non
-// esistono nello schema).
-templ stanzas(block BlockView) {
+// trackHero mette la copertina dell'album a sinistra e l'anagrafica a destra;
+// quando la copertina non c'è l'anagrafica prende tutta la larghezza. È la
+// stessa resa della pagina album.
+templ trackHero(v TrackView) {
+	if v.ShowCover {
+		<div class="track-hero row">
+			<figure class="album-cover col-12 col-md-4">
+				<img src={ v.CoverURL } alt={ v.CoverAlt } width="600" height="600" loading="lazy"/>
+			</figure>
+			<div class="col-12 col-md-8">
+				@trackFacts(v)
+			</div>
+		</div>
+	} else {
+		<div class="track-hero">
+			@trackFacts(v)
+		</div>
+	}
+}
+
+// trackFacts è il titolo del brano con la sua anagrafica: band, album, anno e
+// lingue disponibili con la bandiera, più data di aggiunta e voci quando
+// servono.
+templ trackFacts(v TrackView) {
+	<h1 class="page-title">{ v.Title }</h1>
+	<dl class="album-facts">
+		<dt>{ v.Page.T("album.band") }</dt>
+		<dd><a href={ v.BandURL }>{ v.BandName }</a></dd>
+		<dt>{ v.Page.T("track.album") }</dt>
+		<dd><a href={ v.AlbumURL }>{ v.AlbumTitle }</a></dd>
+		if v.YearText != "" {
+			<dt>{ v.Page.T("album.year") }</dt>
+			<dd>{ v.YearText }</dd>
+		}
+		if v.LangsText != "" {
+			<dt>{ v.Page.T("track.langs") }</dt>
+			<dd>{ v.LangsText }</dd>
+		}
+	</dl>
+	<p class="track-meta">
+		if v.DateText != "" {
+			<span class="track-date">{ v.Page.T("track.added") }: { v.DateText }</span>
+		}
+		if v.SingersText != "" {
+			<span class="track-singers">{ v.Page.T("track.singers") }: { v.SingersText }</span>
+		}
+	</p>
+}
+
+// textSide stampa un lato del testo: il menu delle lingue (solo se ce n'è più di
+// una) e un blocco per ogni lingua. Tutte le lingue restano nel DOM, il menu
+// commuta quella visibile; il CSS nasconde le altre solo quando JS c'è
+// (assets/css/lyrica.css), così senza JS i testi restano tutti leggibili.
+templ textSide(page PageData, side string, label string, chooseLabel string, blocks []TextView) {
+	<section class="track-side">
+		if len(blocks) > 1 {
+			<div class="side-head">
+				<label class="side-label" for={ "lang-" + side }>{ chooseLabel }</label>
+				<select class="lang-select" id={ "lang-" + side } data-lang-select={ side }>
+					for _, block := range blocks {
+						<option value={ block.Code } selected?={ block.Selected }>{ block.Label }</option>
+					}
+				</select>
+			</div>
+		}
+		for _, block := range blocks {
+			<article class="text-block" data-text-block={ side } data-text-lang={ block.Code } data-text-selected={ block.SelectedValue() }>
+				<h2 class="block-title">
+					{ label }
+					<span class="block-lang">{ block.Label }</span>
+				</h2>
+				if block.Translator != "" {
+					<p class="block-translator">{ page.T("track.translator") }: { block.Translator }</p>
+				}
+				@stanzas(block.Stanzas)
+			</article>
+		}
+	</section>
+}
+
+// stanzas stampa le strofe di un blocco: un verso per riga, nessuna annotazione
+// per verso (decisione di prodotto: le note per verso non esistono nello
+// schema).
+templ stanzas(stanzas []StanzaView) {
 	<div class="stanzas">
-		for _, stanza := range block.Stanzas {
+		for _, stanza := range stanzas {
 			<div class="stanza">
 				if stanza.Singer != "" {
 					<p class="stanza-singer">{ stanza.Singer }</p>
