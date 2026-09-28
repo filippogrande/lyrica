@@ -19,6 +19,15 @@ const (
 	RoleTranslation = "translation"
 )
 
+const (
+	// StatusPending è una voce di tracklist il cui testo non è ancora scritto:
+	// il brano sta in elenco (numerato, senza link) come "in arrivo".
+	StatusPending = "pending"
+	// StatusInstrumental è una voce di tracklist strumentale: non ha testo ora
+	// e non avrà mai una pagina.
+	StatusInstrumental = "instrumental"
+)
+
 // Band è l'anagrafica di una band (content/bands/<slug>/band.md).
 type Band struct {
 	Name          string   `yaml:"name"`
@@ -46,6 +55,8 @@ type Album struct {
 	Year  int    `yaml:"year"`
 	Cover string `yaml:"cover"`
 	// Tracklist è l'ordine dichiarato in album.md: è quello che si stampa.
+	// La tracklist è completa (tutte le tracce del disco), anche quelle che
+	// non hanno ancora un testo: vedi TracklistEntry e Entries().
 	Tracklist []TrackRef `yaml:"tracks"`
 
 	Directory string   `yaml:"-"`
@@ -53,12 +64,19 @@ type Album struct {
 	Tracks    []*Track `yaml:"-"`
 }
 
-// TrackRef è un brano nella tracklist dell'album: slug, titolo e se è
-// strumentale (gli strumentali stanno in tracklist ma non hanno pagina).
+// TrackRef è un brano nella tracklist dell'album: slug, titolo e il motivo per
+// cui la voce può stare in elenco senza avere una pagina.
 type TrackRef struct {
-	Slug         string `yaml:"slug"`
-	Title        string `yaml:"title"`
-	Instrumental bool   `yaml:"instrumental"`
+	Slug  string `yaml:"slug"`
+	Title string `yaml:"title"`
+	// Instrumental segna il brano strumentale di una voce che ha il suo file:
+	// sta in tracklist ma non ha pagina.
+	Instrumental bool `yaml:"instrumental"`
+	// Status dichiara una voce SENZA file: "" (il file c'è), StatusPending
+	// (testo non ancora scritto) o StatusInstrumental (strumentale senza
+	// file). Una voce con Status non può avere il file: sarebbe una
+	// contraddizione e la segnala il validatore (validate_album.go).
+	Status string `yaml:"status"`
 }
 
 // Track è un brano con i suoi blocchi di testo (tracks/<slug>.md).

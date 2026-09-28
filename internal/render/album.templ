@@ -1,9 +1,10 @@
 package render
 
 // Album è la pagina di un album: copertina e anagrafica affiancate (band, anno,
-// numero di brani, lingue tradotte), la tracklist completa e numerata, la corsia
-// degli altri album della band. La tracklist è il disco intero: i brani senza
-// traduzione restano in elenco, senza link e non cliccabili.
+// numero di tracce, lingue tradotte), la tracklist completa e numerata, la
+// corsia degli altri album della band. La tracklist è il disco intero: i brani
+// senza testo restano in elenco, senza link e non cliccabili, con il motivo
+// (in arrivo, strumentale, solo originale).
 templ Album(v AlbumView) {
 	@Layout(v.Page) {
 		@breadcrumb(v.Page.T("a11y.breadcrumb"), v.Crumbs)
@@ -31,10 +32,8 @@ templ Album(v AlbumView) {
 							<a class="track-item-title" href={ row.URL }>{ row.Title }</a>
 						} else {
 							<span class="track-item-title">{ row.Title }</span>
-							if row.Instrumental {
-								<span class="track-flag">{ v.Page.T("track.instrumental") }</span>
-							} else {
-								<span class="track-flag">{ v.Page.T("track.only_original") }</span>
+							if row.ReasonKey != "" {
+								<span class="track-flag">{ v.Page.T(row.ReasonKey) }</span>
 							}
 						}
 						if row.LangsText != "" {
@@ -50,7 +49,7 @@ templ Album(v AlbumView) {
 	}
 }
 
-// albumFacts è l'anagrafica dell'album: band (link), anno, numero di brani e
+// albumFacts è l'anagrafica dell'album: band (link), anno, numero di tracce e
 // lingue in cui è tradotto. Sta a destra della copertina, o a tutta larghezza
 // quando la copertina non c'è.
 templ albumFacts(v AlbumView) {
