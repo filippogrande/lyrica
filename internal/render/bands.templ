@@ -1,37 +1,64 @@
 package render
 
-// Bands è l'elenco completo delle band pubblicate, in ordine alfabetico.
+// Bands è la pagina delle band: la corsia delle ultime arrivate in cima (come
+// in home) e sotto l'elenco completo, diviso per iniziale.
 templ Bands(v BandsView) {
 	@Layout(v.Page) {
 		<h1 class="page-title">{ v.Page.T("nav.bands") }</h1>
-		if len(v.Bands) == 0 {
+		if len(v.Groups) == 0 {
 			<section class="empty-state">
 				<p>{ v.Page.T("bands.empty") }</p>
 			</section>
 		} else {
-			@bandList(v.Page, v.Bands)
+			if len(v.Latest.Cards) > 0 {
+				@railBlock(v.Latest)
+			}
+			@bandIndex(v)
 		}
 	}
 }
 
-// bandList è l'elenco delle band, condiviso fra home e pagina Bands.
-templ bandList(page PageData, cards []BandCard) {
-	<ul class="band-list">
+// bandIndex è l'elenco alfabetico: la barra delle iniziali e, sotto, un gruppo
+// per lettera.
+//
+// Tutti i gruppi stanno nel DOM; il filtro per lettera è lato client
+// (assets/js/lyrica.js) e usa l'attributo hidden, come il selettore di lingua
+// della pagina brano. Senza JS i gruppi restano tutti visibili: il filtro è un
+// di più, non un requisito.
+templ bandIndex(v BandsView) {
+	<section class="band-index" data-band-index>
+		<nav class="band-letters" aria-label={ v.Page.T("bands.letters_label") }>
+			<button type="button" class="band-letter is-active" data-band-letter="*" aria-pressed="true">{ v.Page.T("bands.all") }</button>
+			for _, letter := range v.Letters {
+				<button type="button" class="band-letter" data-band-letter={ letter } aria-pressed="false">{ letter }</button>
+			}
+		</nav>
+		for _, group := range v.Groups {
+			<section class="band-group" data-band-group={ group.Letter }>
+				<h2 class="band-group-letter">{ group.Letter }</h2>
+				@bandGrid(group.Cards)
+			</section>
+		}
+	}
+}
+
+// bandGrid è la griglia di card di una lettera: stesso formato delle card delle
+// corsie (immagine 1:1 o segnaposto, nome, riga di informazioni).
+templ bandGrid(cards []BandCard) {
+	<ul class="band-grid">
 		for _, card := range cards {
-			<li class="band-list-item">
-				<a class="band-list-name" href={ card.URL }>{ card.Name }</a>
-				<span class="band-list-meta">
-					if card.Country != "" {
-						<span class="band-country">{ card.Country }</span>
+			<li class="band-card">
+				<a class="band-card-link" href={ card.URL }>
+					if card.HasImage {
+						<img class="band-card-image" src={ card.ImageURL } alt="" width="600" height="600" loading="lazy" decoding="async"/>
+					} else {
+						<span class="band-card-placeholder" aria-hidden="true">{ card.Initial }</span>
 					}
-					if card.TagsText != "" {
-						<span class="band-tags">{ card.TagsText }</span>
+					<span class="band-card-name">{ card.Name }</span>
+					if card.MetaText != "" {
+						<span class="band-card-meta">{ card.MetaText }</span>
 					}
-					<span class="band-albums">{ page.T("band.albums") }: { card.AlbumsText }</span>
-				</span>
-				if card.Description != "" {
-					<p class="band-list-description">{ card.Description }</p>
-				}
+				</a>
 			</li>
 		}
 	</ul>
