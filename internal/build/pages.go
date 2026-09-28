@@ -34,8 +34,7 @@ func (w *pageWriter) writeLang(lang string) error {
 	}
 
 	bandsPage := w.pageData(lang, w.bundle.MustT(lang, "nav.bands"))
-	bands := render.BuildBandCards(bandsPage, w.catalog.Bands)
-	if err := w.write(lang, "bands/", render.Bands(render.BandsView{Page: bandsPage, Bands: bands})); err != nil {
+	if err := w.write(lang, "bands/", render.Bands(render.BuildBandsView(bandsPage, w.catalog))); err != nil {
 		return err
 	}
 
