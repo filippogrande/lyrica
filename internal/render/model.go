@@ -30,7 +30,7 @@ func (d PageData) T(key string) string {
 //
 // Restituisce templ.SafeURL perché i file .templ NON importano il pacchetto
 // templ: la generazione lo importa da sé, e un import esplicito nei .templ
-// produce "templ redeclared in this block".
+// produce un errore di redeclaration.
 func (d PageData) URL(suffix string) templ.SafeURL {
 	return templ.URL(d.Path(suffix))
 }
