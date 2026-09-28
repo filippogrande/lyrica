@@ -1,0 +1,150 @@
+---
+title: "Cityroller"
+slug: "cityroller"
+added_date: 2026-09-28
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Rollin rollin rollin rollin"
+          - "Rollin rollin rollin rollin"
+          - "Rollin rollin rollin rollin"
+          - "Rollin rollin rollin rollin"
+      - lines:
+          - "Ah yeah"
+          - "C c cityroller"
+          - "Geh zur Seite wenn ich durch die City roller"
+          - "Ah yeah"
+          - "Bin kein Südtiroler"
+          - "Aber mache Cheese"
+          - "Wenn der Blitzer Foto von mir schießt"
+          - "Ah yeah"
+      - lines:
+          - "Aura farmer auf Aluminium"
+          - "Inline Fahrer fahre alle um"
+          - "Kickboard K2 bro bist du dumm"
+          - "Bist du dumm, bist du dumm, bist du dumm, bist du dumm"
+      - lines:
+          - "Yeah"
+          - "Ich fühl mich Hüper Hüper"
+          - "Fühlst du dich Hüper Hüper"
+          - "Yeah"
+          - "Ich fühl mich Hüper Hüper"
+          - "Fühlst du dich Hüper Hüper"
+      - lines:
+          - "Fahr mit mir Scooter"
+          - "Let's roll into the night"
+          - "Hör mit mir Scooter"
+          - "Ich hab Discman dabei"
+          - "Bye bye bye"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Der Fisch der Fisch der Fisch"
+      - lines:
+          - "Fischi fischi fischi"
+      - lines:
+          - "Wie viel ist der"
+          - "FISCH"
+      - lines:
+          - "Fischi fischi fischi"
+      - lines:
+          - "Aahhhhhhhh"
+          - "Mein Schienbein"
+          - "Aaaaaaahhh"
+          - "Mein verdammtes Schienbein"
+          - "Yah"
+          - "Nicht schon wieder das Schienbein"
+          - "Mein Schienbein"
+      - lines:
+          - "Yeah"
+          - "Ich fühl mich Hüper Hüper"
+          - "Fühlst du dich Hüper Hüper"
+          - "Yeah"
+          - "Ich fühl mich Hüper Hüper"
+          - "Fühlst du dich Hüper Hüper"
+      - lines:
+          - "Fahr mit mir Scooter"
+          - "Let's roll into the night"
+          - "Hör mit mir Scooter"
+          - "Ich hab Discman dabei"
+          - "Bye bye bye"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Der Fisch der Fisch der Fisch"
+      - lines:
+          - "Fischi fischi fischi"
+      - lines:
+          - "Durch die Nacht mit meinem Bro"
+          - "Kopf aus Autopilot"
+          - "Ich lass den Lenker los"
+          - "Halt mich fest"
+      - lines:
+          - "Fahr mit mir Scooter"
+          - "Let's roll into the night"
+          - "Hör mit mir Scooter"
+          - "Ich hab Discman dabei"
+          - "Bye bye bye"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Hans Peter wie viel ist der Fisch"
+          - "Der Fisch der Fisch der Fisch"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Rollin rollin rollin rollin"
+          - "Rollin rollin rollin rollin"
+          - "Rollin rollin rollin rollin"
+          - "Rollin rollin rollin rollin"
+      - lines:
+          - "Ah yeah"
+          - "C c cityroller"
+          - "Step aside when I roll through the city"
+          - "Ah yeah"
+          - "Ain't no South Tyrolean"
+          - "But I make cheese"
+          - "When the speed camera snaps a photo of me"
+          - "Ah yeah"
+      - lines:
+          - "Aura farmer on aluminium"
+          - "Inline skater, running everyone over"
+          - "Kickboard K2 bro, are you dumb"
+          - "Are you dumb, are you dumb, are you dumb, are you dumb"
+      - lines:
+          - "Yeah"
+          - "I feel Hüper Hüper"
+          - "Do you feel Hüper Hüper"
+          - "Yeah"
+          - "I feel Hüper Hüper"
+          - "Do you feel Hüper Hüper"
+      - lines:
+          - "Ride with me, Scooter"
+          - "Let's roll into the night"
+          - "Listen with me, Scooter"
+          - "I got my Discman with me"
+          - "Bye bye bye"
+          - "Hans Peter how much is the fish"
+          - "Hans Peter how much is the fish"
+          - "Hans Peter how much is the fish"
+          - "The fish the fish the fish"
+      - lines:
+          - "Fischi fischi fischi"
+      - lines:
+          - "How much is the"
+          - "FISH"
+      - lines:
+          - "Fischi fischi fischi"
+      - lines:
+          - "Aahhhhhhhh"
+          - "My shinbone"
+          - "Aaaaaaahhh"
+          - "My damn shinbone"
+          - "Yah"
+          - "Not the shinbone again"
+          - "My shinbone"
