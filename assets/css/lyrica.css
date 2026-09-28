@@ -139,8 +139,7 @@ main {
 
 .band-list,
 .album-list,
-.track-list,
-.track-items {
+.track-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -194,6 +193,21 @@ main {
   color: var(--bs-secondary-color);
 }
 
+/* Tracklist dell'album: numerata e completa. Il numero è la posizione
+   nell'album — non quella fra i brani tradotti — quindi resta lo stesso quando
+   si pubblica una traduzione in più. I brani senza traduzione rimpano in
+   elenco senza link (vedi docs/FRONTEND.md). */
+.track-items {
+  list-style: decimal;
+  padding-left: 1.75rem;
+  margin: 0;
+}
+
+.track-item::marker {
+  color: var(--bs-secondary-color);
+  font-variant-numeric: tabular-nums;
+}
+
 /* --- Anagrafica band ---------------------------------------------------- */
 
 .band-facts {
@@ -233,7 +247,7 @@ main {
 /* La foto occupa la colonna di sinistra e l'anagrafica sta a destra; sotto md
    si impilano (griglia Bootstrap). Dentro l'hero la foto riempie la sua colonna
    invece di fermarsi a 20rem: lo spazio stretto chiede la resa, non la misura
-   fissa. Ritaglia la descrizione a --measure, che resta la misura di lettura. */
+   fissa. */
 .band-hero {
   align-items: start;
   margin-bottom: var(--space-section);
@@ -267,6 +281,39 @@ main {
   max-width: 20rem;
   height: auto;
   border-radius: 0.25rem;
+}
+
+/* Pagina album: stessa logica della pagina band. Copertina nella colonna di
+   sinistra, anagrafica a destra; sotto md si impilano e la copertina riempie la
+   sua colonna. Se la copertina non c'è, l'anagrafica prende tutta la
+   larghezza. */
+.album-hero {
+  align-items: start;
+  margin-bottom: var(--space-section);
+}
+
+.album-hero .album-cover {
+  margin: 0 0 1rem;
+}
+
+.album-hero .album-cover img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.album-facts {
+  margin-bottom: 0;
+}
+
+.album-facts dt {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bs-secondary-color);
+}
+
+.album-facts dd {
+  margin-bottom: 0.5rem;
 }
 
 /* --- Corsie orizzontali della home ------------------------------------- */
