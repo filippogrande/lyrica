@@ -57,7 +57,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Anagrafica album** | blocco `dl` con band (link), anno, numero di brani, lingue tradotte; nella **pagina album** sta a **destra** della copertina |
 | **Anagrafica brano** | blocco `dl` con band (link), album (link), anno, lingue disponibili; nella **pagina brano** sta a **destra** della copertina |
 | **Etichetta lingua (bandiera)** | una lingua si scrive **bandiera + codice** (`🇩🇪 DE`): vale in ogni pagina (anagrafiche, tracklist, intestazioni) — vedi "Etichette e bandiere" |
-| **Intestazione di lato** | in cima a **ogni** colonna della pagina brano: nome del lato (`ORIGINALE` / `TRADUZIONE`) e la **lingua in un menu** (`<select>` con la bandiera, una voce sola quando la lingua è una). C'è su entrambi i lati anche con una lingua sola: è quello che tiene allineate le colonne (D92, D94) |
+| **Intestazione di lato** | in cima a **ogni** colonna della pagina brano: nome del lato (`ORIGINALE` / `TRADUZIONE`) e la lingua — **menu** (`<select>`) dove c'è più di una lingua da scegliere, **etichetta fissa** dove la lingua è una sola. C'è su entrambi i lati sempre: è quello che tiene allineate le colonne (D92, D94, D95) |
 | **Etichetta di stato** | motivo per cui una traccia non ha una pagina: "In arrivo", "Strumentale", "Solo originale" (classe `.track-flag`, testo dai locale) |
 | **Strofa** | blocco di testo con eventuale nome del cantante sopra |
 | **Footer** | disclaimer, licenza CC, contatti, RSS, contatori |
@@ -69,7 +69,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 - Controllo **dimensione testo A-/A+**: scala la root `font-size`, salva la preferenza, si ferma a un massimo ragionevole.
 - Immagini decorative con `alt=""`; cover con `alt` descrittivo.
 - Ogni blocco di testo ha l'attributo **`lang` corretto**: uno screen reader deve leggere il tedesco come tedesco.
-- I menu delle lingue sono **controlli nativi** (`<select>` con il suo `aria-label` tradotto), quindi funzionano da tastiera e sono annunciati dal sistema: nessun widget da imparare.
+- I menu delle lingue sono **controlli nativi** (`<select>` con il suo `aria-label` tradotto), quindi funzionano da tastiera e sono annunciati dal sistema: nessun widget da imparare. Dove non c'è niente da scegliere non c'è nemmeno un controllo: la lingua è testo (D95).
 - Contrasto verificato in entrambi i temi prima di chiudere la PR che tocca i colori.
 
 ## Budget di performance
@@ -230,17 +230,17 @@ La pagina di un album mostra, in quest'ordine (D89):
 │  │ cover  │  Band · Album · Anno · Lingue 🇩🇪 DE        │
 │  └────────┘  aggiunto il … · voci …                      │
 ├──────────────────────────────────────────────────────────┤
-│  [ads]  │ ORIGINALE [🇩🇪 DE ▾] │ TRADUZIONE [🇮🇹 IT ▾]  │  [ads]
-│  later. │  (nome cantante)     │  tradotto da …         │  later.
-│         │  strofa 1            │  strofa 1              │
-│  solo   │  (nome cantante)     │  (nome cantante)       │  solo
-│  xl+    │  strofa 2            │  strofa 2              │  xl+
+│  [ads]  │ ORIGINALE 🇩🇪 DE    │ TRADUZIONE [🇮🇹 IT ▾]  │  [ads]
+│  later. │  (nome cantante)    │  tradotto da …          │  later.
+│         │  strofa 1           │  strofa 1               │
+│  solo   │  (nome cantante)    │  (nome cantante)        │  solo
+│  xl+    │  strofa 2           │  strofa 2               │  xl+
 ├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤
 ├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
 ├─ footer ────────────────────────────────────────────────┤
 ```
 
-Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è quello che fa partire i due testi insieme (D94).
+Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è quello che fa partire i due testi insieme (D94, D95).
 
 ## Hero
 
@@ -254,7 +254,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 - Tra `lg` e `xl`: **solo le due colonne di testo**, nessuna colonna laterale — lo spazio non basta senza comprimere la lettura.
 - Le strofe corrispondenti stanno **alla stessa altezza**: la griglia si costruisce **per strofa** (riga per riga), non con due colonne indipendenti. Se una strofa ha meno versi dell'originale, la riga cresce e resta allineata in alto.
 - Nessuna linea verticale di separazione pesante: lo spazio fa il lavoro.
-- Le due colonne **partono alla stessa altezza** e ci restano anche scegliendo un'altra traduzione: l'intestazione del lato c'è su **entrambi** i lati (stessa altezza) e lo stacco fra intestazione e testo è un **`gap` di colonna flex**, non un margine fra fratelli (D94).
+- Le due colonne **partono alla stessa altezza** e ci restano anche scegliendo un'altra traduzione: l'intestazione del lato c'è su **entrambi** i lati e la lingua ha la stessa altezza sia che sia un menu sia che sia un'etichetta fissa (D94, D95), e lo stacco fra intestazione e testo è un **`gap` di colonna flex**, non un margine fra fratelli.
 
 ## Mobile (sotto `lg`)
 
@@ -272,15 +272,17 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 
 ## Intestazione di lato e menu della lingua
 
-- **Un'intestazione per lato** (D92, D94): a sinistra quella dell'**originale**, a destra quella della **traduzione**. Ogni intestazione porta il nome del lato (`ORIGINALE` / `TRADUZIONE`) e la **lingua in un menu**: dove c'è una lingua sola il menu ha una voce sola e non cambia niente — è l'etichetta di quel lato, non un vicolo cieco.
-- **L'intestazione c'è su entrambi i lati sempre** (D94): con il menu presente solo dove c'erano più lingue, il testo di quel lato cominciava più in basso dell'altro e le due colonne risultavano **sfalsate** appena si sceglieva una traduzione.
+- **Un'intestazione per lato** (D92, D94): a sinistra quella dell'**originale**, a destra quella della **traduzione**. Ogni intestazione porta il nome del lato (`ORIGINALE` / `TRADUZIONE`) e la lingua.
+- La lingua si mostra in **due modi** (D95): un **menu** (`<select>`) dove c'è davvero più di una lingua da scegliere — il lato della traduzione con più traduzioni, o un lato con più lingue originali (D28) — e un'**etichetta fissa** dove la lingua è una sola. **L'originale con una lingua sola non è una scelta**: un menu che apre una lista con una voce sola invita a cliccare per niente.
+- Menu ed etichetta hanno la **stessa altezza** (`min-height` in comune, `assets/css/lyrica.css`), quindi le due intestazioni restano pari.
+- **L'intestazione c'è su entrambi i lati sempre** (D94): con il menu presente solo dove c'erano più lingue, il testo di quel lato cominciava più in basso dell'altro e le due colonne risultavano **sfalsate**. Intestazione e testo: sempre, su ogni lato.
 - Il menu è un **`<select>` nativo** (`.lang-select`), con l'`aria-label` tradotto (`track.choose_original`, `track.choose_translation`): si apre col pollice, con la rotella e con la tastiera, senza una riga di codice in più.
 - Ogni voce è l'**etichetta della lingua con la bandiera** (`🇩🇪 DE`).
 - **Tutte le lingue del brano sono nel DOM**: il cambio è lato client e **istantaneo**, nessuna chiamata al server, funziona **offline** (come il filtro delle band, D87).
 - La lingua scelta si riflette nell'URL via `history.replaceState`: **`?lang=de`** per la traduzione, **`?orig=de`** per l'originale. Il link si copia e si condivide, e chi lo apre trova la lingua scelta (lo script applica il parametro al caricamento); nessuna pagina separata e nessun URL duplicato.
 - La lingua si legge **nell'intestazione del lato** (`ORIGINALE 🇩🇪 DE`, `TRADUZIONE 🇮🇹 IT`), attaccata al testo che si sta leggendo: non c'è un titolo di colonna lontano dal testo. Il **traduttore**, quando dichiarato, sta sotto l'intestazione della traduzione (`track.translator`).
 - Con JS il **titolo dentro il singolo blocco è nascosto**: ripeterebbe la lingua che si legge già nell'intestazione. Resta nel markup perché serve al caso senza JS, dove ogni lingua dichiara sé stessa sopra il proprio testo.
-- **Senza JS** i blocchi restano **tutti visibili**, uno sotto l'altro, ciascuno con il proprio titolo (nome del lato + lingua); l'intestazione con il menu **non si mostra**, perché un menu che non cambia niente è peggio di nessun menu, e il testo non si nasconde dietro lo script.
+- **Senza JS** i blocchi restano **tutti visibili**, uno sotto l'altro, ciascuno con il proprio titolo (nome del lato + lingua); l'intestazione **non si mostra**, perché il menu non potrebbe cambiare niente e la lingua è già scritta sopra ogni testo.
 
 ## Etichette e bandiere
 
@@ -308,10 +310,11 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 | Brano con una sola lingua (nessuna traduzione) | **non ha pagina**: in tracklist come "solo originale" |
 | Traccia dichiarata in `album.md` senza testo | in tracklist, **senza link**, con "In arrivo" |
 | Brano strumentale | in tracklist con nota, nessuna pagina |
-| Brano con **più lingue originali** | l'originale mostrato è il primo dichiarato; il menu di sinistra le elenca tutte |
-| Lato con **una sola lingua** | l'intestazione mostra quella lingua in un menu con una voce sola: non c'è niente da scegliere, ma le due colonne restano allineate (D94) |
+| Brano con **più lingue originali** | l'originale mostrato è il primo dichiarato; su quel lato c'è il **menu** e le elenca tutte |
+| Lato con **una sola lingua** | la lingua è un'**etichetta fissa**, non un menu: non c'è niente da scegliere. Le due colonne restano allineate perché etichetta e menu hanno la stessa altezza (D95) |
+| Lato **senza menu** | nessun blocco viene nascosto: il CSS nasconde solo dove c'è un menu che può riaprire, e lo script mostra comunque tutte le lingue di un lato senza menu |
 | Lingua non prevista nella mappa delle bandiere | **globo 🌐** accanto al codice, nessuna bandiera inventata |
-| **JS disattivato** | i blocchi restano tutti visibili, uno sotto l'altro, col proprio titolo; l'intestazione con il menu non si mostra |
+| **JS disattivato** | i blocchi restano tutti visibili, uno sotto l'altro, col proprio titolo; l'intestazione non si mostra |
 | Traduzione con strofe più corte | colonna allineata in alto, nessun riempimento artificiale |
 | Numero di voci mancante | nessuna etichetta cantante |
 | Lingua con alfabeto diverso | il font multialfabeto deve coprirla, altrimenti è un bug |
