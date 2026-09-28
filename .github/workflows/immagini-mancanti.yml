@@ -12,6 +12,8 @@ name: Immagini mancanti
 # Il report con gli esiti finisce nel riepilogo del run (Summary): leggi quello
 # prima di mergiare, perché la corrispondenza è automatica (D86).
 #
+# La PR la apre il workflow e la mergia Filippo: il workflow non merge mai.
+#
 # Un'immagine che non riesce NON deve far perdere le altre: il passo che scarica
 # non blocca il job (continue-on-error), così la PR si apre lo stesso con quelle
 # riuscite, e il job risulta rosso alla fine per segnalare che qualcosa è andato
@@ -40,20 +42,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      # Se il branch esiste già (run precedenti) ci si appoggia a quello: le
-      # immagini nuove si aggiungono a quelle già lì e il push resta un
-      # fast-forward. Senza questo passo si parte sempre dal branch di default,
-      # e il push viene rifiutato: «Updates were rejected because the remote
-      # contains work that you do not have».
-      - name: Prepara il branch delle immagini
+      # Il branch delle immagini si porta in pari con main PRIMA di scaricare:
+      # così il push è un fast-forward e, soprattutto, un'immagine non viene
+      # committata sopra una versione vecchia di un file di contenuto (che
+      # rimetterebbe dentro quello che main ha già cambiato).
+      # La storia completa del branch serve: con --depth 1 git non vede
+      # l'antenato comune e il merge con main fallisce per «unrelated histories».
+      - name: Porta il branch delle immagini in pari con main
         run: |
           set -euo pipefail
+          git fetch --no-tags --depth 1 origin main
+          MAIN_SHA="$(git rev-parse FETCH_HEAD)"
           if git ls-remote --exit-code --heads origin "$BRANCH_IMMAGINI" >/dev/null 2>&1; then
-            git fetch --depth 1 origin "$BRANCH_IMMAGINI"
-            git checkout -B "$BRANCH_IMMAGINI" FETCH_HEAD
-            echo "branch già esistente: parto da origin/${BRANCH_IMMAGINI}"
+            git fetch --no-tags origin "$BRANCH_IMMAGINI:refs/remotes/origin/$BRANCH_IMMAGINI"
+            git checkout -B "$BRANCH_IMMAGINI" "origin/$BRANCH_IMMAGINI"
+            if ! git merge --no-edit "$MAIN_SHA"; then
+              echo "::error::conflitto fra ${BRANCH_IMMAGINI} e main: va risolto a mano, il branch non è stato toccato"
+              exit 1
+            fi
+            echo "branch esistente, portato in pari con main (${MAIN_SHA})"
           else
-            echo "branch nuovo: parto da $(git rev-parse --abbrev-ref HEAD)"
+            echo "branch nuovo: parto da main (${MAIN_SHA})"
           fi
 
       - name: ImageMagick
@@ -102,7 +111,7 @@ jobs:
 
           File toccati: ${FILE}
 
-          **Guardale prima di mergiare.** La corrispondenza è automatica (nome della band; titolo e anno dell'album), quindi può pescare la release sbagliata (live, compilation, edizione estera). Il report degli esiti è nel riepilogo di questo run: Actions -> il run -> Summary."
+          **Da guardare e approvare a mano.** La corrispondenza è automatica (nome della band; titolo e anno dell'album), quindi può pescare la release sbagliata (live, compilation, edizione estera). Il report degli esiti è nel riepilogo di questo run: Actions -> il run -> Summary."
 
       # Il job resta rosso se qualche immagine non è riuscita, ma la PR è già
       # aperta: il rosso è il promemoria, non la perdita del lavoro fatto.
