@@ -75,6 +75,20 @@
     }
   }
 
+  /* Un lato senza menu ha una lingua sola e non c'è niente da commutare (D95).
+     Il blocco è già quello mostrato; se però il contenuto ne dichiarasse due, il
+     CSS nasconderebbe il secondo senza che nessuno possa riaprirlo: meglio
+     mostrarlo che perderlo. */
+  function showSidesWithoutSelect() {
+    var blocks = document.querySelectorAll("[data-text-block]");
+    for (var i = 0; i < blocks.length; i++) {
+      var side = blocks[i].getAttribute("data-text-block");
+      if (!document.querySelector('[data-lang-select="' + side + '"]')) {
+        blocks[i].setAttribute("data-text-selected", "1");
+      }
+    }
+  }
+
   function writeLangParam(name, code) {
     if (!name) {
       return;
@@ -167,4 +181,5 @@
 
   applyScale(readScale());
   applyLangParams();
+  showSidesWithoutSelect();
 })();

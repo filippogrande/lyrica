@@ -526,9 +526,9 @@ main {
    - ogni lato è una colonna flex e lo stacco fra intestazione e testo è un
      `gap`, non un margine: il margine di un fratello nascosto dal menu (le
      lingue non scelte) si applicherebbe lo stesso e sposterebbe il testo;
-   - l'intestazione (nome del lato + lingua) c'è su TUTTI i lati, anche quando
-     la lingua è una sola: se un lato avesse il menu e l'altro no, i due testi
-     comincerebbero ad altezze diverse. */
+   - l'intestazione (nome del lato + lingua) c'è su TUTTI i lati e la lingua
+     occupa la stessa altezza sia che sia un menu sia che sia un'etichetta
+     fissa: due intestazioni pari fanno partire i due testi insieme. */
 
 .track-meta {
   display: flex;
@@ -571,9 +571,9 @@ main {
   display: none;
 }
 
-/* L'intestazione del lato serve al menu, quindi si mostra solo con JS: senza JS
-   il menu non potrebbe cambiare niente e ogni lingua dichiara sé stessa sopra
-   il proprio testo (titolo del blocco, visibile solo senza JS). */
+/* L'intestazione del lato serve a mostrare la lingua, quindi si mostra solo con
+   JS: senza JS ogni lingua dichiara sé stessa sopra il proprio testo (titolo del
+   blocco, visibile solo senza JS). */
 .side-head {
   display: none;
   flex-wrap: wrap;
@@ -593,14 +593,30 @@ main {
   margin: 0;
 }
 
-.lang-select {
+/* La lingua di un lato si mostra in due modi (D95): un **menu** quando c'è più
+   di una lingua da scegliere, un'**etichetta fissa** quando la lingua è una
+   sola. I due elementi hanno la stessa altezza: è quello che tiene pari le due
+   intestazioni — e quindi i due testi. */
+.lang-select,
+.side-lang {
+  min-height: 1.9rem;
   padding: 0.2rem 0.5rem;
   border: 1px solid var(--bs-border-color);
   border-radius: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.lang-select {
   background: var(--bs-body-bg);
   color: var(--bs-body-color);
   font: inherit;
   font-size: 0.9rem;
+}
+
+.side-lang {
+  display: inline-flex;
+  align-items: center;
+  color: var(--bs-body-color);
 }
 
 .js .text-block .block-title {
