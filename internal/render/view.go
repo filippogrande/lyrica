@@ -58,21 +58,19 @@ type BandCard struct {
 	Initial  string
 }
 
-// PendingTrack è un brano dichiarato nella tracklist dell'album di cui non
-// esiste ancora il file: sta in elenco, non ha pagina.
-type PendingTrack struct {
-	Title        string
-	Instrumental bool
-}
-
-// TrackRow è una riga di tracklist: linkata se il brano è pubblicato, altrimenti
-// solo dichiarata (strumentale, senza traduzione o non ancora scritta).
+// TrackRow è una riga della tracklist di un album: linkata se il brano è
+// pubblicato, altrimenti con il motivo per cui non ha una pagina.
 type TrackRow struct {
-	Title        string
-	URL          templ.SafeURL
-	Linked       bool
-	Instrumental bool
-	LangsText    string
+	Title string
+	URL   templ.SafeURL
+	// Linked è true solo per i brani pubblicati: ogni altra voce resta in
+	// elenco senza link e non è cliccabile.
+	Linked bool
+	// ReasonKey è la chiave di locale del motivo per cui la riga non è
+	// linkata ("in arrivo", strumentale, solo originale): vuota per i brani
+	// pubblicati.
+	ReasonKey string
+	LangsText string
 }
 
 // StanzaView è una strofa pronta da stampare.
@@ -138,8 +136,8 @@ type BandView struct {
 }
 
 // AlbumView sono i dati della pagina di un album: copertina, anagrafica (band,
-// anno, numero di brani, lingue tradotte), tracklist numerata e corsia degli
-// altri album della stessa band.
+// anno, numero di brani, lingue tradotte), tracklist completa e numerata e
+// corsia degli altri album della stessa band.
 type AlbumView struct {
 	Page      PageData
 	Crumbs    []Crumb
@@ -150,8 +148,8 @@ type AlbumView struct {
 	ShowCover bool
 	CoverURL  templ.SafeURL
 	CoverAlt  string
-	// TracksText è il numero di brani della tracklist, come stringa: la pagina
-	// album mostra la tracklist completa anche dei brani senza testo.
+	// TracksText è il numero di tracce della tracklist, come stringa: la
+	// pagina album mostra la tracklist completa, anche dei brani senza testo.
 	TracksText string
 	// LangsText sono le lingue delle traduzioni presenti nell'album; vuoto se
 	// nell'album non c'è ancora nessuna traduzione.
@@ -443,20 +441,6 @@ func publishedAlbums(band *content.Band) []*content.Album {
 		}
 	}
 	return albums
-}
-
-// newTrackRow prepara una riga di tracklist.
-func newTrackRow(page PageData, band *content.Band, album *content.Album, track *content.Track) TrackRow {
-	row := TrackRow{
-		Title:        track.Title,
-		Instrumental: track.Instrumental,
-		LangsText:    strings.Join(track.TranslationLangs(), " · "),
-	}
-	if track.HasTranslations() {
-		row.Linked = true
-		row.URL = templ.URL(page.TrackPath(band.Slug, album.Slug, track.Slug))
-	}
-	return row
 }
 
 // newBandCard prepara una band per un elenco: i campi separati servono alla
