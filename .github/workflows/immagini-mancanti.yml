@@ -46,15 +46,22 @@ jobs:
       # così il push è un fast-forward e, soprattutto, un'immagine non viene
       # committata sopra una versione vecchia di un file di contenuto (che
       # rimetterebbe dentro quello che main ha già cambiato).
-      # La storia completa del branch serve: con --depth 1 git non vede
-      # l'antenato comune e il merge con main fallisce per «unrelated histories».
+      #
+      # La storia serve COMPLETA. actions/checkout scarica un commit solo, e in
+      # un repository "shallow" git non trova l'antenato comune fra main e il
+      # branch: il merge muore con «refusing to merge unrelated histories».
+      # Per questo si completa la storia (--unshallow) e si prendono i due
+      # branch interi, non con --depth.
       - name: Porta il branch delle immagini in pari con main
         run: |
           set -euo pipefail
-          git fetch --no-tags --depth 1 origin main
-          MAIN_SHA="$(git rev-parse FETCH_HEAD)"
+          if [ "$(git rev-parse --is-shallow-repository)" = "true" ]; then
+            git fetch --no-tags --unshallow origin
+          fi
+          git fetch --no-tags origin "+refs/heads/main:refs/remotes/origin/main"
+          MAIN_SHA="$(git rev-parse refs/remotes/origin/main)"
           if git ls-remote --exit-code --heads origin "$BRANCH_IMMAGINI" >/dev/null 2>&1; then
-            git fetch --no-tags origin "$BRANCH_IMMAGINI:refs/remotes/origin/$BRANCH_IMMAGINI"
+            git fetch --no-tags origin "+refs/heads/${BRANCH_IMMAGINI}:refs/remotes/origin/${BRANCH_IMMAGINI}"
             git checkout -B "$BRANCH_IMMAGINI" "origin/$BRANCH_IMMAGINI"
             if ! git merge --no-edit "$MAIN_SHA"; then
               echo "::error::conflitto fra ${BRANCH_IMMAGINI} e main: va risolto a mano, il branch non è stato toccato"
@@ -62,6 +69,7 @@ jobs:
             fi
             echo "branch esistente, portato in pari con main (${MAIN_SHA})"
           else
+            git checkout -B "$BRANCH_IMMAGINI" "$MAIN_SHA"
             echo "branch nuovo: parto da main (${MAIN_SHA})"
           fi
 
