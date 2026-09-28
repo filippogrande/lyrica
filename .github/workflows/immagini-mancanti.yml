@@ -12,6 +12,8 @@ name: Immagini mancanti
 # Il report con gli esiti finisce nel riepilogo del run (Summary): leggi quello
 # prima di mergiare, perché la corrispondenza è automatica (D86).
 #
+# La PR la apre il workflow e la mergia Filippo: il workflow non merge mai.
+#
 # Un'immagine che non riesce NON deve far perdere le altre: il passo che scarica
 # non blocca il job (continue-on-error), così la PR si apre lo stesso con quelle
 # riuscite, e il job risulta rosso alla fine per segnalare che qualcosa è andato
@@ -29,6 +31,9 @@ permissions:
   contents: write
   pull-requests: write
 
+env:
+  BRANCH_IMMAGINI: immagini/mancanti
+
 jobs:
   immagini:
     name: Cerca, scarica e apri la PR
@@ -36,6 +41,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+
+      # Il branch delle immagini si porta in pari con main PRIMA di scaricare:
+      # così il push è un fast-forward e, soprattutto, un'immagine non viene
+      # committata sopra una versione vecchia di un file di contenuto (che
+      # rimetterebbe dentro quello che main ha già cambiato).
+      # La storia completa del branch serve: con --depth 1 git non vede
+      # l'antenato comune e il merge con main fallisce per «unrelated histories».
+      - name: Porta il branch delle immagini in pari con main
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --depth 1 origin main
+          MAIN_SHA="$(git rev-parse FETCH_HEAD)"
+          if git ls-remote --exit-code --heads origin "$BRANCH_IMMAGINI" >/dev/null 2>&1; then
+            git fetch --no-tags origin "$BRANCH_IMMAGINI:refs/remotes/origin/$BRANCH_IMMAGINI"
+            git checkout -B "$BRANCH_IMMAGINI" "origin/$BRANCH_IMMAGINI"
+            if ! git merge --no-edit "$MAIN_SHA"; then
+              echo "::error::conflitto fra ${BRANCH_IMMAGINI} e main: va risolto a mano, il branch non è stato toccato"
+              exit 1
+            fi
+            echo "branch esistente, portato in pari con main (${MAIN_SHA})"
+          else
+            echo "branch nuovo: parto da main (${MAIN_SHA})"
+          fi
 
       - name: ImageMagick
         run: sudo apt-get update -qq && sudo apt-get install -y imagemagick
@@ -57,13 +85,12 @@ jobs:
           BAND: ${{ inputs.band }}
         run: |
           set -euo pipefail
-          BRANCH="immagini/mancanti"
           # Un input vuoto resta una variabile impostata: il default va chiesto
           # con :- , non con : (cioe' «${BAND:-tutte le band}» e mai «${BAND:x}»).
           ETICHETTA="${BAND:-tutte le band}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -B "$BRANCH"
+          git checkout -B "$BRANCH_IMMAGINI"
           if [ -d covers ]; then git add covers; fi
           git add content
           if git diff --cached --quiet; then
@@ -72,19 +99,19 @@ jobs:
           fi
           FILE="$(git diff --cached --numstat | wc -l)"
           git commit -m "content(immagini): riempie le immagini mancanti (${ETICHETTA})"
-          git push -u origin "$BRANCH"
-          APERTA="$(gh pr list --head "$BRANCH" --json number --jq '.[0].number // empty')"
+          git push -u origin "$BRANCH_IMMAGINI"
+          APERTA="$(gh pr list --head "$BRANCH_IMMAGINI" --json number --jq '.[0].number // empty')"
           if [ -n "$APERTA" ]; then
             echo "::notice::PR già aperta e aggiornata: https://github.com/${GITHUB_REPOSITORY}/pull/${APERTA}"
             exit 0
           fi
-          gh pr create --base main --head "$BRANCH" \
+          gh pr create --base main --head "$BRANCH_IMMAGINI" \
             --title "content(immagini): riempie le immagini mancanti" \
             --body "Immagini scaricate dagli archivi pubblici (Cover Art Archive per le cover, fanart.tv per le foto delle band) e convertite in 600x600 webp.
 
           File toccati: ${FILE}
 
-          **Guardale prima di mergiare.** La corrispondenza è automatica (nome della band; titolo e anno dell'album), quindi può pescare la release sbagliata (live, compilation, edizione estera). Il report degli esiti è nel riepilogo di questo run: Actions -> il run -> Summary."
+          **Da guardare e approvare a mano.** La corrispondenza è automatica (nome della band; titolo e anno dell'album), quindi può pescare la release sbagliata (live, compilation, edizione estera). Il report degli esiti è nel riepilogo di questo run: Actions -> il run -> Summary."
 
       # Il job resta rosso se qualche immagine non è riuscita, ma la PR è già
       # aperta: il rosso è il promemoria, non la perdita del lavoro fatto.
