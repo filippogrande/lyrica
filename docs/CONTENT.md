@@ -27,6 +27,16 @@ Lo slug è la chiave di tutto: **cartella, URL e nome della cover devono coincid
 - Le date sono `YYYY-MM-DD` in ora locale italiana.
 - Nessun campo opzionale viene inventato: se manca, il validatore decide se è errore o se si usa un default.
 
+### Lingua di un brano (soglia per la seconda lingua)
+
+Un brano ha **una sola lingua originale**, quella dominante, in cui è cantata la maggior parte del testo. Le traduzioni vanno verso una lingua singola (`role: translation`). Non si fanno traduzioni automatiche né istantanee, quindi non serve una "doppia vista" per i brani con più lingue:
+
+- **Parole o frasi isolate** in altre lingue **non** rendono il brano multilingue: es. *ADIEU* (Rammstein) è tedesco anche se contiene parole non-tedesche. Una lingua sola, nessuna traduzione extra.
+- Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**. Si dichiara una seconda lingua solo se ha senso come vista completa a sé; altrimenti si resta sulla lingua dominante e la traduzione va verso la lingua unica scelta (es. inglese).
+- Nei brani davvero bilingu delti in parti uguali si sceglie comunque **una** lingua dominante per `original_langs` e si traduce il resto verso la lingua unica di traduzione.
+
+È un criterio umano, non automatico: il validatore non misura percentuali, decide chi scrive il contenuto.
+
 ## `band.md`
 
 ```yaml
@@ -236,26 +246,26 @@ Il flusso normale: si generano i file con la CLI e si riempiono. Non si scrive a
 ### 1. Nuova band
 
 ```
-lyrica new band "Nome Band"
+lyrica new band "Tocotronic" --lang de
 ```
 
-Crea `content/bands/<slug>/band.md` con il front-matter precompilato. Da compilare: `tags` (liberi), `original_langs`, `description` (1-3 righe). La **foto della band** è opzionale: la prende il workflow "Immagini mancanti" o `scripts/fetch-images.sh` (vedi sopra), finisce in `covers/<band-slug>.webp` e si dichiara con `image`.
+Crea `content/bands/tocotronic/band.md` con il front-matter precompilato (nome, slug, lingua da `--lang`). Da compilare a mano: `country`, `tags`, `formed_year`, `members`, `description` (1-3 righe). La **foto della band** è opzionale: la prende il workflow "Immagini mancanti" o `scripts/fetch-images.sh` (vedi sopra), finisce in `covers/<band-slug>.webp` e si dichiara con `image`.
 
 ### 2. Nuovo album
 
 ```
-lyrica new album "Nome Band" "Titolo Album" --year 1995
+lyrica new album tocotronic "Digital ist besser" --year 1995
 ```
 
-Crea `album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover la scarica il workflow (o `fetch-images.sh`), **600x600 quadrata**: se l'archivio non ce l'ha, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
+Il primo argomento è lo **slug della band** (non il nome). Crea `content/bands/tocotronic/digital-ist-besser/album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover la scarica il workflow (o `fetch-images.sh`), **600x600 quadrata**: se l'archivio non ce l'ha, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
 
 ### 3. Nuovo brano
 
 ```
-lyrica new brano "Nome Band" "album-slug" "Titolo Brano"
+lyrica new brano tocotronic digital-ist-besser "Ich möchte dich" --lang de
 ```
 
-Crea `tracks/<track-slug>.md` con lo scheletro dei blocchi lingua. Poi, a mano:
+Crea `content/bands/tocotronic/digital-ist-besser/tracks/ich-moechte-dich.md` con lo scheletro dei blocchi lingua (una strofa vuota pronta da riempire) e **aggiunge la voce alla tracklist** di `album.md`. Poi, a mano:
 
 - scrivi il testo originale **strofa per strofa**, un verso per riga;
 - se il brano ha più voci, aggiungi `singer:` a **ogni** strofa;
