@@ -1,5 +1,9 @@
 /* Applica il tema PRIMA del primo paint, per non mostrare un lampo di tema
-   sbagliato (DESIGN_SYSTEM.md). Va caricato in modo sincrono nell'head.
+   sbagliato (docs/FRONTEND.md). Va caricato in modo sincrono nell'head.
+
+   Mette anche la classe .js su <html>: da lì il CSS sa che lo script c'è, e
+   regole come quella delle lingue del brano (che nasconde le lingue non scelte)
+   valgono solo con JS. Senza JS il testo resta tutto visibile.
 
    Nota: se localStorage è bloccato dal browser la preferenza salvata non è
    leggibile e si applica il tema di sistema. È il comportamento previsto, non
@@ -9,6 +13,8 @@
 
   var KEY = "lyrica.theme";
   var saved = null;
+
+  document.documentElement.classList.add("js");
 
   try {
     saved = window.localStorage.getItem(KEY);
