@@ -29,6 +29,9 @@ permissions:
   contents: write
   pull-requests: write
 
+env:
+  BRANCH_IMMAGINI: immagini/mancanti
+
 jobs:
   immagini:
     name: Cerca, scarica e apri la PR
@@ -36,6 +39,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+
+      # Se il branch esiste già (run precedenti) ci si appoggia a quello: le
+      # immagini nuove si aggiungono a quelle già lì e il push resta un
+      # fast-forward. Senza questo passo si parte sempre dal branch di default,
+      # e il push viene rifiutato: «Updates were rejected because the remote
+      # contains work that you do not have».
+      - name: Prepara il branch delle immagini
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin "$BRANCH_IMMAGINI" >/dev/null 2>&1; then
+            git fetch --depth 1 origin "$BRANCH_IMMAGINI"
+            git checkout -B "$BRANCH_IMMAGINI" FETCH_HEAD
+            echo "branch già esistente: parto da origin/${BRANCH_IMMAGINI}"
+          else
+            echo "branch nuovo: parto da $(git rev-parse --abbrev-ref HEAD)"
+          fi
 
       - name: ImageMagick
         run: sudo apt-get update -qq && sudo apt-get install -y imagemagick
@@ -57,13 +76,12 @@ jobs:
           BAND: ${{ inputs.band }}
         run: |
           set -euo pipefail
-          BRANCH="immagini/mancanti"
           # Un input vuoto resta una variabile impostata: il default va chiesto
           # con :- , non con : (cioe' «${BAND:-tutte le band}» e mai «${BAND:x}»).
           ETICHETTA="${BAND:-tutte le band}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -B "$BRANCH"
+          git checkout -B "$BRANCH_IMMAGINI"
           if [ -d covers ]; then git add covers; fi
           git add content
           if git diff --cached --quiet; then
@@ -72,13 +90,13 @@ jobs:
           fi
           FILE="$(git diff --cached --numstat | wc -l)"
           git commit -m "content(immagini): riempie le immagini mancanti (${ETICHETTA})"
-          git push -u origin "$BRANCH"
-          APERTA="$(gh pr list --head "$BRANCH" --json number --jq '.[0].number // empty')"
+          git push -u origin "$BRANCH_IMMAGINI"
+          APERTA="$(gh pr list --head "$BRANCH_IMMAGINI" --json number --jq '.[0].number // empty')"
           if [ -n "$APERTA" ]; then
             echo "::notice::PR già aperta e aggiornata: https://github.com/${GITHUB_REPOSITORY}/pull/${APERTA}"
             exit 0
           fi
-          gh pr create --base main --head "$BRANCH" \
+          gh pr create --base main --head "$BRANCH_IMMAGINI" \
             --title "content(immagini): riempie le immagini mancanti" \
             --body "Immagini scaricate dagli archivi pubblici (Cover Art Archive per le cover, fanart.tv per le foto delle band) e convertite in 600x600 webp.
 
