@@ -1,9 +1,7 @@
 package render
 
 import (
-	"sort"
 	"strconv"
-	"strings"
 
 	"github.com/a-h/templ"
 	"github.com/filippogrande/lyrica/internal/content"
@@ -48,8 +46,8 @@ func newTrackRows(page PageData, band *content.Band, album *content.Album, entri
 }
 
 // newTrackRow prepara una riga di tracklist: i brani pubblicati sono link (con
-// le lingue disponibili accanto), ogni altro resta in elenco senza link con il
-// motivo per cui non ha una pagina.
+// le lingue disponibili accanto, bandiera compresa), ogni altro resta in elenco
+// senza link con il motivo per cui non ha una pagina.
 func newTrackRow(page PageData, band *content.Band, album *content.Album, entry content.TracklistEntry) TrackRow {
 	if !entry.Published() {
 		return TrackRow{Title: entry.Title(), ReasonKey: reasonKey(entry)}
@@ -58,7 +56,7 @@ func newTrackRow(page PageData, band *content.Band, album *content.Album, entry 
 		Title:     entry.Title(),
 		URL:       templ.URL(page.TrackPath(band.Slug, album.Slug, entry.Slug())),
 		Linked:    true,
-		LangsText: strings.Join(entry.Track.TranslationLangs(), " · "),
+		LangsText: LangLabels(entry.Track.TranslationLangs()),
 	}
 }
 
@@ -77,22 +75,16 @@ func reasonKey(entry content.TracklistEntry) string {
 	}
 }
 
-// albumLanguages elenca le lingue delle traduzioni presenti nell'album, senza
-// ripetizioni e in ordine alfabetico: è la risposta a "in che lingue posso
-// leggere questo album". Vuoto se nell'album non c'è ancora nessuna traduzione.
+// albumLanguages elenca le lingue delle traduzioni presenti nell'album, come
+// etichette con bandiera ("🇩🇪 DE · 🇮🇹 IT"): è la risposta a "in che lingue
+// posso leggere questo album". Vuoto se nell'album non c'è ancora nessuna
+// traduzione.
 func albumLanguages(album *content.Album) string {
-	seen := make(map[string]bool)
 	var langs []string
 	for _, track := range album.Tracks {
-		for _, lang := range track.TranslationLangs() {
-			if !seen[lang] {
-				seen[lang] = true
-				langs = append(langs, lang)
-			}
-		}
+		langs = append(langs, track.TranslationLangs()...)
 	}
-	sort.Strings(langs)
-	return strings.Join(langs, " · ")
+	return LangLabels(langs)
 }
 
 // otherAlbums elenca gli album pubblicati della band tranne quello corrente:
