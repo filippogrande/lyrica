@@ -24,6 +24,8 @@ home.latest_bands: "Ultime band aggiunte"
 home.all_bands: "Tutte le band"
 
 bands.empty: "Nessuna band pubblicata."
+bands.letters_label: "Filtra le band per iniziale"
+bands.all: "Tutte"
 
 band.country: "Paese"
 band.formed: "Attiva dal"
