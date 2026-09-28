@@ -1,13 +1,16 @@
-/* Interazioni minime del sito: toggle tema, dimensione del testo e filtro
-   alfabetico della pagina Bands.
+/* Interazioni minime del sito: toggle tema, dimensione del testo, filtro
+   alfabetico della pagina Bands e scelta della lingua del brano.
    Nessun framework, nessuno script inline (la CSP non lo consente).
-   Riferimenti: DESIGN_SYSTEM.md */
+   Riferimenti: docs/FRONTEND.md */
 (function () {
   "use strict";
 
   var THEME_KEY = "lyrica.theme";
   var TEXT_KEY = "lyrica.textScale";
   var SCALES = [0.9, 1, 1.15, 1.3];
+  /* Parametro dell'URL per ogni lato del testo: il link condiviso riapre la
+     pagina con la lingua scelta. */
+  var LANG_PARAMS = { original: "orig", translation: "lang" };
 
   document.addEventListener("click", function (event) {
     var letter = event.target.closest("[data-band-letter]");
@@ -24,6 +27,13 @@
       return;
     }
     changeTextSize(target.getAttribute("data-text-size"));
+  });
+
+  document.addEventListener("change", function (event) {
+    var select = event.target.closest("[data-lang-select]");
+    if (select) {
+      showTextLang(select, true);
+    }
   });
 
   /* Filtro alfabetico: tutti i gruppi stanno nel DOM, si mostra solo quello
@@ -45,6 +55,68 @@
       var active = buttons[j] === button;
       buttons[j].classList.toggle("is-active", active);
       buttons[j].setAttribute("aria-pressed", active ? "true" : "false");
+    }
+  }
+
+  /* Scelta della lingua del brano: i blocchi di tutte le lingue sono nel DOM e
+     il menu mostra quello scelto, cambiando l'attributo data-text-selected. Il
+     CSS nasconde le altre lingue solo quando JS c'è (regola .js in
+     assets/css/lyrica.css): senza JS restano tutte visibili. */
+  function showTextLang(select, writeURL) {
+    var side = select.getAttribute("data-lang-select");
+    var code = select.value;
+    var blocks = document.querySelectorAll('[data-text-block="' + side + '"]');
+    for (var i = 0; i < blocks.length; i++) {
+      var shown = blocks[i].getAttribute("data-text-lang") === code;
+      blocks[i].setAttribute("data-text-selected", shown ? "1" : "0");
+    }
+    if (writeURL) {
+      writeLangParam(LANG_PARAMS[side], code);
+    }
+  }
+
+  function writeLangParam(name, code) {
+    if (!name) {
+      return;
+    }
+    try {
+      var url = new URL(window.location.href);
+      url.searchParams.set(name, code);
+      window.history.replaceState(null, "", url);
+    } catch (err) {
+      /* URL non aggiornabile: la lingua scelta resta quella mostrata. */
+    }
+  }
+
+  /* All'apertura si applica la lingua chiesta nell'URL (?orig=, ?lang=): è la
+     scelta scritta nel link condiviso. Se il parametro non c'è o non corrisponde
+     a nessuna lingua del brano, resta quella decisa alla generazione. */
+  function applyLangParams() {
+    var selects = document.querySelectorAll("[data-lang-select]");
+    for (var i = 0; i < selects.length; i++) {
+      applyLangParam(selects[i], LANG_PARAMS[selects[i].getAttribute("data-lang-select")]);
+      showTextLang(selects[i], false);
+    }
+  }
+
+  function applyLangParam(select, name) {
+    var wanted = name ? param(name) : "";
+    if (!wanted) {
+      return;
+    }
+    for (var i = 0; i < select.options.length; i++) {
+      if (select.options[i].value === wanted) {
+        select.value = wanted;
+        return;
+      }
+    }
+  }
+
+  function param(name) {
+    try {
+      return new URLSearchParams(window.location.search).get(name) || "";
+    } catch (err) {
+      return "";
     }
   }
 
@@ -94,4 +166,5 @@
   }
 
   applyScale(readScale());
+  applyLangParams();
 })();
