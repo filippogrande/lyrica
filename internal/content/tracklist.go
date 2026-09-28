@@ -9,9 +9,6 @@ type TracklistEntry struct {
 	Track *Track
 }
 
-// HasFile dice se la voce ha il suo brano su disco.
-func (e TracklistEntry) HasFile() bool { return e.Track != nil }
-
 // Published dice se il brano è pubblicato: ha il file e almeno una traduzione.
 // Solo i brani pubblicati hanno una pagina e sono linkati in tracklist.
 func (e TracklistEntry) Published() bool {
@@ -53,14 +50,4 @@ func (a *Album) Entries() []TracklistEntry {
 		entries = append(entries, TracklistEntry{Ref: ref, Track: bySlug[ref.Slug]})
 	}
 	return entries
-}
-
-// TrackSlugs elenca gli slug delle voci di tracklist, in ordine: serve a chi
-// deve dire quali brani esistono senza guardare i file.
-func (a *Album) TrackSlugs() []string {
-	slugs := make([]string, 0, len(a.Tracklist))
-	for _, ref := range a.Tracklist {
-		slugs = append(slugs, ref.Slug)
-	}
-	return slugs
 }
