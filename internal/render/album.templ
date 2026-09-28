@@ -1,22 +1,26 @@
 package render
 
-// Album è la pagina di un album: copertina (se c'è), tracklist nell'ordine
-// dichiarato in album.md. I brani senza traduzione restano in elenco ma non
-// sono linkati; gli strumentali sono segnalati.
+// Album è la pagina di un album: copertina e anagrafica affiancate (band, anno,
+// numero di brani, lingue tradotte), la tracklist completa e numerata, la corsia
+// degli altri album della band. La tracklist è il disco intero: i brani senza
+// traduzione restano in elenco, senza link e non cliccabili.
 templ Album(v AlbumView) {
 	@Layout(v.Page) {
 		@breadcrumb(v.Page.T("a11y.breadcrumb"), v.Crumbs)
 		<h1 class="page-title">{ v.Title }</h1>
-		<p class="album-meta">
-			<a href={ v.BandURL }>{ v.BandName }</a>
-			if v.YearText != "" {
-				<span class="album-year">{ v.YearText }</span>
-			}
-		</p>
 		if v.ShowCover {
-			<figure class="album-cover">
-				<img src={ v.CoverURL } alt={ v.CoverAlt } width="600" height="600" loading="lazy"/>
-			</figure>
+			<div class="album-hero row">
+				<figure class="album-cover col-12 col-md-4">
+					<img src={ v.CoverURL } alt={ v.CoverAlt } width="600" height="600" loading="lazy"/>
+				</figure>
+				<div class="col-12 col-md-8">
+					@albumFacts(v)
+				</div>
+			</div>
+		} else {
+			<div class="album-hero">
+				@albumFacts(v)
+			</div>
 		}
 		<section class="page-section">
 			<h2 class="section-title">{ v.Page.T("album.tracks") }</h2>
@@ -40,5 +44,28 @@ templ Album(v AlbumView) {
 				}
 			</ol>
 		</section>
+		if len(v.OtherAlbums.Cards) > 0 {
+			@railBlock(v.OtherAlbums)
+		}
 	}
+}
+
+// albumFacts è l'anagrafica dell'album: band (link), anno, numero di brani e
+// lingue in cui è tradotto. Sta a destra della copertina, o a tutta larghezza
+// quando la copertina non c'è.
+templ albumFacts(v AlbumView) {
+	<dl class="album-facts">
+		<dt>{ v.Page.T("album.band") }</dt>
+		<dd><a href={ v.BandURL }>{ v.BandName }</a></dd>
+		if v.YearText != "" {
+			<dt>{ v.Page.T("album.year") }</dt>
+			<dd>{ v.YearText }</dd>
+		}
+		<dt>{ v.Page.T("album.tracks") }</dt>
+		<dd>{ v.TracksText }</dd>
+		if v.LangsText != "" {
+			<dt>{ v.Page.T("album.langs") }</dt>
+			<dd>{ v.LangsText }</dd>
+		}
+	</dl>
 }
