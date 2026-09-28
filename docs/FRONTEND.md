@@ -22,8 +22,9 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 |---|---|
 | Vista a fronte (pagina brano) | `col-12` sotto `lg`, `col-lg-6` da `lg` in su |
 | Elenco band (pagina Bands) | griglia di card `auto-fill`: 1 colonna su mobile, 2-3 da `md`, 3-4 da `lg` |
-| Card album | 1 su mobile, 2-3 da `md` |
-| Corsie della home | card larghe `--rail-card`: **10rem** su mobile, **12rem** da `md` |
+| Hero della pagina band | foto `col-12 col-md-4`, anagrafica `col-12 col-md-8`; sotto `md` si impilano |
+| Card album (corsia della pagina band) | stessa misura delle card di corsia (`--rail-card`) |
+| Corsie | card larghe `--rail-card`: **10rem** su mobile, **12rem** da `md` |
 | Header | sticky sempre, nav compressa sotto `lg` con offcanvas |
 
 ## Tipografia
@@ -48,9 +49,9 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Ricerca** | dropdown live nell'header |
 | **Breadcrumb** | su tutte le pagine interne |
 | **Card band** | foto se dichiarata (`image` in `band.md`), altrimenti **segnaposto con l'iniziale**; nome, paese, generi, numero di album |
-| **Corsia (rail)** | elenco orizzontale della home: titolo (`.rail-heading`), link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie"); la **pagina Bands** riusa la corsia delle band in cima (vedi "Pagina Bands") |
-| **Card album** | cover se esiste, altrimenti layout testuale (titolo + anno + n° brani) |
-| **Foto della band (pagina band)** | immagine singola sotto il titolo, larghezza massima 20rem come la copertina dell'album; se `image` manca, nessuna immagine |
+| **Corsia (rail)** | elenco orizzontale: titolo (`.rail-heading`), link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie"); usata in home, nella **pagina Bands** e nella **pagina band** |
+| **Card album** | cover se esiste, altrimenti **segnaposto con l'iniziale**; titolo e anno di pubblicazione (corsia della pagina band) |
+| **Anagrafica band** | blocco `dl` con paese, attiva dal, membri, generi, più la descrizione; nella **pagina band** sta a **destra** della foto |
 | **Badge lingua** | lingue disponibili di un brano (`DE`, `IT`, ...) |
 | **Strofa** | blocco di testo con eventuale nome del cantante sopra |
 | **Avvisi** | "strumentale", "solo originale": testo semplice, non allarmi colorati |
@@ -76,13 +77,13 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 - Nessun **bundle JS** di Bootstrap, nessun framework JS.
 - Nessun **font icon** pesante: le poche icone sono SVG inline.
 - Nessuna immagine di sfondo, nessun carosello, nessun popup.
-- Nessuno **slider con scorrimento automatico** e nessuna libreria di caroselli: le corsie della home sono elenchi in overflow (vedi "Home a corsie").
+- Nessuno **slider con scorrimento automatico** e nessuna libreria di caroselli: le corsie sono elenchi in overflow (vedi "Home a corsie").
 
 ---
 
 # Home a corsie
 
-La home non è un elenco verticale: è una **sequenza di corsie orizzontali**, ognuna con un titolo e le card delle novità. Le corsie nascono in home; la **pagina Bands** riusa la corsia "Ultime band aggiunte" in cima (vedi "Pagina Bands"). Album e brani restano elenchi verticali.
+La home non è un elenco verticale: è una **sequenza di corsie orizzontali**, ognuna con un titolo e le card delle novità. Le corsie nascono in home e vengono riusate fuori dalla home: la **pagina Bands** (corsia delle band, vedi "Pagina Bands") e la **pagina band** (album e brani di quella band, vedi "Pagina band"). Resta un elenco verticale solo la **tracklist dell'album**.
 
 ## Le corsie
 
@@ -100,22 +101,23 @@ La home non è un elenco verticale: è una **sequenza di corsie orizzontali**, o
 
 - "Ultimi brani tradotti": **data di aggiunta** (`added_date`) decrescente (D37).
 - "Ultime band aggiunte": **contributo più recente** della band — la data del suo brano pubblicato più recente, non la data in cui è nata la cartella; a parità di data, **nome alfabetico**. Una band senza brani pubblicati non ha una data e non compare (D79).
+- "Ultimi album pubblicati" (pagina band): **anno di pubblicazione** decrescente; a parità di anno, titolo. Un album senza anno dichiarato finisce in coda (D88).
 
 ## Anatomia di una card
 
 ```
 ┌──────────────┐
-│              │   immagine 1:1 — cover dell'album (corsia brani)
+│              │   immagine 1:1 — cover dell'album (corsia brani e album)
 │   immagine   │   o foto della band (corsia band)
 │              │   oppure segnaposto con l'iniziale
 └──────────────┘
-Titolo del brano            ← riga 1 (o nome della band)
+Titolo del brano            ← riga 1 (o nome della band, o titolo dell'album)
 Band — Album                ← riga 2, in secondo piano
 ```
 
-- **Immagine**: cover dell'album nella corsia dei brani, foto della band in quella delle band; il file sta in `covers/` (`docs/CONTENT.md`).
-- **Segnaposto**: quando l'immagine non c'è si mostra **l'iniziale** (dell'album per i brani, del nome per le band) su fondo del tema. È un segnaposto **dichiarato**: nessuna immagine inventata, nessuna richiesta in rete, e la card non cambia dimensioni.
-- **Seconda riga unica**: per i brani `Band — Album`, per le band `Paese · Generi · N album`. Le parti vuote si saltano, il separatore resta uno solo.
+- **Immagine**: cover dell'album nelle corsie dei brani e degli album, foto della band in quella delle band; il file sta in `covers/` (`docs/CONTENT.md`).
+- **Segnaposto**: quando l'immagine non c'è si mostra **l'iniziale** (dell'album o del nome) su fondo del tema. È un segnaposto **dichiarato**: nessuna immagine inventata, nessuna richiesta in rete, e la card non cambia dimensioni.
+- **Seconda riga unica**: per i brani `Band — Album`, per le band `Paese · Generi · N album`, per gli album l'**anno di pubblicazione** (vuota se l'anno non è dichiarato). Le parti vuote si saltano, il separatore resta uno solo.
 - Sotto la card non c'è altro: niente descrizione, niente badge lingua (quelli stanno in pagina).
 
 ## Scorrimento senza JavaScript
@@ -123,7 +125,7 @@ Band — Album                ← riga 2, in secondo piano
 - La corsia è un **elenco `<ul>` che scorre lateralmente** (`overflow-x: auto` + `scroll-snap-type: x proximity`): swipe sul telefono, rotella o frecce da tastiera. **Nessun carosello**, nessuno scorrimento automatico, nessun pallino di paginazione: le card restano nel flusso del documento e sono leggibili da uno screen reader.
 - Ogni card è **un link normale**: si apre in una nuova scheda, si copia, si mette nei preferiti. Nessun click intercettato da JS.
 - Larghezza della card: custom property **`--rail-card`** (10rem su mobile, 12rem da `md`), immagine sempre **1:1** (`aspect-ratio`).
-- L'unica scorciatoia è **"Tutte le band"** nella corsia delle band: l'elenco dei brani non esiste come pagina, quindi non c'è un "vedi tutti".
+- L'unica scorciatoia è **"Tutte le band"** nella corsia delle band della home: l'elenco dei brani non esiste come pagina, quindi non c'è un "vedi tutti".
 
 ## Immagini nelle corsie
 
@@ -139,11 +141,12 @@ Il budget delle immagini si misura **sul numero di immagini che una pagina caric
 |---|---|---|
 | Corsia della home | 1 per card, fino a 12 per corsia | `lazy`: contano quando l'utente scorre |
 | Pagina Bands | 1 per band, più la corsia in cima | `lazy`: contano quando l'utente scorre |
+| Pagina band | 1 foto + fino a 24 nelle due corsie (12 + 12) | `lazy`: contano quando l'utente scorre |
 | Copertina di un album in pagina album | 1 | `lazy` |
-| Foto della band in pagina band | 1 | `lazy` |
 
 - Una home con tre corsie piene dichiara fino a **36 immagini**: è il caso peggiore, ed è il motivo per cui tutte sono `lazy` e con dimensioni dichiarate.
 - La **pagina Bands** mostra le band come card con foto (stesso formato delle corsie, D87): una pagina con N band dichiara N immagini, tutte `lazy` e con dimensioni dichiarate, quindi contano solo quando si scorre.
+- La **pagina band** ha due corsie (album e brani della band) più la foto: anche qui tutto è `lazy` e con dimensioni dichiarate.
 - Le immagini caricate dall'autore sono **600x600 webp, una sola dimensione** (D78): nessuna miniatura separata, nessun ridimensionamento a runtime.
 - Se una pagina sfonda il budget, **si riduce il numero di card** (o si esclude una corsia), non si alza il budget.
 
@@ -153,7 +156,7 @@ Il budget delle immagini si misura **sul numero di immagini che una pagina caric
 
 La pagina delle band ha due parti, in quest'ordine (D87):
 
-1. **In cima** la corsia **"Ultime band aggiunte"** (`home.latest_bands`), identica a quella della home: stesse card, stesso scorrimento senza JS. È l'unica corsia fuori dalla home; qui il link "Tutte le band" è **assente**, perché sarebbe un link alla pagina stessa.
+1. **In cima** la corsia **"Ultime band aggiunte"** (`home.latest_bands`), identica a quella della home: stesse card, stesso scorrimento senza JS. È l'unica corsia della pagina Bands; qui il link "Tutte le band" è **assente**, perché sarebbe un link alla pagina stessa.
 2. **Sotto** l'**indice alfabetico completo**: una barra di iniziali con **solo le lettere presenti** più "Tutte", e per ogni lettera un gruppo con una **griglia di card**.
 
 ## Le card
@@ -169,6 +172,20 @@ Stesso formato delle card delle corsie: immagine 1:1 (foto della band, o **segna
 ## Griglia e breakpoints
 
 `.band-grid` usa `grid-template-columns: repeat(auto-fill, minmax(var(--rail-card), 1fr))`: le colonne si adattano da sole alla larghezza, con la stessa misura delle card delle corsie (10rem su mobile, 12rem da `md`). Nessuna media query dedicata.
+
+---
+
+# Pagina band
+
+La pagina di una band mostra, in quest'ordine (D88):
+
+1. **Titolo** (nome della band) su tutta la larghezza, poi l'**hero a due colonne**: **foto a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`: paese, attiva dal, membri, generi, descrizione). Sotto `md` le due colonne **si impilano**. Se la band non ha foto (`image` in `band.md`), l'anagrafica prende **tutta la larghezza**: nessuna colonna vuota e nessun segnaposto grande su una pagina intera.
+2. **Corsia "Ultimi album pubblicati"** (`band.latest_albums`): gli album pubblicati della band, **anno di pubblicazione** decrescente (a parità di anno, titolo), massimo 12 card. Card = copertina o **segnaposto con l'iniziale**, titolo dell'album, **anno** come riga di informazioni; la card è il link alla pagina dell'album. Un album senza anno dichiarato finisce in coda.
+3. **Corsia "Ultimi brani tradotti"** (`home.recent`, la stessa etichetta della home): i brani pubblicati **di quella band**, per **data di aggiunta** decrescente. "Pubblicato" significa "con almeno una traduzione": i brani solo originali restano in tracklist nella pagina dell'album e non entrano in corsia.
+
+- Le due corsie usano `railBlock` come la home: massimo 12 card, scorrimento in overflow senza JS, immagini `lazy` con dimensioni dichiarate.
+- Una corsia **senza card non esiste nel DOM**: una band con un solo album pubblicato non mostra una corsia di brani vuota.
+- La pagina band **non ha** più la lista verticale degli album: gli album si vedono in corsia, con la copertina.
 
 ---
 
