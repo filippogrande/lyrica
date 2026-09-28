@@ -14,7 +14,7 @@ Uso:
   lyrica build                     valida i contenuti e genera public/
   lyrica serve                     serve public/ in locale
   lyrica valida                    controlla i contenuti e stampa errori e avvisi
-  lyrica new band|album|brano ...  crea i template di contenuto (FASE 2)
+  lyrica new band|album|brano ...  crea i template di contenuto (vedi docs/CONTENT.md)
   lyrica help                      mostra questo messaggio
 `
 
@@ -26,7 +26,7 @@ func main() {
 }
 
 // run esegue il comando richiesto. Nessun comando "fa finta": quelli non
-// ancora implementati restituiscono un errore esplicito (GUIDELINES.md §5).
+// ancora implementati restituiscono un errore esplicito (GUIDELINES.md &S5).
 func run(args []string) error {
 	if len(args) == 0 {
 		fmt.Print(usage)
@@ -41,7 +41,7 @@ func run(args []string) error {
 	case "valida":
 		return validateContent()
 	case "new":
-		return fmt.Errorf("comando 'new' non ancora implementato: arriva in FASE 2 (vedi ROADMAP.md)")
+		return runNew(args[1:])
 	case "help", "-h", "--help":
 		fmt.Print(usage)
 		return nil
