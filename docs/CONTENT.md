@@ -75,20 +75,39 @@ slug: "digital-ist-besser"
 year: 1995
 cover: "digital-ist-besser.webp"   # opzionale
 tracks:
-  - slug: "digital-ist-besser"
+  - slug: "digital-ist-besser"     # ha il file in tracks/: in pagina è un link
     title: "Digital ist besser"
   - slug: "ich-moechte-dich"
     title: "Ich möchte dich"
-  - slug: "instrumental-01"
+  - slug: "spieluhr"               # testo non ancora scritto
+    title: "Spieluhr"
+    status: pending
+  - slug: "instrumental-01"        # strumentale senza file
     title: "(strumentale)"
-    instrumental: true
+    status: instrumental
 ---
 ```
 
-- `tracks` definisce **l'ordine** della tracklist così com'è scritta.
-- `instrumental: true` segna il brano strumentale: sta in tracklist ma **non ha pagina**.
+- `tracks` definisce **l'ordine** della tracklist così com'è scritta: è l'ordine del disco e quello che si stampa.
+- `status` dichiara una traccia **senza file**: `pending` (testo non ancora scritto) o `instrumental`.
 - `cover` è il **nome del file** in `covers/`; se assente, la pagina album va senza immagine.
 - `title` e `year` sono anche i dati con cui si cerca la cover: vanno scritti come sono sull'album, non come viene più comodo.
+
+### Tracklist completa: anche i brani che non ci sono ancora
+
+La tracklist è **il disco intero**, non l'elenco dei brani già scritti: si mettono **tutte** le tracce, nell'ordine dell'album, e per quelle che non hanno il file si dichiara **perché** mancano.
+
+| `status` | Significato | In pagina |
+|---|---|---|
+| assente | il brano ha il suo file in `tracks/` | **link** se ha almeno una traduzione, altrimenti "Solo originale" (o "Strumentale") |
+| `pending` | il testo non è ancora scritto, il file **non esiste** | numero e titolo, **senza link**, con "In arrivo" |
+| `instrumental` | brano strumentale, senza file | numero e titolo, **senza link**, con "Strumentale" |
+
+- Una voce **con `status` non può avere il file**: sarebbe una voce che dice di non avere il testo mentre il testo c'è. Il validatore la segnala come errore (si toglie lo `status`).
+- `pending` e `instrumental` sono gli unici valori ammessi: un valore diverso è un errore, non un'etichetta libera.
+- La **pagina album** si genera quando c'è almeno una traduzione (D35), ma la tracklist mostra **tutte** le tracce dichiarate, comprese quelle in arrivo.
+- La **pagina brano** esiste solo per i brani che hanno il testo (e almeno una traduzione): le voci in arrivo non sono link e non sono cliccabili.
+- Chi vuole la traduzione di un brano "in arrivo" potrà chiederla dal form di segnalazione: la call to action in pagina arriva **insieme al form** (FASE 6, D90), per non mettere un link a una pagina che non esiste.
 
 ## Immagini (`covers/`)
 
@@ -143,7 +162,7 @@ python3 scripts/declare-image.py content/bands/<band>/band.md band <band-slug>.w
 ```
 
 - `fetch-images.sh` è quello che fa il lavoro da solo: per ogni band e ogni album legge i dati già scritti nei file di contenuto, cerca l'identificativo, scarica e scrive il campo. Salta ciò che è a posto e stampa il report (anche nel riepilogo del run, se `GITHUB_STEP_SUMMARY` è impostato).
-- `fetch-covers.sh` scarica **una** immagine dal MBID, converte in **600x600 webp** con ritaglio centrale e **verifica le dimensioni**; `--force` per riscrivere, `--allow-missing` per uscire con 3 invece che con errore quando l'archivio non ha l'immagine. Non tocca i file di contenuto.
+- `fetch-covers.sh` scarica **una** immagine dal MBID, converte in **600x600 webp** con ritaglio centrale e **verifica le dimensioni**; `--force` per riscrivere, `--allow-missing` per uscire con 3 invece che con errore quando l'archivio non l'ha. Non tocca i file di contenuto.
 - `declare-image.py` scrive `cover:` / `image:` nel front-matter (aggiorna la riga se c'è, la aggiunge se manca, errore esplicito se non c'è front-matter).
 - Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv (di solito `artistthumb`, si prende quella con più like).
 - Chiavi sul proprio computer: `FANART_API_KEY` / `FANART_CLIENT_KEY`, oppure una riga in `~/.fanart_api_key` / `~/.fanart_client_key`. Basta una delle due. **Mai nel repo**, mai stampate, mai nell'URL.
@@ -224,9 +243,10 @@ Un contenuto è **invalido** se:
 5. `added_date` manca o non è una data valida.
 6. `cover` punta a un file inesistente in `covers/`.
 7. `original_langs` contiene una lingua che non compare in nessun blocco.
-8. Un `title` in `tracks` di `album.md` non ha il file corrispondente in `tracks/` (o viceversa).
+8. Una voce di `tracks` in `album.md` **senza `status`** non ha il file corrispondente in `tracks/` (o viceversa: un file assente dalla tracklist). Una voce **con** `status` che ha anche il file è un errore: o ha il testo (e lo `status` si toglie) o non ce l'ha.
 9. Un link interno a un band/album/brano inesistente.
 10. `image` di una band punta a un file inesistente in `covers/` (o a una cartella invece che a un file).
+11. `status` di una voce di `tracks` con un valore diverso da `pending` e `instrumental`.
 
 La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 
@@ -237,7 +257,9 @@ La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 - **band senza immagine**: la card usa il segnaposto con l'iniziale (non è un errore: una band può restare tipografica);
 - tag usato una volta sola (possibile refuso: `metal` vs `metalcore`);
 - descrizione band mancante;
-- chiavi di locale mancanti rispetto a `it.yaml`.
+- chiavi di locale mancanti rispetto a `it.yaml`;
+- `title` o `instrumental` di un file diversi da quelli dichiarati nella tracklist di `album.md`;
+- tracklist vuota, o con **tutte** le tracce "in arrivo".
 
 ## Come si aggiunge un contenuto
 
@@ -257,7 +279,7 @@ Crea `content/bands/tocotronic/band.md` con il front-matter precompilato (nome, 
 lyrica new album tocotronic "Digital ist besser" --year 1995
 ```
 
-Il primo argomento è lo **slug della band** (non il nome). Crea `content/bands/tocotronic/digital-ist-besser/album.md` con la tracklist vuota da riempire **nell'ordine dell'album**. I brani strumentali si segnano subito con `instrumental: true`. La cover la scarica il workflow (o `fetch-images.sh`), **600x600 quadrata**: se l'archivio non ce l'ha, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
+Il primo argomento è lo **slug della band** (non il nome). Crea `content/bands/tocotronic/digital-ist-besser/album.md` con la tracklist vuota da riempire **nell'ordine dell'album**: la tracklist è il disco intero, quindi si mettono tutte le tracce, segnando `status: pending` quelle di cui non c'è ancora il testo e `status: instrumental` gli strumentali. La cover la scarica il workflow (o `fetch-images.sh`), **600x600 quadrata**: se l'archivio non ce l'ha, la pagina album va senza immagine e le card della home mostrano il **segnaposto con l'iniziale** dell'album — una lettera su fondo del tema, non un'immagine inventata (D78).
 
 ### 3. Nuovo brano
 
@@ -273,6 +295,8 @@ Crea `content/bands/tocotronic/digital-ist-besser/tracks/ich-moechte-dich.md` co
 - `added_date` = il giorno in cui la pubblichi;
 - `featured: true` solo se il brano deve stare nella corsia "In evidenza" della home;
 - niente annotazioni per verso.
+
+Se il brano era già dichiarato `status: pending` in `album.md`, quando scrivi il testo **togli lo `status`**: la voce torna a puntare al file (una voce con `status` e il file è un errore).
 
 ### 4. Verifica in locale
 
@@ -291,6 +315,7 @@ lyrica serve      # serve il risultato su una porta locale
 
 - [ ] La traduzione è **completa** strofa per strofa.
 - [ ] `added_date` è la data di pubblicazione reale.
+- [ ] La **tracklist è completa** (tutte le tracce del disco) e le voci senza testo hanno lo `status` giusto.
 - [ ] Slug, cartelle e nome della cover **coincidono**.
 - [ ] Le immagini dichiarate (`cover`, `image`) **esistono** in `covers/` e sono 600x600 webp.
 - [ ] Se la cover l'ha scelta il workflow, **l'hai guardata**: titolo e anno possono combaciare con la release sbagliata.
