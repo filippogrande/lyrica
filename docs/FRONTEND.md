@@ -55,8 +55,8 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Anagrafica band** | blocco `dl` con paese, attiva dal, membri, generi, più la descrizione; nella **pagina band** sta a **destra** della foto |
 | **Anagrafica album** | blocco `dl` con band (link), anno, numero di brani, lingue tradotte; nella **pagina album** sta a **destra** della copertina |
 | **Badge lingua** | lingue disponibili di un brano (`DE`, `IT`, ...) |
+| **Etichetta di stato** | motivo per cui una traccia non ha una pagina: "In arrivo", "Strumentale", "Solo originale" (classe `.track-flag`, testo dai locale) |
 | **Strofa** | blocco di testo con eventuale nome del cantante sopra |
-| **Avvisi** | "strumentale", "solo originale": testo semplice, non allarmi colorati |
 | **Footer** | disclaimer, licenza CC, contatti, RSS, contatori |
 
 ## Accessibilità (requisiti, non buone intenzioni)
@@ -196,15 +196,17 @@ La pagina di una band mostra, in quest'ordine (D88):
 
 La pagina di un album mostra, in quest'ordine (D89):
 
-1. **Titolo** (titolo dell'album) su tutta la larghezza, poi l'**hero a due colonne**: **copertina a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link alla pagina band), **anno**, **numero di brani**, **lingue tradotte** (le lingue delle traduzioni presenti nell'album, senza ripetizioni e in ordine alfabetico). Sotto `md` le colonne **si impilano**. Se la copertina manca, l'anagrafica prende **tutta la larghezza**. La riga delle lingue è **assente** finché nell'album non c'è nessuna traduzione: nessun campo vuoto stampato.
-2. **Tracklist numerata e completa** (`album.tracks`): **tutti** i brani dichiarati in `tracks:` in `album.md`, nell'ordine del disco, ognuno con il **numero di traccia**.
-   - Il numero è la **posizione nell'album**, non quella fra i brani tradotti: non cambia quando si pubblica una traduzione in più, quindi il numero resta un riferimento stabile al disco.
+1. **Titolo** (titolo dell'album) su tutta la larghezza, poi l'**hero a due colonne**: **copertina a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link alla pagina band), **anno**, **numero di tracce**, **lingue tradotte** (le lingue delle traduzioni presenti nell'album, senza ripetizioni e in ordine alfabetico). Sotto `md` le colonne **si impilano**. Se la copertina manca, l'anagrafica prende **tutta la larghezza**. La riga delle lingue è **assente** finché nell'album non c'è nessuna traduzione: nessun campo vuoto stampato.
+2. **Tracklist numerata e completa** (`album.tracks`): **tutte** le tracce dichiarate in `tracks:` in `album.md`, nell'ordine del disco, ognuna con il **numero di traccia**.
+   - Il numero è la **posizione nell'album**, non quella fra i brani tradotti: non cambia quando si pubblica una traduzione in più, quindi resta un riferimento stabile al disco.
    - I brani **pubblicati** (con almeno una traduzione) sono **link** alla pagina del brano, con le lingue disponibili accanto.
-   - I brani **non pubblicati** restano in elenco **senza link e non cliccabili**, con l'etichetta *"Solo originale"* (`track.only_original`) o *"Strumentale"* (`track.instrumental`). Un brano strumentale sta in tracklist ma non ha pagina (D31).
+   - Ogni altra voce resta in elenco **senza link e non cliccabile**, con il **motivo** accanto al titolo: *"In arrivo"* (`track.pending`: il testo non è ancora scritto), *"Strumentale"* (`track.instrumental`), *"Solo originale"* (`track.only_original`: c'è il testo ma non una traduzione). Il motivo è un **testo tradotto dai locale**, mai scritto nel codice (D90).
    - La tracklist **non si accorcia** mai: mostrare solo i brani tradotti nasconderebbe che manca ancora del lavoro.
+   - Sulle voci **"in arrivo"** arriverà la call to action "segnalaci che vuoi questa traduzione", **insieme al form di segnalazione** (FASE 6, D90): finché il form non esiste la riga resta senza link, perché un link a una pagina che non c'è è peggio di nessun link.
 3. **Corsia "Altri album della band"** (`album.other_albums`): gli altri album **pubblicati** della stessa band, **anno di pubblicazione** decrescente, **escluso quello che si sta guardando**. Stesse card della pagina band (copertina o segnaposto con l'iniziale, titolo, anno). Se l'album è l'unico pubblicato della band, la corsia **non esiste nel DOM**.
 
 - La corsia degli album è **la stessa** della pagina band: il costruttore sta in `internal/render/album_rail.go`, cambia solo il titolo.
+- La **pagina brano** esiste solo per i brani con il testo (e almeno una traduzione): tutto il resto resta in tracklist senza link. La pagina brano non ha una vista "solo originale".
 
 ---
 
@@ -277,6 +279,7 @@ La pagina di un album mostra, in quest'ordine (D89):
 | Caso | Resa |
 |---|---|
 | Brano con una sola lingua (nessuna traduzione) | **non ha pagina**: in tracklist come "solo originale" |
+| Traccia dichiarata in `album.md` senza testo | in tracklist, **senza link**, con "In arrivo" |
 | Brano strumentale | in tracklist con nota, nessuna pagina |
 | Traduzione con strofe più corte | colonna allineata in alto, nessun riempimento artificiale |
 | Numero di voci mancante | nessuna etichetta cantante |
