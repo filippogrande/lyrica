@@ -25,21 +25,29 @@ templ Bands(v BandsView) {
 // (assets/js/lyrica.js) e usa l'attributo hidden, come il selettore di lingua
 // della pagina brano. Senza JS i gruppi restano tutti visibili: il filtro è un
 // di più, non un requisito.
+//
+// Gli attributi data-* hanno SEMPRE un valore (anche "1"): templ non riconosce
+// gli attributi senza valore come parte del tag di apertura, e un elemento così
+// scritto resta senza tag di chiusura in fase di parsing.
 templ bandIndex(v BandsView) {
-	<section class="band-index" data-band-index>
+	<section class="band-index" data-band-index="1">
 		<nav class="band-letters" aria-label={ v.Page.T("bands.letters_label") }>
-			<button type="button" class="band-letter is-active" data-band-letter="*" aria-pressed="true">{ v.Page.T("bands.all") }</button>
+			<button type="button" class="band-letter is-active" data-band-letter="*" aria-pressed="true">
+				{ v.Page.T("bands.all") }
+			</button>
 			for _, letter := range v.Letters {
-				<button type="button" class="band-letter" data-band-letter={ letter } aria-pressed="false">{ letter }</button>
+				<button type="button" class="band-letter" data-band-letter={ letter } aria-pressed="false">
+					{ letter }
+				</button>
 			}
 		</nav>
 		for _, group := range v.Groups {
-			<section class="band-group" data-band-group={ group.Letter }>
+			<div class="band-group" data-band-group={ group.Letter }>
 				<h2 class="band-group-letter">{ group.Letter }</h2>
 				@bandGrid(group.Cards)
-			</section>
+			</div>
 		}
-	}
+	</section>
 }
 
 // bandGrid è la griglia di card di una lettera: stesso formato delle card delle
