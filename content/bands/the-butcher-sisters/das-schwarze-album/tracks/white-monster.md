@@ -1,0 +1,395 @@
+---
+title: "White Monster"
+slug: "white-monster"
+added_date: 2026-09-28
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Ich bin ein Monster"
+          - "Gib mir White Monster"
+          - "Gib mir Energie"
+          - "Für meine Batterie"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Gib mir White Monster"
+          - "Gib mir Energie"
+          - "Für meine Batterie"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Ich bin ein Monster"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Ich bin ein Monster"
+          - "Ich bin ein"
+      - lines:
+          - "Zero kalorien (null)"
+          - "Zero zucker (null)"
+          - "Ich bin der monster white energy schlucker (gluck gluck)"
+      - lines:
+          - "Cool wie John Cena"
+          - "Schlau wie ein lehrer"
+          - "Ich bin der mit dem selber gemachten herzfehler"
+      - lines:
+          - "8 tage wach - ich halluzinier"
+          - "Das urinal schmilzt - Wenn ich urinier"
+          - "Ich gehe schnell – wie ein geparden-tier"
+          - "Brüh den kaffe auf mit monster"
+          - "Habt ihr das mal probiert?"
+      - lines:
+          - "Ohne Taurin"
+          - "Und Koffein"
+          - "Macht leben keinen sinn"
+      - lines:
+          - "Ohne Taurin"
+          - "Und Koffein"
+          - "Ja!"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Gib mir White Monster"
+          - "Gib mir Energie"
+          - "Für meine Batterie"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Gib mir White Monster"
+          - "Gib mir Energie"
+          - "Für meine Batterie"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Ich bin ein"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Monster"
+          - "White Monster"
+          - "Yeah"
+      - lines:
+          - "Ja Ja"
+          - "Ich geh im Internet auf gutefrage.de"
+          - "Wie viele White Monster trinkt ihr so am day?\""
+          - "Denn ich sauge täglich very very many away"
+          - "Und mein Hausarzt meint - das wär nicht okay"
+      - lines:
+          - "Abeeer"
+          - "Ich bin kein Kind keine stillende Frau"
+          - "Ich bin ein chilliger typ mit einem monster im bauch"
+          - "Ich bin kettendosentrinker gib mir energy now"
+          - "Ich habe viele monster weil ich habe viele gekauft"
+      - lines:
+          - "Ohne Taurin"
+          - "Und Koffein"
+          - "Macht leben keinen sinn"
+          - "Ohne Taurin"
+          - "Und Koffein"
+          - "Ja!"
+      - lines:
+          - "Bro bist du noch wach"
+          - "Ja"
+          - "Ich auch"
+          - "Wie viel uhr?"
+          - "4"
+          - "Welcher tag? Montag?"
+          - "Donnerstag Digger"
+          - "Willst du noch ein Monster?"
+          - "Ja schon"
+      - lines:
+          - "Aaaaaah"
+          - "Aaaaaah"
+          - "Jaaaaah"
+          - "Jaaaaah"
+          - "Wach für immer"
+          - "Wach für immer"
+          - "Ich drücke mir in meine augen mit den fingern"
+          - "Wach für immer"
+          - "Wach für immer"
+          - "Wach wach wach waaaach"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Gib mir White Monster"
+          - "Gib mir Energie"
+          - "Für meine Batterie"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Gib mir White Monster"
+          - "Gib mir Energie"
+          - "Für meine Batterie"
+      - lines:
+          - "Ich bin ein Monster"
+          - "Ich bin ein Monster"
+      - lines:
+          - "Nur noch ein kleines Monster"
+      - lines:
+          - "(Ich bin ein Monster)"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+      - lines:
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster..."
+      - lines:
+          - "Oh yeah forever and ever"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "I'm a monster"
+          - "Give me White Monster"
+          - "Give me energy"
+          - "For my battery"
+      - lines:
+          - "I'm a monster"
+          - "Give me White Monster"
+          - "Give me energy"
+          - "For my battery"
+      - lines:
+          - "I'm a monster"
+          - "I'm a monster"
+      - lines:
+          - "I'm a monster"
+          - "I'm a monster"
+          - "I'm a"
+      - lines:
+          - "Zero calories (zero)"
+          - "Zero sugar (zero)"
+          - "I'm the monster white energy chugger (glug glug)"
+      - lines:
+          - "Cool like John Cena"
+          - "Smart like a teacher"
+          - "I'm the one with the self-made heart defect"
+      - lines:
+          - "8 days awake - I'm hallucinating"
+          - "The urinal melts - when I pee"
+          - "I go fast – like a cheetah beast"
+          - "Brew the coffee with Monster"
+          - "Have you guys ever tried that?"
+      - lines:
+          - "Without taurine"
+          - "And caffeine"
+          - "Life makes no sense"
+      - lines:
+          - "Without taurine"
+          - "And caffeine"
+          - "Yes!"
+      - lines:
+          - "I'm a monster"
+          - "Give me White Monster"
+          - "Give me energy"
+          - "For my battery"
+      - lines:
+          - "I'm a monster"
+          - "Give me White Monster"
+          - "Give me energy"
+          - "For my battery"
+      - lines:
+          - "I'm a monster"
+          - "I'm a"
+      - lines:
+          - "I'm a monster"
+          - "Monster"
+          - "White Monster"
+          - "Yeah"
+      - lines:
+          - "Yeah yeah"
+          - "I go on the internet on gutefrage.de"
+          - "How many White Monster do you guys drink a day?"
+          - "Cause I suck very very many away daily"
+          - "And my GP says - that ain't okay"
+      - lines:
+          - "Buuut"
+          - "I'm not a kid, not a nursing woman"
+          - "I'm a chill guy with a monster in my belly"
+          - "I'm a chain can drinker, give me energy now"
+          - "I have many monsters because I bought many"
+      - lines:
+          - "Without taurine"
+          - "And caffeine"
+          - "Life makes no sense"
+          - "Without taurine"
+          - "And caffeine"
+          - "Yes!"
+      - lines:
+          - "Bro are you still awake"
+          - "Yes"
+          - "Me too"
+          - "What time is it?"
+          - "4"
+          - "Which day? Monday?"
+          - "Thursday, bro"
+          - "Do you want another Monster?"
+          - "Yeah, sure"
+      - lines:
+          - "Aaaaaah"
+          - "Aaaaaah"
+          - "Yessssss"
+          - "Yessssss"
+          - "Awake forever"
+          - "Awake forever"
+          - "I press my fingers into my eyes"
+          - "Awake forever"
+          - "Awake forever"
+          - "Awake awake awake awaaake"
+      - lines:
+          - "I'm a monster"
+          - "Give me White Monster"
+          - "Give me energy"
+          - "For my battery"
+      - lines:
+          - "I'm a monster"
+          - "Give me White Monster"
+          - "Give me energy"
+          - "For my battery"
+      - lines:
+          - "I'm a monster"
+          - "I'm a monster"
+      - lines:
+          - "Just one more little Monster"
+      - lines:
+          - "(I'm a monster)"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+      - lines:
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster..."
+      - lines:
+          - "Oh yeah forever and ever"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Sono un mostro"
+          - "Dammi White Monster"
+          - "Dammi energia"
+          - "Per la mia batteria"
+      - lines:
+          - "Sono un mostro"
+          - "Dammi White Monster"
+          - "Dammi energia"
+          - "Per la mia batteria"
+      - lines:
+          - "Sono un mostro"
+          - "Sono un mostro"
+      - lines:
+          - "Sono un mostro"
+          - "Sono un mostro"
+          - "Sono un"
+      - lines:
+          - "Zero calorie (nulla)"
+          - "Zero zucchero (nulla)"
+          - "Sono il tracannatore di monster white energy (gluck gluck)"
+      - lines:
+          - "Fico come John Cena"
+          - "Sveglio come un professore"
+          - "Sono quello con il difetto cardiaco fatto in casa"
+      - lines:
+          - "8 giorni sveglio - sto allucinando"
+          - "L'orinatoio si scioglie - quando piscio"
+          - "Vado veloce – come una bestia ghepardo"
+          - "Preparo il caffè con il Monster"
+          - "L'avete mai provato?"
+      - lines:
+          - "Senza taurina"
+          - "E caffeina"
+          - "La vita non ha senso"
+      - lines:
+          - "Senza taurina"
+          - "E caffeina"
+          - "Sì!"
+      - lines:
+          - "Sono un mostro"
+          - "Dammi White Monster"
+          - "Dammi energia"
+          - "Per la mia batteria"
+      - lines:
+          - "Sono un mostro"
+          - "Dammi White Monster"
+          - "Dammi energia"
+          - "Per la mia batteria"
+      - lines:
+          - "Sono un mostro"
+          - "Sono un"
+      - lines:
+          - "Sono un mostro"
+          - "Monster"
+          - "White Monster"
+          - "Yeah"
+      - lines:
+          - "Sì sì"
+          - "Vado su internet su gutefrage.de"
+          - "Quanti White Monster bevete voi al giorno?"
+          - "Perché io ne tracanno ogni giorno a bizzeffe"
+          - "E il mio medico di base dice - che non va bene"
+      - lines:
+          - "Peròòò"
+          - "Non sono un bambino né una donna che allatta"
+          - "Sono un tipo chill con un mostro nello stomaco"
+          - "Sono un tracannatore a catena di lattine, dammi energy now"
+          - "Ho tanti monster perché ne ho comprati tanti"
+      - lines:
+          - "Senza taurina"
+          - "E caffeina"
+          - "La vita non ha senso"
+          - "Senza taurina"
+          - "E caffeina"
+          - "Sì!"
+      - lines:
+          - "Bro sei ancora sveglio"
+          - "Sì"
+          - "Anche io"
+          - "Che ore sono?"
+          - "4"
+          - "Che giorno? Lunedì?"
+          - "Giovedì, bro"
+          - "Vuoi ancora un Monster?"
+          - "Sì dai"
+      - lines:
+          - "Aaaaaah"
+          - "Aaaaaah"
+          - "Sìììììì"
+          - "Sìììììì"
+          - "Sveglio per sempre"
+          - "Sveglio per sempre"
+          - "Mi premo le dita negli occhi"
+          - "Sveglio per sempre"
+          - "Sveglio per sempre"
+          - "Sveglio sveglio sveglio svegliooo"
+      - lines:
+          - "Sono un mostro"
+          - "Dammi White Monster"
+          - "Dammi energia"
+          - "Per la mia batteria"
+      - lines:
+          - "Sono un mostro"
+          - "Dammi White Monster"
+          - "Dammi energia"
+          - "Per la mia batteria"
+      - lines:
+          - "Sono un mostro"
+          - "Sono un mostro"
+      - lines:
+          - "Solo un piccolo Monster in più"
+      - lines:
+          - "(Sono un mostro)"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+      - lines:
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster"
+          - "White Monster..."
+      - lines:
+          - "Oh yeah per sempre e sempre"
