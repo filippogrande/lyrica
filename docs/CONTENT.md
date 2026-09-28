@@ -29,13 +29,13 @@ Lo slug è la chiave di tutto: **cartella, URL e nome della cover devono coincid
 
 ### Lingua di un brano (soglia per la seconda lingua)
 
-Un brano ha **una sola lingua originale**, quella dominante, in cui è cantata la maggior parte del testo. Le traduzioni vanno verso una lingua singola (`role: translation`). Non si fanno traduzioni automatiche né istantanee, quindi non serve una "doppia vista" per i brani con più lingue:
+Un brano ha **una lingua originale**, quella dominante in cui è cantata la maggior parte del testo. Le **traduzioni possono essere in più lingue**: ognuna è un blocco `role: translation` (una lingua diversa per ogni blocco, regola 3). L'evoluzione futura dello schema è esattamente "lingua del brano → tutte le lingue": il modello attuale la supporta già, perché ogni brano ha un blocco originale e N blocchi di traduzione.
 
-- **Parole o frasi isolate** in altre lingue **non** rendono il brano multilingue: es. *ADIEU* (Rammstein) è tedesco anche se contiene parole non-tedesche. Una lingua sola, nessuna traduzione extra.
-- Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**. Si dichiara una seconda lingua solo se ha senso come vista completa a sé; altrimenti si resta sulla lingua dominante e la traduzione va verso la lingua unica scelta (es. inglese).
-- Nei brani davvero bilingu delti in parti uguali si sceglie comunque **una** lingua dominante per `original_langs` e si traduce il resto verso la lingua unica di traduzione.
+- **Parole o frasi isolate** in altre lingue **non** rendono il brano multilingue: es. *ADIEU* (Rammstein) è tedesco anche se contiene parole non-tedesche. Resta una lingua originale e le traduzioni vanno nelle lingue scelte.
+- Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal, con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**. In genere resta una sola lingua originale (quella dominante, es. inglese per *Kinglayer*) e la parte nelle altre lingue si traduce insieme al resto nelle lingue di traduzione — *Kinglayer* ha comunque la sua traduzione, es. in inglese.
+- Nei brani bilingui in parti uguali si sceglie comunque **una** lingua dominante per `original_langs`; il resto segue nelle lingue di traduzione.
 
-È un criterio umano, non automatico: il validatore non misura percentuali, decide chi scrive il contenuto.
+È un criterio umano, non automatico: il validatore non misura percentuali, decide chi scrive il contenuto. Le traduzioni restano sempre complete strofa per strofa (regola 4).
 
 ## `band.md`
 
@@ -60,7 +60,7 @@ description: >
 | `slug` | sì | deve coincidere con il nome della cartella |
 | `country` | no | sigla ISO a 2 lettere |
 | `tags` | no | **tag liberi** di genere; generano le pagine `/it/tag/{tag}` |
-| `original_langs` | sì | una o più lingue originali della band |
+| `original_langs` | sì | le lingue originali della band |
 | `formed_year` | no | numero |
 | `members` | no | lista di stringhe |
 | `image` | no | **nome del file** in `covers/` con la foto della band; se manca, la card usa il segnaposto con l'iniziale |
@@ -176,6 +176,13 @@ blocks:
       - lines:
           - "Sono un nativo digitale"
           - "e anche tu lo sei"
+  - lang: en
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "I am a digital native"
+          - "and you are one too"
 ---
 
 Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del testo.
@@ -190,7 +197,7 @@ Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del te
 | `added_date` | sì | ordina i "recenti" e il feed RSS |
 | `featured` | no | `true` = entra nella corsia "In evidenza" della home |
 | `instrumental` | no | `true` = nessuna pagina |
-| `original_langs` | sì | una o più |
+| `original_langs` | sì | la lingua dominante del brano (di solito una) |
 | `singers` | no | elenco delle voci del brano |
 | `blocks` | sì | almeno un blocco `role: original` |
 
@@ -200,9 +207,11 @@ Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del te
 |---|---|---|
 | `lang` | sì | BCP-47 |
 | `role` | sì | `original` \| `translation` |
-| `translator` | no | chi ha tradotto (mostrato in pagina) |
+| `translator` | no | chi ha tradotto (mostrato in pagina); per l'originale si può omettere |
 | `stanzas` | sì | lista ordinata di strofe |
 | `live` | no | `true` = versione live/acustica: resta nello stesso brano, mostrato con nota |
+
+Un brano ha **un solo blocco originale** e **N blocchi di traduzione** (uno per lingua). Il selettore lingua in pagina mostra originale + tutte le traduzioni; un giorno lo schema potrà espandere l'originale a più lingue senza cambiare forma (``lingua brano → tutte le lingue``).
 
 ### Campi di una strofa
 
@@ -269,7 +278,7 @@ Crea `content/bands/tocotronic/digital-ist-besser/tracks/ich-moechte-dich.md` co
 
 - scrivi il testo originale **strofa per strofa**, un verso per riga;
 - se il brano ha più voci, aggiungi `singer:` a **ogni** strofa;
-- scrivi la traduzione **completa**: strofe della stessa lunghezza dell'originale;
+- scrivi ogni traduzione **completa** (più lingue se vuoi): strofe della stessa lunghezza dell'originale, ognuna in un blocco `role: translation`;
 - `added_date` = il giorno in cui la pubblichi;
 - `featured: true` solo se il brano deve stare nella corsia "In evidenza" della home;
 - niente annotazioni per verso.
