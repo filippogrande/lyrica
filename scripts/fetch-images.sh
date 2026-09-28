@@ -68,11 +68,16 @@ row() {
 
 # frontmatter_field legge un campo dal front-matter. Stampa niente se il campo
 # non c'è: chi chiama decide se è un errore.
+#
+# La command substitution è chiusa SUBITO dopo la parentesi, senza spazi dentro
+# le virgolette: uno spazio lì (") ") finirebbe dentro il valore, e un valore
+# con uno spazio finale fa sembrare inesistente un file che esiste, oltre a
+# sporcare le ricerche (artist:"Rammstein ").
 frontmatter_field() {
 	local file="$1" field="$2" body="" value=""
 	body="$(awk 'NR==1 && $0 != "---" { exit } NR>1 && $0 == "---" { exit } NR>1 { print }' "$file")"
 	value="$(printf '%s\n' "$body" | grep -m1 "^${field}:" \
-		| sed -e "s/^${field}:[[:space:]]*//" -e 's/^"//' -e 's/"[[:space:]]*$//') " || true
+		| sed -e "s/^${field}:[[:space:]]*//" -e 's/^"//' -e 's/"[[:space:]]*$//' -e 's/[[:space:]]*$//')" || true
 	printf '%s' "$value"
 	return 0
 }
