@@ -99,10 +99,24 @@ type HomeView struct {
 // HasContent dice se la home ha qualcosa da mostrare.
 func (v HomeView) HasContent() bool { return len(v.Rails) > 0 }
 
-// BandsView sono i dati della pagina con l'elenco delle band.
+// BandsView sono i dati della pagina delle band: la corsia delle ultime
+// arrivate in cima (la stessa della home) e l'elenco completo sotto, diviso per
+// iniziale.
 type BandsView struct {
-	Page  PageData
-	Bands []BandCard
+	Page PageData
+	// Latest è la corsia "ultime band aggiunte". Vuota se non c'è nessuna band.
+	Latest Rail
+	// Letters sono le iniziali presenti, in ordine: alimentano la barra dei
+	// filtri. È vuota se l'elenco è vuoto.
+	Letters []string
+	// Groups è l'elenco delle band raggruppate per iniziale, in ordine.
+	Groups []LetterGroup
+}
+
+// LetterGroup è un gruppo di band che iniziano con la stessa lettera.
+type LetterGroup struct {
+	Letter string
+	Cards  []BandCard
 }
 
 // BandView sono i dati della pagina di una band.
@@ -277,7 +291,7 @@ func latestBands(catalog *content.Catalog) []*content.Band {
 		if !ok {
 			continue
 		}
-		 dated = append(dated, datedBand{band: band, latest: latest})
+		dated = append(dated, datedBand{band: band, latest: latest})
 	}
 	sort.SliceStable(dated, func(i, j int) bool {
 		if dated[i].latest.After(dated[j].latest) {
@@ -334,6 +348,44 @@ func BuildBandCards(page PageData, bands []*content.Band) []BandCard {
 		cards = append(cards, newBandCard(page, band))
 	}
 	return cards
+}
+
+// BuildBandsView assembla la pagina delle band: la corsia delle ultime
+// arrivate (identica a quella della home, senza il link "tutte le band": qui
+// sarebbe un link alla pagina stessa) e l'elenco completo diviso per iniziale.
+func BuildBandsView(page PageData, catalog *content.Catalog) BandsView {
+	view := BandsView{Page: page}
+	if bands := latestBands(catalog); len(bands) > 0 {
+		rail := newBandRail(page, bands)
+		rail.MoreURL = ""
+		rail.MoreText = ""
+		view.Latest = rail
+	}
+	view.Groups, view.Letters = groupByInitial(BuildBandCards(page, catalog.Bands))
+	return view
+}
+
+// groupByInitial ordina le band per nome e le raggruppa per iniziale,
+// restituendo anche l'elenco delle iniziali presenti (per la barra dei filtri).
+// L'ordine alfabetico si calcola qui: l'ordine del catalogo non è garantito.
+func groupByInitial(cards []BandCard) ([]LetterGroup, []string) {
+	sorted := make([]BandCard, len(cards))
+	copy(sorted, cards)
+	sort.SliceStable(sorted, func(i, j int) bool { return sorted[i].Name < sorted[j].Name })
+
+	var groups []LetterGroup
+	var letters []string
+	for _, card := range sorted {
+		if card.Initial == "" {
+			continue
+		}
+		if len(groups) == 0 || groups[len(groups)-1].Letter != card.Initial {
+			groups = append(groups, LetterGroup{Letter: card.Initial})
+			letters = append(letters, card.Initial)
+		}
+		groups[len(groups)-1].Cards = append(groups[len(groups)-1].Cards, card)
+	}
+	return groups, letters
 }
 
 // BuildBandView assembla la pagina di una band.

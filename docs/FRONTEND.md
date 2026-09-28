@@ -11,7 +11,7 @@
 
 - **Bootstrap 5, solo CSS**, servito **dal repo** (`assets/css/vendor/`), non da CDN: serve all'offline della PWA e a non dipendere da terzi a runtime.
 - Personalizzazioni in `assets/css/lyrica.css`, **solo custom properties** dove possibile.
-- **JS custom ridotto al minimo** (tema, dimensione testo, menu, selettore lingua): poche decine di righe, nessun bundle.
+- **JS custom ridotto al minimo** (tema, dimensione testo, menu, selettore lingua, filtro alfabetico delle band): poche decine di righe, nessun bundle.
 - **Nessuno script inline**: la CSP non ammette `unsafe-inline`, quindi anche il tema è un file (`assets/js/theme.js`) caricato nel `<head>` **prima** del paint.
 
 ## Griglia e breakpoints
@@ -21,7 +21,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | Contesto | Regola |
 |---|---|
 | Vista a fronte (pagina brano) | `col-12` sotto `lg`, `col-lg-6` da `lg` in su |
-| Elenco band | 1 colonna su mobile, 2 da `md`, 3 da `lg` |
+| Elenco band (pagina Bands) | griglia di card `auto-fill`: 1 colonna su mobile, 2-3 da `md`, 3-4 da `lg` |
 | Card album | 1 su mobile, 2-3 da `md` |
 | Corsie della home | card larghe `--rail-card`: **10rem** su mobile, **12rem** da `md` |
 | Header | sticky sempre, nav compressa sotto `lg` con offcanvas |
@@ -48,7 +48,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Ricerca** | dropdown live nell'header |
 | **Breadcrumb** | su tutte le pagine interne |
 | **Card band** | foto se dichiarata (`image` in `band.md`), altrimenti **segnaposto con l'iniziale**; nome, paese, generi, numero di album |
-| **Corsia (rail)** | elenco orizzontale della home: titolo (`.rail-heading`), link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie") |
+| **Corsia (rail)** | elenco orizzontale della home: titolo (`.rail-heading`), link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie"); la **pagina Bands** riusa la corsia delle band in cima (vedi "Pagina Bands") |
 | **Card album** | cover se esiste, altrimenti layout testuale (titolo + anno + n° brani) |
 | **Foto della band (pagina band)** | immagine singola sotto il titolo, larghezza massima 20rem come la copertina dell'album; se `image` manca, nessuna immagine |
 | **Badge lingua** | lingue disponibili di un brano (`DE`, `IT`, ...) |
@@ -82,7 +82,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 
 # Home a corsie
 
-La home non è un elenco verticale: è una **sequenza di corsie orizzontali**, ognuna con un titolo e le card delle novità. Le corsie esistono **solo in home**: band, album e brani restano elenchi verticali.
+La home non è un elenco verticale: è una **sequenza di corsie orizzontali**, ognuna con un titolo e le card delle novità. Le corsie nascono in home; la **pagina Bands** riusa la corsia "Ultime band aggiunte" in cima (vedi "Pagina Bands"). Album e brani restano elenchi verticali.
 
 ## Le corsie
 
@@ -138,13 +138,37 @@ Il budget delle immagini si misura **sul numero di immagini che una pagina caric
 | Contesto | Immagini | Caricamento |
 |---|---|---|
 | Corsia della home | 1 per card, fino a 12 per corsia | `lazy`: contano quando l'utente scorre |
+| Pagina Bands | 1 per band, più la corsia in cima | `lazy`: contano quando l'utente scorre |
 | Copertina di un album in pagina album | 1 | `lazy` |
 | Foto della band in pagina band | 1 | `lazy` |
 
 - Una home con tre corsie piene dichiara fino a **36 immagini**: è il caso peggiore, ed è il motivo per cui tutte sono `lazy` e con dimensioni dichiarate.
-- L'**elenco band resta testuale**: nessuna immagine per riga, così la pagina non carica una foto per band.
+- La **pagina Bands** mostra le band come card con foto (stesso formato delle corsie, D87): una pagina con N band dichiara N immagini, tutte `lazy` e con dimensioni dichiarate, quindi contano solo quando si scorre.
 - Le immagini caricate dall'autore sono **600x600 webp, una sola dimensione** (D78): nessuna miniatura separata, nessun ridimensionamento a runtime.
 - Se una pagina sfonda il budget, **si riduce il numero di card** (o si esclude una corsia), non si alza il budget.
+
+---
+
+# Pagina Bands
+
+La pagina delle band ha due parti, in quest'ordine (D87):
+
+1. **In cima** la corsia **"Ultime band aggiunte"** (`home.latest_bands`), identica a quella della home: stesse card, stesso scorrimento senza JS. È l'unica corsia fuori dalla home; qui il link "Tutte le band" è **assente**, perché sarebbe un link alla pagina stessa.
+2. **Sotto** l'**indice alfabetico completo**: una barra di iniziali con **solo le lettere presenti** più "Tutte", e per ogni lettera un gruppo con una **griglia di card**.
+
+## Le card
+
+Stesso formato delle card delle corsie: immagine 1:1 (foto della band, o **segnaposto con l'iniziale** se manca), nome, e la riga di informazioni `Paese · Generi · N album`. L'immagine ha `alt=""`: è decorativa perché il nome è nella stessa card.
+
+## Il filtro per lettera
+
+- **Tutte le band sono già nel DOM**, raggruppate per iniziale; il filtro **nasconde e mostra i gruppi** con l'attributo `hidden` (`assets/js/lyrica.js`), come il selettore di lingua della pagina brano: nessuna chiamata al server, nessuna pagina separata, funziona **offline** (D87).
+- **Senza JavaScript** i gruppi restano **tutti visibili**: il filtro è un di più, non un requisito. Nessun contenuto è nascosto dietro lo script.
+- La barra è una `<nav>` con `aria-label` tradotto (`bands.letters_label`); il pulsante attivo è marcato con `aria-pressed` e la classe `is-active`. "Tutte" (`bands.all`) mostra di nuovo tutti i gruppi.
+
+## Griglia e breakpoints
+
+`.band-grid` usa `grid-template-columns: repeat(auto-fill, minmax(var(--rail-card), 1fr))`: le colonne si adattano da sole alla larghezza, con la stessa misura delle card delle corsie (10rem su mobile, 12rem da `md`). Nessuna media query dedicata.
 
 ---
 
@@ -364,6 +388,7 @@ Un testo tradotto serve spesso **senza rete** (in metro, in aereo, in un posto s
 | Pagine brano già visitate (tutte le lingue, cambio lingua compreso) | sì |
 | Navigazione tra pagine già visitate | sì |
 | Cambio tema e dimensione testo | sì (è locale) |
+| Filtro alfabetico delle band | sì (è locale) |
 | Ricerca | no (avviso chiaro) |
 | Segnalazioni e contatti | no (il form lo dice prima dell'invio) |
 | Nuove traduzioni non ancora aperte | no |
