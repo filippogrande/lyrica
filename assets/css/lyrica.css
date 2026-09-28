@@ -520,7 +520,15 @@ main {
 /* Una colonna sotto i 992px, due colonne da lì in su: originale a sinistra,
    traduzione a destra. In alto l'hero con la copertina dell'album e
    l'anagrafica (stessa resa della pagina album). Nessuna colonna di ads: sono
-   spente al lancio (docs/FEATURES.md). */
+   spente al lancio (docs/FEATURES.md).
+
+   Le due colonne devono restare allineate quando si cambia lingua, quindi:
+   - ogni lato è una colonna flex e lo stacco fra intestazione e testo è un
+     `gap`, non un margine: il margine di un fratello nascosto dal menu (le
+     lingue non scelte) si applicherebbe lo stesso e sposterebbe il testo;
+   - l'intestazione (nome del lato + lingua) c'è su TUTTI i lati, anche quando
+     la lingua è una sola: se un lato avesse il menu e l'altro no, i due testi
+     comincerebbero ad altezze diverse. */
 
 .track-meta {
   display: flex;
@@ -548,24 +556,33 @@ main {
   }
 }
 
-/* Le lingue del brano stanno tutte nel DOM: il menu di ogni lato sceglie quella
-   visibile (assets/js/lyrica.js). Questa regola nasconde le altre lingue SOLO
-   quando JS c'è — theme.js mette .js su <html> — quindi senza JS i testi
-   restano tutti leggibili, uno sotto l'altro. */
+.track-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: var(--space-section);
+}
+
+/* Le lingue del brano stanno tutte nel DOM: il menu sceglie quella visibile
+   (assets/js/lyrica.js). La regola che nasconde le altre vale SOLO quando JS
+   c'è — theme.js mette .js su <html> prima del primo paint — quindi senza JS i
+   testi restano tutti leggibili, uno sotto l'altro. */
 .js .text-block[data-text-selected="0"] {
   display: none;
 }
 
-.track-side {
-  margin-bottom: var(--space-section);
-}
-
+/* L'intestazione del lato serve al menu, quindi si mostra solo con JS: senza JS
+   il menu non potrebbe cambiare niente e ogni lingua dichiara sé stessa sopra
+   il proprio testo (titolo del blocco, visibile solo senza JS). */
 .side-head {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+}
+
+.js .side-head {
+  display: flex;
 }
 
 .side-label {
@@ -573,21 +590,21 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--bs-secondary-color);
+  margin: 0;
 }
 
 .lang-select {
-  padding: 0.25rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   border: 1px solid var(--bs-border-color);
   border-radius: 0.25rem;
   background: var(--bs-body-bg);
   color: var(--bs-body-color);
   font: inherit;
+  font-size: 0.9rem;
 }
 
-/* Quando le lingue si vedono tutte (senza JS) i blocchi devono staccarsi l'uno
-   dall'altro. */
-.text-block + .text-block {
-  margin-top: 1.5rem;
+.js .text-block .block-title {
+  display: none;
 }
 
 .block-title {
@@ -598,6 +615,7 @@ main {
   display: flex;
   gap: 0.5rem;
   align-items: baseline;
+  margin: 0;
 }
 
 .block-lang {
@@ -608,7 +626,7 @@ main {
 .block-translator {
   font-size: 0.9rem;
   color: var(--bs-secondary-color);
-  margin-bottom: 0.75rem;
+  margin: 0;
 }
 
 .stanzas {
