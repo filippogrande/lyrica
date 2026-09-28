@@ -58,8 +58,15 @@ type BandCard struct {
 	Initial  string
 }
 
+// PendingTrack è un brano dichiarato nella tracklist dell'album di cui non
+// esiste ancora il file: sta in elenco, non ha pagina.
+type PendingTrack struct {
+	Title        string
+	Instrumental bool
+}
+
 // TrackRow è una riga di tracklist: linkata se il brano è pubblicato, altrimenti
-// solo dichiarata (strumentale o ancora senza traduzione).
+// solo dichiarata (strumentale, senza traduzione o non ancora scritta).
 type TrackRow struct {
 	Title        string
 	URL          templ.SafeURL
@@ -130,7 +137,9 @@ type BandView struct {
 	TrackRail Rail
 }
 
-// AlbumView sono i dati della pagina di un album.
+// AlbumView sono i dati della pagina di un album: copertina, anagrafica (band,
+// anno, numero di brani, lingue tradotte), tracklist numerata e corsia degli
+// altri album della stessa band.
 type AlbumView struct {
 	Page      PageData
 	Crumbs    []Crumb
@@ -141,7 +150,15 @@ type AlbumView struct {
 	ShowCover bool
 	CoverURL  templ.SafeURL
 	CoverAlt  string
+	// TracksText è il numero di brani della tracklist, come stringa: la pagina
+	// album mostra la tracklist completa anche dei brani senza testo.
+	TracksText string
+	// LangsText sono le lingue delle traduzioni presenti nell'album; vuoto se
+	// nell'album non c'è ancora nessuna traduzione.
+	LangsText string
 	Tracklist []TrackRow
+	// OtherAlbums è la corsia "altri album della band", senza l'album corrente.
+	OtherAlbums Rail
 }
 
 // TrackView sono i dati della pagina di un brano: originale e traduzione.
@@ -382,29 +399,6 @@ func groupByInitial(cards []BandCard) ([]LetterGroup, []string) {
 		groups[len(groups)-1].Cards = append(groups[len(groups)-1].Cards, card)
 	}
 	return groups, letters
-}
-
-// BuildAlbumView assembla la pagina di un album con la sua tracklist.
-func BuildAlbumView(page PageData, band *content.Band, album *content.Album) AlbumView {
-	rows := make([]TrackRow, 0, len(album.Tracks))
-	for _, track := range album.Tracks {
-		rows = append(rows, newTrackRow(page, band, album, track))
-	}
-	view := AlbumView{
-		Page:      page,
-		Crumbs:    bandCrumbs(page, band, album),
-		Title:     album.Title,
-		YearText:  yearText(album),
-		BandName:  band.Name,
-		BandURL:   templ.URL(page.BandPath(band.Slug)),
-		CoverAlt:  page.T("album.cover_alt"),
-		Tracklist: rows,
-	}
-	if album.Cover != "" {
-		view.ShowCover = true
-		view.CoverURL = templ.URL("/covers/" + album.Cover)
-	}
-	return view
 }
 
 // BuildTrackView assembla la pagina di un brano: originale e traduzione a
