@@ -1,0 +1,192 @@
+---
+title: "Ich will"
+slug: "ich-will"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Ich will"
+          - "Ich will"
+          - "Ich will"
+          - "Ich will"
+          - "Ich will"
+          - "Ich will"
+          - "Ich will"
+      - lines:
+          - "(Ich will) Ich will, dass ihr mir vertraut"
+          - "(Ich will) Ich will, dass ihr mir glaubt"
+          - "(Ich will) Ich will eure Blicke spüren"
+          - "(Ich will) jeden Herzschlag kontrollieren"
+          - "(Ich will) Ich will eure Stimmen hören"
+          - "(Ich will) Ich will die Ruhe stören"
+          - "(Ich will) Ich will, dass ihr mich gut seht"
+          - "(Ich will) Ich will, dass ihr mich versteht"
+      - lines:
+          - "(Ich will) Ich will eure Fantasie"
+          - "(Ich will) Ich will eure Energie"
+          - "(Ich will) Ich will eure Hände sehen"
+          - "(Ich will) in Beifall untergehen"
+      - lines:
+          - "Seht ihr mich?"
+          - "Versteht ihr mich?"
+          - "Fühlt ihr mich?"
+          - "Hört ihr mich?"
+      - lines:
+          - "Könnt ihr mich hören? (Wir hören dich)"
+          - "Könnt ihr mich sehen? (Wir sehen dich)"
+          - "Könnt ihr mich fühlen? (Wir fühlen dich)"
+          - "Ich versteh' euch nicht"
+          - "Könnt ihr mich hören? (Wir hören dich)"
+          - "Könnt ihr mich sehen? (Wir sehen dich)"
+          - "Könnt ihr mich fühlen? (Wir fühlen dich)"
+          - "Ich versteh' euch nicht"
+      - lines:
+          - "Ich will"
+          - "Ich will"
+          - "Ich will"
+          - "Ich will"
+      - lines:
+          - "Wir wollen, dass ihr uns vertraut"
+          - "Wir wollen, dass ihr uns alles glaubt"
+          - "Wir wollen eure Hände sehen"
+          - "Wir wollen in Beifall untergehen, ja"
+      - lines:
+          - "Könnt ihr mich hören? (Wir hören dich)"
+          - "Könnt ihr mich sehen? (Wir sehen dich)"
+          - "Könnt ihr mich fühlen? (Wir fühlen dich)"
+          - "Ich versteh' euch nicht"
+          - "Könnt ihr uns hören? (Wir hören euch)"
+          - "Könnt ihr uns sehen? (Wir sehen euch)"
+          - "Könnt ihr uns fühlen? (Wir fühlen euch)"
+          - "Wir versteh'n euch nicht"
+      - lines:
+          - "Ich will"
+          - "Ich will"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "I want"
+          - "I want"
+          - "I want"
+          - "I want"
+          - "I want"
+          - "I want"
+          - "I want"
+      - lines:
+          - "(I want) I want you to trust me"
+          - "(I want) I want you to believe me"
+          - "(I want) I want to feel your glances"
+          - "(I want) to control every heartbeat"
+          - "(I want) I want to hear your voices"
+          - "(I want) I want to break the silence"
+          - "(I want) I want you to see me clearly"
+          - "(I want) I want you to understand me"
+      - lines:
+          - "(I want) I want your fantasy"
+          - "(I want) I want your energy"
+          - "(I want) I want to see your hands"
+          - "(I want) to go down in applause"
+      - lines:
+          - "Do you see me?"
+          - "Do you understand me?"
+          - "Do you feel me?"
+          - "Do you hear me?"
+      - lines:
+          - "Can you hear me? (We hear you)"
+          - "Can you see me? (We see you)"
+          - "Can you feel me? (We feel you)"
+          - "I don't understand you"
+          - "Can you hear me? (We hear you)"
+          - "Can you see me? (We see you)"
+          - "Can you feel me? (We feel you)"
+          - "I don't understand you"
+      - lines:
+          - "I want"
+          - "I want"
+          - "I want"
+          - "I want"
+      - lines:
+          - "We want you to trust us"
+          - "We want you to believe everything we say"
+          - "We want to see your hands"
+          - "We want to go down in applause, yeah"
+      - lines:
+          - "Can you hear me? (We hear you)"
+          - "Can you see me? (We see you)"
+          - "Can you feel me? (We feel you)"
+          - "I don't understand you"
+          - "Can you hear us? (We hear you)"
+          - "Can you see us? (We see you)"
+          - "Can you feel us? (We feel you)"
+          - "We don't understand you"
+      - lines:
+          - "I want"
+          - "I want"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Io voglio"
+          - "Io voglio"
+          - "Io voglio"
+          - "Io voglio"
+          - "Io voglio"
+          - "Io voglio"
+          - "Io voglio"
+      - lines:
+          - "(Io voglio) Voglio che vi fidiate di me"
+          - "(Io voglio) Voglio che mi crediate"
+          - "(Io voglio) Voglio sentire i vostri sguardi"
+          - "(Io voglio) controllare ogni battito"
+          - "(Io voglio) Voglio sentire le vostre voci"
+          - "(Io voglio) Voglio disturbare il silenzio"
+          - "(Io voglio) Voglio che mi vediate bene"
+          - "(Io voglio) Voglio che mi capiate"
+      - lines:
+          - "(Io voglio) Voglio la vostra fantasia"
+          - "(Io voglio) Voglio la vostra energia"
+          - "(Io voglio) Voglio vedere le vostre mani"
+          - "(Io voglio) sprofondare negli applausi"
+      - lines:
+          - "Mi vedete?"
+          - "Mi capite?"
+          - "Mi sentite?"
+          - "Mi ascoltate?"
+      - lines:
+          - "Riuscite a sentirmi? (Ti sentiamo)"
+          - "Riuscite a vedermi? (Ti vediamo)"
+          - "Riuscite a percepirmi? (Ti percepiamo)"
+          - "Non vi capisco"
+          - "Riuscite a sentirmi? (Ti sentiamo)"
+          - "Riuscite a vedermi? (Ti vediamo)"
+          - "Riuscite a percepirmi? (Ti percepiamo)"
+          - "Non vi capisco"
+      - lines:
+          - "Io voglio"
+          - "Io voglio"
+          - "Io voglio"
+          - "Io voglio"
+      - lines:
+          - "Vogliamo che vi fidiate di noi"
+          - "Vogliamo che crediate a tutto quello che diciamo"
+          - "Vogliamo vedere le vostre mani"
+          - "Vogliamo sprofondare negli applausi, sì"
+      - lines:
+          - "Riuscite a sentirmi? (Ti sentiamo)"
+          - "Riuscite a vedermi? (Ti vediamo)"
+          - "Riuscite a percepirmi? (Ti percepiamo)"
+          - "Non vi capisco"
+          - "Riuscite a sentirci? (Vi sentiamo)"
+          - "Riuscite a vederci? (Vi vediamo)"
+          - "Riuscite a percepirci? (Vi percepiamo)"
+          - "Non vi capiamo"
+      - lines:
+          - "Io voglio"
+          - "Io voglio"
+---
