@@ -1,0 +1,246 @@
+---
+title: "Der Nudelsong (feat. King Nugget Gang)"
+slug: "der-nudelsong"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Federico, -co, -co, -co-co"
+          - "Federico, -co, -co, -co- co-co-co"
+      - lines:
+          - "Wir sind die Barilla-Boys, denn unsere Nudeln sind immer al dente (Yes)"
+          - "Pesto Rosso, Genovese, Hauptsache Italo-Ambiente (Sì)"
+          - "Gib mir das Hartweizen, sonst wirst du ins Gras beißen (Hüah)"
+          - "Sieh mich mit meinen Fingern auf bemehlter Arbeitsfläche Parts schreiben"
+          - "Bin in der Trattoria und fülle mit Freude die Cannelone"
+          - "TBS, KNG, göttliche Combinazione (Yes)"
+          - "Ich will Lasagne und drücke mir Biss für Biss rein in die Futterluke (Oah)"
+          - "Essen geil, drei Wochen Durchfall, ein Arzt muss mich untersuchen"
+      - lines:
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi, grazie, Tortelloni"
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "Man kann Nudel machen warm, man kann Nudel machen kalt"
+          - "Ich mach' Nudel in den Mundi, bis es knallt"
+          - "Man kann Nudel machen warm, man kann Nudel machen kalt"
+          - "Ich mach' Nudel in den Mundi, bis es knallt (Federico)"
+      - lines:
+          - "Spaghettini, Rigatone, quattrio statione"
+          - "Parmigiano, niemals ohne, andres Essen, freie Zone"
+          - "No, no, no insalata, sì, sì, sì, pasta, pasta"
+          - "No, no, no risottono, Pasta nur al bronzo"
+          - "Nudel kann ich essen warm, kann ich essen kalt (Kalt)"
+          - "Nudel hab' ich lieb, bin in Nudel verknallt"
+          - "Ich mache Nudel aus dem Wasser raus, heiß, heiß, heiß"
+          - "Löffel' aus dem Becher Spaghetti-Eis, -Eis, -Eis"
+      - lines:
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi, grazie, Tortelloni"
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "Man kann Nudel machen warm, man kann Nudel machen kalt"
+          - "Ich mach' Nudel in den Mundi, bis es knallt"
+          - "Man kann Nudel machen warm, man kann Nudel machen kalt"
+          - "Ich mach' Nudel in den Mundi, bis es knallt"
+      - lines:
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi, grazie, Tortelloni"
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+      - lines:
+          - "(Federico)"
+          - "Yeah, happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, Pasta, Pasta, happa, happa"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, happa"
+      - lines:
+          - "Man kann Nudel machen warm, man kann Nudel machen kalt"
+          - "Ich mach' Nudel in den Mundi, bis es knallt"
+          - "Man kann Nudel machen warm, man kann Nudel machen kalt"
+          - "Ich mach' Nudel in den Mundi, bis es knallt, yeah"
+      - lines:
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi, grazie, Tortelloni"
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, happa"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Federico, -co, -co, -co-co"
+          - "Federico, -co, -co, -co- co-co-co"
+      - lines:
+          - "We are the Barilla Boys, 'cause our pasta is always al dente (Yes)"
+          - "Pesto Rosso, Genovese, the main thing is Italo vibes (Yes)"
+          - "Give me the durum wheat, or you'll bite the dust (Hüah)"
+          - "Watch me writing parts with my fingers on the floured worktop"
+          - "I'm in the trattoria and happily filling the cannelloni"
+          - "TBS, KNG, divine combinazione (Yes)"
+          - "I want lasagne and shove bite after bite into my gob (Oah)"
+          - "Food's great, three weeks of diarrhoea, a doctor has to examine me"
+      - lines:
+          - "Good morning, good morning, please to the oven"
+          - "Bon Jovi, Bon Jovi, thanks, tortelloni"
+          - "Good morning, good morning, please to the oven"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "You can make pasta hot, you can make pasta cold"
+          - "I put pasta in my mouth till it bangs"
+          - "You can make pasta hot, you can make pasta cold"
+          - "I put pasta in my mouth till it bangs (Federico)"
+      - lines:
+          - "Spaghettini, rigatone, quattrio statione"
+          - "Parmigiano, never without, other food, free zone"
+          - "No, no, no salad, yes, yes, yes, pasta, pasta"
+          - "No, no, no risottono, pasta only bronze-cut"
+          - "I can eat pasta hot, I can eat it cold (Cold)"
+          - "I love pasta, I'm head over heels for pasta"
+          - "I take the pasta out of the water, hot, hot, hot"
+          - "Spooning spaghetti ice cream out of the tub, -cream, -cream"
+      - lines:
+          - "Good morning, good morning, please to the oven"
+          - "Bon Jovi, Bon Jovi, thanks, tortelloni"
+          - "Good morning, good morning, please to the oven"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "You can make pasta hot, you can make pasta cold"
+          - "I put pasta in my mouth till it bangs"
+          - "You can make pasta hot, you can make pasta cold"
+          - "I put pasta in my mouth till it bangs"
+      - lines:
+          - "Good morning, good morning, please to the oven"
+          - "Bon Jovi, Bon Jovi, thanks, tortelloni"
+          - "Good morning, good morning, please to the oven"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+      - lines:
+          - "(Federico)"
+          - "Yeah, happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, Pasta, Pasta, happa, happa"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, happa"
+      - lines:
+          - "You can make pasta hot, you can make pasta cold"
+          - "I put pasta in my mouth till it bangs"
+          - "You can make pasta hot, you can make pasta cold"
+          - "I put pasta in my mouth till it bangs, yeah"
+      - lines:
+          - "Good morning, good morning, please to the oven"
+          - "Bon Jovi, Bon Jovi, thanks, tortelloni"
+          - "Good morning, good morning, please to the oven"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, happa"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Federico, -co, -co, -co-co"
+          - "Federico, -co, -co, -co- co-co-co"
+      - lines:
+          - "Siamo i Barilla Boys, perché la nostra pasta è sempre al dente (Yes)"
+          - "Pesto Rosso, Genovese, l'importante è l'ambiente italo (Sì)"
+          - "Dammi il grano duro, o morderai la polvere (Hüah)"
+          - "Guardami mentre scrivo strofe con le dita sulla spianatoia infarinata"
+          - "Sono in trattoria e riempio con gioia i cannelloni"
+          - "TBS, KNG, divina combinazione (Yes)"
+          - "Voglio la lasagna e me la spingo boccone per boccone in gola (Oah)"
+          - "Cibo da urlo, tre settimane di diarrea, un medico deve visitarmi"
+      - lines:
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi, grazie, Tortelloni"
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "La pasta si può fare calda, la pasta si può fare fredda"
+          - "Mi caccio la pasta in bocca finché non scoppia"
+          - "La pasta si può fare calda, la pasta si può fare fredda"
+          - "Mi caccio la pasta in bocca finché non scoppia (Federico)"
+      - lines:
+          - "Spaghettini, rigatone, quattrio statione"
+          - "Parmigiano, mai senza, altro cibo, zona libera"
+          - "No, no, no insalata, sì, sì, sì, pasta, pasta"
+          - "No, no, no risottono, pasta solo al bronzo"
+          - "La pasta la posso mangiare calda, la posso mangiare fredda (Fredda)"
+          - "La pasta la amo, sono innamorato perso della pasta"
+          - "Tiro la pasta fuori dall'acqua, calda, calda, calda"
+          - "Scolo dal bicchiere il gelato spaghetti, -ghi, -ghi"
+      - lines:
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi, grazie, Tortelloni"
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "La pasta si può fare calda, la pasta si può fare fredda"
+          - "Mi caccio la pasta in bocca finché non scoppia"
+          - "La pasta si può fare calda, la pasta si può fare fredda"
+          - "Mi caccio la pasta in bocca finché non scoppia"
+      - lines:
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi, grazie, Tortelloni"
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa"
+      - lines:
+          - "(Federico)"
+          - "Yeah, happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, Pasta, Pasta, happa, happa"
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, happa"
+      - lines:
+          - "La pasta si può fare calda, la pasta si può fare fredda"
+          - "Mi caccio la pasta in bocca finché non scoppia"
+          - "La pasta si può fare calda, la pasta si può fare fredda"
+          - "Mi caccio la pasta in bocca finché non scoppia, yeah"
+      - lines:
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi, grazie, Tortelloni"
+          - "Buongiorno, buongiorno, prego al forno"
+          - "Bon Jovi, Bon Jovi"
+      - lines:
+          - "Happa, happa"
+          - "Pasta, Pasta"
+          - "Happa, happa, happa"
+---
