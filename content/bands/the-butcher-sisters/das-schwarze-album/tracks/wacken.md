@@ -1,0 +1,246 @@
+---
+title: "Wacken"
+slug: "wacken"
+added_date: 2026-09-28
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Wir fahrn nach wacken"
+          - "Einmal im jahr"
+          - "Wir fahrn nach wacken"
+          - "Schalalala"
+          - "Wir fahrn nach wacken"
+          - "Einmal im jahr"
+          - "Sing mit 3 promille fear of the dark"
+      - lines:
+          - "Ich hab den Campingstuhl"
+          - "Ich hab den Aufblaspool"
+          - "Ich hab das Dosenbier dabei"
+      - lines:
+          - "Ravioli Dose"
+          - "Nur eine Unterhose"
+          - "Ich rieche kühe und ich schrei"
+      - lines:
+          - "Ich will slayer sehn"
+          - "Danach will ich zu iron maiden gehn"
+          - "Fear of the dark"
+          - "Ich bin voller Matsch"
+          - "Oh Gott ich liebe das"
+          - "Ich such die ganze nacht"
+          - "Helga auf dem Campingplatz"
+      - lines:
+          - "Alle metalheads sind brüder im geiste"
+          - "Metal ist einfach das geilste"
+      - lines:
+          - "Wir fahrn nach wacken"
+          - "Einmal im jahr"
+          - "Wir fahrn nach wacken"
+          - "Schalalala"
+          - "Wir fahrn nach wacken"
+          - "Einmal im jahr"
+          - "Sing mit 3 promille fear of the dark"
+      - lines:
+          - "Ich guck die feuerwehr"
+          - "Ich sauf mein trinkhorn leer"
+          - "Ich schaff es nicht zum dixi klo"
+      - lines:
+          - "Und nach der wall of death"
+          - "Hab ich ein blauen fleck"
+          - "Mein metalherz brennt lichterloh yeah"
+      - lines:
+          - "Ich will Slipknot sehn"
+          - "Danach will ich zu guns n roses gehn"
+          - "Wooohooohooo"
+      - lines:
+          - "Wirklich Jedes jahr"
+          - "Fahr ich zum WOA"
+          - "Bring mich nach wacken"
+          - "Mein herz ist schon da"
+      - lines:
+          - "Alle metalheads sind schwestern im geiste"
+          - "Metal ist einfach das geilste"
+      - lines:
+          - "Wir fahrn nach wacken"
+          - "Einmal im jahr"
+          - "Wir fahrn nach wacken"
+          - "Schalalala"
+          - "Wir fahrn nach wacken"
+          - "Einmal im jahr"
+          - "Sing mit 3 promille fear of the dark"
+      - lines:
+          - "Komm mit nach Wacken"
+          - "Komm mit nach Wacken"
+          - "In das gelobte Land"
+          - "Reich mir die Hand"
+      - lines:
+          - "Wir fahrn nach wacken"
+          - "Einmal im jahr"
+          - "Wir fahrn nach wacken"
+          - "Schalalala"
+          - "Wir fahrn nach wacken"
+          - "Einmal im jahr"
+          - "Sing mit 3 promille fear of the dark"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "We're going to Wacken"
+          - "Once a year"
+          - "We're going to Wacken"
+          - "Schalalala"
+          - "We're going to Wacken"
+          - "Once a year"
+          - "Sing with 3 per mille fear of the dark"
+      - lines:
+          - "I've got the camping chair"
+          - "I've got the inflatable pool"
+          - "I've got the canned beer with me"
+      - lines:
+          - "Can of ravioli"
+          - "Just one pair of underpants"
+          - "I smell cows and I scream"
+      - lines:
+          - "I wanna see Slayer"
+          - "Then I wanna go to Iron Maiden"
+          - "Fear of the dark"
+          - "I'm covered in mud"
+          - "Oh god I love it"
+          - "I search all night"
+          - "For Helga on the campsite"
+      - lines:
+          - "All metalheads are brothers in spirit"
+          - "Metal is simply the best"
+      - lines:
+          - "We're going to Wacken"
+          - "Once a year"
+          - "We're going to Wacken"
+          - "Schalalala"
+          - "We're going to Wacken"
+          - "Once a year"
+          - "Sing with 3 per mille fear of the dark"
+      - lines:
+          - "I watch the fire brigade"
+          - "I drain my drinking horn"
+          - "I don't make it to the Dixi toilet"
+      - lines:
+          - "And after the wall of death"
+          - "I've got a bruise"
+          - "My metal heart burns bright yeah"
+      - lines:
+          - "I wanna see Slipknot"
+          - "Then I wanna go to Guns N' Roses"
+          - "Wooohooohooo"
+      - lines:
+          - "Truly every year"
+          - "I drive to the WOA"
+          - "Take me to Wacken"
+          - "My heart is already there"
+      - lines:
+          - "All metalheads are sisters in spirit"
+          - "Metal is simply the best"
+      - lines:
+          - "We're going to Wacken"
+          - "Once a year"
+          - "We're going to Wacken"
+          - "Schalalala"
+          - "We're going to Wacken"
+          - "Once a year"
+          - "Sing with 3 per mille fear of the dark"
+      - lines:
+          - "Come with me to Wacken"
+          - "Come with me to Wacken"
+          - "Into the promised land"
+          - "Give me your hand"
+      - lines:
+          - "We're going to Wacken"
+          - "Once a year"
+          - "We're going to Wacken"
+          - "Schalalala"
+          - "We're going to Wacken"
+          - "Once a year"
+          - "Sing with 3 per mille fear of the dark"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Andiamo a Wacken"
+          - "Una volta all'anno"
+          - "Andiamo a Wacken"
+          - "Schalalala"
+          - "Andiamo a Wacken"
+          - "Una volta all'anno"
+          - "Canta con 3 di alcolemia fear of the dark"
+      - lines:
+          - "Ho la sedia da campeggio"
+          - "Ho la piscina gonfiabile"
+          - "Ho la birra in lattina con me"
+      - lines:
+          - "Scatoletta di ravioli"
+          - "Solo un paio di mutande"
+          - "Sento odore di mucche e urlo"
+      - lines:
+          - "Voglio vedere gli Slayer"
+          - "Poi voglio andare agli Iron Maiden"
+          - "Fear of the dark"
+          - "Sono pieno di fango"
+          - "Oh dio quanto amo questo"
+          - "Cerco per tutta la notte"
+          - "Helga al campeggio"
+      - lines:
+          - "Tutti i metalhead sono fratelli nello spirito"
+          - "Il metal è semplicemente il massimo"
+      - lines:
+          - "Andiamo a Wacken"
+          - "Una volta all'anno"
+          - "Andiamo a Wacken"
+          - "Schalalala"
+          - "Andiamo a Wacken"
+          - "Una volta all'anno"
+          - "Canta con 3 di alcolemia fear of the dark"
+      - lines:
+          - "Guardo i vigili del fuoco"
+          - "Mi scolo il corno potorio"
+          - "Non ce la faccio ad arrivare al Dixi"
+      - lines:
+          - "E dopo la wall of death"
+          - "Ho un livido"
+          - "Il mio cuore metal brucia a fiamma viva yeah"
+      - lines:
+          - "Voglio vedere gli Slipknot"
+          - "Poi voglio andare ai Guns N' Roses"
+          - "Wooohooohooo"
+      - lines:
+          - "Davvero ogni anno"
+          - "Vado al WOA"
+          - "Portami a Wacken"
+          - "Il mio cuore è già là"
+      - lines:
+          - "Tutti i metalhead sono sorelle nello spirito"
+          - "Il metal è semplicemente il massimo"
+      - lines:
+          - "Andiamo a Wacken"
+          - "Una volta all'anno"
+          - "Andiamo a Wacken"
+          - "Schalalala"
+          - "Andiamo a Wacken"
+          - "Una volta all'anno"
+          - "Canta con 3 di alcolemia fear of the dark"
+      - lines:
+          - "Vieni con me a Wacken"
+          - "Vieni con me a Wacken"
+          - "Nella terra promessa"
+          - "Dammi la mano"
+      - lines:
+          - "Andiamo a Wacken"
+          - "Una volta all'anno"
+          - "Andiamo a Wacken"
+          - "Schalalala"
+          - "Andiamo a Wacken"
+          - "Una volta all'anno"
+          - "Canta con 3 di alcolemia fear of the dark"
+---
