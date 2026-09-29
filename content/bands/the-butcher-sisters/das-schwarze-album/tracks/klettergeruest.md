@@ -1,0 +1,174 @@
+---
+title: "Klettergerüst"
+slug: "klettergeruest"
+added_date: 2026-09-28
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "(One, two, three, four)"
+          - "Mh, ah (Yeah)"
+          - "Yeehaw"
+          - "Listen up"
+      - lines:
+          - "Als ich noch ein kleiner Boy war"
+          - "Saß ich mit Daddy am Lagerfeuer"
+          - "That's right, er war hart, aber fair"
+          - "Ja, er war stark wie ein Bär"
+          - "Und wenn er sprach, lag Truth in the Air"
+          - "Er sagte: \"Hey Champ, wenn alles gegen dich steht"
+          - "Und wirklich nothing mehr geht"
+          - "Nimm deinen Mut together and say\""
+      - lines:
+          - "Sag mal Klettergerüst"
+          - "Du hast 'ne nackte Frau geküsst (Ey)"
+          - "Sag doch mal Klettergerüst"
+          - "Du hast 'ne nackte Frau-au-au geküsst (Yeah)"
+      - lines:
+          - "Heute bin ich groß, worke hard für mein Brot"
+          - "Nur mein gottverdammter Boss, er ist ein Idiot"
+          - "Er sagt, die Kündigung ist raus, nur weil ich bei der Arbeit sauf'"
+          - "Ich mach' mir noch ein Bierchen auf and I shout, and I shou-uh-out"
+      - lines:
+          - "Sag mal Klettergerüst"
+          - "Du hast 'ne nackte Frau geküsst (Ey)"
+          - "Sag doch mal Klettergerüst"
+          - "Du hast 'ne nackte Frau-au-au geküsst (Yeah)"
+      - lines:
+          - "Oh, sag mal Tomate (Tomate)"
+          - "Deine Oma kann Karate"
+          - "Limette (Limette)"
+          - "Du steckst fest in der Toilette"
+          - "Sag mal Dino (Dino)"
+          - "Du sitzt nackt im Kino"
+          - "Sag mal Kissen"
+          - "Du hast in die Hose geschissen, ey"
+      - lines:
+          - "Klettergerüst"
+          - "Du hast 'ne nackte Frau geküsst (Auf den Mund, hahaha)"
+          - "Sag doch mal Klettergerüst (Yeah, sag's nochmal)"
+          - "Du hast 'ne nackte Frau-au-au geküsst (Du hast, du hast, yeah, du hast es getan)"
+      - lines:
+          - "Yeehaw"
+          - "Du hast sie geküsst (Yeah)"
+          - "Du hast sie geküsst (Küss sie nochmal)"
+          - "Du hast sie geküsst"
+          - "Sie war sehr nackt"
+          - "Und du warst auch nackt"
+          - "Du bist ein nackter Frau'nküsser, hehehe"
+          - "Verdammt, mein Sohn, du alter Nacktküsser, hehehe"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "(One, two, three, four)"
+          - "Mh, ah (Yeah)"
+          - "Yeehaw"
+          - "Listen up"
+      - lines:
+          - "When I was still a little boy"
+          - "I sat with Daddy by the campfire"
+          - "That's right, he was hard but fair"
+          - "Yeah, he was strong like a bear"
+          - "And when he spoke, truth was in the air"
+          - "He said: \"Hey champ, when everything's against you"
+          - "And really nothing works anymore"
+          - "Take your courage together and say\""
+      - lines:
+          - "Say, climbing frame"
+          - "You kissed a naked woman (Ey)"
+          - "Come on, say climbing frame"
+          - "You kissed a naked woman-ow-ow (Yeah)"
+      - lines:
+          - "Today I'm grown up, I work hard for my bread"
+          - "Only my goddamn boss, he's an idiot"
+          - "He says I'm fired, just because I drink at work"
+          - "I open myself another beer and I shout, and I shou-uh-out"
+      - lines:
+          - "Say, climbing frame"
+          - "You kissed a naked woman (Ey)"
+          - "Come on, say climbing frame"
+          - "You kissed a naked woman-ow-ow (Yeah)"
+      - lines:
+          - "Oh, say, tomato (Tomato)"
+          - "Your grandma can do karate"
+          - "Lime (Lime)"
+          - "You're stuck in the toilet"
+          - "Say, dino (Dino)"
+          - "You're sitting naked in the cinema"
+          - "Say, cushion"
+          - "You shat your pants, ey"
+      - lines:
+          - "Climbing frame"
+          - "You kissed a naked woman (On the mouth, hahaha)"
+          - "Come on, say climbing frame (Yeah, say it again)"
+          - "You kissed a naked woman-ow-ow (You did, you did, yeah, you did it)"
+      - lines:
+          - "Yeehaw"
+          - "You kissed her (Yeah)"
+          - "You kissed her (Kiss her again)"
+          - "You kissed her"
+          - "She was very naked"
+          - "And you were naked too"
+          - "You're a naked woman-kisser, hehehe"
+          - "Damn, my son, you old naked-kisser, hehehe"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "(Uno, due, tre, quattro)"
+          - "Mh, ah (Yeah)"
+          - "Yeehaw"
+          - "Ascoltate"
+      - lines:
+          - "Quando ero ancora un ragazzino"
+          - "Sedevo con papà al falò"
+          - "Proprio così, era duro ma giusto"
+          - "Sì, era forte come un orso"
+          - "E quando parlava, la verità era nell'aria"
+          - "Diceva: \"Ehi campione, quando tutto ti è contro"
+          - "E davvero non va più niente"
+          - "Raccogli il tuo coraggio e dì\""
+      - lines:
+          - "Dimmi, castello da arrampicata"
+          - "Hai baciato una donna nuda (Ey)"
+          - "Dai, dimmi, castello da arrampicata"
+          - "Hai baciato una donna nuda-au-au (Yeah)"
+      - lines:
+          - "Oggi sono grande, lavoro duro per il mio pane"
+          - "Solo il mio dannato capo, è un idiota"
+          - "Dice che mi ha licenziato, solo perché bevo al lavoro"
+          - "Mi apro un'altra birretta e urlo, e urlo-uh-o"
+      - lines:
+          - "Dimmi, castello da arrampicata"
+          - "Hai baciato una donna nuda (Ey)"
+          - "Dai, dimmi, castello da arrampicata"
+          - "Hai baciato una donna nuda-au-au (Yeah)"
+      - lines:
+          - "Oh, dimmi, pomodoro (Pomodoro)"
+          - "Tua nonna sa fare karate"
+          - "Lime (Lime)"
+          - "Sei incastrato nel water"
+          - "Dimmi, dino (Dino)"
+          - "Sei seduto nudo al cinema"
+          - "Dimmi, cuscino"
+          - "Ti sei cagato nei pantaloni, ey"
+      - lines:
+          - "Castello da arrampicata"
+          - "Hai baciato una donna nuda (Sulla bocca, hahaha)"
+          - "Dai, dimmi, castello da arrampicata (Yeah, dillo ancora)"
+          - "Hai baciato una donna nuda-au-au (L'hai fatto, l'hai fatto, yeah, l'hai fatto)"
+      - lines:
+          - "Yeehaw"
+          - "L'hai baciata (Yeah)"
+          - "L'hai baciata (Baciala ancora)"
+          - "L'hai baciata"
+          - "Era molto nuda"
+          - "E anche tu eri nudo"
+          - "Sei un baciatore di donne nude, hehehe"
+          - "Dannazione, figlio mio, vecchio baciatore nudo, hehehe"
+---
