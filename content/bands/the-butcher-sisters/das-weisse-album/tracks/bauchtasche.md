@@ -1,0 +1,210 @@
+---
+title: "Bauchtasche"
+slug: "bauchtasche"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Bauchtasche"
+          - "B-B-Bauchtasche"
+          - "Ich hab' die Bauchtasche"
+          - "Bauchtasche"
+      - lines:
+          - "Boom-chiki-wau, mach' die Bauchtasche auf"
+          - "Sag, was du willst, ich hab' alles, was du brauchst"
+          - "Simsalabim, ich zauber' es heraus"
+          - "Klingelingeling, es ist Reißverschlussverkauf (TBS)"
+          - "Du schaust auf meinen Bauchi, sagst: \"Das will ich auchi\""
+          - "Nimm deine Finger weg, sonst ist dein Arm verstauchi"
+          - "Die Tasche bleibt an, auch wenn ich mich auszieh'"
+          - "Sogar beim Liebemachi hängt der Schlauch unter der"
+      - lines:
+          - "Bauchtasche"
+          - "Augen werden groß, wenn wir sie aufmachen"
+          - "Hahahahaha, wie ich dich auslache"
+          - "Mit deinem Rucksack im Club, ja, ich spür', wie du guckst"
+          - "Ey"
+      - lines:
+          - "Auf meine Bauchtasche, lala-lala-la"
+          - "Auf meine Bauchtasche, lala-lala-lala-la"
+          - "Oh Baby, Baby"
+          - "Dein Zipper macht mich crazy"
+          - "Oh Baby, Baby, Baby"
+          - "So crazy, crazy, yeah"
+      - lines:
+          - "Zipp, zipp, zipp macht der Zipper von der Tasche"
+          - "Rein geht sogar eine ganze Bier-"
+          - "Dose, passt nicht in die Hose"
+          - "Ich trinke die Biersoße aus der Dose, die große"
+          - "Ich mach' sie auf, zu, auf, zu"
+          - "Auf, zu, auf, zu, auf, zu, auf, zu, auf, zu, auf, zu"
+          - "Zipper auf, Zipper zu"
+          - "Ich hab' den Beutel am Bauch, Känguru (Wie das Tier)"
+          - "Zipper zu, Zipper auf"
+          - "Und ich hole alles raus, ja, ich hole alles raus"
+      - lines:
+          - "Bauchtasche"
+          - "Augen werden groß, wenn wir sie aufmachen"
+          - "Hahahahaha, wie ich dich auslache"
+          - "Mit deinem Rucksack im Club, ja, ich spür', wie du guckst"
+          - "Ey"
+      - lines:
+          - "Auf meine Bauchtasche, lala-lala-la"
+          - "Meine Bauchtasche, lala-lala-lala-la"
+          - "Oh Baby, Baby"
+          - "Dein Zipper macht mich crazy"
+          - "Oh Baby, Baby, Baby"
+          - "So crazy, crazy, yeah"
+      - lines:
+          - "Ich halte meine Bauchtaschi into the sky"
+          - "Und eine Träne der Freude comes out my eye"
+          - "If I ever lose you, my life is vorbei"
+          - "Bauchtaschi, you are the love of my life, uwu"
+          - "(I love you, I love you, I love you)"
+      - lines:
+          - "Meine Bauchtasche, lala-lala-la"
+          - "Meine Bauchtasche, lala-lala-lala-la"
+          - "Oh Baby, Baby, Baby"
+          - "Dein Zipper macht mich crazy (Crazy)"
+          - "Oh Baby, Baby, Baby"
+          - "So crazy, crazy, yeah"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Fanny pack"
+          - "F-F-Fanny pack"
+          - "I've got the fanny pack"
+          - "Fanny pack"
+      - lines:
+          - "Boom-chiki-wau, open up the fanny pack"
+          - "Say what you want, I've got everything you need"
+          - "Simsalabim, I conjure it out"
+          - "Ding-a-ling, it's a zipper sale (TBS)"
+          - "You look at my tummy, say: \"I want that too-mi\""
+          - "Take your fingers off, or your arm gets ouch-i"
+          - "The bag stays on, even when I undress"
+          - "Even during love-making the hose hangs under the"
+      - lines:
+          - "Fanny pack"
+          - "Eyes go wide when we open it"
+          - "Hahahahaha, how I laugh at you"
+          - "With your backpack in the club, yeah, I can feel how you look"
+          - "Ey"
+      - lines:
+          - "On my fanny pack, lala-lala-la"
+          - "On my fanny pack, lala-lala-lala-la"
+          - "Oh baby, baby"
+          - "Your zipper makes me crazy"
+          - "Oh baby, baby, baby"
+          - "So crazy, crazy, yeah"
+      - lines:
+          - "Zipp, zipp, zipp goes the zipper of the bag"
+          - "Even a whole beer goes in"
+          - "can, doesn't fit in the trousers"
+          - "I drink the beer sauce from the can, the big one"
+          - "I open it, close it, open it, close it"
+          - "Open, close, open, close, open, close, open, close, open, close"
+          - "Zipper open, zipper closed"
+          - "I've got the bag on my belly, kangaroo (Like the animal)"
+          - "Zipper closed, zipper open"
+          - "And I pull everything out, yeah, I pull everything out"
+      - lines:
+          - "Fanny pack"
+          - "Eyes go wide when we open it"
+          - "Hahahahaha, how I laugh at you"
+          - "With your backpack in the club, yeah, I can feel how you look"
+          - "Ey"
+      - lines:
+          - "On my fanny pack, lala-lala-la"
+          - "My fanny pack, lala-lala-lala-la"
+          - "Oh baby, baby"
+          - "Your zipper makes me crazy"
+          - "Oh baby, baby, baby"
+          - "So crazy, crazy, yeah"
+      - lines:
+          - "I hold my fanny pack into the sky"
+          - "And a tear of joy comes out my eye"
+          - "If I ever lose you, my life is over"
+          - "Fanny pack, you are the love of my life, uwu"
+          - "(I love you, I love you, I love you)"
+      - lines:
+          - "My fanny pack, lala-lala-la"
+          - "My fanny pack, lala-lala-lala-la"
+          - "Oh baby, baby, baby"
+          - "Your zipper makes me crazy (Crazy)"
+          - "Oh baby, baby, baby"
+          - "So crazy, crazy, yeah"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Marsupio"
+          - "M-M-Marsupio"
+          - "Ho il marsupio"
+          - "Marsupio"
+      - lines:
+          - "Boom-chiki-wau, apri il marsupio"
+          - "Dimmi cosa vuoi, ho tutto quello che ti serve"
+          - "Simsalabim, te lo tiro fuori con la magia"
+          - "Dindindin, è il saldo delle zip (TBS)"
+          - "Guardi il mio pancino, dici: \"Voglio anch'io quel cosino\""
+          - "Togli le dita, o ti faccio male al braccino"
+          - "Il marsupio resta su, anche quando mi spoglio"
+          - "Persino mentre si fa l'amore il tubo pende sotto il"
+      - lines:
+          - "Marsupio"
+          - "Gli occhi si spalancano quando lo apriamo"
+          - "Hahahahaha, come ti prendo in giro"
+          - "Con lo zaino in discoteca, sì, sento come mi guardi"
+          - "Ey"
+      - lines:
+          - "Sul mio marsupio, lala-lala-la"
+          - "Sul mio marsupio, lala-lala-lala-la"
+          - "Oh baby, baby"
+          - "La tua zip mi fa impazzire"
+          - "Oh baby, baby, baby"
+          - "Così pazzo, pazzo, yeah"
+      - lines:
+          - "Zipp, zipp, zipp fa la zip del marsupio"
+          - "Ci sta dentro persino un'intera lattina di bir-"
+          - "-ra, non ci sta nei pantaloni"
+          - "Bevo la salsa di birra dalla lattina, quella grande"
+          - "La apro, la chiudo, la apro, la chiudo"
+          - "Apro, chiudo, apro, chiudo, apro, chiudo, apro, chiudo, apro, chiudo"
+          - "Zip aperta, zip chiusa"
+          - "Ho la sacca sulla pancia, canguro (Come l'animale)"
+          - "Zip chiusa, zip aperta"
+          - "E tiro fuori tutto, sì, tiro fuori tutto"
+      - lines:
+          - "Marsupio"
+          - "Gli occhi si spalancano quando lo apriamo"
+          - "Hahahahaha, come ti prendo in giro"
+          - "Con lo zaino in discoteca, sì, sento come mi guardi"
+          - "Ey"
+      - lines:
+          - "Sul mio marsupio, lala-lala-la"
+          - "Il mio marsupio, lala-lala-lala-la"
+          - "Oh baby, baby"
+          - "La tua zip mi fa impazzire"
+          - "Oh baby, baby, baby"
+          - "Così pazzo, pazzo, yeah"
+      - lines:
+          - "Tengo il mio marsupio verso il cielo"
+          - "E una lacrima di gioia mi esce dall'occhio"
+          - "Se mai ti perdessi, la mia vita è finita"
+          - "Marsupio, sei l'amore della mia vita, uwu"
+          - "(Ti amo, ti amo, ti amo)"
+      - lines:
+          - "Il mio marsupio, lala-lala-la"
+          - "Il mio marsupio, lala-lala-lala-la"
+          - "Oh baby, baby, baby"
+          - "La tua zip mi fa impazzire (Pazzo)"
+          - "Oh baby, baby, baby"
+          - "Così pazzo, pazzo, yeah"
+---
