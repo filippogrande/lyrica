@@ -1,0 +1,153 @@
+---
+title: "Du riechst so gut"
+slug: "du-riechst-so-gut"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "(Der Wahnsinn)"
+          - "Ist nur eine schmale Brücke"
+          - "Die Ufer sind Vernunft und Trieb"
+          - "Ich steig' dir nach"
+          - "Das Sonnenlicht den Geist verwirrt"
+          - "Ein blindes Kind, das vorwärts kriecht"
+          - "Weil es seine Mutter riecht"
+      - lines:
+          - "(Ich finde dich)"
+          - "Die Spur ist frisch und auf die Brücke"
+          - "Tropft dein Schweiß, dein warmes Blut"
+          - "Ich seh' dich nicht"
+          - "Ich riech' dich nur ich spüre Dich"
+          - "Ein Raubtier, das vor Hunger schreit"
+          - "Wittere ich dich meilenweit"
+      - lines:
+          - "Du riechst so gut"
+          - "Du riechst so gut, ich geh' dir hinterher"
+          - "Du riechst so gut, ich finde dich"
+          - "So gut, so gut, ich steig' dir nach"
+          - "Du riechst so gut, gleich hab ich dich"
+      - lines:
+          - "(Jetzt hab ich dich)"
+          - "Ich warte bis es dunkel ist"
+          - "Dann fass ich an die nasse Haut"
+          - "Verrate mich nicht"
+          - "Oh siehst du nicht, die Brücke brennt"
+          - "Hör auf zu schreien und wehre dich nicht"
+          - "Weil sie sonst auseinander bricht"
+      - lines:
+          - "Du riechst so gut"
+          - "Du riechst so gut, ich geh' dir hinterher"
+          - "Du riechst so gut, ich finde dich"
+          - "So gut, so gut, ich steig' dir nach"
+          - "Du riechst so gut, gleich hab ich dich"
+      - lines:
+          - "Du riechst so gut"
+          - "Du riechst so gut, ich geh' dir hinterher"
+          - "Du riechst so gut, ich finde dich"
+          - "So gut, so gut, ich fass dich an"
+          - "Du riechst so gut, jetzt hab ich dich"
+      - lines:
+          - "Du riechst so gut"
+          - "Du riechst so gut, ich geh' dir hinterher"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "(The madness)"
+          - "It's just a small bridge"
+          - "The banks are reason and instinct"
+          - "I'll follow you"
+          - "The sunlight confuses the mind"
+          - "A blind child that creeps forward"
+          - "Because it smells his mother"
+      - lines:
+          - "(I find you)"
+          - "The tracks are fresh and on the bridge"
+          - "Drips of sweat, your warm blood"
+          - "I don't see you"
+          - "I only smell you, I sense you"
+          - "A predator screaming from hunger"
+          - "Weathering you down for miles"
+      - lines:
+          - "You smell so good"
+          - "You smell so good, I coming for you"
+          - "You smell so good, I find you"
+          - "So good, so good, I follow you"
+          - "You smell so good, I'll get you now"
+      - lines:
+          - "(Now I've got you)"
+          - "I wait until it gets dark"
+          - "Then I touch the wet skin"
+          - "Without betraying myself"
+          - "Oh can't you see the bridge burning"
+          - "Stop screaming and don't resist"
+          - "Because otherwise it'll break apart"
+      - lines:
+          - "You smell so good"
+          - "You smell so good, I coming for you"
+          - "You smell so good, I find you"
+          - "So good, so good, I follow you"
+          - "You smell so good, I'll get you now"
+      - lines:
+          - "You smell so good"
+          - "You smell so good, I coming for you"
+          - "You smell so good, I find you"
+          - "So good, so good, I follow you"
+          - "You smell so good, I'll get you now"
+      - lines:
+          - "You smell so good"
+          - "You smell so good, I coming for you"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "(La follia)"
+          - "È solo uno stretto ponte"
+          - "Le rive sono ragione e istinto"
+          - "Ti seguo"
+          - "La luce del sole confonde la mente"
+          - "Un bambino cieco che striscia avanti"
+          - "Perché sente l'odore di sua madre"
+      - lines:
+          - "(Ti trovo)"
+          - "Le tracce sono fresche e sul ponte"
+          - "Gocciola il tuo sudore, il tuo sangue caldo"
+          - "Non ti vedo"
+          - "Ti sento solo col naso, ti percepisco"
+          - "Una belva che grida per la fame"
+          - "Ti fiuto a chilometri di distanza"
+      - lines:
+          - "Profumi così bene"
+          - "Profumi così bene, ti vengo dietro"
+          - "Profumi così bene, ti trovo"
+          - "Così bene, così bene, ti seguo"
+          - "Profumi così bene, ti ho quasi preso"
+      - lines:
+          - "(Ora ti ho)"
+          - "Aspetto che sia buio"
+          - "Poi tocco la pelle bagnata"
+          - "Non tradirmi"
+          - "Oh non vedi che il ponte brucia"
+          - "Smettila di urlare e non opporti"
+          - "Altrimenti si spezza in due"
+      - lines:
+          - "Profumi così bene"
+          - "Profumi così bene, ti vengo dietro"
+          - "Profumi così bene, ti trovo"
+          - "Così bene, così bene, ti seguo"
+          - "Profumi così bene, ti ho quasi preso"
+      - lines:
+          - "Profumi così bene"
+          - "Profumi così bene, ti vengo dietro"
+          - "Profumi così bene, ti trovo"
+          - "Così bene, così bene, ti tocco"
+          - "Profumi così bene, ora ti ho"
+      - lines:
+          - "Profumi così bene"
+          - "Profumi così bene, ti vengo dietro"
+---
