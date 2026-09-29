@@ -1,0 +1,222 @@
+---
+title: "Zwitter"
+slug: "zwitter"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "(Zwitter, Zwitter)"
+          - "(Zwitter, Zwitter)"
+          - "(Zwitter, Zwitter)"
+          - "(Zwitter, Zwitter)"
+      - lines:
+          - "Ich hab ihr einen Kuss gestohlen"
+          - "Sie wollte sich ihn wiederholen"
+          - "Ich hab sie nicht mehr losgelassen"
+          - "Verschmolzen so zu einer Masse"
+          - "So ist es mir nur allzu recht"
+          - "Ich bin ein schönes Zweigeschlecht"
+          - "Zwei Seelen unter meiner Brust"
+          - "Zwei Geschlechter, eine Lust"
+      - lines:
+          - "(Zwitter, Zwitter) Zwitter, Zwitter"
+          - "(Zwitter, Zwitter)"
+          - "(Zwitter, Zwitter) Zwitter, Zwitter"
+          - "(Zwitter, Zwitter)"
+      - lines:
+          - "Ich gehe anders durch den Tag"
+          - "Ich bin der schönste Mensch von allen"
+          - "Ich sehe wunderbare Dinge"
+          - "Die sind mir vorher gar nicht aufgefallen"
+          - "Ich kann mich jeden Tag beglücken"
+          - "Ich kann mir selber Rosen schicken"
+          - "Da ist kein zweiter und kein dritter"
+          - "Eins und eins, das ist gleich"
+      - lines:
+          - "(Zwitter, Zwitter) Zwitter, Zwitter"
+          - "(Zwitter, Zwitter) Ich bin so verliebt"
+          - "(Zwitter, Zwitter) Zwitter, Zwitter"
+          - "(Zwitter, Zwitter) Ich bin in mich verliebt"
+      - lines:
+          - "Eins für mich"
+          - "Eins für dich"
+          - "Gibt es nicht"
+          - "Für mich"
+          - "Eins für mich (One!)"
+          - "Eins für dich"
+          - "Eins und eins (One!)"
+          - "Das bin ich"
+      - lines:
+          - "Ich bin alleine doch nicht allein"
+          - "Ich kann mit mir zusammen sein"
+          - "Ich küsse früh mein Spiegelbild"
+          - "Und schlafe abends mit mir ein"
+          - "Wenn die anderen Mädchen suchten"
+          - "Könnt ich mich schon selbst befruchten"
+          - "So bin ich dann auch nicht verzagt"
+          - "Wenn einer zu mir \"Fick dich\" sagt"
+      - lines:
+          - "(Zwitter, Zwitter) Zwitter, Zwitter"
+          - "(Zwitter, Zwitter) Ich bin so verliebt"
+          - "(Zwitter, Zwitter) Zwitter, Zwitter"
+          - "(Zwitter, Zwitter) Ich bin in mich verliebt"
+      - lines:
+          - "Eins für mich"
+          - "Eins für dich"
+          - "Gibt es nicht"
+          - "Für mich"
+          - "Eins für mich (One!)"
+          - "Eins für dich"
+          - "Eins und eins (One!)"
+          - "Das bin ich"
+      - lines:
+          - "One!"
+          - "One!"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "(Hermaphrodite, hermaphrodite)"
+          - "(Hermaphrodite, hermaphrodite)"
+          - "(Hermaphrodite, hermaphrodite)"
+          - "(Hermaphrodite, hermaphrodite)"
+      - lines:
+          - "I stole a kiss from her"
+          - "She wanted to repeat it"
+          - "I didn't let her go anymore"
+          - "Merged into a single mass"
+          - "That's just the thing for me"
+          - "I'm a pretty hermaphrodite"
+          - "Two souls under my breast"
+          - "Two genders, one lust"
+      - lines:
+          - "(Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite"
+          - "(Hermaphrodite, hermaphrodite)"
+          - "(Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite"
+          - "(Hermaphrodite, hermaphrodite)"
+      - lines:
+          - "I go through the day differently"
+          - "I'm the prettiest person of all"
+          - "I see wonderful things"
+          - "That I didn't notice before"
+          - "I can pleasure myself every day"
+          - "I can send myself roses"
+          - "There isn't a second and no third"
+          - "One and one, that's equal"
+      - lines:
+          - "(Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite"
+          - "(Hermaphrodite, hermaphrodite) I'm so in love"
+          - "(Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite"
+          - "(Hermaphrodite, hermaphrodite) I am in love with myself"
+      - lines:
+          - "One for me"
+          - "One for you"
+          - "Does not exist"
+          - "For me"
+          - "One for me (one!)"
+          - "One for you"
+          - "One and one (one!)"
+          - "That is me"
+      - lines:
+          - "I'm alone, yet not alone"
+          - "I can be together with myself"
+          - "I kiss my reflection early"
+          - "And sleep with myself at night"
+          - "When the other girls were searching"
+          - "I could already fertilize myself"
+          - "That's why I'm not discouraged"
+          - "When someone says 'Fuck you' to me"
+      - lines:
+          - "(Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite"
+          - "(Hermaphrodite, hermaphrodite) I'm so in love"
+          - "(Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite"
+          - "(Hermaphrodite, hermaphrodite) I am in love with myself"
+      - lines:
+          - "One for me"
+          - "One for you"
+          - "Does not exist"
+          - "For me"
+          - "One for me (one!)"
+          - "One for you"
+          - "One and one (one!)"
+          - "That is me"
+      - lines:
+          - "One!"
+          - "One!"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "(Ermafrodito, ermafrodito)"
+          - "(Ermafrodito, ermafrodito)"
+          - "(Ermafrodito, ermafrodito)"
+          - "(Ermafrodito, ermafrodito)"
+      - lines:
+          - "Le ho rubato un bacio"
+          - "Lei voleva ripeterlo"
+          - "Non l'ho più lasciata andare"
+          - "Fusi insieme in un'unica massa"
+          - "Così va benissimo per me"
+          - "Sono un bell'ermafrodito"
+          - "Due anime sotto il mio petto"
+          - "Due sessi, una sola voglia"
+      - lines:
+          - "(Ermafrodito, ermafrodito) Ermafrodito, ermafrodito"
+          - "(Ermafrodito, ermafrodito)"
+          - "(Ermafrodito, ermafrodito) Ermafrodito, ermafrodito"
+          - "(Ermafrodito, ermafrodito)"
+      - lines:
+          - "Attraverso la giornata in modo diverso"
+          - "Sono la persona più bella di tutte"
+          - "Vedo cose meravigliose"
+          - "Che prima non avevo nemmeno notato"
+          - "Posso rendermi felice ogni giorno"
+          - "Posso mandarmi delle rose"
+          - "Non c'è un secondo né un terzo"
+          - "Uno e uno, è uguale"
+      - lines:
+          - "(Ermafrodito, ermafrodito) Ermafrodito, ermafrodito"
+          - "(Ermafrodito, ermafrodito) Sono così innamorato"
+          - "(Ermafrodito, ermafrodito) Ermafrodito, ermafrodito"
+          - "(Ermafrodito, ermafrodito) Sono innamorato di me"
+      - lines:
+          - "Uno per me"
+          - "Uno per te"
+          - "Non esiste"
+          - "Per me"
+          - "Uno per me (One!)"
+          - "Uno per te"
+          - "Uno e uno (One!)"
+          - "Quello sono io"
+      - lines:
+          - "Sono solo ma non solo"
+          - "Posso stare insieme a me stesso"
+          - "La mattina bacio il mio riflesso"
+          - "E la sera mi addormento con me"
+          - "Quando le altre ragazze cercavano"
+          - "Io potevo già fecondarmi da solo"
+          - "Così non mi perdo d'animo"
+          - "Quando qualcuno mi dice \"Fottiti\""
+      - lines:
+          - "(Ermafrodito, ermafrodito) Ermafrodito, ermafrodito"
+          - "(Ermafrodito, ermafrodito) Sono così innamorato"
+          - "(Ermafrodito, ermafrodito) Ermafrodito, ermafrodito"
+          - "(Ermafrodito, ermafrodito) Sono innamorato di me"
+      - lines:
+          - "Uno per me"
+          - "Uno per te"
+          - "Non esiste"
+          - "Per me"
+          - "Uno per me (One!)"
+          - "Uno per te"
+          - "Uno e uno (One!)"
+          - "Quello sono io"
+      - lines:
+          - "One!"
+          - "One!"
+---

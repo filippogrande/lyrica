@@ -1,0 +1,153 @@
+---
+title: "Barsch"
+slug: "barsch"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Fischi, Fischi, yo, Fischi, yo, Fischi, yeah"
+          - "Fischi, Fischi, yo, Fischi, yo, Fischi, yeah"
+          - "Rochen Roll"
+      - lines:
+          - "Hai (Wo?), ich bin ein Fisch"
+          - "Habe Kiemen und Gesicht so wie ein Fisch"
+          - "Ich bin aalglatt wie ein Aal"
+          - "Dieses Lied ist Killer wie ein Wal"
+          - "Du willst ein Foto mit mir, doch dein Handy ist leer"
+          - "Frag den Fisch, schau, ich hab' ein Ladekabeljau"
+          - "Ich bin Barsch (Hey), Barsch (Ho), Barsch (Hey)"
+          - "Vom Hecht wird mir schlecht, hüah"
+      - lines:
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-..."
+      - lines:
+          - "Leck mich am Barsch, Barsch, Barsch, Barsch"
+          - "Leck mich am Barsch, Barsch, Barsch, Barsch"
+          - "Leck mich am Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+          - "Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+      - lines:
+          - "Du bist ein cooler Fisch? Ich lachse mich tot"
+          - "Was ist dein Lieblingsfisch? (Barsch) Delfin ich gut"
+          - "Mein Name Alex Zander, ich lebe water under"
+          - "Schmeiß' die Guppys durch den Club und schrei': \"Blub, blub\""
+          - "Schmeiß' die Guppys durch den Club und schrei': \"Blub, blub\""
+          - "Schmeiß' die Guppys durch den Club und schrei': \"Blub, blub\""
+          - "Ich bin Barsch (Hey), Barsch (Ho), Barsch (Hey)"
+          - "Vom Hecht wird mir schlecht, hüah"
+      - lines:
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-..."
+      - lines:
+          - "Leck mich am Barsch, Barsch, Barsch, Barsch"
+          - "Leck mich am Barsch, Barsch, Barsch, Barsch"
+          - "Leck mich am Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+          - "Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Ba-Ba-"
+      - lines:
+          - "Schmeiß' die Guppys durch den Club und schrei': \"Blub, blub\""
+          - "Schmeiß' die Guppys durch den Club und schrei': \"Blub, blub\""
+          - "Schmeiß' die Guppys durch den Club und schrei': \"Blub, blub\""
+          - "Schmeiß' die Guppys durch den Club"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Fischi, Fischi, yo, Fischi, yo, Fischi, yeah"
+          - "Fischi, Fischi, yo, Fischi, yo, Fischi, yeah"
+          - "Rochen Roll"
+      - lines:
+          - "Hi (Where?), I'm a fish"
+          - "Got gills and a face just like a fish"
+          - "I'm slippery as an eel"
+          - "This song is a killer like a whale"
+          - "You want a photo with me, but your phone is dead"
+          - "Ask the fish, look, I've got a charging cod"
+          - "I'm Barsch (Hey), Barsch (Ho), Barsch (Hey)"
+          - "Pike makes me sick, hüah"
+      - lines:
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-..."
+      - lines:
+          - "Lick my Barsch, Barsch, Barsch, Barsch"
+          - "Lick my Barsch, Barsch, Barsch, Barsch"
+          - "Lick my Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+          - "Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+      - lines:
+          - "You're a cool fish? I'm laughing my salmon off"
+          - "What's your favourite fish? (Barsch) I dolphin-fine"
+          - "My name is Alex Zander, I live water under"
+          - "Throw the guppies through the club and shout: \"Blub, blub\""
+          - "Throw the guppies through the club and shout: \"Blub, blub\""
+          - "Throw the guppies through the club and shout: \"Blub, blub\""
+          - "I'm Barsch (Hey), Barsch (Ho), Barsch (Hey)"
+          - "Pike makes me sick, hüah"
+      - lines:
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-..."
+      - lines:
+          - "Lick my Barsch, Barsch, Barsch, Barsch"
+          - "Lick my Barsch, Barsch, Barsch, Barsch"
+          - "Lick my Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+          - "Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Ba-Ba-"
+      - lines:
+          - "Throw the guppies through the club and shout: \"Blub, blub\""
+          - "Throw the guppies through the club and shout: \"Blub, blub\""
+          - "Throw the guppies through the club and shout: \"Blub, blub\""
+          - "Throw the guppies through the club"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Fischi, Fischi, yo, Fischi, yo, Fischi, yeah"
+          - "Fischi, Fischi, yo, Fischi, yo, Fischi, yeah"
+          - "Rochen Roll"
+      - lines:
+          - "Ciao (Dove?), sono un pesce"
+          - "Ho le branchie e la faccia proprio come un pesce"
+          - "Sono viscido come un'anguilla"
+          - "Questa canzone è un killer come una balena"
+          - "Vuoi una foto con me, ma il tuo telefono è scarico"
+          - "Chiedi al pesce, guarda, ho un cavo-pesce per la ricarica"
+          - "Sono Barsch (Hey), Barsch (Ho), Barsch (Hey)"
+          - "Il luccio mi fa star male, hüah"
+      - lines:
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-..."
+      - lines:
+          - "Leccami il Barsch, Barsch, Barsch, Barsch"
+          - "Leccami il Barsch, Barsch, Barsch, Barsch"
+          - "Leccami il Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+          - "Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+      - lines:
+          - "Sei un pesce figo? Io mi sganascio dal ridere"
+          - "Qual è il tuo pesce preferito? (Barsch) Io delfino bene"
+          - "Il mio nome è Alex Zander, vivo water under"
+          - "Lancio i guppy per tutto il club e grido: \"Blub, blub\""
+          - "Lancio i guppy per tutto il club e grido: \"Blub, blub\""
+          - "Lancio i guppy per tutto il club e grido: \"Blub, blub\""
+          - "Sono Barsch (Hey), Barsch (Ho), Barsch (Hey)"
+          - "Il luccio mi fa star male, hüah"
+      - lines:
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Barsch, Barsch, Barsch, Barsch"
+          - "Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-..."
+      - lines:
+          - "Leccami il Barsch, Barsch, Barsch, Barsch"
+          - "Leccami il Barsch, Barsch, Barsch, Barsch"
+          - "Leccami il Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch"
+          - "Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Ba-Ba-"
+      - lines:
+          - "Lancio i guppy per tutto il club e grido: \"Blub, blub\""
+          - "Lancio i guppy per tutto il club e grido: \"Blub, blub\""
+          - "Lancio i guppy per tutto il club e grido: \"Blub, blub\""
+          - "Lancio i guppy per tutto il club"
+---

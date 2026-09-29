@@ -1,0 +1,28 @@
+---
+title: "Herzeleid"
+slug: "herzeleid"
+year: 1995
+tracks:
+  - slug: "wollt-ihr-das-bett-in-flammen-sehen"
+    title: "Wollt ihr das Bett in Flammen sehen?"
+  - slug: "der-meister"
+    title: "Der Meister"
+  - slug: "weisses-fleisch"
+    title: "Weißes Fleisch"
+  - slug: "asche-zu-asche"
+    title: "Asche zu Asche"
+  - slug: "seemann"
+    title: "Seemann"
+  - slug: "du-riechst-so-gut"
+    title: "Du riechst so gut"
+  - slug: "das-alte-leid"
+    title: "Das alte Leid"
+  - slug: "heirate-mich"
+    title: "Heirate mich"
+  - slug: "herzeleid-song"
+    title: "Herzeleid"
+  - slug: "laichzeit"
+    title: "Laichzeit"
+  - slug: "rammstein-song"
+    title: "Rammstein"
+---

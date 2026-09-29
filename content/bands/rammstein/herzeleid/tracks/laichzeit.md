@@ -1,0 +1,144 @@
+---
+title: "Laichzeit"
+slug: "laichzeit"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Er liebt die Mutter und von der Seite"
+          - "Den Fisch gibt er ihr selbst"
+          - "Dieser häutet sich vor leerem Hoden"
+          - "Die alte Haut fällt auf den Boden"
+      - lines:
+          - "Er liebt die Schwester und von hinten"
+          - "Der Fisch frisst sich zum Mund"
+          - "Die Kiemen blutig noch vom Saugen"
+          - "An den roten großen Augen"
+      - lines:
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Es ist Laichzeit"
+      - lines:
+          - "Er liebt den Hund, oh Gott, von oben"
+          - "Der Fisch jetzt mit der Zunge küsst"
+          - "Speit tote Milch dir ins Gesicht"
+          - "Ihn anzufassen wagst du nicht"
+      - lines:
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Laichzeit"
+          - "Überall Fischmilch"
+          - "Laichzeit"
+          - "Es ist Laichzeit"
+      - lines:
+          - "Die Mutter hat das Meer geholt"
+          - "Laichzeit, Laichzeit"
+          - "Die Schwestern haben keine Zeit"
+          - "Laichzeit, Laichzeit"
+          - "Der Hund steht winkend am Gestade"
+          - "Laichzeit, Laichzeit"
+          - "Der Fisch braucht seine Einsamkeit"
+          - "Laichzeit"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "He loves the mother and from the side"
+          - "The fish gives itself to her"
+          - "He loses his skin before he empties his balls"
+          - "The old skin falls unto the floor"
+      - lines:
+          - "He loves the sister and from behind"
+          - "The fish eats towards the mouth"
+          - "The gills still bloody from sucking"
+          - "On the big red eyes"
+      - lines:
+          - "Breeding season"
+          - "Breeding season"
+          - "Breeding season"
+          - "Breeding season"
+          - "Breeding season"
+          - "Breeding season"
+          - "Breeding season"
+          - "It's breeding season"
+      - lines:
+          - "He loves the dog, oh God, from above"
+          - "The fish now kisses with the tongue"
+          - "Spits dead milk into your face"
+          - "You don't dare to touch him"
+      - lines:
+          - "Breeding season"
+          - "Breeding season"
+          - "Breeding season"
+          - "Breeding season"
+          - "Breeding season"
+          - "Fish milk everywhere"
+          - "Breeding season"
+          - "It's breading season"
+      - lines:
+          - "The mother has been taken by the ocean"
+          - "Breeding season, breeding season"
+          - "The sisters don't have time"
+          - "Breeding season, breeding season"
+          - "The dog stands waving on the shore"
+          - "Breeding season, breeding season"
+          - "The fish needs its loneliness"
+          - "Breeding season"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Ama la madre e di fianco"
+          - "Il pesce lo dà a lei stesso"
+          - "Questo si spella davanti a testicoli vuoti"
+          - "La vecchia pelle cade a terra"
+      - lines:
+          - "Ama la sorella e da dietro"
+          - "Il pesce si mangia fino alla bocca"
+          - "Le branchie ancora sanguinanti dal succhiare"
+          - "Dai grandi occhi rossi"
+      - lines:
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "È la stagione della frega"
+      - lines:
+          - "Ama il cane, oh Dio, dall'alto"
+          - "Il pesce ora bacia con la lingua"
+          - "Ti sputa latte morto in faccia"
+          - "Non osi toccarlo"
+      - lines:
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Stagione della frega"
+          - "Latte di pesce dappertutto"
+          - "Stagione della frega"
+          - "È la stagione della frega"
+      - lines:
+          - "Il mare si è portato via la madre"
+          - "Stagione della frega, stagione della frega"
+          - "Le sorelle non hanno tempo"
+          - "Stagione della frega, stagione della frega"
+          - "Il cane sta a riva agitando la zampa"
+          - "Stagione della frega, stagione della frega"
+          - "Il pesce ha bisogno della sua solitudine"
+          - "Stagione della frega"
+---

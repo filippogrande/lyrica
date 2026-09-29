@@ -1,0 +1,144 @@
+---
+title: "Rein raus"
+slug: "rein-raus"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Ich bin der Reiter, du bist das Ross"
+          - "Ich steige auf, wir reiten los"
+          - "Du stöhnst, ich sag' dir vor"
+          - "Ein Elefant im Nadelöhr"
+      - lines:
+          - "Rein Raus"
+          - "Rein Raus"
+          - "Rein Raus"
+          - "Rein Raus"
+      - lines:
+          - "Ich bin der Reiter, du bist das Ross"
+          - "Ich hab den Schlüssel, du hast das Schloss"
+          - "Die Tür geht auf, ich trete ein"
+          - "Das Leben kann so prachtvoll sein"
+      - lines:
+          - "Rein Raus"
+          - "Rein Raus"
+          - "Rein Raus"
+          - "Rein Raus"
+      - lines:
+          - "Tiefer, tiefer"
+          - "Sag es, sag es laut"
+          - "Tiefer, tiefer"
+          - "Ich fühl' mich wohl in deiner Haut"
+          - "Und tausend Elefanten brechen aus"
+      - lines:
+          - "Der Ritt war kurz, es tut mir leid"
+          - "Ich steige ab, hab' keine Zeit"
+          - "Muss jetzt zu den anderen Pferden"
+          - "Wollen auch geritten werden"
+          - "Rein Raus"
+          - "Rein"
+      - lines:
+          - "Rein Raus"
+          - "Rein Raus"
+          - "Rein Raus"
+          - "Rein Raus"
+          - "Rein (Tiefer) raus (Tiefer)"
+          - "Rein (Tiefer) raus (Tiefer)"
+          - "Rein (Tiefer) raus (Tiefer)"
+          - "Rein (Tiefer) raus (Tiefer)"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "I'm the rider, you are the horse"
+          - "I get on, we start riding"
+          - "You moan, I tell you"
+          - "An elephant in the eye of a needle"
+      - lines:
+          - "In, out"
+          - "In, out"
+          - "In, out"
+          - "In, out"
+      - lines:
+          - "I'm the rider, you are the horse"
+          - "I have the key, you have the lock"
+          - "The door opens, I enter"
+          - "Life can be so magnificent"
+      - lines:
+          - "In, out"
+          - "In, out"
+          - "In, out"
+          - "In, out"
+      - lines:
+          - "Deeper, deeper"
+          - "Say it, say it loudly"
+          - "Deeper, deeper"
+          - "I feel good inside your skin"
+          - "And a thousand elephants break out"
+      - lines:
+          - "The ride was short, I must apologize"
+          - "I get off, don't have time"
+          - "I have to go to, the other horses"
+          - "Want to get ridden as well"
+          - "In, out"
+          - "In"
+      - lines:
+          - "In, out"
+          - "In, out"
+          - "In, out"
+          - "In, out"
+          - "In (deeper), out (deeper)"
+          - "In (deeper), out (deeper)"
+          - "In (deeper), out (deeper)"
+          - "In (deeper), out (deeper)"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Io sono il cavaliere, tu sei il cavallo"
+          - "Salgo in sella, partiamo al galoppo"
+          - "Tu gemi, io ti dico"
+          - "Un elefante nella cruna dell'ago"
+      - lines:
+          - "Dentro fuori"
+          - "Dentro fuori"
+          - "Dentro fuori"
+          - "Dentro fuori"
+      - lines:
+          - "Io sono il cavaliere, tu sei il cavallo"
+          - "Io ho la chiave, tu hai la serratura"
+          - "La porta si apre, io entro"
+          - "La vita può essere così magnifica"
+      - lines:
+          - "Dentro fuori"
+          - "Dentro fuori"
+          - "Dentro fuori"
+          - "Dentro fuori"
+      - lines:
+          - "Più profondo, più profondo"
+          - "Dillo, dillo forte"
+          - "Più profondo, più profondo"
+          - "Sto bene dentro la tua pelle"
+          - "E mille elefanti irrompono fuori"
+      - lines:
+          - "La cavalcata è stata breve, mi dispiace"
+          - "Scendo di sella, non ho tempo"
+          - "Devo andare dagli altri cavalli"
+          - "Anche loro vogliono essere cavalcati"
+          - "Dentro fuori"
+          - "Dentro"
+      - lines:
+          - "Dentro fuori"
+          - "Dentro fuori"
+          - "Dentro fuori"
+          - "Dentro fuori"
+          - "Dentro (Più profondo) fuori (Più profondo)"
+          - "Dentro (Più profondo) fuori (Più profondo)"
+          - "Dentro (Più profondo) fuori (Più profondo)"
+          - "Dentro (Più profondo) fuori (Più profondo)"
+---

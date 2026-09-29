@@ -1,0 +1,144 @@
+---
+title: "Mein Stern"
+slug: "mein-stern"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Ich sah dich erst gestern auf dem Parkplatz steh'n (Hi)"
+          - "Habe noch nie sowas Schönes geseh'n (Wow)"
+          - "Dein Fahrwerk ist heiß, tiefergelegt"
+          - "Untenrum kaum Verschleiß, scheckheftgepflegt"
+          - "Ich mache dir die Haube auf"
+          - "Alles Para weg, wenn ich dich kauf'"
+          - "Du bist alles, alles, was ich brauch'"
+      - lines:
+          - "Du bist mein Stern, Mercedes AMG"
+          - "Du bist mein Stern, mit dem ich meine Runden dreh'"
+          - "(Ich liebe dich)"
+      - lines:
+          - "Lichter der Stadt auf deiner blitzenden Haube (Haube) (Ja)"
+          - "Wenn ich dich fahr', will ich nie mehr nach Hause"
+          - "Konto leer wegen Super Plus"
+          - "Weil ich dauernd tanken muss"
+          - "Ich hab' kein Geld, ich hab' kein'n Job, aber Mercedes (-cedes)"
+          - "Ich wohne noch im Elternhaus (Elternhaus)"
+          - "Schmeiße alles Geld für Leasing raus (Leasing raus)"
+          - "Ich hab' kein Haus, ich hab' kein Boot, ich hab' Mercedes"
+      - lines:
+          - "Du bist mein Stern, Mercedes AMG"
+          - "Du bist mein Stern, mit dem ich meine Runden dreh' (Oh)"
+          - "Lamborghini, Maserati oder BMW (BMW)"
+          - "Alles, was ich will, ist mein AMG"
+          - "Mein Stern, mein Sportcoupé"
+          - "(Ich will nur dich, ich liebe dich)"
+      - lines:
+          - "Kupplung kaputt, tausend Euro"
+          - "Loch im Auspuff, tausend Euro"
+          - "Neue Reifen, Bremsen, Öl und Rost am Heck"
+          - "Mein Geld ist weg"
+      - lines:
+          - "Du bist mein Stern, Mercedes AMG"
+          - "Du bist mein Stern, mit dem ich meine Runden dreh'"
+      - lines:
+          - "Du bist mein Stern, Mercedes AMG"
+          - "Du bist mein Stern (Mein Stern), mit dem ich meine Runden dreh'"
+          - "Lamborghini, Maserati oder BMW (Oh)"
+          - "Alles, was ich will, ist mein AMG"
+          - "Mein Stern, mein Sportcoupé (Oh yeah, uh)"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "I only saw you yesterday standing in the car park (Hi)"
+          - "I've never seen anything so beautiful (Wow)"
+          - "Your suspension is hot, lowered"
+          - "Hardly any wear underneath, full service history"
+          - "I open your hood for you"
+          - "All the cash gone when I buy you"
+          - "You are everything, everything I need"
+      - lines:
+          - "You are my star, Mercedes AMG"
+          - "You are my star, that I do my laps with"
+          - "(I love you)"
+      - lines:
+          - "City lights on your gleaming hood (hood) (Yeah)"
+          - "When I drive you, I never want to go home again"
+          - "Account empty because of Super Plus"
+          - "'Cause I constantly have to fill up"
+          - "I've got no money, I've got no job, but Mercedes (-cedes)"
+          - "I still live at my parents' house (parents' house)"
+          - "Throwing all my money at the leasing (leasing)"
+          - "I've got no house, I've got no boat, I've got Mercedes"
+      - lines:
+          - "You are my star, Mercedes AMG"
+          - "You are my star, that I do my laps with (Oh)"
+          - "Lamborghini, Maserati or BMW (BMW)"
+          - "All I want is my AMG"
+          - "My star, my sports coupé"
+          - "(I only want you, I love you)"
+      - lines:
+          - "Clutch broken, a thousand euros"
+          - "Hole in the exhaust, a thousand euros"
+          - "New tyres, brakes, oil and rust at the rear"
+          - "My money's gone"
+      - lines:
+          - "You are my star, Mercedes AMG"
+          - "You are my star, that I do my laps with"
+      - lines:
+          - "You are my star, Mercedes AMG"
+          - "You are my star (My star), that I do my laps with"
+          - "Lamborghini, Maserati or BMW (Oh)"
+          - "All I want is my AMG"
+          - "My star, my sports coupé (Oh yeah, uh)"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Ti ho vista appena ieri in piedi nel parcheggio (Hi)"
+          - "Non ho mai visto niente di così bello (Wow)"
+          - "Il tuo assetto è bollente, ribassata"
+          - "Sotto quasi nessuna usura, tagliandi in regola"
+          - "Ti apro il cofano"
+          - "Tutti i soldi via, quando ti compro"
+          - "Sei tutto, tutto quello di cui ho bisogno"
+      - lines:
+          - "Sei la mia stella, Mercedes AMG"
+          - "Sei la mia stella, con cui faccio i miei giri"
+          - "(Ti amo)"
+      - lines:
+          - "Le luci della città sul tuo cofano scintillante (cofano) (Sì)"
+          - "Quando ti guido, non voglio più tornare a casa"
+          - "Conto vuoto per la Super Plus"
+          - "Perché devo fare benzina in continuazione"
+          - "Non ho soldi, non ho un lavoro, ma ho una Mercedes (-cedes)"
+          - "Vivo ancora a casa dei miei (casa dei miei)"
+          - "Butto tutti i soldi nel leasing (leasing)"
+          - "Non ho una casa, non ho una barca, ho una Mercedes"
+      - lines:
+          - "Sei la mia stella, Mercedes AMG"
+          - "Sei la mia stella, con cui faccio i miei giri (Oh)"
+          - "Lamborghini, Maserati o BMW (BMW)"
+          - "Tutto quello che voglio è la mia AMG"
+          - "La mia stella, la mia Sportcoupé"
+          - "(Voglio solo te, ti amo)"
+      - lines:
+          - "Frizione rotta, mille euro"
+          - "Buco nella marmitta, mille euro"
+          - "Gomme nuove, freni, olio e ruggine al posteriore"
+          - "I miei soldi sono finiti"
+      - lines:
+          - "Sei la mia stella, Mercedes AMG"
+          - "Sei la mia stella, con cui faccio i miei giri"
+      - lines:
+          - "Sei la mia stella, Mercedes AMG"
+          - "Sei la mia stella (La mia stella), con cui faccio i miei giri"
+          - "Lamborghini, Maserati o BMW (Oh)"
+          - "Tutto quello che voglio è la mia AMG"
+          - "La mia stella, la mia Sportcoupé (Oh yeah, uh)"
+---

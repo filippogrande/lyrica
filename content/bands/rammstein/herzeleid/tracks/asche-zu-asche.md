@@ -1,0 +1,210 @@
+---
+title: "Asche zu Asche"
+slug: "asche-zu-asche"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Warmer Körper (Warmer Körper)"
+          - "Heißes Kreuz (Heißes Kreuz)"
+          - "Falsches Urteil (Falsches Urteil)"
+          - "Kaltes Grab (Kaltes Grab)"
+      - lines:
+          - "Auf dem Kreuze lieg' ich jetzt"
+          - "Sie schlagen mir die Nägel ein"
+          - "Das Feuer wäscht die Seele rein"
+          - "Und übrig bleibt ein Mund voll"
+          - "Asche"
+      - lines:
+          - "Ich komm' wieder (Ich komm' wieder)"
+          - "In zehn Tagen (Ich komm' wieder)"
+          - "Als dein Schatten (Ich komm' wieder)"
+          - "Und werd' dich jagen (Ich komm' wieder)"
+      - lines:
+          - "Heimlich werd' ich auferstehen"
+          - "Und du wirst um Gnade flehen"
+          - "Dann knie ich mich in dein Gesicht"
+          - "Und steck den Finger in die"
+      - lines:
+          - "Asche"
+          - "Asche"
+          - "Asche"
+          - "Asche"
+          - "Asche zu Asche"
+          - "Asche zu Asche"
+          - "Asche zu Asche"
+          - "Und Staub zu Staub"
+      - lines:
+          - "Heimlich werd' ich auferstehen"
+          - "Und du wirst um Gnade flehen"
+          - "Dann knie ich mich in dein Gesicht"
+          - "Und steck den Finger in die"
+      - lines:
+          - "Asche zu Asche"
+          - "Asche zu Asche"
+          - "Asche zu Asche"
+          - "Und Staub zu Staub"
+      - lines:
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Und Staub zu Staub (Staub, staub, staub, staub)"
+      - lines:
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Und Staub zu Staub (Staub, staub, staub, staub)"
+      - lines:
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Asche zu Asche (Staub, staub, staub, staub)"
+          - "Und Staub zu Staub (Staub, staub, staub, staub)"
+      - lines:
+          - "Zu Staub, zu Staub (Staub, staub, staub, staub) (Ich komm' wieder)"
+          - "Zu Staub, zu Staub (Staub, staub, staub, staub)"
+          - "Zu Staub, zu Staub (Staub, staub, staub, staub)"
+          - "Zu Staub, zu Staub (Staub, staub, staub, staub)"
+          - "Zu Staub, zu Staub (Staub, staub, staub, staub) (Ich komm' wieder)"
+          - "Zu Staub, zu Staub (Staub, staub, staub, staub)"
+          - "Zu Staub, zu Staub (Staub, staub, staub, staub)"
+          - "Zu Staub, zu Staub, ja! (Staub, staub, staub, staub)"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Warm body (Warm body)"
+          - "Hot cross (Hot cross)"
+          - "Wrong judgement (Wrong judgement)"
+          - "Cold grave (Cold grave)"
+      - lines:
+          - "On the cross I lay now"
+          - "They hammer the nails through me"
+          - "The fire washes the soul clean"
+          - "And what remains is a mouthful of"
+          - "Ashes"
+      - lines:
+          - "I will return (I will return)"
+          - "In ten days (I will return)"
+          - "As your shadow (I will return)"
+          - "And will hunt you (I will return)"
+      - lines:
+          - "Secretly, I will be resurrected"
+          - "And you will beg for mercy"
+          - "Then I kneel down unto your face"
+          - "And stick the finger in the"
+      - lines:
+          - "Ashes"
+          - "Ashes"
+          - "Ashes"
+          - "Ashes"
+          - "Ashes to ashes"
+          - "Ashes to ashes"
+          - "Ashes to ashes"
+          - "And dust to dust"
+      - lines:
+          - "Secretly, I will be resurrected"
+          - "And you will beg for mercy"
+          - "Then I kneel down unto your face"
+          - "And stick the finger in the"
+      - lines:
+          - "Ashes to ashes"
+          - "Ashes to ashes"
+          - "Ashes to ashes"
+          - "And dust to dust"
+      - lines:
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "And dust to dust (dust, dust, dust, dust)"
+      - lines:
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "And dust to dust (dust, dust, dust, dust)"
+      - lines:
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "Ashes to ashes (dust, dust, dust, dust)"
+          - "And dust to dust (dust, dust, dust, dust)"
+      - lines:
+          - "To dust, to dust (dust, dust, dust, dust) (I will return)"
+          - "To dust, to dust (dust, dust, dust, dust)"
+          - "To dust, to dust (dust, dust, dust, dust)"
+          - "To dust, to dust (dust, dust, dust, dust)"
+          - "To dust, to dust (dust, dust, dust, dust) (I will return)"
+          - "To dust, to dust (dust, dust, dust, dust)"
+          - "To dust, to dust (dust, dust, dust, dust)"
+          - "To dust, to dust, yes (dust, dust, dust, dust)"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Corpo caldo (Corpo caldo)"
+          - "Croce ardente (Croce ardente)"
+          - "Giudizio falso (Giudizio falso)"
+          - "Tomba fredda (Tomba fredda)"
+      - lines:
+          - "Sulla croce ora giaccio"
+          - "Mi piantano i chiodi dentro"
+          - "Il fuoco lava l'anima"
+          - "E resta solo una bocca piena di"
+          - "Cenere"
+      - lines:
+          - "Tornerò (Tornerò)"
+          - "Fra dieci giorni (Tornerò)"
+          - "Come la tua ombra (Tornerò)"
+          - "E ti darò la caccia (Tornerò)"
+      - lines:
+          - "Risorgerò di nascosto"
+          - "E tu implorerai grazia"
+          - "Poi mi inginocchio sulla tua faccia"
+          - "E infilo il dito nella"
+      - lines:
+          - "Cenere"
+          - "Cenere"
+          - "Cenere"
+          - "Cenere"
+          - "Cenere in cenere"
+          - "Cenere in cenere"
+          - "Cenere in cenere"
+          - "E polvere alla polvere"
+      - lines:
+          - "Risorgerò di nascosto"
+          - "E tu implorerai grazia"
+          - "Poi mi inginocchio sulla tua faccia"
+          - "E infilo il dito nella"
+      - lines:
+          - "Cenere in cenere"
+          - "Cenere in cenere"
+          - "Cenere in cenere"
+          - "E polvere alla polvere"
+      - lines:
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "E polvere alla polvere (Polvere, polvere, polvere, polvere)"
+      - lines:
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "E polvere alla polvere (Polvere, polvere, polvere, polvere)"
+      - lines:
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "Cenere in cenere (Polvere, polvere, polvere, polvere)"
+          - "E polvere alla polvere (Polvere, polvere, polvere, polvere)"
+      - lines:
+          - "Polvere alla polvere (Polvere, polvere, polvere, polvere) (Tornerò)"
+          - "Polvere alla polvere (Polvere, polvere, polvere, polvere)"
+          - "Polvere alla polvere (Polvere, polvere, polvere, polvere)"
+          - "Polvere alla polvere (Polvere, polvere, polvere, polvere)"
+          - "Polvere alla polvere (Polvere, polvere, polvere, polvere) (Tornerò)"
+          - "Polvere alla polvere (Polvere, polvere, polvere, polvere)"
+          - "Polvere alla polvere (Polvere, polvere, polvere, polvere)"
+          - "Polvere alla polvere, sì! (Polvere, polvere, polvere, polvere)"
+---

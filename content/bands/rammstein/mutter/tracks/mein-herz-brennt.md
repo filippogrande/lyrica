@@ -1,0 +1,165 @@
+---
+title: "Mein Herz brennt"
+slug: "mein-herz-brennt"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Nun, liebe Kinder, gebt fein Acht"
+          - "Ich bin die Stimme aus dem Kissen"
+          - "Ich hab' euch etwas mitgebracht"
+          - "Hab' es aus meiner Brust gerissen"
+          - "Mit diesem Herz hab' ich die Macht"
+          - "Die Augenlider zu erpressen"
+          - "Ich singe, bis der Tag erwacht"
+          - "Ein heller Schein am Firmament"
+      - lines:
+          - "Mein Herz brennt!"
+      - lines:
+          - "Sie kommen zu euch in der Nacht"
+          - "Dämonen, Geister, schwarze Feen"
+          - "Sie kriechen aus dem Kellerschacht"
+          - "Und werden unter euer Bettzeug sehen"
+      - lines:
+          - "Nun, liebe Kinder, gebt fein Acht"
+          - "Ich bin die Stimme aus dem Kissen"
+          - "Ich hab' euch etwas mitgebracht"
+          - "Ein heller Schein am Firmament"
+      - lines:
+          - "Mein Herz brennt!"
+          - "Mein Herz brennt!"
+      - lines:
+          - "Sie kommen zu euch in der Nacht"
+          - "Und stehlen eure kleinen, heißen Tränen"
+          - "Sie warten, bis der Mond erwacht"
+          - "Und drücken sie in meine kalten Venen"
+      - lines:
+          - "Nun, liebe Kinder, gebt fein Acht"
+          - "Ich bin die Stimme aus dem Kissen"
+          - "Ich singe, bis der Tag erwacht"
+          - "Ein heller Schein am Firmament"
+      - lines:
+          - "Mein Herz brennt!"
+          - "Mein Herz brennt!"
+          - "Mein Herz brennt!"
+          - "Mein Herz brennt!"
+      - lines:
+          - "Mit diesem Herz hab' ich die Macht"
+          - "Die Augenlider zu erpressen"
+          - "Ich singe, bis der Tag erwacht"
+          - "Ein heller Schein am Firmament"
+      - lines:
+          - "Mein Herz brennt!"
+          - "Mein Herz brennt!"
+          - "Mein Herz brennt! (Mein Herz)"
+          - "Mein Herz brennt!"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Now, dear children, pay attention"
+          - "I am the voice from the pillow"
+          - "I brought you something"
+          - "Have ripped it out of my chest"
+          - "With this heart, I have the power"
+          - "Blackmail the eyelids"
+          - "I sing until the new day comes"
+          - "A bright light in the heaven's sky"
+      - lines:
+          - "My heart burns"
+      - lines:
+          - "They come to you at night"
+          - "Demons, ghosts and black elves"
+          - "They crawl up from the cellar rows"
+          - "And will take a look under your blanket"
+      - lines:
+          - "Little children listen now"
+          - "I am the voice from the pillow"
+          - "I brought something to you"
+          - "A bright light in the heaven's sky"
+      - lines:
+          - "My heart burns"
+          - "My heart burns"
+      - lines:
+          - "They come to you at night"
+          - "And steal your small hot tears"
+          - "They wait 'til the moon awakes"
+          - "And push them in my cold veins"
+      - lines:
+          - "Little children listen now"
+          - "I am the voice from the pillow"
+          - "I sing 'til the day awakes"
+          - "A bright light in the heaven's sky"
+      - lines:
+          - "My heart burns"
+          - "My heart burns"
+          - "My heart burns"
+          - "My heart burns"
+      - lines:
+          - "With this heart I have the power"
+          - "To blackmail the eyelids"
+          - "I sing 'til the day wakes up"
+          - "A bright light in the heaven's sky"
+      - lines:
+          - "My heart burns"
+          - "My heart burns"
+          - "My heart burns (My heart)"
+          - "My heart burns"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Orsù, cari bambini, state bene attenti"
+          - "Io sono la voce che viene dal cuscino"
+          - "Vi ho portato qualcosa"
+          - "L'ho strappato dal mio petto"
+          - "Con questo cuore ho il potere"
+          - "Di ricattare le palpebre"
+          - "Canto finché il giorno si sveglia"
+          - "Un chiarore luminoso nel firmamento"
+      - lines:
+          - "Il mio cuore brucia!"
+      - lines:
+          - "Vengono da voi nella notte"
+          - "Demoni, spiriti, fate nere"
+          - "Strisciano fuori dal pozzo della cantina"
+          - "E guarderanno sotto le vostre coperte"
+      - lines:
+          - "Orsù, cari bambini, state bene attenti"
+          - "Io sono la voce che viene dal cuscino"
+          - "Vi ho portato qualcosa"
+          - "Un chiarore luminoso nel firmamento"
+      - lines:
+          - "Il mio cuore brucia!"
+          - "Il mio cuore brucia!"
+      - lines:
+          - "Vengono da voi nella notte"
+          - "E rubano le vostre piccole lacrime calde"
+          - "Aspettano che la luna si svegli"
+          - "E le spingono nelle mie vene fredde"
+      - lines:
+          - "Orsù, cari bambini, state bene attenti"
+          - "Io sono la voce che viene dal cuscino"
+          - "Canto finché il giorno si sveglia"
+          - "Un chiarore luminoso nel firmamento"
+      - lines:
+          - "Il mio cuore brucia!"
+          - "Il mio cuore brucia!"
+          - "Il mio cuore brucia!"
+          - "Il mio cuore brucia!"
+      - lines:
+          - "Con questo cuore ho il potere"
+          - "Di ricattare le palpebre"
+          - "Canto finché il giorno si sveglia"
+          - "Un chiarore luminoso nel firmamento"
+      - lines:
+          - "Il mio cuore brucia!"
+          - "Il mio cuore brucia!"
+          - "Il mio cuore brucia! (Il mio cuore)"
+          - "Il mio cuore brucia!"
+---

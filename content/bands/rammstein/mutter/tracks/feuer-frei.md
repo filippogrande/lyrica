@@ -1,0 +1,153 @@
+---
+title: "Feuer frei!"
+slug: "feuer-frei"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Getadelt wird, wer Schmerzen kennt"
+          - "Vom Feuer, das die Haut verbrennt"
+          - "Ich werf ein Licht in mein Gesicht"
+          - "Ein heißer Schrei, Feuer frei!"
+      - lines:
+          - "Bäng bäng"
+          - "Bäng bäng"
+      - lines:
+          - "Geadelt ist, wer Schmerzen kennt"
+          - "Vom Feuer, das in Lust verbrennt"
+          - "Ein Funkenstoß in ihren Schoß"
+          - "Ein heißer Schrei, Feuer frei!"
+      - lines:
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Feuer frei!"
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Feuer frei!"
+      - lines:
+          - "Gefährlich ist, wer Schmerzen kennt"
+          - "Vom Feuer, das den Geist verbrennt (Bäng bäng)"
+          - "Gefährlich das gebrannte Kind"
+          - "Mit Feuer, das vom Leben trennt"
+          - "Ein heißer Schrei (Bäng bäng), feuer frei!"
+      - lines:
+          - "Dein Glück"
+          - "Ist nicht mein Glück"
+          - "Ist mein Unglück"
+          - "Dein Glück"
+          - "Ist nicht mein Glück"
+          - "Ist mein Unglück"
+      - lines:
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Feuer frei!"
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Feuer frei!"
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Feuer frei!"
+      - lines:
+          - "Bäng bäng"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Blamed are those who know pain"
+          - "From fire that burns the skin"
+          - "I shine a light in my face"
+          - "A hot scream, fire at will!"
+      - lines:
+          - "Bang, bang"
+          - "Bang, bang"
+      - lines:
+          - "Knighted are those who know pain"
+          - "From fire that burns the lust"
+          - "A shock of sparks in your lap"
+          - "A hot scream, fire at will!"
+      - lines:
+          - "Bang, bang"
+          - "Bang, bang"
+          - "Open fire!"
+          - "Bang, bang"
+          - "Bang, bang"
+          - "Open fire!"
+      - lines:
+          - "Dangerous are those who know pain"
+          - "From fire that burns the soul (Bang, bang)"
+          - "Dangerous is the burnt child"
+          - "With fire that separates life"
+          - "A hot scream (Bang, bang), fire at will!"
+      - lines:
+          - "Your luck"
+          - "Is not my luck"
+          - "It's my bad luck"
+          - "Your luck"
+          - "Is not my luck"
+          - "It's my bad luck"
+      - lines:
+          - "Bang, bang"
+          - "Bang, bang"
+          - "Fire at will!"
+          - "Bang, bang"
+          - "Bang, bang"
+          - "Fire at will!"
+          - "Bang, bang"
+          - "Bang, bang"
+          - "Fire at will"
+      - lines:
+          - "Bang, bang"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Biasimato è chi conosce il dolore"
+          - "Dal fuoco che brucia la pelle"
+          - "Mi getto una luce in faccia"
+          - "Un urlo caldo, fuoco a volontà!"
+      - lines:
+          - "Bäng bäng"
+          - "Bäng bäng"
+      - lines:
+          - "Nobilitato è chi conosce il dolore"
+          - "Dal fuoco che brucia nella lussuria"
+          - "Una scintilla nel suo grembo"
+          - "Un urlo caldo, fuoco a volontà!"
+      - lines:
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Fuoco a volontà!"
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Fuoco a volontà!"
+      - lines:
+          - "Pericoloso è chi conosce il dolore"
+          - "Dal fuoco che brucia lo spirito (Bäng bäng)"
+          - "Pericoloso il bambino bruciato"
+          - "Con il fuoco che separa dalla vita"
+          - "Un urlo caldo (Bäng bäng), fuoco a volontà!"
+      - lines:
+          - "La tua fortuna"
+          - "Non è la mia fortuna"
+          - "È la mia sfortuna"
+          - "La tua fortuna"
+          - "Non è la mia fortuna"
+          - "È la mia sfortuna"
+      - lines:
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Fuoco a volontà!"
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Fuoco a volontà!"
+          - "Bäng bäng"
+          - "Bäng bäng"
+          - "Fuoco a volontà!"
+      - lines:
+          - "Bäng bäng"
+---

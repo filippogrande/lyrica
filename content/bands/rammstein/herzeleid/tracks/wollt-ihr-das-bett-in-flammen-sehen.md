@@ -1,0 +1,144 @@
+---
+title: "Wollt ihr das Bett in Flammen sehen?"
+slug: "wollt-ihr-das-bett-in-flammen-sehen"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Wollt ihr das Bett in Flammen sehen?"
+          - "Wollt ihr in Haut und Haaren untergehen?"
+          - "Ihr wollt doch auch den Dolch ins Laken stecken"
+          - "Ihr wollt doch auch das Blut vom Degen lecken"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "Ihr seht die Kreuze auf dem Kissen"
+          - "Ihr meint euch darf die Unschuld küssen"
+          - "Ihr glaubt zu töten wäre schwer"
+          - "Doch wo kommen all die Toten her?"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "Sex ist eine Schlacht"
+          - "Liebe ist Krieg"
+          - "Sex ist eine Schlacht, ja"
+          - "Liebe ist Krieg"
+          - "Sex ist eine Schlacht"
+          - "Liebe ist Krieg"
+          - "Sex ist eine Schlacht, ja"
+          - "Liebe ist Krieg"
+      - lines:
+          - "Wollt ihr das Bett in Flammen sehen?"
+          - "Wollt ihr in Haut und Haaren untergehen?"
+          - "Ihr wollt doch auch den Dolch ins Laken stecken"
+          - "Ihr wollt doch auch das Blut vom Degen lecken"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Do you want to see the bed in flames?"
+          - "Do you want to perish with skin and hair?"
+          - "You too, want to stick the dagger through the sheets"
+          - "You too, want to lick the blood from the sword"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "You see the crosses on the pillow"
+          - "You think innocence may kiss you"
+          - "You believe it would be hard to kill"
+          - "But where are all the dead coming from?"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "Sex is a battle"
+          - "Love is war"
+          - "Sex is a battle, yes"
+          - "Love is war"
+          - "Sex is a battle"
+          - "Love is war"
+          - "Sex is a battle, yes"
+          - "Love is war"
+      - lines:
+          - "Do you want to see the bed in flames"
+          - "Do you want to perish with skin and hair"
+          - "You too, want to stick the dagger in the sheet"
+          - "You too, want to lick the blood from the sword"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Volete vedere il letto in fiamme?"
+          - "Volete sprofondare pelle e capelli?"
+          - "Volete anche voi piantare il pugnale nelle lenzuola"
+          - "Volete anche voi leccare il sangue dalla spada"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "Vedete le croci sul cuscino"
+          - "Pensate che l'innocenza possa baciarvi"
+          - "Credete che uccidere sia difficile"
+          - "Ma da dove vengono tutti questi morti?"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "Il sesso è una battaglia"
+          - "L'amore è guerra"
+          - "Il sesso è una battaglia, sì"
+          - "L'amore è guerra"
+          - "Il sesso è una battaglia"
+          - "L'amore è guerra"
+          - "Il sesso è una battaglia, sì"
+          - "L'amore è guerra"
+      - lines:
+          - "Volete vedere il letto in fiamme?"
+          - "Volete sprofondare pelle e capelli?"
+          - "Volete anche voi piantare il pugnale nelle lenzuola"
+          - "Volete anche voi leccare il sangue dalla spada"
+      - lines:
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+          - "Rammstein!"
+      - lines:
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+          - "Rammstein! Rammstein! Rammstein!"
+---

@@ -1,0 +1,198 @@
+---
+title: "Das alte Leid"
+slug: "das-alte-leid"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "(Hallo, hallo)"
+      - lines:
+          - "Aus der Bohne und in das Licht"
+          - "Ein Wesen mich zu gehen drängt"
+          - "Für die selbe Sache und das alte Leid"
+          - "Meine Tränen mit Gelächter fängt"
+      - lines:
+          - "Und auf der Matte fault ein junger Leib"
+          - "Wo das Schicksal seine Puppen lenkt"
+          - "Für die selbe Sache und das alte Leid"
+          - "Weiß ich endlich hier wird nichts verschenkt"
+      - lines:
+          - "Aus der Bohne und in das Nichts"
+          - "Weiß jeder was am Ende bleibt"
+          - "Dieselbe Sache und das alte Leid"
+          - "Mich so langsam in den Wahnsinn treibt"
+      - lines:
+          - "Und auf der Matte tobt derselbe Krieg"
+          - "Mir immer noch das Herz versengt"
+          - "Dieselbe Sache und das alte Leid"
+          - "Weiß nun endlich"
+      - lines:
+          - "Ich will ficken"
+      - lines:
+          - "Nie mehr (Ficken, ficken, ficken)"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+      - lines:
+          - "Aus der Bohne und in das Licht"
+          - "Ein Wesen mich zu gehen drängt"
+          - "Für die selbe Sache und das alte Leid"
+          - "Meine Tränen mit Gelächter fängt"
+      - lines:
+          - "Und auf der Matte fault ein junger Leib"
+          - "Wo das Schicksal seine Puppen lenkt"
+          - "Für die selbe Sache und das alte Leid"
+          - "Weiß ich endlich"
+      - lines:
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+          - "Nie mehr"
+          - "Nie mehr das alte Leid"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "(Hello, hello)"
+      - lines:
+          - "From the pod into the light"
+          - "A being pushes me to go"
+          - "For the same thing and the old suffering"
+          - "Catches my tears joyfully"
+      - lines:
+          - "And on the mat rots a young body"
+          - "Where fate directs it's puppets"
+          - "For the same thing and the old suffering"
+          - "I finally know nothing is for free here"
+      - lines:
+          - "From the pod and into nothingness"
+          - "Everyone knows what remains in the end"
+          - "The same thing and the old suffering"
+          - "Drives me slowly into insanity"
+      - lines:
+          - "And on the mat the same war rages"
+          - "Forever scorching my heart"
+          - "The same thing and the old suffering"
+          - "I finally know"
+      - lines:
+          - "I want to fuck"
+      - lines:
+          - "Never again (Fuck, fuck, fuck)"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+      - lines:
+          - "From the pod into the light"
+          - "A being pushes me to go"
+          - "For the same thing and the old suffering"
+          - "Catches my tears joyfully"
+      - lines:
+          - "And on the mat rots a young body"
+          - "Where fate directs it's puppets"
+          - "For the same thing and the old suffering"
+          - "I finally know"
+      - lines:
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+          - "Never again"
+          - "Never again the old suffering"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "(Ciao, ciao)"
+      - lines:
+          - "Dal fagiolo e nella luce"
+          - "Un essere mi spinge a camminare"
+          - "Per la stessa cosa e il vecchio dolore"
+          - "Cattura le mie lacrime con le risate"
+      - lines:
+          - "E sul tappeto marcisce un giovane corpo"
+          - "Dove il destino dirige le sue marionette"
+          - "Per la stessa cosa e il vecchio dolore"
+          - "So finalmente che qui non si regala nulla"
+      - lines:
+          - "Dal fagiolo e nel nulla"
+          - "Ognuno sa cosa resta alla fine"
+          - "La stessa cosa e il vecchio dolore"
+          - "Mi spinge lentamente alla follia"
+      - lines:
+          - "E sul tappeto infuria la stessa guerra"
+          - "Mi brucia ancora il cuore"
+          - "La stessa cosa e il vecchio dolore"
+          - "Ora lo so finalmente"
+      - lines:
+          - "Voglio scopare"
+      - lines:
+          - "Mai più (Scopare, scopare, scopare)"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+      - lines:
+          - "Dal fagiolo e nella luce"
+          - "Un essere mi spinge a camminare"
+          - "Per la stessa cosa e il vecchio dolore"
+          - "Cattura le mie lacrime con le risate"
+      - lines:
+          - "E sul tappeto marcisce un giovane corpo"
+          - "Dove il destino dirige le sue marionette"
+          - "Per la stessa cosa e il vecchio dolore"
+          - "Ora lo so finalmente"
+      - lines:
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+          - "Mai più"
+          - "Mai più il vecchio dolore"
+---

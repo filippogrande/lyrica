@@ -1,0 +1,354 @@
+---
+title: "Herr Dokter"
+slug: "herr-dokter"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Hallo Herr Dokter"
+          - "Ich hab kein Bock mehr"
+          - "Bitte holen sie den gelben Block her"
+      - lines:
+          - "Hallo Herr Dokter"
+          - "Ich hab kein Bock mehr"
+          - "Ich hab kein Bock mehr"
+          - "Ich hab kein Bock mehr"
+      - lines:
+          - "(Hallo Herr-)"
+      - lines:
+          - "Hallo Herr Arzt"
+          - "Ich hab mich gefragt"
+          - "Was mache ich mit diesem schönen Tag?"
+          - "Gehe ich in den Park?"
+          - "Sauf ich mich in den Sarg?"
+          - "Oder erfülle ich meinen Arbeitsvertrag?"
+          - "(Nein!)"
+          - "Au!"
+          - "Drück ich da tut es weh"
+          - "Und da auch!"
+          - "Ich habe aua aua aua"
+          - "Und der Bauch"
+          - "Macht"
+          - "Komische Geräusche"
+      - lines:
+          - "Ich kann so nicht arbeiten oh weh"
+      - lines:
+          - "Ich kriege nie genug"
+          - "Vom Arbeitszeitbetrug"
+          - "Also seien sie so gut"
+      - lines:
+          - "Ich kriege nie genug"
+          - "Vom Arbeitszeitbetrug"
+          - "Also seien sie so gut, gut, gut"
+      - lines:
+          - "Hallo Herr Dokter"
+          - "Ich hab kein Bock mehr"
+          - "Bitte holen sie den gelben Block her"
+      - lines:
+          - "Hallo Herr Dokter"
+          - "Ich hab kein Bock mehr"
+          - "Ich hab kein Bock mehr"
+          - "Ich hab kein Bock mehr"
+      - lines:
+          - "(Hallo Herr-)"
+      - lines:
+          - "Ich kriege nie genug"
+          - "Vom Arbeitszeitbetrug"
+          - "Also seien sie so gut, gut, gut"
+      - lines:
+          - "Hallo Herr Dokter"
+          - "Warum muss ich arbeiten gehen?"
+          - "Und nicht 8 Stunden lang auf dem Strand liegen?"
+          - "Oder ausschlafen"
+          - "Oder Fernseher sehen"
+          - "Ich will 25/7 Bier saufen"
+      - lines:
+          - "In der Sonne"
+          - "Bis die Rübe rot ist"
+          - "Arbeiten kann man"
+          - "Wenn man ein Idiot ist (Dumm)"
+          - "Ich lasse meine Schlafihosi an (Sehr lang)"
+          - "Arbeitnehmers just wanna have fun (Ich will fun)"
+      - lines:
+          - "Gelb ist der Schein"
+          - "Rot ist der Wein"
+          - "Ich bleib daheim"
+          - "Ich bleib daheim"
+      - lines:
+          - "Gelb ist der Schein"
+          - "Rot ist der Wein"
+          - "Ich bleib daheim"
+          - "Ich bleib daheim"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+      - lines:
+          - "Hallo Herr Dokter"
+          - "Ich hab kein Bock mehr"
+          - "Bitte holen sie den gelben Block her"
+      - lines:
+          - "Hallo Herr Dokter"
+          - "Ich hab kein Bock mehr"
+          - "Ich hab kein Bock mehr"
+          - "Ich hab kein Bock mehr"
+      - lines:
+          - "(Hallo Herr Dokter!)"
+      - lines:
+          - "Ich kriege nie genug"
+          - "Vom Arbeitszeitbetrug"
+          - "Also seien sie so gut, gut, gut, yeah!"
+      - lines:
+          - "Ich kriege nie genug"
+          - "Vom Arbeitszeitbetrug"
+          - "Also seien sie so gut, gut, gut"
+      - lines:
+          - "Ich hab kein Bock mehr..."
+          - "Ich hab kein Bock mehr..."
+          - "Ich hab kein Bock!"
+          - "Ich hab kein Bock!"
+          - "Ich hab kein Bock!"
+          - "Ich hab kein Bock!"
+          - "Ich hab kein Bock!"
+          - "Ich hab kein Bock!"
+          - "Ich hab kein Bock!"
+          - "Ich hab kein Bock!"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Hello Mister Dokter"
+          - "I can't be arsed anymore"
+          - "Please fetch the yellow block"
+      - lines:
+          - "Hello Mister Dokter"
+          - "I can't be arsed anymore"
+          - "I can't be arsed anymore"
+          - "I can't be arsed anymore"
+      - lines:
+          - "(Hello Mister-)"
+      - lines:
+          - "Hello Mister Doctor"
+          - "I've been asking myself"
+          - "What do I do with this beautiful day?"
+          - "Do I go to the park?"
+          - "Do I drink myself into the coffin?"
+          - "Or do I fulfil my employment contract?"
+          - "(No!)"
+          - "Ow!"
+          - "If I press there it hurts"
+          - "And there too!"
+          - "I've got ouch ouch ouch"
+          - "And my belly"
+          - "Makes"
+          - "Weird noises"
+      - lines:
+          - "I can't work like this, oh dear"
+      - lines:
+          - "I never get enough"
+          - "Of workplace time theft"
+          - "So please be so kind"
+      - lines:
+          - "I never get enough"
+          - "Of workplace time theft"
+          - "So please be so kind, kind, kind"
+      - lines:
+          - "Hello Mister Dokter"
+          - "I can't be arsed anymore"
+          - "Please fetch the yellow block"
+      - lines:
+          - "Hello Mister Dokter"
+          - "I can't be arsed anymore"
+          - "I can't be arsed anymore"
+          - "I can't be arsed anymore"
+      - lines:
+          - "(Hello Mister-)"
+      - lines:
+          - "I never get enough"
+          - "Of workplace time theft"
+          - "So please be so kind, kind, kind"
+      - lines:
+          - "Hello Mister Dokter"
+          - "Why do I have to go to work?"
+          - "And not lie on the beach for 8 hours?"
+          - "Or sleep in"
+          - "Or watch TV"
+          - "I wanna booze beer 25/7"
+      - lines:
+          - "In the sun"
+          - "Till my head turns red"
+          - "You can work"
+          - "If you're an idiot (Dumb)"
+          - "I keep my jammies on (Very long)"
+          - "Employees just wanna have fun (I want fun)"
+      - lines:
+          - "Yellow is the note"
+          - "Red is the wine"
+          - "I'm staying home"
+          - "I'm staying home"
+      - lines:
+          - "Yellow is the note"
+          - "Red is the wine"
+          - "I'm staying home"
+          - "I'm staying home"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+      - lines:
+          - "Hello Mister Dokter"
+          - "I can't be arsed anymore"
+          - "Please fetch the yellow block"
+      - lines:
+          - "Hello Mister Dokter"
+          - "I can't be arsed anymore"
+          - "I can't be arsed anymore"
+          - "I can't be arsed anymore"
+      - lines:
+          - "(Hello Mister Dokter!)"
+      - lines:
+          - "I never get enough"
+          - "Of workplace time theft"
+          - "So please be so kind, kind, kind, yeah!"
+      - lines:
+          - "I never get enough"
+          - "Of workplace time theft"
+          - "So please be so kind, kind, kind"
+      - lines:
+          - "I can't be arsed anymore..."
+          - "I can't be arsed anymore..."
+          - "I can't be arsed!"
+          - "I can't be arsed!"
+          - "I can't be arsed!"
+          - "I can't be arsed!"
+          - "I can't be arsed!"
+          - "I can't be arsed!"
+          - "I can't be arsed!"
+          - "I can't be arsed!"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Salve signor Dokter"
+          - "Non ne ho più voglia"
+          - "Per favore mi porti il blocchetto giallo"
+      - lines:
+          - "Salve signor Dokter"
+          - "Non ne ho più voglia"
+          - "Non ne ho più voglia"
+          - "Non ne ho più voglia"
+      - lines:
+          - "(Salve signor-)"
+      - lines:
+          - "Salve signor dottore"
+          - "Mi sono chiesto"
+          - "Cosa faccio con questa bella giornata?"
+          - "Vado al parco?"
+          - "Mi bevo fino alla bara?"
+          - "O onoro il mio contratto di lavoro?"
+          - "(No!)"
+          - "Ahia!"
+          - "Se premo qui fa male"
+          - "E anche qui!"
+          - "Ho ahi ahi ahi"
+          - "E la pancia"
+          - "Fa"
+          - "Strani rumori"
+      - lines:
+          - "Così non posso lavorare, ohimè"
+      - lines:
+          - "Non ne ho mai abbastanza"
+          - "Della truffa sull'orario di lavoro"
+          - "Quindi sia così gentile"
+      - lines:
+          - "Non ne ho mai abbastanza"
+          - "Della truffa sull'orario di lavoro"
+          - "Quindi sia così gentile, gentile, gentile"
+      - lines:
+          - "Salve signor Dokter"
+          - "Non ne ho più voglia"
+          - "Per favore mi porti il blocchetto giallo"
+      - lines:
+          - "Salve signor Dokter"
+          - "Non ne ho più voglia"
+          - "Non ne ho più voglia"
+          - "Non ne ho più voglia"
+      - lines:
+          - "(Salve signor-)"
+      - lines:
+          - "Non ne ho mai abbastanza"
+          - "Della truffa sull'orario di lavoro"
+          - "Quindi sia così gentile, gentile, gentile"
+      - lines:
+          - "Salve signor Dokter"
+          - "Perché devo andare a lavorare?"
+          - "E non stare 8 ore sdraiato sulla spiaggia?"
+          - "O dormire fino a tardi"
+          - "O guardare la TV"
+          - "Voglio bere birra 25/7"
+      - lines:
+          - "Al sole"
+          - "Finché la zucca diventa rossa"
+          - "Si può lavorare"
+          - "Se sei un idiota (Stupido)"
+          - "Tengo su il pigiamino (Molto lungo)"
+          - "Gli impiegati vogliono solo divertirsi (Voglio divertirmi)"
+      - lines:
+          - "Giallo è il certificato"
+          - "Rosso è il vino"
+          - "Io resto a casa"
+          - "Io resto a casa"
+      - lines:
+          - "Giallo è il certificato"
+          - "Rosso è il vino"
+          - "Io resto a casa"
+          - "Io resto a casa"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+          - "Dab dabba dab"
+      - lines:
+          - "Salve signor Dokter"
+          - "Non ne ho più voglia"
+          - "Per favore mi porti il blocchetto giallo"
+      - lines:
+          - "Salve signor Dokter"
+          - "Non ne ho più voglia"
+          - "Non ne ho più voglia"
+          - "Non ne ho più voglia"
+      - lines:
+          - "(Salve signor Dokter!)"
+      - lines:
+          - "Non ne ho mai abbastanza"
+          - "Della truffa sull'orario di lavoro"
+          - "Quindi sia così gentile, gentile, gentile, yeah!"
+      - lines:
+          - "Non ne ho mai abbastanza"
+          - "Della truffa sull'orario di lavoro"
+          - "Quindi sia così gentile, gentile, gentile"
+      - lines:
+          - "Non ne ho più voglia..."
+          - "Non ne ho più voglia..."
+          - "Non ne ho più voglia!"
+          - "Non ne ho più voglia!"
+          - "Non ne ho più voglia!"
+          - "Non ne ho più voglia!"
+          - "Non ne ho più voglia!"
+          - "Non ne ho più voglia!"
+          - "Non ne ho più voglia!"
+          - "Non ne ho più voglia!"
+---

@@ -1,0 +1,177 @@
+---
+title: "Heirate mich"
+slug: "heirate-mich"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Man sieht ihn um die Kirche schleichen"
+          - "Seit einem Jahr ist er allein"
+          - "Die Trauer nahm ihm alle Sinne"
+          - "Schläft jede Nacht bei ihrem Stein"
+      - lines:
+          - "Dort bei den Glocken schläft ein Stein"
+          - "Ich alleine kann ihn lesen"
+          - "Und auf dem Zaun der rote Hahn"
+          - "Ist seinerzeit dein Herz gewesen"
+          - "Die Furcht auf diesen Zaun gespießt"
+          - "Gehe ich nun graben jede Nacht"
+          - "Zu sehen, was noch übrig ist"
+          - "Von dem Gesicht, das mir gelacht"
+      - lines:
+          - "Dort bei den Glocken verbring' ich die Nacht"
+          - "Dort zwischen Schnecken ein einsames Tier"
+          - "Tagsüber lauf' ich der Nacht hinterher"
+          - "Zum zweiten Mal entkommst du mir"
+      - lines:
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+      - lines:
+          - "Mit meinen Händen grab' ich tief"
+          - "Zu finden, was ich so vermisst"
+          - "Und als der Mond im schönsten Kleid"
+          - "Hab' deinen kalten Mund geküsst"
+          - "Ich nehm' dich zärtlich in den Arm"
+          - "Doch deine Haut reißt wie Papier"
+          - "Und Teile fallen von dir ab"
+          - "Zum zweiten Mal entkommst du mir"
+      - lines:
+          - "Dort bei den Glocken verbring' ich die Nacht"
+          - "Dort zwischen Schnecken ein einsames Tier"
+          - "Tagsüber lauf' ich der Nacht hinterher"
+          - "Zum zweiten Mal entkommst du mir"
+      - lines:
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+      - lines:
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+          - "Heirate mich (Hei-, hei-, hei-)"
+      - lines:
+          - "So nehm' ich, was noch übrig ist"
+          - "Die Nacht ist heiß und wir sind nackt"
+          - "Zum Fluch der Hahn den Morgen grüßt"
+          - "Ich hab' den Kopf ihm abgehackt"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "You can spot him sneaking around the church"
+          - "He's been alone for a year"
+          - "The sadness took away all his senses"
+          - "Sleeps by her headstone every night"
+      - lines:
+          - "There, near the bells, a stone is sleeping"
+          - "And I alone can read it"
+          - "And on the fence, a red cock"
+          - "That once was your heart"
+          - "The fear skewered unto this fence"
+          - "Now I go digging every night"
+          - "To see what still remains"
+          - "Of the face that I amused"
+      - lines:
+          - "There, near the bells, I spend the night"
+          - "There between snails, a lonely animal"
+          - "During the day I run after the night"
+          - "For the second time, you escape me"
+      - lines:
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+      - lines:
+          - "I dig deep with my hands"
+          - "To find what I miss so much"
+          - "And as the moon is in it's most beautiful dress"
+          - "Have kissed your cold mouth"
+          - "I tenderly take you into my arms"
+          - "But your skin tears like paper"
+          - "And parts fall from you"
+          - "For the second time, you escape me"
+      - lines:
+          - "There, near the bells, I spend the night"
+          - "There between snails, a lonely animal"
+          - "During the day I run after the night"
+          - "For the second time, you escape me"
+      - lines:
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+      - lines:
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+          - "Marry me (Hey, hey, hey)"
+      - lines:
+          - "So I take what's left"
+          - "The night is hot and we are naked"
+          - "As a curse, the cock greets the morning"
+          - "I have chopped off its head"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Lo si vede aggirarsi intorno alla chiesa"
+          - "Da un anno è solo"
+          - "Il lutto gli ha tolto ogni senso"
+          - "Dorme ogni notte accanto alla sua lapide"
+      - lines:
+          - "Là vicino alle campane dorme una pietra"
+          - "Solo io riesco a leggerla"
+          - "E sul recinto il gallo rosso"
+          - "Un tempo era il tuo cuore"
+          - "La paura infilzata su questo recinto"
+          - "Ora vado a scavare ogni notte"
+          - "Per vedere cosa resta ancora"
+          - "Del viso che mi rideva"
+      - lines:
+          - "Là vicino alle campane passo la notte"
+          - "Là tra le lumache un animale solitario"
+          - "Di giorno inseguo la notte"
+          - "Per la seconda volta mi sfuggi"
+      - lines:
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+      - lines:
+          - "Con le mie mani scavo in profondità"
+          - "Per trovare ciò che mi manca tanto"
+          - "E quando la luna nel vestito più bello"
+          - "Ho baciato la tua bocca fredda"
+          - "Ti prendo teneramente tra le braccia"
+          - "Ma la tua pelle si strappa come carta"
+          - "E pezzi cadono da te"
+          - "Per la seconda volta mi sfuggi"
+      - lines:
+          - "Là vicino alle campane passo la notte"
+          - "Là tra le lumache un animale solitario"
+          - "Di giorno inseguo la notte"
+          - "Per la seconda volta mi sfuggi"
+      - lines:
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+      - lines:
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+          - "Sposami (Ei-, ei-, ei-)"
+      - lines:
+          - "Così prendo ciò che è rimasto"
+          - "La notte è calda e siamo nudi"
+          - "Come maledizione il gallo saluta il mattino"
+          - "Gli ho tagliato la testa"
+---

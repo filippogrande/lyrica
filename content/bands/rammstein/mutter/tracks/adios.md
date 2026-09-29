@@ -1,0 +1,138 @@
+---
+title: "Adios"
+slug: "adios"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Er legt die Nadel auf die Ader"
+          - "Und bittet die Musik herein"
+          - "Zwischen Hals und Unterarm"
+          - "Die Melodie fährt leise ins Gebein"
+      - lines:
+          - "(Los! Los! Los!) Bop bop shu bop (Los! Los! Los!)"
+      - lines:
+          - "Er hat die Augen zugemacht"
+          - "In seinem Blut tobt eine Schlacht"
+          - "Ein Heer marschiert durch seinen Darm"
+          - "Die Eingeweide werden langsam warm"
+      - lines:
+          - "(Los! Los! Los!) Bop bop shu bop (Los! Los! Los!)"
+          - "(Los! Los! Los!) Bop bop shu bop (Los! Los! Los!)"
+      - lines:
+          - "Nichts ist für dich"
+          - "Nichts war für dich"
+          - "Nichts bleibt für dich"
+          - "Für immer"
+          - "Nichts ist für dich"
+          - "Nichts war für dich"
+          - "Nichts bleibt für dich"
+          - "Für immer"
+      - lines:
+          - "Er nimmt die Nadel von der Ader"
+          - "Die Melodie fährt aus der Haut"
+          - "Geigen brennen mit Gekreisch"
+          - "Harfen schneiden sich ins Fleisch"
+          - "Er hat die Augen aufgemacht"
+          - "Doch er ist nicht aufgewacht"
+      - lines:
+          - "Nichts ist für dich"
+          - "Nichts war für dich"
+          - "Nichts bleibt für dich"
+          - "Für immer"
+          - "Nichts ist für dich"
+          - "Nichts war für dich"
+          - "Nichts bleibt für dich"
+          - "Für immer"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "He puts the needle on the vein"
+          - "And invites the music in"
+          - "Between neck and forearm"
+          - "The melody settles quietly into the bone"
+      - lines:
+          - "(Go! Go! Go!) Bop bop shu bop (Go! Go! Go!)"
+      - lines:
+          - "He has closed his eyes"
+          - "In his blood rages a battle"
+          - "An army marches through his gut"
+          - "The intestines slowly warm up"
+      - lines:
+          - "(Go! Go! Go!) Bop bop shu bop (Go! Go! Go!)"
+          - "(Go! Go! Go!) Bop bop shu bop (Go! Go! Go!)"
+      - lines:
+          - "Nothing is for you"
+          - "Nothing was for you"
+          - "Nothing stays for you"
+          - "For always"
+          - "Nothing is for you"
+          - "Nothing was for you"
+          - "Nothing stays for you"
+          - "For always"
+      - lines:
+          - "He takes the needle from the vein"
+          - "The melody goes out of the skin"
+          - "Fiddles burn with shrieks"
+          - "Harps cut into the flesh"
+          - "He opened his eyes"
+          - "But he did not wake up"
+      - lines:
+          - "Nothing is for you"
+          - "Nothing was for you"
+          - "Nothing stays for you"
+          - "For always"
+          - "Nothing is for you"
+          - "Nothing was for you"
+          - "Nothing stays for you"
+          - "For always"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Mette l'ago sulla vena"
+          - "E invita la musica a entrare"
+          - "Tra collo e avambraccio"
+          - "La melodia scivola piano nelle ossa"
+      - lines:
+          - "(Vai! Vai! Vai!) Bop bop shu bop (Vai! Vai! Vai!)"
+      - lines:
+          - "Ha chiuso gli occhi"
+          - "Nel suo sangue infuria una battaglia"
+          - "Un esercito marcia nel suo intestino"
+          - "Le viscere si scaldano lentamente"
+      - lines:
+          - "(Vai! Vai! Vai!) Bop bop shu bop (Vai! Vai! Vai!)"
+          - "(Vai! Vai! Vai!) Bop bop shu bop (Vai! Vai! Vai!)"
+      - lines:
+          - "Niente è per te"
+          - "Niente era per te"
+          - "Niente resta per te"
+          - "Per sempre"
+          - "Niente è per te"
+          - "Niente era per te"
+          - "Niente resta per te"
+          - "Per sempre"
+      - lines:
+          - "Toglie l'ago dalla vena"
+          - "La melodia esce dalla pelle"
+          - "I violini bruciano con stridori"
+          - "Le arpe si tagliano nella carne"
+          - "Ha aperto gli occhi"
+          - "Ma non si è svegliato"
+      - lines:
+          - "Niente è per te"
+          - "Niente era per te"
+          - "Niente resta per te"
+          - "Per sempre"
+          - "Niente è per te"
+          - "Niente era per te"
+          - "Niente resta per te"
+          - "Per sempre"
+---

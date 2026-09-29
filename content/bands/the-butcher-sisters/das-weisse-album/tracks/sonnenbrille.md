@@ -1,0 +1,228 @@
+---
+title: "Sonnenbrille"
+slug: "sonnenbrille"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Ich sehe cool aus, ich sehe cool aus"
+          - "Ich komme cool mit der Brille aus dem Pool raus"
+          - "Ich sehe cool aus, ich sehe cool aus"
+          - "Ich komme cool mit der Brille aus dem Pool raus"
+          - "Sonnenbrille"
+          - "Sonnenbrille"
+      - lines:
+          - "Es ist so hell, es ist so hell"
+          - "Ich hole meine Sonnenbrille schnell"
+          - "Getönte Gläser, cool wie Laser"
+          - "Cooler wie ein cooler Hai, alle sagen zu mir hi"
+      - lines:
+          - "Ich sehe cool aus, ich sehe cool aus"
+          - "Ich komme cool mit der Brille aus dem Pool raus"
+          - "Ich sehe cool aus, ich sehe cool aus"
+          - "Ich komme cool mit der Brille aus dem Pool raus"
+      - lines:
+          - "Sonnenbrille im Gesicht"
+          - "Ohne Brille, ohne mich"
+          - "Sonnenbrille im Gesicht"
+          - "Heute ist Sonnenbrille Pflicht"
+          - "Sonnenbrille Pflicht, Sonnenbrille Pflicht"
+          - "Ohne Brille, ohne mich"
+          - "Sonnenbrille Pflicht, Sonnenbrille Pflicht"
+          - "Sonnenbrille im Gesicht"
+      - lines:
+          - "Sonnenbrille Pflicht"
+          - "Sonnenbrille"
+      - lines:
+          - "Die Sonne macht mich aggro"
+          - "Sie blendet mich im Auto"
+          - "Und auch auf dem Fahrrad"
+          - "Ich zieh' die Brille nie mehr ab"
+      - lines:
+          - "Sonnenbrillen hab' ich viel, Mann"
+          - "Ich bin Dauergast bei Fielmann"
+          - "Ich will sie alle haben, es ist mein letzter Wille"
+          - "Bitte gib mir bitte meine Sonnenbrille"
+      - lines:
+          - "Ich sehe cool aus, ich sehe cool aus"
+          - "Ich komme cool mit der Brille aus dem Pool raus"
+          - "Ich sehe cool aus, ich sehe cool aus"
+          - "Ich komme cool mit der Brille aus dem Pool raus"
+      - lines:
+          - "Sonnenbrille im Gesicht"
+          - "Ohne Brille, ohne mich"
+          - "Sonnenbrille im Gesicht"
+          - "Heute ist Sonnenbrille Pflicht"
+          - "Sonnenbrille Pflicht, Sonnenbrille Pflicht"
+          - "Ohne Brille, ohne mich"
+          - "Sonnenbrille Pflicht, Sonnenbrille Pflicht"
+          - "Sonnenbrille im Gesicht"
+      - lines:
+          - "Die Sonne lacht, ich lach' zurück (Hahaha, hahaha, ha, ha)"
+          - "Sie schenkt mir Freude, schenkt mir Glück, uh"
+          - "Schieß mir dein heißes UV"
+          - "In mein Gesicht und auf meinen Bauch"
+      - lines:
+          - "Sonnenbrille im Gesicht"
+          - "Ohne Brille, ohne mich"
+          - "Sonnenbrille im Gesicht"
+          - "Heute ist Sonnenbrille Pflicht"
+          - "Sonnenbrille Pflicht, Sonnenbrille Pflicht"
+          - "Ohne Brille, ohne mich"
+          - "Sonnenbrille Pflicht, Sonnenbrille Pflicht"
+          - "Sonnenbrille im Gesicht"
+      - lines:
+          - "Sonnenbrille Pflicht"
+          - "Sonnenbrille"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "I look cool, I look cool"
+          - "I come out of the pool cool with the shades on"
+          - "I look cool, I look cool"
+          - "I come out of the pool cool with the shades on"
+          - "Sunglasses"
+          - "Sunglasses"
+      - lines:
+          - "It's so bright, it's so bright"
+          - "I grab my sunglasses quick"
+          - "Tinted lenses, cool like lasers"
+          - "Cooler than a cool shark, everyone says hi to me"
+      - lines:
+          - "I look cool, I look cool"
+          - "I come out of the pool cool with the shades on"
+          - "I look cool, I look cool"
+          - "I come out of the pool cool with the shades on"
+      - lines:
+          - "Sunglasses on my face"
+          - "No shades, no me"
+          - "Sunglasses on my face"
+          - "Today sunglasses are mandatory"
+          - "Sunglasses mandatory, sunglasses mandatory"
+          - "No shades, no me"
+          - "Sunglasses mandatory, sunglasses mandatory"
+          - "Sunglasses on my face"
+      - lines:
+          - "Sunglasses mandatory"
+          - "Sunglasses"
+      - lines:
+          - "The sun makes me aggro"
+          - "It blinds me in the car"
+          - "And on the bike too"
+          - "I'll never take the shades off again"
+      - lines:
+          - "I've got plenty of sunglasses, man"
+          - "I'm a regular at Fielmann"
+          - "I want them all, it's my last will"
+          - "Please just give me my sunglasses"
+      - lines:
+          - "I look cool, I look cool"
+          - "I come out of the pool cool with the shades on"
+          - "I look cool, I look cool"
+          - "I come out of the pool cool with the shades on"
+      - lines:
+          - "Sunglasses on my face"
+          - "No shades, no me"
+          - "Sunglasses on my face"
+          - "Today sunglasses are mandatory"
+          - "Sunglasses mandatory, sunglasses mandatory"
+          - "No shades, no me"
+          - "Sunglasses mandatory, sunglasses mandatory"
+          - "Sunglasses on my face"
+      - lines:
+          - "The sun laughs, I laugh back (Hahaha, hahaha, ha, ha)"
+          - "It gives me joy, gives me luck, uh"
+          - "Shoot your hot UV at me"
+          - "In my face and on my belly"
+      - lines:
+          - "Sunglasses on my face"
+          - "No shades, no me"
+          - "Sunglasses on my face"
+          - "Today sunglasses are mandatory"
+          - "Sunglasses mandatory, sunglasses mandatory"
+          - "No shades, no me"
+          - "Sunglasses mandatory, sunglasses mandatory"
+          - "Sunglasses on my face"
+      - lines:
+          - "Sunglasses mandatory"
+          - "Sunglasses"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Sembro figo, sembro figo"
+          - "Esco dalla piscina figo con gli occhiali"
+          - "Sembro figo, sembro figo"
+          - "Esco dalla piscina figo con gli occhiali"
+          - "Occhiali da sole"
+          - "Occhiali da sole"
+      - lines:
+          - "C'è così tanta luce, c'è così tanta luce"
+          - "Prendo subito i miei occhiali da sole"
+          - "Lenti colorate, fighi come laser"
+          - "Più figo di uno squalo figo, tutti mi dicono ciao"
+      - lines:
+          - "Sembro figo, sembro figo"
+          - "Esco dalla piscina figo con gli occhiali"
+          - "Sembro figo, sembro figo"
+          - "Esco dalla piscina figo con gli occhiali"
+      - lines:
+          - "Occhiali da sole sul viso"
+          - "Senza occhiali, senza di me"
+          - "Occhiali da sole sul viso"
+          - "Oggi gli occhiali da sole sono obbligatori"
+          - "Occhiali obbligatori, occhiali obbligatori"
+          - "Senza occhiali, senza di me"
+          - "Occhiali obbligatori, occhiali obbligatori"
+          - "Occhiali da sole sul viso"
+      - lines:
+          - "Occhiali da sole obbligatori"
+          - "Occhiali da sole"
+      - lines:
+          - "Il sole mi fa incazzare"
+          - "Mi acceca in macchina"
+          - "E anche in bicicletta"
+          - "Non toglierò mai più gli occhiali"
+      - lines:
+          - "Di occhiali da sole ne ho tanti, amico"
+          - "Sono un cliente fisso da Fielmann"
+          - "Li voglio tutti, è il mio ultimo desiderio"
+          - "Ti prego, dammi i miei occhiali da sole"
+      - lines:
+          - "Sembro figo, sembro figo"
+          - "Esco dalla piscina figo con gli occhiali"
+          - "Sembro figo, sembro figo"
+          - "Esco dalla piscina figo con gli occhiali"
+      - lines:
+          - "Occhiali da sole sul viso"
+          - "Senza occhiali, senza di me"
+          - "Occhiali da sole sul viso"
+          - "Oggi gli occhiali da sole sono obbligatori"
+          - "Occhiali obbligatori, occhiali obbligatori"
+          - "Senza occhiali, senza di me"
+          - "Occhiali obbligatori, occhiali obbligatori"
+          - "Occhiali da sole sul viso"
+      - lines:
+          - "Il sole ride, io rido di rimando (Hahaha, hahaha, ha, ha)"
+          - "Mi regala gioia, mi regala fortuna, uh"
+          - "Sparami addosso i tuoi raggi UV bollenti"
+          - "In faccia e sulla pancia"
+      - lines:
+          - "Occhiali da sole sul viso"
+          - "Senza occhiali, senza di me"
+          - "Occhiali da sole sul viso"
+          - "Oggi gli occhiali da sole sono obbligatori"
+          - "Occhiali obbligatori, occhiali obbligatori"
+          - "Senza occhiali, senza di me"
+          - "Occhiali obbligatori, occhiali obbligatori"
+          - "Occhiali da sole sul viso"
+      - lines:
+          - "Occhiali da sole obbligatori"
+          - "Occhiali da sole"
+---

@@ -1,0 +1,207 @@
+---
+title: "Great Music Band"
+slug: "great-music-band"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "We are cool (Cool), aber it is not kalt"
+          - "Wir rufing Hai (Hi baby) but are not am Strand"
+          - "Living the Rockstern-Lebensstil, never don't stop"
+          - "The Dokter sagt, weniger Party but we do it not (Here we go)"
+          - "It's the great music Band (Yeah) rocking your Stadt"
+          - "We spiel a very good Lied (Yeah) and all going ab, let's go"
+          - "Uh, baby, baby, uh, baby, baby"
+          - "Move your hands hin und her als ob du wirklich no carest"
+          - "Let's go"
+      - lines:
+          - "Wochenende"
+          - "Uh, baby, baby, Wochenende"
+          - "Wo-wo-wo-wo-wo-wochenende"
+          - "Making Party, sehr viel"
+          - "We have a good feel"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Great music, great music"
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Band, Band"
+      - lines:
+          - "Ja, aha"
+          - "Aha, aha, ja"
+      - lines:
+          - "Yeah, yeah, what goes up?"
+          - "What goes up? I say what goes up?"
+          - "Rock around in every Stadt"
+          - "Come on, here we go, we never stop"
+          - "Bright city lights, sitzing in my Ferrari"
+          - "I'm on my Weg now (Yeah) zur nexten Party (Let's go)"
+          - "Zur Party? Zur Party"
+          - "Zur Party? Zur Party"
+          - "Du fragst, was ich tragi?"
+          - "Forever, Ed Hardy"
+          - "Check it out"
+      - lines:
+          - "Zur Party? Zur Party"
+          - "Ed Hardy? Ed Hardy"
+          - "Bacardi? Bacardi"
+          - "Zur Party? Check it out"
+          - "Ja!"
+          - "Check it out"
+          - "Zur Party? Zur Party"
+          - "Zur Party? Zur Party"
+          - "Bacardi, Ed Hardy"
+          - "Ferrari, let's party"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Great music, great music"
+          - "Let's go, ja, ja (La-la-la-la-la-la-la-la-al-la-la)"
+          - "La-la-la-la-la-la"
+          - "Und jetzt: Band, Band"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la (Everybody go)"
+          - "La-la-la-la-la-la"
+          - "Great music, great music band"
+          - "La-la-la-la-la-la-la-la-al-la-la (Let's go, let's go, here we go)"
+          - "La-la-la-la-la-la"
+          - "Band, Band, ja, ja"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "We are cool (Cool), but it is not cold"
+          - "We are calling shark (Hi baby) but we're not at the beach"
+          - "Living the rockstar lifestyle, never don't stop"
+          - "The Dokter says less party but we don't do it (Here we go)"
+          - "It's the great music band (Yeah) rocking your town"
+          - "We play a very good song (Yeah) and everyone's going off, let's go"
+          - "Uh, baby, baby, uh, baby, baby"
+          - "Move your hands back and forth as if you really didn't care"
+          - "Let's go"
+      - lines:
+          - "Weekend"
+          - "Uh, baby, baby, weekend"
+          - "Wee-wee-wee-wee-wee-weekend"
+          - "Making party, a whole lot"
+          - "We have a good feel"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Great music, great music"
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Band, Band"
+      - lines:
+          - "Yeah, aha"
+          - "Aha, aha, yeah"
+      - lines:
+          - "Yeah, yeah, what goes up?"
+          - "What goes up? I say what goes up?"
+          - "Rock around in every town"
+          - "Come on, here we go, we never stop"
+          - "Bright city lights, sitting in my Ferrari"
+          - "I'm on my way now (Yeah) to the next party (Let's go)"
+          - "To the party? To the party"
+          - "To the party? To the party"
+          - "You ask what I'm wearing?"
+          - "Forever, Ed Hardy"
+          - "Check it out"
+      - lines:
+          - "To the party? To the party"
+          - "Ed Hardy? Ed Hardy"
+          - "Bacardi? Bacardi"
+          - "To the party? Check it out"
+          - "Yeah!"
+          - "Check it out"
+          - "To the party? To the party"
+          - "To the party? To the party"
+          - "Bacardi, Ed Hardy"
+          - "Ferrari, let's party"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Great music, great music"
+          - "Let's go, yeah, yeah (La-la-la-la-la-la-la-la-al-la-la)"
+          - "La-la-la-la-la-la"
+          - "And now: Band, Band"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la (Everybody go)"
+          - "La-la-la-la-la-la"
+          - "Great music, great music band"
+          - "La-la-la-la-la-la-la-la-al-la-la (Let's go, let's go, here we go)"
+          - "La-la-la-la-la-la"
+          - "Band, Band, yeah, yeah"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Siamo cool (Cool), ma non fa freddo"
+          - "Chiamiamo squalo (Hi baby) ma non siamo in spiaggia"
+          - "Viviamo lo stile di vita da rockstar, non ci fermiamo mai"
+          - "Il Dokter dice meno festa ma noi non lo facciamo (Si parte)"
+          - "È la great music band (Yeah) che spacca la tua città"
+          - "Suoniamo una canzone molto buona (Yeah) e tutti si scatenano, andiamo"
+          - "Uh, baby, baby, uh, baby, baby"
+          - "Muovi le mani avanti e indietro come se non ti importasse davvero"
+          - "Andiamo"
+      - lines:
+          - "Weekend"
+          - "Uh, baby, baby, weekend"
+          - "We-we-we-we-we-weekend"
+          - "Facciamo festa, un sacco"
+          - "Abbiamo una bella sensazione"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Bella musica, bella musica"
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Band, band"
+      - lines:
+          - "Sì, aha"
+          - "Aha, aha, sì"
+      - lines:
+          - "Yeah, yeah, cosa va su?"
+          - "Cosa va su? Dico, cosa va su?"
+          - "Rock in giro in ogni città"
+          - "Dai, si parte, non ci fermiamo mai"
+          - "Luci brillanti della città, seduto nella mia Ferrari"
+          - "Sono in cammino ora (Yeah) verso la prossima festa (Andiamo)"
+          - "Alla festa? Alla festa"
+          - "Alla festa? Alla festa"
+          - "Mi chiedi cosa indosso?"
+          - "Per sempre, Ed Hardy"
+          - "Dai un'occhiata"
+      - lines:
+          - "Alla festa? Alla festa"
+          - "Ed Hardy? Ed Hardy"
+          - "Bacardi? Bacardi"
+          - "Alla festa? Dai un'occhiata"
+          - "Sì!"
+          - "Dai un'occhiata"
+          - "Alla festa? Alla festa"
+          - "Alla festa? Alla festa"
+          - "Bacardi, Ed Hardy"
+          - "Ferrari, facciamo festa"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la"
+          - "La-la-la-la-la-la"
+          - "Bella musica, bella musica"
+          - "Andiamo, sì, sì (La-la-la-la-la-la-la-la-al-la-la)"
+          - "La-la-la-la-la-la"
+          - "E adesso: band, band"
+      - lines:
+          - "La-la-la-la-la-la-la-la-al-la-la (Tutti dentro)"
+          - "La-la-la-la-la-la"
+          - "Bella musica, bella musica, band"
+          - "La-la-la-la-la-la-la-la-al-la-la (Andiamo, andiamo, si parte)"
+          - "La-la-la-la-la-la"
+          - "Band, band, sì, sì"
+---

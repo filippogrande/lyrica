@@ -1,0 +1,135 @@
+---
+title: "Weißes Fleisch"
+slug: "weisses-fleisch"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Weißes Fleisch!"
+      - lines:
+          - "Du auf dem Schulhof, ich zum Töten bereit"
+          - "Und keiner hier weiß von meiner Einsamkeit"
+          - "Rote Striemen auf weißer Haut"
+          - "Ich tu' dir weh und du jammerst laut"
+      - lines:
+          - "Jetzt hast du Angst und ich bin soweit"
+          - "Mein schwarzes Blut versaut dir das Kleid"
+      - lines:
+          - "Dein weißes Fleisch erregt mich so (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Ich bin doch nur ein Gigolo (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Dein weißes Fleisch erleuchtet mich (Fleisch, Fleisch, Fleisch, Fleisch!)"
+      - lines:
+          - "Mein schwarzes Blut und dein weißes Fleisch"
+          - "Ich werd' immer geiler von deinem Gekreisch"
+          - "Der Angstschweiß da auf deiner weißen Stirn"
+          - "Hagelt in mein krankes Gehirn"
+      - lines:
+          - "Dein weißes Fleisch erregt mich so (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Ich bin doch nur ein Gigolo (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Mein Vater war genau wie ich (Fleisch, Fleisch, Fleisch!)"
+          - "Dein weißes Fleisch erleuchtet mich"
+      - lines:
+          - "Jetzt hast du Angst und ich bin soweit"
+          - "Mein krankes Dasein nach Erlösung schreit"
+          - "Dein weißes Fleisch wird mein Schafott-t-t-t"
+          - "In meinem Himmel gibt es keinen Gott"
+      - lines:
+          - "Dein weißes Fleisch erregt mich so (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Ich bin doch nur ein Gigolo (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Dein weißes Fleisch erleuchtet mich (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Mein Vater war genau wie ich (Fleisch, Fleisch, Fleisch, Fleisch!)"
+      - lines:
+          - "Dein weißes Fleisch erregt mich so (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Ich bin ein trauriger Gigolo (Fleisch, Fleisch, Fleisch, Fleisch!)"
+          - "Dein weißes Fleisch erleuchtet (Fleisch, Fleisch, Fleisch!)"
+          - "Mich"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "White flesh"
+      - lines:
+          - "You, on the school yard, Me, ready to kill"
+          - "And no one here is aware of my loneliness"
+          - "Red marks on white skin"
+          - "I hurt you and you whine loudly"
+      - lines:
+          - "Now you have fear and I'm ready"
+          - "My black blood is messing up your dress"
+      - lines:
+          - "Your white flesh excites me so (flesh, flesh, flesh, flesh)"
+          - "I'm just a gigolo (flesh, flesh, flesh, flesh)"
+          - "Your white flesh enlightens me (flesh, flesh, flesh, flesh)"
+      - lines:
+          - "My black blood and your white flesh"
+          - "I get endlessly more horny from your screams"
+          - "The cold sweat there on your white forehead"
+          - "Hails into my sick brain"
+      - lines:
+          - "Your white flesh excites me so (flesh, flesh, flesh, flesh)"
+          - "I'm just a gigolo (flesh, flesh, flesh, flesh)"
+          - "My father was just like me (flesh, flesh, flesh, flesh)"
+          - "Your white flesh enlightens me"
+      - lines:
+          - "Now you have fear and I'm ready"
+          - "My sick presence that screams for salvation"
+          - "Your white flesh becomes my scaffolding"
+          - "In my heaven there is no God"
+      - lines:
+          - "Your white flesh excites me so (flesh, flesh, flesh, flesh)"
+          - "I'm just a gigolo (flesh, flesh, flesh, flesh)"
+          - "Your white flesh enlightens me (flesh, flesh, flesh, flesh)"
+          - "My father was just like me (flesh, flesh, flesh, flesh)"
+      - lines:
+          - "Your white flesh excites me so (flesh, flesh, flesh, flesh)"
+          - "I'm a sad gigolo (flesh, flesh, flesh, flesh)"
+          - "Your white flesh enlightens me (flesh, flesh, flesh)"
+          - "Me"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Carne bianca!"
+      - lines:
+          - "Tu nel cortile della scuola, io pronto a uccidere"
+          - "E nessuno qui sa della mia solitudine"
+          - "Striature rosse sulla pelle bianca"
+          - "Ti faccio male e tu gemi forte"
+      - lines:
+          - "Ora hai paura e io sono pronto"
+          - "Il mio sangue nero ti sporca il vestito"
+      - lines:
+          - "La tua carne bianca mi eccita così tanto (Carne, carne, carne, carne!)"
+          - "Sono solo un gigolò (Carne, carne, carne, carne!)"
+          - "La tua carne bianca mi illumina (Carne, carne, carne, carne!)"
+      - lines:
+          - "Il mio sangue nero e la tua carne bianca"
+          - "Divento sempre più eccitato dal tuo strillo"
+          - "Il sudore freddo sulla tua fronte bianca"
+          - "Grandina nel mio cervello malato"
+      - lines:
+          - "La tua carne bianca mi eccita così tanto (Carne, carne, carne, carne!)"
+          - "Sono solo un gigolò (Carne, carne, carne, carne!)"
+          - "Mio padre era proprio come me (Carne, carne, carne!)"
+          - "La tua carne bianca mi illumina"
+      - lines:
+          - "Ora hai paura e io sono pronto"
+          - "La mia esistenza malata grida redenzione"
+          - "La tua carne bianca sarà il mio patibolo-o-o-o"
+          - "Nel mio paradiso non c'è nessun dio"
+      - lines:
+          - "La tua carne bianca mi eccita così tanto (Carne, carne, carne, carne!)"
+          - "Sono solo un gigolò (Carne, carne, carne, carne!)"
+          - "La tua carne bianca mi illumina (Carne, carne, carne, carne!)"
+          - "Mio padre era proprio come me (Carne, carne, carne, carne!)"
+      - lines:
+          - "La tua carne bianca mi eccita così tanto (Carne, carne, carne, carne!)"
+          - "Sono un gigolò triste (Carne, carne, carne, carne!)"
+          - "La tua carne bianca mi illumina (Carne, carne, carne!)"
+          - "Me"
+---

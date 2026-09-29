@@ -1,0 +1,186 @@
+---
+title: "Lachen"
+slug: "lachen"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Lachen"
+          - "Lachen"
+          - "Lachen"
+          - "Ha-haha-ha-ha-ha-ha-haha"
+          - "Lachen"
+      - lines:
+          - "Ich hab' bei Spiderman angerufen"
+          - "Aber er hatte kein Netz, der Huensn (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Ich hab' das Brot angerufen, es war belegt"
+          - "Wegen Belag auf dem Brot (Ha-ha-ha-ha)"
+          - "Du verstehst?"
+          - "Beim Bäcker ging nur die Mehlbox ran"
+          - "Im Hotel war kein Empfang"
+          - "Keine Sau ging beim Metzger ran"
+          - "TBS liebt Spaß und Fun"
+      - lines:
+          - "Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)"
+      - lines:
+          - "Was macht ein Steak unter dem Sofa?"
+          - "Na, sich versteaken, du Opfer (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Achtung, jetzt kommt noch ein Banger"
+          - "Für alt-weiße Cis-Männer"
+          - "Warum ist der Schniedelwutz im Knast?"
+          - "(Achtung) Weil er gestanden hat"
+      - lines:
+          - "Ha, ja, ja, ich hab' auch einen"
+          - "Also äh, Fritzchen geht zum Bäcker und ähm"
+          - "Der will äh, zwei Brötchen bestellt der"
+          - "Und die Bäckerfrau äh, die guckt ihn an und sagt"
+          - "Äh, nehmen Sie doch drei äh, äh, ähm"
+          - "Dann hamse eins mehr"
+          - "Oh, hoho, ho, hoho, hoho, ja, äh"
+          - "Ein Mann u-und, eine Frau und also, oh"
+          - "Lachen"
+          - "Lachen"
+      - lines:
+          - "Lauscher auf und hört mal her"
+          - "Wo der herkam, gibt's noch mehr"
+          - "Die Witze so gut, das ist nicht fair"
+          - "TBS sind lustig und zwar sehr"
+          - "Auf der Arbeit wieder Stress"
+          - "Auch privat hast du nur Pech"
+          - "Wir sind für dich da, zu jeder Zeit"
+          - "Immer für 'nen Joke bereit"
+          - "Ha-ha-ha"
+      - lines:
+          - "Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)"
+          - "Lachen!"
+          - "Lachen!"
+          - "Lachen!"
+          - "Ha-haha-ha-ha-ha-ha-haha"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Laughing"
+          - "Laughing"
+          - "Laughing"
+          - "Ha-haha-ha-ha-ha-ha-haha"
+          - "Laughing"
+      - lines:
+          - "I called Spiderman"
+          - "But he had no signal, the moron (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "I called the bread, it was engaged"
+          - "Because of the topping on the bread (Ha-ha-ha-ha)"
+          - "You get it?"
+          - "At the bakery only the flour box picked up"
+          - "At the hotel there was no reception"
+          - "Nobody picked up at the butcher's"
+          - "TBS loves fun and fun"
+      - lines:
+          - "Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)"
+      - lines:
+          - "What's a steak doing under the sofa?"
+          - "Well, hiding like a steak, you loser (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Watch out, here comes another banger"
+          - "For old white cis men"
+          - "Why is the willy in jail?"
+          - "(Watch out) Because he stood up"
+      - lines:
+          - "Ha, yeah, yeah, I've got one too"
+          - "So, uh, little Fritzchen goes to the bakery and, um"
+          - "He wants, uh, he orders two rolls"
+          - "And the baker lady, uh, looks at him and says"
+          - "Uh, why don't you take three, uh, uh, um"
+          - "Then you'll have one more"
+          - "Oh, hoho, ho, hoho, hoho, yeah, uh"
+          - "A man a-and, a woman and so, oh"
+          - "Laughing"
+          - "Laughing"
+      - lines:
+          - "Prick up your ears and listen"
+          - "Where that came from, there's more"
+          - "The jokes so good, it's not fair"
+          - "TBS are funny and very much so"
+          - "Stress again at work"
+          - "In private life you're just unlucky too"
+          - "We're there for you, at any time"
+          - "Always ready for a joke"
+          - "Ha-ha-ha"
+      - lines:
+          - "Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)"
+          - "Laughing!"
+          - "Laughing!"
+          - "Laughing!"
+          - "Ha-haha-ha-ha-ha-ha-haha"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Ridere"
+          - "Ridere"
+          - "Ridere"
+          - "Ha-haha-ha-ha-ha-ha-haha"
+          - "Ridere"
+      - lines:
+          - "Ho chiamato Spiderman"
+          - "Ma non aveva segnale, il cretino (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Ho chiamato il pane, era occupato"
+          - "Per colpa del condimento sul pane (Ha-ha-ha-ha)"
+          - "Capito?"
+          - "Dal fornaio rispondeva solo la casella della farina"
+          - "In hotel non c'era ricezione"
+          - "Al macellaio non rispondeva nessuno"
+          - "TBS ama il divertimento e il fun"
+      - lines:
+          - "Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)"
+      - lines:
+          - "Cosa fa una bistecca sotto il divano?"
+          - "Beh, si sta nascondendo, bistecca, sfigato (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Attenzione, adesso arriva un altro banger"
+          - "Per uomini cis bianchi e vecchi"
+          - "Perché il pisellino è in galera?"
+          - "(Attenzione) Perché si è alzato"
+      - lines:
+          - "Ha, sì, sì, ne ho anch'io una"
+          - "Allora ehm, Fritzchen va dal fornaio e ehm"
+          - "Vuole ehm, ordina due panini"
+          - "E la fornaia ehm, lo guarda e dice"
+          - "Ehm, prenda tre ehm, ehm, ehm"
+          - "Così ne ha uno in più"
+          - "Oh, hoho, ho, hoho, hoho, sì, ehm"
+          - "Un uomo e-e, una donna e quindi, oh"
+          - "Ridere"
+          - "Ridere"
+      - lines:
+          - "Orecchie aperte e ascoltate"
+          - "Da dove viene quello, ce n'è ancora"
+          - "Le barzellette così belle, non è giusto"
+          - "TBS sono divertenti e pure molto"
+          - "Al lavoro di nuovo stress"
+          - "Anche in privato hai solo sfortuna"
+          - "Ci siamo per te, in ogni momento"
+          - "Sempre pronti per una battuta"
+          - "Ha-ha-ha"
+      - lines:
+          - "Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)"
+          - "Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)"
+          - "Ridere!"
+          - "Ridere!"
+          - "Ridere!"
+          - "Ha-haha-ha-ha-ha-ha-haha"
+---

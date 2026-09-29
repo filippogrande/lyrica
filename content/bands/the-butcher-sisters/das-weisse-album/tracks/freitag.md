@@ -1,0 +1,186 @@
+---
+title: "Freitag (feat. Alligatoah)"
+slug: "freitag"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Wann ist wieder Freitag?"
+          - "Der Tag, nach dem ich frei hab'"
+          - "Wann ist wieder Freitag?"
+          - "Der Tag, nach dem ich frei hab', woah"
+      - lines:
+          - "Ich steh' auf"
+          - "Biep-biep macht der Wecker, ich muss raus"
+          - "Viertel sechs Uhr, mein Leben macht au"
+          - "Hup-hup macht die Hupe wegen Stau"
+          - "Ich raste aus"
+      - lines:
+          - "Wann ist wieder Freitag?"
+          - "Der Tag, nach dem ich frei hab' (Heh)"
+          - "Wann ist wieder Freitag?"
+          - "Der Tag, nach dem ich frei hab', woah (Freitag!)"
+      - lines:
+          - "Wochenende"
+          - "Uh, Baby, Baby, Wochenende"
+          - "Wo-Wo-Wo-Wo-Wo-Wochenende"
+          - "Die gottverdammte Woche ist zu Ende"
+          - "Boom, b-boom, boom, boom"
+          - "Ich geh' heute dumm, d-dumm, dumm, dumm"
+          - "Boom, b-boom, boom, boom"
+          - "Ich geh' heute dumm"
+      - lines:
+          - "Im Büro"
+          - "Null Komma null, null Motivation"
+          - "Acht Uhr, ich verstecke mich im Klo"
+          - "Wieso, wieso, wieso"
+          - "Wurd ich kein Rapper wie Clueso oder Cro?"
+          - "Ich kündige fast"
+          - "Wieder war es knapp, wieder war es knapp"
+          - "Ich kündige fast"
+          - "Nächste Woche klappt's"
+      - lines:
+          - "Wann ist wieder Freitag? (Wann?)"
+          - "Der Tag, nach dem ich frei hab' (Der Tag, nach dem ich frei hab')"
+          - "Wann ist wieder Freitag? (Sag mir, wann?)"
+          - "Der Tag, nach dem ich frei hab', woah (Hey, hey)"
+      - lines:
+          - "(Wo-, Wo-, Wo-Wo-Wo-Wo-Wo-Wo-)"
+          - "Wochenende"
+          - "Uh, Baby, Baby, Wochenende"
+          - "Wo-Wo-Wo-Wo-Wo-Wochenende"
+          - "Die gottverdammte Woche ist zu Ende"
+      - lines:
+          - "La, la, la, la-la (Wochenende)"
+          - "Uh, la-la-la-la, la, la, la, la-la (Wochenende)"
+          - "Uh, la-la-la-la, la, la, la, la-la (Wochenende)"
+          - "Die gottverdammte Woche ist zu Ende"
+      - lines:
+          - "Scheiß Arbeit"
+          - "Scheiß Arbeit"
+          - "Ich will hier wieder weg"
+          - "Ich hasse meinen Chef"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "When is it Friday again?"
+          - "The day after which I'm off"
+          - "When is it Friday again?"
+          - "The day after which I'm off, woah"
+      - lines:
+          - "I get up"
+          - "Beep-beep goes the alarm, I gotta get out"
+          - "Quarter past five, my life goes ouch"
+          - "Honk-honk goes the horn because of the traffic jam"
+          - "I freak out"
+      - lines:
+          - "When is it Friday again?"
+          - "The day after which I'm off (Heh)"
+          - "When is it Friday again?"
+          - "The day after which I'm off, woah (Friday!)"
+      - lines:
+          - "Weekend"
+          - "Uh, baby, baby, weekend"
+          - "Wee-wee-wee-wee-wee-weekend"
+          - "The goddamn week is over"
+          - "Boom, b-boom, boom, boom"
+          - "I'm going dumb today, d-dumb, dumb, dumb"
+          - "Boom, b-boom, boom, boom"
+          - "I'm going dumb today"
+      - lines:
+          - "In the office"
+          - "Zero point zero, zero motivation"
+          - "Eight o'clock, I hide in the toilet"
+          - "Why, why, why"
+          - "Didn't I become a rapper like Clueso or Cro?"
+          - "I almost quit"
+          - "It was close again, it was close again"
+          - "I almost quit"
+          - "Next week it'll work out"
+      - lines:
+          - "When is it Friday again? (When?)"
+          - "The day after which I'm off (The day after which I'm off)"
+          - "When is it Friday again? (Tell me, when?)"
+          - "The day after which I'm off, woah (Hey, hey)"
+      - lines:
+          - "(Wo-, Wo-, Wo-Wo-Wo-Wo-Wo-Wo-)"
+          - "Weekend"
+          - "Uh, baby, baby, weekend"
+          - "Wee-wee-wee-wee-wee-weekend"
+          - "The goddamn week is over"
+      - lines:
+          - "La, la, la, la-la (Weekend)"
+          - "Uh, la-la-la-la, la, la, la, la-la (Weekend)"
+          - "Uh, la-la-la-la, la, la, la, la-la (Weekend)"
+          - "The goddamn week is over"
+      - lines:
+          - "Shitty job"
+          - "Shitty job"
+          - "I wanna get out of here again"
+          - "I hate my boss"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Quando è di nuovo venerdì?"
+          - "Il giorno dopo cui sono libero"
+          - "Quando è di nuovo venerdì?"
+          - "Il giorno dopo cui sono libero, woah"
+      - lines:
+          - "Mi alzo"
+          - "Bip-bip fa la sveglia, devo uscire"
+          - "Cinque e un quarto, la mia vita fa ahi"
+          - "Bip-bip fa il clacson per il traffico"
+          - "Io esco di testa"
+      - lines:
+          - "Quando è di nuovo venerdì?"
+          - "Il giorno dopo cui sono libero (Heh)"
+          - "Quando è di nuovo venerdì?"
+          - "Il giorno dopo cui sono libero, woah (Venerdì!)"
+      - lines:
+          - "Weekend"
+          - "Uh, baby, baby, weekend"
+          - "We-we-we-we-we-weekend"
+          - "La dannata settimana è finita"
+          - "Boom, b-boom, boom, boom"
+          - "Oggi faccio il cretino, c-cretino, cretino, cretino"
+          - "Boom, b-boom, boom, boom"
+          - "Oggi faccio il cretino"
+      - lines:
+          - "In ufficio"
+          - "Zero virgola zero, zero motivazione"
+          - "Alle otto mi nascondo in bagno"
+          - "Perché, perché, perché"
+          - "Non sono diventato un rapper come Clueso o Cro?"
+          - "Per poco non mi licenzio"
+          - "Ci è mancato poco, ci è mancato poco"
+          - "Per poco non mi licenzio"
+          - "La prossima settimana ce la faccio"
+      - lines:
+          - "Quando è di nuovo venerdì? (Quando?)"
+          - "Il giorno dopo cui sono libero (Il giorno dopo cui sono libero)"
+          - "Quando è di nuovo venerdì? (Dimmi, quando?)"
+          - "Il giorno dopo cui sono libero, woah (Hey, hey)"
+      - lines:
+          - "(We-, We-, We-We-We-We-We-We-)"
+          - "Weekend"
+          - "Uh, baby, baby, weekend"
+          - "We-we-we-we-we-weekend"
+          - "La dannata settimana è finita"
+      - lines:
+          - "La, la, la, la-la (Weekend)"
+          - "Uh, la-la-la-la, la, la, la, la-la (Weekend)"
+          - "Uh, la-la-la-la, la, la, la, la-la (Weekend)"
+          - "La dannata settimana è finita"
+      - lines:
+          - "Lavoro di merda"
+          - "Lavoro di merda"
+          - "Voglio andarmene via da qui"
+          - "Odio il mio capo"
+---

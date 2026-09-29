@@ -1,0 +1,252 @@
+---
+title: "Bierdurst (feat. Mehnersmoos)"
+slug: "bierdurst"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Ich habe Durst, ich habe Durst"
+          - "Ich habe Bierdurst seit meiner Geburt"
+          - "Ich habe Durst, ich habe Durst"
+          - "Ja, ich habe Bierdurst seit meiner Geburt, ey"
+          - "Ich habe Durst (Woah), ich habe Durst (Woah)"
+          - "Ich habe Bierdurst seit meiner Geburt (Uh)"
+          - "Ja, ich habe Durst (Yeah), ich habe Durst (Genau)"
+          - "Ich habe Bierdurst seit meiner Geburt (Ah, ah, okay)"
+      - lines:
+          - "Du hast viel Durst? Süß, ich hab' mehr Durst (Süß)"
+          - "Ich hab' voll auf Bier auf ein ganzes Meer Durst (Hehehe)"
+          - "Und wenn ich wegen Saufen irgendwann sterbe"
+          - "Mein Durst bleibt für immer auf der Erde (Wouh)"
+          - "Ey, meine Kindheit war ein elendiger Flop (Flop)"
+          - "Denn ich bekam an manchen Tagen nur sehr wenig Scotch"
+          - "Ich sag': \"Ich mach' heut chillig\", aber später wird gekotzt (Urgh)"
+          - "Mein Durst ist nicht zu still'n wie ein Baby ohne Kopf, okay"
+      - lines:
+          - "Ich habe Brand wie ein Regenwald (Yeah)"
+          - "Ich habe Land unter so wie Brem'n bald (Yeah)"
+          - "Wenn nicht morgens um zehn schon bei mir der Jäger knallt"
+          - "Eins hab' ich auf jeden Fall (Ja, blah, blah, blah, blah)"
+      - lines:
+          - "Ich habe, ich hab', Ich habe Durst, ich habe Durst"
+          - "Ich habe Bierdurst seit meiner Geburt"
+          - "Ich habe Durst, ich habe Durst"
+          - "Ja, ich habe Bierdurst seit meiner Geburt"
+      - lines:
+          - "Ey, ich saufe das Bier, Bier"
+          - "Bier, Bier, Bier, Bier, Bier, Bier, Bier"
+          - "Ey, ich saufe das Bier, Bier"
+          - "Bier, Bier, Bier, Bier, Bier, Bier, Bier"
+      - lines:
+          - "Bier in mein' Kopf, Bier in mein' Kopf"
+          - "Klingelingeling, ich saufe Bier, bis ich kotz'"
+          - "Bier in mein' Kopf, Bier in mein' Kopf"
+          - "Klingelingeling, ich saufe Bier, bis ich kotz'"
+          - "Ich wache auf, denk' an Bier und habe Durst"
+          - "Schon als Baby säugte ich bei Mama Bier aus der Brust"
+          - "Papa gab mir den Sixpack in die Schultüte"
+          - "Letzte Reihe Bus war ich der, der vorglühte"
+          - "(Gib mir mehr, gib mir mehr) Bier, Bier, mehr Bier"
+          - "(Gib mir mehr) Bier, Bier, mehr Bier"
+      - lines:
+          - "Mein Hals ist staubtrocken, als wäre Sand drin"
+          - "Sag meinem Chef, dass ich morgen krank bin (Hey)"
+          - "Bierdosi auf, ich bin Bierphilosauf"
+          - "Weil ich hab' wie dieser Fred Durst, der von Mehnersmoos"
+      - lines:
+          - "Ich habe Durst (Woah), ich habe Durst (Woah)"
+          - "Ich habe Bierdurst seit meiner Geburt (Woah)"
+          - "Ja, ich habe Durst (Yeah), ich habe Durst (Woah)"
+          - "Ich habe Bierdurst seit meiner Geburt (Genau)"
+      - lines:
+          - "Ich saufe das Bier, Bier"
+          - "Bier, Bier, Bier, Bier, Bier, Bier, Bier"
+          - "Ja, ich saufe das Bier, Bier"
+          - "Bier, Bier, Bier, Bier, Bier, Bier, Bier"
+      - lines:
+          - "Jeden Tag Bier wie an Karneval (Jeden Tag)"
+          - "Jeden Tag Bier wie beim Abendmahl (Oh Gott)"
+          - "Jeden Tag Bier bis zum Schlaganfall (Ja)"
+          - "Ich fühl' mich, als wär ich schon seit Jahr'n in 'ner Achterbahn (Oh)"
+          - "Egal, ob in der Badewanne (Egal)"
+          - "Oder beim Fahr'n auf der Autobahn mit hunderttausend km/h (Wrrm)"
+          - "Bei der Bestattung meiner Tante (Ja), der Begattung einer Schlampe (Ja)"
+          - "Hab' ich 'ne Flasche in der Hand, denn ich hab' immer"
+      - lines:
+          - "Durst, ich habe Durst"
+          - "Ich habe Bierdurst seit meiner Geburt (Durst)"
+          - "Ich habe Durst, ich habe Durst"
+          - "Ich habe Bierdurst seit meiner Geburt"
+      - lines:
+          - "Ey, ich saufe das Bier, Bier"
+          - "Bier, Bier, Bier, Bier, Bier, Bier, Bier"
+          - "Ey, ich saufe das Bier, Bier"
+          - "Bier, Bier, Bier, Bier, Bier, Bier, Bier"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "I'm thirsty, I'm thirsty"
+          - "I've been beer-thirsty since birth"
+          - "I'm thirsty, I'm thirsty"
+          - "Yeah, I've been beer-thirsty since birth, ey"
+          - "I'm thirsty (Woah), I'm thirsty (Woah)"
+          - "I've been beer-thirsty since birth (Uh)"
+          - "Yeah, I'm thirsty (Yeah), I'm thirsty (Exactly)"
+          - "I've been beer-thirsty since birth (Ah, ah, okay)"
+      - lines:
+          - "You're very thirsty? Cute, I'm thirstier (Cute)"
+          - "I'm thirsty for beer like for a whole sea (Hehehe)"
+          - "And if I die from drinking someday"
+          - "My thirst stays on earth forever (Wouh)"
+          - "Ey, my childhood was a miserable flop (Flop)"
+          - "'Cause some days I only got very little scotch"
+          - "I say: \"I'll take it easy today\", but later there's puking (Urgh)"
+          - "My thirst can't be quenched like a baby without a head, okay"
+      - lines:
+          - "I'm burning like a rainforest (Yeah)"
+          - "I've got land under water like Bremen soon (Yeah)"
+          - "If the hunter doesn't bang at my place by ten in the morning"
+          - "One thing I've got for sure (Yeah, blah, blah, blah, blah)"
+      - lines:
+          - "I have, I've got, I'm thirsty, I'm thirsty"
+          - "I've been beer-thirsty since birth"
+          - "I'm thirsty, I'm thirsty"
+          - "Yeah, I've been beer-thirsty since birth"
+      - lines:
+          - "Ey, I chug the beer, beer"
+          - "Beer, beer, beer, beer, beer, beer, beer"
+          - "Ey, I chug the beer, beer"
+          - "Beer, beer, beer, beer, beer, beer, beer"
+      - lines:
+          - "Beer in my head, beer in my head"
+          - "Ding-a-ling, I chug beer till I puke"
+          - "Beer in my head, beer in my head"
+          - "Ding-a-ling, I chug beer till I puke"
+          - "I wake up, think of beer and I'm thirsty"
+          - "Even as a baby I sucked beer from mama's breast"
+          - "Papa put the six-pack in my school cone"
+          - "In the back row of the bus I was the one pre-drinking"
+          - "(Give me more, give me more) Beer, beer, more beer"
+          - "(Give me more) Beer, beer, more beer"
+      - lines:
+          - "My throat is bone dry, as if there's sand in it"
+          - "Tell my boss I'm sick tomorrow (Hey)"
+          - "Beer can open, I'm a beer-philoso-drunk"
+          - "'Cause I've got it like that Fred Durst, the one from Mehnersmoos"
+      - lines:
+          - "I'm thirsty (Woah), I'm thirsty (Woah)"
+          - "I've been beer-thirsty since birth (Woah)"
+          - "Yeah, I'm thirsty (Yeah), I'm thirsty (Woah)"
+          - "I've been beer-thirsty since birth (Exactly)"
+      - lines:
+          - "I chug the beer, beer"
+          - "Beer, beer, beer, beer, beer, beer, beer"
+          - "Yeah, I chug the beer, beer"
+          - "Beer, beer, beer, beer, beer, beer, beer"
+      - lines:
+          - "Every day beer like at carnival (Every day)"
+          - "Every day beer like at the Last Supper (Oh god)"
+          - "Every day beer until the stroke (Yeah)"
+          - "I feel like I've been on a rollercoaster for years (Oh)"
+          - "Doesn't matter if in the bathtub (Doesn't matter)"
+          - "Or driving on the motorway at a hundred thousand km/h (Vrrm)"
+          - "At my aunt's funeral (Yeah), at the mounting of a slut (Yeah)"
+          - "I've got a bottle in my hand, 'cause I'm always"
+      - lines:
+          - "Thirst, I'm thirsty"
+          - "I've been beer-thirsty since birth (Thirst)"
+          - "I'm thirsty, I'm thirsty"
+          - "I've been beer-thirsty since birth"
+      - lines:
+          - "Ey, I chug the beer, beer"
+          - "Beer, beer, beer, beer, beer, beer, beer"
+          - "Ey, I chug the beer, beer"
+          - "Beer, beer, beer, beer, beer, beer, beer"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Ho sete, ho sete"
+          - "Ho sete di birra dalla nascita"
+          - "Ho sete, ho sete"
+          - "Sì, ho sete di birra dalla nascita, ey"
+          - "Ho sete (Woah), ho sete (Woah)"
+          - "Ho sete di birra dalla nascita (Uh)"
+          - "Sì, ho sete (Yeah), ho sete (Esatto)"
+          - "Ho sete di birra dalla nascita (Ah, ah, okay)"
+      - lines:
+          - "Hai molta sete? Che carino, io ho più sete (Che carino)"
+          - "Ho una sete di birra grande come un mare intero (Hehehe)"
+          - "E se un giorno muoio per il bere"
+          - "La mia sete resta sulla terra per sempre (Wouh)"
+          - "Ey, la mia infanzia è stata un flop miserabile (Flop)"
+          - "Perché certi giorni ricevevo pochissimo scotch"
+          - "Dico: \"Oggi me la prendo comoda\", ma dopo si vomita (Urgh)"
+          - "La mia sete non si spegne, come un bebè senza testa, okay"
+      - lines:
+          - "Brucio come una foresta pluviale (Yeah)"
+          - "Ho la terra allagata come Brema tra poco (Yeah)"
+          - "Se non mi spara il cacciatore già alle dieci del mattino"
+          - "Una cosa ce l'ho di sicuro (Sì, blah, blah, blah, blah)"
+      - lines:
+          - "Io ho, io ho, ho sete, ho sete"
+          - "Ho sete di birra dalla nascita"
+          - "Ho sete, ho sete"
+          - "Sì, ho sete di birra dalla nascita"
+      - lines:
+          - "Ey, mi scolo la birra, birra"
+          - "Birra, birra, birra, birra, birra, birra, birra"
+          - "Ey, mi scolo la birra, birra"
+          - "Birra, birra, birra, birra, birra, birra, birra"
+      - lines:
+          - "Birra in testa, birra in testa"
+          - "Dindindin, mi scolo la birra finché non vomito"
+          - "Birra in testa, birra in testa"
+          - "Dindindin, mi scolo la birra finché non vomito"
+          - "Mi sveglio, penso alla birra e ho sete"
+          - "Già da neonato poppavo birra dal seno della mamma"
+          - "Papà mi mise il sixpack nel cono di scuola"
+          - "In ultima fila sul bus ero quello che pre-beveva"
+          - "(Dammene ancora, dammene ancora) Birra, birra, più birra"
+          - "(Dammene ancora) Birra, birra, più birra"
+      - lines:
+          - "La mia gola è secca come se ci fosse sabbia dentro"
+          - "Di' al mio capo che domani sono malato (Hey)"
+          - "Lattina aperta, sono un birrosofo del bere"
+          - "Perché ce l'ho come quel Fred Durst, quello dei Mehnersmoos"
+      - lines:
+          - "Ho sete (Woah), ho sete (Woah)"
+          - "Ho sete di birra dalla nascita (Woah)"
+          - "Sì, ho sete (Yeah), ho sete (Woah)"
+          - "Ho sete di birra dalla nascita (Esatto)"
+      - lines:
+          - "Mi scolo la birra, birra"
+          - "Birra, birra, birra, birra, birra, birra, birra"
+          - "Sì, mi scolo la birra, birra"
+          - "Birra, birra, birra, birra, birra, birra, birra"
+      - lines:
+          - "Ogni giorno birra come a carnevale (Ogni giorno)"
+          - "Ogni giorno birra come all'ultima cena (Oh dio)"
+          - "Ogni giorno birra fino all'ictus (Sì)"
+          - "Mi sento come se fossi sulle montagne russe da anni (Oh)"
+          - "Non importa se nella vasca da bagno (Non importa)"
+          - "O guidando in autostrada a centomila km/h (Vrrm)"
+          - "Al funerale di mia zia (Sì), all'accoppiamento di una puttana (Sì)"
+          - "Ho una bottiglia in mano, perché ho sempre"
+      - lines:
+          - "Sete, ho sete"
+          - "Ho sete di birra dalla nascita (Sete)"
+          - "Ho sete, ho sete"
+          - "Ho sete di birra dalla nascita"
+      - lines:
+          - "Ey, mi scolo la birra, birra"
+          - "Birra, birra, birra, birra, birra, birra, birra"
+          - "Ey, mi scolo la birra, birra"
+          - "Birra, birra, birra, birra, birra, birra, birra"
+---
