@@ -1,0 +1,159 @@
+---
+title: "Mutter"
+slug: "mutter"
+added_date: 2026-09-29
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Die Tränen greiser Kinderschar"
+          - "Ich zieh' sie auf ein weißes Haar"
+          - "Werf in die Luft die nasse Kette"
+          - "Und wünsch mir, dass ich eine Mutter hätte"
+          - "Keine Sonne die mir scheint"
+          - "Keine Brust hat Milch geweint"
+          - "In meiner Kehle steckt ein Schlauch"
+          - "Hab keinen Nabel auf dem Bauch"
+      - lines:
+          - "Mutter, Mutter"
+          - "Mutter, Mutter"
+      - lines:
+          - "Ich durfte keine Nippel lecken"
+          - "Und keine Falte zum Verstecken"
+          - "Niemand gab mir einen Namen"
+          - "Gezeugt in Hast und ohne Samen"
+          - "Der Mutter, die mich nie geboren"
+          - "Hab ich heute Nacht geschworen"
+          - "Ich werd' ihr eine Krankheit schenken"
+          - "Und sie danach im Fluss versenken"
+      - lines:
+          - "Mutter, Mutter"
+          - "Mutter, Mutter"
+          - "Mutter, Mutter"
+          - "Mutter, Mutter"
+      - lines:
+          - "In ihren Lungen wohnt ein Aal"
+          - "Auf meiner Stirn ein Muttermal"
+          - "Entferne es mit Messers Kuss"
+          - "Auch wenn ich daran sterben muss"
+      - lines:
+          - "Mutter, Mutter"
+          - "Mutter, Mutter!"
+      - lines:
+          - "In ihren Lungen wohnt ein Aal"
+          - "Auf meiner Stirn ein Muttermal"
+          - "Entferne es mit Messers Kuss"
+          - "Auch wenn ich verbluten muss"
+      - lines:
+          - "Oh, gib mir Kraft"
+          - "Mutter, Mutter"
+          - "Oh, gib mir Kraft"
+          - "Mutter, Mutter"
+          - "Oh, gib mir Kraft"
+          - "Mutter, Mutter"
+          - "Oh, gib mir Kraft"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "The tears of a crowd of very old children"
+          - "I string them on a white hair"
+          - "I throw the wet chain into the air"
+          - "And wish that I had a mother"
+          - "No sun shines for me"
+          - "There was no breast that cried milk"
+          - "There is a tube that sticks in my throat"
+          - "I have no navel on my stomach"
+      - lines:
+          - "Mother, mother"
+          - "Mother, mother"
+      - lines:
+          - "I was not allowed to lick any nipples"
+          - "And there was no fold to hide in"
+          - "No one gave me a name"
+          - "Fathered in haste and without sperm"
+          - "For the mother who never gave birth to me"
+          - "I have sworn tonight"
+          - "I will send her a sickness"
+          - "And afterwards make her sink in the river"
+      - lines:
+          - "Mother, mother"
+          - "Mother, mother"
+          - "Mother, mother"
+          - "Mother, mother"
+      - lines:
+          - "An eel lives in her lungs"
+          - "On my forehead, a birthmark"
+          - "Remove it with the kiss of a knife"
+          - "Even if it causes me to die"
+      - lines:
+          - "Mother, mother"
+          - "Mother, mother"
+      - lines:
+          - "An eel lives in her lungs"
+          - "On my forehead, a birthmark"
+          - "Remove it with the kiss of a knife"
+          - "Even if it causes me to bleed to death"
+      - lines:
+          - "Oh give me strength"
+          - "Mother, mother"
+          - "Oh give me strength"
+          - "Mother, mother"
+          - "Oh give me strength"
+          - "Mother, mother"
+          - "Oh give me strength"
+  - lang: it
+    role: translation
+    stanzas:
+      - lines:
+          - "Le lacrime di una folla di vecchi bambini"
+          - "Le infilo su un capello bianco"
+          - "Getto in aria la catena bagnata"
+          - "E desidero avere una madre"
+          - "Nessun sole che mi splende"
+          - "Nessun seno ha pianto latte"
+          - "Nella mia gola c'è infilato un tubo"
+          - "Non ho ombelico sulla pancia"
+      - lines:
+          - "Madre, madre"
+          - "Madre, madre"
+      - lines:
+          - "Non ho potuto leccare nessun capezzolo"
+          - "E nessuna piega in cui nascondermi"
+          - "Nessuno mi ha dato un nome"
+          - "Generato in fretta e senza seme"
+          - "Alla madre che non mi ha mai partorito"
+          - "Stanotte ho giurato"
+          - "Le regalerò una malattia"
+          - "E poi la affonderò nel fiume"
+      - lines:
+          - "Madre, madre"
+          - "Madre, madre"
+          - "Madre, madre"
+          - "Madre, madre"
+      - lines:
+          - "Nei suoi polmoni vive un'anguilla"
+          - "Sulla mia fronte un neo"
+          - "Lo rimuovo con il bacio del coltello"
+          - "Anche se devo morirne"
+      - lines:
+          - "Madre, madre"
+          - "Madre, madre!"
+      - lines:
+          - "Nei suoi polmoni vive un'anguilla"
+          - "Sulla mia fronte un neo"
+          - "Lo rimuovo con il bacio del coltello"
+          - "Anche se devo sanguinare fino alla morte"
+      - lines:
+          - "Oh, dammi la forza"
+          - "Madre, madre"
+          - "Oh, dammi la forza"
+          - "Madre, madre"
+          - "Oh, dammi la forza"
+          - "Madre, madre"
+          - "Oh, dammi la forza"
+---
