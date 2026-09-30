@@ -1,0 +1,164 @@
+---
+title: "H.A.T.E."
+slug: "hate"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "A split sense of myself"
+          - "I feel like somebody else"
+          - "It's both heaven and hell"
+          - "I'm breaking, I'm breaking away"
+          - "My mind is at war"
+          - "A battle for my soul"
+          - "I'm free, but lost you know"
+          - "There's no way out, no way to go"
+      - lines:
+          - "The anger, the rage"
+          - "The poison, the plague"
+          - "Destroying everything that's pure"
+      - lines:
+          - "I am the hate"
+          - "I am the fear"
+          - "I am the voice that you can't hear"
+          - "I am the end that's always near (the end that's always near)"
+      - lines:
+          - "H. A. T. E."
+          - "Having anger towards everything"
+          - "H. A. T. E."
+          - "Having anger towards everything"
+      - lines:
+          - "My past buried inside"
+          - "Feels like I'm buried alive"
+          - "I can't open my eyes"
+          - "Who am I"
+      - lines:
+          - "I'm drawn and split up in two"
+          - "But I know which way to go"
+          - "I will pick up my cross"
+          - "To save my soul"
+      - lines:
+          - "The anger, the rage"
+          - "The poison, the plague"
+          - "Destroying everything that's pure"
+      - lines:
+          - "I am the hate"
+          - "I am the fear"
+          - "I am the voice that you can't hear"
+          - "I am the end that's always near (that's always near)"
+      - lines:
+          - "I am the hate"
+          - "I am the fear"
+          - "I am the pain that you hold dear"
+          - "I am the end that's always near"
+      - lines:
+          - "You've been a monster"
+          - "And I can see"
+          - "You're just an empty shell"
+          - "A shadow of me"
+      - lines:
+          - "My mind is at war with myself"
+          - "It feels like I'm somebody else"
+          - "Those demons I cannot deny"
+          - "Cause my mind is nothing but hell"
+      - lines:
+          - "H. A. T. E."
+      - lines:
+          - "I am the hate"
+          - "I am the fear"
+          - "I am the voice that you can't hear"
+          - "I am the end that's always near (that's always near)"
+      - lines:
+          - "I am the hate"
+          - "I am the fear"
+          - "I am the pain that you hold dear"
+          - "I am the end of all your dreams (the end of all your dreams)"
+      - lines:
+          - "H. A. T. E."
+          - "Having anger towards everything"
+          - "H. A. T. E."
+          - "Having anger towards everything"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Una sensazione divisa di me stesso"
+          - "Mi sento qualcun altro"
+          - "È sia Paradiso che Inferno"
+          - "Sto rompendomi, mi sto rompendo"
+          - "La mia mente è in guerra"
+          - "Una battaglia per la mia anima"
+          - "Sono libero, ma perso, lo sai"
+          - "Non c'è via d'uscita, nessuna via da percorrere"
+      - lines:
+          - "L'ira, la rabbia"
+          - "Il veleno, la peste"
+          - "Distruggono tutto ciò che è puro"
+      - lines:
+          - "Sono l'odio"
+          - "Sono la paura"
+          - "Sono la voce che non puoi sentire"
+          - "Sono la fine che è sempre vicina (la fine che è sempre vicina)"
+      - lines:
+          - "H. A. T. E."
+          - "Avere rabbia verso tutto"
+          - "H. A. T. E."
+          - "Avere rabbia verso tutto"
+      - lines:
+          - "Il mio passato sepolto dentro"
+          - "Sembra che io sia sepolto vivo"
+          - "Non riesco ad aprire gli occhi"
+          - "Chi sono"
+      - lines:
+          - "Sono diviso e strappato in due"
+          - "Ma so da che parte andare"
+          - "Raccoglierò la mia croce"
+          - "Per salvare la mia anima"
+      - lines:
+          - "L'ira, la rabbia"
+          - "Il veleno, la peste"
+          - "Distruggono tutto ciò che è puro"
+      - lines:
+          - "Sono l'odio"
+          - "Sono la paura"
+          - "Sono la voce che non puoi sentire"
+          - "Sono la fine che è sempre vicina (che è sempre vicina)"
+      - lines:
+          - "Sono l'odio"
+          - "Sono la paura"
+          - "Sono il dolore che conservi caro"
+          - "Sono la fine che è sempre vicina"
+      - lines:
+          - "Sei stato un mostro"
+          - "E lo vedo"
+          - "Sei solo un guscio vuoto"
+          - "Un'ombra di me"
+      - lines:
+          - "La mia mente è in guerra con sé stessa"
+          - "Sembra che io sia qualcun altro"
+          - "Quei demoni che non posso negare"
+          - "Perché la mia mente è solo inferno"
+      - lines:
+          - "H. A. T. E."
+      - lines:
+          - "Sono l'odio"
+          - "Sono la paura"
+          - "Sono la voce che non puoi sentire"
+          - "Sono la fine che è sempre vicina (che è sempre vicina)"
+      - lines:
+          - "Sono l'odio"
+          - "Sono la paura"
+          - "Sono il dolore che conservi caro"
+          - "Sono la fine di tutti i tuoi sogni (la fine di tutti i tuoi sogni)"
+      - lines:
+          - "H. A. T. E."
+          - "Avere rabbia verso tutto"
+          - "H. A. T. E."
+          - "Avere rabbia verso tutto"
+---
