@@ -1,0 +1,198 @@
+---
+title: "The Cocaines Got Your Tongue"
+slug: "the-cocaines-got-your-tongue"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Now it is party you know it is"
+          - "And everyone's falling in love again"
+          - "But she fell in love with the drugs"
+          - "And that's when it's stopped being fun"
+          - "You notice the gear running low"
+          - "Well give me the money I'll go"
+          - "You can't have that shit running out"
+          - "Cause nobody wants to come down"
+      - lines:
+          - "You've started the night and implying it's"
+          - "A drink with your friends to unwind a bit"
+          - "You're laughing and sharing their wine"
+          - "You're all losing track of the time"
+          - "Then somebody racks up a line"
+          - "And no you politely decline"
+          - "Then somehow you're changing your mind"
+          - "Maybe I'll just have a line"
+      - lines:
+          - "Somebody better call Frank"
+          - "But then when Frank arrived"
+          - "He just got fucked up too"
+          - "Somebody better call Frank"
+          - "But Frank was talking so much shit"
+          - "And none of it was true"
+      - lines:
+          - "And you're flying right now"
+          - "But your happiness"
+          - "Is just a loan from the future"
+          - "And you are drinking it down"
+          - "From a fountain of youth"
+          - "That dries up the future"
+          - "The cocaine has got your tongue"
+          - "And you're gonna pay it back"
+          - "Gonna pay it back someday"
+          - "The cocaine has got your tongue"
+          - "Cause you're only talking so much shit"
+          - "That never means anything"
+      - lines:
+          - "That never means anything"
+          - "That never means anything"
+          - "That never means anything"
+      - lines:
+          - "She's calling you up on the phone"
+          - "And why is it taking so long"
+          - "You're not really feeling her tone"
+          - "She's talking so fast you don't know"
+          - "As soon as you're back in the room"
+          - "Everyone's playing their tune"
+          - "Everyone's talking at once"
+          - "Watching you racking it up"
+      - lines:
+          - "Somebody better call Frank"
+          - "But then when Frank arrived"
+          - "He just got fucked up too"
+          - "Somebody better call Frank"
+          - "But Frank was talking so much shit"
+          - "And none of it was true"
+      - lines:
+          - "And you're flying right now"
+          - "But your happiness"
+          - "Is just a loan from the future"
+          - "And you are drinking it down"
+          - "From a fountain of youth"
+          - "That dries up the future"
+          - "The cocaine has got your tongue"
+          - "And you're gonna pay it back"
+          - "Gonna pay it back someday"
+          - "The cocaine has got your tongue"
+          - "Cause you're only talking so much shit"
+          - "That never means anything"
+      - lines:
+          - "That never means anything"
+          - "The cocaine's got your tongue"
+      - lines:
+          - "The cocaine has got your tongue"
+          - "And you're gonna pay it back"
+          - "Gonna pay it back someday"
+          - "The cocaine has got your tongue"
+          - "Cause you're only talking so much shit"
+          - "That never means anything"
+      - lines:
+          - "And as the sun is coming up"
+          - "It's Frank who says to you"
+          - "What's the matter now son"
+          - "Has the cocaine got your tongue"
+      - lines:
+          - "Talking so much shit"
+      - lines:
+          - "That never means anything"
+          - "That never means anything"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ora è festa, lo sai"
+          - "E tutti si innamorano di nuovo"
+          - "Ma lei si è innamorata delle droghe"
+          - "E a quel punto ha smesso di essere divertente"
+          - "Noti che la roba si sta esaurendo"
+          - "Ecco, dammi i soldi e vado"
+          - "Non puoi far esaurire quella merda"
+          - "Perché nessuno vuole scendere"
+      - lines:
+          - "Hai iniziato la serata facendo intendere che è"
+          - "Un drink con gli amici per rilassarti un po'"
+          - "Ridi e condividi il loro vino"
+          - "State tutti perdendo il conto del tempo"
+          - "E poi qualcuno tira su una riga"
+          - "E no, tu declines educatamente"
+          - "E poi in qualche modo cambi idea"
+          - "Forse mi prendo solo una riga"
+      - lines:
+          - "Qualcuno dovrebbe chiamare Frank"
+          - "Ma quando Frank arrivò"
+          - "Anche lui si fece fottutamente storto"
+          - "Qualcuno dovrebbe chiamare Frank"
+          - "Ma Frank parlava un sacco di stronzate"
+          - "E niente di tutto ciò che diceva era vero"
+      - lines:
+          - "E ora stai volando"
+          - "Ma la tua felicità"
+          - "È solo un prestito dal futuro"
+          - "E tu la stai bevendo"
+          - "Da una fontana di giovinezza"
+          - "Che prosciuga il futuro"
+          - "La cocaina ha la tua lingua"
+          - "E un giorno la ripagherai"
+          - "Un giorno la ripagherai"
+          - "La cocaina ha la tua lingua"
+          - "Perché parli solo un sacco di stronzate"
+          - "Che non vuol dire niente"
+      - lines:
+          - "Che non vuol dire niente"
+          - "Che non vuol dire niente"
+          - "Che non vuol dire niente"
+      - lines:
+          - "Lei ti chiama al telefono"
+          - "E perché ci mette tanto"
+          - "Non stai davvero percependo il suo tono"
+          - "Sta parlando così veloce che non capisci"
+          - "Appena torni nella stanza"
+          - "Tutti suonano il loro pezzo"
+          - "Tutti parlano insieme"
+          - "Guardandoti tirare su"
+      - lines:
+          - "Qualcuno dovrebbe chiamare Frank"
+          - "Ma quando Frank arrivò"
+          - "Anche lui si fece fottutamente storto"
+          - "Qualcuno dovrebbe chiamare Frank"
+          - "Ma Frank parlava un sacco di stronzate"
+          - "E niente di tutto ciò che diceva era vero"
+      - lines:
+          - "E ora stai volando"
+          - "Ma la tua felicità"
+          - "È solo un prestito dal futuro"
+          - "E tu la stai bevendo"
+          - "Da una fontana di giovinezza"
+          - "Che prosciuga il futuro"
+          - "La cocaina ha la tua lingua"
+          - "E un giorno la ripagherai"
+          - "Un giorno la ripagherai"
+          - "La cocaina ha la tua lingua"
+          - "Perché parli solo un sacco di stronzate"
+          - "Che non vuol dire niente"
+      - lines:
+          - "Che non vuol dire niente"
+          - "La cocaina ha la tua lingua"
+      - lines:
+          - "La cocaina ha la tua lingua"
+          - "E un giorno la ripagherai"
+          - "Un giorno la ripagherai"
+          - "La cocaina ha la tua lingua"
+          - "Perché parli solo un sacco di stronzate"
+          - "Che non vuol dire niente"
+      - lines:
+          - "E mentre il sole sta sorgendo"
+          - "È Frank che ti dice"
+          - "Cosa c'è adesso, figliolo"
+          - "La cocaina ha la tua lingua"
+      - lines:
+          - "Parli un sacco di stronzate"
+      - lines:
+          - "Che non vuol dire niente"
+          - "Che non vuol dire niente"
+---
