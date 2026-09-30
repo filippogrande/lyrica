@@ -1,0 +1,144 @@
+---
+title: "Curse"
+slug: "curse"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I sold myself on paradise"
+          - "But I'm giving up on that ghost"
+          - "'Cause it keeps me from counting the cost"
+          - "Moments I've loved and I've lost"
+          - "Bow down to the splits in the seconds"
+      - lines:
+          - "Did I suffer on? Were the nights too long?"
+          - "All the echos all so miscalculated"
+          - "When I'm dead and gone, and the race is won"
+          - "Will everything be less complicated?"
+      - lines:
+          - "I give you my word"
+          - "In the times I've had enough"
+          - "I still wish for the worst"
+          - "As free as a bird"
+          - "But the days keep crossing off"
+          - "Heaven came with a curse"
+      - lines:
+          - "I'm frozen here, I'm paralyzed"
+          - "Would you pull it outta my throat?"
+          - "'Cause I'm tired of burning these boats"
+          - "Praying to God that I float"
+          - "Bow down to the splits in the seconds!"
+      - lines:
+          - "I give you my word"
+          - "In the times I've had enough"
+          - "I still wish for the worst"
+          - "As free as a bird"
+          - "But the days keep crossing off"
+          - "Heaven came with a curse"
+      - lines:
+          - "I won't pretend to know my end"
+          - "The credits roll, I'm afraid it's"
+          - "The end of the earth"
+          - "'Cause the days keep crossing off"
+          - "Heaven came with a curse!"
+      - lines:
+          - "You give me a conscience, I'll give you a crisis"
+          - "Hard times but I'd rather see this than be blinded"
+          - "Breakdown what's behind us"
+          - "Darkness only cares what the light does!"
+      - lines:
+          - "I give you my word"
+          - "In the times I've had enough"
+          - "I still wish for the worst"
+          - "As free as a bird"
+          - "But the days keep crossing off"
+          - "Heaven came with a curse"
+      - lines:
+          - "I give you my word"
+          - "In the times I've had enough"
+          - "I still wish for the worst"
+          - "As free as a bird"
+          - "But the days keep crossing off"
+          - "Heaven came with a curse"
+      - lines:
+          - "I won't pretend to know my end"
+          - "The credits roll, I'm afraid it's"
+          - "The end of the earth"
+          - "'Cause the days keep crossing off"
+          - "Heaven came with a curse!"
+      - lines:
+          - "Heaven came with a curse!"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ho venduto me stesso al paradiso"
+          - "Ma sto rinunciando a quello spettro"
+          - "Perché mi impedisce di contare il costo"
+          - "Momenti che ho amato e che ho perso"
+          - "Mi inginocchio davanti alle fratture in pochi secondi"
+      - lines:
+          - "Ho sofferto fino in fondo? Le notti erano troppo lunghe?"
+          - "Tutti gli echi, tutti mal calcolati"
+          - "Quando sarò morto e se n'è andato, e la corsa vinta"
+          - "Sarà tutto meno complicato?"
+      - lines:
+          - "Ti do la mia parola"
+          - "Nei momenti in cui ho avuto abbastanza"
+          - "Desidero ancora il peggio"
+          - "Libero come un uccello"
+          - "Ma i giorni vanno barrati"
+          - "Il cielo è venuto con una maledizione"
+      - lines:
+          - "Sono congelato qui, sono paralizzato"
+          - "Me lo toglieresti dalla gola?"
+          - "Perché sono stanco di bruciare queste barche"
+          - "Pregando Dio che io galleggi"
+          - "Mi inginocchio davanti alle fratture in pochi secondi!"
+      - lines:
+          - "Ti do la mia parola"
+          - "Nei momenti in cui ho avuto abbastanza"
+          - "Desidero ancora il peggio"
+          - "Libero come un uccello"
+          - "Ma i giorni vanno barrati"
+          - "Il cielo è venuto con una maledizione"
+      - lines:
+          - "Non fingerò di conoscere la mia fine"
+          - "I titoli di coda scorrono, temo che sia"
+          - "La fine della terra"
+          - "Perché i giorni vanno barrati"
+          - "Il cielo è venuto con una maledizione!"
+      - lines:
+          - "Tu mi dai una coscienza, io ti do una crisi"
+          - "Tempi duri ma preferisco vedere questo che restare cieco"
+          - "Crolla, ciò che abbiamo alle spalle"
+          - "Il buio si cura solo di quello che fa la luce!"
+      - lines:
+          - "Ti do la mia parola"
+          - "Nei momenti in cui ho avuto abbastanza"
+          - "Desidero ancora il peggio"
+          - "Libero come un uccello"
+          - "Ma i giorni vanno barrati"
+          - "Il cielo è venuto con una maledizione"
+      - lines:
+          - "Ti do la mia parola"
+          - "Nei momenti in cui ho avuto abbastanza"
+          - "Desidero ancora il peggio"
+          - "Libero come un uccello"
+          - "Ma i giorni vanno barrati"
+          - "Il cielo è venuto con una maledizione"
+      - lines:
+          - "Non fingerò di conoscere la mia fine"
+          - "I titoli di coda scorrono, temo che sia"
+          - "La fin de la terra"
+          - "Perché i giorni vanno barrati"
+          - "Il cielo è venuto con una maledizione!"
+      - lines:
+          - "Il cielo è venuto con una maledizione!"
+---
