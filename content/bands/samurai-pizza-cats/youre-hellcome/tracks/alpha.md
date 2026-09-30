@@ -4,7 +4,7 @@ slug: "alpha"
 added_date: 2026-09-30
 featured: false
 instrumental: false
-original_langs: ["en", "de"]
+original_langs: ["en"]
 blocks:
   - lang: en
     role: original
