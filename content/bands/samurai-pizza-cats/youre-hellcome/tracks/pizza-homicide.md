@@ -1,0 +1,128 @@
+---
+title: "Pizza Homicide"
+slug: "pizza-homicide"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Oh... ye-eah..."
+          - "Grease and meat is all I need..."
+          - "All I need"
+      - lines:
+          - "It's my calling to deliver you some warm love"
+          - "Five to nine, yo, one simple phone call"
+          - "It is made of dough, cheese, and whatever you like"
+          - "I don't care if you're on the east or the west side"
+      - lines:
+          - "Get away, get away, oh, get away"
+          - "Full speed ahead, there is no foreplay"
+          - "Stay at home, stay at home, stay at fucking home"
+          - "Knock, knock, open up or I will pick your lock"
+      - lines:
+          - "Why, oh please, tell me why"
+          - "I am gonna die"
+          - "If I only try"
+          - "Pineapples make me cry"
+          - "Oh please, tell me why"
+          - "I am gonna die"
+          - "Pizza homicide, by pizza homicide"
+      - lines:
+          - "Fuck fruits on my pizza"
+          - "No pineapples on my pizza"
+          - "Grease and meat is all I need, all I need"
+      - lines:
+          - "I can't take no more of your blasphemy"
+          - "No apologies - brutal brutality"
+          - "Chop, chop, chop, chop, chop, pizza homicide"
+          - "They will find your body parts on the east and west side"
+      - lines:
+          - "Get away, get away, oh, get away"
+          - "Full speed ahead, there is no foreplay"
+          - "Stay at home, stay at home, stay at fucking home"
+          - "Knock, knock, open up or I will pick your lock"
+      - lines:
+          - "Why, oh please, tell me why"
+          - "I am gonna die"
+          - "If I only try"
+          - "Pineapples make me cry"
+          - "Oh please, tell me why"
+          - "I am gonna die"
+          - "Pizza homicide, by pizza homicide"
+      - lines:
+          - "Fuck fruits on my pizza"
+          - "No pineapples on my pizza"
+          - "Grease and meat is all I need, all I need"
+      - lines:
+          - "Why, oh please, tell me why"
+          - "I am gonna die"
+          - "If I only try"
+          - "Pineapples make me cry"
+          - "Oh please, tell me why"
+          - "I am gonna die"
+          - "Pizza homicide, by pizza homicide"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Oh... sì..."
+          - "Grasso e carne è tutto ciò che mi serve..."
+          - "Tutto ciò che mi serve"
+      - lines:
+          - "È la mia missione consegnarti un po' d'amore caldo"
+          - "Dalle cinque alle nove, yo, una semplice telefonata"
+          - "È fatta di impasto, formaggio, e quello che ti va"
+          - "Non mi importa se sei a est o a ovest"
+      - lines:
+          - "Allontanati, allontanati, oh, allontanati"
+          - "A tutta velocità, non c'è nessun preliminare"
+          - "Resta a casa, resta a casa, resta a casa di fottuta"
+          - "Bussa, bussa, apri o ti scasso la serratura"
+      - lines:
+          - "Perché, oh per favore, dimmi perché"
+          - "Sto per morire"
+          - "Se solo provassi"
+          - "L'ananas mi fa piangere"
+          - "Oh per favore, dimmi perché"
+          - "Sto per morire"
+          - "Omicidio della pizza, tramite omicidio della pizza"
+      - lines:
+          - "Fottutissima frutta sulla mia pizza"
+          - "Niente ananas sulla mia pizza"
+          - "Grasso e carne è tutto ciò che mi serve, tutto ciò che mi serve"
+      - lines:
+          - "Non ne posso più della tua blasfemia"
+          - "Nessuna scusa - brutalità bestiale"
+          - "Affetta, affetta, affetta, affetta, affetta, omicidio della pizza"
+          - "Troveranno le tue parti del corpo a est e a ovest"
+      - lines:
+          - "Allontanati, allontanati, oh, allontanati"
+          - "A tutta velocità, non c'è nessun preliminare"
+          - "Resta a casa, resta a casa, resta a casa di fottuta"
+          - "Bussa, bussa, apri o ti scasso la serratura"
+      - lines:
+          - "Perché, oh per favore, dimmi perché"
+          - "Sto per morire"
+          - "Se solo provassi"
+          - "L'ananas mi fa piangere"
+          - "Oh per favore, dimmi perché"
+          - "Sto per morire"
+          - "Omicidio della pizza, tramite omicidio della pizza"
+      - lines:
+          - "Fottutissima frutta sulla mia pizza"
+          - "Niente ananas sulla mia pizza"
+          - "Grasso e carne è tutto ciò che mi serve, tutto ciò che mi serve"
+      - lines:
+          - "Perché, oh per favore, dimmi perché"
+          - "Sto per morire"
+          - "Se solo provassi"
+          - "L'ananas mi fa piangere"
+          - "Oh per favore, dimmi perché"
+          - "Sto per morire"
+          - "Omicidio della pizza, tramite omicidio della pizza"
+---
