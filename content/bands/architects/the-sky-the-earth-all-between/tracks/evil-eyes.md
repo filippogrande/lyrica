@@ -1,0 +1,152 @@
+---
+title: "Evil Eyes"
+slug: "evil-eyes"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Evil eyes"
+          - "They're watching me"
+          - "Evil eyes"
+          - "They're watching me"
+      - lines:
+          - "Malicious"
+          - "You pray that the comet hits"
+          - "So vicious"
+          - "No less than a counterfeit"
+          - "Goodbye"
+          - "I've suffocated too long so now it's goodbye"
+          - "These moments are mine"
+      - lines:
+          - "Tonight, the fear in the scythe"
+          - "A spear through the side"
+          - "Could drown me but I survive"
+          - "Tonight, tonight, tonight, I feel alive"
+      - lines:
+          - "Evil eyes"
+          - "They're watching me"
+          - "Evil eyes"
+          - "They're watching me"
+      - lines:
+          - "You're blissless"
+          - "I see the fangs, you fucking snake"
+          - "Just business"
+          - "You devil, you hypocrite"
+          - "Goodbye"
+          - "I've suffocated too long so now it's goodbye"
+          - "I've suffocated too long"
+      - lines:
+          - "Rip tide, pull me under"
+          - "And bathe me in the blue"
+          - "Rip tide, pull me under"
+          - "Just pull me under"
+      - lines:
+          - "Tonight the fear in the scythe"
+          - "A spear through the side"
+          - "Could drown me but I survive"
+          - "Tonight the fear in the scythe"
+      - lines:
+          - "A spear through the side"
+          - "Could drown me but I survive"
+      - lines:
+          - "Can I take this weight?"
+          - "Leave it in another"
+          - "Empty lake"
+          - "I'm daydreaming"
+          - "Wide awake"
+          - "Waiting for another wave to break"
+          - "I swear to God I'm gonna break these chains"
+          - "I don't wanna live my life this way"
+          - "I'm still screaming"
+          - "Wide awake"
+          - "Waiting for another wave to break"
+          - "I'm still screaming"
+      - lines:
+          - "I'm still screaming"
+      - lines:
+          - "Tonight, the fear in the scythe"
+          - "A spear through the side"
+          - "Could drown me but I survive"
+          - "Tonight, tonight, tonight, I feel alive"
+      - lines:
+          - "Evil eyes"
+          - "They're watching me"
+          - "Evil eyes"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Occhi cattivi"
+          - "Mi stanno guardando"
+          - "Occhi cattivi"
+          - "Mi stanno guardando"
+      - lines:
+          - "Malevoli"
+          - "Preghi che la cometa colpisca"
+          - "Così feroci"
+          - "Non meno di una controfazione"
+          - "Addio"
+          - "Ho soffocato troppo a lungo, quindi ora è addio"
+          - "Questi momenti sono miei"
+      - lines:
+          - "Stanotte, la paura nella falce"
+          - "Una lancia nel fianco"
+          - "Potrebbe annegarne ma sopravvivo"
+          - "Stanotte, stanotte, stanotte, mi sento vivo"
+      - lines:
+          - "Occhi cattivi"
+          - "Mi stanno guardando"
+          - "Occhi cattivi"
+          - "Mi stanno guardando"
+      - lines:
+          - "Senza beatitudine"
+          - "Vedo le zanne, tu fottuto serpente"
+          - "Solo affari"
+          - "Tu diavolo, tu ipocrita"
+          - "Addio"
+          - "Ho soffocato troppo a lungo, quindi ora è addio"
+          - "Ho soffocato troppo a lungo"
+      - lines:
+          - "Risacca, tirami sotto"
+          - "E lavami nell'azzurro"
+          - "Risacca, tirami sotto"
+          - "Tiramelo sotto, basta"
+      - lines:
+          - "Stanotte la paura nella falce"
+          - "Una lancia nel fianco"
+          - "Potrebbe annegarne ma sopravvivo"
+          - "Stanotte la paura nella falce"
+      - lines:
+          - "Una lancia nel fianco"
+          - "Potrebbe annegarne ma sopravvivo"
+      - lines:
+          - "Posso portare questo peso?"
+          - "Lascialo in un altro"
+          - "Lago vuoto"
+          - "Sto sognando a occhi aperti"
+          - "Sveglio"
+          - "In attesa che un'altra onda si rompa"
+          - "Giuro su Dio che spezzerò queste catene"
+          - "Non voglio vivere la mia vita in questo modo"
+          - "Sto ancora urlando"
+          - "Sveglio"
+          - "In attesa che un'altra onda si rompa"
+          - "Sto ancora urlando"
+      - lines:
+          - "Sto ancora urlando"
+      - lines:
+          - "Stanotte, la paura nella falce"
+          - "Una lancia nel fianco"
+          - "Potrebbe annegarne ma sopravvivo"
+          - "Stanotte, stanotte, stanotte, mi sento vivo"
+      - lines:
+          - "Occhi cattivi"
+          - "Mi stanno guardando"
+          - "Occhi cattivi"
+---
