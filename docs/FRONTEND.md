@@ -55,7 +55,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Card album** | cover se esiste, altrimenti **segnaposto con l'iniziale**; titolo e anno di pubblicazione (corsie della pagina band e della pagina album) |
 | **Anagrafica band** | blocco `dl` con paese, attiva dal, membri, generi, più la descrizione; nella **pagina band** sta a **destra** della foto |
 | **Anagrafica album** | blocco `dl` con band (link), anno, numero di brani, lingue tradotte; nella **pagina album** sta a **destra** della copertina |
-| **Anagrafica brano** | blocco `dl` con band (link), album (link), anno, lingue disponibili; nella **pagina brano** sta a **destra** della copertina |
+| **Anagrafica brano** | blocco `dl` con band (link), album (link), anno, lingue disponibili (**una voce per blocco**: la stessa lingua può comparire due volte, D97); nella **pagina brano** sta a **destra** della copertina |
 | **Etichetta lingua (bandiera)** | una lingua si scrive **bandiera + codice** (`🇩🇪 DE`): vale in ogni pagina (anagrafiche, tracklist, intestazioni) — vedi "Etichette e bandiere" |
 | **Intestazione di lato** | in cima a **ogni** colonna della pagina brano: nome del lato (`ORIGINALE` / `TRADUZIONE`) e la lingua — **menu** (`<select>`) dove c'è più di una lingua da scegliere, **etichetta fissa** dove la lingua è una sola. C'è su entrambi i lati sempre: è quello che tiene allineate le colonne (D92, D94, D95) |
 | **Etichetta di stato** | motivo per cui una traccia non ha una pagina: "In arrivo", "Strumentale", "Solo originale" (classe `.track-flag`, testo dai locale) |
@@ -244,7 +244,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 
 ## Hero
 
-- **Copertina dell'album a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link), **album** (link), **anno**, **lingue disponibili** (l'originale e le traduzioni, con la bandiera, **ogni lingua una volta sola**: in un brano bilingue il tedesco sta sia nell'originale sia nella versione completa, D96). Sotto `md` le colonne **si impilano**; senza copertina l'anagrafica prende **tutta la larghezza**.
+- **Copertina dell'album a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link), **album** (link), **anno**, **lingue disponibili** (l'originale e le traduzioni, con la bandiera, **una voce per blocco**: in un brano bilingue il tedesco sta sia nell'originale sia nella versione completa, quindi la bandiera compare **due volte** — D96, D97). Sotto `md` le colonne **si impilano**; senza copertina l'anagrafica prende **tutta la larghezza**.
 - Sotto l'anagrafica la riga **data di aggiunta** e **voci** (quando il brano le dichiara).
 - La copertina è quella dell'**album** (il brano non ha immagine propria): `covers/<album>.webp`, `loading="lazy"`, con `width`/`height` dichiarati.
 
@@ -290,6 +290,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 - La mappa sta in `internal/render/lang_flags.go`; l'**inglese è 🇬🇧** (scelta dichiarata dall'autore). Una lingua senza bandiera — o un codice non previsto — mostra il **globo 🌐**: meglio un segno dichiarato che una bandiera inventata.
 - Le etichette si usano **ovunque si nominano lingue**: anagrafiche (brano, album), tracklist dell'album, intestazioni dei lati e voci dei menu. Nessuna pagina scrive più un codice lingua nudo.
 - I codici lingua restano quelli dello schema (`de`, `it`, `es`…): **non si traducono** e viaggiano nell'URL (`?lang=de`), dove una bandiera non ha senso.
+- In un **elenco di lingue** (anagrafica dell'album, tracklist) i codici ripetuti contano **una volta sola**, in ordine alfabetico (`LangLabels`); nell'**anagrafica del brano** invece ogni blocco è una voce e la stessa lingua può comparire due volte (`LangLabelsRepeated`, D97).
 
 ## Sezione "chiedi altre canzoni"
 
@@ -311,7 +312,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 | Traccia dichiarata in `album.md` senza testo | in tracklist, **senza link**, con "In arrivo" |
 | Brano strumentale | in tracklist con nota, nessuna pagina |
 | Brano con **più lingue originali** | l'originale mostrato è il primo dichiarato; su quel lato c'è il **menu** e le elenca tutte |
-| Brano **bilingue** (originale in due lingue, D96) | l'originale è **un blocco solo**, con il testo come è cantato; le traduzioni includono la **versione completa** in ciascuna delle due lingue (il tedesco con le parti inglesi tradotte, e viceversa) più la lingua di arrivo: il menu della traduzione le elenca tutte, con l'etichetta della lingua |
+| Brano **multilingue** (più lingue originali, D28/D96/D97) | l'originale è **un blocco solo**, con il testo come è cantato; le traduzioni includono la **versione completa** in **ciascuna** delle lingue dichiarate (per un brano `it+fr+de`: una versione interamente in italiano, una in francese, una in tedesco) più la lingua di arrivo: il menu della traduzione le elenca tutte, con l'etichetta della lingua |
 | Lato con **una sola lingua** | la lingua è un'**etichetta fissa**, non un menu: non c'è niente da scegliere. Le due colonne restano allineate perché etichetta e menu hanno la stessa altezza (D95) |
 | Lato **senza menu** | nessun blocco viene nascosto: il CSS nasconde solo dove c'è un menu che può riaprire, e lo script mostra comunque tutte le lingue di un lato senza menu |
 | Lingua non prevista nella mappa delle bandiere | **globo 🌐** accanto al codice, nessuna bandiera inventata |
@@ -342,7 +343,7 @@ Il ragionamento è quello dell'utente: se un brano tedesco ha traduzioni in ital
 
 - **Nessuna interfaccia in una lingua di un originale**: che esista un testo tedesco non implica un'interfaccia tedesca.
 - **Una traduzione in una lingua nuova crea pubblico in quella lingua**: quando compaiono traduzioni in francese, serve l'interfaccia in francese.
-- **Una traduzione verso una lingua che il brano ha già come originale non crea pubblico nuovo** (D96): il tedesco "completo" di un brano bilingue è una traduzione da leggere in pagina, ma chi legge il tedesco legge già l'originale — quindi non chiede `locales/de.yaml` né una pagina `/de/`.
+- **Una traduzione verso una lingua che il brano ha già come originale non crea pubblico nuovo** (D96, confermata in D97): il tedesco "completo" di un brano bilingue è una traduzione da leggere in pagina, ma chi legge il tedesco legge già l'originale — quindi non chiede `locales/de.yaml` né una pagina `/de/`.
 - Non si anticipa una lingua "per simmetria": una lingua senza contenuti in quella lingua non serve a nessuno.
 
 Caso iniziale: **italiano + inglese**, con le successive quando la prima traduzione in quella lingua entra nel sito.
@@ -384,7 +385,7 @@ Non cambiano: i contenuti dei brani (sono dato, non interfaccia) e gli slug (ste
 
 ## Validazione
 
-Il validatore controlla che tutte le lingue di `locales/` abbiano **le stesse chiavi** del locale italiano. Segnala anche (warning) quando una lingua di traduzione presente nei contenuti **non ha** un locale di interfaccia: è il promemoria che quella lingua ha ormai un pubblico. L'avviso **non vale** per una traduzione verso una lingua che il brano ha già come originale (D96): lì il pubblico non cambia.
+Il validatore controlla che tutte le lingue di `locales/` abbiano **le stesse chiavi** del locale italiano. Segnala anche (warning) quando una lingua di traduzione presente nei contenuti **non ha** un locale di interfaccia: è il promemoria che quella lingua ha ormai un pubblico. L'avviso **non vale** per una traduzione verso una lingua che il brano ha già come originale (D96, confermata in D97): lì il pubblico non cambia.
 
 ---
 
