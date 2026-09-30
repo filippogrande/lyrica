@@ -244,7 +244,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 
 ## Hero
 
-- **Copertina dell'album a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link), **album** (link), **anno**, **lingue disponibili** (l'originale e le traduzioni, con la bandiera). Sotto `md` le colonne **si impilano**; senza copertina l'anagrafica prende **tutta la larghezza**.
+- **Copertina dell'album a sinistra** (`col-12 col-md-4`) e **anagrafica a destra** (`col-12 col-md-8`): **band** (link), **album** (link), **anno**, **lingue disponibili** (l'originale e le traduzioni, con la bandiera, **ogni lingua una volta sola**: in un brano bilingue il tedesco sta sia nell'originale sia nella versione completa, D96). Sotto `md` le colonne **si impilano**; senza copertina l'anagrafica prende **tutta la larghezza**.
 - Sotto l'anagrafica la riga **data di aggiunta** e **voci** (quando il brano le dichiara).
 - La copertina è quella dell'**album** (il brano non ha immagine propria): `covers/<album>.webp`, `loading="lazy"`, con `width`/`height` dichiarati.
 
@@ -277,7 +277,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 - Menu ed etichetta hanno la **stessa altezza** (`min-height` in comune, `assets/css/lyrica.css`), quindi le due intestazioni restano pari.
 - **L'intestazione c'è su entrambi i lati sempre** (D94): con il menu presente solo dove c'erano più lingue, il testo di quel lato cominciava più in basso dell'altro e le due colonne risultavano **sfalsate**. Intestazione e testo: sempre, su ogni lato.
 - Il menu è un **`<select>` nativo** (`.lang-select`), con l'`aria-label` tradotto (`track.choose_original`, `track.choose_translation`): si apre col pollice, con la rotella e con la tastiera, senza una riga di codice in più.
-- Ogni voce è l'**etichetta della lingua con la bandiera** (`🇩🇪 DE`).
+- Ogni voce è l'**etichetta della lingua con la bandiera** (`🇩🇪 DE`): in un brano bilingue la stessa lingua può comparire come originale e come **versione completa**, e le due voci sono due testi diversi — il lato dice quale dei due si sta leggendo (D96).
 - **Tutte le lingue del brano sono nel DOM**: il cambio è lato client e **istantaneo**, nessuna chiamata al server, funziona **offline** (come il filtro delle band, D87).
 - La lingua scelta si riflette nell'URL via `history.replaceState`: **`?lang=de`** per la traduzione, **`?orig=de`** per l'originale. Il link si copia e si condivide, e chi lo apre trova la lingua scelta (lo script applica il parametro al caricamento); nessuna pagina separata e nessun URL duplicato.
 - La lingua si legge **nell'intestazione del lato** (`ORIGINALE 🇩🇪 DE`, `TRADUZIONE 🇮🇹 IT`), attaccata al testo che si sta leggendo: non c'è un titolo di colonna lontano dal testo. Il **traduttore**, quando dichiarato, sta sotto l'intestazione della traduzione (`track.translator`).
@@ -311,6 +311,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 | Traccia dichiarata in `album.md` senza testo | in tracklist, **senza link**, con "In arrivo" |
 | Brano strumentale | in tracklist con nota, nessuna pagina |
 | Brano con **più lingue originali** | l'originale mostrato è il primo dichiarato; su quel lato c'è il **menu** e le elenca tutte |
+| Brano **bilingue** (originale in due lingue, D96) | l'originale è **un blocco solo**, con il testo come è cantato; le traduzioni includono la **versione completa** in ciascuna delle due lingue (il tedesco con le parti inglesi tradotte, e viceversa) più la lingua di arrivo: il menu della traduzione le elenca tutte, con l'etichetta della lingua |
 | Lato con **una sola lingua** | la lingua è un'**etichetta fissa**, non un menu: non c'è niente da scegliere. Le due colonne restano allineate perché etichetta e menu hanno la stessa altezza (D95) |
 | Lato **senza menu** | nessun blocco viene nascosto: il CSS nasconde solo dove c'è un menu che può riaprire, e lo script mostra comunque tutte le lingue di un lato senza menu |
 | Lingua non prevista nella mappa delle bandiere | **globo 🌐** accanto al codice, nessuna bandiera inventata |
@@ -341,6 +342,7 @@ Il ragionamento è quello dell'utente: se un brano tedesco ha traduzioni in ital
 
 - **Nessuna interfaccia in una lingua di un originale**: che esista un testo tedesco non implica un'interfaccia tedesca.
 - **Una traduzione in una lingua nuova crea pubblico in quella lingua**: quando compaiono traduzioni in francese, serve l'interfaccia in francese.
+- **Una traduzione verso una lingua che il brano ha già come originale non crea pubblico nuovo** (D96): il tedesco "completo" di un brano bilingue è una traduzione da leggere in pagina, ma chi legge il tedesco legge già l'originale — quindi non chiede `locales/de.yaml` né una pagina `/de/`.
 - Non si anticipa una lingua "per simmetria": una lingua senza contenuti in quella lingua non serve a nessuno.
 
 Caso iniziale: **italiano + inglese**, con le successive quando la prima traduzione in quella lingua entra nel sito.
@@ -382,7 +384,7 @@ Non cambiano: i contenuti dei brani (sono dato, non interfaccia) e gli slug (ste
 
 ## Validazione
 
-Il validatore controlla che tutte le lingue di `locales/` abbiano **le stesse chiavi** del locale italiano. Segnala anche (warning) quando una lingua di traduzione presente nei contenuti **non ha** un locale di interfaccia: è il promemoria che quella lingua ha ormai un pubblico.
+Il validatore controlla che tutte le lingue di `locales/` abbiano **le stesse chiavi** del locale italiano. Segnala anche (warning) quando una lingua di traduzione presente nei contenuti **non ha** un locale di interfaccia: è il promemoria che quella lingua ha ormai un pubblico. L'avviso **non vale** per una traduzione verso una lingua che il brano ha già come originale (D96): lì il pubblico non cambia.
 
 ---
 

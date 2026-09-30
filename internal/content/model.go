@@ -156,3 +156,15 @@ func (t *Track) TranslationLangs() []string {
 	}
 	return langs
 }
+
+// HasOriginalLang dice se il brano dichiara quella lingua fra le sue lingue
+// originali (D28): un brano bilingue le dichiara tutte e due, anche quando il
+// testo originale è un blocco solo (D96).
+func (t *Track) HasOriginalLang(lang string) bool {
+	for _, declared := range t.OriginalLangs {
+		if declared == lang {
+			return true
+		}
+	}
+	return false
+}
