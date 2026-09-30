@@ -1,0 +1,146 @@
+---
+title: "tear gas"
+slug: "tear-gas"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Never afraid to be despicable, no"
+          - "Stood at the brink and you're still looking for the last laugh"
+          - "You're only crying from the tear gas"
+          - "Somebody turn us inside out"
+          - "Maybe you think that I'm too cynical, yeah"
+          - "Freezing to death stood in the shadow of an avalanche"
+          - "Are you looking at the hourglass?"
+      - lines:
+          - "It's do or die"
+          - "Any other time than now"
+          - "Any other time than now"
+          - "Just one life"
+          - "I guess you're gonna go to hell"
+          - "Guess you're gonna go to hell"
+          - "Tell a lie"
+          - "Anything is possible"
+          - "We could be unstoppable"
+          - "Be less than no one to me"
+          - "Just leave me in the mercy seat"
+      - lines:
+          - "Surely this ain't the fucking pinnacle? No"
+          - "These modern saints would have us writing our own epitaph"
+          - "Well, we knew that it would never last"
+          - "Somebody turn us inside out"
+          - "There's nothing left of ourselves that we won't sell"
+      - lines:
+          - "Do or die"
+          - "Any other time than now"
+          - "Any other time than now"
+          - "Just one life"
+          - "I guess you're gonna go to hell"
+          - "Guess you're gonna go to hell"
+          - "Tell a lie"
+          - "Anything is possible"
+          - "We could be unstoppable"
+          - "Be less than no one to me"
+          - "Just leave me in the mercy seat"
+      - lines:
+          - "We are well aware"
+          - "No one can stand without a spine"
+          - "But if we never dare"
+          - "We'll only flatten out the line"
+      - lines:
+          - "We are well aware"
+          - "No one can stand without a spine"
+          - "But if we never dare"
+          - "We'll only flatten out the line"
+      - lines:
+          - "Do or die"
+          - "Any other time than now"
+          - "Any other time than now"
+          - "Just one life"
+          - "I guess you're gonna go to hell"
+          - "Guess you're gonna go to hell"
+          - "Tell a lie"
+          - "Anything is possible"
+          - "We could be unstoppable"
+          - "Be less than no one to me"
+          - "Just leave me in the mercy seat"
+      - lines:
+          - "We are well aware"
+          - "No one can stand without a spine"
+          - "But if we never dare"
+          - "We'll only flatten out the line"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Mai paura di essere spregevole, no"
+          - "In piedi sull'orlo e cerchi ancora l'ultima risata"
+          - "Piangi solo per il gas lacrimante"
+          - "Qualcuno ci rivolti come un guanto"
+          - "Forse pensi che sono troppo cinico, sì"
+          - "Congelato a morte sono rimasto all'ombra di una valanga"
+          - "Stai guardando la clessidra?"
+      - lines:
+          - "Fatto o morte"
+          - "In qualsiasi altro momento non ora"
+          - "In qualsiasi altro momento non ora"
+          - "Una sola vita"
+          - "Immagino che andrai all'inferno"
+          - "Immagino che andrai all'inferno"
+          - "Racconta una bugia"
+          - "È tutto possibile"
+          - "Potremmo essere incontenibili"
+          - "Sii meno che nessuno per me"
+          - "Lasciami pure sul seggiolino della grazia"
+      - lines:
+          - "Di sicuro non è la fottuta cima? No"
+          - "Questi santi moderni vorrebbero farci scrivere il nostro epitaffio"
+          - "Be', sapevamo che non sarebbe durato"
+          - "Qualcuno ci rivolti come un guanto"
+          - "Non c'è più niente di noi che non venderemo"
+      - lines:
+          - "Fatto o morte"
+          - "In qualsiasi altro momento non ora"
+          - "In qualsiasi altro momento non ora"
+          - "Una sola vita"
+          - "Immagino che andrai all'inferno"
+          - "Immagino che andrai all'inferno"
+          - "Racconta una bugia"
+          - "È tutto possibile"
+          - "Potremmo essere incontenibili"
+          - "Sii meno che nessuno per me"
+          - "Lasciami pure sul seggiolino della grazia"
+      - lines:
+          - "Ne siamo ben coscienti"
+          - "Nessuno può stare in piedi senza una spina dorsale"
+          - "Ma se non osiamo mai"
+          - "Ci appiattiremo solo la linea"
+      - lines:
+          - "Ne siamo ben coscienti"
+          - "Nessuno può stare in piedi senza una spina dorsale"
+          - "Ma se non osiamo mai"
+          - "Ci appiattiremo solo la linea"
+      - lines:
+          - "Fatto o morte"
+          - "In qualsiasi altro momento non ora"
+          - "In qualsiasi altro momento non ora"
+          - "Una sola vita"
+          - "Immagino che andrai all'inferno"
+          - "Immagino che andrai all'inferno"
+          - "Racconta una bugia"
+          - "È tutto possibile"
+          - "Potremmo essere incontenibili"
+          - "Sii meno che nessuno per me"
+          - "Lasciami pure sul seggiolino della grazia"
+      - lines:
+          - "Ne siamo ben coscienti"
+          - "Nessuno può stare in piedi senza una spina dorsale"
+          - "Ma se non osiamo mai"
+          - "Ci appiattiremo solo la linea"
+---
