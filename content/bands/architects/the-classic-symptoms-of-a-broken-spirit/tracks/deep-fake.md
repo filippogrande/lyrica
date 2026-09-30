@@ -70,7 +70,7 @@ blocks:
           - "Vogliamo sapere che gli dei ci hanno in pugno"
       - lines:
           - "Vediamo le carte e andiamo a piegare"
-          - "Giochiamo along ma presto diventa stucchevole"
+          - "Ci prestiamo, ma presto diventa stucchevole"
           - "Hanno preso l'arca e l'hanno venduta tutta a pezzi"
           - "Hanno una mano piena di fottuto oro"
           - "Un ritorno sulle anime che hanno venduto"
@@ -90,7 +90,7 @@ blocks:
           - "Sì, sappiamo tutti che questi diritti sono sacri"
       - lines:
           - "Vediamo le carte e andiamo a piegare"
-          - "Giochiamo along ma presto diventa stucchevole"
+          - "Ci prestiamo, ma presto diventa stucchevole"
           - "Hanno preso l'arca e l'hanno venduta tutta a pezzi"
           - "Hanno una mano piena di fottuto oro"
           - "Un ritorno sulle anime che hanno venduto"
@@ -107,12 +107,13 @@ blocks:
       - lines:
           - "Siamo uno e lo stesso fottuto"
           - "Vediamo le carte e andiamo a piegare"
-          - "Giochiamo along ma presto diventa stucchevole"
+          - "Ci prestiamo, ma presto diventa stucchevole"
           - "Abbiamo preso l'arca e l'abbiamo venduta tutta a pezzi"
           - "Hanno una mano piena di fottuto oro"
           - "Un ritorno sulle anime che hanno venduto"
           - "Ti ricordi chi siamo?"
           - "Questi tiranni costruiranno un abisso"
+          - "Ma il resto di noi vuole esistere"
           - "Ma il resto di noi lotta con un'ombra nel buio"
       - lines:
           - "Deep fake"
