@@ -72,7 +72,8 @@ blocks:
       - lines:
           - "Alcuni ragazzi sono spezzati"
           - "E portano solo merda nella tua vita"
-          - "Dai loro un pollicino e si prendono"
+          - "Dai loro un pollicino e loro"
+          - "Si prendono"
           - "Un miglio intero"
           - "E alcuni ragazzi non riescono mai a catturare"
           - "L'occhio delle ragazze"
