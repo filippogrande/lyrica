@@ -1,0 +1,142 @@
+---
+title: "Error 808"
+slug: "error-808"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Every step a brand new stage"
+          - "Every stage a brand new cage"
+          - "Every cage had its own rage"
+          - "Here I stand, now disengaged"
+          - "There is more than that"
+          - "There is more than that"
+          - "More than what I had"
+          - "More than, more than what I had"
+      - lines:
+          - "Press start to try again"
+          - "I still got credits left"
+          - "1,2,3,4"
+          - "Stepping back on to the floor"
+          - "1,2,3,4"
+          - "Start again 'cause I want more"
+      - lines:
+          - "Press start, retry tomorrow"
+          - "There'll be adventures to follow"
+          - "Press start, maybe tomorrow"
+          - "Follow the light through the shadows"
+      - lines:
+          - "Press start and try again"
+      - lines:
+          - "Upgraded a million times"
+          - "Million times I realised"
+          - "Realised there is more than this"
+          - "Had to chase the next damn bliss"
+          - "There is more than this"
+          - "There is more than this"
+          - "Again, a genesis"
+          - "Escaping apocalypse"
+      - lines:
+          - "Press start to try again"
+          - "I still got credits left"
+          - "4,3,2,1"
+          - "New level has just begun"
+          - "4,3,2,1"
+          - "Check me, play, I'm never done"
+      - lines:
+          - "Press start, retry tomorrow"
+          - "There'll be adventures to follow"
+          - "Press start, maybe tomorrow"
+          - "Follow the light through the shadows"
+      - lines:
+          - "Press start and try again"
+      - lines:
+          - "I never stop"
+          - "I will never stop"
+          - "I want more"
+          - "I won't stop and I live it up"
+          - "I will never go down"
+          - "I got credits left, go down"
+          - "Press start again, go down"
+          - "This is not a test, press start again"
+      - lines:
+          - "Press start and try again"
+      - lines:
+          - "Press start and try again"
+      - lines:
+          - "Press start and try again"
+      - lines:
+          - "Press start and try again"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ogni passo è un palcoscenico tutto nuovo"
+          - "Ogni palcoscenico è una gabbia tutta nuova"
+          - "Ogni gabbia aveva la sua rabbia"
+          - "Eccomi qui, ora disimpegnato"
+          - "C'è più di così"
+          - "C'è più di così"
+          - "Più di quello che avevo"
+          - "Più di, più di quello che avevo"
+      - lines:
+          - "Premi start per riprovare"
+          - "Mi sono ancora rimasti dei crediti"
+          - "1,2,3,4"
+          - "Facendo un passo indietro sul palcoscenico"
+          - "1,2,3,4"
+          - "Ricomincia perché voglio di più"
+      - lines:
+          - "Premi start, riprova domani"
+          - "Ci saranno avventure da seguire"
+          - "Premi start, forse domani"
+          - "Segui la luce attraverso le ombre"
+      - lines:
+          - "Premi start e riprova"
+      - lines:
+          - "Aggiornato un milione di volte"
+          - "Un milione di volte ho capito"
+          - "Ho capito che c'è più di questo"
+          - "Ho dovuto inseguire la prossima fottuta beatitudine"
+          - "C'è più di questo"
+          - "C'è più di questo"
+          - "Di nuovo, un genesi"
+          - "Fuggendo l'apocalisse"
+      - lines:
+          - "Premi start per riprovare"
+          - "Mi sono ancora rimasti dei crediti"
+          - "4,3,2,1"
+          - "Un nuovo livello è appena iniziato"
+          - "4,3,2,1"
+          - "Guardami, gioco, non ho mai finito"
+      - lines:
+          - "Premi start, riprova domani"
+          - "Ci saranno avventure da seguire"
+          - "Premi start, forse domani"
+          - "Segui la luce attraverso le ombre"
+      - lines:
+          - "Premi start e riprova"
+      - lines:
+          - "Non mi fermo mai"
+          - "Non mi fermerò mai"
+          - "Voglio di più"
+          - "Non mi fermo e mi godo la vita"
+          - "Non scenderò mai"
+          - "Mi sono rimasti crediti, scendo"
+          - "Premi start di nuovo, scendo"
+          - "Questa non è una prova, premi start di nuovo"
+      - lines:
+          - "Premi start e riprova"
+      - lines:
+          - "Premi start e riprova"
+      - lines:
+          - "Premi start e riprova"
+      - lines:
+          - "Premi start e riprova"
+---
