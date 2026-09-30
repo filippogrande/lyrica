@@ -1,0 +1,122 @@
+---
+title: "Broken Mirror"
+slug: "broken-mirror"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Some days I'm a tidal wave"
+          - "Still lakes never leave a trace"
+          - "I'm overcome but I don't wanna run"
+          - "Light fades but the shadows stay"
+          - "No grace in the breaths I take"
+          - "I've had enough of staring at the sun"
+      - lines:
+          - "You wouldn't wanna read my mind"
+          - "You wouldn't wanna stand beside me"
+          - "When I'm living on the edge"
+      - lines:
+          - "Take me to the place where the heavens are haunted"
+          - "And I'll pray to the cross you bear"
+          - "Tell me, if I gave you the world would you meet me there?"
+          - "Do you see me now the lights are out?"
+          - "I'm a broken mirror"
+      - lines:
+          - "No sleep in the bed we made"
+          - "Two saints and a hand grenade"
+          - "Forever numb, a cry to anyone"
+          - "Highways over shallow graves"
+          - "Cold rain down a window pane"
+          - "I gave you doves but held on to the gun"
+      - lines:
+          - "You wouldn't wanna read my mind"
+          - "You wouldn't wanna stand beside me"
+          - "When I'm living on the edge"
+      - lines:
+          - "Take me to the place where the heavens are haunted"
+          - "And I'll pray to the cross you bear"
+          - "Tell me, if I gave you the world would you meet me there?"
+          - "Do you see me now the lights are out?"
+          - "I'm a broken mirror"
+      - lines:
+          - "These shattered lives"
+          - "Reflections scattered"
+          - "Pieces in your eyes"
+      - lines:
+          - "Take me to the place where the heavens are haunted"
+          - "And I'll pray to the cross you bear"
+          - "Tell me, if I gave you the world would you meet me there?"
+          - "Do you see me now the lights are out?"
+          - "I'm a broken mirror"
+      - lines:
+          - "I found you on the other side"
+          - "I tried to put it all behind me"
+          - "I think about it all the time"
+          - "I dream about the end"
+          - "You wouldn't wanna read my mind"
+          - "You wouldn't wanna stand beside me"
+          - "Hear me now, I'm crying out"
+          - "I'm a broken mirror"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Alcuni giorni sono un'onda di marea"
+          - "I laghi fermi non lasciano mai traccia"
+          - "Sono sopraffatto ma non voglio scappare"
+          - "La luce svanisce ma le ombre restano"
+          - "Nessuna grazia nei respiri che prendo"
+          - "Ho avuto abbastanza di fissare il sole"
+      - lines:
+          - "Non vorresti leggere nella mia mente"
+          - "Non vorresti stare al mio fianco"
+          - "Quando vivo sul filo del taglio"
+      - lines:
+          - "Portami nel luogo dove i cieli sono infestati"
+          - "E pregherò sulla croce che porti"
+          - "Dimmi, se ti donassi il mondo, verresti da me?"
+          - "Mi vedi ora che le luci sono spente?"
+          - "Sono uno specchio rotto"
+      - lines:
+          - "Niente sonno nel letto che abbiamo fatto"
+          - "Due santi e una granata a mano"
+          - "Per sempre intorpidito, un grido a chiunque"
+          - "Autostrade sopra fosse poco profonde"
+          - "Pioggia fredda su un vetro"
+          - "Ti ho dato colombe ma ho tenuto la pistola"
+      - lines:
+          - "Non vorresti leggere nella mia mente"
+          - "Non vorresti stare al mio fianco"
+          - "Quando vivo sul filo del taglio"
+      - lines:
+          - "Portami nel luogo dove i cieli sono infestati"
+          - "E pregherò sulla croce che porti"
+          - "Dimmi, se ti donassi il mondo, verresti da me?"
+          - "Mi vedi ora che le luci sono spente?"
+          - "Sono uno specchio rotto"
+      - lines:
+          - "Queste vite incrinate"
+          - "Riflessi sparsi"
+          - "Pezzi nei tuoi occhi"
+      - lines:
+          - "Portami nel luogo dove i cieli sono infestati"
+          - "E pregherò sulla croce che porti"
+          - "Dimmi, se ti donassi il mondo, verresti da me?"
+          - "Mi vedi ora che le luci sono spente?"
+          - "Sono uno specchio rotto"
+      - lines:
+          - "Ti ho trovato dall'altra parte"
+          - "Ho provato a mettermi tutto alle spalle"
+          - "Ci penso sempre"
+          - "Sogno la fine"
+          - "Non vorresti leggere nella mia mente"
+          - "Non vorresti stare al mio fianco"
+          - "Ascoltami, sto urlando"
+          - "Sono uno specchio rotto"
+---
