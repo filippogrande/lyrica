@@ -1,0 +1,158 @@
+---
+title: "Whiplash"
+slug: "whiplash"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Can we ready ourselves for the outrage"
+          - "Have they got you in an iron lung?"
+          - "Every rodent wants to live in a gilded cage"
+          - "'Till the soldiers come and take your tongue"
+      - lines:
+          - "They say move, move"
+          - "Fuck you if you disapprove"
+          - "You're doomed too"
+          - "Quit talking like you're bulletproof"
+      - lines:
+          - "Is the world done fucking around?"
+          - "We bow to the crown"
+          - "Dripping in blood, lit under halos"
+          - "Welcome here in the crowd"
+          - "We're safe and we're sound"
+          - "But who gives a fuck unless you're one of us?"
+      - lines:
+          - "Move, move"
+          - "Move, move"
+          - "Fuck you if you disapprove"
+      - lines:
+          - "Did you bury you neighbour in the earthquake?"
+          - "Were you sitting by a smoking gun?"
+          - "Light a fire in the shrine, we're the absolute"
+          - "Christ preaching to the fucking scum"
+      - lines:
+          - "They say move, move"
+          - "Fuck you if you disapprove"
+          - "Doomed youth"
+          - "You're fucking lying if you tell the truth"
+      - lines:
+          - "Is the world done fucking around?"
+          - "We bow to the crown"
+          - "Dripping in blood, lit under halos"
+          - "Welcome here in the crowd"
+          - "We're safe and we're sound"
+          - "But who gives a fuck unless you're one of us?"
+      - lines:
+          - "Echoes of a recent past"
+          - "All tears when the culture starts to crash"
+          - "Will we ever ask"
+          - "Was I built for the whiplash?"
+          - "To the holy rats"
+          - "And all the prophets they attract"
+          - "Will you ever ask?"
+          - "Was I built for the whiplash?"
+      - lines:
+          - "Was I built for the whiplash?"
+          - "Was I built for the whiplash?"
+          - "Was I built for the whiplash?"
+          - "Bitch"
+      - lines:
+          - "You got something to say?"
+          - "What?"
+          - "You motherfucker"
+          - "Yeah"
+          - "Quit talking like you're bulletproof"
+      - lines:
+          - "Is the world done fucking around?"
+          - "We bow to the crown"
+          - "Dripping in blood, lit under halos"
+          - "Welcome here in the crowd"
+          - "'Cause we're safe and we're sound"
+          - "But who gives a fuck unless you're one of us?"
+      - lines:
+          - "Oh my god!"
+          - "(Everything is going to be fine)"
+      - lines:
+          - "Do you disapprove?"
+          - "Motherfucker"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Possiamo prepararci all'oltraggio"
+          - "Ce l'hanno messo in un polmone d'acciaio?"
+          - "Ogni roditore vuole vivere in una gabbia d'oro"
+          - "Finché non arrivano i soldati a prendersi la tua lingua"
+      - lines:
+          - "Dicono muoviti, muoviti"
+          - "Fotterti se non ti va"
+          - "Anche tu sei destinato"
+          - "Smetti di parlare come se fossi invulnerabile"
+      - lines:
+          - "Il mondo ha finito di fotterci?"
+          - "Ci inchiniamo alla corona"
+          - "Intrisi di sangue, illuminati dagli aloni"
+          - "Benvenuti qui in mezzo alla folla"
+          - "Siamo al sicuro e stiamo bene"
+          - "Ma a chi fregna se non sei uno di noi?"
+      - lines:
+          - "Muoviti, muoviti"
+          - "Muoviti, muoviti"
+          - "Fotterti se non ti va"
+      - lines:
+          - "Hai sepolto tuo vicino nel terremoto?"
+          - "Eri seduto accanto a un fumante?"
+          - "Accendi un fuoco nel santuario, siamo l'assoluto"
+          - "Cristo che predica alla fottuta feccia"
+      - lines:
+          - "Dicono muoviti, muoviti"
+          - "Fotterti se non ti va"
+          - "Gioventù destinata"
+          - "Stai fottutamente mentendo se dici la verità"
+      - lines:
+          - "Il mondo ha finito di fotterci?"
+          - "Ci inchiniamo alla corona"
+          - "Intrisi di sangue, illuminati dagli aloni"
+          - "Benvenuti qui in mezzo alla folla"
+          - "Siamo al sicuro e stiamo bene"
+          - "Ma a chi fregna se non sei uno di noi?"
+      - lines:
+          - "Echi di un passato recente"
+          - "Tutte le lacrime quando la cultura comincia a crollare"
+          - "Chiederemo mai"
+          - "Sono stato fatto per il colpo di frusta?"
+          - "Ai ratti santi"
+          - "E a tutti i profeti che attraggono"
+          - "Chiederai mai?"
+          - "Sono stato fatto per il colpo di frusta?"
+      - lines:
+          - "Sono stato fatto per il colpo di frusta?"
+          - "Sono stato fatto per il colpo di frusta?"
+          - "Sono stato fatto per il colpo di frusta?"
+          - "Troia"
+      - lines:
+          - "Hai qualcosa da dire?"
+          - "Cosa?"
+          - "Tu, cazzo di madrefucker"
+          - "Sì"
+          - "Smetti di parlare come se fossi invulnerabile"
+      - lines:
+          - "Il mondo ha finito di fotterci?"
+          - "Ci inchiniamo alla corona"
+          - "Intrisi di sangue, illuminati dagli aloni"
+          - "Benvenuti qui in mezzo alla folla"
+          - "Perché siamo al sicuro e stiamo bene"
+          - "Ma a chi fregna se non sei uno di noi?"
+      - lines:
+          - "Oh mio dio!"
+          - "(Andrà tutto bene)"
+      - lines:
+          - "Ti va?"
+          - "Madrefucker"
+---
