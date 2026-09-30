@@ -1,0 +1,144 @@
+---
+title: "Overload"
+slug: "overload"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "You're tired of controlling"
+          - "Your brain it's overloading"
+          - "Tired of all blessings"
+          - "That everybody's passing"
+          - "You're trying to fight the feeling"
+          - "That life it has no meaning"
+          - "You're terrified of failing"
+          - "Of being the dropout everyone's blaming"
+      - lines:
+          - "Come on, come on, and fight it"
+          - "Come on, come on, and fight it"
+      - lines:
+          - "Come on, come on, and fight it"
+          - "I can't keep hiding myself"
+          - "It's too complicated"
+          - "Come on, come on and face it"
+          - "No chance there's no way for me"
+          - "To stop this overload"
+      - lines:
+          - "To stop this overload"
+          - "To stop this overload"
+          - "To stop this overload"
+          - "To stop this overload"
+      - lines:
+          - "The thermostat is rising"
+          - "All your knuckles whitening"
+          - "You're tired of restraining"
+          - "The demons you've been taming"
+          - "The picture frame is golden"
+          - "The colors overloading"
+          - "You're bleeding, screaming from within"
+          - "While everybody's watching"
+      - lines:
+          - "Come on, come on, and fight it"
+          - "I can't keep hiding myself"
+          - "It's too complicated"
+          - "Come on, come on and face it"
+          - "No chance there's no way for me"
+          - "To stop this overload"
+      - lines:
+          - "To stop this overload"
+          - "To stop this overload"
+          - "To stop this overload"
+          - "To stop this overload"
+      - lines:
+          - "This picture is colorless"
+          - "I've had enough"
+          - "No need to impress"
+          - "No need to dive"
+          - "This picture is colorless"
+          - "I've had enough"
+          - "No need to impress"
+          - "I feel alive now"
+      - lines:
+          - "Come on, come on, and fight it"
+          - "I can't keep hiding myself"
+          - "It's too complicated"
+          - "Come on, come on and face it"
+          - "No chance there's no way for me"
+          - "To stop this"
+      - lines:
+          - "To stop this"
+          - "To stop this overload"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sei stanco di controllare"
+          - "Il tuo cervello sta andando in sovraccarico"
+          - "Stanco di tutte le benedizioni"
+          - "Che tutti elargiscono"
+          - "Stai cercando di combattere la sensazione"
+          - "Che la vita non ha senso"
+          - "Sei terrorizzato dal fallire"
+          - "Di essere quello che abbandona, quello a cui danno la colpa"
+      - lines:
+          - "Corri, corri, e combattila"
+          - "Corri, corri, e combattila"
+      - lines:
+          - "Corri, corri, e combattila"
+          - "Non riesco più a nascondere me stesso"
+          - "È troppo complicato"
+          - "Corri, corri e affrontala"
+          - "Nessuna possibilità, non c'è via per me"
+          - "Per fermare questo sovraccarico"
+      - lines:
+          - "Per fermare questo sovraccarico"
+          - "Per fermare questo sovraccarico"
+          - "Per fermare questo sovraccarico"
+          - "Per fermare questo sovraccarico"
+      - lines:
+          - "Il termostato sta salendo"
+          - "Tutte le tue nocche sbiancando"
+          - "Sei stanco di trattenerti"
+          - "I demoni che hai domato"
+          - "La cornice è dorata"
+          - "I colori in sovraccarico"
+          - "Stai sanguinando, urlando dall'interno"
+          - "Mentre tutti guardano"
+      - lines:
+          - "Corri, corri, e combattila"
+          - "Non riesco più a nascondere me stesso"
+          - "È troppo complicato"
+          - "Corri, corri e affrontala"
+          - "Nessuna possibilità, non c'è via per me"
+          - "Per fermare questo sovraccarico"
+      - lines:
+          - "Per fermare questo sovraccarico"
+          - "Per fermare questo sovraccarico"
+          - "Per fermare questo sovraccarico"
+          - "Per fermare questo sovraccarico"
+      - lines:
+          - "Quest'immagine è senza colore"
+          - "Ne ho abbastanza"
+          - "Non c'è bisogno di impressionare"
+          - "Non c'è bisogno di tuffarmi"
+          - "Quest'immagine è senza colore"
+          - "Ne ho abbastanza"
+          - "Non c'è bisogno di impressionare"
+          - "Ora mi sento vivo"
+      - lines:
+          - "Corri, corri, e combattila"
+          - "Non riesco più a nascondere me stesso"
+          - "È troppo complicato"
+          - "Corri, corri e affrontala"
+          - "Nessuna possibilità, non c'è via per me"
+          - "Per fermare questo"
+      - lines:
+          - "Per fermare questo"
+          - "Per fermare questo sovraccarico"
+---
