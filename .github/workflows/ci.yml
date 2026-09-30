@@ -9,6 +9,8 @@ name: CI
 #      rendono la PR rossa, prima del merge;
 #   4. GENERA il sito (`lyrica build`): se un template non rende, si vede qui e
 #      non in produzione.
+# Il log del job non è leggibile dall'API (serve il login): gli errori di templ e
+# dei test si rimandano come annotation, che invece si leggono.
 
 on:
   pull_request:
@@ -51,8 +53,14 @@ jobs:
         run: go build ./...
 
       # I test girano sui template già generati: il pacchetto render li importa.
+      # Come per templ, il fallimento si rimanda come annotation: senza, l'unico
+      # modo di sapere quale test è rosso è aprire il log a mano.
       - name: Test
-        run: go test ./...
+        run: |
+          if ! go test ./... > /tmp/test.log 2>&1; then
+            echo "::error::go test fallito: $(awk '{printf "%s%%0A", $0}' /tmp/test.log | head -c 3000)"
+            exit 1
+          fi
 
   valida:
     name: Valida e genera
