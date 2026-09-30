@@ -33,4 +33,5 @@ tracks:
     title: "H.A.T.E."
   - slug: "inner-sanctum"
     title: "Inner Sanctum"
+cover: "abyss-the-final-chapter.webp"
 ---

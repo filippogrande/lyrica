@@ -35,4 +35,5 @@ tracks:
   - slug: "revery-sullivan-king-remix"
     title: "Revery (Sullivan King remix)"
     status: pending
+cover: "tanzneid.webp"
 ---

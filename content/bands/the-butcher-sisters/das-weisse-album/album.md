@@ -31,4 +31,5 @@ tracks:
     title: "Aperol"
   - slug: "drachentoeter"
     title: "Drachentöter (feat. Equilibrium)"
+cover: "das-weisse-album.webp"
 ---
