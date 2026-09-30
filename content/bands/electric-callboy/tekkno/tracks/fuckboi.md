@@ -1,0 +1,156 @@
+---
+title: "Fuckboi"
+slug: "fuckboi"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I'm in love with the morning light"
+          - "Feel it deep inside"
+          - "My day, my time, my way"
+          - "But you never stay for the night"
+          - "You don't know me like"
+          - "One day I wish you would"
+      - lines:
+          - "Yeah, everybody thinks that I am just a fuckboy"
+          - "'Cause I know that you think that I am just a fuckboy"
+      - lines:
+          - "I know that I don't have any good reputation"
+          - "Do you wanna be my way out of this situation?"
+      - lines:
+          - "But I really wanna know that you want me"
+          - "I really wanna show that I'm worth it"
+          - "'Cause I know, 'cause I know"
+          - "I'm better, I'm good for you"
+      - lines:
+          - "Yeah, everybody thinks that I am just a fuckboy"
+          - "'Cause I know that you think that I am just a fuckboy"
+      - lines:
+          - "Now you're calling me late"
+          - "You're getting under my skin"
+          - "And you're showing up at my place for days"
+          - "Well, I think I like it"
+      - lines:
+          - "'Cause you stay in my head where rent is free"
+          - "When you call my name it hits differently"
+          - "I need to know, need to know, are you good for me?"
+      - lines:
+          - "Yeah, everybody thinks that you're just a fuckboy"
+          - "Well, maybe you're no good for me"
+          - "Everybody thinks that you're just a fuckboy"
+          - "I can't really help but feel"
+      - lines:
+          - "I don't care what they say"
+          - "Boy, I need you to stay"
+          - "Yeah, I want you so bad"
+          - "In all the worst ways"
+          - "Everybody thinks that you're just a fuckboy"
+          - "Yeah, well, I don't give a fuck, boy"
+      - lines:
+          - "Why they keep talkin' shit when no one fuckin' asked?"
+          - "You know I love to watch your eyes roll back"
+          - "You had a taste and now you're fiendin' cause you like that"
+          - "You fuck around, boy, you should know I'm gonna bite back"
+      - lines:
+          - "I don't care what they say"
+          - "'Cause I need you to stay"
+          - "Yeah, I want you so bad"
+          - "In all the worst ways"
+      - lines:
+          - "I don't care what they say"
+          - "'Cause I need you to stay"
+          - "Yeah, I want you so bad"
+          - "In all the worst ways"
+      - lines:
+          - "Yeah, everybody thinks that I am just a fuckboy"
+          - "No matter what they say I wanna be with you"
+          - "'Cause I know that you think that I'm just a fuckboy"
+          - "So, baby, tell me lies 'cause I don't need the truth"
+      - lines:
+          - "Give them something to say"
+          - "'Cause I need you to stay"
+          - "Yeah, I want you so bad"
+          - "In all the worst ways"
+      - lines:
+          - "Yeah, everybody thinks that I am just a fuckboy"
+          - "So come here 'cause I don't give a fuck, boy"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sono innamorato della luce del mattino"
+          - "La sento in profondità dentro"
+          - "Il mio giorno, il mio tempo, il mio modo"
+          - "Ma tu non resti mai per la notte"
+          - "Non mi conosci come"
+          - "Un giorno vorrei che lo facessi"
+      - lines:
+          - "Sì, tutti pensano che io sia solo un cazzo di ragazzo"
+          - "Perché so che tu pensi che io sia solo un cazzo di ragazzo"
+      - lines:
+          - "So di non avere una buona reputazione"
+          - "Vuoi essere la mia via d'uscita da questa situazione?"
+      - lines:
+          - "Ma voglio davvero sapere che tu mi vuoi"
+          - "Voglio davvero dimostrare che ne valgo la pena"
+          - "Perché lo so, perché lo so"
+          - "Sono meglio, sono buono per te"
+      - lines:
+          - "Sì, tutti pensano che io sia solo un cazzo di ragazzo"
+          - "Perché so che tu pensi che io sia solo un cazzo di ragazzo"
+      - lines:
+          - "Ora mi chiami tardi"
+          - "Mi stai entrando sotto la pelle"
+          - "E ti presenti a casa mia da giorni"
+          - "Beh, credo che mi piaccia"
+      - lines:
+          - "Perché vivi nella mia testa senza affitto"
+          - "Quando dici il mio nome fa un effetto diverso"
+          - "Devo sapere, devo sapere, sei buono per me?"
+      - lines:
+          - "Sì, tutti pensano che tu sia solo un cazzo di ragazzo"
+          - "Beh, forse non sei buono per me"
+          - "Tutti pensano che tu sia solo un cazzo di ragazzo"
+          - "Non posso farne a meno, mi sento"
+      - lines:
+          - "Non me ne frega di quello che dicono"
+          - "Ragazzo, ho bisogno che tu resti"
+          - "Sì, ti voglio così male"
+          - "In tutti i modi peggiori"
+          - "Tutti pensano che tu sia solo un cazzo di ragazzo"
+          - "Sì, beh, me ne fotto, ragazzo"
+      - lines:
+          - "Perché continuano a parlare di merda quando nessuno cazz'ha chiesto niente?"
+          - "Sai quanto mi piace guardare i tuoi occhi che rotolano indietro"
+          - "Hai avuto un assaggio e ora sei dipendente perché ti piace"
+          - "Rotoli a letto, ragazzo, dovresti sapere che ti morderò dietro"
+      - lines:
+          - "Non me ne frega di quello che dicono"
+          - "Perché ho bisogno che tu resti"
+          - "Sì, ti voglio così male"
+          - "In tutti i modi peggiori"
+      - lines:
+          - "Non me ne frega di quello che dicono"
+          - "Perché ho bisogno che tu resti"
+          - "Sì, ti voglio così male"
+          - "In tutti i modi peggiori"
+      - lines:
+          - "Sì, tutti pensano che io sia solo un cazzo di ragazzo"
+          - "Non importa quello che dicono, voglio stare con te"
+          - "Perché so che tu pensi che io sia solo un cazzo di ragazzo"
+          - "Quindi, tesoro, dimmi le bugie perché non ho bisogno della verità"
+      - lines:
+          - "Dagli qualcosa di cui parlare"
+          - "Perché ho bisogno che tu resti"
+          - "Sì, ti voglio così male"
+          - "In tutti i modi peggiori"
+      - lines:
+          - "Sì, tutti pensano che io sia solo un cazzo di ragazzo"
+          - "Quindi vieni qui perché me ne fotto, ragazzo"
+---
