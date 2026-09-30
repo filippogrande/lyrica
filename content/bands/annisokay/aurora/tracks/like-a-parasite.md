@@ -1,0 +1,152 @@
+---
+title: "Like a Parasite"
+slug: "like-a-parasite"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I give it all"
+          - "Shoot for the stars"
+          - "You feed yourself"
+          - "While I starve"
+      - lines:
+          - "You never"
+          - "Had my back"
+          - "Not a bit"
+          - "You left me hanging"
+          - "I call it quits"
+          - "You damn hypocrite"
+      - lines:
+          - "You were faking, simulating"
+          - "But the times have changed"
+          - "No more hiding, no disguising"
+          - "Lay down your veil"
+      - lines:
+          - "I, I leave you behind"
+          - "Cut all of our ties"
+          - "Before you bleed me dry"
+      - lines:
+          - "We built this world for you"
+          - "I can see right through you"
+          - "Every time"
+          - "I died some more on the inside"
+          - "You bleed me dry"
+          - "Like a parasite..."
+      - lines:
+          - "It is a matter of give and take"
+          - "Not fighting for your own sake"
+          - "Backstabber"
+          - "And in the final aftermath"
+          - "You will show me your bare face"
+          - "Without a mask"
+      - lines:
+          - "You were faking, simulating"
+          - "But the times have changed"
+          - "No more hiding, no disguising"
+          - "Lay down your veil"
+      - lines:
+          - "I can't see through your eyes"
+          - "I can't justify"
+          - "The way you bled me dry"
+      - lines:
+          - "We built this world for you"
+          - "I can see right through you"
+          - "Every time"
+          - "I died some more on the inside"
+          - "You bled me dry"
+          - "Like a parasite..."
+      - lines:
+          - "I choke on the air you breathe"
+          - "I won't let you sow your seeds"
+          - "I won't hear the lies you preach"
+          - "I won't be fooled, you bleed me dry"
+      - lines:
+          - "After all of this"
+          - "You still try to stab my back"
+          - "And while you're losing ground"
+          - "You still try to bring me down"
+      - lines:
+          - "We built this world for you"
+          - "I can see right through you"
+          - "Every time"
+          - "I died some more on the inside"
+          - "You bled me dry"
+          - "You fucking parasite"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Do tutto"
+          - "Punta le stelle"
+          - "Ti sfami tu"
+          - "Mentre io muoio di fame"
+      - lines:
+          - "Tu mai"
+          - "Avuto la mia schiena"
+          - "Nemmeno un po'"
+          - "Mi hai lasciato appeso"
+          - "Do le dimissioni"
+          - "Ipocrita fottuta"
+      - lines:
+          - "Stavi fingendo, simulando"
+          - "Ma i tempi sono cambiati"
+          - "Niente più nascondersi, niente più travestimenti"
+          - "Posa il tuo velo"
+      - lines:
+          - "Io, io ti lascio indietro"
+          - "Taglio tutti i nostri legami"
+          - "Prima che tu mi dissangui"
+      - lines:
+          - "Abbiamo costruito questo mondo per te"
+          - "Riesco a vederti chiaramente"
+          - "Ogni volta"
+          - "Morivo un po' di più dentro"
+          - "Mi dissangui"
+          - "Come un parassita..."
+      - lines:
+          - "È una questione di dare e ricevere"
+          - "Non litigare per il tuo stesso bene"
+          - "Pugnale alle spalle"
+          - "E nella catastrofe finale"
+          - "Mi mostrerai il volto nudo"
+          - "Senza una maschera"
+      - lines:
+          - "Stavi fingendo, simulando"
+          - "Ma i tempi sono cambiati"
+          - "Niente più nascondersi, niente più travestimenti"
+          - "Posa il tuo velo"
+      - lines:
+          - "Non riesco a vedere attraverso i tuoi occhi"
+          - "Non riesco a giustificare"
+          - "Il modo in cui mi hai dissanguato"
+      - lines:
+          - "Abbiamo costruito questo mondo per te"
+          - "Riesco a vederti chiaramente"
+          - "Ogni volta"
+          - "Morivo un po' di più dentro"
+          - "Mi dissangui"
+          - "Come un parassita..."
+      - lines:
+          - "Mi soffoco con l'aria che respiri"
+          - "Non ti lascerò seminare i tuoi semi"
+          - "Non ascolterò le bugie che predichi"
+          - "Non mi farai fregare, tu mi dissangui"
+      - lines:
+          - "Dopo tutto questo"
+          - "Tu provi ancora a piantarmi un coltello alle spalle"
+          - "E mentre stai perdendo terreno"
+          - "Tu provi ancora a abbattermi"
+      - lines:
+          - "Abbiamo costruito questo mondo per te"
+          - "Riesco a vederti chiaramente"
+          - "Ogni volta"
+          - "Morivo un po' di più dentro"
+          - "Mi dissangui"
+          - "Parassita fottuto"
+---
