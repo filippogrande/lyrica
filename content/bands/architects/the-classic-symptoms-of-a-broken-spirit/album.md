@@ -25,4 +25,5 @@ tracks:
     title: "all the love in the world"
   - slug: "be-very-afraid"
     title: "be very afraid"
+cover: "the-classic-symptoms-of-a-broken-spirit.webp"
 ---
