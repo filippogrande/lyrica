@@ -1,0 +1,138 @@
+---
+title: "Blackhole"
+slug: "blackhole"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Is there nothing but the cold at the centre of a black hole?"
+          - "Oh"
+          - "Ah, bitch"
+      - lines:
+          - "Ah, the signal fire's gonna burn out"
+          - "Through the sirens and the flares"
+          - "I was swallowed by the storm clouds"
+          - "Hailstones on a glass house"
+          - "There were diamonds in the air"
+          - "And the oxygen left my chest"
+      - lines:
+          - "Lost souls trapped beneath this ceiling"
+          - "It's figure-eight till the ghosts have been laid to rest"
+          - "Pull it tight, try to stop this bleeding"
+          - "Stampede as the horrors run through my head"
+      - lines:
+          - "Death stared, and I died a thousand times"
+          - "Nightmares left a riot in my mind"
+          - "Is today so hollow if there were no tomorrow?"
+          - "Midnight, we cut the power lines"
+          - "No light but the fire in my eyes"
+          - "Is today so hollow if there were no tomorrow?"
+      - lines:
+          - "Oh"
+          - "Ah, bitch"
+      - lines:
+          - "Ah, sick of living with the pain now"
+          - "Someone take me for repair"
+          - "There's a bitter taste in my mouth"
+          - "In the silence, there was ill health"
+          - "Maybe life just isn't fair"
+          - "Maybe I'm just fucking self-obsessed"
+      - lines:
+          - "Don't say I gotta chase this feeling"
+          - "Bullets hit, but it's only gonna dent the vest"
+          - "Wartime with the whole world sleeping"
+          - "Bombs drop on the prison hope built instead"
+      - lines:
+          - "Struck down"
+          - "Souls carried through an unknown universe"
+          - "No service for the faithless, everything turns to dust"
+      - lines:
+          - "There were diamonds in the air"
+          - "And the oxygen left my chest"
+          - "Is there anybody there?"
+          - "I pray that I'll be blessed"
+      - lines:
+          - "Death stared, and I died a thousand times"
+          - "Nightmares left a riot in my mind"
+          - "Is today so hollow if there were no tomorrow?"
+          - "Midnight, we cut the power lines"
+          - "No light but the fire in my eyes"
+          - "Is today so hollow if there were no tomorrow?"
+      - lines:
+          - "Heaven to Earth, God only knows if we're here in spirit"
+          - "Chapter and verse, there's nowhere to go when the sky is the limit"
+          - "Reign, reign"
+          - "Is there nothing but the cold at the centre of a black hole?"
+          - "Heaven to Earth, God only knows if we're here in spirit"
+          - "Chapter and verse, nowhere to go when the sky is the limit"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Non c'è nient'altro che il freddo al centro di un buco nero?"
+          - "Oh"
+          - "Ah, troia"
+      - lines:
+          - "Ah, il falò di segnale si spegnerà"
+          - "Attraverso le sirene e i razzi"
+          - "Sono stato inghiottito dalle nubi di tempesta"
+          - "Grandine su una casa di vetro"
+          - "C'erano diamanti nell'aria"
+          - "E l'ossigeno mi ha lasciato il petto"
+      - lines:
+          - "Anime perse intrappolate sotto questo soffitto"
+          - "È una figura otto finché i fantasmi non saranno sepolti"
+          - "Tiralo stretto, prova a fermare questo sanguinamento"
+          - "Carestia mentre gli orrori mi corrono nella testa"
+      - lines:
+          - "La morte mi ha guardato, e sono morto mille volte"
+          - "Gli incubi hanno lasciato una rivolta nella mia mente"
+          - "È oggi così vuoto se non ci fosse un domani?"
+          - "Mezzanotte, tagliamo le linee elettriche"
+          - "Niente luce se non il fuoco nei miei occhi"
+          - "È oggi così vuoto se non ci fosse un domani?"
+      - lines:
+          - "Oh"
+          - "Ah, troia"
+      - lines:
+          - "Ah, stanco di vivere con il dolore adesso"
+          - "Qualcuno portami a riparare"
+          - "C'è un sapore amaro in bocca"
+          - "Nel silenzio c'era malattia"
+          - "Forse la vita semplicemente non è giusta"
+          - "Forse sono solo fottutamente ossessionato da me stesso"
+      - lines:
+          - "Non dire che devo inseguire questa sensazione"
+          - "I proiettili colpiscono, ma faranno solo un'ammaccatura al giubbotto"
+          - "Tempo di guerra con tutto il mondo che dorme"
+          - "Le bombe cadono sulla prigione che avevano costruito al posto della speranza"
+      - lines:
+          - "Abbattuto"
+          - "Anime portate attraverso un universo sconosciuto"
+          - "Nessun servizio per i senza fede, tutto si trasforma in polvere"
+      - lines:
+          - "C'erano diamanti nell'aria"
+          - "E l'ossigeno mi ha lasciato il petto"
+          - "C'è qualcuno là?"
+          - "Prego che io sia benedetto"
+      - lines:
+          - "La morte mi ha guardato, e sono morto mille volte"
+          - "Gli incubi hanno lasciato una rivolta nella mia mente"
+          - "È oggi così vuoto se non ci fosse un domani?"
+          - "Mezzanotte, tagliamo le linee elettriche"
+          - "Niente luce se non il fuoco nei miei occhi"
+          - "È oggi così vuoto se non ci fosse un domani?"
+      - lines:
+          - "Dal cielo alla terra, Dio sa solo se siamo qui nello spirito"
+          - "Capitolo e versetto, non c'è da nessuna parte quando il cielo è il limite"
+          - "Regna, regna"
+          - "Non c'è nient'altro che il freddo al centro di un buco nero?"
+          - "Dal cielo alla terra, Dio sa solo se siamo qui nello spirito"
+          - "Capitolo e versetto, da nessuna parte quando il cielo è il limite"
+---
