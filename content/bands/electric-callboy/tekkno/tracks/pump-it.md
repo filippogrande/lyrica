@@ -1,0 +1,166 @@
+---
+title: "Pump It"
+slug: "pump-it"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I wanna feel it day and night"
+          - "You are the power of my life"
+          - "I wanna pump it better"
+      - lines:
+          - "I wanna feel it day and night"
+          - "My workout, my delight"
+          - "You are the power of my life"
+          - "I wanna pump it better"
+      - lines:
+          - "I wanna feel that burn"
+          - "In my testo bod"
+          - "The anabolic superman"
+          - "You'll never gonna stop yeah!"
+      - lines:
+          - "You better suck it up"
+          - "Before you suck it in"
+          - "Activating motherfucking beast mode"
+          - "Everybody down"
+      - lines:
+          - "Do you really wanna work it out?"
+          - "'Cause I won't take it slow"
+          - "This fucking life is what I'm all about"
+          - "I wanna feel it day and night"
+      - lines:
+          - "I wanna feel it day and night"
+          - "My workout, my delight"
+          - "You are the power of my life"
+          - "I wanna pump it better"
+      - lines:
+          - "I wanna feel it day and night"
+          - "My workout, my delight"
+          - "You are the power of my life"
+          - "I wanna pump it better"
+      - lines:
+          - "Just look at my glutes"
+          - "What a perfect butt"
+          - "I'm pumping like a pro"
+          - "And I never really stop"
+      - lines:
+          - "I push myself"
+          - "And I push you too"
+          - "My body is a board"
+          - "Look at me! Fuck you!"
+          - "Get down!"
+      - lines:
+          - "Do you really wanna work it out?"
+          - "'Cause I won't take it slow!"
+          - "This fucking life is what I'm all about"
+          - "You see me going deeper!"
+          - "With every rep you can see me grow every day... deeper!"
+          - "Speed it up, let's do it again!"
+      - lines:
+          - "Pump it!"
+      - lines:
+          - "I wanna feel it day and night"
+          - "My workout, my delight"
+          - "You are the power of my life"
+          - "I wanna pump it better"
+      - lines:
+          - "I wanna feel it day and night"
+          - "My workout, my delight"
+          - "You are the power of my life"
+          - "I wanna pump it better"
+      - lines:
+          - "And if you feel like your body's given up"
+          - "You gotta kill the pain and you pump it harder!"
+          - "And if you feel like the pain is getting real"
+          - "Then make it your life goal to fucking kill that bitch"
+          - "To fucking kill that bitch"
+      - lines:
+          - "Wake up, beast mode"
+          - "Every single day, I'm gonna push it fucking hard"
+          - "And it goes"
+          - "Pow, pow, pow, pow, pow, pow I just wanna pump it!"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Voglio sentirla giorno e notte"
+          - "Sei la potenza della mia vita"
+          - "Voglio pomparla meglio"
+      - lines:
+          - "Voglio sentirla giorno e notte"
+          - "Il mio workout, il mio piacere"
+          - "Sei la potenza della mia vita"
+          - "Voglio pomparla meglio"
+      - lines:
+          - "Voglio sentire quella bruciatura"
+          - "Nel mio corpo di testosterone"
+          - "L'anabolico superman"
+          - "Tu non fermerai mai, yeah!"
+      - lines:
+          - "Meglio che tu lo beva"
+          - "Prima che ti entri dentro"
+          - "Attivando la fottuta modalità bestia"
+          - "Tutti giù"
+      - lines:
+          - "Ma vuoi davvero metterti alla prova?"
+          - "Perché io non andrò piano"
+          - "Questa fottuta vita è tutto ciò per cui vivo"
+          - "Voglio sentirla giorno e notte"
+      - lines:
+          - "Voglio sentirla giorno e notte"
+          - "Il mio workout, il mio piacere"
+          - "Sei la potenza della mia vita"
+          - "Voglio pomparla meglio"
+      - lines:
+          - "Voglio sentirla giorno e notte"
+          - "Il mio workout, il mio piacere"
+          - "Sei la potenza della mia vita"
+          - "Voglio pomparla meglio"
+      - lines:
+          - "Guarda solo i miei glutei"
+          - "Che culo perfetto"
+          - "Sto pompando come un pro"
+          - "E in realtà non mi fermo mai"
+      - lines:
+          - "Io spingo me stesso"
+          - "E spingo anche te"
+          - "Il mio corpo è una plancia"
+          - "Guarda me! Fottermi!"
+          - "Giù!"
+      - lines:
+          - "Ma vuoi davvero metterti alla prova?"
+          - "Perché io non andrò piano!"
+          - "Questa fottuta vita è tutto ciò per cui vivo"
+          - "Mi vedi andare più in profondità!"
+          - "A ogni ripetizione mi vedi crescere ogni giorno... più in profondità!"
+          - "Accelera, facciamolo un'altra volta!"
+      - lines:
+          - "Pompala!"
+      - lines:
+          - "Voglio sentirla giorno e notte"
+          - "Il mio workout, il mio piacere"
+          - "Sei la potenza della mia vita"
+          - "Voglio pomparla meglio"
+      - lines:
+          - "Voglio sentirla giorno e notte"
+          - "Il mio workout, il mio piacere"
+          - "Sei la potenza della mia vita"
+          - "Voglio pomparla meglio"
+      - lines:
+          - "E se senti che il tuo corpo si arrende"
+          - "Devi ammazzare il dolore e pompare più forte!"
+          - "E se senti che il dolore sta diventando serio"
+          - "Allora fallo tuo obiettivo di vita ammazzare quella troia"
+          - "Ammazzare quella troia"
+      - lines:
+          - "Sveglia, modalità bestia"
+          - "Ogni singolo giorno, la spingerò fottutamente forte"
+          - "E va"
+          - "Pow, pow, pow, pow, pow, pow voglio solo pomparla!"
+---
