@@ -1,0 +1,122 @@
+---
+title: "Everything Ends"
+slug: "everything-ends"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I started looking for a new way out"
+          - "Stranded on an island"
+          - "There's nothing but the ocean now"
+          - "Every second is a battleground"
+          - "Over the horizon, can anybody hear me shout?"
+      - lines:
+          - "When I try to pick a fight"
+          - "Know that I was going under"
+          - "And if it don't feel right"
+          - "Blame it on the weather"
+          - "It's another night breathing into blood and thunder"
+          - "Tell me how I'm meant to pretend"
+      - lines:
+          - "I could be the last one killing the pain"
+          - "Changing like the seasons, wishing for rain"
+          - "Don't stand me up to reason all over again"
+          - "'Cause I'm dying here, but everything ends"
+      - lines:
+          - "If I'm left alone, I'm bound to drown"
+          - "Don't you hear the silence, broken by the siren sound?"
+          - "If I swim, they'll only drag me down"
+          - "I'm tired of the violence, it's hard to get my head around"
+      - lines:
+          - "When I try to pick a fight"
+          - "It's only 'cause I'm going under"
+          - "And if it don't feel right"
+          - "I'll blame it on the weather"
+          - "It's another night breathing into blood and thunder"
+          - "Castles only I can defend"
+      - lines:
+          - "I could be the last one killing the pain"
+          - "Changing like the seasons, wishing for rain"
+          - "Don't stand me up to reason all over again"
+          - "'Cause I'm dying here, but everything ends"
+          - "I could be the last one killing the pain"
+          - "Changing like the seasons, but wishing for rain"
+          - "Don't stand me up to reason all over again"
+          - "'Cause I'm dying here, but everything ends"
+      - lines:
+          - "If I fall too far, and I live this down"
+          - "Like a dying star, it's over and out"
+          - "I drop my guard, then I hit the ground"
+          - "No rain drops will heal the drought"
+      - lines:
+          - "I could be the last one killing the pain"
+          - "Changing like the seasons, but wishing for rain"
+          - "Don't stand me up to reason all over again"
+          - "'Cause I'm dying here, but everything ends"
+      - lines:
+          - "Everything ends, everything ends"
+          - "Everything ends"
+          - "Yeah, I'm dying here, but everything ends"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ho iniziato a cercare una nuova via d'uscita"
+          - "Bloccato su un'isola"
+          - "Non c'è nient'altro che l'oceano"
+          - "Ogni secondo è un campo di battaglia"
+          - "Oltre l'orizzonte, qualcuno può sentire le mie urla?"
+      - lines:
+          - "Quando cerco di litigare"
+          - "Sappia che stavo affondando"
+          - "E se non sembra giusto"
+          - "Dillo al tempo"
+          - "È un'altra notte che respira dentro sangue e tuono"
+          - "Dimmi come dovrei fingere"
+      - lines:
+          - "Potrei essere l'ultimo a uccidere il dolore"
+          - "Cambio come le stagioni, desiderando la pioggia"
+          - "Non mettermi di nuovo a ragionare"
+          - "Perché sto morendo qui, ma tutto finisce"
+      - lines:
+          - "Se resto solo, sono destinato ad annegarme"
+          - "Non senti il silenzio, spezzato dal suono della sirena?"
+          - "Se nuoto, mi trascineranno giù"
+          - "Sono stanco della violenza, è difficile mettermi in testa"
+      - lines:
+          - "Quando cerco di litigare"
+          - "È solo perché sto affondando"
+          - "E se non sembra giusto"
+          - "Do la colpa al tempo"
+          - "È un'altra notte che respira dentro sangue e tuono"
+          - "Castelli che solo io posso difendere"
+      - lines:
+          - "Potrei essere l'ultimo a uccidere il dolore"
+          - "Cambio come le stagioni, desiderando la pioggia"
+          - "Non mettermi di nuovo a ragionare"
+          - "Perché sto morendo qui, ma tutto finisce"
+          - "Potrei essere l'ultimo a uccidere il dolore"
+          - "Cambio come le stagioni, ma desiderando la pioggia"
+          - "Non mettermi di nuovo a ragionare"
+          - "Perché sto morendo qui, ma tutto finisce"
+      - lines:
+          - "Se cado troppo in basso, e sopravvivo a tutto questo"
+          - "Come una stella morente, è finita e basta"
+          - "Abbasso le difese, poi finisco a terra"
+          - "Nessuna goccia di pioggia guarirà la siccità"
+      - lines:
+          - "Potrei essere l'ultimo a uccidere il dolore"
+          - "Cambio come le stagioni, ma desiderando la pioggia"
+          - "Non mettermi di nuovo a ragionare"
+          - "Perché sto morendo qui, ma tutto finisce"
+      - lines:
+          - "Tutto finisce, tutto finisce"
+          - "Tutto finisce"
+          - "Sì, sto morendo qui, ma tutto finisce"
+---
