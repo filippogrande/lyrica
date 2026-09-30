@@ -1,0 +1,210 @@
+---
+title: "Kill It"
+slug: "kill-it"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Kill it"
+          - "Nothing satisfies my thirst"
+          - "My soul is drying out"
+          - "I want to break free"
+          - "Kill me"
+          - "What is this burning need"
+          - "That grows in me"
+          - "God I want to stop it"
+          - "But I can't break free"
+          - "It is a part of me"
+          - "Oh, this burning need"
+          - "That fucking keeps me trapped in"
+      - lines:
+          - "Everything in here feels so numb"
+      - lines:
+          - "So tell me what the fuck is wrong with me"
+          - "Who is there to fucking blame"
+          - "If this will go on"
+          - "There is no god"
+          - "And you should fucking pray my dear"
+      - lines:
+          - "I want to take your pain away"
+          - "I just wanna take it"
+          - "Take it and not feel it"
+          - "I am gonna kill it"
+      - lines:
+          - "You say"
+          - "That I am your curse"
+          - "No way"
+          - "I will free you I am your deliverer"
+      - lines:
+          - "I sit and rot in here"
+          - "There's no turning back"
+          - "All blood that has been shed"
+          - "Oh, he would be so proud"
+          - "My mind is going mad"
+          - "There is no return"
+          - "All blood that has been shed"
+          - "Oh, your screams are so loud"
+      - lines:
+          - "Kill it"
+          - "Nothing can ease my hunger"
+          - "And it's growing stronger"
+          - "Gonna break me"
+          - "Kill me"
+          - "What is this hurt in me"
+          - "That turns on me"
+          - "God I want to stop it"
+          - "But I can't break free"
+          - "It is a part of me"
+          - "Oh, this burning need"
+          - "That fucking keeps me trapped in"
+      - lines:
+          - "Everything in here feels so"
+      - lines:
+          - "I want to take your pain away"
+          - "I just want to hate it"
+          - "Hate it and not feel it"
+          - "I just want to kill it"
+      - lines:
+          - "You say"
+          - "That I am your curse"
+          - "No way"
+          - "I will free you"
+          - "I am your deliverer"
+      - lines:
+          - "So tell me what the fuck is wrong with me"
+          - "Who is there to fucking blame"
+          - "If this will go on?"
+      - lines:
+          - "I sit and rot in here"
+          - "There's no turning back"
+          - "All blood that has been shed"
+          - "Oh, he would be so proud"
+          - "My mind is going mad"
+          - "There is no return"
+          - "All blood that has been shed"
+          - "Oh, your screams are so loud"
+      - lines:
+          - "(I sit and rot in here"
+          - "There's no turning back"
+          - "All blood that has been shed"
+          - "Oh, he would be so proud"
+          - "My mind is going mad"
+          - "There is no return"
+          - "All blood that has been shed"
+          - "Oh, your screams are so loud)"
+      - lines:
+          - "I sit and rot in here"
+          - "There's no turning back"
+          - "All blood that has been shed"
+          - "Oh, he would be so proud"
+          - "My mind is going mad"
+          - "There is no return"
+          - "All blood that has been shed"
+          - "Oh, your screams are so loud"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ammazzalo"
+          - "Niente placa la mia sete"
+          - "La mia anima si sta seccando"
+          - "Voglio liberarmi"
+          - "Ammazzami"
+          - "Cos'è questo bisogno bruciante"
+          - "Che cresce in me"
+          - "Dio voglio fermarlo"
+          - "Ma non riesco a liberarmi"
+          - "Fa parte di me"
+          - "Oh, questo bisogno bruciante"
+          - "Che fottutamente mi tiene intrappolato"
+      - lines:
+          - "Tutto ciò che c'è qui dentro è così intorpidito"
+      - lines:
+          - "Allora dimmi che cazzo ha di sbagliato in me"
+          - "Chi c'è da incolpare"
+          - "Se questo continua"
+          - "Non c'è nessun dio"
+          - "E dovresti fottutamente pregare, cara mia"
+      - lines:
+          - "Voglio toglierti il dolore"
+          - "Voglio solo prenderlo"
+          - "Prenderlo e non sentirlo"
+          - "Sto per ammazzarlo"
+      - lines:
+          - "Dici"
+          - "Che sono la tua maledizione"
+          - "No way"
+          - "Ti libererò, sono il tuo liberatore"
+      - lines:
+          - "Sto qui seduto a marcire"
+          - "Non c'è più ritorno"
+          - "Tutto il sangue che è stato versato"
+          - "Oh, lui ne sarebbe così fiero"
+          - "La mia mente sta impazzendo"
+          - "Non c'è ritorno"
+          - "Tutto il sangue che è stato versato"
+          - "Oh, le tue urla sono così forti"
+      - lines:
+          - "Ammazzalo"
+          - "Niente può placare la mia fame"
+          - "E sta diventando più forte"
+          - "Mi spezzerà"
+          - "Ammazzami"
+          - "Cos'è questo dolore in me"
+          - "Che si rivolge contro di me"
+          - "Dio voglio fermarlo"
+          - "Ma non riesco a liberarmi"
+          - "Fa parte di me"
+          - "Oh, questo bisogno bruciante"
+          - "Che fottutamente mi tiene intrappolato"
+      - lines:
+          - "Tutto ciò che c'è qui dentro è così"
+      - lines:
+          - "Voglio toglierti il dolore"
+          - "Voglio solo odiarla"
+          - "Odiarla e non sentirla"
+          - "Voglio solo ammazzarla"
+      - lines:
+          - "Dici"
+          - "Che sono la tua maledizione"
+          - "No way"
+          - "Ti libererò"
+          - "Sono il tuo liberatore"
+      - lines:
+          - "Allora dimmi che cazzo ha di sbagliato in me"
+          - "Chi c'è da incolpare"
+          - "Se questo continua?"
+      - lines:
+          - "Sto qui seduto a marcire"
+          - "Non c'è più ritorno"
+          - "Tutto il sangue che è stato versato"
+          - "Oh, lui ne sarebbe così fiero"
+          - "La mia mente sta impazzendo"
+          - "Non c'è ritorno"
+          - "Tutto il sangue che è stato versato"
+          - "Oh, le tue urla sono così forti"
+      - lines:
+          - "(Sto qui seduto a marcire"
+          - "Non c'è più ritorno"
+          - "Tutto il sangue che è stato versato"
+          - "Oh, lui ne sarebbe così fiero"
+          - "La mia mente sta impazzendo"
+          - "Non c'è ritorno"
+          - "Tutto il sangue che è stato versato"
+          - "Oh, le tue urla sono così forti)"
+      - lines:
+          - "Sto qui seduto a marcire"
+          - "Non c'è più ritorno"
+          - "Tutto il sangue che è stato versato"
+          - "Oh, lui ne sarebbe così fiero"
+          - "La mia mente sta impazzendo"
+          - "Non c'è ritorno"
+          - "Tutto il sangue che è stato versato"
+          - "Oh, le tue urla sono così forti"
+---
