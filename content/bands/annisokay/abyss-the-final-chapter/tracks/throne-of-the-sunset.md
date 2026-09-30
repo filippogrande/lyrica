@@ -1,0 +1,148 @@
+---
+title: "Throne of the Sunset"
+slug: "throne-of-the-sunset"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I can be the master"
+          - "I can be the slave"
+          - "I could move mountains"
+          - "Or dig someone else's grave"
+      - lines:
+          - "Will I be forgotten"
+          - "Like tracks in the snow"
+          - "Did I make a difference"
+          - "To this life I know"
+      - lines:
+          - "Time keeps ticking on"
+          - "And we can't outrun the sun"
+          - "In this race that can't be won"
+      - lines:
+          - "At the throne of the sunset"
+          - "We all fall to our knees"
+          - "As the light fades to darkness"
+          - "Our fate is what we believe"
+          - "As above so below"
+          - "We're all part of the same show"
+          - "On the throne of the sunset"
+          - "Even gods will have to go"
+      - lines:
+          - "Fill your cup till its over"
+          - "Be yourself, don't obey"
+          - "So, come hell or high water"
+          - "We will all die the same"
+      - lines:
+          - "How can I find meaning"
+          - "When I live to let go"
+          - "If I keep believing"
+          - "Will this save my soul?"
+      - lines:
+          - "Time keeps ticking on"
+          - "And we can't outrun the sun"
+          - "In this race that can't be won"
+      - lines:
+          - "At the throne of the sunset"
+          - "We all fall to our knees"
+          - "As the light fades to darkness"
+          - "Our fate is what we believe"
+          - "As above so below"
+          - "We're all part of the same show"
+          - "On the throne of the sunset"
+          - "Even gods will have to go"
+      - lines:
+          - "In the void our hope slowly vains"
+          - "Don't you know that we leave as we came?"
+          - "Stuck in a race from the cradle to the grave"
+          - "Don't you know that we leave as we came?"
+          - "What if we all die in vain?"
+      - lines:
+          - "As above so below"
+          - "Life will move on for us all"
+          - "Every hunter will be hunted"
+          - "At the edge of time"
+      - lines:
+          - "At the throne of the sunset"
+          - "We all fall to our knees"
+          - "As the light fades to darkness"
+          - "Our fate is what we believe"
+          - "As above so below"
+          - "We're all part of the same show"
+          - "On the throne of the sunset"
+          - "Even gods will have to go"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Posso essere il padrone"
+          - "Posso essere lo schiavo"
+          - "Potrei spostare montagne"
+          - "O scavare la fossa di qualcun altro"
+      - lines:
+          - "Verrò dimenticato"
+          - "Come tracce nella neve"
+          - "Ho lasciato un segno"
+          - "In questa vita che conosco"
+      - lines:
+          - "Il tempo continua a scorrere"
+          - "E non possiamo fuggire il sole"
+          - "In questa corsa che non si può vincere"
+      - lines:
+          - "Sul trono del tramonto"
+          - "Tutti cadiamo in ginocchio"
+          - "Mentre la luce svanisce nel buio"
+          - "Il nostro destino è ciò in cui crediamo"
+          - "Come sopra, così sotto"
+          - "Siamo tutti parte dello stesso spettacolo"
+          - "Sul trono del tramonto"
+          - "Anche gli dèi dovranno andarsene"
+      - lines:
+          - "Riempi il tuo calice finché non è finita"
+          - "Sii te stesso, non obbedire"
+          - "Quindi, nell'inferno o nell'alta mare"
+          - "Moriremo tutti allo stesso modo"
+      - lines:
+          - "Come trovo un senso"
+          - "Se vivo per lasciar andare"
+          - "Se continuo a credere"
+          - "Mi salverà l'anima?"
+      - lines:
+          - "Il tempo continua a scorrere"
+          - "E non possiamo fuggire il sole"
+          - "In questa corsa che non si può vincere"
+      - lines:
+          - "Sul trono del tramonto"
+          - "Tutti cadiamo in ginocchio"
+          - "Mentre la luce svanisce nel buio"
+          - "Il nostro destino è ciò in cui crediamo"
+          - "Come sopra, così sotto"
+          - "Siamo tutti parte dello stesso spettacolo"
+          - "Sul trono del tramonto"
+          - "Anche gli dèi dovranno andarsene"
+      - lines:
+          - "Nel vuoto la nostra speranza piano svanisce"
+          - "Non sai che ce ne andiamo come siamo arrivati?"
+          - "Intrappolati in una corsa dalla culla alla tomba"
+          - "Non sai che ce ne andiamo come siamo arrivati?"
+          - "E se morissimo tutti invano?"
+      - lines:
+          - "Come sopra, così sotto"
+          - "La vita andrà avanti per tutti noi"
+          - "Ogni cacciatore sarà cacciato"
+          - "Al limite del tempo"
+      - lines:
+          - "Sul trono del tramonto"
+          - "Tutti cadiamo in ginocchio"
+          - "Mentre la luce svanisce nel buio"
+          - "Il nostro destino è ciò in cui crediamo"
+          - "Come sopra, così sotto"
+          - "Siamo tutti parte dello stesso spettacolo"
+          - "Sul trono del tramonto"
+          - "Anche gli dèi dovranno andarsene"
+---
