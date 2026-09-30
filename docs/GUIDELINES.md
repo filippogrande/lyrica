@@ -36,9 +36,9 @@ Regole non negoziabili. Se una PR contraddice questo file, la PR è sbagliata �
 
 ## 5. Test e verifica
 
-- **La CI valida i contenuti e compila il progetto, non esegue test del codice.**
-- **Vietati i file di test temporanei o usa-e-getta**: verificavano solo la sintassi e mascheravano i bug veri invece di rivelarli.
-- La verifica si fa sulla **build reale** (il binario compilato dalla CI, il sito generato e aperto), non su un frammento di codice.
+- **La CI valida i contenuti, compila il progetto ed esegue i test unitari del codice** (`go test ./...`, D98).
+- **Vietati i file di test temporanei o usa-e-getta**: verificavano solo la sintassi e mascheravano i bug veri invece di rivelarli. I test che entrano nel repo provano una **regola** (il validatore, le lingue in pagina) e restano veri anche fra sei mesi.
+- La verifica si fa sulla **build reale** (il binario compilato dalla CI, il sito generato e aperto), non su un frammento di codice: i test la affiancano, non la sostituiscono.
 - Una cosa è "fatta" quando è **verificata sull'artefatto** (la pagina generata, l'output del comando, il container che risponde), non quando il codice è stato scritto.
 
 ## 6. Performance e accessibilità
