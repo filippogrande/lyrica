@@ -41,13 +41,13 @@ func TestCheckBlockLangsAccettaUnaLinguaPerRuolo(t *testing.T) {
 			},
 		},
 		{
-			name: "tre lingue originali con la versione completa in due",
+			name: "tre lingue originali con la versione completa in tutte e tre",
 			blocks: []Block{
 				testBlock("it", RoleOriginal),
-				testBlock("fr", RoleTranslation),
-				testBlock("de", RoleTranslation),
 				testBlock("it", RoleTranslation),
 				testBlock("fr", RoleTranslation),
+				testBlock("de", RoleTranslation),
+				testBlock("en", RoleTranslation),
 			},
 		},
 	}
