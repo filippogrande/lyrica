@@ -1,0 +1,154 @@
+---
+title: "Fake"
+slug: "fake"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Here we roll"
+          - "Stepping on fucking toes, yeah"
+          - "We control"
+          - "Wrecking all you produce, so"
+      - lines:
+          - "Give me all, give me all, give me all of that"
+          - "Is this all, is this all, is this all that"
+      - lines:
+          - "Is this everything you got?"
+          - "Nothing more to say"
+          - "Nothing more to give me?"
+          - "We return as loud as sirens"
+          - "Bursting your ears"
+      - lines:
+          - "Give me all, give me all, give me all you got"
+          - "This is our anthem"
+      - lines:
+          - "And we will prevail"
+          - "When everything comes down"
+          - "It falls down"
+          - "Down to nothingness"
+          - "And we will prevail"
+          - "When everything comes down"
+          - "It falls down"
+          - "Down to nothingness"
+      - lines:
+          - "Sing it out, sing it out, sing it all out loud"
+          - "We are all, we are all, we are all you got"
+      - lines:
+          - "Our triumph is a secret?"
+          - "Pardon me, I think there is no reason left to keep it"
+          - "We are always craving for more"
+          - "This is our time to fucking break free"
+      - lines:
+          - "Give me all, give me all, give me all you got"
+          - "This is our anthem"
+      - lines:
+          - "And we will prevail"
+          - "When everything comes down"
+          - "It falls down"
+          - "Down to nothingness"
+          - "And we will prevail"
+          - "When everything comes down"
+          - "It falls down"
+          - "Down to nothingness"
+      - lines:
+          - "Everything is fake (fake)"
+          - "Plastic sold as gold (gold)"
+          - "Tell me what you see (see)"
+          - "Stories that are told (told)"
+          - "Nothing's hurting like the truth"
+          - "Are you planning your next move?"
+          - "Oh, you really want to fuck with us?"
+      - lines:
+          - "Give me all you got"
+          - "We will fucking prevail"
+      - lines:
+          - "And we will prevail"
+          - "When everything comes down"
+          - "It falls down"
+          - "Down to nothingness"
+      - lines:
+          - "Give me all"
+          - "Give me all"
+          - "Give me all of that"
+          - "Is this all"
+          - "Is this all"
+          - "Is this all you got?"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Eccoci, si parte"
+          - "Calpestando le dita dei piedi altrui, yeah"
+          - "Controlliamo"
+          - "Distruggendo tutto quello che produci, quindi"
+      - lines:
+          - "Dammi tutto, dammi tutto, dammi tutto quello"
+          - "È tutto questo, è tutto questo, è tutto quello che c'è"
+      - lines:
+          - "È tutto quello che hai?"
+          - "Nient'altro da dire"
+          - "Nient'altro da darmi?"
+          - "Torniamo forti come sirene"
+          - "Facendo esplodere le tue orecchie"
+      - lines:
+          - "Dammi tutto quello che hai"
+          - "Questo è il nostro inno"
+      - lines:
+          - "E vinceremo"
+          - "Quando tutto crolla"
+          - "Crolla"
+          - "Giù fino al nulla"
+          - "E vinceremo"
+          - "Quando tutto crolla"
+          - "Crolla"
+          - "Giù fino al nulla"
+      - lines:
+          - "Cantalo forte, cantalo forte, cantalo tutto a voce alta"
+          - "Siamo tutto, siamo tutto, siamo tutto quello che hai"
+      - lines:
+          - "Il nostro trionfo è un segreto?"
+          - "Scusami, credo che non ci sia più nessuna ragione per tenerlo"
+          - "Desideriamo sempre di più"
+          - "È il nostro momento di fottutamente liberarci"
+      - lines:
+          - "Dammi tutto quello che hai"
+          - "Questo è il nostro inno"
+      - lines:
+          - "E vinceremo"
+          - "Quando tutto crolla"
+          - "Crolla"
+          - "Giù fino al nulla"
+          - "E vinceremo"
+          - "Quando tutto crolla"
+          - "Crolla"
+          - "Giù fino al nulla"
+      - lines:
+          - "Tutto è falso (falso)"
+          - "Plastica venduta come oro (oro)"
+          - "Dimmi cosa vedi (vedi)"
+          - "Storie raccontate (raccontate)"
+          - "Nulla fa male come la verità"
+          - "Stai pianificando la tua prossima mossa?"
+          - "Oh, vuoi davvero fotterti con noi?"
+      - lines:
+          - "Dammi tutto quello che hai"
+          - "Vinceremo il cazzo"
+      - lines:
+          - "E vinceremo"
+          - "Quando tutto crolla"
+          - "Crolla"
+          - "Giù fino al nulla"
+      - lines:
+          - "Dammi tutto"
+          - "Dammi tutto"
+          - "Dammi tutto quello"
+          - "È tutto questo"
+          - "È tutto questo"
+          - "È tutto quello che hai?"
+---
