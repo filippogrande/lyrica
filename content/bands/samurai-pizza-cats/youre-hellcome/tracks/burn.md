@@ -1,0 +1,176 @@
+---
+title: "Burn"
+slug: "burn"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "They wanna come and hunt all down your privacy"
+          - "Go on, go on, obey the fucking new machine"
+          - "We got to pay the price to the damn enemy"
+          - "Pay to be born and pay to die"
+      - lines:
+          - "Oh, look at yourselves"
+          - "All slaves to the new supreme"
+          - "Blindfolded, following"
+          - "Tamed and sleeping"
+          - "Like the sheep you are"
+      - lines:
+          - "Burn them down"
+          - "Give them everything they need pal"
+          - "Burn them down"
+          - "That's as close as you can get"
+          - "Listen up"
+          - "Listen up"
+          - "Listen to what I say"
+          - "We are the riot that will be raging in your head"
+      - lines:
+          - "Gasoline for the new supreme"
+          - "Gasoline"
+          - "Now light them up"
+      - lines:
+          - "No we won't obey"
+          - "Anything you say"
+          - "All these stupid games"
+          - "You try to play with me"
+          - "We are here to stay"
+          - "And we will plant a seed"
+          - "Let's watch this city burn down"
+      - lines:
+          - "What do we have to lose?"
+          - "What do we get to choose?"
+          - "What do we have to lose?"
+          - "We are the riot to come"
+          - "So wake the fuck up now"
+      - lines:
+          - "Burn them down"
+          - "Give them everything they need pal"
+          - "Burn them down"
+          - "That's as close as you can get"
+          - "Listen up"
+          - "Listen up"
+          - "Listen to what I say"
+          - "We are the riot that will be raging in your head"
+      - lines:
+          - "We are the gasoline"
+          - "We are the revolution"
+      - lines:
+          - "No we won't obey"
+          - "Anything you say"
+          - "All these stupid games"
+          - "You try to play with me"
+          - "We are here to stay"
+          - "And we will plant a seed"
+          - "Let's watch this city burn down"
+      - lines:
+          - "Down, down we go"
+          - "Tell me what can you see?"
+          - "This glimpse of fire is what brings them down to their knees"
+      - lines:
+          - "It's our voice"
+          - "It's your voice"
+          - "Yeah"
+      - lines:
+          - "Burn them down"
+          - "Give them everything they need"
+          - "Burn them down"
+          - "That's as close as you can get"
+      - lines:
+          - "Burn them down"
+          - "Give them everything they need pal"
+          - "Burn them down"
+          - "That's as close as you can get"
+          - "Listen up"
+          - "Listen up"
+          - "Listen to what I say"
+          - "We are the riot that will be raging in your head"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Vogliono venire a stanare tutta la tua privacy"
+          - "Vai, vai, obbedisci alla fottuta nuova macchina"
+          - "Dobbiamo pagare il prezzo al fottuto nemico"
+          - "Pagare per nascere e pagare per morire"
+      - lines:
+          - "Oh, guardatevi"
+          - "Tutti schiavi del nuovo supremo"
+          - "Ciechi, che seguono"
+          - "Domati e che dormono"
+          - "Come le pecore che siete"
+      - lines:
+          - "Bruciateli"
+          - "Date loro tutto ciò di cui hanno bisogno, amico"
+          - "Bruciateli"
+          - "È tutto ciò che potete avvicinare"
+          - "Ascoltate"
+          - "Ascoltate"
+          - "Ascoltate quello che dico"
+          - "Siamo il tumulto che divanterà nella tua testa"
+      - lines:
+          - "Benzina per il nuovo supremo"
+          - "Benzina"
+          - "Ora accendeteli"
+      - lines:
+          - "No, non obbediremo"
+          - "A qualsiasi cosa tu dica"
+          - "Tutte queste fottute stupidaggini"
+          - "Che provi a giocare con me"
+          - "Siamo qui per restare"
+          - "E pianteremo un seme"
+          - "Guardiamo questa città bruciare"
+      - lines:
+          - "Cosa abbiamo da perdere?"
+          - "Cosa abbiamo da scegliere?"
+          - "Cosa abbiamo da perdere?"
+          - "Siamo il tumulto in arrivo"
+          - "Quindi svegliati il cazzo"
+      - lines:
+          - "Bruciateli"
+          - "Date loro tutto ciò di cui hanno bisogno, amico"
+          - "Bruciateli"
+          - "È tutto ciò che potete avvicinare"
+          - "Ascoltate"
+          - "Ascoltate"
+          - "Ascoltate quello che dico"
+          - "Siamo il tumulto che divanterà nella tua testa"
+      - lines:
+          - "Siamo la benzina"
+          - "Siamo la rivoluzione"
+      - lines:
+          - "No, non obbediremo"
+          - "A qualsiasi cosa tu dica"
+          - "Tutte queste fottute stupidaggini"
+          - "Che provi a giocare con me"
+          - "Siamo qui per restare"
+          - "E pianteremo un seme"
+          - "Guardiamo questa città bruciare"
+      - lines:
+          - "Giù, giù scendiamo"
+          - "Dimmi cosa riesci a vedere?"
+          - "Questo lampo di fuoco è ciò che li fa cadere in ginocchio"
+      - lines:
+          - "È la nostra voce"
+          - "È la tua voce"
+          - "Yeah"
+      - lines:
+          - "Bruciateli"
+          - "Date loro tutto ciò di cui hanno bisogno"
+          - "Bruciateli"
+          - "È tutto ciò che potete avvicinare"
+      - lines:
+          - "Bruciateli"
+          - "Date loro tutto ciò di cui hanno bisogno, amico"
+          - "Bruciateli"
+          - "È tutto ciò che potete avvicinare"
+          - "Ascoltate"
+          - "Ascoltate"
+          - "Ascoltate quello che dico"
+          - "Siamo il tumulto che divanterà nella tua testa"
+---
