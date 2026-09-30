@@ -29,11 +29,11 @@ Lo slug è la chiave di tutto: **cartella, URL e nome della cover devono coincid
 
 ### Lingua di un brano (soglia per la seconda lingua)
 
-Un brano ha **una sola lingua originale come blocco**, quella dominante, in cui è cantata la maggior parte del testo; `original_langs` può però dichiararne **più di una** (D28) quando il testo è davvero bilingue. Il blocco `role: original` resta **uno solo** e contiene il testo **come è cantato**, anche quando mescola due lingue.
+Un brano ha **una sola lingua originale**, quella dominante, in cui è cantata la maggior parte del testo. Le traduzioni vanno verso una lingua singola (`role: translation`). Non si fanno traduzioni automatiche né istantanee, quindi non serve una "doppia vista" per i brani con più lingue:
 
 - **Parole o frasi isolate** in altre lingue **non** rendono il brano multilingue: es. *ADIEU* (Rammstein) è tedesco anche se contiene parole non-tedesche. Una lingua sola, nessuna traduzione extra.
-- Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**.
-- Nei brani **davvero bilingui** (es. *Hurrikan* degli Electric Callboy, metà inglese e metà tedesco) si dichiarano **entrambe** le lingue in `original_langs`, l'originale resta **un blocco solo** nella lingua dominante, e le traduzioni possono essere **tre**: la **versione completa** in ciascuna delle due lingue originali — il tedesco con le parti inglesi tradotte, e viceversa — più la lingua di arrivo del sito (`it`). La stessa lingua su **ruoli diversi** non è un doppione: `original de` e `translation de` convivono (regola 3, D96).
+- Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**. Si dichiara una seconda lingua solo se ha senso come vista completa a sé; altrimenti si resta sulla lingua dominante e la traduzione va verso la lingua unica scelta (es. inglese).
+- Nei brani davvero bilingu delti in parti uguali si sceglie comunque **una** lingua dominante per `original_langs` e si traduce il resto verso la lingua unica di traduzione.
 
 È un criterio umano, non automatico: il validatore non misura percentuali, decide chi scrive il contenuto.
 
@@ -238,7 +238,7 @@ Un contenuto è **invalido** se:
 
 1. `slug` del front-matter ≠ nome del file o della cartella.
 2. Due entità della stessa collezione hanno lo **stesso slug**.
-3. `blocks` non contiene almeno un `role: original`, o contiene **due blocchi con la stessa coppia `role` + `lang`** (la stessa lingua può comparire una volta come originale e una come traduzione: D96).
+3. `blocks` non contiene almeno un `role: original`, o contiene una `lang` duplicata.
 4. Un blocco `role: translation` è **incompleto** (una strofa ha meno righe dell'originale, o manca una strofa).
 5. `added_date` manca o non è una data valida.
 6. `cover` punta a un file inesistente in `covers/`.
@@ -328,13 +328,9 @@ lyrica serve      # serve il risultato su una porta locale
 
 Aggiungi al file un blocco con `role: translation`, `lang:`, `translator:` e le strofe **complete**. Il validatore controlla che combacino con l'originale: se non combaciano, la PR è rossa. Il selettore lingua in pagina si aggiorna da solo.
 
-Se la traduzione è la **versione completa** in una lingua che il brano ha già come originale — il tedesco intero di un brano bilingue — vale la stessa regola: un blocco `role: translation` con la stessa `lang` dell'originale e **tutte** le strofe allineate. Non si duplica il blocco `original` (D96).
-
 ### Aggiungere una lingua all'interfaccia
 
 Copia `locales/it.yaml` in `locales/<lang>.yaml` e traduci i **valori**, non le chiavi. Il build genera `/<lang>/...` con hreflang. Una chiave mancante è un errore in CI.
-
-Una traduzione verso una lingua che il catalogo ha **già come lingua originale** non fa nascere un'interfaccia in quella lingua (D96): chi legge quella lingua legge già l'originale, quindi il pubblico non cambia. Il tedesco "completo" di un brano bilingue non chiede `locales/de.yaml`.
 
 ### Rinominare uno slug (cambio URL)
 

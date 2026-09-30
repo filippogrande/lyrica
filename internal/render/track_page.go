@@ -105,25 +105,12 @@ func translationIndex(translations []content.Block, want string) int {
 // trackLanguages elenca le lingue disponibili sul brano — l'originale e le
 // traduzioni — come etichette con bandiera: è la risposta a "in che lingue
 // posso leggere questa canzone".
-//
-// Ogni lingua compare una volta sola: in un brano bilingue il tedesco sta sia
-// nell'originale sia nella traduzione "completa" (D96) ed è una lingua sola per
-// chi legge.
 func trackLanguages(originals, translations []content.Block) string {
 	codes := make([]string, 0, len(originals)+len(translations))
-	seen := make(map[string]bool, len(originals)+len(translations))
 	for _, block := range originals {
-		if seen[block.Lang] {
-			continue
-		}
-		seen[block.Lang] = true
 		codes = append(codes, block.Lang)
 	}
 	for _, block := range translations {
-		if seen[block.Lang] {
-			continue
-		}
-		seen[block.Lang] = true
 		codes = append(codes, block.Lang)
 	}
 	return LangLabels(codes)
