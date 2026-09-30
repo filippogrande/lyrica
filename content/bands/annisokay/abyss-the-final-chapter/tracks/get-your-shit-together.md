@@ -1,0 +1,180 @@
+---
+title: "Get Your Shit Together"
+slug: "get-your-shit-together"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "The sky is falling"
+          - "The winds are howling"
+          - "The seas are rising"
+          - "The earth is growling"
+      - lines:
+          - "We're lost in chaos"
+          - "The future's unclear"
+          - "No one to lead us"
+          - "Through all that we fear"
+      - lines:
+          - "The fields are burning"
+          - "The fire converging"
+          - "The dreams are dying"
+          - "There's no returning"
+          - "Their hearts are aching"
+          - "The time slipping away"
+          - "Every second you choose to waste"
+      - lines:
+          - "As a servant of the people under oath"
+          - "Every lie you told for every single vote"
+          - "Only driving further into the unknown"
+          - "What have you done?"
+          - "Now run"
+      - lines:
+          - "You're serving up a shit show"
+          - "Have you lost your fucking mind?"
+      - lines:
+          - "Walking endless like a ghost within the walls"
+          - "Every dream that I pursue is just another one to fall"
+          - "In a race with my own shadow breathless from the frantic pace"
+          - "How can I escape in front of everything I chase?"
+      - lines:
+          - "Caught in a vortex - spinning out"
+          - "Lost inside the wake"
+          - "Walking through fire in the night"
+          - "Searching for the day"
+          - "They claim it's never more than a term"
+          - "A tempest to all endure"
+          - "But we're fighting for all our lives"
+          - "To see the end of the storm"
+      - lines:
+          - "And now you've sparked a fire within"
+          - "Time to turn the tide of fate - break the cycle I'm in"
+          - "What if I wear the mask?"
+          - "Say that all is just fine?"
+          - "Every day drawing closer to the end of the line"
+          - "I run"
+      - lines:
+          - "You're serving up a shit show"
+          - "Have you lost your fucking mind?"
+      - lines:
+          - "I've dreamed of a symphony"
+          - "A perfect harmony"
+          - "But the maestro has lost his head"
+          - "In entropy - caught on repeat"
+      - lines:
+          - "Every little bite you take"
+          - "The slightest taste of veiled deceit"
+          - "Is left upon your grinning teeth"
+          - "So get your shit together"
+      - lines:
+          - "Chains weigh heavy, every word, poison in our veins"
+          - "Falling from grace, through the pain, enduring these chains"
+          - "Silence screams, voices fade, in a world untamed"
+          - "Life's a ruthless fight and in the end we're left maimed"
+      - lines:
+          - "We're getting maimed!"
+          - "So get your shit together!"
+      - lines:
+          - "I've dreamed of a symphony"
+          - "A perfect harmony"
+          - "But the maestro has lost his head"
+          - "In entropy - caught on repeat"
+      - lines:
+          - "Every little bite you take"
+          - "The slightest taste of veiled deceit"
+          - "Is left upon your grinning teeth"
+          - "So get your shit together"
+      - lines:
+          - "Pull yourself together now"
+          - "Get your shit together"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Il cielo sta cadendo"
+          - "I venti ululano"
+          - "I mari si alzano"
+          - "La terra ringhia"
+      - lines:
+          - "Siamo perduti nel caos"
+          - "Il futuro è incerto"
+          - "Nessuno che ci guidi"
+          - "Attraverso tutto ciò che temiamo"
+      - lines:
+          - "I campi sono in fiamme"
+          - "Il fuoco che converge"
+          - "I sogni stanno morendo"
+          - "Non c'è più ritorno"
+          - "I loro cuori soffrono"
+          - "Il tempo che scivola via"
+          - "Ogni secondo che scegli di sprecare"
+      - lines:
+          - "Come servo del popolo in obbligo di giuramento"
+          - "Ogni bugia che hai detto per ogni singolo voto"
+          - "Che ti porta solo più a fondo nell'ignoto"
+          - "Che cosa hai fatto?"
+          - "Ora corri"
+      - lines:
+          - "Stai servendo uno spettacolo di merda"
+          - "Hai perso il tuo fottuto senno?"
+      - lines:
+          - "Camminando senza fine come un fantasma tra le mura"
+          - "Ogni sogno che perseguo è solo un altro da cui cadere"
+          - "In una corsa con la mia ombra, senza fiato per la corsa frenetica"
+          - "Come posso scappare da tutto ciò che inseguo?"
+      - lines:
+          - "Preso in un vortice - che gira fuori controllo"
+          - "Perso nella scia"
+          - "Camminando tra le fiamme nella notte"
+          - "In cerca del giorno"
+          - "Dicono che non è mai più di un mandato"
+          - "Una tempesta che tutti devono sopportare"
+          - "Ma stiamo combattendo per la nostra vita"
+          - "Per vedere la fine della tempesta"
+      - lines:
+          - "E ora hai acceso un fuoco dentro di me"
+          - "È ora di cambiare la marea del destino - spezza il ciclo in cui sono"
+          - "E se indossassi la maschera?"
+          - "Dicessi che va tutto bene?"
+          - "Ogni giorno più vicino alla fine della linea"
+          - "Corro"
+      - lines:
+          - "Stai servendo uno spettacolo di merda"
+          - "Hai perso il tuo fottuto senno?"
+      - lines:
+          - "Ho sognato una sinfonia"
+          - "Un'armonia perfetta"
+          - "Ma il maestro ha perso la testa"
+          - "Nell'entropia - bloccato in ripetizione"
+      - lines:
+          - "Ogni morso che dai"
+          - "Il minimo assaggio di inganno velato"
+          - "Resta sui tuoi denti ghignanti"
+          - "Quindi tirati insieme"
+      - lines:
+          - "Le catene pesano, ogni parola, veleno nelle nostre vene"
+          - "Cadendo dalla grazia, attraverso il dolore, sopportando queste catene"
+          - "Il silenzio urla, le voci svaniscono, in un mondo selvaggio"
+          - "La vita è una lotta spietata e alla fine restiamo mutilati"
+      - lines:
+          - "Stiamo venendo mutilati!"
+          - "Quindi tirati insieme!"
+      - lines:
+          - "Ho sognato una sinfonia"
+          - "Un'armonia perfetta"
+          - "Ma il maestro ha perso la testa"
+          - "Nell'entropia - bloccato in ripetizione"
+      - lines:
+          - "Ogni morso che dai"
+          - "Il minimo assaggio di inganno velato"
+          - "Resta sui tuoi denti ghignanti"
+          - "Quindi tirati insieme"
+      - lines:
+          - "Tirati fuori da tutto adesso"
+          - "Tirati insieme"
+---
