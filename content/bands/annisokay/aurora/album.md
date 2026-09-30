@@ -1,0 +1,35 @@
+---
+title: "Aurora"
+slug: "aurora"
+year: 2021
+tracks:
+  - slug: "like-a-parasite"
+    title: "Like a Parasite"
+  - slug: "stfu"
+    title: "Stfu"
+  - slug: "the-tragedy"
+    title: "The Tragedy"
+  - slug: "face-the-facts"
+    title: "Face The Facts"
+  - slug: "overload"
+    title: "Overload"
+  - slug: "bonfire-of-the-millennials"
+    title: "Bonfire Of The Millennials"
+  - slug: "the-cocaines-got-your-tongue"
+    title: "The Cocaines Got Your Tongue"
+  - slug: "under-your-tattoos"
+    title: "Under Your Tattoos"
+  - slug: "the-blame-game"
+    title: "The Blame Game"
+  - slug: "i-saw-what-you-did"
+    title: "I Saw What You Did"
+  - slug: "standing-still"
+    title: "Standing Still"
+    status: pending
+  - slug: "friend-or-enemy"
+    title: "Friend or Enemy"
+    status: pending
+  - slug: "terminal-velocity"
+    title: "Terminal Velocity"
+    status: pending
+---
