@@ -1,0 +1,275 @@
+---
+title: "Spaceman"
+slug: "spaceman"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en", "de"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I'm a spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+          - "(Three, two, one)"
+      - lines:
+          - "Yeah"
+      - lines:
+          - "Finchi Gagarin"
+          - "Dreh die Boxen doch mal auf"
+          - "Gestern noch im Trockenbau"
+          - "Heute bin ich Kosmonaut"
+          - "Ja-ja, jeder kann sie sehen"
+          - "Da am Himmel weiße Streifen (Da oben)"
+          - "Wer braucht von euch noch Beweise?"
+          - "Ja die Erde ist 'ne Scheibe"
+      - lines:
+          - "My name is Tekkno, I am travelling space"
+          - "I got a rocket on my back fueled by big bang bass"
+          - "I'm Tekkno, my religion is rave"
+          - "And I bring it to the outerworld"
+          - "So let me hear you say"
+      - lines:
+          - "I'm a spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack (Two, one)"
+      - lines:
+          - "Fred vom Jupiter"
+          - "Steht vorm Supermarkt"
+          - "Dreht die Boombox an"
+          - "Und geht zu Scooter ab"
+          - "Klau mir sein Raumschiff"
+          - "Fliege hoch Richtung Mars"
+          - "Blblblblb, jetzt sind die Kohlköpfe ja"
+      - lines:
+          - "My name is Tekkno, I am travelling space"
+          - "I got a rocket on my back fueled by big bang bass"
+          - "I'm Tekkno, my religion is rave"
+          - "And I bring it to the outerworld"
+          - "So let me hear you say"
+      - lines:
+          - "Spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+      - lines:
+          - "Spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+      - lines:
+          - "Wo sind die Jedi Ritter?"
+          - "Wo sind die Marsmenschen?"
+          - "Wo sind die Klingonen?"
+          - "Mach's wie mit meiner Ex"
+          - "Ich schieß euch alle auf den Mond"
+          - "An 'ne Leberwurst geschnallt"
+          - "Fliegt die Kebekus durchs All"
+          - "Immer weiter von uns weg"
+          - "Danke, Schwerelosigkeit"
+          - "Undank ist der Weltenlohn"
+          - "Hier kommt der Raketenmann"
+          - "Viva la Elton John"
+      - lines:
+          - "Viva la Elton John"
+      - lines:
+          - "Rave on"
+          - "No matter where you fucking are"
+          - "And you see nothing but a"
+          - "Is it a bird or just a man?"
+          - "On his way to rave the universe"
+      - lines:
+          - "I'm a spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+      - lines:
+          - "Spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+      - lines:
+          - "Mission complete"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sono un spaceman, ho un razzo sulla schiena"
+          - "Spaceman, oh, sto raveando come un maniaco"
+          - "Spaceman, ho un razzo sulla schiena"
+          - "L'universo è in vista del mio attacco rave"
+          - "(Tre, due, uno)"
+      - lines:
+          - "Sì"
+      - lines:
+          - "Finchi Gagarin"
+          - "Girate un po' le casse, per favore"
+          - "Ieri ancora in cantiere"
+          - "Oggi sono un cosmonauta"
+          - "Sì sì, chiunque li può vedere"
+          - "Lì in cielo strisce bianche (Lassù)"
+          - "Chi ha più bisogno di prove da voi?"
+          - "Sì, la Terra è un disco piatto"
+      - lines:
+          - "Il mio nome è Tekkno, sto viaggiando nello spazio"
+          - "Ho un razzo sulla schiena alimentato dal basso del big bang"
+          - "Sono Tekkno, la mia religione è il rave"
+          - "E lo porto nel mondo esterno"
+          - "Allora fatemi sentire"
+      - lines:
+          - "Sono un spaceman, ho un razzo sulla schiena"
+          - "Spaceman, oh, sto raveando come un maniaco"
+          - "Spaceman, ho un razzo sulla schiena"
+          - "L'universo è in vista del mio attacco rave (Due, uno)"
+      - lines:
+          - "Fred da Giove"
+          - "Sta davanti al supermercato"
+          - "Accende la boombox"
+          - "E se ne va in scooter"
+          - "Rubino la sua navicella"
+          - "Volo in alto verso Marte"
+          - "Blblblblb, adesso i cavoli sono già"
+      - lines:
+          - "Il mio nome è Tekkno, sto viaggiando nello spazio"
+          - "Ho un razzo sulla schiena alimentato dal basso del big bang"
+          - "Sono Tekkno, la mia religione è il rave"
+          - "E lo porto nel mondo esterno"
+          - "Allora fatemi sentire"
+      - lines:
+          - "Spaceman, ho un razzo sulla schiena"
+          - "Spaceman, oh, sto raveando come un maniaco"
+          - "Spaceman, ho un razzo sulla schiena"
+          - "L'universo è in vista del mio attacco rave"
+      - lines:
+          - "Spaceman, ho un razzo sulla schiena"
+          - "Spaceman, oh, sto raveando come un maniaco"
+          - "Spaceman, ho un razzo sulla schiena"
+          - "L'universo è in vista del mio attacco rave"
+      - lines:
+          - "Dove sono i Cavalieri Jedi?"
+          - "Dove sono gli uomini di Marte?"
+          - "Dove sono i Klingon?"
+          - "Fate come con la mia ex"
+          - "Vi sparo tutti sulla luna"
+          - "Con una leberwurst legata addosso"
+          - "Il Kebekus vola via per l'universo"
+          - "Sempre più lontano da noi"
+          - "Grazie, assenza di peso"
+          - "L'ingratitudine è la ricompensa del mondo"
+          - "Ecco l'uomo razzo"
+          - "Viva Elton John"
+      - lines:
+          - "Viva Elton John"
+      - lines:
+          - "Ravagate"
+          - "Ovunqueiate porca puttana"
+          - "E non vedete niente che sia"
+          - "Un uccello o soltanto un uomo?"
+          - "In viaggio per raveare l'universo"
+      - lines:
+          - "Sono un spaceman, ho un razzo sulla schiena"
+          - "Spaceman, oh, sto raveando come un maniaco"
+          - "Spaceman, ho un razzo sulla schiena"
+          - "L'universo è in vista del mio attacco rave"
+      - lines:
+          - "Spaceman, ho un razzo sulla schiena"
+          - "Spaceman, oh, sto raveando come un maniaco"
+          - "Spaceman, ho un razzo sulla schiena"
+          - "L'universo è in vista del mio attacco rave"
+      - lines:
+          - "Missione completata"
+  - lang: de
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ich bin ein Spaceman, ein Rakete auf dem Rücken"
+          - "Spaceman, oh, ich rave wie ein Verrückter"
+          - "Spaceman, ein Rakete auf dem Rücken"
+          - "Das Universum steht bereit für meinen Rave-Angriff"
+          - "(Drei, zwei, eins)"
+      - lines:
+          - "Ja"
+      - lines:
+          - "Finchi Gagarin"
+          - "Dreh die Boxen doch mal auf"
+          - "Gestern noch im Trockenbau"
+          - "Heute bin ich Kosmonaut"
+          - "Ja-ja, jeder kann sie sehen"
+          - "Da am Himmel weiße Streifen (Da oben)"
+          - "Wer braucht von euch noch Beweise?"
+          - "Ja die Erde ist 'ne Scheibe"
+      - lines:
+          - "Mein Name ist Tekkno, ich reise durch den Raum"
+          - "Ich hab eine Rakete auf dem Rücken, angetrieben vom Big-Bang-Bass"
+          - "Ich bin Tekkno, meine Religion ist Rave"
+          - "Und ich bringe ihn in die Außenwelt"
+          - "Also lass es mich hören"
+      - lines:
+          - "Ich bin ein Spaceman, ein Rakete auf dem Rücken"
+          - "Spaceman, oh, ich rave wie ein Verrückter"
+          - "Spaceman, ein Rakete auf dem Rücken"
+          - "Das Universum steht bereit für meinen Rave-Angriff (Zwei, eins)"
+      - lines:
+          - "Fred vom Jupiter"
+          - "Steht vorm Supermarkt"
+          - "Dreht die Boombox an"
+          - "Und geht zu Scooter ab"
+          - "Klau mir sein Raumschiff"
+          - "Fliege hoch Richtung Mars"
+          - "Blblblblb, jetzt sind die Kohlköpfe ja"
+      - lines:
+          - "Mein Name ist Tekkno, ich reise durch den Raum"
+          - "Ich hab eine Rakete auf dem Rücken, angetrieben vom Big-Bang-Bass"
+          - "Ich bin Tekkno, meine Religion ist Rave"
+          - "Und ich bringe ihn in die Außenwelt"
+          - "Also lass es mich hören"
+      - lines:
+          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Spaceman, oh, ich rave wie ein Verrückter"
+          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Das Universum steht bereit für meinen Rave-Angriff"
+      - lines:
+          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Spaceman, oh, ich rave wie ein Verrückter"
+          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Das Universum steht bereit für meinen Rave-Angriff"
+      - lines:
+          - "Wo sind die Jedi Ritter?"
+          - "Wo sind die Marsmenschen?"
+          - "Wo sind die Klingonen?"
+          - "Mach's wie mit meiner Ex"
+          - "Ich schieß euch alle auf den Mond"
+          - "An 'ne Leberwurst geschnallt"
+          - "Fliegt die Kebekus durchs All"
+          - "Immer weiter von uns weg"
+          - "Danke, Schwerelosigkeit"
+          - "Undank ist der Weltenlohn"
+          - "Hier kommt der Raketenmann"
+          - "Viva la Elton John"
+      - lines:
+          - "Viva la Elton John"
+      - lines:
+          - "Rave on"
+          - "Egal wo du gerade bist"
+          - "Und du siehst nichts als"
+          - "Einen Vogel oder nur einen Mann?"
+          - "Auf dem Weg, die Welt zu raven"
+      - lines:
+          - "Ich bin ein Spaceman, ein Rakete auf dem Rücken"
+          - "Spaceman, oh, ich rave wie ein Verrückter"
+          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Das Universum steht bereit für meinen Rave-Angriff"
+      - lines:
+          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Spaceman, oh, ich rave wie ein Verrückter"
+          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Das Universum steht bereit für meinen Rave-Angriff"
+      - lines:
+          - "Mission erfüllt"
+---
