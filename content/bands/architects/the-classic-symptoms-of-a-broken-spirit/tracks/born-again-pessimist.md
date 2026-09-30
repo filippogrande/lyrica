@@ -1,0 +1,136 @@
+---
+title: "born again pessimist"
+slug: "born-again-pessimist"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I took an easy ride so the world could pretend"
+          - "That I'm superior"
+          - "You'd have an honest man if you took the time"
+          - "To wire up my jaw"
+          - "I fell asleep in the backseat"
+          - "Fuck, it was so sweet"
+          - "I ran a red like I saw a matador"
+          - "Yeah the sun might melt whilst you wait"
+          - "For my arteries to thaw"
+          - "I'm taking you to war"
+          - "I'm taking you to war"
+      - lines:
+          - "I'm never gonna spill my guts"
+          - "It feels like death by a thousand cuts"
+          - "So when the here and now holds me down"
+          - "I fall apart"
+          - "I don't wanna talk too much"
+          - "I'm never gonna stop yeah, I love this crutch"
+          - "So if I kiss the ground"
+          - "Don't look 'round"
+          - "God bless my big empty heart"
+      - lines:
+          - "I'll only lose my head if I stand too close to hysteria"
+          - "And if it took your breath, then I'm betting that"
+          - "I focused on the flaw"
+          - "So go and set me in concrete"
+          - "I'm just a deadbeat"
+          - "You always said I'm the wolf that's at your door"
+          - "I would drown myself but the thirst'd have me coming back for more"
+      - lines:
+          - "I'm never gonna spill my guts"
+          - "It feels like death by a thousand cuts"
+          - "So when the here and now holds me down"
+          - "I fall apart"
+          - "I don't wanna talk too much"
+          - "I'm never gonna stop yeah, I love this crutch"
+          - "So if I kiss the ground"
+          - "Don't look 'round"
+          - "God bless my big empty heart"
+          - "God bless my big empty heart"
+      - lines:
+          - "I'm just a born again pessimist"
+          - "I'll only kick you from the precipice"
+          - "Come follow me we'll march on heaven's gates"
+      - lines:
+          - "I'm never gonna spill my guts"
+          - "It feels like death by a thousand cuts"
+          - "So when the here and now holds me down"
+          - "I fall apart"
+          - "I don't wanna talk too much"
+          - "I'm never gonna stop yeah, I love this crutch"
+          - "So if I kiss the ground"
+          - "Don't look 'round"
+          - "God bless my big empty heart"
+      - lines:
+          - "My big empty heart"
+          - "My big empty heart"
+          - "My big empty heart"
+          - "God bless my big empty heart"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ho preso la strada facile così il mondo poteva fingere"
+          - "Che sono superiore"
+          - "Avresti un uomo onesto se ti prendessi il tempo"
+          - "Di collegare il mio mento"
+          - "Mi sono addormentato sul sedile posteriore"
+          - "Fanculo, era così dolce"
+          - "Ho preso un rosso come se avessi visto un matador"
+          - "Sì, il sole potrebbe sciogliersi mentre aspetti"
+          - "Che le mie arterie si scongelino"
+          - "Porto te in guerra"
+          - "Porto te in guerra"
+      - lines:
+          - "Non spillerò mai le mie interiora"
+          - "Sembra una morte per mille tagli"
+          - "Quindi quando il qui e ora mi schiaccia a terra"
+          - "Mi spezzo in mille pezzi"
+          - "Non voglio parlare troppo"
+          - "Non mi fermerò mai, sì, amo questa stampella"
+          - "Quindi se bacio il terreno"
+          - "Non guardarti intorno"
+          - "Dio benedica il mio grande cuore vuoto"
+      - lines:
+          - "Perderò la testa solo se mi metto troppo vicino all'isteria"
+          - "E se ti ha tolto il respiro, allora scommetto che"
+          - "Mi sono concentrato sul difetto"
+          - "Quindi vai e mettimi nel cemento"
+          - "Sono solo un fannullone"
+          - "Hai sempre detto che sono il lupo alla tua porta"
+          - "Mi affogherei, ma la sete mi farebbe tornare per altro"
+      - lines:
+          - "Non spillerò mai le mie interiora"
+          - "Sembra una morte per mille tagli"
+          - "Quindi quando il qui e ora mi schiaccia a terra"
+          - "Mi spezzo in mille pezzi"
+          - "Non voglio parlare troppo"
+          - "Non mi fermerò mai, sì, amo questa stampella"
+          - "Quindi se bacio il terreno"
+          - "Non guardarti intorno"
+          - "Dio benedica il mio grande cuore vuoto"
+          - "Dio benedica il mio grande cuore vuoto"
+      - lines:
+          - "Sono solo un pessimista rinato"
+          - "Ti spingerò giù dal precipizio"
+          - "Vieni, seguimi, marceremo sulle porte del cielo"
+      - lines:
+          - "Non spillerò mai le mie interiora"
+          - "Sembra una morte per mille tagli"
+          - "Quindi quando il qui e ora mi schiaccia a terra"
+          - "Mi spezzo in mille pezzi"
+          - "Non voglio parlare troppo"
+          - "Non mi fermerò mai, sì, amo questa stampella"
+          - "Quindi se bacio il terreno"
+          - "Non guardarti intorno"
+          - "Dio benedica il mio grande cuore vuoto"
+      - lines:
+          - "Il mio grande cuore vuoto"
+          - "Il mio grande cuore vuoto"
+          - "Il mio grande cuore vuoto"
+          - "Dio benedica il mio grande cuore vuoto"
+---
