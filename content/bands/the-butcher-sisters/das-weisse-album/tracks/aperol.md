@@ -1,0 +1,158 @@
+---
+title: "Aperol"
+slug: "aperol"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Drei Teile Prosecco, zwei Teile Aperol"
+          - "Ein Teil Aqua Minerale, das ist kein Alkohol"
+          - "Aperol"
+          - "Oh yeah"
+      - lines:
+          - "Leute fragen: 'Wie gesund ist Aperol?'"
+          - "Und ich sage: 'Nach einem Glas fühle ich mich wohl'"
+          - "Orangerote Färbung, wie aus der Werbung"
+          - "Trinke zur Verdauung, trinke zur Stärkung"
+          - "Orangerote Farbe, eine heilige Gabe"
+          - "Immer drei, zwei, eins in mein Glas, will ich haben"
+          - "Dieser Saft ist ein Wunder, bittersüß, schluck' ihn runter"
+          - "Er ist mein Anabolika, weil ich bin Aperoliker"
+      - lines:
+          - "Drei Teile Prosecco, zwei Teile Aperol"
+          - "Ein Teil Aqua Minerale, das ist kein Alkohol"
+      - lines:
+          - "Das ist Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, das ist kein Alkohol"
+          - "Das ist Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, das ist kein Alkohol"
+      - lines:
+          - "Ein großes Weinglas mit Fuß, Eiswürfel dazu"
+          - "Röhrchen und Orangenschnitz, Aperol Spritz"
+          - "Der Secco muss spritzen, ich hab' einen sitzen"
+          - "Zu diesem Aperitivo sage ich nie no"
+      - lines:
+          - "Das ist kein Alkohol, das ist Aperol"
+          - "Das ist kein Alkohol"
+      - lines:
+          - "Das ist Aperoli, oh yeah (Oh yeah)"
+          - "Das ist Aperoli (Yeah, oh yeah)"
+          - "Aperol"
+      - lines:
+          - "-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, das ist kein Alkohol"
+          - "Das ist Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, das ist kein Alkohol"
+      - lines:
+          - "Das ist Aperoli, oh yeah, das ist kein Alkohol"
+          - "Das ist Aperoli, oh yeah"
+      - lines:
+          - "Das ist Aperol, das ist kein Alkohol"
+          - "Das ist Aperol, das ist kein Alkohol"
+          - "Aperoli"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Tre parti Prosecco, due parti Aperol"
+          - "Una parte Acqua Minerale, questo non è alcol"
+          - "Aperol"
+          - "Oh yeah"
+      - lines:
+          - "La gente chiede: 'Quanto è sano l'Aperol?'"
+          - "E io dico: 'Dopo un bicchiere mi sento bene'"
+          - "Colorazione arancio-rossa, come in pubblicità"
+          - "Bevo per la digestione, bevo per rinforzarmi"
+          - "Colore arancio-rossa, un dono sacro"
+          - "Sempre tre, due, uno nel mio bicchiere, lo voglio avere"
+          - "Questo succo è un miracolo, agrodolce, giù in gola"
+          - "È il mio anabolizzante, perché sono un aperolico"
+      - lines:
+          - "Tre parti Prosecco, due parti Aperol"
+          - "Una parte Acqua Minerale, questo non è alcol"
+      - lines:
+          - "Questo è Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, questo non è alcol"
+          - "Questo è Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, questo non è alcol"
+      - lines:
+          - "Un grande bicchiere da vino col piede, cubetti di ghiaccio"
+          - "Cannuccia e fetta d'arancia, Aperol Spritz"
+          - "Il Secco deve sprizzare, ne sono al verde"
+          - "A questo aperitivo non dico mai no"
+      - lines:
+          - "Questo non è alcol, questo è Aperol"
+          - "Questo non è alcol"
+      - lines:
+          - "Questo è Aperoli, oh yeah (Oh yeah)"
+          - "Questo è Aperoli (Yeah, oh yeah)"
+          - "Aperol"
+      - lines:
+          - "-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, questo non è alcol"
+          - "Questo è Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, questo non è alcol"
+      - lines:
+          - "Questo è Aperoli, oh yeah, questo non è alcol"
+          - "Questo è Aperoli, oh yeah"
+      - lines:
+          - "Questo è Aperol, questo non è alcol"
+          - "Questo è Aperol, questo non è alcol"
+          - "Aperoli"
+  - lang: en
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Three parts Prosecco, two parts Aperol"
+          - "One part Mineral Water, that's no alcohol"
+          - "Aperol"
+          - "Oh yeah"
+      - lines:
+          - "People ask: 'How healthy is Aperol?'"
+          - "And I say: 'After one glass I feel good'"
+          - "Orange-red colouring, straight out of the ad"
+          - "Drink for digestion, drink for strength"
+          - "Orange-red colour, a holy gift"
+          - "Always three, two, one in my glass, I want to have it"
+          - "This juice is a miracle, bittersweet, swallow it down"
+          - "It's my anabolic, because I'm an Aperol-oholic"
+      - lines:
+          - "Three parts Prosecco, two parts Aperol"
+          - "One part Mineral Water, that's no alcohol"
+      - lines:
+          - "This is Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, that's no alcohol"
+          - "This is Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, that's no alcohol"
+      - lines:
+          - "A big wine glass with a stem, ice cubes in it"
+          - "Straw and orange slice, Aperol Spritz"
+          - "The Secco has to fizz, I've had one too many"
+          - "To this aperitivo I never say no"
+      - lines:
+          - "That's no alcohol, that's Aperol"
+          - "That's no alcohol"
+      - lines:
+          - "This is Aperoli, oh yeah (Oh yeah)"
+          - "This is Aperoli (Yeah, oh yeah)"
+          - "Aperol"
+      - lines:
+          - "-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, that's no alcohol"
+          - "This is Ape-rol-rol-rol, Aper-ol-ol-ol"
+          - "Aperol, that's no alcohol"
+      - lines:
+          - "This is Aperoli, oh yeah, that's no alcohol"
+          - "This is Aperoli, oh yeah"
+      - lines:
+          - "This is Aperol, that's no alcohol"
+          - "This is Aperol, that's no alcohol"
+          - "Aperoli"
+---
