@@ -25,11 +25,8 @@ tracks:
     title: "I Saw What You Did"
   - slug: "standing-still"
     title: "Standing Still"
-    status: pending
   - slug: "friend-or-enemy"
     title: "Friend or Enemy"
-    status: pending
   - slug: "terminal-velocity"
     title: "Terminal Velocity"
-    status: pending
 ---
