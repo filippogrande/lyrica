@@ -1,0 +1,174 @@
+---
+title: "Last Player"
+slug: "last-player"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Let me be your biggest fear"
+          - "I am the doom slayer"
+          - "Let me be your biggest fear"
+          - "You better say your prayers"
+      - lines:
+          - "Yeah"
+          - "You will never ever stop me"
+          - "No"
+          - "Never try to confront me"
+          - "Voices in my head"
+          - "Telling me to stop"
+          - "Voices in my head"
+          - "I rock like fuck"
+      - lines:
+          - "Check my uniform"
+          - "I was made to kill"
+          - "Killed the hellborn"
+          - "But it lost its thrill"
+      - lines:
+          - "All I want is a 9 to 5 day job"
+          - "Build a house"
+          - "Plant a tree"
+          - "And have a lapdog"
+          - "Voices in my head"
+          - "Telling me to rock"
+          - "Voices in my head"
+          - "Go kill or stop?"
+      - lines:
+          - "All the killing got no thrill"
+          - "Guess I lost my thirst to kill"
+      - lines:
+          - "I burned all my enemies"
+          - "Had the fans"
+          - "Had the girls"
+          - "Oh, limbs kept dropping"
+          - "Bottles popping"
+          - "Partied like the Kennedys"
+      - lines:
+          - "This job needs to be done"
+          - "I am the doom slayer"
+          - "I am the last player"
+          - "Call me the chosen one"
+          - "'Cause I am the doom slayer"
+          - "I am the last player"
+      - lines:
+          - "No"
+          - "I can't do this anymore"
+          - "I am feeling like Mrs. Doubtfire"
+          - "But got balls like Quagmire"
+          - "I need my gunfire"
+          - "To stack the dead higher"
+          - "Boom boom boom boom"
+          - "I cannot retire"
+      - lines:
+          - "Every shot I'm taking is a hit"
+          - "Blood in your spit"
+          - "This is the real slayer shit"
+          - "Every head I break in the pit"
+          - "Makes me commit more to the real slayer shit"
+      - lines:
+          - "Check my uniform"
+          - "I am made to kill"
+          - "Kill the hellborn"
+          - "Guess I regained my thrill"
+      - lines:
+          - "This job needs to be done"
+          - "I am the doom slayer"
+          - "I am the last player"
+          - "Call me the chosen one"
+          - "'Cause I am the doom slayer"
+          - "I am the last player"
+      - lines:
+          - "I'll burn all my enemies"
+          - "Got the fans"
+          - "Got the girls"
+          - "Oh, limbs keep dropping"
+          - "Bottles popping"
+          - "Party like the Kennedys"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Lasciami essere la tua paura più grande"
+          - "Sono lo sterminatore del destino"
+          - "Lasciami essere la tua paura più grande"
+          - "Faresti meglio a recitare le preghiere"
+      - lines:
+          - "Sì"
+          - "Non mi fermerai mai e poi mai"
+          - "No"
+          - "Non provare mai a affrontarmi"
+          - "Voci nella mia testa"
+          - "Mi dicono di fermarmi"
+          - "Voci nella mia testa"
+          - "Suono come un fottutissimo rock"
+      - lines:
+          - "Guarda la mia uniforme"
+          - "Sono stato fatto per uccidere"
+          - "Ho ucciso l'Inferno"
+          - "Ma ha perso il mordente"
+      - lines:
+          - "Tutto ciò che voglio è un lavoro dalle 9 alle 5"
+          - "Costruire una casa"
+          - "Piantare un albero"
+          - "E avere un cane da grembo"
+          - "Voci nella mia testa"
+          - "Mi dicono di suonare"
+          - "Voci nella mia testa"
+          - "Uccidere o smettere?"
+      - lines:
+          - "Tutto quell'uccidere non dà più mordente"
+          - "Immagino di aver perso la sete di uccidere"
+      - lines:
+          - "Ho bruciato tutti i miei nemici"
+          - "Avevo i fan"
+          - "Avevo le ragazze"
+          - "Oh, gli arti continuavano a cadere"
+          - "Le bottiglie che scoppavano"
+          - "Festeggiavo come i Kennedy"
+      - lines:
+          - "Questo lavoro va fatto"
+          - "Sono lo sterminatore del destino"
+          - "Sono l'ultimo giocatore"
+          - "Chiamami quello scelto"
+          - "Perché sono lo sterminatore del destino"
+          - "Sono l'ultimo giocatore"
+      - lines:
+          - "No"
+          - "Non posso fare più questo"
+          - "Mi sento come Mrs. Doubtfire"
+          - "Ma ho palle come Quagmire"
+          - "Mi serve il mio fuoco d'arma"
+          - "Per impilare i morti più in alto"
+          - "Bum bum bum bum"
+          - "Non posso andare in pensione"
+      - lines:
+          - "Ogni colpo che sparo è un colpo ricevuto"
+          - "Sangue nel tuo sputo"
+          - "Questa è la vera roba da sterminatore"
+          - "Ogni testa che rompo nella fossa"
+          - "Mi fa impegnarmi di più nella vera roba da sterminatore"
+      - lines:
+          - "Guarda la mia uniforme"
+          - "Sono fatto per uccidere"
+          - "Uccido l'Inferno"
+          - "Immagino di aver ritrovato il mordente"
+      - lines:
+          - "Questo lavoro va fatto"
+          - "Sono lo sterminatore del destino"
+          - "Sono l'ultimo giocatore"
+          - "Chiamami quello scelto"
+          - "Perché sono lo sterminatore del destino"
+          - "Sono l'ultimo giocatore"
+      - lines:
+          - "Brucio tutti i miei nemici"
+          - "Ho i fan"
+          - "Ho le ragazze"
+          - "Oh, gli arti continuano a cadere"
+          - "Le bottiglie che scoppavano"
+          - "Festeggio come i Kennedy"
+---

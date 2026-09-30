@@ -1,0 +1,152 @@
+---
+title: "Mindreader"
+slug: "mindreader"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "You're like a bittersweet harmony"
+          - "And there never really was a you and me"
+          - "You wrapped me 'round your finger"
+          - "Then hit my back with your deadly stinger"
+      - lines:
+          - "Save myself"
+          - "You'll be the death of me"
+          - "Save myself"
+          - "Stay away from me"
+          - "Save myself"
+          - "I want you out of my head so bad"
+      - lines:
+          - "And even if I wanna hide what I'm feeling for you"
+          - "You'd figure it out 'cause"
+          - "You're a mindreader"
+          - "And even if I wanna hide what I'm feeling for you"
+          - "You'd figure it out 'cause"
+          - "You're a mindreader"
+      - lines:
+          - "All the goddamn time you made me feel like shit"
+          - "The only thing you really cared about was your benefit"
+          - "I wanna get out while you're tryna get in sucker"
+          - "Everything you did is something I'll do better"
+      - lines:
+          - "Save yourself"
+          - "Oh I will beat you up"
+          - "Save yourself"
+          - "I know you'd never stop"
+          - "Save yourself"
+          - "I'm gonna make you regret so bad"
+      - lines:
+          - "And even if I wanna hide what I'm feeling for you"
+          - "You'd figure it out 'cause"
+          - "You're a mindreader"
+          - "And even if I wanna hide what I'm feeling for you"
+          - "You'd figure it out 'cause"
+          - "You're a mindreader"
+      - lines:
+          - "Save myself"
+      - lines:
+          - "You are the devil bitch"
+          - "Everybody knows that"
+          - "I wanna cut my thoughts out of your head"
+          - "You are the devil bitch"
+          - "Everybody knows that"
+          - "When I'm done with you you'd rather be dead"
+      - lines:
+          - "Dead so dead"
+          - "When I'm done with you you'd rather be dead"
+          - "Dead so dead"
+          - "When I'm done with you you'd rather be dead"
+      - lines:
+          - "And even if I wanna hide what I'm feeling for you"
+          - "You'd figure it out 'cause"
+          - "You're a mindreader"
+          - "And even if I wanna hide what I'm feeling for you"
+          - "You'd figure it out 'cause"
+          - "You're a mindreader"
+          - "Mindreader"
+      - lines:
+          - "I gotta move on but you hold me"
+          - "You're still in my head you control me"
+          - "'Cause you're a mindreader"
+          - "I wanna be right here without you"
+          - "Just wanna forget what I've been through"
+          - "I need a mindreader"
+          - "Mindreader"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sei come un'armonia amara"
+          - "E in realtà non c'è mai stato un tu e un me"
+          - "Mi hai avvolto intorno al tuo dito"
+          - "E poi mi hai colpito la schiena con il tuo pungiglione letale"
+      - lines:
+          - "Salvami da me stesso"
+          - "Sarai la mia morte"
+          - "Salvami da me stesso"
+          - "Stai lontano da me"
+          - "Salvami da me stesso"
+          - "Ti voglio fuori dalla mia testa così tanto"
+      - lines:
+          - "E anche se volessi nascondere quello che provo per te"
+          - "Lo capiresti perché"
+          - "Sei un lettore di pensieri"
+          - "E anche se volessi nascondere quello che provo per te"
+          - "Lo capiresti perché"
+          - "Sei un lettore di pensieri"
+      - lines:
+          - "Per tutta la fottuta vita mi hai fatto sentire una merda"
+          - "L'unica cosa che ti importava davvero era il tuo vantaggio"
+          - "Voglio uscire mentre tu provi a entrare, succhiatore"
+          - "Tutto quello che hai fatto lo farò io meglio"
+      - lines:
+          - "Salvati"
+          - "Oh ti darò una lezione"
+          - "Salvati"
+          - "So che non smetteresti mai"
+          - "Salvati"
+          - "Te ne farai pentire così tanto"
+      - lines:
+          - "E anche se volessi nascondere quello che provo per te"
+          - "Lo capiresti perché"
+          - "Sei un lettore di pensieri"
+          - "E anche se volessi nascondere quello che provo per te"
+          - "Lo capiresti perché"
+          - "Sei un lettore di pensieri"
+      - lines:
+          - "Salvami da me stesso"
+      - lines:
+          - "Sei il diavolo, puttana"
+          - "Lo sanno tutti"
+          - "Voglio tagliare i miei pensieri fuori dalla tua testa"
+          - "Sei il diavolo, puttana"
+          - "Lo sanno tutti"
+          - "Quando avrò finito con te, preferiresti essere morto"
+      - lines:
+          - "Morto, morto"
+          - "Quando avrò finito con te, preferiresti essere morto"
+          - "Morto, morto"
+          - "Quando avrò finito con te, preferiresti essere morto"
+      - lines:
+          - "E anche se volessi nascondere quello che provo per te"
+          - "Lo capiresti perché"
+          - "Sei un lettore di pensieri"
+          - "E anche se volessi nascondere quello che provo per te"
+          - "Lo capiresti perché"
+          - "Sei un lettore di pensieri"
+          - "Lettore di pensieri"
+      - lines:
+          - "Devo andare avanti ma tu mi trattieni"
+          - "Sei ancora nella mia testa, mi controlli"
+          - "Perché sei un lettore di pensieri"
+          - "Voglio essere qui senza di te"
+          - "Voglio solo dimenticare quello che ho passato"
+          - "Mi serve un lettore di pensieri"
+          - "Lettore di pensieri"
+---

@@ -1,0 +1,170 @@
+---
+title: "Penguin Supreme"
+slug: "penguin-supreme"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Waddle, waddle on the ice so cold"
+          - "Little tuxedo, looking so bold"
+          - "Flap those wings like you're ready to strike"
+          - "He's so dope"
+          - "And this is what he sounds like"
+      - lines:
+          - "He is the king of ice forever and ever"
+          - "Cold as a motherfucker, comin' to get ya"
+          - "Comin' to get ya, comin' to get ya"
+          - "Colder than polar caps forever and ever"
+      - lines:
+          - "Penguin Supreme, yeah, the ruler of snow"
+          - "Swagger like Mick Jagger, in a rodeo"
+          - "Penguin Supreme, yeah, the ruler of snow"
+          - "Are you fucking cold? He is putting on his Speedo"
+      - lines:
+          - "He slips and falls, but he won't give in"
+          - "All hail the penguin"
+          - "He slips and falls, but he won't give in"
+          - "All hail the penguin"
+      - lines:
+          - "Penguins in a cuddly parade"
+          - "Looking sharp and they're never afraid"
+          - "They fall, they slide, they sway anyday"
+          - "The clowns and the kings of the ice play"
+      - lines:
+          - "Penguins in a cuddly parade"
+          - "Looking sharp and they're never afraid"
+          - "They fall, they slide, they sway anyday"
+          - "The clowns and the kings of the ice play"
+      - lines:
+          - "Waddle, waddle on the ice so cold"
+          - "Little tuxedo, looking so bold"
+          - "Clap your wings if you're ready to fly"
+          - "But oh, no!"
+          - "That's the only thing you can't, right?"
+      - lines:
+          - "He is the clown of ice forever and ever"
+          - "Dumb as a motherfuck, not coming to get ya"
+          - "Not coming to get ya, not coming to get ya"
+          - "Trapped on your block of ice, wherever, whatever"
+      - lines:
+          - "He slips and falls, but he won't give in"
+          - "All hail the penguin"
+          - "He slips and falls, but he won't give in"
+          - "All hail the penguin"
+      - lines:
+          - "Penguins in a cuddly parade"
+          - "Looking sharp and they're never afraid"
+          - "They fall, they slide, they sway anyday"
+          - "The clowns and the kings of the ice play"
+      - lines:
+          - "Penguins in a cuddly parade"
+          - "Looking sharp and they're never afraid"
+          - "They fall, they slide, they sway anyday"
+          - "The clowns and the kings of the ice play"
+      - lines:
+          - "Waddle, waddle on the ice so cold"
+          - "Little tuxedo, looking so bold"
+          - "Clap your wings if you're ready to fly"
+          - "But oh, no!"
+          - "That's the only thing you can't, right?"
+      - lines:
+          - "Penguins in a cuddly parade"
+          - "Looking sharp and they're never afraid"
+          - "They fall, they slide, they sway anyday"
+          - "The clowns and the kings of the ice play"
+      - lines:
+          - "Penguins in a cuddly parade"
+          - "Looking sharp and they're never afraid"
+          - "They fall, they slide, they sway anyday"
+          - "The clowns and the kings of the ice play"
+      - lines:
+          - "All hail penguin"
+          - "Bow down to the ruler of the ice"
+          - "You suckers"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Procede a dondolo sul ghiaccio così freddo"
+          - "Piccolo smoking, sembra così coraggioso"
+          - "Sbatte quelle ali come se fosse pronto a colpire"
+          - "È così fico"
+          - "E questo è il suono che fa"
+      - lines:
+          - "È il re del ghiaccio per sempre e per sempre"
+          - "Freddo come un cazzo, viene a prenderti"
+          - "Viene a prenderti, viene a prenderti"
+          - "Più freddo dei coperchi polari per sempre e per sempre"
+      - lines:
+          - "Penguin Supreme, yeah, il sovrano della neve"
+          - "Con il tuo fare da Mick Jagger, in un rodeo"
+          - "Penguin Supreme, yeah, il sovrano della neve"
+          - "Hai un cazzo di freddo? Lui si mette lo Speedo"
+      - lines:
+          - "Scivola e cade, ma non si arrende"
+          - "Salve al pinguino"
+          - "Scivola e cade, ma non si arrende"
+          - "Salve al pinguino"
+      - lines:
+          - "Pinguini in una parata coccolosa"
+          - "Hanno un aspetto elegante e non hanno mai paura"
+          - "Cadono, scivolano, oscillano ogni giorno"
+          - "I clown e i re del ghiaccio giocano"
+      - lines:
+          - "Pinguini in una parata coccolosa"
+          - "Hanno un aspetto elegante e non hanno mai paura"
+          - "Cadono, scivolano, oscillano ogni giorno"
+          - "I clown e i re del ghiaccio giocano"
+      - lines:
+          - "Procede a dondolo sul ghiaccio così freddo"
+          - "Piccolo smoking, sembra così coraggioso"
+          - "Batti le ali se sei pronto a volare"
+          - "Ma oh, no!"
+          - "Quella è l'unica cosa che non sai fare, vero?"
+      - lines:
+          - "È il clown del ghiaccio per sempre e per sempre"
+          - "Stupido come un cazzo, non viene a prenderti"
+          - "Non viene a prenderti, non viene a prenderti"
+          - "Intrappolato sul tuo blocco di ghiaccio, ovunque, qualunque cosa"
+      - lines:
+          - "Scivola e cade, ma non si arrende"
+          - "Salve al pinguino"
+          - "Scivola e cade, ma non si arrende"
+          - "Salve al pinguino"
+      - lines:
+          - "Pinguini in una parata coccolosa"
+          - "Hanno un aspetto elegante e non hanno mai paura"
+          - "Cadono, scivolano, oscillano ogni giorno"
+          - "I clown e i re del ghiaccio giocano"
+      - lines:
+          - "Pinguini in una parata coccolosa"
+          - "Hanno un aspetto elegante e non hanno mai paura"
+          - "Cadono, scivolano, oscillano ogni giorno"
+          - "I clown e i re del ghiaccio giocano"
+      - lines:
+          - "Procede a dondolo sul ghiaccio così freddo"
+          - "Piccolo smoking, sembra così coraggioso"
+          - "Batti le ali se sei pronto a volare"
+          - "Ma oh, no!"
+          - "Quella è l'unica cosa che non sai fare, vero?"
+      - lines:
+          - "Pinguini in una parata coccolosa"
+          - "Hanno un aspetto elegante e non hanno mai paura"
+          - "Cadono, scivolano, oscillano ogni giorno"
+          - "I clown e i re del ghiaccio giocano"
+      - lines:
+          - "Pinguini in una parata coccolosa"
+          - "Hanno un aspetto elegante e non hanno mai paura"
+          - "Cadono, scivolano, oscillano ogni giorno"
+          - "I clown e i re del ghiaccio giocano"
+      - lines:
+          - "Salve pinguino"
+          - "Piegatevi al sovrano del ghiaccio"
+          - "Voi succhioni"
+---

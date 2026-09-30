@@ -1,0 +1,128 @@
+---
+title: "The Blame Game"
+slug: "the-blame-game"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Some guys are broken"
+          - "And only bring shit to your life"
+          - "You give them so much as an inch"
+          - "And they're taking the"
+          - "Fucking mile"
+          - "And some guys they just never capture"
+          - "The eye of the girls"
+          - "And some guys just never fit"
+          - "And never found their place"
+          - "In this world"
+      - lines:
+          - "Don't blame yourself"
+          - "Don't blame yourself"
+          - "For the sun"
+          - "As it burns out the love out of life"
+          - "Don't blame yourself"
+          - "For some coward"
+          - "Who just hides in the shape of man"
+      - lines:
+          - "And some guys just can't see the forest for the trees"
+          - "The chip on their shoulder is growing"
+          - "And somehow its all"
+          - "They can feel"
+          - "And some guys will never be honest with themselves"
+          - "They'll breathe in the heaven around you"
+          - "But breathe out the hell"
+      - lines:
+          - "Don't blame yourself"
+          - "Don't blame yourself"
+          - "For the sun"
+          - "As it burns out the love out of life"
+          - "Don't blame yourself"
+          - "For some coward"
+          - "Who just hides in the shape of man"
+      - lines:
+          - "Don't blame yourself"
+          - "But no excuses please"
+          - "But no excuses please"
+          - "But no excuses please"
+      - lines:
+          - "And some guys will always be bitter that"
+          - "They gave up on their dreams"
+          - "They've blamed everybody around them"
+          - "But never admitted a thing"
+      - lines:
+          - "So don't blame yourself"
+          - "No excuses please"
+      - lines:
+          - "Don't blame yourself"
+          - "Don't blame yourself"
+          - "For the sun"
+          - "As it burns out the love out of life"
+          - "Don't blame yourself"
+          - "For some coward"
+          - "Who just hides in the shape of man"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Alcuni ragazzi sono spezzati"
+          - "E portano solo merda nella tua vita"
+          - "Dai loro un pollicino e loro"
+          - "Si prendono"
+          - "Un miglio intero"
+          - "E alcuni ragazzi non riescono mai a catturare"
+          - "L'occhio delle ragazze"
+          - "E alcuni ragazzi non vanno mai bene"
+          - "E non trovano mai il loro posto"
+          - "In questo mondo"
+      - lines:
+          - "Non dare la colpa a te stesso"
+          - "Non dare la colpa a te stesso"
+          - "Al sole"
+          - "Mentre brucia l'amore fuori dalla vita"
+          - "Non dare la colpa a te stesso"
+          - "Per qualche codardo"
+          - "Che si nasconde dietro le sembianze d'uomo"
+      - lines:
+          - "E alcuni ragazzi non vedono la foresta per gli alberi"
+          - "Il rancore sulla loro spalla sta crescendo"
+          - "E in qualche modo è tutto"
+          - "Riescono a sentire"
+          - "E alcuni ragazzi non saranno mai onesti con se stessi"
+          - "Respirano il paradiso intorno a te"
+          - "Ma espirano l'inferno"
+      - lines:
+          - "Non dare la colpa a te stesso"
+          - "Non dare la colpa a te stesso"
+          - "Al sole"
+          - "Mentre brucia l'amore fuori dalla vita"
+          - "Non dare la colpa a te stesso"
+          - "Per qualche codardo"
+          - "Che si nasconde dietro le sembianze d'uomo"
+      - lines:
+          - "Non dare la colpa a te stesso"
+          - "Ma niente scuse, per favore"
+          - "Ma niente scuse, per favore"
+          - "Ma niente scuse, per favore"
+      - lines:
+          - "E alcuni ragazzi saranno sempre amareggiati perché"
+          - "Hanno rinunciato ai loro sogni"
+          - "Hanno dato la colpa a tutti intorno a loro"
+          - "Ma non hanno mai ammesso niente"
+      - lines:
+          - "Quindi non dare la colpa a te stesso"
+          - "Niente scuse, per favore"
+      - lines:
+          - "Non dare la colpa a te stesso"
+          - "Non dare la colpa a te stesso"
+          - "Al sole"
+          - "Mentre brucia l'amore fuori dalla vita"
+          - "Non dare la colpa a te stesso"
+          - "Per qualche codardo"
+          - "Che si nasconde dietro le sembianze d'uomo"
+---

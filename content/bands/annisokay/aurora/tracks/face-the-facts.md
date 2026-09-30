@@ -1,0 +1,142 @@
+---
+title: "Face The Facts"
+slug: "face-the-facts"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "And you say it's DNA"
+          - "But never just the way that you behave"
+          - "And you say you're built this way"
+          - "But many things in life rely on change"
+          - "Cop out cause you're afraid of it"
+          - "Till now you got away with it"
+          - "One life and still you're failing it"
+          - "You better grow up and face the facts"
+      - lines:
+          - "Yeah you have the power"
+          - "So take control"
+          - "And make your own choices"
+          - "Yeah you have the power"
+          - "Some call it power"
+          - "Some call it poison"
+      - lines:
+          - "Drop drop drop"
+          - "Drop the act"
+          - "Fuck your excuses"
+          - "And face the facts"
+          - "Drop drop drop"
+          - "Drop the act"
+          - "Fuck your excuses"
+          - "And face the facts"
+      - lines:
+          - "And you say it's DNA"
+          - "As if you had no choice in how you play"
+          - "And you say you hate the weak"
+          - "When they were stronger than you'll ever be"
+          - "No way cause in reality"
+          - "You're safe inside your fallacy"
+          - "You play on your insanity"
+          - "Whenever it comes time to face the facts"
+      - lines:
+          - "Yeah you have the power"
+          - "So take control"
+          - "And make your own choices"
+          - "Yeah you have the power"
+          - "Some call it power"
+          - "Some call it poison"
+      - lines:
+          - "Drop drop"
+          - "Drop the act"
+          - "Fuck your excuses"
+          - "And face the facts"
+          - "Drop drop"
+          - "Drop the act"
+          - "Fuck your excuses"
+          - "And face the facts"
+      - lines:
+          - "Yeah you have the power"
+          - "To make your own"
+          - "To make your own choices"
+          - "Yeah you have the power"
+          - "Some call it poison"
+      - lines:
+          - "But you have the power"
+          - "So take control"
+          - "And make your own choices"
+          - "Yeah you have the power"
+          - "Some call it power"
+          - "Some call it poison"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "E tu dici che è il DNA"
+          - "Ma mai solo il modo in cui ti comporti"
+          - "E tu dici che sei fatto così"
+          - "Ma molte cose nella vita si reggono sul cambiamento"
+          - "Svincolati perché ne hai paura"
+          - "Finora te la sei cavata"
+          - "Una sola vita e stai ancora fallendo"
+          - "Faresti meglio a crescere e ad affrontare i fatti"
+      - lines:
+          - "Sì, hai il potere"
+          - "Quindi prendi il controllo"
+          - "E fai le tue scelte"
+          - "Sì, hai il potere"
+          - "Qualcuno lo chiama potere"
+          - "Qualcuno lo chiama veleno"
+      - lines:
+          - "Cad cad cad"
+          - "Smetti la finzione"
+          - "Fotterti le tue scuse"
+          - "E affronta i fatti"
+          - "Cad cad cad"
+          - "Smetti la finzione"
+          - "Fotterti le tue scuse"
+          - "E affronta i fatti"
+      - lines:
+          - "E tu dici che è il DNA"
+          - "Come se non avessi scelto come giocare"
+          - "E tu dici che odi i deboli"
+          - "Quando erano più forti di quanto tu sarai mai"
+          - "In nessun modo, perché in realtà"
+          - "Sei al sicuro dentro la tua fallacia"
+          - "Giochi sulla tua follia"
+          - "Ogni volta che arriva il momento di affrontare i fatti"
+      - lines:
+          - "Sì, hai il potere"
+          - "Quindi prendi il controllo"
+          - "E fai le tue scelte"
+          - "Sì, hai il potere"
+          - "Qualcuno lo chiama potere"
+          - "Qualcuno lo chiama veleno"
+      - lines:
+          - "Cad cad"
+          - "Smetti la finzione"
+          - "Fotterti le tue scuse"
+          - "E affronta i fatti"
+          - "Cad cad"
+          - "Smetti la finzione"
+          - "Fotterti le tue scuse"
+          - "E affronta i fatti"
+      - lines:
+          - "Sì, hai il potere"
+          - "Di fare il tuo"
+          - "Di fare le tue scelte"
+          - "Sì, hai il potere"
+          - "Qualcuno lo chiama veleno"
+      - lines:
+          - "Ma hai il potere"
+          - "Quindi prendi il controllo"
+          - "E fai le tue scelte"
+          - "Sì, hai il potere"
+          - "Qualcuno lo chiama potere"
+          - "Qualcuno lo chiama veleno"
+---

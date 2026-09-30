@@ -1,0 +1,142 @@
+---
+title: "a new moral low ground"
+slug: "a-new-moral-low-ground"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Grit grinding under my teeth"
+          - "I guess that I can stop if I'm getting you down"
+          - "I'll keep myself on a leash"
+          - "If I were born to hang then I'll never be drowned"
+      - lines:
+          - "A feather knocked me down"
+          - "Oh what a shame"
+          - "I was stood in the jaws of defeat"
+          - "Trying to fight for a new moral low ground"
+      - lines:
+          - "I see the parallels when the sinners are"
+          - "Holding the arrows"
+      - lines:
+          - "No feeling left"
+          - "Still we're dying to know"
+          - "But that's the price that you pay for your sorrow"
+      - lines:
+          - "One love for your enemy"
+          - "Two steps from the edge of your sanity"
+          - "Three strikes for the cavalry"
+          - "You cut me close to the bone"
+          - "Four walls that you'll never see"
+          - "Five waits for a taste of humanity"
+          - "Six feet, what a travesty"
+          - "You cut me close to the bone"
+      - lines:
+          - "Why don't you stick around?"
+          - "It's just a game but we live on the edge of the seat"
+          - "We like that and we ain't easy to talk round"
+          - "We feel the dagger twist when we're faced with the straight and the narrow"
+      - lines:
+          - "No feeling left"
+          - "Still we're dying to know"
+          - "But that's the price that you pay for your sorrow"
+      - lines:
+          - "One love for your enemy"
+          - "Two steps from the edge of your sanity"
+          - "Three strikes for the cavalry"
+          - "You cut me close to the bone"
+          - "Four walls that you'll never see"
+          - "Five waits for a taste of humanity"
+          - "Six feet, what a travesty"
+          - "You cut me close to the bone"
+      - lines:
+          - "God knows I'm getting you down"
+          - "Grit grinding under my teeth"
+          - "I guess that I can stop if I'm getting you down"
+      - lines:
+          - "I'll keep myself on a leash"
+          - "If I were born to hang then I'll never be drowned"
+          - "(I'll never be drowned)"
+          - "(Grit grinding under my teeth)"
+          - "(God knows I'm getting you down)"
+      - lines:
+          - "One love for your enemy"
+          - "Two steps from the edge of your sanity"
+          - "Three strikes for the cavalry"
+          - "You cut me close to the bone"
+          - "Four walls that you'll never see"
+          - "Five waits for a taste of humanity"
+          - "Six feet, what a travesty"
+          - "You cut me close to the bone"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sabbia che mi scricchiola fra i denti"
+          - "Immagino di potermi fermare se ti sto abbattendo"
+          - "Mi terrò al guinzaglio"
+          - "Se sono nato per essere impiccato non annegarò mai"
+      - lines:
+          - "Una piuma mi ha abbattuto"
+          - "Oh, che peccato"
+          - "Ero in piedi tra le fauci della sconfitta"
+          - "Provando a combattere per un nuovo basso morale"
+      - lines:
+          - "Vedo i parallelismi quando i peccatori sono"
+          - "A reggere le frecce"
+      - lines:
+          - "Nessun sentimento rimasto"
+          - "Eppure stiamo morendo di sapere"
+          - "Ma è il prezzo che paghi per il tuo dolore"
+      - lines:
+          - "Un amore per il tuo nemico"
+          - "Due passi dal bordo della tua sanità"
+          - "Tre strike per la cavalleria"
+          - "Mi tagli fino all'osso"
+          - "Quattro muri che non vedrai mai"
+          - "Cinque attende un assaggio di umanità"
+          - "Sei piedi, che tragedia"
+          - "Mi tagli fino all'osso"
+      - lines:
+          - "Perché non ti fermi?"
+          - "È solo un gioco ma viviamo sul bordo del sedile"
+          - "Ci piace e non siamo facili da convincere"
+          - "Sentiamo il pugnale girare quando ci troviamo davanti la via stretta e dritta"
+      - lines:
+          - "Nessun sentimento rimasto"
+          - "Eppure stiamo morendo di sapere"
+          - "Ma è il prezzo che paghi per il tuo dolore"
+      - lines:
+          - "Un amore per il tuo nemico"
+          - "Due passi dal bordo della tua sanità"
+          - "Tre strike per la cavalleria"
+          - "Mi tagli fino all'osso"
+          - "Quattro muri che non vedrai mai"
+          - "Cinque attende un assaggio di umanità"
+          - "Sei piedi, che tragedia"
+          - "Mi tagli fino all'osso"
+      - lines:
+          - "Dio sa che ti sto abbattendo"
+          - "Sabbia che mi scricchiola fra i denti"
+          - "Immagino di potermi fermare se ti sto abbattendo"
+      - lines:
+          - "Mi terrò al guinzaglio"
+          - "Se sono nato per essere impiccato non annegarò mai"
+          - "(Non annegarò mai)"
+          - "(Sabbia che mi scricchiola fra i denti)"
+          - "(Dio sa che ti sto abbattendo)"
+      - lines:
+          - "Un amore per il tuo nemico"
+          - "Due passi dal bordo della tua sanità"
+          - "Tre strike per la cavalleria"
+          - "Mi tagli fino all'osso"
+          - "Quattro muri che non vedrai mai"
+          - "Cinque attende un assaggio di umanità"
+          - "Sei piedi, che tragedia"
+          - "Mi tagli fino all'osso"
+---

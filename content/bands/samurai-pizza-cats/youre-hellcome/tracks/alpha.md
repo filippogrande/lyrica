@@ -1,0 +1,128 @@
+---
+title: "Alpha"
+slug: "alpha"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I am the alpha"
+          - "I am the leader"
+          - "You are the scum and I am your feeder"
+          - "We are like sirens bursting your ears"
+          - "We are the one representing your fears"
+      - lines:
+          - "I am the alpha"
+          - "I am the leader"
+          - "You are the scum and I am your feeder"
+          - "We are like sirens bursting your ears"
+          - "We are the one representing your fears"
+      - lines:
+          - "Is this what you waited for"
+          - "Alright"
+          - "No more chance for you fucks"
+          - "So step aside"
+          - "We gonna break your fucking face tonight"
+          - "SPC is here for a gun fight"
+      - lines:
+          - "Come on now"
+          - "Show us what you got"
+          - "You know it's getting hot"
+          - "This will be your last shot"
+          - "Come on now"
+          - "Show us what you got"
+          - "So get the fuck out"
+      - lines:
+          - "Digger steh mir nicht im Weg man Mach Platz da du Lappen"
+          - "Weil die Königin am Start ist und ich Ansagen mache"
+          - "Also runter auf die Knie jetzt, verneig dich vor dem Alpha-Tier"
+          - "Keiner hier, hat mir was zu sagen das ist mein Quartier"
+          - "Schnauze jetzt da unten man, bell nicht wie ein Hund"
+          - "Du machst Platz wenn ich das sage, wenn ich will hältst du den Mund"
+          - "Ich dominiere wen ich will und das völlig ohne Grund"
+          - "Mach das Alpha-Tier nicht wütend digger wäre nicht gesund"
+      - lines:
+          - "I am the alpha"
+          - "I am the leader"
+          - "You are the scum and I am your feeder"
+          - "We are like sirens bursting your ears"
+          - "We are the one representing your fears"
+      - lines:
+          - "Come on now"
+          - "You can't really be surprised"
+          - "SPC is here so you'll pay the price"
+          - "You fucks try to stand in our light"
+          - "But all we see is just a fools paradise"
+      - lines:
+          - "Come on now"
+          - "Show us what you got"
+          - "You know it's getting hot"
+          - "This will be your last shot"
+          - "Come on now"
+          - "Show us what you got"
+          - "So get the fuck out"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sono l'alpha"
+          - "Sono il leader"
+          - "Tu sei la feccia e io sono il tuo nutrice"
+          - "Siamo come sirene che fanno esplodere le tue orecchie"
+          - "Siamo quelli che rappresentano le tue paure"
+      - lines:
+          - "Sono l'alpha"
+          - "Sono il leader"
+          - "Tu sei la feccia e io sono il tuo nutrice"
+          - "Siamo come sirene che fanno esplodere le tue orecchie"
+          - "Siamo quelli che rappresentano le tue paure"
+      - lines:
+          - "È questo che hai aspettato"
+          - "Va bene"
+          - "Per voi fottuti non c'è più nessuna possibilità"
+          - "Quindi fatti da parte"
+          - "Stanotte ti spaccheremo la fottuta faccia"
+          - "SPC è qui per uno scontro a fuoco"
+      - lines:
+          - "Dai, vieni"
+          - "Mostraci quello che hai"
+          - "Sai che si sta scaldando"
+          - "Questo sarà il tuo ultimo tentativo"
+          - "Dai, vieni"
+          - "Mostraci quello che hai"
+          - "Quindi fuori dal cazzo"
+      - lines:
+          - "Digger, non intralciarmi, fammi spazio, sgabello"
+          - "Perché la regina è in partenza e io faccio le annunci"
+          - "Quindi giù in ginocchio ora, inchinati davanti all'Alpha-Tier"
+          - "Qui nessuno ha niente da dirmi, questo è il mio territorio"
+          - "Chiudi la becca là sotto, uomo, non abbaiare come un cane"
+          - "Fai spazio quando lo dico io, se voglio resti zitto"
+          - "Do minare a chi voglio e senza nessun motivo"
+          - "Non fare arrabbiare l'Alpha-Tier, digger, non farebbe bene alla salute"
+      - lines:
+          - "Sono l'alpha"
+          - "Sono il leader"
+          - "Tu sei la feccia e io sono il tuo nutrice"
+          - "Siamo come sirene che fanno esplodere le tue orecchie"
+          - "Siamo quelli che rappresentano le tue paure"
+      - lines:
+          - "Dai, vieni"
+          - "Non puoi davvero essere sorpreso"
+          - "SPC è qui, quindi pagherai il prezzo"
+          - "Voi fottuti provate a stare alla nostra luce"
+          - "Ma noi vediamo solo un paradiso da idioti"
+      - lines:
+          - "Dai, vieni"
+          - "Mostraci quello che hai"
+          - "Sai che si sta scaldando"
+          - "Questo sarà il tuo ultimo tentativo"
+          - "Dai, vieni"
+          - "Mostraci quello che hai"
+          - "Quindi fuori dal cazzo"
+---

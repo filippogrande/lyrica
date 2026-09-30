@@ -1,0 +1,144 @@
+---
+title: "be very afraid"
+slug: "be-very-afraid"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Go"
+      - lines:
+          - "We bleed like an open wound"
+          - "The stitches are of no use"
+          - "Nothing will satisfy"
+          - "We're suffering the classic symptoms"
+          - "Of a broken spirit"
+          - "You wanna push us to the fucking limit?"
+          - "This is how we keep a tiger tame"
+      - lines:
+          - "Nothing worth fighting for?"
+          - "Just step outside your door"
+          - "They all say revelation's on its way"
+          - "So be very afraid"
+          - "Revelation's on its way"
+      - lines:
+          - "Waiting for the world to burn"
+          - "Living but we never learn"
+          - "Sorry, it don't look good"
+          - "We're suffering the classic symptoms"
+          - "Of a broken spirit"
+      - lines:
+          - "You wanna push us to the fucking limit?"
+          - "This is how we keep a tiger tame"
+          - "Nothing worth fighting for?"
+          - "Just step outside your door"
+          - "They all say revelation's on its way"
+      - lines:
+          - "Nothing worth fighting for?"
+          - "Just step outside your door"
+          - "They all say revelation's on its way"
+          - "So be very afraid"
+          - "Revelation's on its way"
+      - lines:
+          - "If Armageddon can't eclipse our pain"
+          - "Every action left will be in vain"
+          - "It's like boiling the ocean"
+          - "Nothing left to do but to bottle the emotion"
+      - lines:
+          - "'Cause we're all players and the world's a stage"
+          - "We'll give a fuck so long as we get paid"
+          - "It's like boiling the ocean"
+          - "Nothing left to do but to bottle the emotion"
+      - lines:
+          - "Be very afraid"
+          - "It's like boiling the ocean"
+          - "Everything we love lays resting on a broken spirit"
+          - "You wanna push us to the fucking limit?"
+          - "The classic symptoms of a broken spirit"
+          - "You wanna push us to the fucking limit?"
+          - "The classic symptoms of a broken spirit"
+      - lines:
+          - "You wanna push us to the fucking limit?"
+          - "This is how we keep a tiger tame"
+          - "Nothing worth fighting for?"
+          - "Just step outside your door"
+          - "They all say revelation's on its way"
+      - lines:
+          - "They all say revelation's on its way"
+          - "So be afraid"
+          - "Let's all be very afraid"
+          - "They all say revelation's on its way"
+          - "'Cause they all say revelation's on its way"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Vai"
+      - lines:
+          - "Sanguiniamo come una ferita aperta"
+          - "I punti non servono a nulla"
+          - "Niente ci soddisfa"
+          - "Soffriamo i classici sintomi"
+          - "Di uno spirito spezzato"
+          - "Vuoi spingerci fino al fottuto limite?"
+          - "È così che teniamo doma una tigre"
+      - lines:
+          - "Niente per cui valga la pena combattere?"
+          - "Esci pure dalla tua porta"
+          - "Dicono tutti che la rivelazione è in arrivo"
+          - "Quindi sii molto spaventato"
+          - "La rivelazione è in arrivo"
+      - lines:
+          - "In attesa che il mondo bruci"
+          - "Viviamo ma non impariamo mai"
+          - "Scusa, non fa un bellezza"
+          - "Soffriamo i classici sintomi"
+          - "Di uno spirito spezzato"
+      - lines:
+          - "Vuoi spingerci fino al fottuto limite?"
+          - "È così che teniamo doma una tigre"
+          - "Niente per cui valga la pena combattere?"
+          - "Esci pure dalla tua porta"
+          - "Dicono tutti che la rivelazione è in arrivo"
+      - lines:
+          - "Niente per cui valga la pena combattere?"
+          - "Esci pure dalla tua porta"
+          - "Dicono tutti che la rivelazione è in arrivo"
+          - "Quindi sii molto spaventato"
+          - "La rivelazione è in arrivo"
+      - lines:
+          - "Se l'Armageddon non può eclipsare il nostro dolore"
+          - "Ogni azione rimasta sarà vana"
+          - "È come bollire l'oceano"
+          - "Non resta niente da fare che imbottigliare l'emozione"
+      - lines:
+          - "Perché siamo tutti attori e il mondo è un palcoscenico"
+          - "Ce ne freghiamo finché veniamo pagati"
+          - "È come bollire l'oceano"
+          - "Non resta niente da fare che imbottigliare l'emozione"
+      - lines:
+          - "Sii molto spaventato"
+          - "È come bollire l'oceano"
+          - "Tutto ciò che amiamo riposa su uno spirito spezzato"
+          - "Vuoi spingerci fino al fottuto limite?"
+          - "I classici sintomi di uno spirito spezzato"
+          - "Vuoi spingerci fino al fottuto limite?"
+          - "I classici sintomi di uno spirito spezzato"
+      - lines:
+          - "Vuoi spingerci fino al fottuto limite?"
+          - "È così che teniamo doma una tigre"
+          - "Niente per cui valga la pena combattere?"
+          - "Esci pure dalla tua porta"
+          - "Dicono tutti che la rivelazione è in arrivo"
+      - lines:
+          - "Dicono tutti che la rivelazione è in arrivo"
+          - "Quindi temi"
+          - "Siamo tutti molto spaventati"
+          - "Dicono tutti che la rivelazione è in arrivo"
+          - "Perché dicono tutti che la rivelazione è in arrivo"
+---

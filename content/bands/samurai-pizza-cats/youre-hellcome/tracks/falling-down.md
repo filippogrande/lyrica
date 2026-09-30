@@ -1,0 +1,150 @@
+---
+title: "Falling Down"
+slug: "falling-down"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Now this is my day"
+          - "I can't take it not today"
+          - "The red in my eyes"
+          - "Makes me see but parasites"
+      - lines:
+          - "I gotta fuck shit up"
+          - "I gotta get it out"
+          - "I do not control"
+          - "My god damned life anymore"
+      - lines:
+          - "I'll set myself free"
+          - "I love what's wrong with me"
+      - lines:
+          - "Another day, another burn"
+          - "Better get out my way"
+          - "Call me Will D-Fens"
+          - "Breakfast's gonna be intense"
+          - "Point of no return"
+          - "You gonna bleed and learn"
+          - "1133 fuck"
+          - "I'm going home"
+      - lines:
+          - "I can not stop"
+          - "I can't take no more"
+          - "It will not stop"
+          - "Fear me"
+          - "I am falling down"
+      - lines:
+          - "Oh, I know this is a bad, bad day"
+          - "No more going home for me"
+          - "(This is a bad, bad day)"
+          - "Now I know this is the only way"
+          - "I am falling down today"
+      - lines:
+          - "Don't want to make it stop"
+          - "My ego is so pumped"
+          - "It's my way to the top yeah"
+          - "Stop your blah, blah, blah"
+          - "I am the fucking law"
+          - "And I bring the hurt"
+          - "To your idiot world"
+      - lines:
+          - "This is what I call a bad day"
+          - "This is gonna be your judgement day"
+      - lines:
+          - "Oh, I know this is a bad, bad day"
+          - "No more going home for me"
+          - "(This is a bad, bad day)"
+          - "Now I know this is the only way"
+          - "I am falling down today"
+      - lines:
+          - "Will all who wish to die please raise their hands"
+          - "Oh"
+      - lines:
+          - "This is what I call a bad day"
+          - "This is gonna be your judgement day"
+      - lines:
+          - "I'll set myself free"
+          - "I love what's wrong with me"
+      - lines:
+          - "Oh, I know this is a bad, bad day"
+          - "No more going home for me"
+          - "(This is a bad, bad day)"
+          - "Now I know this is the only way"
+          - "I am falling down today"
+          - "This is a bad, bad day"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Adesso questo è il mio giorno"
+          - "Non lo sopporto, non oggi"
+          - "Il rosso nei miei occhi"
+          - "Mi fa vedere solo parassiti"
+      - lines:
+          - "Devo fottere tutto"
+          - "Devo tirarlo fuori"
+          - "Non controllo più"
+          - "La mia vita dannata"
+      - lines:
+          - "Mi metterò in libertà"
+          - "Amo ciò che è sbagliato in me"
+      - lines:
+          - "Un altro giorno, un'altra bruciatura"
+          - "Meglio che tu ti togla di mezzo"
+          - "Chiamami Will D-Fens"
+          - "La colazione sarà intensa"
+          - "Punto di non ritorno"
+          - "Sanguinerai e imparerai"
+          - "1133 fottuti"
+          - "Sto andando a casa"
+      - lines:
+          - "Non posso fermarmi"
+          - "Non ne posso più"
+          - "Non si fermerà"
+          - "Temimi"
+          - "Sto cadendo"
+      - lines:
+          - "Oh, so che questa è una brutta, brutta giornata"
+          - "Per me niente più casa"
+          - "(Questa è una brutta, brutta giornata)"
+          - "Ora so che questo è l'unico modo"
+          - "Oggi sto cadendo"
+      - lines:
+          - "Non voglio che si fermi"
+          - "Il mio ego è così gonfio"
+          - "È la mia strada verso l'alto, yeah"
+          - "Smetti con le tue stronzate, stronzate, stronzate"
+          - "Io sono la fottuta legge"
+          - "E porto il dolore"
+          - "Al tuo mondo di idioti"
+      - lines:
+          - "Questo è quello che chiamo una brutta giornata"
+          - "Questo sarà il tuo giorno del giudizio"
+      - lines:
+          - "Oh, so che questa è una brutta, brutta giornata"
+          - "Per me niente più casa"
+          - "(Questa è una brutta, brutta giornata)"
+          - "Ora so che questo è l'unico modo"
+          - "Oggi sto cadendo"
+      - lines:
+          - "Tutti quelli che desiderano morire, per favore alzate le mani"
+          - "Oh"
+      - lines:
+          - "Questo è quello che chiamo una brutta giornata"
+          - "Questo sarà il tuo giorno del giudizio"
+      - lines:
+          - "Mi metterò in libertà"
+          - "Amo ciò che è sbagliato in me"
+      - lines:
+          - "Oh, so che questa è una brutta, brutta giornata"
+          - "Per me niente più casa"
+          - "(Questa è una brutta, brutta giornata)"
+          - "Ora so che questo è l'unico modo"
+          - "Oggi sto cadendo"
+          - "Questa è una brutta, brutta giornata"
+---

@@ -1,0 +1,26 @@
+---
+title: "TEKKNO"
+slug: "tekkno"
+year: 2022
+tracks:
+  - slug: "pump-it"
+    title: "Pump It"
+  - slug: "we-got-the-moves"
+    title: "We Got the Moves"
+  - slug: "fuckboi"
+    title: "Fuckboi"
+  - slug: "spaceman"
+    title: "Spaceman"
+  - slug: "mindreader"
+    title: "Mindreader"
+  - slug: "arrow-of-love"
+    title: "Arrow of Love"
+  - slug: "parasite"
+    title: "Parasite"
+  - slug: "tekkno-train"
+    title: "Tekkno Train"
+  - slug: "hurrikan"
+    title: "Hurrikan"
+  - slug: "neon"
+    title: "Neon"
+---

@@ -1,0 +1,180 @@
+---
+title: "The Tragedy"
+slug: "the-tragedy"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Such a broken young thing"
+          - "Wears her pain like a stolen wedding ring"
+          - "Likes to think she's the poison"
+          - "On the lips, on the lips of the king"
+      - lines:
+          - "She wants to be the wreckage, she wants to be damned"
+          - "She wants to ruin everything and everyone she had"
+          - "Out there in the desert stands a single tree"
+          - "And that's where I've been waiting for the girl that she could be"
+      - lines:
+          - "And out here in the desert"
+          - "With the last sign of life"
+          - "And that's where I've been waiting"
+          - "For the girl that she could be"
+      - lines:
+          - "She wanna be, wanna be"
+          - "The tragedy"
+          - "Wanna be, wanna be"
+          - "The mess that she's"
+          - "Always been, always been"
+          - "The wildfire"
+          - "Burning through your heart"
+      - lines:
+          - "Such a broken young thing"
+          - "With no intention of saving herself"
+          - "Likes to think she's the ballerina"
+          - "Dancing rings dancing rings round the king"
+      - lines:
+          - "She wants to be the wreckage, she wants to be damned"
+          - "She wants to ruin everything and everyone she had"
+          - "Out there in the desert stands a single tree"
+          - "And that's where I've been waiting for the girl that she could be"
+      - lines:
+          - "And out there in the desert stands a single tree"
+          - "And that's where I've been waiting for the girl that she could be"
+          - "Waiting in the desert out by the tree of life"
+          - "My first thought in the morning and my last thought for the night"
+      - lines:
+          - "She wanna be, wanna be"
+          - "The tragedy"
+          - "Wanna be, wanna be"
+          - "The mess that she's"
+          - "Always been, always been"
+          - "The wildfire"
+          - "Burning through your heart"
+      - lines:
+          - "She wanna be, wanna be"
+          - "The tragedy"
+          - "Wanna be, wanna be"
+          - "The mess that she's"
+          - "Always been, always been"
+          - "The wildfire"
+          - "Burning through your heart"
+      - lines:
+          - "The tragic ballerina"
+          - "Sitting in the dressing room"
+          - "Asking her broken mirror"
+          - "Where it all went so wrong"
+      - lines:
+          - "And out there in the desert stands a single tree"
+          - "And that's where I've been waiting for the girl that she could be"
+          - "Waiting in the desert out by the tree of life"
+          - "My first thought in the morning and my last thought for the night"
+      - lines:
+          - "And life is what you make it"
+          - "But it's the kind of dance"
+          - "Some people they were built for this"
+          - "And some people just aren't"
+      - lines:
+          - "She wanna be, wanna be"
+          - "The tragedy"
+          - "Wanna be, wanna be"
+          - "The mess that she's"
+          - "Always been, always been"
+          - "The wildfire"
+          - "Burning through your heart"
+      - lines:
+          - "She's the tragedy"
+          - "She's the shooting star"
+          - "She has always been the wildfire"
+          - "That is burning through your heart"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Una cosa giovane e spezzata"
+          - "Indossa il suo dolore come un anello nuziale rubato"
+          - "Le piace pensare di essere il veleno"
+          - "Sulle labbra, sulle labbra del re"
+      - lines:
+          - "Vuole essere il relitto, vuole essere dannata"
+          - "Vuole rovinare tutto e tutti quelli che aveva"
+          - "Là fuori, nel deserto, c'è un solo albero"
+          - "E è lì che ho aspettato la ragazza che avrebbe potuto essere"
+      - lines:
+          - "E qui fuori, nel deserto"
+          - "Con l'ultimo segno di vita"
+          - "E è lì che ho aspettato"
+          - "La ragazza che avrebbe potuto essere"
+      - lines:
+          - "Vuole essere, vuole essere"
+          - "La tragedia"
+          - "Vuole essere, vuole essere"
+          - "Il disordine che è"
+          - "Sempre stata, sempre stata"
+          - "L'incendio"
+          - "Che brucia il tuo cuore"
+      - lines:
+          - "Una cosa giovane e spezzata"
+          - "Senza alcuna intenzione di salvarsi"
+          - "Le piace pensare di essere la ballerina"
+          - "Che gira in tondo intorno al re"
+      - lines:
+          - "Vuole essere il relitto, vuole essere dannata"
+          - "Vuole rovinare tutto e tutti quelli che aveva"
+          - "Là fuori, nel deserto, c'è un solo albero"
+          - "E è lì che ho aspettato la ragazza che avrebbe potuto essere"
+      - lines:
+          - "E là fuori, nel deserto, c'è un solo albero"
+          - "E è lì che ho aspettato la ragazza che avrebbe potuto essere"
+          - "In attesa nel deserto, vicino all'albero della vita"
+          - "Il mio primo pensiero al mattino e l'ultimo pensiero della notte"
+      - lines:
+          - "Vuole essere, vuole essere"
+          - "La tragedia"
+          - "Vuole essere, vuole essere"
+          - "Il disordine che è"
+          - "Sempre stata, sempre stata"
+          - "L'incendio"
+          - "Che brucia il tuo cuore"
+      - lines:
+          - "Vuole essere, vuole essere"
+          - "La tragedia"
+          - "Vuole essere, vuole essere"
+          - "Il disordine che è"
+          - "Sempre stata, sempre stata"
+          - "L'incendio"
+          - "Che brucia il tuo cuore"
+      - lines:
+          - "La ballerina tragica"
+          - "Seduta nella stanza di trucco"
+          - "Che chiede al suo specchio rotto"
+          - "Dove sia andato storto tutto"
+      - lines:
+          - "E là fuori, nel deserto, c'è un solo albero"
+          - "E è lì che ho aspettato la ragazza che avrebbe potuto essere"
+          - "In attesa nel deserto, vicino all'albero della vita"
+          - "Il mio primo pensiero al mattino e l'ultimo pensiero della notte"
+      - lines:
+          - "E la vita è quello che ne fai"
+          - "Ma è il tipo di ballo"
+          - "Alcune persone sono nate per questo"
+          - "E alcune persone semplicemente no"
+      - lines:
+          - "Vuole essere, vuole essere"
+          - "La tragedia"
+          - "Vuole essere, vuole essere"
+          - "Il disordine che è"
+          - "Sempre stata, sempre stata"
+          - "L'incendio"
+          - "Che brucia il tuo cuore"
+      - lines:
+          - "Lei è la tragedia"
+          - "Lei è la stella cadente"
+          - "È sempre stata l'incendio"
+          - "Che brucia il tuo cuore"
+---

@@ -1,0 +1,134 @@
+---
+title: "Time"
+slug: "time"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "At the heart of the ocean"
+          - "They finally found the wreck"
+          - "You know time can be forgiving"
+          - "But time does not forget"
+      - lines:
+          - "At the heart of the ocean"
+          - "A wreckage tells no lies"
+          - "As the beast that you woke up"
+          - "Wipes the sleep out of his eyes"
+      - lines:
+          - "Stop being the machine"
+          - "Stop drifting with the ghosts"
+          - "Stop chewing through your bullets"
+          - "And spitting out the shells"
+      - lines:
+          - "Stop being the SOS"
+          - "From a ghost inside the shell"
+          - "And you forget your self"
+          - "Like a silent sunken wreck"
+      - lines:
+          - "And now the sirens swim"
+          - "Around and through your lifeless form"
+          - "Stop being the marionette"
+          - "Of someone else"
+          - "And start being yourself"
+      - lines:
+          - "At the heart of the ocean"
+          - "We're trying to find some truth"
+          - "It is time that someone owned up"
+          - "For the mess we're swimming through"
+      - lines:
+          - "At heart of the ocean"
+          - "Where you're fears are all laid bare"
+          - "Where time was all you needed"
+          - "Like you never needed air"
+      - lines:
+          - "Stop being the machine"
+          - "Stop drifting with the ghosts"
+          - "Stop chewing through your bullets"
+          - "And spitting out the shells"
+      - lines:
+          - "Stop being the SOS"
+          - "From a ghost inside the shell"
+          - "And you forget your self"
+          - "Like a silent sunken wreck"
+      - lines:
+          - "At the heart of the ocean"
+          - "We finally comprehend"
+          - "Time can be unkind"
+          - "But time's your only friend"
+      - lines:
+          - "So don't forget!"
+          - "Don't forget!"
+      - lines:
+          - "If you wanna kill time"
+          - "You better not forget"
+          - "It has never been beaten"
+          - "By a human yet"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Nel cuore dell'oceano"
+          - "Hanno finalmente trovato il relitto"
+          - "Sai, il tempo può essere clemente"
+          - "Ma il tempo non dimentica"
+      - lines:
+          - "Nel cuore dell'oceano"
+          - "Un relitto non mente mai"
+          - "Come la bestia che hai svegliato"
+          - "Si toglie il sonno dagli occhi"
+      - lines:
+          - "Smetti di essere la macchina"
+          - "Smetti di andare alla deriva con i fantasmi"
+          - "Smetti di rosicchiare i tuoi proiettili"
+          - "E sputare fuori le bossoli"
+      - lines:
+          - "Smetti di essere l'SOS"
+          - "Di un fantasma dentro una conchiglia"
+          - "E dimenticchi te stesso"
+          - "Come un silenzioso relitto affondato"
+      - lines:
+          - "E ora le sirene nuotano"
+          - "Intorno e attraverso la tua forma senza vita"
+          - "Smetti di essere il burattino"
+          - "Di qualcun altro"
+          - "E inizia a essere te stesso"
+      - lines:
+          - "Nel cuore dell'oceano"
+          - "Cerchiamo di trovare una verità"
+          - "È ora che qualcuno si assuma"
+          - "Il disordine in cui stiamo nuotando"
+      - lines:
+          - "Nel cuore dell'oceano"
+          - "Dove tutte le tue paure sono messe a nudo"
+          - "Dove il tempo era tutto quello che ti serviva"
+          - "Come se non avessi mai avuto bisogno d'aria"
+      - lines:
+          - "Smetti di essere la macchina"
+          - "Smetti di andare alla deriva con i fantasmi"
+          - "Smetti di rosicchiare i tuoi proiettili"
+          - "E sputare fuori le bossoli"
+      - lines:
+          - "Smetti di essere l'SOS"
+          - "Di un fantasma dentro una conchiglia"
+          - "E dimenticchi te stesso"
+          - "Come un silenzioso relitto affondato"
+      - lines:
+          - "Nel cuore dell'oceano"
+          - "Capiamo finalmente"
+          - "Il tempo può essere crudele"
+          - "Ma il tempo è il tuo unico amico"
+      - lines:
+          - "Non dimenticare!"
+          - "Non dimenticare!"
+      - lines:
+          - "Se vuoi ammazzare il tempo"
+          - "Farai bene a non dimenticare"
+          - "Non è mai stato battuto"
+          - "Da un essere umano"
+---

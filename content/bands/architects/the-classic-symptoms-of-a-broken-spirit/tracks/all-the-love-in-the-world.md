@@ -1,0 +1,154 @@
+---
+title: "all the love in the world"
+slug: "all-the-love-in-the-world"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Is thunder written on your face?"
+          - "'Cause we're balancing between the sky and fire"
+          - "I see you begging for another taste"
+          - "When the medicine is easy to acquire"
+          - "We worship at the altar of the echo"
+          - "But the keeper of the keys couldn't care"
+          - "Any less so"
+          - "Let go, let go, let go"
+      - lines:
+          - "Let's live a lifetime out in the cold"
+          - "Nothing to see here, it's under control"
+          - "The signal's dropping out"
+          - "It never rains, it's always fucking torrential"
+          - "They say it's best that we forgot our potential"
+          - "Have we nothing left to sing about now?"
+          - "Do I really wanna shout about"
+          - "All the love in the world?"
+      - lines:
+          - "All the love in the world"
+          - "All the love in the world"
+          - "All the love in the world"
+      - lines:
+          - "If you wanna lay it all to waste"
+          - "Then repeat the message coming down the wire"
+          - "I'm seeing apathy all upper case"
+          - "Are you gonna be another gun for hire?"
+          - "Eleven hours then a Hail Mary"
+          - "Can you shed another tear for the bodies that you bury?"
+          - "Bless the empty"
+          - "With the devil they desire"
+      - lines:
+          - "Let's live a lifetime out in the cold"
+          - "Nothing to see here, it's under control"
+          - "The signal's dropping out"
+          - "It never rains, it's always fucking torrential"
+          - "They say it's best that we forgot our potential"
+          - "Have we nothing left to sing about now?"
+          - "Do I really wanna shout about"
+          - "All the love in the world?"
+      - lines:
+          - "Whoa-oh, whoa-oh"
+          - "Whoa, whoa"
+          - "Whoa-oh, whoa-oh"
+          - "Whoa, whoa"
+      - lines:
+          - "The signal's dropping out"
+      - lines:
+          - "If we're all machines then cut the scene"
+          - "And don't look back"
+          - "No, we never grieve our enemies"
+          - "We never leave the pack"
+          - "If they come for me when I'm asleep"
+          - "Trace these tracks"
+          - "'Cause impossibly, we came to be"
+          - "From out the black"
+      - lines:
+          - "Let's live a lifetime out in the cold"
+          - "Nothing to see here, it's under control"
+          - "The signal's dropping out"
+          - "It never rains, it's always fucking torrential"
+          - "They say it's best that we forgot our potential"
+          - "Have we nothing left to sing about now?"
+          - "Do I really wanna shout about"
+          - "All the love in the world?"
+      - lines:
+          - "All the love in the world"
+          - "All the love in the world"
+          - "All the love in the world"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Il tuono è scritto sul tuo viso?"
+          - "Perché stiamo in equilibrio tra il cielo e il fuoco"
+          - "Ti vedo mendicare un altro assaggio"
+          - "Quando la medicina è facile da procurare"
+          - "Adoriamo sull'altare dell'eco"
+          - "Ma il custode delle chiavi non se ne importa"
+          - "Per niente di meno"
+          - "Lascia andare, lascia andare, lascia andare"
+      - lines:
+          - "Viviamo una vita intera là fuori nel freddo"
+          - "Qui non c'è niente da vedere, è tutto sotto controllo"
+          - "Il segnale si sta spegnendo"
+          - "Non piove mai, è sempre fottutamente torrenziale"
+          - "Dicono che è meglio aver dimenticato le nostre potenzialità"
+          - "Non ci resta più niente da cantare?"
+          - "Voglio davvero gridare su"
+          - "Tutto l'amore del mondo?"
+      - lines:
+          - "Tutto l'amore del mondo"
+          - "Tutto l'amore del mondo"
+          - "Tutto l'amore del mondo"
+      - lines:
+          - "Se vuoi sprecare tutto"
+          - "Ripeti il messaggio che scende lungo il filo"
+          - "Vedo l'indifferenza tutta in maiuscolo"
+          - "Sarai un'altra spia a soldo?"
+          - "Undici ore e poi un Hail Mary"
+          - "Puoi versare un'altra lacrima per i corpi che seppellisci?"
+          - "Benedici il vuoto"
+          - "Con il diavolo che desiderano"
+      - lines:
+          - "Viviamo una vita intera là fuori nel freddo"
+          - "Qui non c'è niente da vedere, è tutto sotto controllo"
+          - "Il segnale si sta spegnendo"
+          - "Non piove mai, è sempre fottutamente torrenziale"
+          - "Dicono che è meglio aver dimenticato le nostre potenzialità"
+          - "Non ci resta più niente da cantare?"
+          - "Voglio davvero gridare su"
+          - "Tutto l'amore del mondo?"
+      - lines:
+          - "Whoa-oh, whoa-oh"
+          - "Whoa, whoa"
+          - "Whoa-oh, whoa-oh"
+          - "Whoa, whoa"
+      - lines:
+          - "Il segnale si sta spegnendo"
+      - lines:
+          - "Se siamo tutte macchine allora tagliamo la scena"
+          - "E non guardarti indietro"
+          - "No, non piangiamo mai i nostri nemici"
+          - "Non abbandoniamo mai il branco"
+          - "Se vengono a prendermi mentre dormo"
+          - "Segui queste tracce"
+          - "Perché, in qualche modo impossibile, siamo nati"
+          - "Dal nero"
+      - lines:
+          - "Viviamo una vita intera là fuori nel freddo"
+          - "Qui non c'è niente da vedere, è tutto sotto controllo"
+          - "Il segnale si sta spegnendo"
+          - "Non piove mai, è sempre fottutamente torrenziale"
+          - "Dicono che è meglio aver dimenticato le nostre potenzialità"
+          - "Non ci resta più niente da cantare?"
+          - "Voglio davvero gridare su"
+          - "Tutto l'amore del mondo?"
+      - lines:
+          - "Tutto l'amore del mondo"
+          - "Tutto l'amore del mondo"
+          - "Tutto l'amore del mondo"
+---

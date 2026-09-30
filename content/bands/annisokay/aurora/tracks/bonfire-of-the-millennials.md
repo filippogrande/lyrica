@@ -1,0 +1,140 @@
+---
+title: "Bonfire Of The Millennials"
+slug: "bonfire-of-the-millennials"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "You threw me on the fire"
+          - "You threw me on the fire"
+      - lines:
+          - "And your generation dines"
+          - "But the next one pays the bill"
+          - "And you've thrown them on the fire"
+          - "To take the edge out of the chill"
+      - lines:
+          - "And you let the planet die"
+          - "Oh, the future has been raped"
+          - "And you've thrown us on the fire"
+          - "To brighten up the flames"
+      - lines:
+          - "This is the bonfire of the millennials"
+          - "This is the bonfire of the millennials"
+      - lines:
+          - "You always told me that"
+          - "That I should think about the future"
+          - "As you threw it on the fire"
+          - "You always told me that"
+          - "That I should think about the future"
+          - "And then you threw it on the fire"
+      - lines:
+          - "You threw me on the fire"
+          - "You threw me on the fire"
+      - lines:
+          - "You baby boomers built"
+          - "Cities out of greed"
+          - "To take at gunpoint"
+          - "More than you need"
+          - "When money becomes the god"
+          - "And wealth becomes religion"
+          - "A human sacrifice"
+          - "Is one of the conditions"
+      - lines:
+          - "This is the bonfire of the millennials"
+          - "This is the bonfire of the millennials"
+      - lines:
+          - "You always told me that"
+          - "That I should think about the future"
+          - "As you threw it on the fire"
+          - "You always told me that"
+          - "That I should think about the future"
+          - "And then you threw it on the fire"
+      - lines:
+          - "You threw it on the fire"
+          - "You threw me on the fire"
+          - "It'll never be enough for you"
+          - "It'll never be enough for you"
+      - lines:
+          - "You always told me that"
+          - "That I should think about the future"
+          - "As you threw it on the fire"
+          - "You always told me that"
+          - "That I should think about the future"
+          - "And then you threw it on the fire"
+      - lines:
+          - "You threw me on the fire"
+          - "You threw me on the fire"
+          - "You threw me on the fire"
+          - "You threw me on the fire"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Mi hai gettato sul fuoco"
+          - "Mi hai gettato sul fuoco"
+      - lines:
+          - "E la tua generazione banchetta"
+          - "Ma la prossima paga il conto"
+          - "E li hai gettati sul fuoco"
+          - "Per togliere il morso al gelo"
+      - lines:
+          - "E hai lasciato morire il pianeta"
+          - "Oh, il futuro è stato violentato"
+          - "E ci hai gettati sul fuoco"
+          - "Per illuminare le fiamme"
+      - lines:
+          - "Questo è il falò dei millenial"
+          - "Questo è il falò dei millenial"
+      - lines:
+          - "Tu mi hai sempre detto"
+          - "Che avrei dovuto pensare al futuro"
+          - "Mentre lo gettavi sul fuoco"
+          - "Tu mi hai sempre detto"
+          - "Che avrei dovuto pensare al futuro"
+          - "E poi lo hai gettato sul fuoco"
+      - lines:
+          - "Mi hai gettato sul fuoco"
+          - "Mi hai gettato sul fuoco"
+      - lines:
+          - "Voi baby boomer avete costruito"
+          - "Città fuori dalla avidità"
+          - "Per prendere a punta di pistola"
+          - "Più di quanto vi serva"
+          - "Quando il denaro diventa dio"
+          - "E la ricchezza diventa religione"
+          - "Un sacrificio umano"
+          - "È una delle condizioni"
+      - lines:
+          - "Questo è il falò dei millenial"
+          - "Questo è il falò dei millenial"
+      - lines:
+          - "Tu mi hai sempre detto"
+          - "Che avrei dovuto pensare al futuro"
+          - "Mentre lo gettavi sul fuoco"
+          - "Tu mi hai sempre detto"
+          - "Che avrei dovuto pensare al futuro"
+          - "E poi lo hai gettato sul fuoco"
+      - lines:
+          - "Me l'hai gettato sul fuoco"
+          - "Mi hai gettato sul fuoco"
+          - "Non ti basterà mai"
+          - "Non ti basterà mai"
+      - lines:
+          - "Tu mi hai sempre detto"
+          - "Che avrei dovuto pensare al futuro"
+          - "Mentre lo gettavi sul fuoco"
+          - "Tu mi hai sempre detto"
+          - "Che avrei dovuto pensare al futuro"
+          - "E poi lo hai gettato sul fuoco"
+      - lines:
+          - "Mi hai gettato sul fuoco"
+          - "Mi hai gettato sul fuoco"
+          - "Mi hai gettato sul fuoco"
+          - "Mi hai gettato sul fuoco"
+---

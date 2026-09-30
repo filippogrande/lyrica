@@ -1,0 +1,126 @@
+---
+title: "Standing Still"
+slug: "standing-still"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "The sun goes down"
+          - "As the day surrenders to the night"
+          - "The last few minutes with you"
+          - "Before I lose my mind"
+          - "And then it just flew away"
+          - "Piece by piece and cell by cell"
+          - "Fading like fairytales"
+          - "We don't need Heaven, just no hell"
+      - lines:
+          - "I'm moving slowly"
+          - "I might be heading in the wrong direction"
+          - "I might be throwing"
+          - "All these stones at my own reflection"
+      - lines:
+          - "Am I standing still"
+          - "Or is the rest of the world (the world) flying by"
+          - "Am I standing still"
+          - "Why do things never happen"
+          - "How I think they, think they will"
+      - lines:
+          - "Becoming strangers"
+          - "In the blink of an eye"
+          - "No redemption"
+          - "No more words to make things right"
+          - "Everything has gone astray"
+          - "And falling into nothing piece by piece"
+          - "Any sacrifice we made"
+          - "Cannot change our bitter fate"
+      - lines:
+          - "We move slowly"
+          - "We advance into alienation"
+          - "It seems were holding"
+          - "The corpse of our own creation"
+      - lines:
+          - "Am I standing still"
+          - "Or is the rest of the world (the world) flying by"
+          - "Am I standing still"
+          - "Why do things never happen"
+          - "How I think they, think they will"
+      - lines:
+          - "Don't look back"
+          - "Don't look down"
+          - "We fall together"
+          - "With no regrets now"
+          - "Don't look back"
+          - "Don't look down"
+          - "We jump together"
+          - "We fall together"
+      - lines:
+          - "Am I standing still"
+          - "Or is the rest of the world (the world) flying by (flying by)"
+          - "Am I standing still (standing still)"
+          - "Why do things never happen"
+          - "How I think they, think they will"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Il sole tramonta"
+          - "Mentre il giorno si arrende alla notte"
+          - "Gli ultimi minuti con te"
+          - "Prima che perda il senno"
+          - "E poi è volato via"
+          - "Pezzo per pezzo e cellula per cellula"
+          - "Svanendo come le favole"
+          - "Non ci serve il Paradiso, basta che non ci sia l'inferno"
+      - lines:
+          - "Mi muovo lentamente"
+          - "Potrei star andando nella direzione sbagliata"
+          - "Potrei stare tirando"
+          - "Tutte queste pietre al mio riflesso"
+      - lines:
+          - "Sto immobile"
+          - "O è il resto del mondo (il mondo) che ci sfugge"
+          - "Sto immobile"
+          - "Perché le cose non accadono mai"
+          - "Come penso che accadano, penso che accadano"
+      - lines:
+          - "Diventiamo estranei"
+          - "In un battito di ciglia"
+          - "Nessuna redenzione"
+          - "Più nessuna parola per rimettere a posto"
+          - "Tutto è andato storto"
+          - "E cadere nel nulla pezzo per pezzo"
+          - "Qualunque sacrificio abbiamo fatto"
+          - "Non può cambiare il nostro destino amaro"
+      - lines:
+          - "Ci muoviamo lentamente"
+          - "Avanziamo verso l'alienazione"
+          - "Sembra che stiamo stringendo"
+          - "Il cadavere della nostra stessa creazione"
+      - lines:
+          - "Sto immobile"
+          - "O è il resto del mondo (il mondo) che ci sfugge"
+          - "Sto immobile"
+          - "Perché le cose non accadono mai"
+          - "Come penso che accadano, penso che accadano"
+      - lines:
+          - "Non guardarti indietro"
+          - "Non guardare in basso"
+          - "Cadiamo insieme"
+          - "Senza più rimpianti"
+          - "Non guardarti indietro"
+          - "Non guardare in basso"
+          - "Saltiamo insieme"
+          - "Cadiamo insieme"
+      - lines:
+          - "Sto immobile"
+          - "O è il resto del mondo (il mondo) che ci sfugge (sfugge)"
+          - "Sto immobile (immobile)"
+          - "Perché le cose non accadono mai"
+          - "Come penso che accadano, penso che accadano"
+---

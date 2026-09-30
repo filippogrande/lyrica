@@ -1,0 +1,164 @@
+---
+title: "Judgement Day"
+slug: "judgement-day"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Escape from your reality"
+          - "I am not your enemy"
+          - "Don't be afraid"
+          - "Asleep under the guillotine"
+          - "Promise I won't make a scene"
+          - "Let's just play pretend"
+      - lines:
+          - "Was I too sedated to feel?"
+          - "I promise I can hear you now"
+          - "'Cause you've waited"
+          - "You believe in the God I fear"
+      - lines:
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+      - lines:
+          - "Was I too sedated to feel?"
+          - "I promise I can hear you now"
+          - "'Cause you've waited"
+          - "You believe in the God I fear"
+      - lines:
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+      - lines:
+          - "Unapologetically"
+          - "Messing with my chemistry"
+          - "Fading away"
+          - "Don't ya think it's heavenly"
+          - "Dying right in front me"
+          - "Repeating amen"
+      - lines:
+          - "Was I too sedated to feel?"
+          - "I promise I can hear you now"
+          - "'Cause you've waited"
+          - "You believe in the God I fear"
+      - lines:
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+      - lines:
+          - "Numb machines"
+          - "And death-row dreams"
+          - "Reign supreme"
+      - lines:
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+      - lines:
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+          - "Rain, rain, go away"
+          - "Leave me in binary"
+          - "They say, it's okay"
+          - "It's only judgment day"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Scappa dalla tua realtà"
+          - "Io non sono il tuo nemico"
+          - "Non avere paura"
+          - "Addormentato sotto la ghigliottina"
+          - "Prometto che non farò una scenata"
+          - "Giochiamo solo a fingere"
+      - lines:
+          - "Ero troppo sedato per sentire?"
+          - "Prometto che ora ti sento"
+          - "Perché hai aspettato"
+          - "Credi nel Dio che temo"
+      - lines:
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+      - lines:
+          - "Ero troppo sedato per sentire?"
+          - "Prometto che ora ti sento"
+          - "Perché hai aspettato"
+          - "Credi nel Dio che temo"
+      - lines:
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+      - lines:
+          - "Senza pentirsi"
+          - "Rompendo la mia chimica"
+          - "Svanendo"
+          - "Non pensi che sia paradisiaco?"
+          - "Muoio proprio davanti a me"
+          - "Ripetendo amen"
+      - lines:
+          - "Ero troppo sedato per sentire?"
+          - "Prometto che ora ti sento"
+          - "Perché hai aspettato"
+          - "Credi nel Dio che temo"
+      - lines:
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+      - lines:
+          - "Macchine intorpidite"
+          - "E sogni da condannato a morte"
+          - "Regna sovrano"
+      - lines:
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+      - lines:
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+          - "Pioggia, pioggia, vattene"
+          - "Lasciami in binario"
+          - "Dicono, va tutto bene"
+          - "È solo il giorno del giudizio"
+---

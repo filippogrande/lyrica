@@ -1,0 +1,168 @@
+---
+title: "Fear No Slice"
+slug: "fear-no-slice"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I came from the void with laserpower and a plan"
+          - "Sent by my overlords to investigate your lands"
+          - "It is true, I can't believe what they do"
+          - "These misguided idiots worship the forbidden fruit"
+      - lines:
+          - "Oh, alien friend from a galaxy"
+          - "Where they can't believe what their eyes can see"
+          - "These humans are fools with their ways so bizarre"
+          - "But pineapple pizza is Earth's shining star"
+      - lines:
+          - "An oddity made of dough, topped with cheese and tomato"
+          - "But pineapple ain't right, that always filled us with fright"
+      - lines:
+          - "Fuck it, I fear no slice"
+          - "I'm gonna take a bite"
+          - "Let flavors now ignite"
+          - "Pineapple pizza now tastes right"
+      - lines:
+          - "Fear no slice"
+          - "Let the flavours now ignite"
+          - "Take a bite, fear no slice"
+          - "Pizza is love at first bite"
+          - "Fear no slice"
+          - "Let the flavours now ignite"
+          - "Take a bite, fear no slice"
+          - "Take a bite"
+          - "Pizza is love at first bite"
+      - lines:
+          - "Oh, alien friend from a galaxy"
+          - "Where they can't believe what their eyes can see"
+          - "These humans are fools with their ways so bizarre"
+          - "But pineapple pizza is Earth's shining star"
+      - lines:
+          - "The taste, the cheese, the harmony"
+          - "This circle of magic was made for me"
+          - "It changed my heart, it changed my soul"
+          - "This poem of a pizza beats it all"
+      - lines:
+          - "The taste, the cheese, the harmony"
+          - "This circle of magic was made for me"
+          - "It changed my heart, it changed my soul"
+          - "This poem of a pizza beats it all"
+      - lines:
+          - "What the fuck?"
+          - "Stop it, stop"
+          - "Are you nuts?"
+          - "This shit sucks"
+          - "Blow them up"
+          - "What the fuck?"
+          - "Stop it, stop"
+          - "Are you nuts?"
+          - "This shit sucks"
+          - "Blow them up"
+      - lines:
+          - "Blow this planet up"
+          - "Go, go and blow it up"
+          - "Blow this planet up"
+          - "Go, go, show no love"
+          - "Blow it up"
+          - "Blow them up"
+      - lines:
+          - "Oh, alien friend from a galaxy"
+          - "Where they can't believe what their eyes can see"
+          - "These humans are fools with their ways so bizarre"
+          - "But pineapple pizza is Earth's shining star"
+      - lines:
+          - "Oh, alien friend from a galaxy"
+          - "Where they can't believe what their eyes can see"
+          - "These humans are fools with their ways so bizarre"
+          - "But pineapple pizza is Earth's shining star"
+      - lines:
+          - "Oh, alien friend from a galaxy"
+          - "Where they can't believe what their eyes can see"
+          - "These humans are fools with their ways so bizarre"
+          - "But pineapple pizza is Earth's shining star"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sono arrivato dal vuoto con i poteri laser e un piano"
+          - "Mandato dai miei signori supremi per indagare le tue terre"
+          - "È vero, non riesco a credere a quello che fanno"
+          - "Questi idioti malguidati adorano il frutto proibito"
+      - lines:
+          - "Oh, amico alieno di una galassia"
+          - "Dove non credono a quello che i loro occhi vedono"
+          - "Questi umani sono stupidi con i loro modi così bizzarri"
+          - "Ma la pizza all'ananas è la stella splendente della Terra"
+      - lines:
+          - "Una stranezza fatta di impasto, con formaggio e pomodoro sopra"
+          - "Ma l'ananas non va bene, ci riempiva sempre di paura"
+      - lines:
+          - "Vaffanculoste, non temo nessuna fetta"
+          - "Sto per dare un morso"
+          - "Lascia che i sapori ora divampino"
+          - "La pizza all'ananas ora sa di giusto"
+      - lines:
+          - "Non temo nessuna fetta"
+          - "Lascia che i sapori ora divampino"
+          - "Prendi un morso, non temo nessuna fetta"
+          - "La pizza è amore al primo morso"
+          - "Non temo nessuna fetta"
+          - "Lascia che i sapori ora divampino"
+          - "Prendi un morso, non temo nessuna fetta"
+          - "Prendi un morso"
+          - "La pizza è amore al primo morso"
+      - lines:
+          - "Oh, amico alieno di una galassia"
+          - "Dove non credono a quello che i loro occhi vedono"
+          - "Questi umani sono stupidi con i loro modi così bizzarri"
+          - "Ma la pizza all'ananas è la stella splendente della Terra"
+      - lines:
+          - "Il sapore, il formaggio, l'armonia"
+          - "Questo cerchio magico è stato fatto per me"
+          - "Ha cambiato il mio cuore, ha cambiato la mia anima"
+          - "Questa poesia di una pizza vale più di tutto"
+      - lines:
+          - "Il sapore, il formaggio, l'armonia"
+          - "Questo cerchio magico è stato fatto per me"
+          - "Ha cambiato il mio cuore, ha cambiato la mia anima"
+          - "Questa poesia di una pizza vale più di tutto"
+      - lines:
+          - "Ma che cazzo?"
+          - "Fermatelo, fermati"
+          - "Sei matto?"
+          - "Questa merda fa schifo"
+          - "Fateli esplodere"
+          - "Ma che cazzo?"
+          - "Fermatelo, fermati"
+          - "Sei matto?"
+          - "Questa merda fa schifo"
+          - "Fateli esplodere"
+      - lines:
+          - "Fai esplodere questo pianeta"
+          - "Vai, vai e fai esplodere"
+          - "Fai esplodere questo pianeta"
+          - "Vai, vai, non mostrare amore"
+          - "Fallo esplodere"
+          - "Fateli esplodere"
+      - lines:
+          - "Oh, amico alieno di una galassia"
+          - "Dove non credono a quello che i loro occhi vedono"
+          - "Questi umani sono stupidi con i loro modi così bizzarri"
+          - "Ma la pizza all'ananas è la stella splendente della Terra"
+      - lines:
+          - "Oh, amico alieno di una galassia"
+          - "Dove non credono a quello che i loro occhi vedono"
+          - "Questi umani sono stupidi con i loro modi così bizzarri"
+          - "Ma la pizza all'ananas è la stella splendente della Terra"
+      - lines:
+          - "Oh, amico alieno di una galassia"
+          - "Dove non credono a quello che i loro occhi vedono"
+          - "Questi umani sono stupidi con i loro modi così bizzarri"
+          - "Ma la pizza all'ananas è la stella splendente della Terra"
+---

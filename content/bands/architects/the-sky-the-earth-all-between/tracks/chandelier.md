@@ -1,0 +1,130 @@
+---
+title: "Chandelier"
+slug: "chandelier"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Outta luck, beaten up"
+          - "Living under thunder clouds, all around"
+          - "Can anybody take me home?"
+          - "And cure me of these aching bones?"
+          - "Weaker now, can't you tell?"
+          - "Freezing in a broken shell by myself"
+          - "Spinning into vertigo"
+          - "Driving when my eyes are closed"
+      - lines:
+          - "Was I dead or was I dreaming?"
+          - "I stopped breathing"
+          - "When all I really needed was this feeling"
+          - "No more lies if I disappear"
+          - "Just one less light on the chandelier"
+          - "If I begged you and I pleaded"
+          - "I don't mean it"
+          - "Nobody can hear the words that I'm screaming"
+          - "No more lies if I disappear"
+          - "Just one less light on the chandelier"
+          - "Chandelier"
+      - lines:
+          - "Chandelier"
+      - lines:
+          - "Half asleep, don't you see?"
+          - "Everything so incomplete, bittersweet"
+          - "Just tell me how to break this code"
+          - "Don't you see the bruises glow?"
+          - "Window seat, hell beneath"
+          - "Frozen, but I feel the heat burning deep"
+          - "Somebody tell me where the angels go"
+          - "And save me from the dead we rose"
+      - lines:
+          - "Was I dead or was I dreaming?"
+          - "I stopped breathing"
+          - "When all I really needed was this feeling"
+          - "No more lies if I disappear"
+          - "Just one less light on the chandelier"
+          - "If I begged you and I pleaded"
+          - "I don't mean it"
+          - "Nobody can hear the words that I'm screaming"
+          - "No more lies if I disappear"
+          - "Just one less light on the chandelier"
+          - "Chandelier"
+      - lines:
+          - "Chandelier"
+      - lines:
+          - "Chandelier"
+          - "Chandelier"
+          - "Chandelier"
+          - "One less light on the chandelier"
+      - lines:
+          - "Was I dead or was I dreaming?"
+          - "I stopped breathing"
+          - "When all I really needed was this feeling"
+          - "No more lies if I disappear"
+          - "Just one less light on the chandelier"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Senza fortuna, massacrato"
+          - "Vivo sotto le nuvole di tuono, tutt'intorno"
+          - "Qualcuno può portarmi a casa?"
+          - "E guarirmi da queste ossa che dolgono?"
+          - "Più debole ora, non lo vedi?"
+          - "Congelato in un guscio rotto, da solo"
+          - "Sto girando nel vertigine"
+          - "Guido con gli occhi chiusi"
+      - lines:
+          - "Ero morto o stavo sognando?"
+          - "Ho smesso di respirare"
+          - "Quando tutto ciò che mi serviva era questa sensazione"
+          - "Niente più bugie se sparisco"
+          - "Una luce in meno sul lampadario"
+          - "Se ti avessi supplicato e implorato"
+          - "Non lo faccio sul serio"
+          - "Nessuno può sentire le parole che sto urlando"
+          - "Niente più bugie se sparisco"
+          - "Una luce in meno sul lampadario"
+          - "Lampadario"
+      - lines:
+          - "Lampadario"
+      - lines:
+          - "A metà sonno, non lo vedi?"
+          - "Tutto così incompiuto, amaro"
+          - "Dimmi solo come spezzare questo codice"
+          - "Non vedi i lividi che luccicano?"
+          - "Posto al finestrino, l'inferno sotto"
+          - "Congelato, ma sento il calore bruciare in profondità"
+          - "Qualcuno mi dica dove vanno gli angeli"
+          - "E salvami dai morti che abbiamo risuscitato"
+      - lines:
+          - "Ero morto o stavo sognando?"
+          - "Ho smesso di respirare"
+          - "Quando tutto ciò che mi serviva era questa sensazione"
+          - "Niente più bugie se sparisco"
+          - "Una luce in meno sul lampadario"
+          - "Se ti avessi supplicato e implorato"
+          - "Non lo faccio sul serio"
+          - "Nessuno può sentire le parole che sto urlando"
+          - "Niente più bugie se sparisco"
+          - "Una luce in meno sul lampadario"
+          - "Lampadario"
+      - lines:
+          - "Lampadario"
+      - lines:
+          - "Lampadario"
+          - "Lampadario"
+          - "Lampadario"
+          - "Una luce in meno sul lampadario"
+      - lines:
+          - "Ero morto o stavo sognando?"
+          - "Ho smesso di respirare"
+          - "Quando tutto ciò che mi serviva era questa sensazione"
+          - "Niente più bugie se sparisco"
+          - "Una luce in meno sul lampadario"
+---

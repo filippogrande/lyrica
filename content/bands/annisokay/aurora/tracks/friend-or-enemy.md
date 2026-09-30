@@ -1,0 +1,142 @@
+---
+title: "Friend or Enemy"
+slug: "friend-or-enemy"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Enemy, enemy"
+          - "Enemy, friend or enemy"
+      - lines:
+          - "There's a price on your head"
+          - "And deep down you know"
+          - "It's all just a business my friend"
+          - "Where anything goes"
+      - lines:
+          - "The fix is in"
+          - "The battle lines are drawn"
+          - "And friendly fire"
+          - "The deadliest of all"
+          - "The fix is in"
+          - "The knives are coming out"
+          - "You thought you were"
+          - "The last Boy Scout"
+      - lines:
+          - "If you're their enemy"
+          - "They will kill you, kill you for money"
+          - "If you're a friend"
+          - "They will kill you but for nothing"
+      - lines:
+          - "You're my enemy"
+          - "You're my enemy"
+          - "Friend or enemy"
+      - lines:
+          - "There's a price on your head"
+          - "They're cashing you out"
+          - "So all raise your glasses please"
+          - "This ones on the house"
+      - lines:
+          - "The fix is in"
+          - "The undertow is strong"
+          - "Conspiracy"
+          - "The massacre they want"
+          - "Are you their friend?"
+          - "Or enemy of the state?"
+          - "Their little bitch"
+          - "Coming out to play"
+      - lines:
+          - "If you're their enemy"
+          - "They will kill you, kill you for money"
+          - "If you're a friend"
+          - "They will kill you but for nothing"
+      - lines:
+          - "You can do the things you want"
+          - "Just leave this shadow, shadow of fear"
+          - "You can do the things you want"
+          - "Just leave this shadow, shadow of fear"
+      - lines:
+          - "Don't be afraid of it"
+          - "It's inside of us"
+          - "We need to overcome that fear"
+          - "Which is controlling us"
+      - lines:
+          - "It's controlling us"
+          - "It's controlling us"
+      - lines:
+          - "This world is so big"
+          - "Don't be afraid of it"
+          - "A variety of mystery"
+          - "Don't be afraid of it"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Nemico, nemico"
+          - "Nemico, amico o nemico"
+      - lines:
+          - "C'è un prezzo sulla tua testa"
+          - "E in fondo lo sai"
+          - "È solo un affare, mio amico"
+          - "Dove va tutto"
+      - lines:
+          - "La soluzione è in arrivo"
+          - "Le linee di battaglia sono tracciate"
+          - "E il fuoco amico"
+          - "Il più letale di tutti"
+          - "La soluzione è in arrivo"
+          - "I coltelli stanno uscendo"
+          - "Pensavi di essere"
+          - "L'ultimo boy scout"
+      - lines:
+          - "Se sei il loro nemico"
+          - "Ti uccideranno, ti uccideranno per soldi"
+          - "Se sei un amico"
+          - "Ti uccideranno ma per niente"
+      - lines:
+          - "Sei il mio nemico"
+          - "Sei il mio nemico"
+          - "Amico o nemico"
+      - lines:
+          - "C'è un prezzo sulla tua testa"
+          - "Ti stanno incassando"
+          - "Quindi tutti alziamo i bicchieri per favore"
+          - "Questa la mette casa"
+      - lines:
+          - "La soluzione è in arrivo"
+          - "La risacca è forte"
+          - "Cospirazione"
+          - "Il massacro che vogliono"
+          - "Sei il loro amico?"
+          - "O nemico dello Stato?"
+          - "La loro cagnolina"
+          - "Che esce per giocare"
+      - lines:
+          - "Se sei il loro nemico"
+          - "Ti uccideranno, ti uccideranno per soldi"
+          - "Se sei un amico"
+          - "Ti uccideranno ma per niente"
+      - lines:
+          - "Puoi fare quello che vuoi"
+          - "Basta lasciare quest'ombra, quest'ombra di paura"
+          - "Puoi fare quello che vuoi"
+          - "Basta lasciare quest'ombra, quest'ombra di paura"
+      - lines:
+          - "Non averne paura"
+          - "È dentro di noi"
+          - "Dobbiamo superare quella paura"
+          - "Che ci controlla"
+      - lines:
+          - "Ci controlla"
+          - "Ci controlla"
+      - lines:
+          - "Questo mondo è così grande"
+          - "Non averne paura"
+          - "Una varietà di misteri"
+          - "Non averne paura"
+---

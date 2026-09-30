@@ -1,0 +1,156 @@
+---
+title: "Ultraviolet"
+slug: "ultraviolet"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "You're floating through space"
+          - "Like stars in a race"
+          - "You never come down"
+          - "Whatever they say"
+          - "We won't be descending"
+          - "As long as we stay"
+          - "We're in this together"
+          - "Dictating our Pace"
+      - lines:
+          - "You even out my gravity"
+      - lines:
+          - "They try to break you"
+          - "They try to break us"
+          - "Say we could bend"
+          - "But we will never fit in"
+          - "Don't let 'em get through"
+          - "Under your skin"
+          - "Cause you're shining bright from within"
+      - lines:
+          - "You're invisible to the rest"
+          - "But I see you in ultraviolet"
+          - "When your lightwaves travel through my chest"
+          - "I see you glow in ultraviolet"
+          - "I see you glow"
+          - "I see you glow in ultraviolet"
+      - lines:
+          - "Like a kaleidoscope"
+      - lines:
+          - "Colors hard to define"
+          - "We paint our own hope"
+          - "In shades that intertwine"
+          - "Their black and white scheme"
+          - "Fails to undermine"
+          - "Our vibrant life that gleams"
+          - "Beyond their limiting signs"
+      - lines:
+          - "They try to break you"
+          - "They try to break us"
+          - "Say we could bend"
+          - "But we will never fit in"
+          - "Don't let 'em get through"
+          - "Under your skin"
+          - "Cause you're shining bright from within"
+      - lines:
+          - "You're invisible to the rest"
+          - "But I see you in ultraviolet"
+          - "When your lightwaves travel through my chest"
+          - "I see you glow in ultraviolet"
+      - lines:
+          - "We won't shed our soul"
+          - "Defy their control"
+          - "Beneath our scars"
+          - "We are whole"
+          - "I can see you"
+          - "I can feel you"
+          - "You are half alive"
+          - "But levitate on the inside"
+      - lines:
+          - "They don't feel"
+          - "They don't think"
+          - "They don't see"
+          - "The way we do"
+      - lines:
+          - "You're invisible to the rest"
+          - "But I see you in ultraviolet"
+          - "When your lightwaves travel through my chest"
+          - "I see you glow in ultraviolet"
+          - "I see you glow"
+          - "I see you glow in ultraviolet"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Stai fluttuando nello spazio"
+          - "Come stelle in una corsa"
+          - "Non scendi mai"
+          - "Qualunque cosa dicano"
+          - "Non scenderemo"
+          - "Finché restiamo"
+          - "Siamo insieme"
+          - "A dettare il nostro ritmo"
+      - lines:
+          - "Tu compensi la mia gravità"
+      - lines:
+          - "Cercano di spezzarti"
+          - "Cercano di spezzarci"
+          - "Dicono che potremmo piegarci"
+          - "Ma non ci staremo mai"
+          - "Non lasciare che passino"
+          - "Sotto la tua pelle"
+          - "Perché brilli dall'interno"
+      - lines:
+          - "Sei invisibile per gli altri"
+          - "Ma io ti vedo in ultravioletto"
+          - "Quando le tue onde luminose attraversano il mio petto"
+          - "Ti vedo brillare in ultravioletto"
+          - "Ti vedo brillare"
+          - "Ti vedo brillare in ultravioletto"
+      - lines:
+          - "Come un caleidoscopio"
+      - lines:
+          - "Colori difficili da definire"
+          - "Dipingiamo la nostra speranza"
+          - "In sfumature che si intrecciano"
+          - "Il loro schema in bianco e nero"
+          - "Non riesce a minare"
+          - "La nostra vita vivace che luccica"
+          - "Oltre i loro segni limitanti"
+      - lines:
+          - "Cercano di spezzarti"
+          - "Cercano di spezzarci"
+          - "Dicono che potremmo piegarci"
+          - "Ma non ci staremo mai"
+          - "Non lasciare che passino"
+          - "Sotto la tua pelle"
+          - "Perché brilli dall'interno"
+      - lines:
+          - "Sei invisibile per gli altri"
+          - "Ma io ti vedo in ultravioletto"
+          - "Quando le tue onde luminose attraversano il mio petto"
+          - "Ti vedo brillare in ultravioletto"
+      - lines:
+          - "Non daremo via la nostra anima"
+          - "Sfidiamo il loro controllo"
+          - "Sotto le nostre cicatrici"
+          - "Siamo interi"
+          - "Posso vederti"
+          - "Posso sentirti"
+          - "Sei metà vivo"
+          - "Ma leviti dentro"
+      - lines:
+          - "Non sentono"
+          - "Non pensano"
+          - "Non vedono"
+          - "Il modo in cui facciamo noi"
+      - lines:
+          - "Sei invisibile per gli altri"
+          - "Ma io ti vedo in ultravioletto"
+          - "Quando le tue onde luminose attraversano il mio petto"
+          - "Ti vedo brillare in ultravioletto"
+          - "Ti vedo brillare"
+          - "Ti vedo brillare in ultravioletto"
+---

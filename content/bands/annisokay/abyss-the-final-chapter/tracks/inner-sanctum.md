@@ -1,0 +1,126 @@
+---
+title: "Inner Sanctum"
+slug: "inner-sanctum"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Precious moments passed by without a sound"
+          - "I try to keep them like a treasure below the ground"
+          - "Encapsulating, all the good that I can find"
+          - "'Cause in this darkness only secrets will survive"
+      - lines:
+          - "When our hearts collide"
+          - "With darkness' tide"
+          - "As they're falling through the skies"
+          - "Like blossoms they'll be"
+      - lines:
+          - "My inner sanctum"
+          - "Somewhere within the clouds"
+          - "For no one to reach it"
+          - "A silent haven for my soul"
+      - lines:
+          - "They will never take me alive from this world"
+          - "I will define the time and place"
+          - "You will always be with me in my mind"
+          - "And only secrets will survive"
+      - lines:
+          - "When our hearts collide"
+          - "With darkness' tide"
+          - "As they're falling through the skies"
+          - "Like blossoms they'll be"
+      - lines:
+          - "Falling, falling"
+          - "From the heights that we have known"
+          - "We'll be far away, far away"
+          - "From the place that we call home"
+      - lines:
+          - "When our hearts collide"
+          - "With darkness' tide"
+          - "As they're falling through the skies"
+          - "Like blossoms they'll be"
+      - lines:
+          - "Falling, falling"
+          - "From the heights that we have known"
+          - "We'll be far away, far away"
+          - "From the place that we call home"
+      - lines:
+          - "Inner sanctum"
+          - "Inner sanctum"
+          - "Burn, scorch the surface"
+          - "Decay but our treasure will survive"
+      - lines:
+          - "When our hearts collide"
+          - "With darkness' tide"
+          - "As they're falling through the skies"
+          - "Like blossoms they'll be"
+      - lines:
+          - "Falling, falling"
+          - "From the heights that we have known"
+          - "We'll be far away, far away"
+          - "From the place that we call home"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Momenti preziosi passati senza un suono"
+          - "Provo a tenerli come un tesoro sotto terra"
+          - "Incapsulando tutto il bene che riesco a trovare"
+          - "Perché in questo buio solo i segreti sopravvivono"
+      - lines:
+          - "Quando i nostri cuori si scontrano"
+          - "Con la marea delle tenebre"
+          - "Mentre cadono attraverso i cieli"
+          - "Come fiori saranno"
+      - lines:
+          - "Il mio sanctum interiore"
+          - "Da qualche parte dentro le nuvole"
+          - "Che nessuno possa raggiungere"
+          - "Un rifugio silenzioso per la mia anima"
+      - lines:
+          - "Non mi prenderanno mai vivo da questo mondo"
+          - "Io definirò il tempo e il luogo"
+          - "Sarai sempre con me nella mia mente"
+          - "E solo i segreti sopravviveranno"
+      - lines:
+          - "Quando i nostri cuori si scontrano"
+          - "Con la marea delle tenebre"
+          - "Mentre cadono attraverso i cieli"
+          - "Come fiori saranno"
+      - lines:
+          - "Cadendo, cadendo"
+          - "Dalle vette che abbiamo conosciuto"
+          - "Saremo lontani, lontani"
+          - "Dal luogo che chiamiamo casa"
+      - lines:
+          - "Quando i nostri cuori si scontrano"
+          - "Con la marea delle tenebre"
+          - "Mentre cadono attraverso i cieli"
+          - "Come fiori saranno"
+      - lines:
+          - "Cadendo, cadendo"
+          - "Dalle vette che abbiamo conosciuto"
+          - "Saremo lontani, lontani"
+          - "Dal luogo che chiamiamo casa"
+      - lines:
+          - "Sanctum interiore"
+          - "Sanctum interiore"
+          - "Brucia, scotta la superficie"
+          - "Decadono ma il nostro tesoro sopravviverà"
+      - lines:
+          - "Quando i nostri cuori si scontrano"
+          - "Con la marea delle tenebre"
+          - "Mentre cadono attraverso i cieli"
+          - "Come fiori saranno"
+      - lines:
+          - "Cadendo, cadendo"
+          - "Dalle vette che abbiamo conosciuto"
+          - "Saremo lontani, lontani"
+          - "Dal luogo che chiamiamo casa"
+---

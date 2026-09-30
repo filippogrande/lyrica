@@ -1,0 +1,172 @@
+---
+title: "Super Zero"
+slug: "super-zero"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "In a room with capes and tights"
+          - "Meeting every Wednesday night"
+          - "Feeling the things we try"
+          - "We are sitting side by side"
+          - "In a room with cakes and pies"
+          - "Eating, feeding paradise"
+          - "Needing these things to die"
+          - "We are cheering side by side"
+      - lines:
+          - "Geeks with thinlegs, big-ass foreheads"
+          - "Thinking that they will succeed"
+          - "Eat shit like in human centipede"
+          - "I can't take it, they are misfits"
+          - "Don't they see the irony"
+          - "What they fucking need is therapy"
+      - lines:
+          - "Go, go, go, this is so hilarious"
+          - "No, no, no, I am getting furious"
+          - "Go, go, go, this is so hilarious"
+          - "No, no, no, they are dummy-dangerous"
+      - lines:
+          - "Suits so tight"
+          - "Our masks to hide the light"
+          - "Risen to claim the throne"
+          - "Hidden heroes all alone"
+      - lines:
+          - "We may trip, we may fall"
+          - "But in the end we are standing tall"
+          - "In the shadows of the day"
+          - "We are heroes anyway"
+      - lines:
+          - "I'm a superhero without any skills"
+          - "Just a heart that won't stand still"
+          - "In a world that's made to thrill"
+          - "We are superheroes without any skills, whoa"
+      - lines:
+          - "Oh, fuck stop it, got to rock it"
+          - "All you losers make me sick"
+          - "Sick and tired of your poser-shit"
+          - "I will end this, laser eyes"
+          - "Go on, try to fucking run"
+          - "Oh, your screams make it a lot more fun"
+      - lines:
+          - "Go, go, go, this is so hilarious"
+          - "No, no, no, I am getting furious"
+          - "Go, go, go, this is so hilarious"
+          - "No, no, no, they are dummy-dangerous"
+      - lines:
+          - "In you I found a friend"
+          - "Forever hold your hand"
+          - "Our shirts say, \"I love you\""
+          - "Oh, can all this be true"
+      - lines:
+          - "We may trip, we may fall"
+          - "But in the end we're standing tall"
+          - "In the shadows of the day"
+          - "We are heroes anyway"
+          - "It's show time"
+      - lines:
+          - "Oh my god"
+          - "I am more super than superman"
+          - "Feel my power"
+          - "Catch you, feed you, then I get to eat you"
+          - "You know I can"
+      - lines:
+          - "I'm a superhero without any skills"
+          - "Just a heart that won't stand still"
+          - "In a world that's made to thrill"
+      - lines:
+          - "I'm a superhero without any skills"
+          - "Just a heart that won't stand still"
+          - "In a world that's made to thrill"
+      - lines:
+          - "I'm a superhero without any skills"
+          - "Just a heart that won't stand still"
+          - "In a world that's made to thrill"
+          - "We are superheroes without any skills"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "In una stanza con mantelli e calzamaglie"
+          - "Che si ritrovano ogni mercoledì sera"
+          - "Sentendo le cose che proviamo"
+          - "Siamo seduti fianco a fianco"
+          - "In una stanza con torte e pasticci"
+          - "Mangiando, nutrendo il paradiso"
+          - "Avendo bisogno che queste cose muoiano"
+          - "Siamo incitandoci fianco a fianco"
+      - lines:
+          - "Geeks con gambe sottili e frontoni enormi"
+          - "Convinti che ce la faranno"
+          - "Mangiano merda come in Human Centipede"
+          - "Non lo sopporto, sono disadattati"
+          - "Non vedono l'ironia"
+          - "Quello che gli serve è fottutamente una terapia"
+      - lines:
+          - "Avanti, avanti, avanti, è così divertente"
+          - "No, no, no, mi sto innervosendo"
+          - "Avanti, avanti, avanti, è così divertente"
+          - "No, no, no, sono pericolosamente stupidi"
+      - lines:
+          - "Completi troppo stretti"
+          - "Le nostre maschere per nascondere la luce"
+          - "Siamo saliti per rivendicare il trono"
+          - "Eroi nascosti, tutti soli"
+      - lines:
+          - "Possiamo inciampare, possiamo cadere"
+          - "Ma alla fine siamo in piedi, alti"
+          - "Nelle ombre del giorno"
+          - "Siamo eroi comunque"
+      - lines:
+          - "Sono un supereroe senza nessuna abilità"
+          - "Solo un cuore che non sta fermo"
+          - "In un mondo fatto per emozionare"
+          - "Siamo supereroi senza nessuna abilità, whoa"
+      - lines:
+          - "Oh, basta, smettila, devo suonare il rock"
+          - "Tutti voi perdenti mi fate stare male"
+          - "Stanco e malato delle vostre cagate da posatori"
+          - "Io finisco qui, occhi laser"
+          - "Avanti, prova a fottutamente scappare"
+          - "Oh, le tue urla rendono molto più divertente"
+      - lines:
+          - "Avanti, avanti, avanti, è così divertente"
+          - "No, no, no, mi sto innervosendo"
+          - "Avanti, avanti, avanti, è così divertente"
+          - "No, no, no, sono pericolosamente stupidi"
+      - lines:
+          - "In te ho trovato un amico"
+          - "Per sempre tengo la tua mano"
+          - "Le nostre magliette dicono \"Ti amo\""
+          - "Oh, può essere tutto questo vero"
+      - lines:
+          - "Possiamo inciampare, possiamo cadere"
+          - "Ma alla fine siamo in piedi, alti"
+          - "Nelle ombre del giorno"
+          - "Siamo eroi comunque"
+          - "È ora di show"
+      - lines:
+          - "Oh mio dio"
+          - "Sono più super di Superman"
+          - "Sentimi il potere"
+          - "Ti acchiappo, ti nutro, e poi mi mangio te"
+          - "Sai che posso"
+      - lines:
+          - "Sono un supereroe senza nessuna abilità"
+          - "Solo un cuore che non sta fermo"
+          - "In un mondo fatto per emozionare"
+      - lines:
+          - "Sono un supereroe senza nessuna abilità"
+          - "Solo un cuore che non sta fermo"
+          - "In un mondo fatto per emozionare"
+      - lines:
+          - "Sono un supereroe senza nessuna abilità"
+          - "Solo un cuore che non sta fermo"
+          - "In un mondo fatto per emozionare"
+          - "Siamo supereroi senza nessuna abilità"
+---
