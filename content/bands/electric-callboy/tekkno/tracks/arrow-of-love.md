@@ -1,0 +1,180 @@
+---
+title: "Arrow of Love"
+slug: "arrow-of-love"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I wanna share my heart with everyone around"
+          - "I wanna spread some love, I'm feeling the beat"
+          - "I'm gonna give my heart to everyone around"
+          - "I'm gonna share my love with everyone, everyone"
+      - lines:
+          - "I wanna share my heart with everyone around"
+          - "I wanna spread some love, I'm feeling the beat"
+          - "I'm gonna give my heart to everyone around"
+          - "I'm gonna share my love with everyone, everyone"
+      - lines:
+          - "Oh, I'm late again"
+          - "My people need me badly"
+          - "Look at Herbert here"
+          - "He's fighting with his homie"
+          - "I'm fed up with your anger and hate"
+          - "You always fight, punch, bite"
+          - "Through the whole fucking day"
+      - lines:
+          - "I give you love"
+          - "Shoot it right into your face, my love"
+          - "Love is everything that you need, love"
+          - "Is missing in this loveless place"
+          - "I share my heart with everyone"
+      - lines:
+          - "I wanna share my heart with everyone around"
+          - "I wanna spread some love, I'm feeling the beat"
+          - "I'm gonna give my heart to everyone around"
+          - "I'm gonna share my love with everyone"
+      - lines:
+          - "I wanna share my heart with everyone around"
+          - "I wanna spread some love, I'm feeling the beat"
+          - "I'm gonna give my heart to everyone around"
+          - "I'm gonna share my love with everyone, everyone"
+      - lines:
+          - "Hey, you can't escape"
+          - "My love is gonna get you"
+          - "And don't be afraid 'cause I don't wanna hurt you"
+          - "I'm the god of love, got the power to heal"
+          - "You from all the sadness and the bad things you feel"
+      - lines:
+          - "I give you love"
+          - "Shoot it right into your face, my love"
+          - "Love is everything that you need, love"
+          - "Is missing in this loveless place"
+          - "I share my heart with everyone"
+      - lines:
+          - "I wanna share my heart with everyone around"
+          - "I wanna spread some love, I'm feeling the beat"
+          - "I'm gonna give my heart to everyone around"
+          - "I'm gonna share my love with everyone"
+      - lines:
+          - "We never stop to believe in magic"
+          - "We're diving into the light"
+          - "We never stop to believe in magic"
+          - "We will be forever young, ever young"
+      - lines:
+          - "We never stop to believe in magic"
+          - "We're diving into the light"
+          - "We never stop to believe in magic"
+          - "We will be forever young, ever young"
+      - lines:
+          - "We never stop to believe in magic"
+          - "We're diving into the light"
+          - "We never stop to believe in magic"
+          - "We will be forever young, ever young"
+      - lines:
+          - "I am the one you need"
+          - "I am sent from above"
+          - "To fill your empty heart with an arrow of love"
+          - "I cannot leave"
+          - "Before you give me all your taste, your feels, your love"
+      - lines:
+          - "I wanna share my heart with everyone around"
+          - "I wanna spread some love, I'm feeling the beat"
+          - "I'm gonna give my heart to everyone around"
+          - "I'm gonna share my love with everyone"
+      - lines:
+          - "I wanna share my heart with everyone around"
+          - "I wanna spread some love, I'm feeling the beat"
+          - "I'm gonna give my heart to everyone around"
+          - "I'm gonna share my love with everyone, everyone"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Voglio condividere il mio cuore con tutti intorno"
+          - "Voglio diffondere un po' d'amore, sento il ritmo"
+          - "Sto per dare il mio cuore a tutti intorno"
+          - "Sto per condividere il mio amore con tutti, tutti"
+      - lines:
+          - "Voglio condividere il mio cuore con tutti intorno"
+          - "Voglio diffondere un po' d'amore, sento il ritmo"
+          - "Sto per dare il mio cuore a tutti intorno"
+          - "Sto per condividere il mio amore con tutti, tutti"
+      - lines:
+          - "Oh, sono di nuovo in ritardo"
+          - "La mia gente ha bisogno disperatamente di me"
+          - "Guarda Herbert qui"
+          - "Sta litigando con il suo amico"
+          - "Sono stufo della tua rabbia e del tuo odio"
+          - "Combatti sempre, spacci, mordi"
+          - "Per tutta la fottuta giornata"
+      - lines:
+          - "Ti do amore"
+          - "Sparato dritto in faccia, amore"
+          - "L'amore è tutto quello che ti serve, amore"
+          - "Che manca in questo posto senza amore"
+          - "Condivido il mio cuore con tutti"
+      - lines:
+          - "Voglio condividere il mio cuore con tutti intorno"
+          - "Voglio diffondere un po' d'amore, sento il ritmo"
+          - "Sto per dare il mio cuore a tutti intorno"
+          - "Sto per condividere il mio amore con tutti"
+      - lines:
+          - "Voglio condividere il mio cuore con tutti intorno"
+          - "Voglio diffondere un po' d'amore, sento il ritmo"
+          - "Sto per dare il mio cuore a tutti intorno"
+          - "Sto per condividere il mio amore con tutti, tutti"
+      - lines:
+          - "Ehi, non puoi scappare"
+          - "Il mio amore ti raggiungerà"
+          - "E non avere paura perché non voglio farti del male"
+          - "Sono il dio dell'amore, ho il potere di guarire"
+          - "Te da tutta la tristezza e le cose brutte che senti"
+      - lines:
+          - "Ti do amore"
+          - "Sparato dritto in faccia, amore"
+          - "L'amore è tutto quello che ti serve, amore"
+          - "Che manca in questo posto senza amore"
+          - "Condivido il mio cuore con tutti"
+      - lines:
+          - "Voglio condividere il mio cuore con tutti intorno"
+          - "Voglio diffondere un po' d'amore, sento il ritmo"
+          - "Sto per dare il mio cuore a tutti intorno"
+          - "Sto per condividere il mio amore con tutti"
+      - lines:
+          - "Non smettiamo mai di credere nella magia"
+          - "Ci tuffiamo nella luce"
+          - "Non smettiamo mai di credere nella magia"
+          - "Saremos per sempre giovani, per sempre giovani"
+      - lines:
+          - "Non smettiamo mai di credere nella magia"
+          - "Ci tuffiamo nella luce"
+          - "Non smettiamo mai di credere nella magia"
+          - "Saremos per sempre giovani, per sempre giovani"
+      - lines:
+          - "Non smettiamo mai di credere nella magia"
+          - "Ci tuffiamo nella luce"
+          - "Non smettiamo mai di credere nella magia"
+          - "Saremos per sempre giovani, per sempre giovani"
+      - lines:
+          - "Io sono quello che ti serve"
+          - "Sono mandato da sopra"
+          - "Per riempire il tuo cuore vuoto con una freccia d'amore"
+          - "Non posso andarmene"
+          - "Prima che tu mi dia tutto il tuo gusto, le tue emozioni, il tuo amore"
+      - lines:
+          - "Voglio condividere il mio cuore con tutti intorno"
+          - "Voglio diffondere un po' d'amore, sento il ritmo"
+          - "Sto per dare il mio cuore a tutti intorno"
+          - "Sto per condividere il mio amore con tutti"
+      - lines:
+          - "Voglio condividere il mio cuore con tutti intorno"
+          - "Voglio diffondere un po' d'amore, sento il ritmo"
+          - "Sto per dare il mio cuore a tutti intorno"
+          - "Sto per condividere il mio amore con tutti, tutti"
+---
