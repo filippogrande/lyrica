@@ -1,0 +1,180 @@
+---
+title: "Let the Good Times Roll (feat. The Offspring)"
+slug: "let-the-good-times-roll"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Go"
+      - lines:
+          - "Headlights shining through the night"
+          - "We need no daylight, feels like we will never die"
+          - "We are unstoppable, we are incredible"
+          - "And I feel like everybody knows that"
+      - lines:
+          - "I wanna shake it"
+          - "And you can watch me rule the floor"
+          - "I wanna shake it"
+          - "Sh-shake it, shake it, uh"
+          - "I wanna shake it"
+          - "And you can watch me rule the floor"
+          - "I wanna shake it"
+          - "Just everywhere I go"
+      - lines:
+          - "(We turn on the fun, we are ready to go"
+          - "Keep your friends close and let the good times roll)"
+          - "We turn on the fun, we are ready to go"
+          - "Keep your friends close and let the good times roll"
+          - "Grab your bag, come along, play your favorite song"
+          - "Scream your heart out and let the good times roll"
+      - lines:
+          - "Whoa"
+          - "We will never let it go"
+          - "And let the good times roll"
+          - "We will never let it go"
+          - "We let the good times roll"
+          - "And let the good times roll"
+      - lines:
+          - "Sunlight shining on my face"
+          - "I'm feeling so high, that's what I was waiting for"
+          - "A long time, I am gonna leave it all behind"
+          - "The best is yet to come"
+      - lines:
+          - "I wanna shake it"
+          - "And you can watch me rule the floor"
+          - "I wanna shake it"
+          - "Sh-shake it, shake it, uh"
+          - "I wanna shake it"
+          - "And you can watch me rule the floor"
+          - "I wanna shake it"
+          - "Just everywhere I go"
+      - lines:
+          - "We turn on the fun, we are ready to go"
+          - "Keep your friends close and let the good times roll"
+          - "Grab your bag, come along, play your favorite song"
+          - "Scream your heart out and let the good times roll"
+      - lines:
+          - "Whoa"
+          - "We will never let it go"
+          - "And let the good times roll"
+          - "We will never let it go"
+      - lines:
+          - "Uh, you see me move"
+          - "My hips for you"
+          - "You likey like"
+          - "Me feel the groove"
+          - "Now it's your time"
+          - "To make a step"
+          - "Uno, dos, tres"
+          - "Cuatro, cinco, cinco, seis, go!"
+          - "Ritmo"
+          - "Sh-shake it, shake it, uh"
+          - "Ritmo"
+      - lines:
+          - "Whoa"
+          - "We will never let it go"
+          - "And let the good times roll"
+          - "We will never let it go"
+      - lines:
+          - "We turn on the fun, we are ready to go"
+          - "Keep your friends close and let the good times roll"
+          - "Grab your bag, come along, play your favorite song"
+          - "Scream your heart out and let the good times roll"
+      - lines:
+          - "Whoa"
+          - "We will never let it go"
+          - "And let the good times roll"
+          - "We will never let it go"
+          - "We let the good times roll"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Vai"
+      - lines:
+          - "Fari che brillano nella notte"
+          - "Non ci serve la luce del giorno, sembra che non moriremo mai"
+          - "Siamo inarrestabili, siamo incredibili"
+          - "E sento che lo sanno tutti"
+      - lines:
+          - "Voglio scuotermi"
+          - "E puoi guardarmi dominare la pista"
+          - "Voglio scuotermi"
+          - "Sc-scotomelo, scotomelo, uh"
+          - "Voglio scuotermi"
+          - "E puoi guardarmi dominare la pista"
+          - "Voglio scuotermi"
+          - "Ovunque io vada"
+      - lines:
+          - "(Accendiamo il divertimento, siamo pronti a partire"
+          - "Tieniti gli amici vicini e lascia girare i bei tempi)"
+          - "Accendiamo il divertimento, siamo pronti a partire"
+          - "Tieniti gli amici vicini e lascia girare i bei tempi"
+          - "Prendi la tua borsa, vieni con noi, suona la tua canzone preferita"
+          - "Sgrida dal profondo e lascia girare i bei tempi"
+      - lines:
+          - "Whoa"
+          - "Non lo lasceremo mai"
+          - "E lascia girare i bei tempi"
+          - "Non lo lasceremo mai"
+          - "Facciamo girare i bei tempi"
+          - "E lascia girare i bei tempi"
+      - lines:
+          - "Il sole splende sul mio viso"
+          - "Mi sento così in alto, era questo che aspettavo"
+          - "Per un sacco di tempo, me ne andrò e lascerò tutto indietro"
+          - "Il meglio deve ancora venire"
+      - lines:
+          - "Voglio scuotermi"
+          - "E puoi guardarmi dominare la pista"
+          - "Voglio scuotermi"
+          - "Sc-scotomelo, scotomelo, uh"
+          - "Voglio scuotermi"
+          - "E puoi guardarmi dominare la pista"
+          - "Voglio scuotermi"
+          - "Ovunque io vada"
+      - lines:
+          - "Accendiamo il divertimento, siamo pronti a partire"
+          - "Tieniti gli amici vicini e lascia girare i bei tempi"
+          - "Prendi la tua borsa, vieni con noi, suona la tua canzone preferita"
+          - "Sgrida dal profondo e lascia girare i bei tempi"
+      - lines:
+          - "Whoa"
+          - "Non lo lasceremo mai"
+          - "E lascia girare i bei tempi"
+          - "Non lo lasceremo mai"
+      - lines:
+          - "Ehi, mi vedi muovere"
+          - "Il culo per voi"
+          - "Ti piace, ti piace"
+          - "Senti il groove"
+          - "Adesso è il tuo momento"
+          - "Muoviti"
+          - "Uno, due, tre"
+          - "Quattro, cinque, cinque, sei, via!"
+          - "Ritmo"
+          - "Sc-scotomelo, scotomelo, uh"
+          - "Ritmo"
+      - lines:
+          - "Whoa"
+          - "Non lo lasceremo mai"
+          - "E lascia girare i bei tempi"
+          - "Non lo lasceremo mai"
+      - lines:
+          - "Accendiamo il divertimento, siamo pronti a partire"
+          - "Tieniti gli amici vicini e lascia girare i bei tempi"
+          - "Prendi la tua borsa, vieni con noi, suona la tua canzone preferita"
+          - "Sgrida dal profondo e lascia girare i bei tempi"
+      - lines:
+          - "Whoa"
+          - "Non lo lasceremo mai"
+          - "E lascia girare i bei tempi"
+          - "Non lo lasceremo mai"
+          - "Facciamo girare i bei tempi"
+---
