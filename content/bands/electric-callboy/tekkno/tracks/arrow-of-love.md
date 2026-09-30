@@ -111,7 +111,7 @@ blocks:
           - "Guarda Herbert qui"
           - "Sta litigando con il suo amico"
           - "Sono stufo della tua rabbia e del tuo odio"
-          - "Combatti sempre, spacci, mordi"
+          - "Colpisci sempre, sferri pugni, mordi"
           - "Per tutta la fottuta giornata"
       - lines:
           - "Ti do amore"
