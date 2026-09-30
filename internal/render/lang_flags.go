@@ -75,20 +75,45 @@ func LangLabel(code string) string {
 // LangLabels unisce le etichette di più lingue con il separatore delle liste
 // brevi ("🇩🇪 DE · 🇮🇹 IT"): i codici ripetuti contano una volta e l'ordine è
 // alfabetico, così la stessa lista si legge uguale in ogni pagina del sito.
+// Per l'elenco delle voci di un brano, dove la stessa lingua può valere due
+// volte, si usa LangLabelsRepeated.
 func LangLabels(codes []string) string {
+	return joinLabels(sortedCodes(codes, true))
+}
+
+// LangLabelsRepeated unisce le etichette di più lingue tenendo i codici
+// ripetuti, in ordine alfabetico: è l'elenco delle VOCI di un brano, dove la
+// stessa lingua vale due volte se è sia l'originale sia la sua versione
+// completa (D97). Dove una lingua è una voce sola si usa LangLabels.
+func LangLabelsRepeated(codes []string) string {
+	return joinLabels(sortedCodes(codes, false))
+}
+
+// sortedCodes normalizza i codici (minuscolo, senza spazi) e li ordina
+// alfabeticamente; con unique i codici ripetuti contano una volta sola.
+func sortedCodes(codes []string, unique bool) []string {
 	seen := make(map[string]bool, len(codes))
 	sorted := make([]string, 0, len(codes))
 	for _, code := range codes {
 		normalized := strings.ToLower(strings.TrimSpace(code))
-		if normalized == "" || seen[normalized] {
+		if normalized == "" {
+			continue
+		}
+		if unique && seen[normalized] {
 			continue
 		}
 		seen[normalized] = true
 		sorted = append(sorted, normalized)
 	}
 	sort.Strings(sorted)
-	labels := make([]string, 0, len(sorted))
-	for _, code := range sorted {
+	return sorted
+}
+
+// joinLabels rende le etichette delle lingue unite dal separatore delle liste
+// brevi.
+func joinLabels(codes []string) string {
+	labels := make([]string, 0, len(codes))
+	for _, code := range codes {
 		labels = append(labels, LangLabel(code))
 	}
 	return strings.Join(labels, " · ")

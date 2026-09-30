@@ -27,15 +27,19 @@ Lo slug è la chiave di tutto: **cartella, URL e nome della cover devono coincid
 - Le date sono `YYYY-MM-DD` in ora locale italiana.
 - Nessun campo opzionale viene inventato: se manca, il validatore decide se è errore o se si usa un default.
 
-### Lingua di un brano (soglia per la seconda lingua)
+### Lingua di un brano (una o più lingue originali)
 
-Un brano ha **una sola lingua originale come blocco**, quella dominante, in cui è cantata la maggior parte del testo; `original_langs` può però dichiararne **più di una** (D28) quando il testo è davvero bilingue. Il blocco `role: original` resta **uno solo** e contiene il testo **come è cantato**, anche quando mescola due lingue.
+Un brano ha **un solo blocco `original`**, nella lingua **dominante** — quella in cui è cantata la maggior parte del testo — e quel blocco contiene il testo **come è cantato**, anche quando mescola più lingue. `original_langs` dichiara **tutte** le lingue originali, **in ordine**: la prima è la dominante, cioè la lingua del blocco `original` (D28, D96, D97).
 
 - **Parole o frasi isolate** in altre lingue **non** rendono il brano multilingue: es. *ADIEU* (Rammstein) è tedesco anche se contiene parole non-tedesche. Una lingua sola, nessuna traduzione extra.
 - Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**.
-- Nei brani **davvero bilingui** (es. *Hurrikan* degli Electric Callboy, metà inglese e metà tedesco) si dichiarano **entrambe** le lingue in `original_langs`, l'originale resta **un blocco solo** nella lingua dominante, e le traduzioni possono essere **tre**: la **versione completa** in ciascuna delle due lingue originali — il tedesco con le parti inglesi tradotte, e viceversa — più la lingua di arrivo del sito (`it`). La stessa lingua su **ruoli diversi** non è un doppione: `original de` e `translation de` convivono (regola 3, D96).
+- L'array accetta **N lingue**, non solo due: la soglia è umana, la decide chi scrive il contenuto.
+- Le traduzioni sono **una per lingua d'arrivo**, più **una versione completa per ogni lingua dichiarata in `original_langs`**: in un brano `["it", "fr", "de"]` si possono avere una `translation it`, una `translation fr` e una `translation de`, ciascuna con **tutte** le strofe tradotte in quella lingua. Serve anche ai **dialetti e alle varianti** (la versione in lingua regionale accanto a quella standard).
+- La stessa lingua su **ruoli diversi** non è un doppione: `original de` e `translation de` convivono (regola 3, D96).
 
 È un criterio umano, non automatico: il validatore non misura percentuali, decide chi scrive il contenuto.
+
+Due cose restano **regole di scrittura**, verificate in review e non dalla CI: il blocco `original` è **uno solo**, e la sua lingua è la **prima** di `original_langs`. Il validatore controlla la **coppia** `role` + `lang` (regola 3), non l'ordine dell'array.
 
 ## `band.md`
 
@@ -209,7 +213,7 @@ Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del te
 | `added_date` | sì | ordina i "recenti" e il feed RSS |
 | `featured` | no | `true` = entra nella corsia "In evidenza" della home |
 | `instrumental` | no | `true` = nessuna pagina |
-| `original_langs` | sì | una o più |
+| `original_langs` | sì | una o più, **in ordine**: la prima è la lingua dominante, quella del blocco `original` |
 | `singers` | no | elenco delle voci del brano |
 | `blocks` | sì | almeno un blocco `role: original` |
 
@@ -238,7 +242,7 @@ Un contenuto è **invalido** se:
 
 1. `slug` del front-matter ≠ nome del file o della cartella.
 2. Due entità della stessa collezione hanno lo **stesso slug**.
-3. `blocks` non contiene almeno un `role: original`, o contiene **due blocchi con la stessa coppia `role` + `lang`** (la stessa lingua può comparire una volta come originale e una come traduzione: D96).
+3. `blocks` non contiene almeno un `role: original`, o contiene **due blocchi con la stessa coppia `role` + `lang`** (la stessa lingua può comparire una volta come originale e una come traduzione: D96, D97).
 4. Un blocco `role: translation` è **incompleto** (una strofa ha meno righe dell'originale, o manca una strofa).
 5. `added_date` manca o non è una data valida.
 6. `cover` punta a un file inesistente in `covers/`.
@@ -330,11 +334,13 @@ Aggiungi al file un blocco con `role: translation`, `lang:`, `translator:` e le 
 
 Se la traduzione è la **versione completa** in una lingua che il brano ha già come originale — il tedesco intero di un brano bilingue — vale la stessa regola: un blocco `role: translation` con la stessa `lang` dell'originale e **tutte** le strofe allineate. Non si duplica il blocco `original` (D96).
 
+La versione completa si può scrivere per **ogni** lingua di `original_langs`, non solo per le due di un brano bilingue (D97): un brano `["it", "fr", "de"]` può avere una `translation` completa in italiano, una in francese e una in tedesco, più le traduzioni di arrivo. Ogni blocco resta allineato all'originale, strofa per strofa (regola 4).
+
 ### Aggiungere una lingua all'interfaccia
 
 Copia `locales/it.yaml` in `locales/<lang>.yaml` e traduci i **valori**, non le chiavi. Il build genera `/<lang>/...` con hreflang. Una chiave mancante è un errore in CI.
 
-Una traduzione verso una lingua che il catalogo ha **già come lingua originale** non fa nascere un'interfaccia in quella lingua (D96): chi legge quella lingua legge già l'originale, quindi il pubblico non cambia. Il tedesco "completo" di un brano bilingue non chiede `locales/de.yaml`.
+Una traduzione verso una lingua che il catalogo ha **già come lingua originale** non fa nascere un'interfaccia in quella lingua (D96, confermata in D97): chi legge quella lingua legge già l'originale, quindi il pubblico non cambia. Il tedesco "completo" di un brano bilingue non chiede `locales/de.yaml`.
 
 ### Rinominare uno slug (cambio URL)
 

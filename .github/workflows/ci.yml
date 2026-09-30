@@ -1,13 +1,16 @@
 name: CI
 
-# La CI fa tre cose:
+# La CI fa quattro cose:
 #   1. verifica che il progetto COMPILI (la compilazione non è possibile
 #      nell'ambiente dell'agente, quindi è qui che gli errori emergono);
-#   2. valida i CONTENUTI: una traduzione incompleta o uno slug sbagliato
+#   2. esegue i TEST UNITARI del codice (go test ./...): test stabili, che
+#      restano nel repo, mai file usa-e-getta (D98);
+#   3. valida i CONTENUTI: una traduzione incompleta o uno slug sbagliato
 #      rendono la PR rossa, prima del merge;
-#   3. GENERA il sito (`lyrica build`): se un template non rende, si vede qui e
+#   4. GENERA il sito (`lyrica build`): se un template non rende, si vede qui e
 #      non in produzione.
-# Non ci sono test unitari per scelta: vedi GUIDELINES.md §6.
+# Il log del job non è leggibile dall'API (serve il login): gli errori di templ e
+# dei test si rimandano come annotation, che invece si leggono.
 
 on:
   pull_request:
@@ -48,6 +51,16 @@ jobs:
 
       - name: Build
         run: go build ./...
+
+      # I test girano sui template già generati: il pacchetto render li importa.
+      # Come per templ, il fallimento si rimanda come annotation: senza, l'unico
+      # modo di sapere quale test è rosso è aprire il log a mano.
+      - name: Test
+        run: |
+          if ! go test ./... > /tmp/test.log 2>&1; then
+            echo "::error::go test fallito: $(awk '{printf "%s%%0A", $0}' /tmp/test.log | head -c 3000)"
+            exit 1
+          fi
 
   valida:
     name: Valida e genera
