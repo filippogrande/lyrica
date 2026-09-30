@@ -29,5 +29,4 @@ tracks:
     title: "Welcome to the Fightclub"
   - slug: "youre-hellcome"
     title: "You're Hellcome"
-    status: pending
 ---
