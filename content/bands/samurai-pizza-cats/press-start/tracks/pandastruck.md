@@ -1,0 +1,138 @@
+---
+title: "Pandastruck"
+slug: "pandastruck"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "I really got the feeling that I lose control"
+          - "I'm feeling like I miss a little rock 'n' roll"
+          - "All this bamboo eating and the kung fu beatings"
+          - "Got my batterie low, I got vertigo"
+      - lines:
+          - "You're unbearable, fucking terrible"
+          - "But phantasmagorical, so damn beautiful"
+          - "Like the waterfall in an urinal"
+          - "You're unbearable, fucking terrible"
+      - lines:
+          - "I am the spark and the fun in your routine"
+          - "Your water gun, I filled with pee-pee"
+          - "One, I set you free, two, let's make a scene"
+          - "Three, we hate mainstream"
+      - lines:
+          - "My voice of chaos"
+          - "Is killing the sad"
+          - "Killing all the noise that's inside my head"
+      - lines:
+          - "My voice of chaos"
+          - "Is killing the sad"
+          - "Killing all the noise that's inside my head"
+          - "In a world of chaos"
+          - "Where nothing makes sense"
+          - "It is never us, it's them"
+          - "We're unbearable"
+      - lines:
+          - "I really got the feeling that I lose control"
+          - "I'm feeling like I miss a little rock 'n' roll"
+          - "Too cute to kill, yoo dumb to fuck"
+          - "Is it flattery? No! But I'm pandastruck"
+      - lines:
+          - "You're unbearable, fucking terrible"
+          - "But phantasmagorical, so damn beautiful"
+          - "Like the waterfall in an urinal"
+          - "You're unbearable, fucking terrible"
+      - lines:
+          - "I am the match and you're the gasoline"
+          - "You are the shit but I'm Mr. Clean"
+          - "One, I set you free, two, let's make a scene"
+          - "Three - we hate mainstream"
+      - lines:
+          - "My voice of chaos"
+          - "Is killing the sad"
+          - "Killing all the noise that's inside my head"
+          - "In a world of chaos"
+          - "Where nothing makes sense"
+          - "It is never us, it's them"
+          - "We're unbearable"
+      - lines:
+          - "Pandastruck"
+          - "Pandastruck"
+      - lines:
+          - "My voice of chaos"
+          - "Is killing the sad"
+          - "Killing all the noise that's inside my head"
+          - "In a world of chaos"
+          - "Where nothing makes sense"
+          - "It is never us, it's them"
+          - "We're unbearable"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ho davvero la sensazione di perdere il controllo"
+          - "Sento che mi manca un po' di rock 'n' roll"
+          - "Tutto questo mangiare bambù e queste perosse di kung fu"
+          - "Ho la batteria scarica, ho le vertigini"
+      - lines:
+          - "Sei insopportabile, fottutamente terribile"
+          - "Ma fantasmagorico, così maledettamente bello"
+          - "Come la cascata in un orinatoio"
+          - "Sei insopportabile, fottutamente terribile"
+      - lines:
+          - "Sono la scintilla e il divertimento nella tua routine"
+          - "La tua pistola ad acqua, l'ho riempita di pipì"
+          - "Uno, ti libero, due, creiamo uno spettacolo"
+          - "Tre, odiamo il mainstream"
+      - lines:
+          - "La mia voce del caos"
+          - "Sta uccidendo i tristi"
+          - "Sta uccidendo tutto il rumore che ho dentro la testa"
+      - lines:
+          - "La mia voce del caos"
+          - "Sta uccidendo i tristi"
+          - "Sta uccidendo tutto il rumore che ho dentro la testa"
+          - "In un mondo di caos"
+          - "Dove niente ha senso"
+          - "Non siamo mai noi, sono loro"
+          - "Siamo insopportabili"
+      - lines:
+          - "Ho davvero la sensazione di perdere il controllo"
+          - "Sento che mi manca un po' di rock 'n' roll"
+          - "Troppo carino da uccidere, troppo fottutamente stupido da scopare"
+          - "È una lusinga? No! Ma sono inpandatruck"
+      - lines:
+          - "Sei insopportabile, fottutamente terribile"
+          - "Ma fantasmagorico, così maledettamente bello"
+          - "Come la cascata in un orinatoio"
+          - "Sei insopportabile, fottutamente terribile"
+      - lines:
+          - "Sono il fiammifero e tu sei la benzina"
+          - "Sei la merda ma io sono Mr. Clean"
+          - "Uno, ti libero, due, creiamo uno spettacolo"
+          - "Tre - odiamo il mainstream"
+      - lines:
+          - "La mia voce del caos"
+          - "Sta uccidendo i tristi"
+          - "Sta uccidendo tutto il rumore che ho dentro la testa"
+          - "In un mondo di caos"
+          - "Dove niente ha senso"
+          - "Non siamo mai noi, sono loro"
+          - "Siamo insopportabili"
+      - lines:
+          - "Inpandatruck"
+          - "Inpandatruck"
+      - lines:
+          - "La mia voce del caos"
+          - "Sta uccidendo i tristi"
+          - "Sta uccidendo tutto il rumore che ho dentro la testa"
+          - "In un mondo di caos"
+          - "Dove niente ha senso"
+          - "Non siamo mai noi, sono loro"
+          - "Siamo insopportabili"
+---
