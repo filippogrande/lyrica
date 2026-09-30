@@ -1,0 +1,168 @@
+---
+title: "Tekkno Train"
+slug: "tekkno-train"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Ride take ride"
+          - "On the Tekkno train right now"
+          - "Take your seat"
+          - "Open up feel the pounding bass deep inside ya"
+          - "Shaky shaky sweaty sweaty"
+          - "You make my spaghetti ready"
+          - "Heat up the sauce it's a dinner for one"
+      - lines:
+          - "You better hold on tight"
+          - "Cause we're rolling again"
+          - "Through the wet lands down where the nature is plain"
+          - "And when it's getting messy I'm taking the blame"
+          - "Cause I need you to stay on my Tekkno train"
+      - lines:
+          - "There is a whole new world"
+          - "That you need to explore, it's the sound of the rail"
+          - "That you love and adore, we're riding on and on"
+          - "Through the valley of love"
+          - "Cause all you got is what"
+          - "All you got is what I want"
+      - lines:
+          - "Destination love"
+          - "Pleasure up above"
+          - "You really can't stop the heat"
+          - "I got lipstick on my feet"
+          - "Licky, licky"
+          - "Sucky, sucky"
+          - "Yeah you make my lolly poppy candy time"
+          - "Go get your dinner for one"
+      - lines:
+          - "You better go stuff your face"
+          - "Before it's too late"
+          - "Cause they're standing in line"
+          - "To grab a piece of the cake"
+          - "And when the feast is over we'll see us again"
+          - "Next week same time on the Tekkno train"
+      - lines:
+          - "There is a whole new world"
+          - "That you need to explore, it's the sound of the rail"
+          - "That you love and adore, we're ridin' on and on"
+          - "Through the valley of love"
+          - "Cause all you got is what all you got is what"
+      - lines:
+          - "There is a whole new world"
+          - "That you need to explore, it's the sound of the rail"
+          - "That you love and adore, we're ridin' on and on"
+          - "Through the valley of love"
+          - "Cause all you got is what"
+          - "All you got is what I want"
+      - lines:
+          - "Your attention please"
+          - "The 69 EC service Tekkno train on platform A,M,P and V"
+          - "To climax city is arriving ahead of schedule"
+          - "We are sorry for any lost enjoyment"
+      - lines:
+          - "I'm gonna take it right now! Hand it over!"
+          - "This ride is free but I really need to feel it now! Hand it over!"
+          - "Boom boom pow there you go"
+      - lines:
+          - "Choo, choo choo, choo choo, choo choo"
+          - "We're riding on the Tekkno train choo, choo choo, choo"
+          - "We're riding out of town"
+      - lines:
+          - "There is a whole new world"
+          - "That you need to explore, it's the sound of the rail"
+          - "That you love and adore, we're riding on and on"
+          - "Through the valley of love"
+          - "Cause all you got is what all you got is what"
+      - lines:
+          - "There is a whole new world"
+          - "That you need to explore, it's the sound of the rail"
+          - "That you love and adore, we're riding on and on"
+          - "Through the valley of love"
+          - "Cause all you got is what"
+          - "All you got is what I want"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Salite, salite"
+          - "Sul treno Tekkno adesso"
+          - "Prendete il vostro posto"
+          - "Apritevi, sentite il basso che picchia dentro di voi"
+          - "Tremante tremante, sudato sudato"
+          - "Tu rendi il mio spaghetti pronto"
+          - "Scalda la salsa, è una cena per uno"
+      - lines:
+          - "Meglio che ti aggrappi forte"
+          - "Perché stiamo ripartendo"
+          - "Attraverso le terre umide, dove la natura è semplice"
+          - "E quando diventa un casino ne do la colpa"
+          - "Perché ho bisogno che tu resti sul mio treno Tekkno"
+      - lines:
+          - "C'è tutto un mondo nuovo"
+          - "Che devi esplorare, è il suono della rotaia"
+          - "Che ami e adorì, stiamo proseguendo e proseguendo"
+          - "Attraverso la valle dell'amore"
+          - "Perché tutto quello che hai è ciò"
+          - "Tutto quello che hai è ciò che voglio"
+      - lines:
+          - "Destinazione amore"
+          - "Piacere lassù in alto"
+          - "Non puoi davvero fermare il calore"
+          - "Ho il rossetto sui piedi"
+          - "Leccoso, leccoso"
+          - "Succhiatore, succhiatore"
+          - "Sì, tu rendi il mio leccalecca un momento di zucchero caramella"
+          - "Vai a prenderti la cena per uno"
+      - lines:
+          - "Meglio che ti riempia la faccia"
+          - "Prima che sia troppo tardi"
+          - "Perché sono già in fila"
+          - "Per prendere un pezzo della torta"
+          - "E quando la festa sarà finita ci vedremo di nuovo"
+          - "La settimana prossima, stesso ora, sul treno Tekkno"
+      - lines:
+          - "C'è tutto un mondo nuovo"
+          - "Che devi esplorare, è il suono della rotaia"
+          - "Che ami e adorì, stiamo proseguendo e proseguendo"
+          - "Attraverso la valle dell'amore"
+          - "Perché tutto quello che hai è ciò, tutto quello che hai è ciò"
+      - lines:
+          - "C'è tutto un mondo nuovo"
+          - "Che devi esplorare, è il suono della rotaia"
+          - "Che ami e adorì, stiamo proseguendo e proseguendo"
+          - "Attraverso la valle dell'amore"
+          - "Perché tutto quello che hai è ciò"
+          - "Tutto quello che hai è ciò che voglio"
+      - lines:
+          - "Attenzione per favore"
+          - "Il servizio 69 EC treno Tekkno al binario A, M, P e V"
+          - "La città dell'orgasmo sta arrivando in anticipo"
+          - "Ci scusiamo per qualsiasi svago perso"
+      - lines:
+          - "Me lo prendo adesso! Passamelo!"
+          - "Questo viaggio è gratis ma devo davvero sentirlo adesso! Passamelo!"
+          - "Boom boom pow, eccola a te"
+      - lines:
+          - "Trenè, trenè trenè, trenè trenè, trenè trenè"
+          - "Stiamo proseguendo sul treno Tekkno, trenè, trenè trenè, trenè"
+          - "Stiamo uscendo dalla città"
+      - lines:
+          - "C'è tutto un mondo nuovo"
+          - "Che devi esplorare, è il suono della rotaia"
+          - "Che ami e adorì, stiamo proseguendo e proseguendo"
+          - "Attraverso la valle dell'amore"
+          - "Perché tutto quello che hai è ciò, tutto quello che hai è ciò"
+      - lines:
+          - "C'è tutto un mondo nuovo"
+          - "Che devi esplorare, è il suono della rotaia"
+          - "Che ami e adorì, stiamo proseguendo e proseguendo"
+          - "Attraverso la valle dell'amore"
+          - "Perché tutto quello che hai è ciò"
+          - "Tutto quello che hai è ciò che voglio"
+---
