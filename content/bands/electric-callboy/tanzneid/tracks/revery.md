@@ -1,0 +1,170 @@
+---
+title: "Revery"
+slug: "revery"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Hush, my darling"
+          - "Can you see the midnight sun?"
+          - "Midnight sun"
+          - "Close your eyes"
+          - "It's time to dream the night has come"
+          - "Night has come"
+          - "Don't be scared"
+          - "Just let the darkness hold you tight"
+          - "Hold you tight"
+          - "Tip, tap, tip, tap, follow me"
+          - "Into the light"
+      - lines:
+          - "I wanna float away, leave my body behind"
+          - "When I deep dive right into a world left behind"
+          - "I can see the scary faces, they're smiling at me"
+          - "And it feels like they wanna break out to be free"
+      - lines:
+          - "Faces, I see those faces"
+          - "And they keep on coming back, back"
+          - "Can you see those faces, the scary faces?"
+          - "Tell me what you want, what you want from me"
+      - lines:
+          - "Revery"
+          - "You took the loneliness away from me"
+          - "Don't wanna feel like a puppet"
+          - "I see your leash, I'm gonna cut it"
+          - "All I need is revery"
+          - "You will forever be a part of me"
+          - "Don't wanna feel like a puppet"
+          - "I see your leash, I'm gonna cut it"
+          - "You make me feel alive"
+      - lines:
+          - "And I cannot get away, they are guiding my steps"
+          - "My fear is a secret that needs to be kept"
+          - "Together we will face what is hiding in the dark"
+          - "And follow the path where the nightmares spark"
+      - lines:
+          - "Faces, I see those faces"
+          - "And they keep on coming back, back"
+          - "Can you see those faces, the scary faces?"
+          - "Tell me what you want, what you want from me"
+      - lines:
+          - "Revery"
+          - "You took the loneliness away from me"
+          - "Don't wanna feel like a puppet"
+          - "I see your leash, I'm gonna cut it"
+          - "All I need is revery"
+          - "You will forever be a part of me"
+          - "Don't wanna feel like a puppet"
+          - "I see your leash, I'm gonna cut it"
+          - "You make me feel alive"
+      - lines:
+          - "I steal all your dreams, I feed on the light"
+          - "Follow my call, you'll be mine tonight"
+          - "I steal all your dreams, I feed on the light"
+          - "I drown your mind in the dark"
+      - lines:
+          - "'Cause I'll be fighting you"
+          - "You will never own me"
+          - "'Cause I'll be fighting you back"
+      - lines:
+          - "Me and the faces will put you in places"
+          - "Where all the lights are leaving your soul"
+          - "Cannot deny you're gonna die"
+          - "It's your time to bow"
+          - "Down"
+          - "You're gonna die, you're gonna die"
+      - lines:
+          - "Revery"
+          - "You took the loneliness away from me"
+          - "Don't wanna feel like a puppet"
+          - "I see your leash, I'm gonna cut it"
+          - "All I need is revery"
+          - "You will forever be a part of me"
+          - "Don't wanna feel like a puppet"
+          - "I see your leash, I'm gonna cut it"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Shhh, mio caro"
+          - "Riesci a vedere il sole di mezzanotte?"
+          - "Sole di mezzanotte"
+          - "Chiudi gli occhi"
+          - "È ora di sognare, la notte è arrivata"
+          - "La notte è arrivata"
+          - "Non avere paura"
+          - "Lascia solo che il buio ti stringa forte"
+          - "Ti stringa forte"
+          - "Tip, tap, tip, tap, seguimi"
+          - "Nella luce"
+      - lines:
+          - "Voglio andarmene, lasciare il mio corpo indietro"
+          - "Quando mi tuffo in profondità in un mondo rimasto indietro"
+          - "Vedo le facce spaventate, mi stanno sorridendo"
+          - "E sembra che vogliano sfuggire per essere liberi"
+      - lines:
+          - "Facce, vedo quelle facce"
+          - "E continuano a tornare, tornare"
+          - "Riesci a vedere quelle facce, le facce spaventate?"
+          - "Dimmi cosa vuoi, cosa vuoi da me"
+      - lines:
+          - "Revery"
+          - "Mi hai tolto la solitudine"
+          - "Non voglio sentirmi una marionetta"
+          - "Vedo il tuo guinzaglio, lo taglierò"
+          - "Mi serve solo revery"
+          - "Farai parte di me per sempre"
+          - "Non voglio sentirmi una marionetta"
+          - "Vedo il tuo guinzaglio, lo taglierò"
+          - "Tu mi fai sentire vivo"
+      - lines:
+          - "E non riesco a scappare, mi stanno guidando i passi"
+          - "La mia paura è un segreto che va tenuto nascosto"
+          - "Insieme affronteremo ciò che si nasconde nel buio"
+          - "E seguiremo il sentiero dove si accendono gli incubi"
+      - lines:
+          - "Facce, vedo quelle facce"
+          - "E continuano a tornare, tornare"
+          - "Riesci a vedere quelle facce, le facce spaventate?"
+          - "Dimmi cosa vuoi, cosa vuoi da me"
+      - lines:
+          - "Revery"
+          - "Mi hai tolto la solitudine"
+          - "Non voglio sentirmi una marionetta"
+          - "Vedo il tuo guinzaglio, lo taglierò"
+          - "Mi serve solo revery"
+          - "Farai parte di me per sempre"
+          - "Non voglio sentirmi una marionetta"
+          - "Vedo il tuo guinzaglio, lo taglierò"
+          - "Tu mi fai sentire vivo"
+      - lines:
+          - "Rubo tutti i tuoi sogni, mi nutro di luce"
+          - "Segui la mia chiamata, stanotte sarai mio"
+          - "Rubo tutti i tuoi sogni, mi nutro di luce"
+          - "Affogo la tua mente nel buio"
+      - lines:
+          - "Perché io lotterò contro di te"
+          - "Non mi possiederai mai"
+          - "Perché io ti contrattaccherò"
+      - lines:
+          - "Io e le facce ti metteremo in posti"
+          - "Dove tutte le luci abbandonano la tua anima"
+          - "Non puoi negare che morirai"
+          - "È il tuo momento di inchinarti"
+          - "Giù"
+          - "Morirai, morirai"
+      - lines:
+          - "Revery"
+          - "Mi hai tolto la solitudine"
+          - "Non voglio sentirmi una marionetta"
+          - "Vedo il tuo guinzaglio, lo taglierò"
+          - "Mi serve solo revery"
+          - "Farai parte di me per sempre"
+          - "Non voglio sentirmi una marionetta"
+          - "Vedo il tuo guinzaglio, lo taglierò"
+---
