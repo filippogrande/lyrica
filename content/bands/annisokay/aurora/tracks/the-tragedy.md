@@ -80,7 +80,7 @@ blocks:
           - "And some people just aren't"
       - lines:
           - "She wanna be, wanna be"
-          - "The tragedia"
+          - "The tragedy"
           - "Wanna be, wanna be"
           - "The mess that she's"
           - "Always been, always been"
@@ -99,7 +99,7 @@ blocks:
           - "Una cosa giovane e spezzata"
           - "Indossa il suo dolore come un anello nuziale rubato"
           - "Le piace pensare di essere il veleno"
-          - "Sul labbra, sul labbra del re"
+          - "Sulle labbra, sulle labbra del re"
       - lines:
           - "Vuole essere il relitto, vuole essere dannata"
           - "Vuole rovinare tutto e tutti quelli che aveva"
