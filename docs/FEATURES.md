@@ -39,7 +39,7 @@ ads            <- banner largo e basso, dopo la sezione "chiedi altre canzoni"
 
 Regole delle colonne laterali:
 
-- Il **testo non si stringe** per far posto agli ads: sotto `xl` le colonne laterali **non esistono** e il testo usa tutto lo spazio.
+- Il **testo non si stringa** per far posto agli ads: sotto `xl` le colonne laterali **non esistono** e il testo usa tutto lo spazio.
 - **Non sono sticky**: scorrono con la pagina. Un banner che segue lo scroll è la definizione di invasivo.
 - Non si mettono **tra** originale e traduzione: spezzerebbe la lettura a fronte, che è il motivo per cui il sito esiste.
 - Niente ads **dentro** il blocco delle strofe.
@@ -213,7 +213,7 @@ Messaggio libero + email facoltativa + oggetto. Usato anche per le **richieste d
 
 - **Bot Telegram dedicato** (`@LyricaNotifyBot`), separato dagli altri bot: le segnalazioni non si mescolano con notifiche di casa o di lavoro.
 - Ogni invio produce **un messaggio**: band, album, titolo, link, testo libero, email se presente, data/ora italiane.
-- Se l'invio a Telegram **fallisce**: la pagina risponde con un errore onesto ("non è stato possibile inviare, riprova") e **non finge** che sia andata a buon fine. Nessun coda, nessun retry automatico al lancio.
+- Se l'invio a Telegram **fallisce**: la pagina risponde con un errore onesto ("non è stato possibile inviare, riprova") e **non finge** che sia andato a buon fine. Nessun coda, nessun retry automatico al lancio.
 
 ## Anti-abuso
 
@@ -241,12 +241,12 @@ Messaggio libero + email facoltativa + oggetto. Usato anche per le **richieste d
 
 # Feed RSS e contatori
 
-Tutti e tre i file qui sotto (`rss.xml`, `sitemap.xml`, `robots.txt`) sono **generati dal build**, statici come il resto del sito: nessun servizio esterno, nessuna dipendenza a runtime. Il dominio assoluto è una **costante in `internal/build`** (`https://lyrica.filippomoscatelli.com`): i tre file contengono URL assoluti e il dominio vive in un posto solo, senza variabili d'ambiente.
+Tutti e tre i file qui sotto (`rss.xml`, `sitemap.xml`, `robots.txt`) sono **generati dal build**, statici come il resto del sito: nessun servizio esterno, nessuna dipendenza a runtime. Il dominio assoluto è una **costante in `internal/build`** (`https://lyrica.filippomoscatelli.com`, D101): i tre file contengono URL assoluti e il dominio vive in un posto solo, senza variabili d'ambiente.
 
 ## Feed RSS
 
-- **Un feed per lingua dell'interfaccia**: `/it/rss.xml` e `/en/rss.xml`. Nessun feed a root e **nessun feed per band al lancio**.
-- Contiene le **ultime traduzioni pubblicate**, ordinate per `added_date` decrescente, **limite 30 voci**.
+- **Un feed per lingua dell'interfaccia**: `/it/rss.xml` e `/en/rss.xml`. Nessun feed a root e **nessun feed per band al lancio** (D100).
+- Contiene le **ultime traduzioni pubblicate**, ordinate per `added_date` decrescente, **limite 30 voci** (corretto da 20 a 30 dall'autore).
 - Solo brani con **almeno una traduzione pubblicata**: una voce compare quando la traduzione c'è, non quando il brano viene creato a metà.
 - Ogni voce: titolo del brano, **link assoluto** alla pagina del brano in quella lingua, `guid` stabile (permalink assoluto), `pubDate` in RFC1123 UTC ricavato da `added_date`, e descrizione generata = la meta description (titolo, band, album) più un'anteprima breve delle prime righe della traduzione in italiano (o nella lingua del feed, se presente).
 - RSS 2.0 con **struct tipizzate e `encoding/xml`**: i testi contengono virgolette, apostrofi, `&` e il minore, e solo l'encodificatore li scappa come si deve.
@@ -259,11 +259,11 @@ Tutti e tre i file qui sotto (`rss.xml`, `sitemap.xml`, `robots.txt`) sono **gen
 - Namespace `http://www.sitemaps.org/schemas/sitemap/0.9`, con il namespace `xhtml` dichiarato sull'elemento radice (senza, gli hreflang vengono ignorati).
 - Elenca **tutte le pagine reali prodotte dal build**, per ogni lingua dell'interfaccia: home, elenco band, ogni band, ogni album pubblicato, ogni brano tradotto. Le voci di tracklist con `status: pending` non hanno pagina, quindi non compaiono: la sitemap promette solo URL che rispondono.
 - Ogni URL: `loc` assoluto, `lastmod` in ISO 8601 (per un brano la sua `added_date`; per album e band la data più recente dei brani pubblicati sotto, omessa quando non ci sono), `changefreq` e `priority` coerenti (home 1.0, elenco band 0.8, band 0.7, album 0.6, brano 0.5).
-- **hreflang reciproci**: ogni pagina si dichiara in ogni lingua dell'interfaccia più `x-default` verso l'italiano. Gli stessi legami sono nel `<head>` di ogni pagina: le due liste non possono divergere.
+- **hreflang reciproci**: ogni pagina si dichiara in ogni lingua dell'interfaccia più `x-default` verso l'italiano (D104). Gli stessi legami sono nel `<head>` di ogni pagina: le due liste non possono divergere.
 
 ## robots.txt
 
-- Generato dal build, **non statico nel repo**: le righe `Sitemap` contengono gli URL assoluti di `sitemap.xml` e dei `rss.xml` di ogni lingua, e una lista di linghe scritta a mano diventerebbe subito falsa (D69).
+- Generato dal build, **non statico nel repo** (D99): le righe `Sitemap` contengono gli URL assoluti di `sitemap.xml` e dei `rss.xml` di ogni lingua, e una lista di lingue scritta a mano diventerebbe subito falsa (D69).
 - Permesso a tutti (`User-agent: *`, `Allow: /`): il sito è pubblico e l'indicizzazione è il punto.
 
 ## Contatori pubblici
@@ -276,9 +276,10 @@ Mostrano il valore del sito a colpo d'occhio:
 | **Band** | band con almeno un album che ha almeno un brano tradotto (`publishedAlbums`) |
 | **Lingue** | le lingue di **traduzione di arrivo** (`Catalog.TranslationLangs`, D69 e D96) |
 
-La semantica delle **lingue** è una decisione esplicita (D104): si mostra ciò che un lettore può trovare — oggi italiano e inglese, quindi **2** — e **non** tutte le lingue originali tradotte, che darebbero 3 per via del tedesco "completo" di un brano bilingue (D96). Il tedesco è una versione completa in pagina, non un'interfaccia in tedesco.
+La semantica delle **lingue** è una decisione esplicita (D103): si mostra ciò che un lettore può trovare — oggi italiano e inglese, quindi **2** — e **non** tutte le lingue originali tradotte, che darebbero 3 per via del tedesco "completo" di un brano bilingue (D96). Il tedesco è una versione completa in pagina, non un'interfaccia in tedesco.
 
-- Sono **calcolati a build time** dai contenuti: nessun numero scritto a mano che possa divergere dalla realtà.
+- Sono **calcolati a build time** dai contenuti (D102): nessun numero scritto a mano che possa divergere dalla realtà.
+- Usano le **stesse regole con cui il build decide se una pagina esiste**: un contatore con un criterio diverso conterrebbe pagine che non ci sono.
 - **Comprimono**: un brano con 4 lingue conta 1 brano, non 4. L'obiettivo è mostrare che il sito cresce, non gonfiare i numeri.
 - Dove: **homepage** (sotto la presentazione) e **footer**, stessa riga e stessi numeri.
 - Le etichette sono chiavi di locale (`stats.tracks`, `stats.bands`, `stats.langs`) in `locales/it.yaml` e `locales/en.yaml`.
