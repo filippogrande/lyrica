@@ -8,7 +8,7 @@ templ Home(v HomeView) {
 		<section class="home-hero">
 			<h1 class="home-title">{ v.Page.T("home.title") }</h1>
 			<p class="lead">{ v.Page.T("home.lead") }</p>
-			<p class="home-stats">{ v.Page.Stats.Line(v.Page.Bundle, v.Page.Lang) }</p>
+			@StatsLine(v.Page)
 		</section>
 		if v.HasContent() {
 			for _, rail := range v.Rails {

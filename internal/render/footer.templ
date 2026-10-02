@@ -20,7 +20,7 @@ templ Footer(d PageData) {
 					<a href={ d.FeedURL() }>{ d.T("footer.rss") }</a>
 				</li>
 			</ul>
-			<p class="footer-line footer-stats">{ d.Stats.Line(d.Bundle, d.Lang) }</p>
+			@StatsLine(d)
 			<p class="footer-line">
 				{ d.T("footer.credits_covers") }
 				<a href="https://coverartarchive.org/">Cover Art Archive</a>
