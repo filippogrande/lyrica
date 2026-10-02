@@ -15,6 +15,24 @@
 - **Nessuno script inline**: la CSP non ammette `unsafe-inline`, quindi anche il tema è un file (`assets/js/theme.js`) caricato nel `<head>` **prima** del paint.
 - **`theme.js` mette la classe `.js` su `<html>`**: il CSS che nasconde contenuto in attesa di JS (lingue del brano) vale solo lì, così senza JS non sparisce niente.
 
+## Cosa sta nel `<head>`
+
+Gli elementi che il browser e i motori di ricerca usano senza passare dal contenuto. Sono in `internal/render/layout.templ` e sono gli stessi per tutte le pagine:
+
+| Elemento | Che cosa è | Note |
+|---|---|---|
+| `charset`, `viewport` | come prima | — |
+| `title` | il titolo della pagina | — |
+| foglio di stile | Bootstrap vendor + `lyrica.css` | dal repo, non da CDN |
+| `<link rel="alternate" type="application/rss+xml">` | il feed della **lingua corrente**, con `href` **assoluto** | D100 |
+| `<link rel="alternate" hreflang="…">` | la pagina in ogni **lingua dell'interfaccia**, più `x-default` sull'italiano | D104 |
+| `assets/js/theme.js` | il tema, prima del primo paint | file esterno, la CSP resta senza `unsafe-inline` |
+
+- Gli hreflang hanno `href` **assoluto** (`PageData.AlternateLinks()` → `AbsURL`): il dominio viene da `siteBaseURL` in `internal/build`, D101.
+- Le **stesse liste** sono nelle voci della sitemap: le due non possono divergere, quindi il `head` e `sitemap.go` costruiscono gli alternati dallo stesso fatto (le lingue dell'interfaccia più l'italiano come `x-default`).
+- La **404** non ha versioni per lingua e si esclude dagli alternati (`PageData.NoAlternates`): un `hreflang` che porta alla home mentirebbe.
+- I parametri `?orig=` e `?lang=` non entrano negli alternati: sono preferenze di lettura, non pagine diverse.
+
 ## Griglia e breakpoints
 
 Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
@@ -27,7 +45,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | Hero della pagina brano | copertina `col-12 col-md-4`, anagrafica `col-12 col-md-8`; sotto `md` si impilano |
 | Card album (corsie delle pagine band e album) | stessa misura delle card di corsia (`--rail-card`) |
 | Corsie | card larghe `--rail-card`: **10rem** su mobile, **12rem** da `md` |
-| Header | sticky sempre, nav compressa sotto `lg` con offcanvas |
+| Header | sticky sempre, nav compresso sotto `lg` con offcanvas |
 
 ## Tipografia
 
@@ -60,7 +78,8 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Intestazione di lato** | in cima a **ogni** colonna della pagina brano: nome del lato (`ORIGINALE` / `TRADUZIONE`) e la lingua — **menu** (`<select>`) dove c'è più di una lingua da scegliere, **etichetta fissa** dove la lingua è una sola. C'è su entrambi i lati sempre: è quello che tiene allineate le colonne (D92, D94, D95) |
 | **Etichetta di stato** | motivo per cui una traccia non ha una pagina: "In arrivo", "Strumentale", "Solo originale" (classe `.track-flag`, testo dai locale) |
 | **Strofa** | blocco di testo con eventuale nome del cantante sopra |
-| **Footer** | disclaimer, licenza CC, contatti, RSS, contatori |
+| **Riga dei contatori** | la stessa riga in **home** (sotto la presentazione) e nel **footer**: `StatsLine` in `stats.templ`, numeri calcolati dal build, separatore `·`, etichette dai locale |
+| **Footer** | disclaimer, licenza CC, **link al feed RSS della lingua corrente** (URL assoluto), riga dei contatori, attribuzione delle immagini |
 
 ## Accessibilità (requisiti, non buone intenzioni)
 
@@ -130,7 +149,7 @@ Band — Album                ← riga 2, in secondo piano
 ## Scorrimento senza JavaScript
 
 - La corsia è un **elenco `<ul>` che scorre lateralmente** (`overflow-x: auto` + `scroll-snap-type: x proximity`): swipe sul telefono, rotella o frecce da tastiera. **Nessun carosello**, nessuno scorrimento automatico, nessun pallino di paginazione: le card restano nel flusso del documento e sono leggibili da uno screen reader.
-- Ogni card è **un link normale**: si apre in una nuova scheda, si copia, si mette nei preferiti. Nessun click intercettato da JS.
+- Ogni card è un **link normale**: si apre in una nuova scheda, si copia, si mette nei preferiti. Nessun click intercettato da JS.
 - Larghezza della card: custom property **`--rail-card`** (10rem su mobile, 12rem da `md`), immagine sempre **1:1** (`aspect-ratio`).
 - L'unica scorciatoia è **"Tutte le band"** nella corsia delle band della home: l'elenco dei brani non esiste come pagina, quindi non c'è un "vedi tutti".
 
@@ -157,7 +176,7 @@ Il budget delle immagini si misura **sul numero di immagini che una pagina caric
 - La **pagina Bands** mostra le band come card con foto (stesso formato delle corsie, D87): una pagina con N band dichiara N immagini, tutte `lazy` e con dimensioni dichiarate, quindi contano solo quando si scorre.
 - La **pagina band** ha due corsie (album e brani della band) più la foto: anche qui tutto è `lazy` e con dimensioni dichiarate. La **pagina album** aggiunge la corsia degli altri album, la **pagina brano** la copertina dell'album in alto.
 - Le immagini caricate dall'autore sono **600x600 webp, una sola dimensione** (D78): nessuna miniatura separata, nessun ridimensionamento a runtime.
-- Se una pagina sfonda il budget, **si riduce il numero di card** (o si esclude una corsia), non si alza il budget.
+- Se una pagina sfonda il budget, si **riduce il numero di card** (o si esclude una corsia), non si alza il budget.
 
 ---
 
@@ -237,7 +256,7 @@ La pagina di un album mostra, in quest'ordine (D89):
 │  xl+    │  strofa 2           │  strofa 2               │  xl+
 ├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤
 ├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
-├─ footer ────────────────────────────────────────────────┤
+├─ footer (link al feed, riga dei contatori) ─────────────┤
 ```
 
 Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è quello che fa partire i due testi insieme (D94, D95).
@@ -277,7 +296,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 - Menu ed etichetta hanno la **stessa altezza** (`min-height` in comune, `assets/css/lyrica.css`), quindi le due intestazioni restano pari.
 - **L'intestazione c'è su entrambi i lati sempre** (D94): con il menu presente solo dove c'erano più lingue, il testo di quel lato cominciava più in basso dell'altro e le due colonne risultavano **sfalsate**. Intestazione e testo: sempre, su ogni lato.
 - Il menu è un **`<select>` nativo** (`.lang-select`), con l'`aria-label` tradotto (`track.choose_original`, `track.choose_translation`): si apre col pollice, con la rotella e con la tastiera, senza una riga di codice in più.
-- Ogni voce è l'**etichetta della lingua con la bandiera** (`🇩🇪 DE`): in un brano bilingue la stessa lingua può comparire come originale e come **versione completa**, e le due voci sono due testi diversi — il lato dice quale dei due si sta leggendo (D96).
+- Ogni voce è l'**etichetta della lingua con la bandiera** (`🇩🇪 DE`): in un brano bilingue la stessa lingua può comparire come originale e come **versione completa**, e le due voci sono due testi diversi — il lato dice quale delle due si sta leggendo (D96).
 - **Tutte le lingue del brano sono nel DOM**: il cambio è lato client e **istantaneo**, nessuna chiamata al server, funziona **offline** (come il filtro delle band, D87).
 - La lingua scelta si riflette nell'URL via `history.replaceState`: **`?lang=de`** per la traduzione, **`?orig=de`** per l'originale. Il link si copia e si condivide, e chi lo apre trova la lingua scelta (lo script applica il parametro al caricamento); nessuna pagina separata e nessun URL duplicato.
 - La lingua si legge **nell'intestazione del lato** (`ORIGINALE 🇩🇪 DE`, `TRADUZIONE 🇮🇹 IT`), attaccata al testo che si sta leggendo: non c'è un titolo di colonna lontano dal testo. Il **traduttore**, quando dichiarato, sta sotto l'intestazione della traduzione (`track.translator`).
@@ -288,9 +307,10 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 
 - Una lingua si scrive **sempre come bandiera + codice** (`🇩🇪 DE`, `🇬🇧 EN`, `🇮🇹 IT`): la bandiera si legge prima, il codice dice la lingua esatta a chi non distingue le bandiere e a chi usa uno screen reader.
 - La mappa sta in `internal/render/lang_flags.go`; l'**inglese è 🇬🇧** (scelta dichiarata dall'autore). Una lingua senza bandiera — o un codice non previsto — mostra il **globo 🌐**: meglio un segno dichiarato che una bandiera inventata.
-- Le etichette si usano **ovunque si nominano lingue**: anagrafiche (brano, album), tracklist dell'album, intestazioni dei lati e voci dei menu. Nessuna pagina scrive più un codice lingua nudo.
+- Le etichette si usano **ovunque si nominano lingue**: anagrafiche (brano, album), tracklist, intestazioni dei lati e voci dei menu. Nessuna pagina scrive più un codice lingua nudo.
 - I codici lingua restano quelli dello schema (`de`, `it`, `es`…): **non si traducono** e viaggiano nell'URL (`?lang=de`), dove una bandiera non ha senso.
 - In un **elenco di lingue** (anagrafica dell'album, tracklist) i codici ripetuti contano **una volta sola**, in ordine alfabetico (`LangLabels`); nell'**anagrafica del brano** invece ogni blocco è una voce e la stessa lingua può comparire due volte (`LangLabelsRepeated`, D97).
+- I **contatori pubblici** hanno una semantica propria: il numero delle lingue è quello delle **traduzioni di arrivo** (D103), cioè ciò che un lettore può trovare qui, non tutte le lingue originali tradotte.
 
 ## Sezione "chiedi altre canzoni"
 
@@ -348,6 +368,8 @@ Il ragionamento è quello dell'utente: se un brano tedesco ha traduzioni in ital
 
 Caso iniziale: **italiano + inglese**, con le successive quando la prima traduzione in quella lingua entra nel sito.
 
+Questa stessa semantica governa il **contatore delle lingue** in home e nel footer (D103): il numero è quello delle lingue di traduzione di arrivo, quindi non può divergere dalle lingue in cui il sito è davvero disponibile.
+
 ## Come si implementa
 
 - Italiano = default e **fallback di tutto**.
@@ -359,7 +381,7 @@ Caso iniziale: **italiano + inglese**, con le successive quando la prima traduzi
 
 - Ogni pagina esiste con **path prefix lingua**: `/it/band/...`, `/en/band/...`.
 - **La radice `/` non è una pagina**: risponde con un **redirect** verso la lingua negoziata.
-- Ogni pagina dichiara `<link rel="alternate" hreflang="...">` per tutte le lingue disponibili + `x-default`.
+- Ogni pagina dichiara `<link rel="alternate" hreflang="...">` per tutte le lingue disponibili + `x-default`, con **`href` assoluto** (vedi "Cosa sta nel `<head>`", D101, D104). Le stesse liste sono nella sitemap: le due non possono divergere.
 - `canonical` sempre verso l'URL corrente.
 - I link interni passano **sempre** dal prefisso di lingua (helper di percorso), dalle corsie della home in poi: un link costruito a mano senza prefisso è un 404.
 - I **parametri della lingua del testo** (`?orig=`, `?lang=`) sono preferenze di lettura, non pagine: non entrano in `canonical` né in `hreflang`.
@@ -385,7 +407,7 @@ Non cambiano: i contenuti dei brani (sono dato, non interfaccia) e gli slug (ste
 
 ## Validazione
 
-Il validatore controlla che tutte le lingue di `locales/` abbiano **le stesse chiavi** del locale italiano. Segnala anche (warning) quando una lingua di traduzione presente nei contenuti **non ha** un locale di interfaccia: è il promemoria che quella lingua ha ormai un pubblico. L'avviso **non vale** per una traduzione verso una lingua che il brano ha già come originale (D96, confermata in D97): lì il pubblico non cambia.
+Il validatore controlla che tutte le lingue di `locales/` abbiano le **stesse chiavi** del locale italiano. Segnala anche (warning) quando una lingua di traduzione presente nei contenuti **non ha** un locale di interfaccia: è il promemoria che quella lingua ha ormai un pubblico. L'avviso **non vale** per una traduzione verso una lingua che il brano ha già come originale (D96, confermata in D97): lì il pubblico non cambia.
 
 ---
 
@@ -394,8 +416,8 @@ Il validatore controlla che tutte le lingue di `locales/` abbiano **le stesse ch
 ## Cosa si cerca
 
 1. **Titoli** dei brani
-2. **Nomi delle band**
-3. **Versi dei testi** (originali e traduzioni)
+2. **Nomi** delle band
+3. **Versi** dei testi (originali e traduzioni)
 
 La ricerca per verso è la ragione per cui la ricerca esiste: chi ricorda "quella frase" non ricorda il titolo.
 
