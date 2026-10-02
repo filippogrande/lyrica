@@ -15,7 +15,7 @@ Quando sono spente, **il DOM non contiene nemmeno i contenitori**: il testo pren
 ## Principi (se e quando si attivano)
 
 1. **Non invasive**: piccole, statiche, mai popup, mai interstitial, mai sticky.
-2. **Nessun tracking**: banner serviti dallo stesso dominio, nessuno script di terze parti, nessun cookie di profilazione.
+2. **Nessun tracking**: banner serviti dallo stesso dominio, nessun script di terze parti, nessun cookie di profilazione.
 3. **Coerenti con la privacy**: se una pubblicità introducesse tracciamento servirebbero consenso e banner — quindi non si introduce.
 4. **Contano nel budget**: lo spazio occupato fa parte dei ~300 KB per pagina.
 
@@ -34,12 +34,12 @@ ads            <- banner largo e basso, dopo la sezione "chiedi altre canzoni"
 | Slot | Dove | Formato | Visibilità |
 |---|---|---|---|
 | `track_top` | sopra il titolo del brano | banner largo e basso | sempre |
-| `side_left` / `side_right` | ai **lati** delle due colonne di testo | verticale stretto | **solo da `xl` in su** |
+| `side_left` / `side_right` | ai **lati** delle due colonne di testo | verticale stretta | **solo da `xl` in su** |
 | `track_bottom` | dopo "chiedi altre canzoni" | banner largo e basso | sempre |
 
 Regole delle colonne laterali:
 
-- Il **testo non si stringe** per far posto agli ads: sotto `xl` le colonne laterali **non esistono** e il testo usa tutto lo spazio.
+- Il **testo non si stringa** per far posto agli ads: sotto `xl` le colonne laterali **non esistono** e il testo usa tutto lo spazio.
 - **Non sono sticky**: scorrono con la pagina. Un banner che segue lo scroll è la definizione di invasivo.
 - Non si mettono **tra** originale e traduzione: spezzerebbe la lettura a fronte, che è il motivo per cui il sito esiste.
 - Niente ads **dentro** il blocco delle strofe.
@@ -94,7 +94,7 @@ Le immagini pubblicitarie vivono nel repo, come le cover: il sito non chiama dom
 
 | Evento | Quando | A cosa serve |
 |---|---|---|
-| `search` | una ricerca produce risultati | capire cosa la gente cerca e non trova |
+| `search` | una ricerca produce risultati | capire cosa cerca la gente e non trova |
 | `search_empty` | una ricerca non produce risultati | materia prima per le prossime traduzioni |
 | `lang_switch` | cambio della lingua del testo | quali traduzioni servono davvero |
 | `ui_lang_switch` | cambio della lingua dell'interfaccia | quali lingue di interfaccia valgono la pena |
@@ -155,7 +155,7 @@ Il sito **non ha account e non salva dati personali** sul server. Questo semplif
 - Base giuridica: consenso implicito nell'invio + interesse legittimo a rispondere.
 - Conservazione: il messaggio sulla chat Telegram finché è utile; **sul sito, nessuna conservazione**.
 - Destinatari: Telegram (come piattaforma di recapito).
-- Diritti: cancellazione su richiesta, via lo stesso form.
+- Diritti: cancellazione su richiesta, via stesso form.
 
 ### Cookie
 
@@ -213,7 +213,7 @@ Messaggio libero + email facoltativa + oggetto. Usato anche per le **richieste d
 
 - **Bot Telegram dedicato** (`@LyricaNotifyBot`), separato dagli altri bot: le segnalazioni non si mescolano con notifiche di casa o di lavoro.
 - Ogni invio produce **un messaggio**: band, album, titolo, link, testo libero, email se presente, data/ora italiane.
-- Se l'invio a Telegram **fallisce**: la pagina risponde con un errore onesto ("non è stato possibile inviare, riprova") e **non finge** che sia andata a buon fine. Nessuna coda, nessun retry automatico al lancio.
+- Se l'invio a Telegram **fallisce**: la pagina risponde con un errore onesto ("non è stato possibile inviare, riprova") e **non finge** che sia andato a buon fine. Nessun coda, nessun retry automatico al lancio.
 
 ## Anti-abuso
 
@@ -241,15 +241,30 @@ Messaggio libero + email facoltativa + oggetto. Usato anche per le **richieste d
 
 # Feed RSS e contatori
 
+Tutti e tre i file qui sotto (`rss.xml`, `sitemap.xml`, `robots.txt`) sono **generati dal build**, statici come il resto del sito: nessun servizio esterno, nessuna dipendenza a runtime. Il dominio assoluto è una **costante in `internal/build`** (`https://lyrica.filippomoscatelli.com`, D101): i tre file contengono URL assoluti e il dominio vive in un posto solo, senza variabili d'ambiente.
+
 ## Feed RSS
 
-- **Un feed per lingua dell'interfaccia**: `/it/rss.xml` (e `/en/rss.xml` quando ci sarà l'inglese).
-- Contiene le **ultime traduzioni pubblicate**, ordinate per `added_date` decrescente, limite 20 voci.
-- Ogni voce: titolo del brano, band, link, data, descrizione generata (lingue disponibili), autore della traduzione se presente.
-- Nel `<head>` di ogni pagina: `<link rel="alternate" type="application/rss+xml">`.
+- **Un feed per lingua dell'interfaccia**: `/it/rss.xml` e `/en/rss.xml`. Nessun feed a root e **nessun feed per band al lancio** (D100).
+- Contiene le **ultime traduzioni pubblicate**, ordinate per `added_date` decrescente, **limite 30 voci** (corretto da 20 a 30 dall'autore).
+- Solo brani con **almeno una traduzione pubblicata**: una voce compare quando la traduzione c'è, non quando il brano viene creato a metà.
+- Ogni voce: titolo del brano, **link assoluto** alla pagina del brano in quella lingua, `guid` stabile (permalink assoluto), `pubDate` in RFC1123 UTC ricavato da `added_date`, e descrizione generata = la meta description (titolo, band, album) più un'anteprima breve delle prime righe della traduzione in italiano (o nella lingua del feed, se presente).
+- RSS 2.0 con **struct tipizzate e `encoding/xml`**: i testi contengono virgolette, apostrofi, `&` e il minore, e solo l'encodificatore li scappa come si deve.
+- Nel `<head>` di ogni pagina: `<link rel="alternate" type="application/rss+xml">` con `href` **assoluto** verso il feed della lingua corrente.
 - Link al feed nel **footer**.
-- Il feed è **statico**, generato a build time: nessun servizio di feed.
-- Una voce compare **quando la traduzione è pubblicata**, non quando il brano viene creato a metà. Nessun feed per band al lancio.
+
+## sitemap.xml
+
+- **Un unico file alla root**, non uno per lingua (D99): le versioni linguistiche della stessa pagina sono un'unica URL con degli alternati.
+- Namespace `http://www.sitemaps.org/schemas/sitemap/0.9`, con il namespace `xhtml` dichiarato sull'elemento radice (senza, gli hreflang vengono ignorati).
+- Elenca **tutte le pagine reali prodotte dal build**, per ogni lingua dell'interfaccia: home, elenco band, ogni band, ogni album pubblicato, ogni brano tradotto. Le voci di tracklist con `status: pending` non hanno pagina, quindi non compaiono: la sitemap promette solo URL che rispondono.
+- Ogni URL: `loc` assoluto, `lastmod` in ISO 8601 (per un brano la sua `added_date`; per album e band la data più recente dei brani pubblicati sotto, omessa quando non ci sono), `changefreq` e `priority` coerenti (home 1.0, elenco band 0.8, band 0.7, album 0.6, brano 0.5).
+- **hreflang reciproci**: ogni pagina si dichiara in ogni lingua dell'interfaccia più `x-default` verso l'italiano (D104). Gli stessi legami sono nel `<head>` di ogni pagina: le due liste non possono divergere.
+
+## robots.txt
+
+- Generato dal build, **non statico nel repo** (D99): le righe `Sitemap` contengono gli URL assoluti di `sitemap.xml` e dei `rss.xml` di ogni lingua, e una lista di lingue scritta a mano diventerebbe subito falsa (D69).
+- Permesso a tutti (`User-agent: *`, `Allow: /`): il sito è pubblico e l'indicizzazione è il punto.
 
 ## Contatori pubblici
 
@@ -257,15 +272,19 @@ Mostrano il valore del sito a colpo d'occhio:
 
 | Contatore | Definizione esatta |
 |---|---|
-| **Brani tradotti** | brani con almeno una traduzione pubblicata |
-| **Band** | band con almeno un album visibile |
-| **Lingue** | lingue di traduzione presenti nei contenuti |
+| **Brani tradotti** | brani con almeno una traduzione pubblicata (`HasTranslations`) |
+| **Band** | band con almeno un album che ha almeno un brano tradotto (`publishedAlbums`) |
+| **Lingue** | le lingue di **traduzione di arrivo** (`Catalog.TranslationLangs`, D69 e D96) |
 
-- Sono **calcolati a build time** dai contenuti: nessun numero scritto a mano che possa divergere dalla realtà.
-- **Comprimono bene**: un brano con 4 lingue conta 1 brano, non 4. L'obiettivo è mostrare che il sito cresce, non gonfiare i numeri.
-- Dove: **homepage** e **footer**.
+La semantica delle **lingue** è una decisione esplicita (D103): si mostra ciò che un lettore può trovare — oggi italiano e inglese, quindi **2** — e **non** tutte le lingue originali tradotte, che darebbero 3 per via del tedesco "completo" di un brano bilingue (D96). Il tedesco è una versione completa in pagina, non un'interfaccia in tedesco.
+
+- Sono **calcolati a build time** dai contenuti (D102): nessun numero scritto a mano che possa divergere dalla realtà.
+- Usano le **stesse regole con cui il build decide se una pagina esiste**: un contatore con un criterio diverso conterrebbe pagine che non ci sono.
+- **Comprimono**: un brano con 4 lingue conta 1 brano, non 4. L'obiettivo è mostrare che il sito cresce, non gonfiare i numeri.
+- Dove: **homepage** (sotto la presentazione) e **footer**, stessa riga e stessi numeri.
+- Le etichette sono chiavi di locale (`stats.tracks`, `stats.bands`, `stats.langs`) in `locales/it.yaml` e `locales/en.yaml`.
 - Nessun contatore di visite: le statistiche sono di Umami, non un numero da esibire.
 
-## Perché questi due insieme
+## Perché questi tre insieme
 
-Sono le due facce della stessa idea: il sito si aggiorna nel tempo e chi lo segue non deve andarlo a controllare. Il feed serve a chi lo segue, i contatori a chi arriva per la prima volta.
+Sono le tre facce della stessa idea: il sito si aggiorna nel tempo e chi lo segue non deve andarlo a controllare. Il feed serve a chi lo segue, i contatori a chi arriva per la prima volta, sitemap e robots a chi arriva da un motore di ricerca.
