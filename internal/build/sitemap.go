@@ -2,36 +2,36 @@ package build
 
 import (
 	"encoding/xml"
-	"time"
 
 	"github.com/filippogrande/lyrica/internal/content"
+	"github.com/filippogrande/lyrica/internal/i18n"
+)
+
+const (
+	sitemapNamespace      = "http://www.sitemaps.org/schemas/sitemap/0.9"
+	sitemapXhtmlNamespace = "http://www.w3.org/1999/xhtml"
+	// sitemapDate è il formato di lastmod: la data piena (YYYY-MM-DD) è
+	// ISO 8601 e basta. Metterci l'ora cambierebbe la sitemap a ogni build
+	// senza che cambi il sito.
+	sitemapDate = "2006-01-02"
 )
 
 // sitemapSet è la radice di /sitemap.xml (D99). Il namespace xhtml è
 // dichiarato qui perché i link alternati ci vivono dentro: senza, i motori di
 // ricerca ignorano gli hreflang.
 type sitemapSet struct {
-	XMLName xml.Name          `xml:"urlset"`
-	Xmlns   string            `xml:"xmlns,attr"`
-	Xhtml   string            `xml:"xmlns:xhtml,attr"`
-	URLs    []sitemapURL      `xml:"url"`
+	XMLName xml.Name     `xml:"urlset"`
+	Xmlns   string       `xml:"xmlns,attr"`
+	Xhtml   string       `xml:"xmlns:xhtml,attr"`
+	URLs    []sitemapURL `xml:"url"`
 }
 
-const (
-	sitemapNamespace      = "http://www.sitemaps.org/schemas/sitemap/0.9"
-	sitemapXhtmlNamespace = "http://www.w3.org/1999/xhtml"
-	// sitemapDate è il formato di lastmod: ISO 8601 in data piena, come
-	// chiede lo standard delle sitemap.
-	sitemapDate = "2006-01-02"
-)
-
-// sitemapURL è una pagina del sito. Gli alternati sono reciproci: ogni pagina
-// si dichiara in ogni lingua in cui esiste, più x-default sull'italiano.
+// sitemapURL è una pagina del sito.
 type sitemapURL struct {
-	Loc        string           `xml:"loc"`
-	LastMod    string           `xml:"lastmod,omitempty"`
-	ChangeFreq string           `xml:"changefreq"`
-	Priority   string           `xml:"priority"`
+	Loc        string             `xml:"loc"`
+	LastMod    string             `xml:"lastmod,omitempty"`
+	ChangeFreq string             `xml:"changefreq"`
+	Priority   string             `xml:"priority"`
 	Alternates []sitemapAlternate `xml:"xhtml:link"`
 }
 
@@ -42,6 +42,20 @@ type sitemapAlternate struct {
 	Href     string `xml:"href,attr"`
 }
 
+// sitePage è una pagina reale del sito, indipendente dalla lingua: la stessa
+// pagina in due lingue è lo stesso percorso con un prefisso diverso, quindi si
+// scrive una volta sola e la sitemap ne fa le varianti.
+type sitePage struct {
+	// self è il percorso dentro la lingua ("" = home), con la barra finale.
+	self string
+	// lastmod è la data più recente dei brani pubblicati sotto la pagina,
+	// vuota quando non ce ne sono.
+	lastmod string
+	// changeFreq e priority dicono al motore quanto conta la pagina.
+	changeFreq string
+	priority   string
+}
+
 // writeSitemap genera /sitemap.xml alla root, non per lingua (D99): le
 // versioni linguistiche della stessa pagina sono un'unica URL con degli
 // alternati, quindi un file solo.
@@ -49,7 +63,7 @@ func (w *pageWriter) writeSitemap() error {
 	set := sitemapSet{Xmlns: sitemapNamespace, Xhtml: sitemapXhtmlNamespace}
 	for _, page := range w.sitemapPages() {
 		for _, lang := range w.langs {
-			set.URLs = append(set.URLs, w.sitemapURL(lang, page))
+			set.URLs = append(set.URLs, w.sitemapEntry(lang, page))
 		}
 	}
 	data, err := xml.MarshalIndent(set, "", "  ")
@@ -57,19 +71,6 @@ func (w *pageWriter) writeSitemap() error {
 		return err
 	}
 	return w.writeRaw("sitemap.xml", append([]byte(xml.Header), data...))
-}
-
-// sitePage è una pagina reale del sito, indipendente dalla lingua: la stessa
-// pagina in due lingue ha lo stesso percorso con un prefisso diverso.
-type sitePage struct {
-	// self è il percorso dentro la lingua ("" = home), con la barra finale.
-	self string
-	// lastmod è la data più recente dei brani pubblicati sotto la pagina,
-	// vuota se non ce ne sono.
-	lastmod string
-	// changeFreq e priority dicono al motore quanto conta la pagina.
-	changeFreq string
-	priority   string
 }
 
 // sitemapPages elenca le pagine REALI prodotte dal build: home, elenco band,
@@ -86,89 +87,130 @@ func (w *pageWriter) sitemapPages() []sitePage {
 		if len(albums) == 0 {
 			continue
 		}
-		pages = append(pages, w.bandPage(band, albums))
+		pages = append(pages, bandSitePage(band, albums))
 		for _, album := range albums {
-			pages = append(pages, w.albumPages(band, album)...)
+			pages = append(pages, albumSitePages(band, album)...)
 		}
 	}
 	return pages
 }
 
-// bandPage costruisce la voce di una band: la sua data è la più recente dei
-// brani pubblicati sotto (D79), quindi la stessa che ordina "ultime band".
-func (w *pageWriter) bandPage(band *content.Band, albums []*content.Album) sitePage {
-	var latest content.Date
-	for _, album := range albums {
-		for _, track := range album.Tracks {
-			if track.HasTranslations() && (!latest.IsZero() == false || track.AddedDate.After(latest)) {
-				latest = track.AddedDate
-			}
-		}
-	}
+// bandSitePage costruisce la voce di una band: la sua data è la più recente dei
+// brani pubblicati sotto, la stessa che ordina "ultime band aggiunte" (D79).
+func bandSitePage(band *content.Band, albums []*content.Album) sitePage {
+	latest, ok := latestPublishedDate(publishedTracks(albums))
 	return sitePage{
 		self:       "band/" + band.Slug + "/",
-		lastmod:    isoDate(latest),
+		lastmod:    isoDate(latest, ok),
 		changeFreq: "weekly",
 		priority:   "0.7",
 	}
 }
 
-// albumPages costruisce la voce di un album e quelle dei suoi brani tradotti.
-func (w *pageWriter) albumPages(band *content.Band, album *content.Album) []sitePage {
+// albumSitePages costruisce la voce di un album e quelle dei suoi brani tradotti.
+// L'album ha una priorità più alta del brano: è la pagina che si cerca.
+func albumSitePages(band *content.Band, album *content.Album) []sitePage {
 	base := "band/" + band.Slug + "/album/" + album.Slug + "/"
-	var latest content.Date
 	pages := make([]sitePage, 0, len(album.Tracks)+1)
+	albumPage := sitePage{self: base, changeFreq: "monthly", priority: "0.6"}
 	for _, track := range album.Tracks {
 		if !track.HasTranslations() {
 			continue
 		}
-		if latest.IsZero() || track.AddedDate.After(latest) {
-			latest = track.AddedDate
-		}
+		albumPage.lastmod = laterDate(albumPage.lastmod, track.AddedDate)
 		pages = append(pages, sitePage{
 			self:       base + "brano/" + track.Slug + "/",
-			lastmod:    isoDate(track.AddedDate),
+			lastmod:    isoDate(track.AddedDate, !track.AddedDate.IsZero()),
 			changeFreq: "monthly",
 			priority:   "0.5",
 		})
 	}
-	return append([]sitePage{{
-		self:       base,
-		lastmod:    isoDate(latest),
-		changeFreq: "monthly",
-		priority:   "0.6",
-	}}, pages...)
+	return append([]sitePage{albumPage}, pages...)
 }
 
-// sitemapURL mette una pagina in una lingua, con gli alternati reciproci.
-func (w *pageWriter) sitemapURL(lang string, page sitePage) sitemapURL {
-	url := sitemapURL{
-		Loc:        absoluteURL(langPath(lang, page.self)),
+// sitemapEntry mette una pagina in una lingua, con gli alternati reciproci:
+// la stessa pagina in ogni lingua dell'interfaccia più x-default sull'italiano
+// (D99), che è la lingua in cui il sito è nato.
+func (w *pageWriter) sitemapEntry(lang string, page sitePage) sitemapURL {
+	entry := sitemapURL{
+		Loc:        absoluteURL(langPagePath(lang, page.self)),
 		LastMod:    page.lastmod,
 		ChangeFreq: page.changeFreq,
 		Priority:   page.priority,
 	}
 	for _, alternate := range w.langs {
-		url.Alternates = append(url.Alternates, sitemapAlternate{
+		entry.Alternates = append(entry.Alternates, sitemapAlternate{
 			Rel:      "alternate",
 			Hreflang: alternate,
-			Href:     absoluteURL(langPath(alternate, page.self)),
+			Href:     absoluteURL(langPagePath(alternate, page.self)),
 		})
 	}
-	url.Alternates = append(url.Alternates, sitemapAlternate{
+	entry.Alternates = append(entry.Alternates, sitemapAlternate{
 		Rel:      "alternate",
 		Hreflang: "x-default",
-		Href:     absoluteURL(langPath(defaultLang, page.self)),
+		Href:     absoluteURL(langPagePath(i18n.DefaultLang, page.self)),
 	})
-	return url
+	return entry
 }
 
-// isoDate formatta una data per lastmod: la data piena (YYYY-MM-DD) è ISO 8601
-// e basta — l'ora della build cambierebbe la sitemap a ogni build senza
-// cambiare nulla.
-func isoDate(date content.Date) string {
-	if date.IsZero() {
+// langPagePath mette un percorso di pagina dentro una lingua: la home resta
+// "/<lang>/", tutto il resto "/<lang>/<percorso>".
+func langPagePath(lang, self string) string {
+	if self == "" {
+		return "/" + lang + "/"
+	}
+	return "/" + lang + "/" + self
+}
+
+// publishedTracks raccoglie i brani con almeno una traduzione: le voci senza
+// traduzione non hanno pagina, quindi non contano né per le pagine né per le
+// date.
+func publishedTracks(albums []*content.Album) []*content.Track {
+	var tracks []*content.Track
+	for _, album := range albums {
+		for _, track := range album.Tracks {
+			if track.HasTranslations() {
+				tracks = append(tracks, track)
+			}
+		}
+	}
+	return tracks
+}
+
+// latestPublishedDate è la data del brano pubblicato più recente. La seconda
+// restituzione dice se c'è una data: una band senza brani pubblicati non
+// entra nella sitemap, ma un album può non avere nulla sotto di sé.
+func latestPublishedDate(tracks []*content.Track) (content.Date, bool) {
+	var latest content.Date
+	found := false
+	for _, track := range tracks {
+		if !found || track.AddedDate.After(latest) {
+			latest = track.AddedDate
+			found = true
+		}
+	}
+	return latest, found
+}
+
+// laterDate tiene la data più recente tra una già formattata e quella di un
+// brano. Serve per l'ultmod dell'album, che non è un brano ma la collezione
+// dei suoi.
+func laterDate(current string, candidate content.Date) string {
+	if candidate.IsZero() {
+		return current
+	}
+	formatted := isoDate(candidate, true)
+	if current == "" || formatted > current {
+		return formatted
+	}
+	return current
+}
+
+// isoDate formatta una data per lastmod; vuota quando la data non esiste: un
+// lastmod inventato è peggio di un lastmod assente.
+func isoDate(date content.Date, ok bool) string {
+	if !ok || date.IsZero() {
 		return ""
 	}
-	return date.Time().UTC().Format(time.RFC1123)[:0] + date.Time().UTC().Format(sitemapDate)
+	return date.Time().UTC().Format(sitemapDate)
 }
