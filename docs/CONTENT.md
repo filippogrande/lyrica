@@ -56,27 +56,26 @@ Per le lingue con più alfabeti (giapponese kanji/romaji, cinese semplificato/tr
 
 La lingua base determina la bandiera (`ja` → 🇯🇵, `zh` → 🇨🇳); il subtag mostra il nome descrittivo nell'etichetta (`🇯🇵 JA Kanji`, `🇨🇳 ZH Semplificato`).
 
-Nel front-matter si usano i codici con subtag come lingue distinte — la validazione le tratta come tali per la coppia `role|lang`:
+Entrambe le varianti di scrittura sono **originali** — stesso testo, alfabeto diverso — quindi usano entrambe `role: original` e stanno **entrambe a sinistra** nel selettore dell'originale:
 
 ```yaml
 original_langs: ["ja-Jpan", "ja-Latn"]
 blocks:
   - role: original
-    lang: ja-Jpan      # Kanji (dominante)
+    lang: ja-Jpan      # Kanji/Kana (dominante, prima in original_langs)
     stanzas:
       - lines: ["日本語のテキスト"]
-  - role: translation
-    lang: ja-Latn      # Versione completa in Romaji
-    translator: "..."
+  - role: original
+    lang: ja-Latn      # Romaji = stesso testo, alfabeto latino
     stanzas:
       - lines: ["Nihongo no tekisuto"]
   - role: translation
-    lang: it
+    lang: it           # Traduzione italiana (lato destro)
     stanzas:
       - lines: ["Testo in giapponese"]
 ```
 
-Il selettore del lato originale mostra sia `🇯🇵 JA Kanji` sia `🇯🇵 JA Romaji`; il menu è attivo perché ci sono due lingue da scegliere (D95).
+Il lato sinistro mostra il dropdown con `🇯🇵 JA Kanji` · `🇯🇵 JA Romaji`; il lato destro ha `🇮🇹 IT`. (D99)
 
 ## `band.md`
 
