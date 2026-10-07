@@ -41,6 +41,43 @@ Un brano ha **un solo blocco `original`**, nella lingua **dominante** — quella
 
 Due cose restano **regole di scrittura**, verificate in review e non dalla CI: il blocco `original` è **uno solo**, e la sua lingua è la **prima** di `original_langs`. Il validatore controlla la **coppia** `role` + `lang` (regola 3), non l'ordine dell'array.
 
+### Varianti di scrittura (BCP-47 script subtag)
+
+Per le lingue con più alfabeti (giapponese kanji/romaji, cinese semplificato/tradizionale, serbo cirillico/latino, coreano hangul/latino), il codice BCP-47 accetta un **subtag di scrittura** dopo il trattino (D99):
+
+| Codice | Variante | Esempio |
+|--------|----------|---------|
+| `ja-Jpan` | Giapponese in Kanji/Kana | 日本語 |
+| `ja-Latn` | Giapponese in Romaji | Nihongo |
+| `zh-Hans` | Cinese semplificato | 简体中文 |
+| `zh-Hant` | Cinese tradizionale | 繁體中文 |
+| `sr-Cyrl` | Serbo cirillico | српски |
+| `sr-Latn` | Serbo latino | srpski |
+
+La lingua base determina la bandiera (`ja` → 🇯🇵, `zh` → 🇨🇳); il subtag mostra il nome descrittivo nell'etichetta (`🇯🇵 JA Kanji`, `🇨🇳 ZH Semplificato`).
+
+Nel front-matter si usano i codici con subtag come lingue distinte — la validazione le tratta come tali per la coppia `role|lang`:
+
+```yaml
+original_langs: ["ja-Jpan", "ja-Latn"]
+blocks:
+  - role: original
+    lang: ja-Jpan      # Kanji (dominante)
+    stanzas:
+      - lines: ["日本語のテキスト"]
+  - role: translation
+    lang: ja-Latn      # Versione completa in Romaji
+    translator: "..."
+    stanzas:
+      - lines: ["Nihongo no tekisuto"]
+  - role: translation
+    lang: it
+    stanzas:
+      - lines: ["Testo in giapponese"]
+```
+
+Il selettore del lato originale mostra sia `🇯🇵 JA Kanji` sia `🇯🇵 JA Romaji`; il menu è attivo perché ci sono due lingue da scegliere (D95).
+
 ## `band.md`
 
 ```yaml
@@ -166,7 +203,7 @@ python3 scripts/declare-image.py content/bands/<band>/band.md band <band-slug>.w
 ```
 
 - `fetch-images.sh` è quello che fa il lavoro da solo: per ogni band e ogni album legge i dati già scritti nei file di contenuto, cerca l'identificativo, scarica e scrive il campo. Salta ciò che è a posto e stampa il report (anche nel riepilogo del run, se `GITHUB_STEP_SUMMARY` è impostato).
-- `fetch-covers.sh` scarica **una** immagine dal MBID, converte in **600x600 webp** con ritaglio centrale e **verifica le dimensioni**; `--force` per riscrivere, `--allow-missing` per uscire con 3 invece che con errore quando l'archivio non l'ha. Non tocca i file di contenuto.
+- `fetch-covers.sh` scarica **una** immagine dal MBID, converte in **600x600 webp** con ritaglio centrale e **verifica le dimensioni**; `--force` per riscrivere, `--allow-missing` per uscire con 3 invece che con errore quando l'archivio non ce l'ha. Non tocca i file di contenuto.
 - `declare-image.py` scrive `cover:` / `image:` nel front-matter (aggiorna la riga se c'è, la aggiunge se manca, errore esplicito se non c'è front-matter).
 - Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv (di solito `artistthumb`, si prende quella con più like).
 - Chiavi sul proprio computer: `FANART_API_KEY` / `FANART_CLIENT_KEY`, oppure una riga in `~/.fanart_api_key` / `~/.fanart_client_key`. Basta una delle due. **Mai nel repo**, mai stampate, mai nell'URL.
