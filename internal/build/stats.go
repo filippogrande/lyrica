@@ -5,7 +5,7 @@ import (
 	"github.com/filippogrande/lyrica/internal/render"
 )
 
-// siteStats calcola i contatori pubblici del sito dai contenuti (D62, D103).
+// siteStats calcola i contatori pubblici del sito dai contenuti (D62, D105).
 //
 // I numeri sono SEMPRE calcolati, mai scritti a mano: un contatore nel repo può
 // solo divergere dalla realtà. I tre valori comprimono, perché l'obiettivo è
