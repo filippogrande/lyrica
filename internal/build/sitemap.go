@@ -16,7 +16,7 @@ const (
 	sitemapDate = "2006-01-02"
 )
 
-// sitemapSet è la radice di /sitemap.xml (D99). Il namespace xhtml è
+// sitemapSet è la radice di /sitemap.xml (D101). Il namespace xhtml è
 // dichiarato qui perché i link alternati ci vivono dentro: senza, i motori di
 // ricerca ignorano gli hreflang.
 type sitemapSet struct {
@@ -56,7 +56,7 @@ type sitePage struct {
 	priority   string
 }
 
-// writeSitemap genera /sitemap.xml alla root, non per lingua (D99): le
+// writeSitemap genera /sitemap.xml alla root, non per lingua (D101): le
 // versioni linguistiche della stessa pagina sono un'unica URL con degli
 // alternati, quindi un file solo.
 func (w *pageWriter) writeSitemap() error {
@@ -130,7 +130,7 @@ func albumSitePages(band *content.Band, album *content.Album) []sitePage {
 
 // sitemapEntry mette una pagina in una lingua, con gli alternati reciproci:
 // la stessa pagina in ogni lingua dell'interfaccia più x-default sull'italiano
-// (D99), che è la lingua in cui il sito è nato.
+// (D101), che è la lingua in cui il sito è nato.
 func (w *pageWriter) sitemapEntry(lang string, page sitePage) sitemapURL {
 	entry := sitemapURL{
 		Loc:        absoluteURL(langPagePath(lang, page.self)),
