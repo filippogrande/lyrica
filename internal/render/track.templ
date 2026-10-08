@@ -94,7 +94,7 @@ templ artistList(artists []ArtistView, page PageData) {
 }
 
 // artistSep restituisce il separatore in base al ruolo dell'artista CORRENTE.
-templ artistSep(role content.ArtistRole, page PageData) string {
+templ artistSep(role content.ArtistRole, page PageData) {
 	switch role {
 	case content.ArtistRoleFeaturing:
 		return " " + page.T("track.sep_feat") + " "
