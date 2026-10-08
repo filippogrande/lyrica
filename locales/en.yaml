@@ -12,6 +12,7 @@ nav.theme: "Theme"
 a11y.skip_to_content: "Skip to the text"
 a11y.text_smaller: "Make text smaller"
 a11y.text_bigger: "Make text bigger"
+
 a11y.breadcrumb: "Breadcrumb"
 
 home.title: "Lyrica"
@@ -54,6 +55,10 @@ track.instrumental: "Instrumental"
 track.pending: "Coming soon"
 track.only_original: "Original only"
 track.no_translation: "Translation not available in this language."
+track.artists: "Artists"
+track.sep_feat: "feat."
+track.sep_equal: "×"
+track.sep_default: "·"
 
 error.not_found_title: "Page not found"
 error.not_found_body: "This address does not match any page of the site."
