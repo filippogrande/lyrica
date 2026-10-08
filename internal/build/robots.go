@@ -2,7 +2,7 @@ package build
 
 import "strings"
 
-// robotsTxt è il contenuto di /robots.txt (D100).
+// robotsTxt è il contenuto di /robots.txt (D101).
 //
 // Permesso a tutti: il sito è pubblico e l'indicizzazione è il punto (D60). Il
 // file non è statico nel repo perché le righe Sitemap contengono gli URL
