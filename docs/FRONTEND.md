@@ -24,11 +24,11 @@ Gli elementi che il browser e i motori di ricerca usano senza passare dal conten
 | `charset`, `viewport` | come prima | — |
 | `title` | il titolo della pagina | — |
 | foglio di stile | Bootstrap vendor + `lyrica.css` | dal repo, non da CDN |
-| `<link rel="alternate" type="application/rss+xml">` | il feed della **lingua corrente**, con `href` **assoluto** | D100 |
-| `<link rel="alternate" hreflang="…">` | la pagina in ogni **lingua dell'interfaccia**, più `x-default` sull'italiano | D104 |
+| `<link rel="alternate" type="application/rss+xml">` | il feed della **lingua corrente**, con `href` **assoluto** | D102 |
+| `<link rel="alternate" hreflang="…">` | la pagina in ogni **lingua dell'interfaccia**, più `x-default` sull'italiano | D106 |
 | `assets/js/theme.js` | il tema, prima del primo paint | file esterno, la CSP resta senza `unsafe-inline` |
 
-- Gli hreflang hanno `href` **assoluto** (`PageData.AlternateLinks()` → `AbsURL`): il dominio viene da `siteBaseURL` in `internal/build`, D101.
+- Gli hreflang hanno `href` **assoluto** (`PageData.AlternateLinks()` → `AbsURL`): il dominio viene da `siteBaseURL` in `internal/build`, D103.
 - Le **stesse liste** sono nelle voci della sitemap: le due non possono divergere, quindi il `head` e `sitemap.go` costruiscono gli alternati dallo stesso fatto (le lingue dell'interfaccia più l'italiano come `x-default`).
 - La **404** non ha versioni per lingua e si esclude dagli alternati (`PageData.NoAlternates`): un `hreflang` che porta alla home mentirebbe.
 - I parametri `?orig=` e `?lang=` non entrano negli alternati: sono preferenze di lettura, non pagine diverse.
@@ -310,7 +310,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 - Le etichette si usano **ovunque si nominano lingue**: anagrafiche (brano, album), tracklist, intestazioni dei lati e voci dei menu. Nessuna pagina scrive più un codice lingua nudo.
 - I codici lingua restano quelli dello schema (`de`, `it`, `es`…): **non si traducono** e viaggiano nell'URL (`?lang=de`), dove una bandiera non ha senso.
 - In un **elenco di lingue** (anagrafica dell'album, tracklist) i codici ripetuti contano **una volta sola**, in ordine alfabetico (`LangLabels`); nell'**anagrafica del brano** invece ogni blocco è una voce e la stessa lingua può comparire due volte (`LangLabelsRepeated`, D97).
-- I **contatori pubblici** hanno una semantica propria: il numero delle lingue è quello delle **traduzioni di arrivo** (D103), cioè ciò che un lettore può trovare qui, non tutte le lingue originali tradotte.
+- I **contatori pubblici** hanno una semantica propria: il numero delle lingue è quello delle **traduzioni di arrivo** (D105), cioè ciò che un lettore può trovare qui, non tutte le lingue originali tradotte.
 
 ## Sezione "chiedi altre canzoni"
 
@@ -368,7 +368,7 @@ Il ragionamento è quello dell'utente: se un brano tedesco ha traduzioni in ital
 
 Caso iniziale: **italiano + inglese**, con le successive quando la prima traduzione in quella lingua entra nel sito.
 
-Questa stessa semantica governa il **contatore delle lingue** in home e nel footer (D103): il numero è quello delle lingue di traduzione di arrivo, quindi non può divergere dalle lingue in cui il sito è davvero disponibile.
+Questa stessa semantica governa il **contatore delle lingue** in home e nel footer (D105): il numero è quello delle lingue di traduzione di arrivo, quindi non può divergere dalle lingue in cui il sito è davvero disponibile.
 
 ## Come si implementa
 
@@ -381,7 +381,7 @@ Questa stessa semantica governa il **contatore delle lingue** in home e nel foot
 
 - Ogni pagina esiste con **path prefix lingua**: `/it/band/...`, `/en/band/...`.
 - **La radice `/` non è una pagina**: risponde con un **redirect** verso la lingua negoziata.
-- Ogni pagina dichiara `<link rel="alternate" hreflang="...">` per tutte le lingue disponibili + `x-default`, con **`href` assoluto** (vedi "Cosa sta nel `<head>`", D101, D104). Le stesse liste sono nella sitemap: le due non possono divergere.
+- Ogni pagina dichiara `<link rel="alternate" hreflang="...">` per tutte le lingue disponibili + `x-default`, con **`href` assoluto** (vedi "Cosa sta nel `<head>`", D103, D106). Le stesse liste sono nella sitemap: le due non possono divergere.
 - `canonical` sempre verso l'URL corrente.
 - I link interni passano **sempre** dal prefisso di lingua (helper di percorso), dalle corsie della home in poi: un link costruito a mano senza prefisso è un 404.
 - I **parametri della lingua del testo** (`?orig=`, `?lang=`) sono preferenze di lettura, non pagine: non entrano in `canonical` né in `hreflang`.
