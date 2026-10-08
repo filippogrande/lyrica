@@ -12,6 +12,7 @@ nav.theme: "Theme"
 a11y.skip_to_content: "Skip to the text"
 a11y.text_smaller: "Make text smaller"
 a11y.text_bigger: "Make text bigger"
+
 a11y.breadcrumb: "Breadcrumb"
 
 home.title: "Lyrica"

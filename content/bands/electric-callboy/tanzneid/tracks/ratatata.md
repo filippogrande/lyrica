@@ -1,10 +1,15 @@
 ---
-title: "RATATATA (feat. BABYMETAL)"
+title: "RATATATA"
 slug: "ratatata"
 added_date: 2026-09-30
 featured: false
 instrumental: false
 original_langs: ["en"]
+artists:
+  - slug: "electric-callboy"
+    role: "primary"
+  - slug: "babymetal"
+    role: "equal"
 blocks:
   - lang: en
     role: original
