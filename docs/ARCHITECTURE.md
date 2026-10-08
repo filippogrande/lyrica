@@ -148,7 +148,7 @@ docker compose up -d
 
 Variabili: `LYRICA_ADDR` (attiva), `UMAMI_URL`/`UMAMI_SITE_ID` (FASE 5), `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID` (FASE 6).
 
-**Il dominio pubblico non è una variabile**: `siteBaseURL` è una **costante in `internal/build/urls.go`** (`https://lyrica.filippomoscatelli.com`), usata dal feed, dalla sitemap, da `robots.txt` e dai link hreflang (D101). Quindi `LYRICA_BASE_URL` **non va introdotta** in `.env.example`: sarebbe una configurazione che nessuno legge, e il dominio resterebbe in due posti.
+**Il dominio pubblico non è una variabile**: `siteBaseURL` è una **costante in `internal/build/urls.go`** (`https://lyrica.filippomoscatelli.com`), usata dal feed, dalla sitemap, da `robots.txt` e dai link hreflang (D103). Quindi `LYRICA_BASE_URL` **non va introdotta** in `.env.example`: sarebbe una configurazione che nessuno legge, e il dominio resterebbe in due posti.
 
 ## Sicurezza
 
