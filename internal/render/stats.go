@@ -6,7 +6,7 @@ import (
 	"github.com/filippogrande/lyrica/internal/i18n"
 )
 
-// SiteStats sono i contatori pubblici del sito (D62, D103): il suo valore a
+// SiteStats sono i contatori pubblici del sito (D62, D105): il suo valore a
 // colpo d'occhio. Li calcola il build dai contenuti — nessun numero scritto a
 // mano, quindi nessun numero che possa divergere dalla realtà.
 //
