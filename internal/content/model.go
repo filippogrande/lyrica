@@ -28,6 +28,24 @@ const (
 	StatusInstrumental = "instrumental"
 )
 
+// ArtistRole rappresenta il ruolo di un artista in un brano.
+type ArtistRole string
+
+const (
+	// ArtistRolePrimary — artista principale (primo in lista, ospita il file).
+	ArtistRolePrimary ArtistRole = "primary"
+	// ArtistRoleFeaturing — artista in featuring.
+	ArtistRoleFeaturing ArtistRole = "featuring"
+	// ArtistRoleEqual — collaborazione paritaria (50/50, nessun feat).
+	ArtistRoleEqual ArtistRole = "equal"
+)
+
+// ArtistCredit lega uno slug di band al suo ruolo nel brano.
+type ArtistCredit struct {
+	Slug string     `yaml:"slug"`
+	Role ArtistRole `yaml:"role"`
+}
+
 // Band è l'anagrafica di una band (content/bands/<slug>/band.md).
 type Band struct {
 	Name          string   `yaml:"name"`
@@ -81,14 +99,15 @@ type TrackRef struct {
 
 // Track è un brano con i suoi blocchi di testo (tracks/<slug>.md).
 type Track struct {
-	Title         string   `yaml:"title"`
-	Slug          string   `yaml:"slug"`
-	AddedDate     Date     `yaml:"added_date"`
-	Featured      bool     `yaml:"featured"`
-	Instrumental  bool     `yaml:"instrumental"`
-	OriginalLangs []string `yaml:"original_langs"`
-	Singers       []string `yaml:"singers"`
-	Blocks        []Block  `yaml:"blocks"`
+	Title         string         `yaml:"title"`
+	Slug          string         `yaml:"slug"`
+	AddedDate     Date           `yaml:"added_date"`
+	Featured      bool           `yaml:"featured"`
+	Instrumental  bool           `yaml:"instrumental"`
+	OriginalLangs []string       `yaml:"original_langs"`
+	Singers       []string       `yaml:"singers"`
+	Artists       []ArtistCredit `yaml:"artists"`
+	Blocks        []Block        `yaml:"blocks"`
 
 	// Notes è il corpo del file dopo il front-matter: note redazionali.
 	// Non si stampa mai nella pagina (docs/CONTENT.md).
@@ -97,6 +116,38 @@ type Track struct {
 	Path string `yaml:"-"`
 	// Album è l'album di appartenenza: lo popola il loader.
 	Album *Album `yaml:"-"`
+}
+
+// PrimaryArtist restituisce il primo artista (primary) o il primo della lista se manca.
+func (t *Track) PrimaryArtist() *ArtistCredit {
+	if len(t.Artists) == 0 {
+		return nil
+	}
+	for _, a := range t.Artists {
+		if a.Role == ArtistRolePrimary {
+			return &a
+		}
+	}
+	return &t.Artists[0]
+}
+
+// AllArtistSlugs restituisce tutti gli slug degli artisti del brano.
+func (t *Track) AllArtistSlugs() []string {
+	slugs := make([]string, 0, len(t.Artists))
+	for _, a := range t.Artists {
+		slugs = append(slugs, a.Slug)
+	}
+	return slugs
+}
+
+// HasArtist dice se il brano include quell'artista.
+func (t *Track) HasArtist(slug string) bool {
+	for _, a := range t.Artists {
+		if a.Slug == slug {
+			return true
+		}
+	}
+	return false
 }
 
 // Block è un blocco di testo in una lingua: originale o traduzione.

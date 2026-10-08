@@ -18,6 +18,7 @@ func validateTrack(catalog *Catalog, track *Track, report *Report) {
 	}
 	checkBlockLangs(track, report)
 	checkOriginalLangs(track, report)
+	checkArtists(catalog, track, report)
 	original, hasOriginal := track.Original()
 	if !hasOriginal {
 		report.Errorf(where, "nessun blocco con role: original (regola 3)")
@@ -32,6 +33,38 @@ func validateTrack(catalog *Catalog, track *Track, report *Report) {
 		report.Warnf(where, "brano senza traduzioni: va segnato come \"solo originale\" e non linkato")
 	}
 	checkLinks(catalog, where, track.Notes, report)
+}
+
+// checkArtists verifica che tutti gli slug in artists esistano nel catalogo.
+func checkArtists(catalog *Catalog, track *Track, report *Report) {
+	if len(track.Artists) == 0 {
+		report.Warnf(track.Path, "artists mancante: il brano non sarà collegato ad alcuna band oltre a quella dell'album")
+		return
+	}
+	hasPrimary := false
+	for _, a := range track.Artists {
+		if strings.TrimSpace(a.Slug) == "" {
+			report.Errorf(track.Path, "artist slug vuoto")
+			continue
+		}
+		if a.Role == ArtistRolePrimary {
+			hasPrimary = true
+		}
+		// Verifica che la band esista
+		found := false
+		for _, band := range catalog.Bands {
+			if band.Slug == a.Slug {
+				found = true
+				break
+			}
+		}
+		if !found {
+			report.Errorf(track.Path, "artist slug %q non trovato in content/bands/", a.Slug)
+		}
+	}
+	if !hasPrimary {
+		report.Warnf(track.Path, "nessun artist con role: primary; il primo della lista farà da primary")
+	}
 }
 
 // checkBlockLangs verifica la regola 3: role noto, una lingua una volta per

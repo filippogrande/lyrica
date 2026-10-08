@@ -6,7 +6,7 @@ tracks:
   - slug: "tanzneid"
     title: "TANZNEID"
   - slug: "ratatata"
-    title: "RATATATA (feat. BABYMETAL)"
+    title: "RATATATA"
   - slug: "hypercharged"
     title: "Hypercharged"
   - slug: "let-the-good-times-roll"

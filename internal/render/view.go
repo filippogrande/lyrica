@@ -95,6 +95,14 @@ type TextView struct {
 	Stanzas    []StanzaView
 }
 
+// ArtistView rappresenta un artista nel brano con il suo ruolo.
+type ArtistView struct {
+	Name string
+	Slug string
+	Role content.ArtistRole
+	URL  templ.SafeURL
+}
+
 // SelectedValue è il valore di data-text-selected: "1" per la lingua mostrata
 // all'apertura, "0" per le altre. Il CSS nasconde le altre solo quando JS c'è
 // (assets/css/lyrica.css), così senza JS i testi restano tutti visibili.
@@ -203,6 +211,8 @@ type TrackView struct {
 	// Translations sono tutte le traduzioni del brano, in ordine di file: la
 	// Selected è quella mostrata all'apertura.
 	Translations []TextView
+	// Artists sono tutti gli artisti del brano con i loro ruoli.
+	Artists []ArtistView
 }
 
 // trackEntry è un brano pubblicato con la sua band e il suo album.

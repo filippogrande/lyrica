@@ -56,7 +56,7 @@ func (w *pageWriter) writeBand(lang string, band *content.Band) error {
 	}
 	page := w.pageData(lang, band.Name)
 	page.Description = band.Description
-	if err := w.write(lang, "band/"+band.Slug+"/", render.Band(render.BuildBandView(page, band))); err != nil {
+	if err := w.write(lang, "band/"+band.Slug+"/", render.Band(render.BuildBandView(page, band, w.catalog))); err != nil {
 		return err
 	}
 	for _, album := range albums {
@@ -81,7 +81,7 @@ func (w *pageWriter) writeAlbum(lang string, band *content.Band, album *content.
 		trackPage := w.pageData(lang, track.Title)
 		trackPage.Description = trackDescription(band, album, track)
 		if err := w.write(lang, base+"brano/"+track.Slug+"/",
-			render.Track(render.BuildTrackView(trackPage, band, album, track))); err != nil {
+			render.Track(render.BuildTrackView(trackPage, band, album, track, w.catalog))); err != nil {
 			return err
 		}
 	}

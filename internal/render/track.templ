@@ -52,8 +52,7 @@ templ trackHero(v TrackView) {
 templ trackFacts(v TrackView) {
 	<h1 class="page-title">{ v.Title }</h1>
 	<dl class="album-facts">
-		<dt>{ v.Page.T("album.band") }</dt>
-		<dd><a href={ v.BandURL }>{ v.BandName }</a></dd>
+		@artistList(v.Artists, v.Page)
 		<dt>{ v.Page.T("track.album") }</dt>
 		<dd><a href={ v.AlbumURL }>{ v.AlbumTitle }</a></dd>
 		if v.YearText != "" {
@@ -73,6 +72,28 @@ templ trackFacts(v TrackView) {
 			<span class="track-singers">{ v.Page.T("track.singers") }: { v.SingersText }</span>
 		}
 	</p>
+}
+
+// artistList stampa la lista degli artisti con i loro ruoli (primary, featuring,
+// equal). Il separatore (·, feat., ×) è una funzione Go normale (artistSep, in
+// track_page.go): in templ non si ritorna una stringa e i .templ non importano
+// il pacchetto content.
+templ artistList(artists []ArtistView, page PageData) {
+	if len(artists) > 0 {
+		<dt>{ page.T("track.artists") }</dt>
+		<dd>
+			<div class="artist-list">
+				for i, a := range artists {
+					if i > 0 {
+						<span class="artist-sep">{ artistSep(a.Role, page) }</span>
+					}
+					<a href={ a.URL } class="artist-link" data-artist-role={ string(a.Role) }>
+						{ a.Name }
+					</a>
+				}
+			</div>
+		</dd>
+	}
 }
 
 // textSide stampa un lato del testo: l'intestazione del lato (nome + lingua) e
