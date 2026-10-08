@@ -12,7 +12,7 @@ content/  covers/  assets/  locales/
         |  lyrica build   (parse + validazione + render Templ)
         v
      public/            HTML, CSS, JS minimo, cover, indice di ricerca,
-                        rss.xml, sitemap.xml, robots.txt, manifest, sw.js
+                        rss.xml (per lingua), sitemap.xml, robots.txt, manifest, sw.js
         |
         |  docker build (multi-stage: build Go -> immagine finale minimale)
         v
@@ -97,13 +97,15 @@ I comandi non ancora implementati **restituiscono un errore esplicito**, non fin
 3. **Indice di ricerca** → `public/search-index.json`.
 4. **Render** delle pagine con Templ.
 5. **Asset**: CSS, font, JS minimo, cover.
-6. **Output di distribuzione**: `rss.xml`, `sitemap.xml`, `robots.txt`, `manifest.webmanifest`, `sw.js`, file dei redirect.
+6. **Output di distribuzione**: `rss.xml` (per ogni lingua dell'interfaccia, in `public/<lang>/rss.xml`), `sitemap.xml` (uno solo, alla root), `robots.txt` (alla root), `manifest.webmanifest`, `sw.js`, file dei redirect.
+
+I file XML e `robots.txt` non sono componenti Templ: si scrivono con `encoding/xml` e con `writeRaw` (`internal/build/raw.go`), perché sono dati e non markup. Un errore nella loro scrittura **fa fallire la build**: un feed a metà è un feed rotto e nessuno se ne accorgerebbe.
 
 ## CI (GitHub Actions)
 
 | Workflow | Evento | Cosa fa |
 |---|---|---|
-| `ci.yml` | **PR** e **push su `main`** | job `Compila`: `go mod tidy` → `templ generate` → `go vet` → `go build` |
+| `ci.yml` | **PR** e **push su `main`** | job `Compila`: `go mod tidy` → `templ generate` → `go vet` → `go test ./...` (D98) → `go build` |
 | `ci.yml` | **PR** e **push su `main`** | job `Valida i contenuti`: `go run ./cmd/lyrica valida`; contenuti rotti = PR rossa |
 | `docker-build-push.yml` | **push su `main`** | build dell'immagine e push su Docker Hub (`:latest` e `:<sha>`) |
 
@@ -144,37 +146,9 @@ docker compose up -d
 - I segreti stanno **solo** lì: mai nel compose, mai nell'immagine, mai nella storia di git.
 - Una variabile non ancora letta dall'app resta **commentata** nel template.
 
-Variabili: `LYRICA_ADDR` (attiva), `LYRICA_BASE_URL` (FASE 4/5), `UMAMI_URL`/`UMAMI_SITE_ID` (FASE 5), `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID` (FASE 6).
+Variabili: `LYRICA_ADDR` (attiva), `UMAMI_URL`/`UMAMI_SITE_ID` (FASE 5), `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID` (FASE 6).
 
-### Verifica dopo il deploy
-
-Con `PORT` = la porta host scelta (sul master: 8097):
-
-1. `docker compose ps` → `running` e healthcheck `healthy`.
-2. `curl -I http://localhost:PORT/` → **302** verso `/it/`.
-3. `curl http://localhost:PORT/healthz` → `ok`.
-4. `docker compose logs --tail=50 web` → nessun errore di rendering.
-
-### Rollback
-
-Si fissa l'immagine `filippogrande/lyrica:<sha>` al posto di `latest` nel compose, e si riporta a `latest` quando il problema è risolto.
-
-### Cosa può rompersi
-
-| Azione | Rischio |
-|---|---|
-| `docker compose down` | il sito sparisce fino al `up -d`: nessun dato perso (non c'è database) |
-| **Porta host già occupata** | il container non parte: `Bind for 0.0.0.0:PORT failed: port is already allocated` → si cambia la mappa nel compose |
-| Immagine `latest` con un bug | si fa rollback al tag SHA |
-| Secrets Docker Hub assenti/scaduti | la CI è rossa e `latest` resta quella vecchia (il sito non si rompe, non si aggiorna) |
-| Contenuto invalido mergiato | la CI è rossa prima del merge; se sfugge, `build` non produce `public/` e l'immagine non aggiorna il sito |
-| `.env` con un valore sbagliato | il container parte ma l'app non si comporta come previsto: `docker compose logs` |
-
-Il deploy **non è automatico**: il runner pubblica l'immagine e non ha accesso al home-lab.
-
-### Backup
-
-Non c'è niente da salvare sul server: i contenuti sono nel repo. Il backup del sito è il repository.
+**Il dominio pubblico non è una variabile**: `siteBaseURL` è una **costante in `internal/build/urls.go`** (`https://lyrica.filippomoscatelli.com`), usata dal feed, dalla sitemap, da `robots.txt` e dai link hreflang (D103). Quindi `LYRICA_BASE_URL` **non va introdotta** in `.env.example`: sarebbe una configurazione che nessuno legge, e il dominio resterebbe in due posti.
 
 ## Sicurezza
 
@@ -224,6 +198,8 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 4. **`*_templ.go` non si committano mai**: sono artefatti di generazione.
 5. **La porta host va scelta guardando cosa è già occupato** (`docker ps --format '{{.Names}} - {{.Ports}}'` o `ss -tlnp`), non copiando un default: sul master la 8085 era libera solo in teoria.
 6. **Anche i comandi che non generano nulla richiedono `templ generate`**: `lyrica valida` compila `internal/web` → `internal/render`, quindi un job CI che lo invoca deve generare i template prima di eseguirlo.
+7. **I file di output non-HTML non passano da `writeFile`**: `writeFile` accetta solo componenti templ e va avanti a `index.html`. Feed, sitemap e robots passano da `writeRaw` (`internal/build/raw.go`).
+8. **La sitemap elenca le pagine che esistono davvero**: una voce di tracklist con `status: pending` non ha pagina, quindi non va in sitemap. Lo stesso vale per i contatori: usano `publishedAlbums` e `HasTranslations`, gli stessi criteri con cui il build decide se generare una pagina.
 
 ## Limiti noti
 
@@ -232,6 +208,7 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 - I contenuti richiedono un **nuovo build + deploy**: non si pubblica nulla "a caldo".
 - Nessun ambiente di staging: `main` è produzione.
 - Il validatore **non** controlla ancora le chiavi dei locale mancanti rispetto a `it.yaml` (warning previsto da `CONTENT.md`): arriva con l'i18n delle pagine.
+- Il dominio è una **costante**: il sito va pubblicato allo stesso indirizzo, e un dominio diverso richiede una modifica al codice, non una configurazione.
 
 ## Dove vive cosa
 
@@ -242,4 +219,5 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 | Pagine e funzioni | `SPEC.md` | `internal/render/` |
 | Schema contenuti e authoring | `CONTENT.md` | `internal/content/`, `cmd/lyrica/` |
 | Interfaccia, brano, lingue, ricerca, PWA | `FRONTEND.md` | `internal/render/`, `internal/i18n/`, `internal/search/`, `assets/` |
-| Ads, analytics, legali, form, feed | `FEATURES.md` | `ads.yaml`, `internal/notify/`, template head |
+| Ads, analytics, legali, form, feed e contatori | `FEATURES.md` | `ads.yaml`, `internal/notify/`, template head |
+| Output generati dal build (feed, sitemap, robots, URL base) | `FEATURES.md` (cap. "Feed RSS e contatori") | `internal/build/rss.go`, `sitemap.go`, `robots.go`, `stats.go`, `urls.go`, `raw.go` |

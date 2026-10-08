@@ -27,13 +27,16 @@ Nessuno di questi utenti ha un account, né lo avrà.
 | `/it/legali` | Note legali | disclaimer, licenze, privacy |
 | `/it/404` | Non trovato | messaggio + ricerca |
 
-Endpoint non-pagina: `/it/api/cerca` (frammento HTML per HTMX), `POST /it/api/segnala`, `POST /it/api/contatti`, `/rss.xml`, `/sitemap.xml`, `/robots.txt`, `/manifest.webmanifest`, `/sw.js`.
+Endpoint non-pagina: `/it/api/cerca` (frammento HTML per HTMX), `POST /it/api/segnala`, `POST /it/api/contatti`.
+
+File generati dal build, senza prefisso di lingua: `/sitemap.xml`, `/robots.txt`.
+File generati dal build, **uno per lingua dell'interfaccia**: `/it/rss.xml`, `/en/rss.xml` — **non** c'è un feed alla root e non ci sono feed per band (D102). Vale per `/it/404.html` e per ogni pagina.
 
 ## Dettaglio delle pagine
 
 ### Home
 - **In evidenza**: da 3 a 5 elementi scelti a mano, in cima.
-- **Contatori**: brani tradotti / band / lingue.
+- **Contatori**: brani tradotti / band / lingue, stessa riga del footer (D104, D105).
 - **Recenti**: elenco ordinato per data di aggiunta, il più nuovo prima.
 - La ricerca sta nell'header (dropdown live), non ha una sezione dedicata.
 
@@ -88,7 +91,9 @@ Struttura verticale, dall'alto in basso:
 - **Dimensione testo** A- / A+ (accessibilità).
 - **Lingua dell'interfaccia**: negoziata dal browser, fallback italiano; le lingue disponibili seguono quelle delle traduzioni presenti.
 - **Breadcrumb** su tutte le pagine interne.
-- **Contatori** pubblici nel footer.
+- **Contatori** pubblici: in homepage e nel footer, stessa riga e stessi numeri.
+- **Feed RSS** per ogni lingua dell'interfaccia, linkato dal `<head>` (rel alternate) e dal footer.
+- **`sitemap.xml` e `robots.txt`** generati dal build, per l'indicizzazione (D101).
 - **Header** sticky su mobile con nav compressa.
 
 ## Cosa il sito NON fa (non è un TODO, è il progetto)

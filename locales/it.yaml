@@ -23,6 +23,10 @@ home.recent: "Ultimi brani tradotti"
 home.latest_bands: "Ultime band aggiunte"
 home.all_bands: "Tutte le band"
 
+stats.tracks: "brani tradotti"
+stats.bands: "band"
+stats.langs: "lingue"
+
 bands.empty: "Nessuna band pubblicata."
 bands.letters_label: "Filtra le band per iniziale"
 bands.all: "Tutte"

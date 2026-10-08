@@ -23,6 +23,10 @@ home.recent: "Latest songs"
 home.latest_bands: "Latest bands"
 home.all_bands: "All bands"
 
+stats.tracks: "translated songs"
+stats.bands: "bands"
+stats.langs: "languages"
+
 bands.empty: "No bands published yet."
 bands.letters_label: "Filter bands by initial"
 bands.all: "All"
