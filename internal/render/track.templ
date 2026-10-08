@@ -42,7 +42,7 @@ templ trackHero(v TrackView) {
 	} else {
 		<div class="track-hero">
 			@trackFacts(v)
-		}
+		</div>
 	}
 }
 
@@ -76,22 +76,21 @@ templ trackFacts(v TrackView) {
 
 // artistList stampa la lista degli artisti con i loro ruoli (primary, featuring, equal).
 templ artistList(artists []ArtistView, page PageData) {
-	if len(artists) == 0 {
-		return
-	}
-	<dt>{ page.T("track.artists") }</dt>
-	<dd>
-		<div class="artist-list">
-			for i, a := range artists {
-				if i > 0 {
-					<span class="artist-sep">{ artistSep(a.Role, page) }</span>
+	if len(artists) > 0 {
+		<dt>{ page.T("track.artists") }</dt>
+		<dd>
+			<div class="artist-list">
+				for i, a := range artists {
+					if i > 0 {
+						<span class="artist-sep">{ artistSep(a.Role, page) }</span>
+					}
+					<a href={ a.URL } class="artist-link" data-artist-role={ string(a.Role) }>
+						{ a.Name }
+					</a>
 				}
-				<a href={ a.URL } class="artist-link" data-artist-role={ string(a.Role) }>
-					{ a.Name }
-				</a>
-			}
-		</div>
+			</div>
 		</dd>
+	}
 }
 
 // artistSep restituisce il separatore in base al ruolo dell'artista CORRENTE.
