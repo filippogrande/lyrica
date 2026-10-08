@@ -18,29 +18,12 @@ import (
 // all'apertura è quella dell'interfaccia se il brano ce l'ha, altrimenti la
 // prima disponibile: la lingua è stampata accanto al titolo del blocco, quindi
 // la scelta si vede sempre.
-func BuildTrackView(page PageData, band *content.Band, album *content.Album, track *content.Track) TrackView {
+//
+// Il catalogo serve agli artisti del brano (campo artists, docs/CONTENT.md):
+// ogni slug va risolto nel nome e nell'URL della band.
+func BuildTrackView(page PageData, band *content.Band, album *content.Album, track *content.Track, catalog *content.Catalog) TrackView {
 	originals := blocksWithRole(track, content.RoleOriginal)
 	translations := blocksWithRole(track, content.RoleTranslation)
-
-	// Costruisce la lista degli artisti con ruoli per l'hero
-	var artistViews []ArtistView
-	for _, a := range track.Artists {
-		var bandPtr *content.Band
-		for _, b := range catalog.Bands {
-			if b.Slug == a.Slug {
-				bandPtr = b
-				break
-			}
-		}
-		if bandPtr != nil {
-			artistViews = append(artistViews, ArtistView{
-				Name:     bandPtr.Name,
-				Slug:     bandPtr.Slug,
-				Role:     a.Role,
-				URL:      templ.URL(page.BandPath(bandPtr.Slug)),
-			})
-		}
-	}
 
 	view := TrackView{
 		Page:         page,
@@ -57,13 +40,56 @@ func BuildTrackView(page PageData, band *content.Band, album *content.Album, tra
 		CoverAlt:     page.T("album.cover_alt"),
 		Originals:    newTextViews(originals, 0),
 		Translations: newTextViews(translations, translationIndex(translations, page.Lang)),
-		Artists:      artistViews,
+		Artists:      newArtistViews(page, track, catalog),
 	}
 	if album.Cover != "" {
 		view.ShowCover = true
 		view.CoverURL = templ.URL("/covers/" + album.Cover)
 	}
 	return view
+}
+
+// newArtistViews risolve gli artisti del brano — lo slug di ognuno in nome e URL
+// della band — prendendoli dal catalogo. Un artista che non esiste nel catalogo
+// si salta: il validatore lo segnala già come errore (regola 12).
+func newArtistViews(page PageData, track *content.Track, catalog *content.Catalog) []ArtistView {
+	views := make([]ArtistView, 0, len(track.Artists))
+	for _, credit := range track.Artists {
+		target := findBand(catalog, credit.Slug)
+		if target == nil {
+			continue
+		}
+		views = append(views, ArtistView{
+			Name: target.Name,
+			Slug: target.Slug,
+			Role: credit.Role,
+			URL:  templ.URL(page.BandPath(target.Slug)),
+		})
+	}
+	return views
+}
+
+// artistSep è il separatore che precede un artista in base al suo ruolo: è una
+// funzione Go normale perché in templ non si ritorna una stringa.
+func artistSep(role content.ArtistRole, page PageData) string {
+	switch role {
+	case content.ArtistRoleFeaturing:
+		return " " + page.T("track.sep_feat") + " "
+	case content.ArtistRoleEqual:
+		return " " + page.T("track.sep_equal") + " "
+	default:
+		return " " + page.T("track.sep_default") + " "
+	}
+}
+
+// findBand cerca nel catalogo la band con quello slug: nil se non c'è.
+func findBand(catalog *content.Catalog, slug string) *content.Band {
+	for _, band := range catalog.Bands {
+		if band.Slug == slug {
+			return band
+		}
+	}
+	return nil
 }
 
 // blocksWithRole tiene i blocchi di testo con quel ruolo (l'originale o le

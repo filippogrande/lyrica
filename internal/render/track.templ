@@ -74,7 +74,10 @@ templ trackFacts(v TrackView) {
 	</p>
 }
 
-// artistList stampa la lista degli artisti con i loro ruoli (primary, featuring, equal).
+// artistList stampa la lista degli artisti con i loro ruoli (primary, featuring,
+// equal). Il separatore (·, feat., ×) è una funzione Go normale (artistSep, in
+// track_page.go): in templ non si ritorna una stringa e i .templ non importano
+// il pacchetto content.
 templ artistList(artists []ArtistView, page PageData) {
 	if len(artists) > 0 {
 		<dt>{ page.T("track.artists") }</dt>
@@ -90,18 +93,6 @@ templ artistList(artists []ArtistView, page PageData) {
 				}
 			</div>
 		</dd>
-	}
-}
-
-// artistSep restituisce il separatore in base al ruolo dell'artista CORRENTE.
-templ artistSep(role content.ArtistRole, page PageData) {
-	switch role {
-	case content.ArtistRoleFeaturing:
-		return " " + page.T("track.sep_feat") + " "
-	case content.ArtistRoleEqual:
-		return " " + page.T("track.sep_equal") + " "
-	default:
-		return " " + page.T("track.sep_default") + " "
 	}
 }
 

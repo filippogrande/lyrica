@@ -56,7 +56,7 @@ func (w *pageWriter) writeBand(lang string, band *content.Band) error {
 	}
 	page := w.pageData(lang, band.Name)
 	page.Description = band.Description
-	if err := w.write(lang, "band/"+band.Slug+"/", render.Band(render.BuildBandView(page, band))); err != nil {
+	if err := w.write(lang, "band/"+band.Slug+"/", render.Band(render.BuildBandView(page, band, w.catalog))); err != nil {
 		return err
 	}
 	for _, album := range albums {
@@ -81,7 +81,7 @@ func (w *pageWriter) writeAlbum(lang string, band *content.Band, album *content.
 		trackPage := w.pageData(lang, track.Title)
 		trackPage.Description = trackDescription(band, album, track)
 		if err := w.write(lang, base+"brano/"+track.Slug+"/",
-			render.Track(render.BuildTrackView(trackPage, band, album, track))); err != nil {
+			render.Track(render.BuildTrackView(trackPage, band, album, track, w.catalog))); err != nil {
 			return err
 		}
 	}
@@ -149,4 +149,4 @@ func (w *pageWriter) writeFile(relative string, component templ.Component) error
 	}
 	w.pages++
 	return nil
-}
+}// album. Nient'altro: nessun aggettivo che i contenuti non dichiarano.\nfunc trackDescription(band *content.Band, album *content.Album, track *content.Track) string {\n\treturn fmt.Sprintf(\"%s — %s — %s\", track.Title, band.Name, album.Title)\n}\n\n// write genera una pagina: path è relativo alla lingua e termina con \"/\".\nfunc (w *pageWriter) write(lang, path string, component templ.Component) error {\n\treturn w.writeFile(filepath.Join(lang, filepath.FromSlash(path), \"index.html\"), component)\n}\n\n// writeFile scrive un componente in un file, creando le cartelle necessarie.\nfunc (w *pageWriter) writeFile(relative string, component templ.Component) error {\n\ttarget := filepath.Join(w.outputDir, relative)\n\tif err := os.MkdirAll(filepath.Dir(target), 0o755); err != nil {\n\t\treturn fmt.Errorf(\"creazione di %s: %w\", filepath.Dir(target), err)\n\t}\n\tfile, err := os.Create(target)\n\tif err != nil {\n\t\treturn fmt.Errorf(\"creazione di %s: %w\", target, err)\n\t}\n\t// La build non è legata a una richiesta HTTP: il contesto è nuovo. Il\n\t// timeout evita che un template in errore blocchi la build per sempre.\n\tctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)\n\tdefer cancel()\n\tif err := component.Render(ctx, file); err != nil {\n\t\tfile.Close()\n\t\treturn fmt.Errorf(\"rendering di %s: %w\", target, err)\n\t}\n\tif err := file.Close(); err != nil {\n\t\treturn fmt.Errorf(\"chiusura di %s: %w\", target, err)\n\t}\n\tw.pages++\n\treturn nil\n}\n"}]}}
