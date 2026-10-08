@@ -22,6 +22,26 @@ func BuildTrackView(page PageData, band *content.Band, album *content.Album, tra
 	originals := blocksWithRole(track, content.RoleOriginal)
 	translations := blocksWithRole(track, content.RoleTranslation)
 
+	// Costruisce la lista degli artisti con ruoli per l'hero
+	var artistViews []ArtistView
+	for _, a := range track.Artists {
+		var bandPtr *content.Band
+		for _, b := range catalog.Bands {
+			if b.Slug == a.Slug {
+				bandPtr = b
+				break
+			}
+		}
+		if bandPtr != nil {
+			artistViews = append(artistViews, ArtistView{
+				Name:     bandPtr.Name,
+				Slug:     bandPtr.Slug,
+				Role:     a.Role,
+				URL:      templ.URL(page.BandPath(bandPtr.Slug)),
+			})
+		}
+	}
+
 	view := TrackView{
 		Page:         page,
 		Crumbs:       trackCrumbs(page, band, album, track),
@@ -37,6 +57,7 @@ func BuildTrackView(page PageData, band *content.Band, album *content.Album, tra
 		CoverAlt:     page.T("album.cover_alt"),
 		Originals:    newTextViews(originals, 0),
 		Translations: newTextViews(translations, translationIndex(translations, page.Lang)),
+		Artists:      artistViews,
 	}
 	if album.Cover != "" {
 		view.ShowCover = true
