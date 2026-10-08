@@ -220,6 +220,9 @@ featured: false
 instrumental: false
 original_langs: ["de"]
 singers: ["Dirk von Lowtzow"]      # opzionale: solo se il brano ha più voci
+artists:                            # opzionale: collaborazioni e featuring
+  - slug: "tocotronic"
+    role: "primary"
 blocks:
   - lang: de
     role: original
@@ -251,6 +254,7 @@ Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del te
 | `instrumental` | no | `true` = nessuna pagina |
 | `original_langs` | sì | una o più, **in ordine**: la prima è la lingua dominante, quella del blocco `original` |
 | `singers` | no | elenco delle voci del brano |
+| `artists` | no | lista di `ArtistCredit` per collaborazioni: `slug` + `role` (`primary` \| `featuring` \| `equal`) |
 | `blocks` | sì | almeno un blocco `role: original` |
 
 ### Campi di un blocco
@@ -272,6 +276,38 @@ Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del te
 
 Il tipo di strofa (verse/chorus/bridge) **non esiste** nello schema: è stato deciso che non si stampa.
 
+### Artisti e collaborazioni
+
+Il campo `artists` gestisce collaborazioni e featuring. Ogni voce è un oggetto con `slug` (deve esistere in `content/bands/`) e `role`:
+
+| Ruolo | Significato | Separatore UI |
+|---|---|---|
+| `primary` | artista principale (ospita il file) | `·` |
+| `featuring` | artista in featuring | `feat.` |
+| `equal` | collaborazione paritaria (50/50) | `×` |
+
+```yaml
+# Ratatata — collaborazione paritaria
+title: "RATATATA"
+artists:
+  - slug: "electric-callboy"
+    role: "primary"
+  - slug: "babymetal"
+    role: "equal"
+
+# From Me To U — featuring
+title: "From Me To U"
+artists:
+  - slug: "babymetal"
+    role: "primary"
+  - slug: "poppy"
+    role: "featuring"
+```
+
+- Il brano è **linkato sotto ogni artista** nella pagina band (discoverability bidirezionale).
+- Il titolo resta **pulito** (nessun "feat." nel titolo): il ruolo si legge dalla lista artisti.
+- Se `artists` manca, il validatore emette un **warning** (non errore): il brano è collegato solo alla band dell'album.
+
 ## Regole di validazione (applicate in CI)
 
 Un contenuto è **invalido** se:
@@ -279,7 +315,7 @@ Un contenuto è **invalido** se:
 1. `slug` del front-matter ≠ nome del file o della cartella.
 2. Due entità della stessa collezione hanno lo **stesso slug**.
 3. `blocks` non contiene almeno un `role: original`, o contiene **due blocchi con la stessa coppia `role` + `lang`** (la stessa lingua può comparire una volta come originale e una come traduzione: D96, D97).
-4. Un blocco `role: translation` è **incompleto** (una strofa ha meno righe dell'originale, o manca una strofa).
+4. Un blocco `role: translation` è **incompleta** (una strofa ha meno righe dell'originale, o manca una strofa).
 5. `added_date` manca o non è una data valida.
 6. `cover` punta a un file inesistente in `covers/`.
 7. `original_langs` contiene una lingua che non compare in nessun blocco.
@@ -287,6 +323,7 @@ Un contenuto è **invalido** se:
 9. Un link interno a un band/album/brano inesistente.
 10. `image` di una band punta a un file inesistente in `covers/` (o a una cartella invece che a un file).
 11. `status` di una voce di `tracks` con un valore diverso da `pending` e `instrumental`.
+12. `artists` contiene uno slug che non esiste in `content/bands/`.
 
 La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 
@@ -299,7 +336,8 @@ La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 - descrizione band mancante;
 - chiavi di locale mancanti rispetto a `it.yaml`;
 - `title` o `instrumental` di un file diversi da quelli dichiarati nella tracklist di `album.md`;
-- tracklist vuota, o con **tutte** le tracce "in arrivo".
+- tracklist vuota, o con **tutte** le tracce "in arrivo";
+- brano senza `artists` (non collegato a band esterne).
 
 ## Come si aggiunge un contenuto
 
@@ -363,6 +401,7 @@ lyrica serve      # serve il risultato su una porta locale
 - [ ] Nessuna annotazione per verso.
 - [ ] Il contenuto si legge bene **da telefono**, non solo da desktop.
 - [ ] Se un brano non ha traduzioni, è segnato come "solo originale" e non è linkato.
+- [ ] Se il brano è una collaborazione, `artists` è presente con i ruoli corretti.
 
 ### Aggiungere una lingua di traduzione a un brano
 
@@ -376,7 +415,7 @@ La versione completa si può scrivere per **ogni** lingua di `original_langs`, n
 
 Copia `locales/it.yaml` in `locales/<lang>.yaml` e traduci i **valori**, non le chiavi. Il build genera `/<lang>/...` con hreflang. Una chiave mancante è un errore in CI.
 
-Una traduzione verso una lingua che il catalogo ha **già come lingua originale** non fa nascere un'interfaccia in quella lingua (D96, confermata in D97): chi legge quella lingua legge già l'originale, quindi il pubblico non cambia. Il tedesco "completo" di un brano bilingue non chiede `locales/de.yaml`.
+Una traduzione verso una lingua che il catalogo ha **già come lingua originale** non fa nascere un'interfaccia in quella lingua (D96, confermata in D97): chi legge quella lingua legge già l'originale, quindi il pubblico non cambia. Il tedesco "completo" di un brano bilingue non chieda `locales/de.yaml`.
 
 ### Rinominare uno slug (cambio URL)
 
