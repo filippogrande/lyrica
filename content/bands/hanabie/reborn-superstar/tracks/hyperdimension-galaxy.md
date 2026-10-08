@@ -1,0 +1,331 @@
+---
+title: "Hyperdimension Galaxy (超次元ギャラクシー)"
+slug: "hyperdimension-galaxy"
+added_date: "2026-10-07"
+featured: false
+instrumental: false
+original_langs: ["ja-Jpan","ja-Latn"]
+blocks:
+  - lang: ja-Jpan
+    role: original
+    stanzas:
+      - lines:
+          - "I'm gonna fire"
+          - "Blast off"
+      - lines:
+          - "Start right now"
+          - "確かな愛　いきなり命中　無茶振り連中"
+          - "ガチ勢・魂！"
+          - "届かな愛　広がれ宇宙に無茶苦茶夢中"
+      - lines:
+          - "強情で好調なMETAL BABY"
+          - "巻き起こせビックバン万々歳！"
+          - "頂上の現状は更にCrazy"
+          - "星に願っても神に祈っても足りないから"
+      - lines:
+          - "夜空見上げ　いつか届くと信じて"
+      - lines:
+          - "いつものハイエース"
+          - "変わらぬマイメン"
+          - "いつかのハイステージ"
+          - "セットリスト拝見"
+          - "いつでもビッグスケール"
+          - "フィールド超えてエスケープ"
+          - "Let's fly away now"
+      - lines:
+          - "会いに行くから"
+          - "巡り巡るストーリー"
+          - "宇宙飛び超え歌うよ"
+          - "何億光年過ぎても探すよ"
+          - "数ある星の中"
+      - lines:
+          - "It's shining now"
+          - "変わらな愛　始まりの道中　無茶振りGroup"
+          - "どんな過去より輝かしい"
+          - "羽ばたけ宇宙に無茶苦茶Bloom"
+      - lines:
+          - "1 in 8 billion　繋ぐ遭遇"
+          - "撒き散らせSo cool　秘密のCrew"
+          - "前代未聞　歌う　一層Good"
+          - "何度だって難度だって引っくり返せる"
+      - lines:
+          - "月が満ちて　君に奇跡を起こすよ"
+      - lines:
+          - "いつだって君がエース"
+          - "変わらぬマイネーム"
+          - "いつかの愛してる"
+          - "だって焼き付く体験"
+          - "いつでもビッグレース"
+          - "フィールド超えてエスケープ"
+          - "Let's fly away now"
+      - lines:
+          - "愛を捧ぐよ"
+          - "叶えられるから"
+          - "銀河飛び越え辿って"
+          - "胸の鼓動が張り裂けそうなの"
+          - "星空で叫ぶよ"
+      - lines:
+          - "Even if I become stardust"
+          - "I'll live for you in the future"
+          - "導いてく星影"
+          - "I'll be with you in the future"
+          - "You find me！"
+          - "瞬いてく星空"
+          - "Don't cry, have courage"
+          - "Let's fly away now"
+      - lines:
+          - "流れる星のように"
+          - "願い　叶えるよ"
+      - lines:
+          - "会いに行くから"
+          - "巡り巡るストーリー"
+          - "宇宙飛び超え歌うよ"
+          - "何億光年過ぎても探すよ"
+          - "輝く星を"
+      - lines:
+          - "伝えに行こう　星を集めて"
+          - "キラキラ光るあの空の向こう"
+          - "愛してるよ、ねえ"
+  - lang: ja-Latn
+    role: original
+    stanzas:
+      - lines:
+          - "I'm gonna fire"
+          - "Blast off"
+      - lines:
+          - "Start right now"
+          - "Tashika na ai, ikanari meichū, muchaburi renchū"
+          - "Gachi-sei tamashii!"
+          - "Todokanai ai, hirogare uchū ni, muchakucha muchū"
+      - lines:
+          - "Gōjō de kōchō na METAL BABY"
+          - "Makiokose BIKKU BAN manbanzai!"
+          - "Chōjō no genjō wa sara ni Crazy"
+          - "Hoshi ni negatte mo, kami ni inotte mo tarinai kara"
+      - lines:
+          - "Yozora miage, itsuka todoku to shinjite"
+      - lines:
+          - "Itsumo no Haiēsu"
+          - "Kawaranu maimen"
+          - "Itsuka no Hai sutēji"
+          - "Setto risuto haiken"
+          - "Itsu demo biggu sukēru"
+          - "Fīrudo koete esukēpu"
+          - "Let's fly away now"
+      - lines:
+          - "Ai ni ikukara"
+          - "Meguri meguru sutōrī"
+          - "Uchū tobikoe utau yo"
+          - "Nan oku kōnen sugite mo sagasu yo"
+          - "Kazu aru hoshi no naka"
+      - lines:
+          - "It's shining now"
+          - "Kawaranai ai, hajimari no dōchū, muchaburi Group"
+          - "Donna kako yori kagayakashii"
+          - "Habatake uchū ni muchakucha Bloom"
+      - lines:
+          - "1 in 8 billion tsunagu sōgū"
+          - "Makichirase So cool himitsu no Crew"
+          - "Zendai mimon utau isso Good"
+          - "Nando datte, nandō datte hikkurikaeseru"
+      - lines:
+          - "Tsuki ga michite, kimi ni kiseki o okosu yo"
+      - lines:
+          - "Itsu datte kimi ga ēsu"
+          - "Kawaranu mainēmu"
+          - "Itsuka no aishiteru"
+          - "Datte yakitsuku taiken"
+          - "Itsu demo biggu rēsu"
+          - "Fīrudo koete esukēpu"
+          - "Let's fly away now"
+      - lines:
+          - "Ai o sasagu yo"
+          - "Kanaerareru kara"
+          - "Ginga tobikoe tadori tte"
+          - "Mune no kodō ga harisakesō na no"
+          - "Hoshizora de sakebu yo"
+      - lines:
+          - "Even if I become stardust"
+          - "I'll live for you in the future"
+          - "Michibite ku hoshikage"
+          - "I'll be with you in the future"
+          - "You find me!"
+          - "Matataite ku hoshizora"
+          - "Don't cry, have courage"
+          - "Let's fly away now"
+      - lines:
+          - "Nagareru hoshi no yō ni"
+          - "Negai kanaeru yo"
+      - lines:
+          - "Ai ni ikukara"
+          - "Meguri meguru sutōrī"
+          - "Uchū tobikoe utau yo"
+          - "Nan oku kōnen sugite mo sagasu yo"
+          - "Kagayaku hoshi o"
+      - lines:
+          - "Tsutae ni ikō, hoshi o atsumete"
+          - "Kirakira hikaru ano sora no mukō"
+          - "Aishiteru yo, nē"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sto per sparare"
+          - "Decollo"
+      - lines:
+          - "Partiamo adesso"
+          - "Amore sincero, colpisco al primo colpo, compagnia di pretese assurde"
+          - "Gente vera, anima!"
+          - "Amore che non raggiunge, diffonditi, avvolti nell'universo, sconsideratamente persi"
+      - lines:
+          - "Una METAL BABY testarda e in gran forma"
+          - "Scatena il Big Bang, evviva!"
+          - "La situazione si fa ancora più Crazy"
+          - "Perché nemmeno desiderarlo a una stella o pregare un dio basta"
+      - lines:
+          - "Guardando il cielo notturno, credo che un giorno arriverà"
+      - lines:
+          - "Il solito HiAce"
+          - "I miei compagni di sempre"
+          - "Un gran palco, un giorno"
+          - "Do un'occhiata alla setlist"
+          - "Sempre in grande stile"
+          - "Oltre il campo, via di fuga"
+          - "Voliamo via, adesso"
+      - lines:
+          - "Verrò a trovarti"
+          - "Una storia che gira e rigira"
+          - "Attraverserò l'universo cantando"
+          - "Anche dopo centinaia di milioni di anni luce, ti cercherò"
+          - "Tra le tante stelle"
+      - lines:
+          - "Ora risplende"
+          - "Amore che non cambia, all'inizio del cammino, il gruppo delle pretese assurde"
+          - "Più splendente di qualunque passato"
+          - "Spicca il volo, un bloom sconsiderato nell'universo"
+      - lines:
+          - "1 su 8 miliardi, un incontro che ci lega"
+          - "Spargi un po' di stile, così figo, la crew segreta"
+          - "Senza precedenti, canto, ancora più bello"
+          - "Per quante volte, per qualunque difficoltà, riesco a ribaltare tutto"
+      - lines:
+          - "Quando la luna si fa piena, ti faccio accadere un miracolo"
+      - lines:
+          - "Sei sempre tu l'asso"
+          - "Il mio nome che non cambia"
+          - "Un 'ti amo' di quei tempi"
+          - "Perché è un'esperienza che si imprime"
+          - "Sempre una grande gara"
+          - "Oltre il campo, via di fuga"
+          - "Voliamo via, adesso"
+      - lines:
+          - "Ti offro il mio amore"
+          - "Perché si può realizzare"
+          - "Attraverso la galassia, raggiungendoti"
+          - "Il battito del cuore sta per esplodere"
+          - "Urlo nel cielo stellato"
+      - lines:
+          - "Anche se diventassi polvere di stelle"
+          - "Vivrò per te, nel futuro"
+          - "L'ombra di stelle che mi guida"
+          - "Sarò con te, nel futuro"
+          - "Mi troverai!"
+          - "Il cielo stellato che scintilla"
+          - "Non piangere, abbi coraggio"
+          - "Voliamo via, adesso"
+      - lines:
+          - "Come una stella cadente"
+          - "Esaudisco, il tuo desiderio"
+      - lines:
+          - "Verrò a trovarti"
+          - "Una storia che gira e rigira"
+          - "Attraverserò l'universo cantando"
+          - "Anche dopo centinaia di milioni di anni luce, ti cercherò"
+          - "La stella che brilla"
+      - lines:
+          - "Andiamo a raccontarlo, raccogliendo le stelle"
+          - "Oltre quel cielo che luccica"
+          - "Ti amo, ehi"
+  - lang: en
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "I'm gonna fire"
+          - "Blast off"
+      - lines:
+          - "Start right now"
+          - "Real love, hitting you at first shot, a crew of absurd demands"
+          - "True spirit, soul!"
+          - "A love that can't reach, spread out, lost in the universe, recklessly"
+      - lines:
+          - "A stubborn, sharp METAL BABY"
+          - "Let's stir up a Big Bang, hooray!"
+          - "At the top, things are even more insane"
+          - "Because even wishing on a star or praying to a god isn't enough"
+      - lines:
+          - "Gazing at the night sky, believing it will reach you someday"
+      - lines:
+          - "The usual HiAce"
+          - "My unshakeable crew"
+          - "A grand stage, someday"
+          - "Glance at the setlist"
+          - "Always grand scale"
+          - "Past the field, escape"
+          - "Let's fly away now"
+      - lines:
+          - "I'll come to see you"
+          - "A story that keeps turning round"
+          - "I'll cross the universe and sing"
+          - "Even after hundreds of millions of light-years, I'll keep searching"
+          - "Among the countless stars"
+      - lines:
+          - "It's shining now"
+          - "A love that never changes, along the road from the start, the crew of absurd demands"
+          - "More radiant than any past"
+          - "Spread your wings, a reckless bloom in the universe"
+      - lines:
+          - "1 in 8 billion, a connection that binds us"
+          - "Scatter it around, so cool, the secret crew"
+          - "Unheard of, I sing, even better"
+          - "No matter how many times, no matter how hard, I can flip it all around"
+      - lines:
+          - "When the moon swells, I'll work a miracle for you"
+      - lines:
+          - "You're always the ace"
+          - "My name that doesn't change"
+          - "An 'I love you' from someday"
+          - "Because it's an experience that burns in"
+          - "Always a grand race"
+          - "Past the field, escape"
+          - "Let's fly away now"
+      - lines:
+          - "I offer you my love"
+          - "Because it can come true"
+          - "Crossing the galaxy, tracing my way"
+          - "My heartbeat feels ready to burst"
+          - "I shout in the starry sky"
+      - lines:
+          - "Even if I become stardust"
+          - "I'll live for you in the future"
+          - "The starlight that guides me"
+          - "I'll be with you in the future"
+          - "You find me!"
+          - "The twinkling starry sky"
+          - "Don't cry, have courage"
+          - "Let's fly away now"
+      - lines:
+          - "Like a shooting star"
+          - "I'll make your wish come true"
+      - lines:
+          - "I'll come to see you"
+          - "A story that keeps turning round"
+          - "I'll cross the universe and sing"
+          - "Even after hundreds of millions of light-years, I'll keep searching"
+          - "For the shining star"
+      - lines:
+          - "Let's go tell it, gathering the stars"
+          - "Beyond that sparkling sky"
+          - "I love you, hey"
+---
