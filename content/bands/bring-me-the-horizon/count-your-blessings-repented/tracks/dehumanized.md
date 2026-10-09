@@ -1,0 +1,164 @@
+---
+title: "Dehumanized"
+slug: "dehumanized"
+added_date: "2026-10-07"
+featured: false
+instrumental: false
+original_langs: ["en"]
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "You were born to suffer"
+          - "You were bred to bleed"
+          - "Scraped from your mother's womb"
+          - "Meat for the machine"
+      - lines:
+          - "Fat on milk and honey"
+          - "Lulled by a gilded lie"
+          - "We are becoming"
+          - "Dehumanized"
+      - lines:
+          - "Some of us are butchers"
+          - "Some of us are lambs"
+          - "Send me to the abattoir"
+          - "Let's find out which I am"
+      - lines:
+          - "Set your heart to safety"
+          - "Or face the guillotine"
+          - "For empathy is heresy"
+          - "And hope is a disease"
+      - lines:
+          - "Dissociating"
+          - "The blister grows within"
+          - "How can you escape"
+          - "That which lives under your skin?"
+      - lines:
+          - "Defiled by darkness"
+          - "Our souls sodomized"
+          - "We are becoming"
+          - "Dehumanized"
+      - lines:
+          - "Dehumanized"
+          - "Rotting beneath the madness"
+          - "Dehumanized"
+          - "Rotting beneath the madness"
+      - lines:
+          - "Who will survive"
+          - "And what will be left of them?"
+      - lines:
+          - "Who will survive"
+          - "And what will be left of them?"
+      - lines:
+          - "The sky is falling"
+          - "It's falling"
+          - "There's nothing we can do"
+      - lines:
+          - "You will pay the price"
+          - "Time to fucking die"
+          - "You will pay the price"
+          - "Kill me quick"
+          - "Time to fucking die"
+          - "Who will survive"
+          - "And what will be left of them?"
+      - lines:
+          - "You were bred to suffer"
+          - "You were born to bleed"
+          - "Scraped from"
+          - "Your mother's womb"
+          - "We have become"
+          - "Dehumanized"
+          - "Dehumanized"
+          - "Rotting beneath the madness"
+          - "We have become"
+          - "Dehumanized"
+      - lines:
+          - "Kill each other"
+          - "An infestation"
+          - "Braindead at birth"
+          - "Disciples of desire"
+          - "Virulent"
+          - "Scum of the earth"
+          - "Scum of the earth"
+          - "Scum of the earth"
+          - "Scum of the earth"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Sei nato per soffrire"
+          - "Sei stato allevato per sanguinare"
+          - "Raschiato via dal grembo di tua madre"
+          - "Carne per la macchina"
+      - lines:
+          - "Ingrassato di latte e miele"
+          - "Cullato da una menzogna dorata"
+          - "Stiamo diventando"
+          - "Dehumanized"
+      - lines:
+          - "Alcuni di noi sono macellai"
+          - "Alcuni di noi sono agnelli"
+          - "Mandami al mattatoio"
+          - "Scopriamo quale di essi sono"
+      - lines:
+          - "Metti il tuo cuore al sicuro"
+          - "Oppure affronta la ghigliottina"
+          - "Perché l'empatia è un'eresia"
+          - "E la speranza è una malattia"
+      - lines:
+          - "Dissociandomi"
+          - "La vescica cresce dentro"
+          - "Come puoi scappare"
+          - "Da ciò che vive sotto la tua pelle?"
+      - lines:
+          - "Profanati dalle tenebre"
+          - "Le nostre anime sodomizzate"
+          - "Stiamo diventando"
+          - "Dehumanized"
+      - lines:
+          - "Dehumanized"
+          - "Marcendo sotto la follia"
+          - "Dehumanized"
+          - "Marcendo sotto la follia"
+      - lines:
+          - "Chi sopravviverà"
+          - "E cosa resterà di loro?"
+      - lines:
+          - "Chi sopravviverà"
+          - "E cosa resterà di loro?"
+      - lines:
+          - "Il cielo sta cadendo"
+          - "Sta cadendo"
+          - "Non c'è nulla che possiamo fare"
+      - lines:
+          - "Pagherai il prezzo"
+          - "È ora di morire, cazzo"
+          - "Pagherai il prezzo"
+          - "Uccidimi in fretta"
+          - "È ora di morire, cazzo"
+          - "Chi sopravviverà"
+          - "E cosa resterà di loro?"
+      - lines:
+          - "Sei stato allevato per soffrire"
+          - "Sei nato per sanguinare"
+          - "Raschiato via"
+          - "Dal grembo di tua madre"
+          - "Siamo diventati"
+          - "Dehumanized"
+          - "Dehumanized"
+          - "Marcendo sotto la follia"
+          - "Siamo diventati"
+          - "Dehumanized"
+      - lines:
+          - "Uccidetevi a vicenda"
+          - "Un'infestazione"
+          - "Morti di cervello alla nascita"
+          - "Discepoli del desiderio"
+          - "Virulenti"
+          - "Feccia della terra"
+          - "Feccia della terra"
+          - "Feccia della terra"
+          - "Feccia della terra"
+---
