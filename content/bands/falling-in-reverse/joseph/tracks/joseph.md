@@ -84,7 +84,7 @@ blocks:
       - lines:
           - "Repeat the cycle"
           - "Repeat the cycle"
-          - "Repeat the cycle now"
+          - "Ora ripeti il ciclo"
   - lang: it
     role: translation
     translator: "Filippo"
@@ -158,3 +158,4 @@ blocks:
           - "Ripeti il ciclo"
           - "Ripeti il ciclo"
           - "Ora ripeti il ciclo"
+---
