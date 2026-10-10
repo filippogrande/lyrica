@@ -308,6 +308,14 @@ artists:
 - Il titolo resta **pulito** (nessun "feat." nel titolo): il ruolo si legge dalla lista artisti.
 - Se `artists` manca, il validatore emette un **warning** (non errore): il brano è collegato solo alla band dell'album.
 
+#### Un brano in due album (collaborazione paritaria cross-album)
+
+Quando lo **stesso brano** compare in **due album di due artisti diversi** (es. *RATATATA*, in *TANZNEID* degli Electric Callboy e in *METAL FORTH* delle Babymetal) **esiste un solo file**, nell'album dell'artista `primary`; il brano si dichiara con `artists` (`primary` + `equal`, D100, D107) e **compare linkato nella pagina di entrambe le band**.
+
+- **Un file solo**: il testo si scrive una volta, nell'album dell'artista `primary` (qui Electric Callboy). Non si duplica mai.
+- **L'altro album** tiene la voce di tracklist **senza file**, con `status: pending` (la tracklist è il disco intero, D90): lì `pending` non significa "testo non scritto" ma "questo testo vive nell'album dell'altro artista".
+- **Entrambe le pagine band** linkano il brano (`track.HasArtist`), quindi la traduzione è raggiungibile anche dall'artista che non ospita il file.
+
 ## Regole di validazione (applicate in CI)
 
 Un contenuto è **invalido** se:
