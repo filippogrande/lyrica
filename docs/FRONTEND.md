@@ -257,7 +257,6 @@ La pagina di un album mostra, in quest'ordine (D89):
 ├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤
 ├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
 ├─ footer (link al feed, riga dei contatori) ─────────────┤
-└──────────────────────────────────────────────────────────┘
 ```
 
 Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è quello che fa partire i due testi insieme (D94, D95).
