@@ -257,6 +257,7 @@ La pagina di un album mostra, in quest'ordine (D89):
 ├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤
 ├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
 ├─ footer (link al feed, riga dei contatori) ─────────────┤
+└──────────────────────────────────────────────────────────┘
 ```
 
 Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è quello che fa partire i due testi insieme (D94, D95).
@@ -299,7 +300,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 - Ogni voce è l'**etichetta della lingua con la bandiera** (`🇩🇪 DE`): in un brano bilingue la stessa lingua può comparire come originale e come **versione completa**, e le due voci sono due testi diversi — il lato dice quale delle due si sta leggendo (D96).
 - **Tutte le lingue del brano sono nel DOM**: il cambio è lato client e **istantaneo**, nessuna chiamata al server, funziona **offline** (come il filtro delle band, D87).
 - La lingua scelta si riflette nell'URL via `history.replaceState`: **`?lang=de`** per la traduzione, **`?orig=de`** per l'originale. Il link si copia e si condivide, e chi lo apre trova la lingua scelta (lo script applica il parametro al caricamento); nessuna pagina separata e nessun URL duplicato.
-- La lingua si legge **nell'intestazione del lato** (`ORIGINALE 🇩🇪 DE`, `TRADUZIONE 🇮🇹 IT`), attaccata al testo che si sta leggendo: non c'è un titolo di colonna lontano dal testo. Il **traduttore**, quando dichiarato, sta sotto l'intestazione della traduzione (`track.translator`).
+- La lingua si legge **nell'intestazione del lato** (`ORIGINALE 🇩🇪 DE`, `TRADUZIONE 🇮🇹 IT`), attaccata al testo che si sta leggendo: non c'è un titolo di colonna lontano dal testo.
 - Con JS il **titolo dentro il singolo blocco è nascosto**: ripeterebbe la lingua che si legge già nell'intestazione. Resta nel markup perché serve al caso senza JS, dove ogni lingua dichiara sé stessa sopra il proprio testo.
 - **Senza JS** i blocchi restano **tutti visibili**, uno sotto l'altro, ciascuno con il proprio titolo (nome del lato + lingua); l'intestazione **non si mostra**, perché il menu non potrebbe cambiare niente e la lingua è già scritta sopra ogni testo.
 
@@ -395,7 +396,7 @@ Questa stessa semantica governa il **contatore delle lingue** in home e nel foot
 ## Stringhe
 
 - Tutte le stringhe visibili stanno in `locales/<lang>.yaml`: **nessun testo hard-coded nei template**.
-- Chiavi piatte e parlanti (`nav.home`, `track.translator`, `search.no_results`).
+- Chiavi piatte e parlanti (`nav.home`, `track.added`, `search.no_results`).
 - **Chiave mancante = fallback italiano** + warning in build (non blocca, ma la PR deve sistemarlo o giustificarlo).
 - I nomi propri (band, brani, cantanti) **non si traducono mai**, e **nemmeno i codici lingua** (una bandiera non è un testo da tradurre).
 
