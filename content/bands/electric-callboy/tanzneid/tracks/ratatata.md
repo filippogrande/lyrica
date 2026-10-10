@@ -4,7 +4,7 @@ slug: "ratatata"
 added_date: 2026-09-30
 featured: false
 instrumental: false
-original_langs: ["en"]
+original_langs: ["en", "ja"]
 blocks:
   - lang: en
     role: original
@@ -131,6 +131,131 @@ blocks:
           - "(Fu! Fu! Fu! Fu!)"
       - lines:
           - "Now everybody's getting down"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "Every night when the sky turns red up above"
+          - "I feel the beat in my veins and I'm searching for love"
+          - "You know that hips don't lie, I leave you hypnotized"
+          - "Just give me one more try to make you feel that vibe"
+          - "And it goes"
+      - lines:
+          - "Ra ta ta ta ta ta!"
+          - "My body is a weapon"
+          - "Ra ta ta ta ta ta!"
+          - "We're gonna hit the floor"
+          - "Ra ta ta ta ta ta!"
+          - "We're gonna make it happen"
+          - "Ra ta ta ta ta ta!"
+          - "Now gimme some more"
+      - lines:
+          - "I will push it to the limit"
+          - "And everybody's feeling the sound of the night"
+          - "I don't wanna stop"
+          - "We push it to the limit"
+          - "Together we will crash the morning light"
+      - lines:
+          - "Blast off!"
+          - "Bun Bun Bun Moving"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Shaking"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Jumping"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Stomping"
+          - "Bun Bun Bun Bun Bun"
+      - lines:
+          - "Ah Ge!"
+          - "I'll make you sparkle"
+          - "Ah Ge!"
+          - "I'll make you float"
+          - "Ah Ge!"
+          - "I'll make your heart race"
+          - "Ah Ge!"
+          - "I'll be a little devil, but"
+          - "You alright?"
+          - "Reflected in your eyes"
+          - "With the magic of your smile"
+          - "I lure you into the trap"
+          - "And it goes"
+      - lines:
+          - "Ra ta ta ta ta ta!"
+          - "My body is a weapon"
+          - "Ra ta ta ta ta ta!"
+          - "We're gonna hit the floor"
+          - "Ra ta ta ta ta ta!"
+          - "We're gonna make it happen"
+          - "Ra ta ta ta ta ta!"
+          - "Now gimme some more"
+      - lines:
+          - "I will push it to the limit"
+          - "And everybody's feeling the sound of the night"
+          - "I don't wanna stop"
+          - "We push it to the limit"
+          - "Together we will crash the morning light"
+      - lines:
+          - "Blast off!"
+          - "Bun Bun Bun Moving"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Shaking"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Jumping"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Stomping"
+          - "Bun Bun Bun Bun Bun"
+      - lines:
+          - "I'm here for the moment"
+          - "Here for the beat"
+          - "Here for the love"
+          - "And the friends I need"
+          - "You know that I'll be there for good"
+      - lines:
+          - "I'm here for the moment"
+          - "Here for the beat"
+          - "Here for the love"
+          - "And the friends I need"
+          - "You know that I'll be there for good"
+      - lines:
+          - "RA TA TA TA!"
+          - "I go fucking crazy 'cause I'm waiting for the drop"
+          - "Are you ready? (Are you ready?)"
+          - "Let's GO!"
+      - lines:
+          - "So tell me baby can I get a"
+          - "(Fu! Fu!)"
+          - "So hear me now"
+          - "(Fu! Fu!)"
+          - "You know what I want"
+          - "(Fu! Fu!)"
+          - "Now everybody's getting down"
+      - lines:
+          - "I will push it to the limit"
+          - "And everybody's feeling the sound of the night"
+          - "I don't wanna stop"
+          - "We push it to the limit"
+          - "Together we will crash the morning light"
+      - lines:
+          - "Blast off!"
+          - "Bun Bun Bun Moving"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Shaking"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Jumping"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Stomping"
+          - "Bun Bun Bun Bun Bun"
+      - lines:
+          - "Everybody"
+          - "(Fu! Fu!)"
+          - "Out of control"
+          - "(Fu! Fu!)"
+          - "Everybody"
+          - "(Fu! Fu!)"
+          - "Out of control"
+          - "(Fu! Fu! Fu! Fu!)"
+      - lines:
+          - "Now everybody's getting down"
   - lang: it
     role: translation
     translator: "Filippo"
@@ -157,7 +282,7 @@ blocks:
           - "Lo spingiamo al limite"
           - "Insieme manderemo in frantumi la luce del mattino"
       - lines:
-          - "Bu・Chi・A・Ga・Re!"
+          - "Esplodi!"
           - "Bun Bun Bun Muoviti"
           - "Bun Bun Bun Bun Bun (Fu! Fu!)"
           - "Bun Bun Bun Scuoti"
@@ -196,7 +321,7 @@ blocks:
           - "Lo spingiamo al limite"
           - "Insieme manderemo in frantumi la luce del mattino"
       - lines:
-          - "Bu・Chi・A・Ga・Re!"
+          - "Esplodi!"
           - "Bun Bun Bun Muoviti"
           - "Bun Bun Bun Bun Bun (Fu! Fu!)"
           - "Bun Bun Bun Scuoti"
@@ -237,7 +362,7 @@ blocks:
           - "Lo spingiamo al limite"
           - "Insieme manderemo in frantumi la luce del mattino"
       - lines:
-          - "Bu・Chi・A・Ga・Re!"
+          - "Esplodi!"
           - "Bun Bun Bun Muoviti"
           - "Bun Bun Bun Bun Bun (Fu! Fu!)"
           - "Bun Bun Bun Scuoti"
