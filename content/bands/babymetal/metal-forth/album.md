@@ -32,4 +32,5 @@ tracks:
   - slug: "white-flame"
     title: "White Flame 白炎"
     status: pending
+cover: "metal-forth.webp"
 ---
