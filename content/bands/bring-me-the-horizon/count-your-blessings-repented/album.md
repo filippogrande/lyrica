@@ -34,4 +34,5 @@ tracks:
     status: pending
   - slug: "dehumanized"
     title: "Dehumanized"
+cover: "count-your-blessings-repented.webp"
 ---
