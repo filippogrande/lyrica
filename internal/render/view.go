@@ -90,9 +90,7 @@ type TextView struct {
 	Label string
 	// Selected è la lingua mostrata all'apertura della pagina.
 	Selected bool
-	// Translator è chi ha tradotto il testo: vuoto sull'originale.
-	Translator string
-	Stanzas    []StanzaView
+	Stanzas  []StanzaView
 }
 
 // ArtistView rappresenta un artista nel brano con il suo ruolo.

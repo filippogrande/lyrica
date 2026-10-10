@@ -112,11 +112,10 @@ func newTextViews(blocks []content.Block, selectedIndex int) []TextView {
 	views := make([]TextView, 0, len(blocks))
 	for index, block := range blocks {
 		views = append(views, TextView{
-			Code:       block.Lang,
-			Label:      LangLabel(block.Lang),
-			Selected:   index == selectedIndex,
-			Translator: block.Translator,
-			Stanzas:    newStanzas(block),
+			Code:     block.Lang,
+			Label:    LangLabel(block.Lang),
+			Selected: index == selectedIndex,
+			Stanzas:  newStanzas(block),
 		})
 	}
 	return views

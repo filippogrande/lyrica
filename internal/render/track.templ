@@ -131,9 +131,6 @@ templ textSide(page PageData, side string, label string, chooseLabel string, blo
 					{ label }
 					<span class="block-lang">{ block.Label }</span>
 				</h2>
-				if block.Translator != "" {
-					<p class="block-translator">{ page.T("track.translator") }: { block.Translator }</p>
-				}
 				@stanzas(block.Stanzas)
 			</article>
 		}
