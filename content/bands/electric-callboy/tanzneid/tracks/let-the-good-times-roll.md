@@ -147,7 +147,7 @@ blocks:
       - lines:
           - "Accendiamo il divertimento, siamo pronti a partire"
           - "Tieniti gli amici vicini e lascia girare i bei tempi"
-          - "Prendi la tua borsa, vieni con noi, suona la tua tua canzone preferita"
+          - "Prendi la tua borsa, vieni con noi, suona la tua canzone preferita"
           - "Sgrida dal profondo e lascia girare i bei tempi"
       - lines:
           - "Whoa"
