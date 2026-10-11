@@ -4,7 +4,7 @@ slug: "ratatata"
 added_date: 2026-09-30
 featured: false
 instrumental: false
-original_langs: ["en", "ja"]
+original_langs: ["en", "ja-Jpan", "ja-Latn"]
 artists:
   - slug: "electric-callboy"
     role: "primary"
@@ -136,6 +136,58 @@ blocks:
           - "(Fu! Fu! Fu! Fu!)"
       - lines:
           - "Now everybody's getting down"
+  - lang: ja-Jpan
+    role: original
+    stanzas:
+      - lines:
+          - "ブチアガレ!"
+          - "ブンブンブン ムーヴィング"
+          - "ブンブンブンブン (フー! フー!)"
+          - "ブンブンブン シェイキング"
+          - "ブンブンブンブン (フー! フー!)"
+          - "ブンブンブン ジャンピング"
+          - "ブンブンブンブン (フー! フー!)"
+          - "ブンブンブン ストンピング"
+          - "ブンブンブンブン"
+      - lines:
+          - "アゲ!"
+          - "キラっとしちゃう"
+          - "アゲ!"
+          - "フワっとしちゃう"
+          - "アゲ!"
+          - "ドキっとしちゃう"
+          - "アゲ!"
+          - "小悪魔しちゃうけど"
+          - "大丈夫？"
+          - "瞳に映した"
+          - "笑顔の魔法で"
+          - "罠に誘い込む"
+  - lang: ja-Latn
+    role: original
+    stanzas:
+      - lines:
+          - "Bu・Chi・A・Ga・Re!"
+          - "Bun Bun Bun Moving"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Shaking"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Jumping"
+          - "Bun Bun Bun Bun Bun (Fu! Fu!)"
+          - "Bun Bun Bun Stomping"
+          - "Bun Bun Bun Bun Bun"
+      - lines:
+          - "Ah Ge!"
+          - "Kira to shichau"
+          - "Ah Ge!"
+          - "Fuwa to shichau"
+          - "Ah Ge!"
+          - "Doki to shichau"
+          - "Ah Ge!"
+          - "Koakuma shichaukedo"
+          - "Daijyoubu?"
+          - "Hitomi ni utsushita"
+          - "Egao no mahou de"
+          - "Wana ni sasoikomu"
   - lang: en
     role: translation
     stanzas:
