@@ -8,8 +8,7 @@ import (
 // validateTrack controlla un brano: anagrafica, blocchi e traduzioni.
 func validateTrack(catalog *Catalog, track *Track, report *Report) {
 	where := track.Path
-	expected := strings.TrimSuffix(filepath.Base(track.Path), ".md")
-	checkSlugAgainst(track.Slug, expected, "file", where, report)
+	checkSlugAgainst(track.Slug, trackName(track), trackKind(track), where, report)
 	if strings.TrimSpace(track.Title) == "" {
 		report.Errorf(where, "title mancante")
 	}
@@ -24,7 +23,7 @@ func validateTrack(catalog *Catalog, track *Track, report *Report) {
 		report.Errorf(where, "nessun blocco con role: original (regola 3)")
 	}
 	for _, block := range track.Blocks {
-		checkStanzaLines(track.Path+" ["+block.Lang+"]", block.Stanzas, report)
+		checkStanzaLines(blockWhere(track, block), block.Stanzas, report)
 	}
 	if hasOriginal {
 		checkTranslations(track, original, report)
@@ -33,6 +32,34 @@ func validateTrack(catalog *Catalog, track *Track, report *Report) {
 		report.Warnf(where, "brano senza traduzioni: va segnato come \"solo originale\" e non linkato")
 	}
 	checkLinks(catalog, where, track.Notes, report)
+}
+
+// trackName è il nome da cui deve derivare lo slug: la cartella (formato a
+// cartella) o il nome del file senza .md (formato precedente).
+func trackName(track *Track) string {
+	base := filepath.Base(track.Path)
+	if track.Legacy {
+		return strings.TrimSuffix(base, ".md")
+	}
+	return base
+}
+
+// trackKind è come si chiama, in un messaggio d'errore, la cosa di cui lo slug
+// deve portare il nome.
+func trackKind(track *Track) string {
+	if track.Legacy {
+		return "file"
+	}
+	return "cartella"
+}
+
+// blockWhere è il riferimento da stampare per un blocco: il suo file quando
+// esiste (formato a cartella), altrimenti il brano con la lingua fra parentesi.
+func blockWhere(track *Track, block Block) string {
+	if block.Path != "" {
+		return block.Path
+	}
+	return track.Path + " [" + block.Lang + "]"
 }
 
 // checkArtists verifica che tutti gli slug in artists esistano nel catalogo.
@@ -70,9 +97,10 @@ func checkArtists(catalog *Catalog, track *Track, report *Report) {
 // checkBlockLangs verifica la regola 3: role noto, una lingua una volta per
 // ruolo, almeno una strofa per blocco.
 //
-// La stessa lingua può comparire due volte se i ruoli sono diversi (D96): in un
-// brano bilingue l'originale è in tedesco e la sua "versione completa" è una
-// traduzione in tedesco, che è un blocco legittimo, non un doppione.
+// Nel formato a cartella la stessa coppia non può ripetersi: il nome del file
+// (original-<lang>.md, <lang>.md) è la chiave del blocco, quindi due blocchi con
+// la stessa coppia scriverebbero lo stesso file. Il controllo resta per il
+// formato precedente e per le regole che valgono comunque (role noto, strofe).
 func checkBlockLangs(track *Track, report *Report) {
 	seen := make(map[string]bool, len(track.Blocks))
 	for _, block := range track.Blocks {
@@ -82,16 +110,16 @@ func checkBlockLangs(track *Track, report *Report) {
 		}
 		key := block.Role + "|" + block.Lang
 		if seen[key] {
-			report.Errorf(track.Path, "due blocchi %s con lang %q: la stessa lingua compare una volta per ruolo (regola 3)", block.Role, block.Lang)
+			report.Errorf(blockWhere(track, block), "due blocchi %s con lang %q: la stessa lingua compare una volta per ruolo (regola 3)", block.Role, block.Lang)
 		}
 		seen[key] = true
 		switch block.Role {
 		case RoleOriginal, RoleTranslation:
 		default:
-			report.Errorf(track.Path, "blocco %s con role %q sconosciuto: ammessi %q e %q (regola 3)", block.Lang, block.Role, RoleOriginal, RoleTranslation)
+			report.Errorf(blockWhere(track, block), "blocco %s con role %q sconosciuto: ammessi %q e %q (regola 3)", block.Lang, block.Role, RoleOriginal, RoleTranslation)
 		}
 		if len(block.Stanzas) == 0 {
-			report.Errorf(track.Path, "blocco %s senza strofe (regola 3)", block.Lang)
+			report.Errorf(blockWhere(track, block), "blocco %s senza strofe (regola 3)", block.Lang)
 		}
 	}
 }
@@ -128,7 +156,7 @@ func checkTranslations(track *Track, original Block, report *Report) {
 		if block.Role != RoleTranslation {
 			continue
 		}
-		where := track.Path + " [" + block.Lang + "]"
+		where := blockWhere(track, block)
 		if len(block.Stanzas) != len(original.Stanzas) {
 			report.Errorf(where, "traduzione incompleta: %d strofe contro %d dell'originale (regola 4)", len(block.Stanzas), len(original.Stanzas))
 			continue

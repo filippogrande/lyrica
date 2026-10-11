@@ -93,7 +93,10 @@ func loadAlbum(dir string, band *Band) (*Album, error) {
 	return album, nil
 }
 
-// loadTracks legge i file dei brani di un album.
+// loadTracks legge i brani di un album. La struttura attuale è una cartella per
+// brano (tracks/<slug>/); un file <slug>.md nella stessa cartella è il formato
+// precedente, che `lyrica migrate` trasforma e che il loader accetta finché
+// l'ultimo brano non è migrato.
 func loadTracks(dir string, album *Album) ([]*Track, error) {
 	entries, err := os.ReadDir(dir)
 	if err != nil {
@@ -104,10 +107,7 @@ func loadTracks(dir string, album *Album) ([]*Track, error) {
 		if isIgnorable(entry.Name()) {
 			continue
 		}
-		if entry.IsDir() || !strings.HasSuffix(entry.Name(), ".md") {
-			return nil, fmt.Errorf("%s: attesi solo file .md, trovato %q", dir, entry.Name())
-		}
-		track, err := loadTrack(filepath.Join(dir, entry.Name()), album)
+		track, err := loadTrackEntry(filepath.Join(dir, entry.Name()), entry, album)
 		if err != nil {
 			return nil, err
 		}
@@ -116,10 +116,25 @@ func loadTracks(dir string, album *Album) ([]*Track, error) {
 	return tracks, nil
 }
 
-// loadTrack legge un singolo brano: front-matter nei modelli, corpo in Notes
-// (le note redazionali non si stampano mai nella pagina).
-func loadTrack(path string, album *Album) (*Track, error) {
-	track := &Track{Path: path, Album: album}
+// loadTrackEntry legge un brano da una voce della cartella tracks/: una cartella
+// (formato attuale) o un file .md (formato precedente). Qualsiasi altra cosa è
+// un errore esplicito.
+func loadTrackEntry(path string, entry os.DirEntry, album *Album) (*Track, error) {
+	switch {
+	case entry.IsDir():
+		return loadTrackFolder(path, album)
+	case strings.HasSuffix(entry.Name(), ".md"):
+		return loadLegacyTrack(path, album)
+	default:
+		return nil, fmt.Errorf("%s: attese cartelle di brani o file .md, trovato %q", filepath.Dir(path), entry.Name())
+	}
+}
+
+// loadLegacyTrack legge un brano nel formato precedente (tracks/<slug>.md):
+// front-matter nei modelli, blocchi inline, corpo in Notes. Il brano si segna
+// come Legacy, così il validatore lo riconosce e la migrazione sa che c'è.
+func loadLegacyTrack(path string, album *Album) (*Track, error) {
+	track := &Track{Path: path, Album: album, Legacy: true}
 	notes, err := readFrontMatterFile(path, track)
 	if err != nil {
 		return nil, err

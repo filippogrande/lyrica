@@ -15,6 +15,7 @@ Uso:
   lyrica serve                     serve public/ in locale
   lyrica valida                    controlla i contenuti e stampa errori e avvisi
   lyrica new band|album|brano ...  crea i template di contenuto (vedi docs/CONTENT.md)
+  lyrica migrate [--band <slug>] [--apply]  migra i brani al formato a cartella (prova senza --apply)
   lyrica help                      mostra questo messaggio
 `
 
@@ -26,7 +27,7 @@ func main() {
 }
 
 // run esegue il comando richiesto. Nessun comando "fa finta": quelli non
-// ancora implementati restituiscono un errore esplicito (GUIDELINES.md &S5).
+// ancora implementati restituiscono un errore esplicito (GUIDELINES.md §5).
 func run(args []string) error {
 	if len(args) == 0 {
 		fmt.Print(usage)
@@ -42,6 +43,8 @@ func run(args []string) error {
 		return validateContent()
 	case "new":
 		return runNew(args[1:])
+	case "migrate":
+		return runMigrate(args[1:])
 	case "help", "-h", "--help":
 		fmt.Print(usage)
 		return nil

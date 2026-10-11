@@ -53,9 +53,9 @@ func parseArgs(args []string) (keys map[string]string, booleans map[string]bool,
 			continue
 		}
 		switch name {
-		case "instrumental":
+		case "instrumental", "apply":
 			booleans[name] = true
-		case "lang", "year":
+		case "lang", "year", "band":
 			if i+1 >= len(args) {
 				return nil, nil, nil, fmt.Errorf("flag --%s richiede un valore", name)
 			}
