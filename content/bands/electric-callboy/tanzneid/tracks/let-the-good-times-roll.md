@@ -5,6 +5,11 @@ added_date: 2026-09-30
 featured: false
 instrumental: false
 original_langs: ["en"]
+artists:
+  - slug: "electric-callboy"
+    role: "primary"
+  - slug: "the-offspring"
+    role: "featuring"
 blocks:
   - lang: en
     role: original
@@ -142,7 +147,7 @@ blocks:
       - lines:
           - "Accendiamo il divertimento, siamo pronti a partire"
           - "Tieniti gli amici vicini e lascia girare i bei tempi"
-          - "Prendi la tua borsa, vieni con noi, suona la tua canzone preferita"
+          - "Prendi la tua borsa, vieni con noi, suona la tua tua canzone preferita"
           - "Sgrida dal profondo e lascia girare i bei tempi"
       - lines:
           - "Whoa"
