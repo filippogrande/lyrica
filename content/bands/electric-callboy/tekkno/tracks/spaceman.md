@@ -93,7 +93,7 @@ blocks:
           - "Spaceman, got a rocket on my back"
           - "The universe is down for my rave attack"
       - lines:
-          - "I'm a spaceman, got a rocket on my back"
+          - "Spaceman, got a rocket on my back"
           - "Spaceman, oh, I'm raving like a maniac"
           - "Spaceman, got a rocket on my back"
           - "The universe is down for my rave attack"
@@ -181,7 +181,7 @@ blocks:
           - "Spaceman, got a rocket on my back"
           - "The universe is down for my rave attack"
       - lines:
-          - "I'm a spaceman, got a rocket on my back"
+          - "Spaceman, got a rocket on my back"
           - "Spaceman, oh, I'm raving like a maniac"
           - "Spaceman, got a rocket on my back"
           - "The universe is down for my rave attack"
