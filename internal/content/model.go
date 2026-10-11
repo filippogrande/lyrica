@@ -97,7 +97,10 @@ type TrackRef struct {
 	Status string `yaml:"status"`
 }
 
-// Track è un brano con i suoi blocchi di testo (tracks/<slug>.md).
+// Track è un brano con i suoi blocchi di testo. La struttura attuale è una
+// cartella per brano (tracks/<slug>/song.md più un file per lingua); il formato
+// precedente — un solo file tracks/<slug>.md con i blocchi inline — è ancora
+// letto e segnato da Legacy.
 type Track struct {
 	Title         string         `yaml:"title"`
 	Slug          string         `yaml:"slug"`
@@ -107,13 +110,18 @@ type Track struct {
 	OriginalLangs []string       `yaml:"original_langs"`
 	Singers       []string       `yaml:"singers"`
 	Artists       []ArtistCredit `yaml:"artists"`
-	Blocks        []Block        `yaml:"blocks"`
+	// Blocks è la lista dei blocchi di testo: nel formato a cartella la
+	// popola il loader dai file di lingua, in ordine di nome.
+	Blocks []Block `yaml:"blocks"`
 
 	// Notes è il corpo del file dopo il front-matter: note redazionali.
 	// Non si stampa mai nella pagina (docs/CONTENT.md).
 	Notes string `yaml:"-"`
-	// Path è il percorso del file: lo popola il loader.
+	// Path è la cartella del brano (formato a cartella) o il file .md (formato
+	// precedente): lo popola il loader e lo usa il validatore.
 	Path string `yaml:"-"`
+	// Legacy dice se il brano è ancora nel formato a file unico.
+	Legacy bool `yaml:"-"`
 	// Album è l'album di appartenenza: lo popola il loader.
 	Album *Album `yaml:"-"`
 }
@@ -157,6 +165,10 @@ type Block struct {
 	Translator string   `yaml:"translator"`
 	Live       bool     `yaml:"live"`
 	Stanzas    []Stanza `yaml:"stanzas"`
+
+	// Path è il file del blocco (formato a cartella): lo popola il loader.
+	// Vuoto nel formato a file unico, dove i blocchi stanno nel brano.
+	Path string `yaml:"-"`
 }
 
 // Stanza è una strofa. Singer, se presente, si stampa sopra la strofa: nei
