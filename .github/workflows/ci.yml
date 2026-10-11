@@ -19,10 +19,6 @@ on:
 
 permissions:
   contents: read
-  # TEMPORANEO: la diagnostica in fondo al job compila pubblica il log come
-  # commento della PR, così l'errore è leggibile anche dall'agente. Va tolto
-  # insieme al passo "Diagnostica".
-  pull-requests: write
 
 jobs:
   compila:
@@ -64,32 +60,6 @@ jobs:
           if ! go test ./... > /tmp/test.log 2>&1; then
             echo "::error::go test fallito: $(awk '{printf "%s%%0A", $0}' /tmp/test.log | head -c 3000)"
             exit 1
-          fi
-
-      # TEMPORANEO: pubblica il log della CI come commento della PR, così anche
-      # l'agente lo legge (il log del job richiede il login). Da rimuovere
-      # insieme al permesso pull-requests: write.
-      - name: Diagnostica (temporanea)
-        if: failure()
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PR: ${{ github.event.pull_request.number }}
-        run: |
-          set -uo pipefail
-          {
-            echo "## Diagnostica CI (temporanea)"
-            echo
-            echo '### go vet'
-            go vet ./... 2>&1 | tail -c 3000
-            echo
-            echo '### go build'
-            go build ./... 2>&1 | tail -c 3000
-            echo
-            echo '### go test'
-            go test ./... 2>&1 | tail -c 8000
-          } > /tmp/diag.txt
-          if [ -n "${PR}" ]; then
-            gh pr comment "${PR}" --body-file /tmp/diag.txt || echo "commento non riuscito"
           fi
 
   valida:
