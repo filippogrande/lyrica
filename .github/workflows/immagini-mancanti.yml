@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       # Il branch delle immagini si porta in pari con main PRIMA di scaricare:
       # così il push è un fast-forward e, soprattutto, un'immagine non viene
