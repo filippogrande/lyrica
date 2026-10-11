@@ -33,6 +33,13 @@ func onlyTrack(t *testing.T, catalog *Catalog) *Track {
 	return tracks[0]
 }
 
+const testBand = `---
+name: "Band"
+slug: "band"
+country: "IT"
+original_langs: ["de"]
+`
+
 const testAlbum = `---
 title: "Album"
 slug: "album"
@@ -41,10 +48,18 @@ tracks:
     title: "Prova"
 `
 
+// writeBandScaffold scrive band.md e album.md, il minimo perché Load arrivi al
+// brano.
+func writeBandScaffold(t *testing.T, root string) {
+	t.Helper()
+	writeTestFile(t, root, "bands/band/band.md", testBand)
+	writeTestFile(t, root, "bands/band/album/album.md", testAlbum)
+}
+
 // Il formato a cartella: song.md dà l'anagrafica, un file per blocco.
 func TestLoadCartellaBrano(t *testing.T) {
 	root := t.TempDir()
-	writeTestFile(t, root, "bands/band/album/album.md", testAlbum)
+	writeBandScaffold(t, root)
 	writeTestFile(t, root, "bands/band/album/tracks/prova/song.md", `---
 title: "Prova"
 slug: "prova"
@@ -90,7 +105,7 @@ stanzas:
 // Il formato precedente resta leggibile finché la migrazione non è finita.
 func TestLoadFormatoPrecedente(t *testing.T) {
 	root := t.TempDir()
-	writeTestFile(t, root, "bands/band/album/album.md", testAlbum)
+	writeBandScaffold(t, root)
 	writeTestFile(t, root, "bands/band/album/tracks/prova.md", `---
 title: "Prova"
 slug: "prova"
@@ -122,7 +137,7 @@ blocks:
 // Una cartella di brano senza song.md non è un brano.
 func TestLoadCartellaSenzaSong(t *testing.T) {
 	root := t.TempDir()
-	writeTestFile(t, root, "bands/band/album/album.md", testAlbum)
+	writeBandScaffold(t, root)
 	writeTestFile(t, root, "bands/band/album/tracks/prova/it.md", `---
 lang: it
 role: translation
@@ -137,7 +152,7 @@ stanzas:
 // Lingua dichiarata nel front-matter e diversa dal nome del file: errore.
 func TestLoadBloccoNomeIncoerente(t *testing.T) {
 	root := t.TempDir()
-	writeTestFile(t, root, "bands/band/album/album.md", testAlbum)
+	writeBandScaffold(t, root)
 	writeTestFile(t, root, "bands/band/album/tracks/prova/song.md", `---
 title: "Prova"
 slug: "prova"
