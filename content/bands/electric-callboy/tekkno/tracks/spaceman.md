@@ -5,6 +5,11 @@ added_date: 2026-09-30
 featured: false
 instrumental: false
 original_langs: ["en", "de"]
+artists:
+  - slug: "electric-callboy"
+    role: "primary"
+  - slug: "finch"
+    role: "featuring"
 blocks:
   - lang: en
     role: original
@@ -88,7 +93,7 @@ blocks:
           - "Spaceman, got a rocket on my back"
           - "The universe is down for my rave attack"
       - lines:
-          - "Spaceman, got a rocket on my back"
+          - "I'm a spaceman, got a rocket on my back"
           - "Spaceman, oh, I'm raving like a maniac"
           - "Spaceman, got a rocket on my back"
           - "The universe is down for my rave attack"
@@ -263,12 +268,12 @@ blocks:
       - lines:
           - "Ich bin ein Spaceman, ein Rakete auf dem Rücken"
           - "Spaceman, oh, ich rave wie ein Verrückter"
-          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Spaceman, ein Rakete auf dem Rücken"
           - "Das Universum steht bereit für meinen Rave-Angriff"
       - lines:
-          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Ich bin ein Spaceman, ein Rakete auf dem Rücken"
           - "Spaceman, oh, ich rave wie ein Verrückter"
-          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Spaceman, ein Rakete auf dem Rücken"
           - "Das Universum steht bereit für meinen Rave-Angriff"
       - lines:
           - "Mission erfüllt"
