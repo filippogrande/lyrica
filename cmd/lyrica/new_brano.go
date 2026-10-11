@@ -9,35 +9,35 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-// blockFM e stanzaFM modellano il front-matter dei blocchi di testo di un
-// brano (docs/CONTENT.md): il tipo di strofa non si stampa mai, restano solo
-// lingua, ruolo e righe.
+// songFM è il front-matter di song.md: l'anagrafica di un brano nella sua
+// cartella (docs/CONTENT.md). I blocchi di testo non stanno qui: ognuno è un
+// file a parte.
+type songFM struct {
+	Title         string   `yaml:"title"`
+	Slug          string   `yaml:"slug"`
+	AddedDate     string   `yaml:"added_date"`
+	Featured      bool     `yaml:"featured"`
+	Instrumental  bool     `yaml:"instrumental"`
+	OriginalLangs []string `yaml:"original_langs"`
+}
+
+// blockFM è il front-matter di un file di blocco (original-<lang>.md o
+// <lang>.md): la lingua, il ruolo e le strofe.
 type blockFM struct {
-	Lang    string    `yaml:"lang"`
-	Role    string    `yaml:"role"`
-	Stanzas []stanzaFM `yaml:"stanzas"`
+	Lang       string     `yaml:"lang"`
+	Role       string     `yaml:"role"`
+	Translator string     `yaml:"translator,omitempty"`
+	Stanzas    []stanzaFM `yaml:"stanzas"`
 }
 
 type stanzaFM struct {
-	Singer string   `yaml:"singer"`
+	Singer string   `yaml:"singer,omitempty"`
 	Lines  []string `yaml:"lines"`
 }
 
-// trackFM è il front-matter del file di un brano.
-type trackFM struct {
-	Title         string    `yaml:"title"`
-	Slug          string    `yaml:"slug"`
-	AddedDate     string    `yaml:"added_date"`
-	Featured      bool      `yaml:"featured"`
-	Instrumental  bool      `yaml:"instrumental"`
-	OriginalLangs []string  `yaml:"original_langs"`
-	Singers       []string  `yaml:"singers"`
-	Blocks        []blockFM `yaml:"blocks"`
-}
-
-// newBrano crea tracks/<slug>.md con la struttura strofe vuota e il blocco
-// originale pronto; poi aggiunge la voce alla tracklist di album.md (regola 8:
-// ogni brano va elencato nell'album).
+// newBrano crea la cartella di un brano — tracks/<slug>/ con song.md e il file
+// del blocco originale pronto da riempire — e aggiunge la voce alla tracklist
+// di album.md (regola 8: ogni brano va elencato nell'album).
 func newBrano(args []string) error {
 	keys, bools, pos, err := parseArgs(args)
 	if err != nil {
@@ -56,31 +56,56 @@ func newBrano(args []string) error {
 	if lang == "" {
 		return fmt.Errorf("serve --lang <codice> per la lingua del blocco (es. --lang de)")
 	}
+	tracksDir := filepath.Join(albumDir, "tracks")
 	slug := slugify(title)
-	slug, err = uniqueSlug(slug, filepath.Join(albumDir, "tracks"), ".md")
+	slug, err = uniqueSlug(slug, tracksDir, "")
 	if err != nil {
 		return err
 	}
 	if err := addToTracklist(albumPath, slug, title, bools["instrumental"]); err != nil {
 		return err
 	}
-	doc, err := frontMatter(trackFM{
+	if err := writeTrackSkeleton(tracksDir, slug, title, lang, bools["instrumental"]); err != nil {
+		return err
+	}
+	fmt.Printf("creato %s\n", filepath.Join(tracksDir, slug))
+	return validateContent()
+}
+
+// writeTrackSkeleton crea la cartella di un brano: song.md con l'anagrafica e
+// il file del blocco originale, pronti da riempire.
+func writeTrackSkeleton(tracksDir, slug, title, lang string, instrumental bool) error {
+	dir := filepath.Join(tracksDir, slug)
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		return fmt.Errorf("creazione di %s: %w", dir, err)
+	}
+	song, err := frontMatter(songFM{
 		Title:         title,
 		Slug:          slug,
 		AddedDate:     today(),
-		Instrumental:  bools["instrumental"],
+		Instrumental:  instrumental,
 		OriginalLangs: []string{lang},
-		Blocks:        []blockFM{{Lang: lang, Role: "original"}},
 	})
 	if err != nil {
 		return err
 	}
-	path := filepath.Join(albumDir, "tracks", slug+".md")
-	if err := os.WriteFile(path, []byte(doc), 0o644); err != nil {
-		return fmt.Errorf("scrittura di %s: %w", path, err)
+	songPath := filepath.Join(dir, songFileName)
+	if err := os.WriteFile(songPath, []byte(song), 0o644); err != nil {
+		return fmt.Errorf("scrittura di %s: %w", songPath, err)
 	}
-	fmt.Printf("creato %s\n", path)
-	return validateContent()
+	block, err := frontMatter(blockFM{
+		Lang:    lang,
+		Role:    "original",
+		Stanzas: []stanzaFM{{Lines: []string{}}},
+	})
+	if err != nil {
+		return err
+	}
+	blockPath := filepath.Join(dir, "original-"+lang+".md")
+	if err := os.WriteFile(blockPath, []byte(block), 0o644); err != nil {
+		return fmt.Errorf("scrittura di %s: %w", blockPath, err)
+	}
+	return nil
 }
 
 // addToTracklist legge album.md, aggiunge il brano alla tracklist e riscrive
