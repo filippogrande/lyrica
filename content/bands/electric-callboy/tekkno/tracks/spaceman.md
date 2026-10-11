@@ -5,6 +5,11 @@ added_date: 2026-09-30
 featured: false
 instrumental: false
 original_langs: ["en", "de"]
+artists:
+  - slug: "electric-callboy"
+    role: "primary"
+  - slug: "finch"
+    role: "featuring"
 blocks:
   - lang: en
     role: original
@@ -73,6 +78,94 @@ blocks:
           - "Danke, Schwerelosigkeit"
           - "Undank ist der Weltenlohn"
           - "Hier kommt der Raketenmann"
+          - "Viva la Elton John"
+      - lines:
+          - "Viva la Elton John"
+      - lines:
+          - "Rave on"
+          - "No matter where you fucking are"
+          - "And you see nothing but a"
+          - "Is it a bird or just a man?"
+          - "On his way to rave the universe"
+      - lines:
+          - "I'm a spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+      - lines:
+          - "Spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+      - lines:
+          - "Mission complete"
+  - lang: en
+    role: translation
+    stanzas:
+      - lines:
+          - "I'm a spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+          - "(Three, two, one)"
+      - lines:
+          - "Yeah"
+      - lines:
+          - "Finchi Gagarin"
+          - "Turn up the speakers for once"
+          - "Yesterday still in drywall construction"
+          - "Today I'm a cosmonaut"
+          - "Yeah-yeah, everyone can see them"
+          - "Up in the sky white stripes (Up there)"
+          - "Who needs more proof from you?"
+          - "Yeah the Earth is a disc"
+      - lines:
+          - "My name is Tekkno, I am travelling space"
+          - "I got a rocket on my back fueled by big bang bass"
+          - "I'm Tekkno, my religion is rave"
+          - "And I bring it to the outerworld"
+          - "So let me hear you say"
+      - lines:
+          - "I'm a spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack (Two, one)"
+      - lines:
+          - "Fred from Jupiter"
+          - "Stands in front of the supermarket"
+          - "Turns on the boombox"
+          - "And goes off to Scooter"
+          - "Steal his spaceship"
+          - "Fly high towards Mars"
+          - "Blblblblb, now the cabbage heads are yes"
+      - lines:
+          - "My name is Tekkno, I am travelling space"
+          - "I got a rocket on my back fueled by big bang bass"
+          - "I'm Tekkno, my religion is rave"
+          - "And I bring it to the outerworld"
+          - "So let me hear you say"
+      - lines:
+          - "Spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+      - lines:
+          - "Spaceman, got a rocket on my back"
+          - "Spaceman, oh, I'm raving like a maniac"
+          - "Spaceman, got a rocket on my back"
+          - "The universe is down for my rave attack"
+      - lines:
+          - "Where are the Jedi Knights?"
+          - "Where are the Martians?"
+          - "Where are the Klingons?"
+          - "Do it like with my ex"
+          - "I'll shoot you all to the moon"
+          - "Strapped to a liverwurst"
+          - "The Kebekus flies through space"
+          - "Further and further away from us"
+          - "Thanks, weightlessness"
+          - "Ingratitude is the world's reward"
+          - "Here comes the rocket man"
           - "Viva la Elton John"
       - lines:
           - "Viva la Elton John"
@@ -266,7 +359,7 @@ blocks:
           - "Spaceman, eine Rakete auf dem Rücken"
           - "Das Universum steht bereit für meinen Rave-Angriff"
       - lines:
-          - "Spaceman, eine Rakete auf dem Rücken"
+          - "Ich bin ein Spaceman, ein Rakete auf dem Rücken"
           - "Spaceman, oh, ich rave wie ein Verrückter"
           - "Spaceman, eine Rakete auf dem Rücken"
           - "Das Universum steht bereit für meinen Rave-Angriff"
