@@ -33,11 +33,14 @@ func onlyTrack(t *testing.T, catalog *Catalog) *Track {
 	return tracks[0]
 }
 
+// Ogni file di contenuto è front-matter YAML fra due righe ---: i fixture
+// devono chiudere il front-matter, o il loader (giustamente) rifiuta il file.
 const testBand = `---
 name: "Band"
 slug: "band"
 country: "IT"
 original_langs: ["de"]
+---
 `
 
 const testAlbum = `---
@@ -46,6 +49,32 @@ slug: "album"
 tracks:
   - slug: "prova"
     title: "Prova"
+---
+`
+
+const testSongsong = `---
+title: "Prova"
+slug: "prova"
+added_date: 2026-01-02
+original_langs: ["de"]
+---
+`
+
+const testOriginal = `---
+lang: de
+role: original
+stanzas:
+  - lines: ["Zeile"]
+---
+`
+
+const testTranslation = `---
+lang: it
+role: translation
+translator: "Filippo"
+stanzas:
+  - lines: ["Riga"]
+---
 `
 
 // writeBandScaffold scrive band.md e album.md, il minimo perché Load arrivi al
@@ -60,25 +89,9 @@ func writeBandScaffold(t *testing.T, root string) {
 func TestLoadCartellaBrano(t *testing.T) {
 	root := t.TempDir()
 	writeBandScaffold(t, root)
-	writeTestFile(t, root, "bands/band/album/tracks/prova/song.md", `---
-title: "Prova"
-slug: "prova"
-added_date: 2026-01-02
-original_langs: ["de"]
-`)
-	writeTestFile(t, root, "bands/band/album/tracks/prova/original-de.md", `---
-lang: de
-role: original
-stanzas:
-  - lines: ["Zeile"]
-`)
-	writeTestFile(t, root, "bands/band/album/tracks/prova/it.md", `---
-lang: it
-role: translation
-translator: "Filippo"
-stanzas:
-  - lines: ["Riga"]
-`)
+	writeTestFile(t, root, "bands/band/album/tracks/prova/song.md", testSongsong)
+	writeTestFile(t, root, "bands/band/album/tracks/prova/original-de.md", testOriginal)
+	writeTestFile(t, root, "bands/band/album/tracks/prova/it.md", testTranslation)
 	catalog, err := Load(root)
 	if err != nil {
 		t.Fatalf("Load: %v", err)
@@ -120,6 +133,7 @@ blocks:
     role: translation
     stanzas:
       - lines: ["Riga"]
+---
 `)
 	catalog, err := Load(root)
 	if err != nil {
@@ -138,12 +152,7 @@ blocks:
 func TestLoadCartellaSenzaSong(t *testing.T) {
 	root := t.TempDir()
 	writeBandScaffold(t, root)
-	writeTestFile(t, root, "bands/band/album/tracks/prova/it.md", `---
-lang: it
-role: translation
-stanzas:
-  - lines: ["Riga"]
-`)
+	writeTestFile(t, root, "bands/band/album/tracks/prova/it.md", testTranslation)
 	if _, err := Load(root); err == nil {
 		t.Fatal("atteso un errore: la cartella del brano non ha song.md")
 	}
@@ -158,12 +167,14 @@ title: "Prova"
 slug: "prova"
 added_date: 2026-01-02
 original_langs: ["fr"]
+---
 `)
 	writeTestFile(t, root, "bands/band/album/tracks/prova/original-de.md", `---
 lang: fr
 role: original
 stanzas:
   - lines: ["Zeile"]
+---
 `)
 	if _, err := Load(root); err == nil {
 		t.Fatal("atteso un errore: lang del front-matter diversa dal nome del file")
