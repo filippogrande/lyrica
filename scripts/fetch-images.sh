@@ -44,6 +44,9 @@ readonly MB_DELAY=1
 # Pausa fra un'immagine e l'altra: gli archivi non amano le raffiche, e in blocco
 # si arriva facilmente al "troppe richieste".
 readonly IMAGE_DELAY=2
+# Retry per le chiamate MusicBrainz: il server risponde 503 quando è occupato.
+readonly MB_RETRIES=3
+readonly MB_RETRY_WAIT=5
 
 TMP_DIR=""
 ROWS=()
@@ -82,17 +85,44 @@ frontmatter_field() {
 	return 0
 }
 
+# http_code_with_retry scarica in un file e stampa il codice HTTP finale,
+# ripetendo quando il server chiede di rallentare (429) o sbaglia lui (5xx).
+# MusicBrainz risponde 503 quando è occupato: riprovare è la soluzione.
+http_code_with_retry() {
+	local out="$1" url="$2" tries="$MB_RETRIES" wait="$MB_RETRY_WAIT" code=""
+	shift 2
+	while :; do
+		code="$(curl -sS -o "$out" -w '%{http_code}' "$@" "$url")" || code="000"
+		case "$code" in
+		429 | 5??)
+			tries=$((tries - 1))
+			if [ "$tries" -le 0 ]; then break; fi
+			echo " MusicBrainz ha risposto $code: riprovo fra ${wait}s" >&2
+			sleep "$wait"
+			wait=$((wait * 2))
+			;;
+		*) break ;;
+		esac
+	done
+	printf '%s' "$code"
+}
+
 # resolve_artist_mbid cerca l'artist dal nome esatto della band e stampa
 # mbid<TAB>nome<TAB>tipo. Stampa niente se non trova una corrispondenza sicura:
 # meglio saltare che scaricare la foto di un'altra band.
+# Se MusicBrainz è occupato (503 dopo i retry), stampa niente e chiama decide.
 resolve_artist_mbid() {
 	local name="$1" json="${TMP_DIR}/artist.json" found=""
-	curl -fsS --max-time 60 -A "$USER_AGENT" -G \
+	local code
+	code="$(http_code_with_retry "$json" "${MB_API}/artist" \
+		--max-time 60 -A "$USER_AGENT" -G \
 		--data-urlencode "query=artist:\"${name}\"" \
-		--data-urlencode "fmt=json" --data-urlencode "limit=5" \
-		-o "$json" "${MB_API}/artist" \
-		|| die "ricerca MusicBrainz fallita per la band \"${name}\""
+		--data-urlencode "fmt=json" --data-urlencode "limit=5")"
 	sleep "$MB_DELAY"
+	if [ "$code" != "200" ]; then
+		printf '%s' ""
+		return 0
+	fi
 	found="$(python3 - "$json" "$name" <<'PY'
 import json, sys
 
@@ -119,14 +149,19 @@ PY
 # resolve_release_group_mbid cerca il release-group dal titolo e dall'anno e
 # stampa mbid<TAB>titolo<TAB>data. Solo album (non singoli, non live o
 # compilation), punteggio alto e anno vicino a quello scritto in album.md.
+# Se MusicBrainz è occupato (503 dopo i retry), stampa niente e chiama decide.
 resolve_release_group_mbid() {
 	local artist="$1" title="$2" year="$3" json="${TMP_DIR}/release-group.json" found=""
-	curl -fsS --max-time 60 -A "$USER_AGENT" -G \
+	local code
+	code="$(http_code_with_retry "$json" "${MB_API}/release-group" \
+		--max-time 60 -A "$USER_AGENT" -G \
 		--data-urlencode "query=releasegroup:\"${title}\" AND artist:\"${artist}\"" \
-		--data-urlencode "fmt=json" --data-urlencode "limit=25" \
-		-o "$json" "${MB_API}/release-group" \
-		|| die "ricerca MusicBrainz fallita per l'album \"${title}\" (${artist})"
+		--data-urlencode "fmt=json" --data-urlencode "limit=25")"
 	sleep "$MB_DELAY"
+	if [ "$code" != "200" ]; then
+		printf '%s' ""
+		return 0
+	fi
 	found="$(python3 - "$json" "$title" "$year" <<'PY'
 import json, sys
 

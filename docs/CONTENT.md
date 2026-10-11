@@ -27,15 +27,55 @@ Lo slug è la chiave di tutto: **cartella, URL e nome della cover devono coincid
 - Le date sono `YYYY-MM-DD` in ora locale italiana.
 - Nessun campo opzionale viene inventato: se manca, il validatore decide se è errore o se si usa un default.
 
-### Lingua di un brano (soglia per la seconda lingua)
+### Lingua di un brano (una o più lingue originali)
 
-Un brano ha **una sola lingua originale**, quella dominante, in cui è cantata la maggior parte del testo. Le traduzioni vanno verso una lingua singola (`role: translation`). Non si fanno traduzioni automatiche né istantanee, quindi non serve una "doppia vista" per i brani con più lingue:
+Un brano ha **un solo blocco `original`**, nella lingua **dominante** — quella in cui è cantata la maggior parte del testo — e quel blocco contiene il testo **come è cantato**, anche quando mescola più lingue. `original_langs` dichiara **tutte** le lingue originali, **in ordine**: la prima è la dominante, cioè la lingua del blocco `original` (D28, D96, D97).
 
 - **Parole o frasi isolate** in altre lingue **non** rendono il brano multilingue: es. *ADIEU* (Rammstein) è tedesco anche se contiene parole non-tedesche. Una lingua sola, nessuna traduzione extra.
-- Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**. Si dichiara una seconda lingua solo se ha senso come vista completa a sé; altrimenti si resta sulla lingua dominante e la traduzione va verso la lingua unica scelta (es. inglese).
-- Nei brani davvero bilingu delti in parti uguali si sceglie comunque **una** lingua dominante per `original_langs` e si traduce il resto verso la lingua unica di traduzione.
+- Se una **seconda lingua copre una parte sostanziale** del testo (es. *Kinglayer* di Bring Me the Horizon / Babymetal con 2-3 frasi in giapponese) è un caso **al limite**: si decide **caso per caso**.
+- L'array accetta **N lingue**, non solo due: la soglia è umana, la decide chi scrive il contenuto.
+- Le traduzioni sono **una per lingua d'arrivo**, più **una versione completa per ogni lingua dichiarata in `original_langs`**: in un brano `["it", "fr", "de"]` si possono avere una `translation it`, una `translation fr` e una `translation de`, ciascuna con **tutte** le strofe tradotte in quella lingua. Serve anche ai **dialetti e alle varianti** (la versione in lingua regionale accanto a quella standard).
+- La stessa lingua su **ruoli diversi** non è un doppione: `original de` e `translation de` convivono (regola 3, D96).
 
 È un criterio umano, non automatico: il validatore non misura percentuali, decide chi scrive il contenuto.
+
+Due cose restano **regole di scrittura**, verificate in review e non dalla CI: il blocco `original` è **uno solo**, e la sua lingua è la **prima** di `original_langs`. Il validatore controlla la **coppia** `role` + `lang` (regola 3), non l'ordine dell'array.
+
+### Varianti di scrittura (BCP-47 script subtag)
+
+Per le lingue con più alfabeti (giapponese kanji/romaji, cinese semplificato/tradizionale, serbo cirillico/latino, coreano hangul/latino), il codice BCP-47 accetta un **subtag di scrittura** dopo il trattino (D99):
+
+| Codice | Variante | Esempio |
+|--------|----------|---------|
+| `ja-Jpan` | Giapponese in Kanji/Kana | 日本語 |
+| `ja-Latn` | Giapponese in Romaji | Nihongo |
+| `zh-Hans` | Cinese semplificato | 简体中文 |
+| `zh-Hant` | Cinese tradizionale | 繁體中文 |
+| `sr-Cyrl` | Serbo cirillico | српски |
+| `sr-Latn` | Serbo latino | srpski |
+
+La lingua base determina la bandiera (`ja` → 🇯🇵, `zh` → 🇨🇳); il subtag mostra il nome descrittivo nell'etichetta (`🇯🇵 JA Kanji`, `🇨🇳 ZH Semplificato`).
+
+Entrambe le varianti di scrittura sono **originali** — stesso testo, alfabeto diverso — quindi usano entrambe `role: original` e stanno **entrambe a sinistra** nel selettore dell'originale:
+
+```yaml
+original_langs: ["ja-Jpan", "ja-Latn"]
+blocks:
+  - role: original
+    lang: ja-Jpan      # Kanji/Kana (dominante, prima in original_langs)
+    stanzas:
+      - lines: ["日本語のテキスト"]
+  - role: original
+    lang: ja-Latn      # Romaji = stesso testo, alfabeto latino
+    stanzas:
+      - lines: ["Nihongo no tekisuto"]
+  - role: translation
+    lang: it           # Traduzione italiana (lato destro)
+    stanzas:
+      - lines: ["Testo in giapponese"]
+```
+
+Il lato sinistro mostra il dropdown con `🇯🇵 JA Kanji` · `🇯🇵 JA Romaji`; il lato destro ha `🇮🇹 IT`. (D99)
 
 ## `band.md`
 
@@ -162,7 +202,7 @@ python3 scripts/declare-image.py content/bands/<band>/band.md band <band-slug>.w
 ```
 
 - `fetch-images.sh` è quello che fa il lavoro da solo: per ogni band e ogni album legge i dati già scritti nei file di contenuto, cerca l'identificativo, scarica e scrive il campo. Salta ciò che è a posto e stampa il report (anche nel riepilogo del run, se `GITHUB_STEP_SUMMARY` è impostato).
-- `fetch-covers.sh` scarica **una** immagine dal MBID, converte in **600x600 webp** con ritaglio centrale e **verifica le dimensioni**; `--force` per riscrivere, `--allow-missing` per uscire con 3 invece che con errore quando l'archivio non l'ha. Non tocca i file di contenuto.
+- `fetch-covers.sh` scarica **una** immagine dal MBID, converte in **600x600 webp** con ritaglio centrale e **verifica le dimensioni**; `--force` per riscrivere, `--allow-missing` per uscire con 3 invece che con errore quando l'archivio non ce l'ha. Non tocca i file di contenuto.
 - `declare-image.py` scrive `cover:` / `image:` nel front-matter (aggiorna la riga se c'è, la aggiunge se manca, errore esplicito se non c'è front-matter).
 - Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv (di solito `artistthumb`, si prende quella con più like).
 - Chiavi sul proprio computer: `FANART_API_KEY` / `FANART_CLIENT_KEY`, oppure una riga in `~/.fanart_api_key` / `~/.fanart_client_key`. Basta una delle due. **Mai nel repo**, mai stampate, mai nell'URL.
@@ -180,6 +220,9 @@ featured: false
 instrumental: false
 original_langs: ["de"]
 singers: ["Dirk von Lowtzow"]      # opzionale: solo se il brano ha più voci
+artists:                            # opzionale: collaborazioni e featuring
+  - slug: "tocotronic"
+    role: "primary"
 blocks:
   - lang: de
     role: original
@@ -209,8 +252,9 @@ Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del te
 | `added_date` | sì | ordina i "recenti" e il feed RSS |
 | `featured` | no | `true` = entra nella corsia "In evidenza" della home |
 | `instrumental` | no | `true` = nessuna pagina |
-| `original_langs` | sì | una o più |
+| `original_langs` | sì | una o più, **in ordine**: la prima è la lingua dominante, quella del blocco `original` |
 | `singers` | no | elenco delle voci del brano |
+| `artists` | no | lista di `ArtistCredit` per collaborazioni: `slug` + `role` (`primary` \| `featuring` \| `equal`) |
 | `blocks` | sì | almeno un blocco `role: original` |
 
 ### Campi di un blocco
@@ -232,14 +276,54 @@ Eventuali note redazionali **fuori dal testo**: non si stampano nel corpo del te
 
 Il tipo di strofa (verse/chorus/bridge) **non esiste** nello schema: è stato deciso che non si stampa.
 
+### Artisti e collaborazioni
+
+Il campo `artists` gestisce collaborazioni e featuring. Ogni voce è un oggetto con `slug` (deve esistere in `content/bands/`) e `role`:
+
+| Ruolo | Significato | Separatore UI |
+|---|---|---|
+| `primary` | artista principale (ospita il file) | `·` |
+| `featuring` | artista in featuring | `feat.` |
+| `equal` | collaborazione paritaria (50/50) | `×` |
+
+```yaml
+# Ratatata — collaborazione paritaria
+title: "RATATATA"
+artists:
+  - slug: "electric-callboy"
+    role: "primary"
+  - slug: "babymetal"
+    role: "equal"
+
+# From Me To U — featuring
+title: "From Me To U"
+artists:
+  - slug: "babymetal"
+    role: "primary"
+  - slug: "poppy"
+    role: "featuring"
+```
+
+- Il brano è **linkato sotto ogni artista** nella pagina band (discoverability bidirezionale).
+- Il titolo resta **pulito** (nessun "feat." nel titolo): il ruolo si legge dalla lista artisti.
+- Se `artists` manca, il validatore emette un **warning** (non errore): il brano è collegato solo alla band dell'album.
+
+#### Un brano in due album (collaborazione paritaria cross-album)
+
+Quando lo **stesso brano** compare in **due album di due artisti diversi** (es. *RATATATA*, in *TANZNEID* degli Electric Callboy e in *METAL FORTH* delle Babymetal) **esiste un solo file**, nell'album dell'artista `primary`; il brano si dichiara con `artists` (`primary` + `equal`, D100, D107) e **compare linkato nella pagina di entrambe le band**.
+
+- **Un file solo**: il testo si scrive una volta, nell'album dell'artista `primary` (qui Electric Callboy). Non si duplica mai.
+- **L'altro album** tiene la voce di tracklist **senza file**, con `status: pending` (la tracklist è il disco intero, D90): lì `pending` non significa "testo non scritto" ma "questo testo vive nell'album dell'altro artista".
+- **Entrambe le pagine band** linkano il brano (`track.HasArtist`), quindi la traduzione è raggiungibile anche dall'artista che non ospita il file.
+
 ## Regole di validazione (applicate in CI)
 
 Un contenuto è **invalido** se:
 
 1. `slug` del front-matter ≠ nome del file o della cartella.
 2. Due entità della stessa collezione hanno lo **stesso slug**.
-3. `blocks` non contiene almeno un `role: original`, o contiene una `lang` duplicata.
-4. Un blocco `role: translation` è **incompleto** (una strofa ha meno righe dell'originale, o manca una strofa).
+3. `blocks` non contiene almeno un `role: original`, o contiene **due blocchi con la stessa coppia `role` + `lang`** (la stessa lingua può comparire una volta come originale e una come traduzione: D96, D97).
+4. Un blocco `role: translation` è **incompleta** (una strofa ha meno righe dell'originale, o manca una strofa).
 5. `added_date` manca o non è una data valida.
 6. `cover` punta a un file inesistente in `covers/`.
 7. `original_langs` contiene una lingua che non compare in nessun blocco.
@@ -247,6 +331,7 @@ Un contenuto è **invalido** se:
 9. Un link interno a un band/album/brano inesistente.
 10. `image` di una band punta a un file inesistente in `covers/` (o a una cartella invece che a un file).
 11. `status` di una voce di `tracks` con un valore diverso da `pending` e `instrumental`.
+12. `artists` contiene uno slug che non esiste in `content/bands/`.
 
 La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 
@@ -259,7 +344,8 @@ La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 - descrizione band mancante;
 - chiavi di locale mancanti rispetto a `it.yaml`;
 - `title` o `instrumental` di un file diversi da quelli dichiarati nella tracklist di `album.md`;
-- tracklist vuota, o con **tutte** le tracce "in arrivo".
+- tracklist vuota, o con **tutte** le tracce "in arrivo";
+- brano senza `artists` (non collegato a band esterne).
 
 ## Come si aggiunge un contenuto
 
@@ -323,14 +409,21 @@ lyrica serve      # serve il risultato su una porta locale
 - [ ] Nessuna annotazione per verso.
 - [ ] Il contenuto si legge bene **da telefono**, non solo da desktop.
 - [ ] Se un brano non ha traduzioni, è segnato come "solo originale" e non è linkato.
+- [ ] Se il brano è una collaborazione, `artists` è presente con i ruoli corretti.
 
 ### Aggiungere una lingua di traduzione a un brano
 
 Aggiungi al file un blocco con `role: translation`, `lang:`, `translator:` e le strofe **complete**. Il validatore controlla che combacino con l'originale: se non combaciano, la PR è rossa. Il selettore lingua in pagina si aggiorna da solo.
 
+Se la traduzione è la **versione completa** in una lingua che il brano ha già come originale — il tedesco intero di un brano bilingue — vale la stessa regola: un blocco `role: translation` con la stessa `lang` dell'originale e **tutte** le strofe allineate. Non si duplica il blocco `original` (D96).
+
+La versione completa si può scrivere per **ogni** lingua di `original_langs`, non solo per le due di un brano bilingue (D97): un brano `["it", "fr", "de"]` può avere una `translation` completa in italiano, una in francese e una in tedesco, più le traduzioni di arrivo. Ogni blocco resta allineato all'originale, strofa per strofa (regola 4).
+
 ### Aggiungere una lingua all'interfaccia
 
 Copia `locales/it.yaml` in `locales/<lang>.yaml` e traduci i **valori**, non le chiavi. Il build genera `/<lang>/...` con hreflang. Una chiave mancante è un errore in CI.
+
+Una traduzione verso una lingua che il catalogo ha **già come lingua originale** non fa nascere un'interfaccia in quella lingua (D96, confermata in D97): chi legge quella lingua legge già l'originale, quindi il pubblico non cambia. Il tedesco "completo" di un brano bilingue non chieda `locales/de.yaml`.
 
 ### Rinominare uno slug (cambio URL)
 

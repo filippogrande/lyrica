@@ -6,7 +6,7 @@ tracks:
   - slug: "tanzneid"
     title: "TANZNEID"
   - slug: "ratatata"
-    title: "RATATATA (feat. BABYMETAL)"
+    title: "RATATATA"
   - slug: "hypercharged"
     title: "Hypercharged"
   - slug: "let-the-good-times-roll"
@@ -35,4 +35,5 @@ tracks:
   - slug: "revery-sullivan-king-remix"
     title: "Revery (Sullivan King remix)"
     status: pending
+cover: "tanzneid.webp"
 ---

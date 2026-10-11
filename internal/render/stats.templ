@@ -1,0 +1,11 @@
+package render
+
+// StatsLine è la riga dei contatori pubblici (brani tradotti, band, lingue
+// di traduzione). Stessa riga in home e nel footer: i numeri sono calcolati a
+// build time e non possono divergere da una pagina all'altra.
+//
+// Le classi sono utility di Bootstrap: la riga è testo secondario, non un
+// blocco di layout, quindi non ha bisogno di una regola propria nel CSS.
+templ StatsLine(d PageData) {
+	<p class="text-secondary small mt-2 mb-0">{ d.Stats.Line(d.Bundle, d.Lang) }</p>
+}

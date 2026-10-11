@@ -27,4 +27,5 @@ tracks:
     title: "Thanks for Playing"
   - slug: "pizza-homicide-stvw-version"
     title: "Pizza Homicide (STVW Version)"
+cover: "press-start.webp"
 ---

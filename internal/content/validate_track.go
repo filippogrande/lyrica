@@ -18,6 +18,7 @@ func validateTrack(catalog *Catalog, track *Track, report *Report) {
 	}
 	checkBlockLangs(track, report)
 	checkOriginalLangs(track, report)
+	checkArtists(catalog, track, report)
 	original, hasOriginal := track.Original()
 	if !hasOriginal {
 		report.Errorf(where, "nessun blocco con role: original (regola 3)")
@@ -34,8 +35,44 @@ func validateTrack(catalog *Catalog, track *Track, report *Report) {
 	checkLinks(catalog, where, track.Notes, report)
 }
 
-// checkBlockLangs verifica la regola 3: role noto, una lingua per brano, almeno
-// una strofa per blocco.
+// checkArtists verifica che tutti gli slug in artists esistano nel catalogo.
+func checkArtists(catalog *Catalog, track *Track, report *Report) {
+	if len(track.Artists) == 0 {
+		report.Warnf(track.Path, "artists mancante: il brano non sarà collegato ad alcuna band oltre a quella dell'album")
+		return
+	}
+	hasPrimary := false
+	for _, a := range track.Artists {
+		if strings.TrimSpace(a.Slug) == "" {
+			report.Errorf(track.Path, "artist slug vuoto")
+			continue
+		}
+		if a.Role == ArtistRolePrimary {
+			hasPrimary = true
+		}
+		// Verifica che la band esista
+		found := false
+		for _, band := range catalog.Bands {
+			if band.Slug == a.Slug {
+				found = true
+				break
+			}
+		}
+		if !found {
+			report.Errorf(track.Path, "artist slug %q non trovato in content/bands/", a.Slug)
+		}
+	}
+	if !hasPrimary {
+		report.Warnf(track.Path, "nessun artist con role: primary; il primo della lista farà da primary")
+	}
+}
+
+// checkBlockLangs verifica la regola 3: role noto, una lingua una volta per
+// ruolo, almeno una strofa per blocco.
+//
+// La stessa lingua può comparire due volte se i ruoli sono diversi (D96): in un
+// brano bilingue l'originale è in tedesco e la sua "versione completa" è una
+// traduzione in tedesco, che è un blocco legittimo, non un doppione.
 func checkBlockLangs(track *Track, report *Report) {
 	seen := make(map[string]bool, len(track.Blocks))
 	for _, block := range track.Blocks {
@@ -43,10 +80,11 @@ func checkBlockLangs(track *Track, report *Report) {
 			report.Errorf(track.Path, "blocco senza lang (regola 3)")
 			continue
 		}
-		if seen[block.Lang] {
-			report.Errorf(track.Path, "due blocchi con lang %q: una lingua compare una volta sola per brano (regola 3)", block.Lang)
+		key := block.Role + "|" + block.Lang
+		if seen[key] {
+			report.Errorf(track.Path, "due blocchi %s con lang %q: la stessa lingua compare una volta per ruolo (regola 3)", block.Role, block.Lang)
 		}
-		seen[block.Lang] = true
+		seen[key] = true
 		switch block.Role {
 		case RoleOriginal, RoleTranslation:
 		default:

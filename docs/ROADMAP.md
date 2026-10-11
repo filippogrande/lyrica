@@ -36,6 +36,8 @@ Le task vivono su **Vikunja, progetto `Lyrica`**; qui c'è l'ordine e il criteri
 
 **Criterio di chiusura**: cercando un frammento di verso si arriva al brano giusto dal dropdown; il feed è valido.
 
+**Avanzamento**: il **feed RSS** (un file per lingua dell'interfaccia, `public/<lang>/rss.xml`), **`sitemap.xml`** e **`robots.txt`** sono generati dal build e coperti dai test di compilazione (D101, D102, D103, D104, D105, D106). **Non** è fatta la **404 con ricerca**: la pagina 404 esiste ma il campo di ricerca dentro non c'è ancora, quindi la fase **resta aperta**.
+
 ## FASE 5 — Messa online e osservabilità
 
 **Artefatto**: il sito risponde su `lyrica.filippomoscatellis.com` dietro Cloudflare Tunnel; Umami registra le visite; le pagine legali esistono e sono linkate dal footer.

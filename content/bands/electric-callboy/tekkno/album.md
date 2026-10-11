@@ -23,4 +23,5 @@ tracks:
     title: "Hurrikan"
   - slug: "neon"
     title: "Neon"
+cover: "tekkno.webp"
 ---

@@ -29,4 +29,5 @@ tracks:
     title: "Friend or Enemy"
   - slug: "terminal-velocity"
     title: "Terminal Velocity"
+cover: "aurora.webp"
 ---

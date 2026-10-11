@@ -1,0 +1,251 @@
+---
+title: "Baggersee"
+slug: "baggersee"
+added_date: 2026-09-30
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Siebzehn Uhr, sechsunddreißig Grad"
+          - "Mit Flip-Flop-Schlappen steig' ich auf mein Rad"
+          - "Spür' den Fahrtwind, zwölf km/h"
+          - "Nacken feuerrot, Rücken volles Haar"
+          - "Üh"
+          - "(Ja)"
+      - lines:
+          - "Achtzehn Uhr, aua, es ist heiß (Aua, aua)"
+          - "Zum Glück bin ich schlau, ich habe Sixer dabei, nice"
+          - "Eiskalt so wie Eis (Eis)"
+          - "Rein läuft das Bier, raus läuft der Schweiß"
+      - lines:
+          - "Ich geh' zum Baggersee mit meinem Sixpack"
+          - "Und ich sau-sau-sauge das Bier weg"
+          - "Wenn ich ins Wasser geh', dann nur mit Sixpack"
+          - "Mit meinem Sixpack, mit meinem Sixpack"
+      - lines:
+          - "Ich geh' zum Baggersee mit meinem Sixpack"
+          - "Und ich sau-sau-sauge das Bier weg"
+          - "Wenn ich ins Wasser geh', dann nur mit Sixpack"
+          - "Mit meinem Sixpack, mit meinem Sixpack"
+      - lines:
+          - "Zwanzig Uhr, Dosis alle leer (Nein!)"
+          - "Die Sonne geht weg (Tschüss), ich geh' hinterher"
+          - "Zum Kiosk, ich hole mir mehr"
+          - "Von dem Bier, von dem Bier, und dann saug' ich es leer"
+      - lines:
+          - "Ich geh' an den Stand, drinnen steht ein Mann"
+          - "Er ist braungebrannt, denn er arbeitet am Strand"
+          - "Gib mir, gib mir jetzt das Sixpack rein in meine Hand"
+          - "Ich saug' es in den Mund und heile meinen Brand"
+      - lines:
+          - "Dosibier ballert ordentlich"
+          - "Noch mehr als der Sonnenstich"
+          - "Kapitän Blaubär sticht jetzt in See"
+          - "Am Baggersee, am Baggersee"
+          - "Bagger, Bagger, Bagger, Bagger, Bagger, Bagger, Bagger"
+          - "Bagger, Bagger, Bagger, Bagger, Bagger, Bagger, Bagger"
+          - "Bagger, Bagger, Bagger, Bagger, Bagger, Bagger"
+          - "Bagger, Bagger, Bagger, Bagger, Bagger"
+      - lines:
+          - "Ich geh' zum Baggersee mit meinem Sixpack"
+          - "Und ich sau-sau-sauge das Bier weg"
+          - "Wenn ich ins Wasser geh', dann nur mit Sixpack"
+          - "Mit meinem Sixpack, mit meinem Sixpack"
+      - lines:
+          - "Ich geh' zum Baggersee mit meinem Sixpack"
+          - "Und ich sau-sau-sauge das Bier weg"
+          - "Wenn ich ins Wasser geh', dann nur mit Sixpack"
+          - "Mit meinem Sixpack, mit meinem Sixpack"
+      - lines:
+          - "Das kann ja wohl nicht sein, dass das Bier alle ist"
+          - "Bier alle ist, Bier alle ist"
+          - "Hier hat doch wieder jemand ins Wasser gepisst"
+          - "Wer hat gepisst? Wer hat gepisst?"
+      - lines:
+          - "Wer hat gepisst? (Wer war es?)"
+          - "Welches Schwein hat ins Waser gepisst?"
+          - "Ich war es nicht, ich war es nicht"
+          - "Also welches Schwein hat hier wieder ins Wasser gepisst?"
+          - "Okay, ich war es doch! Ehehe"
+      - lines:
+          - "Und ich sau-sau-sauge das Bier weg"
+          - "Wenn ich ins Wasser geh', dann nur mit Sixpack"
+          - "Mit meinem Sixpack, mit meinem Sixpack"
+      - lines:
+          - "Das kann ja wohl nicht sein, dass das Bier alle ist"
+          - "Bier alle ist, Bier alle ist"
+          - "Hier hat doch wieder jemand ins Wasser gepisst"
+          - "Wer hat gepisst? Wer hat gepisst?"
+      - lines:
+          - "Wer hat gepisst?"
+          - "Wer hat gepisst?"
+          - "Wer hat gepisst?"
+          - "Wer, wer, wer hat gepisst?"
+          - "Wer hat gepisst?"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Ore diciassette, trentasei gradi"
+          - "Con le infradito salgo in bici"
+          - "Sento il vento, dodici km/h"
+          - "Collo rosso fuoco, schiena piena di capelli"
+          - "Üh"
+          - "(Sì)"
+      - lines:
+          - "Ore diciotto, aua, fa caldo (Aua, aua)"
+          - "Per fortuna sono furbo, ho la confezione da sei con me, bello"
+          - "Ghiacciata come il ghiaccio (Ghiaccio)"
+          - "Entra la birra, esce il sudore"
+      - lines:
+          - "Vado al lago escavatore con la mia confezione da sei"
+          - "E succhio-succhio-succhio via la birra"
+          - "Se vado in acqua, allora solo con la confezione da sei"
+          - "Con la mia confezione da sei, con la mia confezione da sei"
+      - lines:
+          - "Vado al lago escavatore con la mia confezione da sei"
+          - "E succhio-succhio-succhio via la birra"
+          - "Se vado in acqua, allora solo con la confezione da sei"
+          - "Con la mia confezione da sei, con la mia confezione da sei"
+      - lines:
+          - "Ore venti, tutte le cassette vuote (No!)"
+          - "Il sole se ne va (Ciao), io lo inseguo"
+          - "Al chiosco, me ne prendo ancora"
+          - "Di quella birra, di quella birra, e poi la svuoto"
+      - lines:
+          - "Vado al bancone, dentro c'è un uomo"
+          - "È abbronzato, perché lavora in spiaggia"
+          - "Dammi, dammi subito la confezione da sei in mano"
+          - "La succhio in bocca e guarisco la mia ustione"
+      - lines:
+          - "La birra da banco spacca parecchio"
+          - "Ancora più del colpo di sole"
+          - "Capitano Barbablu salpa ora"
+          - "Al lago escavatore, al lago escavatore"
+          - "Escavatore, escavatore, escavatore, escavatore, escavatore, escavatore, escavatore"
+          - "Escavatore, escavatore, escavatore, escavatore, escavatore, escavatore, escavatore"
+          - "Escavatore, escavatore, escavatore, escavatore, escavatore, escavatore"
+          - "Escavatore, escavatore, escavatore, escavatore, escavatore"
+      - lines:
+          - "Vado al lago escavatore con la mia confezione da sei"
+          - "E succhio-succhio-succhio via la birra"
+          - "Se vado in acqua, allora solo con la confezione da sei"
+          - "Con la mia confezione da sei, con la mia confezione da sei"
+      - lines:
+          - "Vado al lago escavatore con la mia confezione da sei"
+          - "E succhio-succhio-succhio via la birra"
+          - "Se vado in acqua, allora solo con la confezione da sei"
+          - "Con la mia confezione da sei, con la mia confezione da sei"
+      - lines:
+          - "Non può essere che la birra sia finita"
+          - "Birra finita, birra finita"
+          - "Qui qualcuno ha di nuovo pisciato in acqua"
+          - "Chi ha pisciato? Chi ha pisciato?"
+      - lines:
+          - "Chi ha pisciato? (Chi è stato?)"
+          - "Che maiale ha pisciato nell'acqua?"
+          - "Non sono stato io, non sono stato io"
+          - "Allora che maiale ha di nuovo pisciato in acqua?"
+          - "Ok, sono stato proprio io! Ehehe"
+      - lines:
+          - "E succhio-succhio-succhio via la birra"
+          - "Se vado in acqua, allora solo con la confezione da sei"
+          - "Con la mia confezione da sei, con la mia confezione da sei"
+      - lines:
+          - "Non può essere che la birra sia finita"
+          - "Birra finita, birra finita"
+          - "Qui qualcuno ha di nuovo pisciato in acqua"
+          - "Chi ha pisciato? Chi ha pisciato?"
+      - lines:
+          - "Chi ha pisciato?"
+          - "Chi ha pisciato?"
+          - "Chi ha pisciato?"
+          - "Chi, chi, chi ha pisciato?"
+          - "Chi ha pisciato?"
+  - lang: en
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Five in the afternoon, thirty-six degrees"
+          - "In my flip-flops I get on my bike"
+          - "Feel the wind in my face, twelve km/h"
+          - "Neck fire-red, back full of hair"
+          - "Üh"
+          - "(Yeah)"
+      - lines:
+          - "Six in the evening, ouch, it's hot (Ouch, ouch)"
+          - "Luckily I'm smart, I've got a six-pack with me, nice"
+          - "Ice-cold like ice (Ice)"
+          - "Beer flows in, sweat flows out"
+      - lines:
+          - "I go to the quarry lake with my six-pack"
+          - "And I suck-suck-suck the beer down"
+          - "If I go into the water, then only with a six-pack"
+          - "With my six-pack, with my six-pack"
+      - lines:
+          - "I go to the quarry lake with my six-pack"
+          - "And I suck-suck-suck the beer down"
+          - "If I go into the water, then only with a six-pack"
+          - "With my six-pack, with my six-pack"
+      - lines:
+          - "Eight in the evening, all the crates are empty (No!)"
+          - "The sun goes away (Bye), I follow it"
+          - "To the kiosk, I get myself more"
+          - "Of that beer, of that beer, and then I drain it"
+      - lines:
+          - "I go to the stand, inside there's a man"
+          - "He's suntanned, because he works at the beach"
+          - "Give me, give me now the six-pack into my hand"
+          - "I suck it in my mouth and heal my burn"
+      - lines:
+          - "Warehouse-style beer really hits"
+          - "Even more than sunstroke"
+          - "Captain Bluebear now sets sail"
+          - "At the quarry lake, at the quarry lake"
+          - "Digger, digger, digger, digger, digger, digger, digger"
+          - "Digger, digger, digger, digger, digger, digger, digger"
+          - "Digger, digger, digger, digger, digger, digger"
+          - "Digger, digger, digger, digger, digger"
+      - lines:
+          - "I go to the quarry lake with my six-pack"
+          - "And I suck-suck-suck the beer down"
+          - "If I go into the water, then only with a six-pack"
+          - "With my six-pack, with my six-pack"
+      - lines:
+          - "I go to the quarry lake with my six-pack"
+          - "And I suck-suck-suck the beer down"
+          - "If I go into the water, then only with a six-pack"
+          - "With my six-pack, with my six-pack"
+      - lines:
+          - "It just can't be that the beer is all gone"
+          - "Beer all gone, beer all gone"
+          - "Someone has pissed in the water again"
+          - "Who pissed? Who pissed?"
+      - lines:
+          - "Who pissed? (Who was it?)"
+          - "Which pig pissed in the water?"
+          - "It wasn't me, it wasn't me"
+          - "So which pig has pissed in the water here again?"
+          - "Okay, it actually was me! Ehehe"
+      - lines:
+          - "And I suck-suck-suck the beer down"
+          - "If I go into the water, then only with a six-pack"
+          - "With my six-pack, with my six-pack"
+      - lines:
+          - "It just can't be that the beer is all gone"
+          - "Beer all gone, beer all gone"
+          - "Someone has pissed in the water again"
+          - "Who pissed? Who pissed?"
+      - lines:
+          - "Who pissed?"
+          - "Who pissed?"
+          - "Who pissed?"
+          - "Who, who, who pissed?"
+          - "Who pissed?"
+---

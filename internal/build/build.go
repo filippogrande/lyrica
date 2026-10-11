@@ -64,11 +64,17 @@ func Run(opts Options) error {
 	if err := prepareOutput(opts.OutputDir); err != nil {
 		return err
 	}
-	writer := newPageWriter(opts.OutputDir, bundle, catalog)
+	writer := newPageWriter(opts.OutputDir, bundle, catalog, langs)
 	for _, lang := range langs {
 		if err := writer.writeLang(lang); err != nil {
 			return err
 		}
+	}
+	if err := writer.writeSitemap(); err != nil {
+		return err
+	}
+	if err := writer.writeRobots(); err != nil {
+		return err
 	}
 	if err := copyAssets(opts.AssetsDir, opts.OutputDir); err != nil {
 		return err
@@ -76,7 +82,8 @@ func Run(opts Options) error {
 	if err := copyCovers(opts.CoversDir, opts.OutputDir); err != nil {
 		return err
 	}
-	fmt.Printf("build: %d pagine in %s (%s)\n", writer.pages, opts.OutputDir, strings.Join(langs, ", "))
+	fmt.Printf("build: %d pagine e %d file generati in %s (%s)\n",
+		writer.pages, writer.files, opts.OutputDir, strings.Join(langs, ", "))
 	return nil
 }
 

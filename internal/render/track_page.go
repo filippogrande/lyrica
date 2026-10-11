@@ -18,7 +18,10 @@ import (
 // all'apertura è quella dell'interfaccia se il brano ce l'ha, altrimenti la
 // prima disponibile: la lingua è stampata accanto al titolo del blocco, quindi
 // la scelta si vede sempre.
-func BuildTrackView(page PageData, band *content.Band, album *content.Album, track *content.Track) TrackView {
+//
+// Il catalogo serve agli artisti del brano (campo artists, docs/CONTENT.md):
+// ogni slug va risolto nel nome e nell'URL della band.
+func BuildTrackView(page PageData, band *content.Band, album *content.Album, track *content.Track, catalog *content.Catalog) TrackView {
 	originals := blocksWithRole(track, content.RoleOriginal)
 	translations := blocksWithRole(track, content.RoleTranslation)
 
@@ -37,12 +40,56 @@ func BuildTrackView(page PageData, band *content.Band, album *content.Album, tra
 		CoverAlt:     page.T("album.cover_alt"),
 		Originals:    newTextViews(originals, 0),
 		Translations: newTextViews(translations, translationIndex(translations, page.Lang)),
+		Artists:      newArtistViews(page, track, catalog),
 	}
 	if album.Cover != "" {
 		view.ShowCover = true
 		view.CoverURL = templ.URL("/covers/" + album.Cover)
 	}
 	return view
+}
+
+// newArtistViews risolve gli artisti del brano — lo slug di ognuno in nome e URL
+// della band — prendendoli dal catalogo. Un artista che non esiste nel catalogo
+// si salta: il validatore lo segnala già come errore (regola 12).
+func newArtistViews(page PageData, track *content.Track, catalog *content.Catalog) []ArtistView {
+	views := make([]ArtistView, 0, len(track.Artists))
+	for _, credit := range track.Artists {
+		target := findBand(catalog, credit.Slug)
+		if target == nil {
+			continue
+		}
+		views = append(views, ArtistView{
+			Name: target.Name,
+			Slug: target.Slug,
+			Role: credit.Role,
+			URL:  templ.URL(page.BandPath(target.Slug)),
+		})
+	}
+	return views
+}
+
+// artistSep è il separatore che precede un artista in base al suo ruolo: è una
+// funzione Go normale perché in templ non si ritorna una stringa.
+func artistSep(role content.ArtistRole, page PageData) string {
+	switch role {
+	case content.ArtistRoleFeaturing:
+		return " " + page.T("track.sep_feat") + " "
+	case content.ArtistRoleEqual:
+		return " " + page.T("track.sep_equal") + " "
+	default:
+		return " " + page.T("track.sep_default") + " "
+	}
+}
+
+// findBand cerca nel catalogo la band con quello slug: nil se non c'è.
+func findBand(catalog *content.Catalog, slug string) *content.Band {
+	for _, band := range catalog.Bands {
+		if band.Slug == slug {
+			return band
+		}
+	}
+	return nil
 }
 
 // blocksWithRole tiene i blocchi di testo con quel ruolo (l'originale o le
@@ -65,11 +112,10 @@ func newTextViews(blocks []content.Block, selectedIndex int) []TextView {
 	views := make([]TextView, 0, len(blocks))
 	for index, block := range blocks {
 		views = append(views, TextView{
-			Code:       block.Lang,
-			Label:      LangLabel(block.Lang),
-			Selected:   index == selectedIndex,
-			Translator: block.Translator,
-			Stanzas:    newStanzas(block),
+			Code:     block.Lang,
+			Label:    LangLabel(block.Lang),
+			Selected: index == selectedIndex,
+			Stanzas:  newStanzas(block),
 		})
 	}
 	return views
@@ -105,6 +151,10 @@ func translationIndex(translations []content.Block, want string) int {
 // trackLanguages elenca le lingue disponibili sul brano — l'originale e le
 // traduzioni — come etichette con bandiera: è la risposta a "in che lingue
 // posso leggere questa canzone".
+//
+// La stessa lingua compare una volta per blocco: in un brano bilingue il
+// tedesco sta sia nell'originale sia nella versione completa (D96), e in
+// anagrafica sono due voci distinte, come nel menu del lato (D97).
 func trackLanguages(originals, translations []content.Block) string {
 	codes := make([]string, 0, len(originals)+len(translations))
 	for _, block := range originals {
@@ -113,7 +163,7 @@ func trackLanguages(originals, translations []content.Block) string {
 	for _, block := range translations {
 		codes = append(codes, block.Lang)
 	}
-	return LangLabels(codes)
+	return LangLabelsRepeated(codes)
 }
 
 // trackCrumbs costruisce il breadcrumb completo di un brano.

@@ -1,0 +1,159 @@
+---
+title: "Paradise (feat. Amira Elfeky)"
+slug: "paradise"
+added_date: "2026-10-07"
+featured: false
+instrumental: false
+original_langs: ["en"]
+artists:
+  - slug: "i-prevail"
+    role: "primary"
+  - slug: "amira-elfeky"
+    role: "featuring"
+blocks:
+  - lang: en
+    role: original
+    stanzas:
+      - lines:
+          - "Like a blade that longs for the wrist"
+          - "I don't wanna bleed for you"
+          - "Another drop just to get my fix"
+          - "There's only so much I can lose"
+      - lines:
+          - "I've been running for my life"
+          - "Trading bullets for a knife"
+          - "Your hell is my paradise"
+          - "Suffocating in your arms is my favorite way to die"
+      - lines:
+          - "Oh, fuck"
+          - "You"
+          - "Suffocating in your arms is my favorite way to die"
+      - lines:
+          - "Inhale the flames"
+          - "Choke on blame"
+          - "Take my oxygen"
+          - "I don't care if I ever fucking breath again"
+      - lines:
+          - "I've been running for my life"
+          - "Trading bullets for a knife"
+          - "Your hell is my paradise"
+          - "Suffocating in your arms is my favorite way to die"
+      - lines:
+          - "Fuck"
+          - "You"
+          - "Suffocating in your arms is my favorite way to die"
+      - lines:
+          - "Sedate me, derange me"
+          - "My hell in paradise"
+          - "Don't save me, just take me"
+          - "My favorite way to die"
+      - lines:
+          - "Sedate me, derange me"
+          - "My hell in paradise"
+          - "Don't save me, just take me"
+          - "My favorite way to die"
+          - "Sedate me, derange me"
+          - "My hell in paradise"
+          - "Don't save me, just take me"
+          - "My favorite way to die"
+          - "Sedate me, derange me"
+          - "My hell in paradise"
+          - "Don't save me, just take me"
+          - "My favorite way to die"
+      - lines:
+          - "Sedate me, derange me"
+          - "My hell in paradise"
+          - "Don't save me, just take me"
+          - "My favorite way to die"
+          - "Sedate me (Sedate me), derange me"
+          - "My hell in paradise"
+          - "Don't save me (Don't save me), just take me"
+          - "My favorite way to die"
+          - "Way to die (Way to die)"
+          - "Sedate me (Sedate me), derange me (Derange me)"
+          - "My hell in paradise"
+          - "Don't save me (Don't save me), just take me (Just take me)"
+          - "My favorite way to die"
+      - lines:
+          - "Sedate me, derange me"
+          - "My hell in paradise"
+          - "Don't save me, just take me"
+          - "My favorite way to die"
+          - "Sedate me (Sedate me), derange me"
+          - "My hell in paradise"
+          - "Don't save me (Don't save me), just take me"
+          - "My favorite way to die"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Come una lama che desidera il polso"
+          - "Non voglio sanguinare per te"
+          - "Un'altra goccia solo per la mia dose"
+          - "C'è un limite a quanto posso perdere"
+      - lines:
+          - "Ho corso per la mia vita"
+          - "Scambando coltelli per una lama"
+          - "Il tuo inferno è il mio paradiso"
+          - "Soffocare tra le tue braccia è il mio modo preferito di morire"
+      - lines:
+          - "Oh, fanculo"
+          - "Te"
+          - "Soffocare tra le tue braccia è il mio modo preferito di morire"
+      - lines:
+          - "Inspira le fiamme"
+          - "Soffocati di colpa"
+          - "Prendi il mio ossigeno"
+          - "Non mi importa se respirerò mai più, cazzo"
+      - lines:
+          - "Ho corso per la mia vita"
+          - "Scambando coltelli per una lama"
+          - "Il tuo inferno è il mio paradiso"
+          - "Soffocare tra le tue braccia è il mio modo preferito di morire"
+      - lines:
+          - "Fanculo"
+          - "Te"
+          - "Soffocare tra le tue braccia è il mio modo preferito di morire"
+      - lines:
+          - "Sedatemi, disturbatemi"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi, prendetemi"
+          - "Il mio modo preferito di morire"
+      - lines:
+          - "Sedatemi, disturbatemi"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi, prendetemi"
+          - "Il mio modo preferito di morire"
+          - "Sedatemi, disturbatemi"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi, prendetemi"
+          - "Il mio modo preferito di morire"
+          - "Sedatemi, disturbatemi"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi, prendetemi"
+          - "Il mio modo preferito di morire"
+      - lines:
+          - "Sedatemi, disturbatemi"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi, prendetemi"
+          - "Il mio modo preferito di morire"
+          - "Sedatemi (Sedatemi), disturbatemi"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi (Non salvatemi), prendetemi"
+          - "Il mio modo preferito di morire"
+          - "Modo di morire (Modo di morire)"
+          - "Sedatemi (Sedatemi), disturbatemi (Disturbatemi)"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi (Non salvatemi), prendetemi (Prendetemi)"
+          - "Il mio modo preferito di morire"
+      - lines:
+          - "Sedatemi, disturbatemi"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi, prendetemi"
+          - "Il mio modo preferito di morire"
+          - "Sedatemi (Sedatemi), disturbatemi"
+          - "Il mio inferno in paradiso"
+          - "Non salvatemi (Non salvatemi), prendetemi"
+          - "Il mio modo preferito di morire"
+---

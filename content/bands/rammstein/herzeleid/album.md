@@ -25,4 +25,5 @@ tracks:
     title: "Laichzeit"
   - slug: "rammstein-song"
     title: "Rammstein"
+cover: "herzeleid.webp"
 ---

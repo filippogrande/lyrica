@@ -4,8 +4,13 @@ package render
 // L'attributo data-bs-theme NON è impostato qui: lo imposta assets/js/theme.js
 // prima del primo paint, leggendo la preferenza salvata o il tema di sistema.
 //
+// Nel head stanno i link che il browser e i motori di ricerca usano senza
+// passare dal contenuto: il foglio di stile, il feed RSS della lingua corrente
+// (URL assoluto) e i link alternati hreflang, uno per lingua dell'interfaccia
+// più x-default sull'italiano — le stesse pagine della sitemap.
+//
 // Nota: nei file .templ non si importa "github.com/a-h/templ" — la generazione
-// lo importa da sé. Gli URL arrivano da PageData.URL come templ.SafeURL.
+// lo importa da sé. Gli URL arrivano da PageData come templ.SafeURL.
 templ Layout(d PageData) {
 	<!DOCTYPE html>
 	<html lang={ d.Lang }>
@@ -15,6 +20,10 @@ templ Layout(d PageData) {
 			<title>{ d.Title }</title>
 			<link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css"/>
 			<link rel="stylesheet" href="/assets/css/lyrica.css"/>
+			<link rel="alternate" type="application/rss+xml" title={ d.T("footer.rss") } href={ d.FeedURL() }/>
+			for _, alternate := range d.AlternateLinks() {
+				<link rel="alternate" hreflang={ alternate.Hreflang } href={ alternate.URL }/>
+			}
 			<script src="/assets/js/theme.js"></script>
 		</head>
 		<body>

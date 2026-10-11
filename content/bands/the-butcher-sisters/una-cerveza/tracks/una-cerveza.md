@@ -1,0 +1,218 @@
+---
+title: "UNA CERVEZA"
+slug: "una-cerveza"
+added_date: "2026-10-07"
+featured: false
+instrumental: false
+original_langs: ["de"]
+blocks:
+  - lang: de
+    role: original
+    stanzas:
+      - lines:
+          - "Una cerveza"
+          - "Una cerveza"
+          - "Tus aus dem Hahn raus"
+          - "Tus in den Becher"
+          - "Una cerveza"
+          - "Una cerveza"
+          - "Ein Bier ist gut, aber zehn schmecken besser"
+      - lines:
+          - "Una cerveza"
+          - "La, la, la, la, la"
+          - "Tus in den Becher"
+      - lines:
+          - "Leinenhemd wie ein Finka-Besitzer"
+          - "Schiefer Blick wie ein Fiat Multipla"
+          - "Es ist heiß, es ist heiß in mei'm Haus drinnen"
+          - "Lass es kühl, lass es kühl in mein' Bauch rinnen"
+          - "Ah"
+      - lines:
+          - "Unterwegs brauche Bier in den Mundo"
+          - "Lauf durch die Gassen wie ein streunender Hundo"
+          - "Ich habe Durst und der ist nie verschwundo"
+          - "Wenn ich die Bar hab gefundo"
+          - "Gebe ich aus eine Rundo"
+      - lines:
+          - "Una cerveza"
+          - "Una cerveza"
+          - "Tus aus dem Hahn raus"
+          - "Tus in den Becher"
+          - "Una cerveza"
+          - "Una cerveza"
+          - "Ein Bier ist gut, aber zehn schmecken besser"
+      - lines:
+          - "Una cerveza"
+          - "La, la, la, la, la"
+          - "Tus in den Becher"
+      - lines:
+          - "Du bist eisgekühlt"
+          - "Ich bin heiß"
+          - "Ich bin Hebemann"
+          - "Robert Geiss"
+      - lines:
+          - "Du hast so schön geprickelt in mei'm Bauchnabel"
+          - "Trink dich aus, will dich tief in mein' Bauch haben"
+          - "Leicht einen sitzen und keine Termine"
+          - "Ich bin die Highspeed-Achtarm-Dummsauf-Maschine"
+          - "Ich flanier frisch paniert an der Strandpromenade"
+          - "Ich weiß, was ich will und ich ruf deinen Namen"
+      - lines:
+          - "Una cerveza"
+          - "Una cerveza"
+          - "Tus aus dem Hahn raus"
+          - "Tus in den Becher"
+          - "Una cerveza"
+          - "Una cerveza"
+          - "Zehn Bier sind gut, aber"
+          - "Eine gottverdammte Billionen Bier schmecken besser"
+      - lines:
+          - "Una cerveza"
+          - "La, la, la, la, la"
+          - "Tus in den Becher"
+      - lines:
+          - "Una cerveza"
+          - "Una cerveza"
+          - "La, la, la, la, la"
+          - "Tu es in den Becher"
+  - lang: it
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "Una birra"
+          - "Una birra"
+          - "Scolala dal rubinetto"
+          - "Versala nel bicchiere"
+          - "Una birra"
+          - "Una birra"
+          - "Una birra va bene, ma dieci sanno di meglio"
+      - lines:
+          - "Una birra"
+          - "La, la, la, la, la"
+          - "Versala nel bicchiere"
+      - lines:
+          - "Camicia di lino come un proprietario di Finka"
+          - "Sguardo storto come una Fiat Multipla"
+          - "Fa caldo, fa caldo dentro casa mia"
+          - "Lasciala fresca, lasciala fresca scorrere nel mio ventre"
+          - "Ah"
+      - lines:
+          - "In giro ho bisogno di birra nel mondo"
+          - "Corro per le strade come un randagio"
+          - "Ho sete e non è mai scomparsa"
+          - "Quando ho trovato il bar"
+          - "Spendo un giro"
+      - lines:
+          - "Una birra"
+          - "Una birra"
+          - "Scolala dal rubinetto"
+          - "Versala nel bicchiere"
+          - "Una birra"
+          - "Una birra"
+          - "Una birra va bene, ma dieci sanno di meglio"
+      - lines:
+          - "Una birra"
+          - "La, la, la, la, la"
+          - "Versala nel bicchiere"
+      - lines:
+          - "Tu sei ghiacciata"
+          - "Io sono caldo"
+          - "Sono un sollevatore"
+          - "Robert Geiss"
+      - lines:
+          - "Mi hai così bene bucherellato l'ombelico"
+          - "Sfiammerò, voglio te profondamente nel mio ventre"
+          - "Facilmente ubriaco e nessun appuntamento"
+          - "Sono la macchina ad otto bracci ad alta velocità che sbatte"
+          - "Pannoio fresca e impanata sul lungomare"
+          - "So quello che voglio e chiamo il tuo nome"
+      - lines:
+          - "Una birra"
+          - "Una birra"
+          - "Scolala dal rubinetto"
+          - "Versala nel bicchiere"
+          - "Una birra"
+          - "Una birra"
+          - "Dieci birre vanno bene, ma"
+          - "Un maledetto miliardo di birre sanno di meglio"
+      - lines:
+          - "Una birra"
+          - "La, la, la, la, la"
+          - "Versala nel bicchiere"
+      - lines:
+          - "Una birra"
+          - "Una birra"
+          - "La, la, la, la, la"
+          - "Tu nel bicchiere"
+  - lang: en
+    role: translation
+    translator: "Filippo"
+    stanzas:
+      - lines:
+          - "One beer"
+          - "One beer"
+          - "Pour it from the tap"
+          - "Pour it in the glass"
+          - "One beer"
+          - "One beer"
+          - "One beer is good, but ten taste better"
+      - lines:
+          - "One beer"
+          - "La, la, la, la, la"
+          - "Pour it in the glass"
+      - lines:
+          - "Linen shirt like a Finka owner"
+          - "Crooked look like a Fiat Multipla"
+          - "It's hot, it's hot inside my house"
+          - "Let it cool, let it cool run into my belly"
+          - "Ah"
+      - lines:
+          - "On the road I need beer in the world"
+          - "Run through the streets like a stray dog"
+          - "I'm thirsty and it never disappeared"
+          - "When I found the bar"
+          - "I spend a round"
+      - lines:
+          - "One beer"
+          - "One beer"
+          - "Pour it from the tap"
+          - "Pour it in the glass"
+          - "One beer"
+          - "One beer"
+          - "One beer is good, but ten taste better"
+      - lines:
+          - "One beer"
+          - "La, la, la, la, la"
+          - "Pour it in the glass"
+      - lines:
+          - "You are ice cold"
+          - "I am hot"
+          - "I am a weightlifter"
+          - "Robert Geiss"
+      - lines:
+          - "You so beautifully pricked my belly button"
+          - "I'll melt, want you deep in my belly"
+          - "Easily drunk and no appointments"
+          - "I am the high-speed eight-arm smash machine"
+          - "I stroll freshly breaded along the seaside promenade"
+          - "I know what I want and I call your name"
+      - lines:
+          - "One beer"
+          - "One beer"
+          - "Pour it from the tap"
+          - "Pour it in the glass"
+          - "One beer"
+          - "One beer"
+          - "Ten beers are good, but"
+          - "A goddamn billion beers taste better"
+      - lines:
+          - "One beer"
+          - "La, la, la, la, la"
+          - "Pour it in the glass"
+      - lines:
+          - "One beer"
+          - "One beer"
+          - "La, la, la, la, la"
+          - "You in the glass"
+---

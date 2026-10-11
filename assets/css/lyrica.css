@@ -639,12 +639,6 @@ main {
   font-weight: 400;
 }
 
-.block-translator {
-  font-size: 0.9rem;
-  color: var(--bs-secondary-color);
-  margin: 0;
-}
-
 .stanzas {
   max-width: var(--measure);
 }

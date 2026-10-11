@@ -27,4 +27,5 @@ tracks:
     title: "Seeing Red"
   - slug: "chandelier"
     title: "Chandelier"
+cover: "the-sky-the-earth-all-between.webp"
 ---
