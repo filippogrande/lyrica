@@ -25,8 +25,8 @@ func validateAlbum(catalog *Catalog, album *Album, opts Options, report *Report)
 }
 
 // checkTracklist verifica la regola 8 nei due sensi: ogni voce della tracklist
-// deve avere il suo file, a meno che dichiari uno status ("non ha ancora una
-// pagina"), e ogni file deve stare nella tracklist. È la stessa regola che
+// deve avere il suo brano, a meno che dichiari uno status ("non ha ancora una
+// pagina"), e ogni brano deve stare nella tracklist. È la stessa regola che
 // tiene in ordine l'album.
 func checkTracklist(album *Album, report *Report) {
 	files := make(map[string]*Track, len(album.Tracks))
@@ -48,14 +48,14 @@ func checkTracklist(album *Album, report *Report) {
 	}
 }
 
-// checkTrackRef controlla una voce della tracklist: senza status il file deve
-// esistere, con lo status il file NON deve esistere (sarebbe una voce che dice
-// di non avere il testo mentre il testo c'è).
+// checkTrackRef controlla una voce della tracklist: senza status il brano deve
+// esistere, con lo status NON deve esistere (sarebbe una voce che dice di non
+// avere il testo mentre il testo c'è).
 func checkTrackRef(album *Album, ref TrackRef, files map[string]*Track, report *Report) {
 	_, hasFile := files[ref.Slug]
 	if strings.TrimSpace(ref.Status) == "" {
 		if !hasFile {
-			report.Errorf(album.Directory, "la tracklist elenca %q ma non esiste tracks/%s.md: aggiungi il file, oppure dichiara status: %s (regola 8)", ref.Slug, ref.Slug, StatusPending)
+			report.Errorf(album.Directory, "la tracklist elenca %q ma non esiste tracks/%s/ (aggiungi la cartella del brano, oppure dichiara status: %s) (regola 8)", ref.Slug, ref.Slug, StatusPending)
 		}
 		return
 	}
@@ -65,12 +65,12 @@ func checkTrackRef(album *Album, ref TrackRef, files map[string]*Track, report *
 		report.Errorf(album.Directory, "voce %q con status %q sconosciuto: ammessi %q e %q", ref.Slug, ref.Status, StatusPending, StatusInstrumental)
 	}
 	if hasFile {
-		report.Errorf(album.Directory, "voce %q dichiara status: %s ma tracks/%s.md esiste: il testo c'è, togli lo status", ref.Slug, ref.Status, ref.Slug)
+		report.Errorf(album.Directory, "voce %q dichiara status: %s ma il brano esiste in tracks/%s/: il testo c'è, togli lo status", ref.Slug, ref.Status, ref.Slug)
 	}
 }
 
-// checkTrackRefMatches confronta la voce della tracklist con il file del brano:
-// sono due copie degli stessi dati e vanno tenute allineate.
+// checkTrackRefMatches confronta la voce della tracklist con il brano: sono due
+// copie degli stessi dati e vanno tenute allineate.
 func checkTrackRefMatches(ref TrackRef, track *Track, report *Report) {
 	if ref.Title != track.Title {
 		report.Warnf(track.Path, "title %q diverso da quello in tracklist (%q)", track.Title, ref.Title)
