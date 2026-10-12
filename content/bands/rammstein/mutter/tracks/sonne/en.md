@@ -1,0 +1,52 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - One, two, three, four, five, six, seven, eight, nine, out
+    - lines:
+        - Everyone is waiting for the light
+        - Be afraid, don't be afraid
+        - The sun is shining out of my eyes
+        - It will not set tonight
+        - And the world counts loudly to ten
+    - lines:
+        - One, here comes the sun
+        - Two, here comes the sun
+        - Three, it is the brightest star of them all
+        - Four, here comes the sun
+    - lines:
+        - The sun is shining out of my hands
+        - It can burn, it can blind you all
+        - When it breaks out of the fists
+        - It lays down hotly on the face
+        - It will not set tonight
+        - And the world counts loudly to ten
+    - lines:
+        - One, here comes the sun
+        - Two, here comes the sun
+        - Three, it is the brightest star of them all
+        - Four, here comes the sun
+        - Five, here comes the sun
+        - Six, here comes the sun
+        - Seven, it is the brightest star of them all
+        - Eight, nine, here comes the sun
+    - lines:
+        - The sun is shining out of my hands
+        - It can burn, it can blind you
+        - When it breaks out of the fists
+        - It lays down hotly on your face
+        - It lays down painfully on your chest
+        - Balance is lost
+        - It lets you go hard to the floor
+        - And the world counts loudly to ten
+    - lines:
+        - One, here comes the sun
+        - Two, here comes the sun
+        - Three, it is the brightest star of them all
+        - Four, and it will never fall from the sky
+        - Five, here comes the sun
+        - Six, here comes the sun
+        - Seven, it is the brightest star of them all
+        - Eight, nine, here comes the sun
+---

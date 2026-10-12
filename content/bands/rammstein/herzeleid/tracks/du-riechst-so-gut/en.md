@@ -1,0 +1,50 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - (The madness)
+        - It's just a small bridge
+        - The banks are reason and instinct
+        - I'll follow you
+        - The sunlight confuses the mind
+        - A blind child that creeps forward
+        - Because it smells his mother
+    - lines:
+        - (I find you)
+        - The tracks are fresh and on the bridge
+        - Drips of sweat, your warm blood
+        - I don't see you
+        - I only smell you, I sense you
+        - A predator screaming from hunger
+        - Weathering you down for miles
+    - lines:
+        - You smell so good
+        - You smell so good, I coming for you
+        - You smell so good, I find you
+        - So good, so good, I follow you
+        - You smell so good, I'll get you now
+    - lines:
+        - (Now I've got you)
+        - I wait until it gets dark
+        - Then I touch the wet skin
+        - Without betraying myself
+        - Oh can't you see the bridge burning
+        - Stop screaming and don't resist
+        - Because otherwise it'll break apart
+    - lines:
+        - You smell so good
+        - You smell so good, I coming for you
+        - You smell so good, I find you
+        - So good, so good, I follow you
+        - You smell so good, I'll get you now
+    - lines:
+        - You smell so good
+        - You smell so good, I coming for you
+        - You smell so good, I find you
+        - So good, so good, I follow you
+        - You smell so good, I'll get you now
+    - lines:
+        - You smell so good
+        - You smell so good, I coming for you
+---

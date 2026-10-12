@@ -1,0 +1,96 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Now it is party you know it is
+        - And everyone's falling in love again
+        - But she fell in love with the drugs
+        - And that's when it's stopped being fun
+        - You notice the gear running low
+        - Well give me the money I'll go
+        - You can't have that shit running out
+        - Cause nobody wants to come down
+    - lines:
+        - You've started the night and implying it's
+        - A drink with your friends to unwind a bit
+        - You're laughing and sharing their wine
+        - You're all losing track of the time
+        - Then somebody racks up a line
+        - And no you politely decline
+        - Then somehow you're changing your mind
+        - Maybe I'll just have a line
+    - lines:
+        - Somebody better call Frank
+        - But then when Frank arrived
+        - He just got fucked up too
+        - Somebody better call Frank
+        - But Frank was talking so much shit
+        - And none of it was true
+    - lines:
+        - And you're flying right now
+        - But your happiness
+        - Is just a loan from the future
+        - And you are drinking it down
+        - From a fountain of youth
+        - That dries up the future
+        - The cocaine has got your tongue
+        - And you're gonna pay it back
+        - Gonna pay it back someday
+        - The cocaine has got your tongue
+        - Cause you're only talking so much shit
+        - That never means anything
+    - lines:
+        - That never means anything
+        - That never means anything
+        - That never means anything
+    - lines:
+        - She's calling you up on the phone
+        - And why is it taking so long
+        - You're not really feeling her tone
+        - She's talking so fast you don't know
+        - As soon as you're back in the room
+        - Everyone's playing their tune
+        - Everyone's talking at once
+        - Watching you racking it up
+    - lines:
+        - Somebody better call Frank
+        - But then when Frank arrived
+        - He just got fucked up too
+        - Somebody better call Frank
+        - But Frank was talking so much shit
+        - And none of it was true
+    - lines:
+        - And you're flying right now
+        - But your happiness
+        - Is just a loan from the future
+        - And you are drinking it down
+        - From a fountain of youth
+        - That dries up the future
+        - The cocaine has got your tongue
+        - And you're gonna pay it back
+        - Gonna pay it back someday
+        - The cocaine has got your tongue
+        - Cause you're only talking so much shit
+        - That never means anything
+    - lines:
+        - That never means anything
+        - The cocaine's got your tongue
+    - lines:
+        - The cocaine has got your tongue
+        - And you're gonna pay it back
+        - Gonna pay it back someday
+        - The cocaine has got your tongue
+        - Cause you're only talking so much shit
+        - That never means anything
+    - lines:
+        - And as the sun is coming up
+        - It's Frank who says to you
+        - What's the matter now son
+        - Has the cocaine got your tongue
+    - lines:
+        - Talking so much shit
+    - lines:
+        - That never means anything
+        - That never means anything
+---

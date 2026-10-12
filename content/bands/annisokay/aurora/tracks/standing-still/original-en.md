@@ -1,0 +1,60 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - The sun goes down
+        - As the day surrenders to the night
+        - The last few minutes with you
+        - Before I lose my mind
+        - And then it just flew away
+        - Piece by piece and cell by cell
+        - Fading like fairytales
+        - We don't need Heaven, just no hell
+    - lines:
+        - I'm moving slowly
+        - I might be heading in the wrong direction
+        - I might be throwing
+        - All these stones at my own reflection
+    - lines:
+        - Am I standing still
+        - Or is the rest of the world (the world) flying by
+        - Am I standing still
+        - Why do things never happen
+        - How I think they, think they will
+    - lines:
+        - Becoming strangers
+        - In the blink of an eye
+        - No redemption
+        - No more words to make things right
+        - Everything has gone astray
+        - And falling into nothing piece by piece
+        - Any sacrifice we made
+        - Cannot change our bitter fate
+    - lines:
+        - We move slowly
+        - We advance into alienation
+        - It seems were holding
+        - The corpse of our own creation
+    - lines:
+        - Am I standing still
+        - Or is the rest of the world (the world) flying by
+        - Am I standing still
+        - Why do things never happen
+        - How I think they, think they will
+    - lines:
+        - Don't look back
+        - Don't look down
+        - We fall together
+        - With no regrets now
+        - Don't look back
+        - Don't look down
+        - We jump together
+        - We fall together
+    - lines:
+        - Am I standing still
+        - Or is the rest of the world (the world) flying by (flying by)
+        - Am I standing still (standing still)
+        - Why do things never happen
+        - How I think they, think they will
+---

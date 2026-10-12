@@ -1,0 +1,81 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Voglio sentirla giorno e notte
+        - Sei la potenza della mia vita
+        - Voglio pomparla meglio
+    - lines:
+        - Voglio sentirla giorno e notte
+        - Il mio workout, il mio piacere
+        - Sei la potenza della mia vita
+        - Voglio pomparla meglio
+    - lines:
+        - Voglio sentire quella bruciatura
+        - Nel mio corpo di testosterone
+        - L'anabolico superman
+        - Tu non fermerai mai, yeah!
+    - lines:
+        - Meglio che tu lo beva
+        - Prima che ti entri dentro
+        - Attivando la fottuta modalità bestia
+        - Tutti giù
+    - lines:
+        - Ma vuoi davvero metterti alla prova?
+        - Perché io non andrò piano
+        - Questa fottuta vita è tutto ciò per cui vivo
+        - Voglio sentirla giorno e notte
+    - lines:
+        - Voglio sentirla giorno e notte
+        - Il mio workout, il mio piacere
+        - Sei la potenza della mia vita
+        - Voglio pomparla meglio
+    - lines:
+        - Voglio sentirla giorno e notte
+        - Il mio workout, il mio piacere
+        - Sei la potenza della mia vita
+        - Voglio pomparla meglio
+    - lines:
+        - Guarda solo i miei glutei
+        - Che culo perfetto
+        - Sto pompando come un pro
+        - E in realtà non mi fermo mai
+    - lines:
+        - Io spingo me stesso
+        - E spingo anche te
+        - Il mio corpo è una plancia
+        - Guarda me! Fottermi!
+        - Giù!
+    - lines:
+        - Ma vuoi davvero metterti alla prova?
+        - Perché io non andrò piano!
+        - Questa fottuta vita è tutto ciò per cui vivo
+        - Mi vedi andare più in profondità!
+        - A ogni ripetizione mi vedi crescere ogni giorno... più in profondità!
+        - Accelera, facciamolo un'altra volta!
+    - lines:
+        - Pompala!
+    - lines:
+        - Voglio sentirla giorno e notte
+        - Il mio workout, il mio piacere
+        - Sei la potenza della mia vita
+        - Voglio pomparla meglio
+    - lines:
+        - Voglio sentirla giorno e notte
+        - Il mio workout, il mio piacere
+        - Sei la potenza della mia vita
+        - Voglio pomparla meglio
+    - lines:
+        - E se senti che il tuo corpo si arrende
+        - Devi ammazzare il dolore e pompare più forte!
+        - E se senti che il dolore sta diventando serio
+        - Allora fallo tuo obiettivo di vita ammazzare quella troia
+        - Ammazzare quella troia
+    - lines:
+        - Sveglia, modalità bestia
+        - Ogni singolo giorno, la spingerò fottutamente forte
+        - E va
+        - Pow, pow, pow, pow, pow, pow voglio solo pomparla!
+---

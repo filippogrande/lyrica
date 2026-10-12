@@ -1,0 +1,78 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - You heard about a man
+        - The lift controller
+        - The lever king I told you
+        - Hop in and let the journey begin
+        - Shades, a shiny face
+        - Like he's someone from outer space
+        - So full of grace
+        - I just wanna get in
+    - lines:
+        - Up and down
+        - We're moving all around
+        - We're going up and down
+        - We're moving all around
+    - lines:
+        - I wanna show you my world
+        - Where the beat goes up and down
+        - Let me open the door
+        - Elevator operator
+    - lines:
+        - Up! Up!
+        - Down! Down!
+        - Up! Up!
+        - Elevator operator
+    - lines:
+        - I wanna be like him
+        - I really wanna be like him
+        - I wanna be with him
+        - Forget about that
+        - Heads up in the sky and we keep getting high
+        - A magic down in his lever that you cannot deny
+    - lines:
+        - A glowing light
+        - He's shining bright
+        - I cannot wait to get inside
+        - Still out of sight
+        - And we wanna go
+        - Up and down
+        - We're moving all around
+        - We're going up and down
+        - We're moving all around
+    - lines:
+        - I wanna show you my world
+        - Where the beat goes up and down
+        - Let me open the door
+        - Elevator operator
+    - lines:
+        - Up! Up!
+        - Down! Down!
+        - Up! Up!
+        - Elevator operator
+    - lines:
+        - And I just wanna get down
+        - But I'm just going up
+        - You better listen to the sound
+        - Move your body like a god
+        - And we never stop
+        - Get down
+    - lines:
+        - I wanna hear you say
+        - Ta-ta-tatata-tatatata, get down
+        - Ta-ta-tatata-tatatata, get down
+    - lines:
+        - I wanna show you my world
+        - Where the beat goes up and down
+        - Let me open the door
+        - Elevator operator
+    - lines:
+        - Up! Up!
+        - Down! Down!
+        - Up! Up!
+        - Elevator operator
+        - Elevator operator
+---

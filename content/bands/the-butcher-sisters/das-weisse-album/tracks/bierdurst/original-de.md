@@ -1,0 +1,83 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Ich habe Durst, ich habe Durst
+        - Ich habe Bierdurst seit meiner Geburt
+        - Ich habe Durst, ich habe Durst
+        - Ja, ich habe Bierdurst seit meiner Geburt, ey
+        - Ich habe Durst (Woah), ich habe Durst (Woah)
+        - Ich habe Bierdurst seit meiner Geburt (Uh)
+        - Ja, ich habe Durst (Yeah), ich habe Durst (Genau)
+        - Ich habe Bierdurst seit meiner Geburt (Ah, ah, okay)
+    - lines:
+        - Du hast viel Durst? Süß, ich hab' mehr Durst (Süß)
+        - Ich hab' voll auf Bier auf ein ganzes Meer Durst (Hehehe)
+        - Und wenn ich wegen Saufen irgendwann sterbe
+        - Mein Durst bleibt für immer auf der Erde (Wouh)
+        - Ey, meine Kindheit war ein elendiger Flop (Flop)
+        - Denn ich bekam an manchen Tagen nur sehr wenig Scotch
+        - 'Ich sag'': "Ich mach'' heut chillig", aber später wird gekotzt (Urgh)'
+        - Mein Durst ist nicht zu still'n wie ein Baby ohne Kopf, okay
+    - lines:
+        - Ich habe Brand wie ein Regenwald (Yeah)
+        - Ich habe Land unter so wie Brem'n bald (Yeah)
+        - Wenn nicht morgens um zehn schon bei mir der Jäger knallt
+        - Eins hab' ich auf jeden Fall (Ja, blah, blah, blah, blah)
+    - lines:
+        - Ich habe, ich hab', Ich habe Durst, ich habe Durst
+        - Ich habe Bierdurst seit meiner Geburt
+        - Ich habe Durst, ich habe Durst
+        - Ja, ich habe Bierdurst seit meiner Geburt
+    - lines:
+        - Ey, ich saufe das Bier, Bier
+        - Bier, Bier, Bier, Bier, Bier, Bier, Bier
+        - Ey, ich saufe das Bier, Bier
+        - Bier, Bier, Bier, Bier, Bier, Bier, Bier
+    - lines:
+        - Bier in mein' Kopf, Bier in mein' Kopf
+        - Klingelingeling, ich saufe Bier, bis ich kotz'
+        - Bier in mein' Kopf, Bier in mein' Kopf
+        - Klingelingeling, ich saufe Bier, bis ich kotz'
+        - Ich wache auf, denk' an Bier und habe Durst
+        - Schon als Baby säugte ich bei Mama Bier aus der Brust
+        - Papa gab mir den Sixpack in die Schultüte
+        - Letzte Reihe Bus war ich der, der vorglühte
+        - (Gib mir mehr, gib mir mehr) Bier, Bier, mehr Bier
+        - (Gib mir mehr) Bier, Bier, mehr Bier
+    - lines:
+        - Mein Hals ist staubtrocken, als wäre Sand drin
+        - Sag meinem Chef, dass ich morgen krank bin (Hey)
+        - Bierdosi auf, ich bin Bierphilosauf
+        - Weil ich hab' wie dieser Fred Durst, der von Mehnersmoos
+    - lines:
+        - Ich habe Durst (Woah), ich habe Durst (Woah)
+        - Ich habe Bierdurst seit meiner Geburt (Woah)
+        - Ja, ich habe Durst (Yeah), ich habe Durst (Woah)
+        - Ich habe Bierdurst seit meiner Geburt (Genau)
+    - lines:
+        - Ich saufe das Bier, Bier
+        - Bier, Bier, Bier, Bier, Bier, Bier, Bier
+        - Ja, ich saufe das Bier, Bier
+        - Bier, Bier, Bier, Bier, Bier, Bier, Bier
+    - lines:
+        - Jeden Tag Bier wie an Karneval (Jeden Tag)
+        - Jeden Tag Bier wie beim Abendmahl (Oh Gott)
+        - Jeden Tag Bier bis zum Schlaganfall (Ja)
+        - Ich fühl' mich, als wär ich schon seit Jahr'n in 'ner Achterbahn (Oh)
+        - Egal, ob in der Badewanne (Egal)
+        - Oder beim Fahr'n auf der Autobahn mit hunderttausend km/h (Wrrm)
+        - Bei der Bestattung meiner Tante (Ja), der Begattung einer Schlampe (Ja)
+        - Hab' ich 'ne Flasche in der Hand, denn ich hab' immer
+    - lines:
+        - Durst, ich habe Durst
+        - Ich habe Bierdurst seit meiner Geburt (Durst)
+        - Ich habe Durst, ich habe Durst
+        - Ich habe Bierdurst seit meiner Geburt
+    - lines:
+        - Ey, ich saufe das Bier, Bier
+        - Bier, Bier, Bier, Bier, Bier, Bier, Bier
+        - Ey, ich saufe das Bier, Bier
+        - Bier, Bier, Bier, Bier, Bier, Bier, Bier
+---

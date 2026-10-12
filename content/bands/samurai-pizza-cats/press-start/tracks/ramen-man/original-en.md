@@ -1,0 +1,88 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+    - lines:
+        - Spicy fire, miso might
+        - Spicy fire every night
+        - Terrifier, villains fear
+        - Ramen-Man is always near
+    - lines:
+        - Who the hell is Spider-Man?
+        - He's shooting noodles from his hands
+        - See his sign up in the sky
+        - Ramen Man will never
+    - lines:
+        - Die, die
+        - Die, die
+        - Die, die
+    - lines:
+        - Open your eyes big and wide
+        - Ramen-Man signs across the sky
+        - Sugoi life, let's take a ride
+        - Kawaii nights, let's collide
+    - lines:
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+    - lines:
+        - Ramen-Man, Ramen-Man
+        - Rising high like no one can
+        - Ramen-Man, Ramen-Man
+        - Always has a master plan
+        - Sirens sound 'cause he is back in town
+        - Back in town, so watch your bowl, oh
+    - lines:
+        - Ramen-Man, Ramen-Man
+        - Koyoi mo sorakara No.1
+        - Ramen-Man, Ramen-Man
+        - Churutto sukuuzo Only one
+        - Kanzenchouaku mashi mashi
+        - Justice Chou oomori toku
+    - lines:
+        - Die, die
+        - Die, die
+        - Die, die
+    - lines:
+        - Open your eyes big and wide
+        - Ramen-Man signs across the sky
+        - Sugoi life, let's take a ride
+        - Kawaii nights, let's collide
+    - lines:
+        - Striding forth like steam from freshly boiled chicken broth
+        - He's the Ramen-Man
+        - Unstoppable, untopple-able, completely indomitable
+        - He's the Ramen-Man
+    - lines:
+        - I'll save your souls and your bowls
+        - Ramen-Man, Ramen-Man
+    - lines:
+        - Next time, Ramen-Man faces his greatest challenge
+        - In the form of the evil pizza-kaijin
+        - He must now set out from Tokyo
+        - And make the treacherous voyage to Castrop-Rauxel, Germany
+    - lines:
+        - Die, die
+        - Die, die
+        - Die, die
+        - Die, die
+        - Die, die
+    - lines:
+        - Open your eyes big and wide
+        - Ramen-Man signs across the sky
+        - Sugoi life, let's take a ride
+    - lines:
+        - Open your eyes big and wide
+        - Ramen-Man signs across the sky
+        - Sugoi life, let's take a ride
+        - Kawaii nights, let's collide
+    - lines:
+        - Let's collide
+        - Let's collide
+---

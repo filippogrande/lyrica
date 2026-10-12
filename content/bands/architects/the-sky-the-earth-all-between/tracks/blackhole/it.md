@@ -1,0 +1,67 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Non c'è nient'altro che il freddo al centro di un buco nero?
+        - Oh
+        - Ah, troia
+    - lines:
+        - Ah, il falò di segnale si spegnerà
+        - Attraverso le sirene e i razzi
+        - Sono stato inghiottito dalle nubi di tempesta
+        - Grandine su una casa di vetro
+        - C'erano diamanti nell'aria
+        - E l'ossigeno mi ha lasciato il petto
+    - lines:
+        - Anime perse intrappolate sotto questo soffitto
+        - È una figura otto finché i fantasmi non saranno sepolti
+        - Tiralo stretto, prova a fermare questo sanguinamento
+        - Carestia mentre gli orrori mi corrono nella testa
+    - lines:
+        - La morte mi ha guardato, e sono morto mille volte
+        - Gli incubi hanno lasciato una rivolta nella mia mente
+        - È oggi così vuoto se non ci fosse un domani?
+        - Mezzanotte, tagliamo le linee elettriche
+        - Niente luce se non il fuoco nei miei occhi
+        - È oggi così vuoto se non ci fosse un domani?
+    - lines:
+        - Oh
+        - Ah, troia
+    - lines:
+        - Ah, stanco di vivere con il dolore adesso
+        - Qualcuno portami a riparare
+        - C'è un sapore amaro in bocca
+        - Nel silenzio c'era malattia
+        - Forse la vita semplicemente non è giusta
+        - Forse sono solo fottutamente ossessionato da me stesso
+    - lines:
+        - Non dire che devo inseguire questa sensazione
+        - I proiettili colpiscono, ma faranno solo un'ammaccatura al giubbotto
+        - Tempo di guerra con tutto il mondo che dorme
+        - Le bombe cadono sulla prigione che avevano costruito al posto della speranza
+    - lines:
+        - Abbattuto
+        - Anime portate attraverso un universo sconosciuto
+        - Nessun servizio per i senza fede, tutto si trasforma in polvere
+    - lines:
+        - C'erano diamanti nell'aria
+        - E l'ossigeno mi ha lasciato il petto
+        - C'è qualcuno là?
+        - Prego che io sia benedetto
+    - lines:
+        - La morte mi ha guardato, e sono morto mille volte
+        - Gli incubi hanno lasciato una rivolta nella mia mente
+        - È oggi così vuoto se non ci fosse un domani?
+        - Mezzanotte, tagliamo le linee elettriche
+        - Niente luce se non il fuoco nei miei occhi
+        - È oggi così vuoto se non ci fosse un domani?
+    - lines:
+        - Dal cielo alla terra, Dio sa solo se siamo qui nello spirito
+        - Capitolo e versetto, non c'è da nessuna parte quando il cielo è il limite
+        - Regna, regna
+        - Non c'è nient'altro che il freddo al centro di un buco nero?
+        - Dal cielo alla terra, Dio sa solo se siamo qui nello spirito
+        - Capitolo e versetto, da nessuna parte quando il cielo è il limite
+---

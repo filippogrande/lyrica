@@ -1,0 +1,64 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Il terreno sotto di me
+        - Si spacca
+        - E sto inseguendo le crepe
+        - Di ritorno al mio cuore
+    - lines:
+        - Nessun peso può schiacciare
+        - Ciò che è già intorpidito
+        - Nessun suono può raggiungere
+        - Dove il sentimento non arriva
+        - Intrappolato in questa stanza i lampioni sono fiochi
+        - Le sirene cantano un inno ululante
+        - Nessun fuoco solo un grigio infinito
+        - E ogni tocco mi porta più lontano
+    - lines:
+        - Non riesco a sentire come sentono loro
+        - Il mio sangue è freddo, il ghiaccio mi taglia
+        - Nessun fuoco può bruciare ciò che è diventato pietra
+        - Tutto ciò che ho amato, l'ho amato da solo
+        - Non riesco a sanguinare come sanguinano loro
+        - Il mio cuore è freddo, non è una novità
+        - Nessun fuoco può bruciare ciò che è diventato pietra
+        - Tutto ciò che ho amato, l'ho amato da solo
+    - lines:
+        - Il terreno sotto di me
+        - Si spacca
+        - E sto inseguendo le crepe
+        - Di ritorno al mio cuore
+    - lines:
+        - Le strade sono scivolose, la pioggia di ghiaccio taglia in profondità
+        - Mentre cammino per una città senza sonno
+    - lines:
+        - Vene di neon pulsano
+        - Mi smarrisco alla vista
+        - In una città placcata di pirite
+    - lines:
+        - Intrappolato in questa stanza i lampioni sono fiochi
+        - Le sirene cantano un inno ululante
+        - Nessun fuoco solo un grigio infinito
+        - E ogni tocco mi porta più lontano
+    - lines:
+        - Non riesco a sentire come sentono loro
+        - Il mio sangue è freddo, il ghiaccio mi taglia
+        - Nessun fuoco può bruciare ciò che è diventato pietra
+        - Tutto ciò che ho amato, l'ho amato da solo
+    - lines:
+        - Non riesco a sanguinare come sanguinano loro
+        - Il mio cuore è freddo, non è una novità
+        - Nessun fuoco può bruciare ciò che è diventato pietra
+        - Tutto ciò che ho amato, l'ho amato da solo
+    - lines:
+        - Nessun peso può schiacciare ciò che è già intorpidito
+        - Nessun suono può raggiungere dove il sentimento non arriva
+        - Una figura scolpita, immobile e fredda
+        - Per sempre fissa contro la mia presa
+    - lines:
+        - Nessun peso può schiacciare ciò che è già intorpidito
+        - Nessun suono può raggiungere dove il sentimento non arriva
+---

@@ -1,0 +1,79 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - You were born to suffer
+        - You were bred to bleed
+        - Scraped from your mother's womb
+        - Meat for the machine
+    - lines:
+        - Fat on milk and honey
+        - Lulled by a gilded lie
+        - We are becoming
+        - Dehumanized
+    - lines:
+        - Some of us are butchers
+        - Some of us are lambs
+        - Send me to the abattoir
+        - Let's find out which I am
+    - lines:
+        - Set your heart to safety
+        - Or face the guillotine
+        - For empathy is heresy
+        - And hope is a disease
+    - lines:
+        - Dissociating
+        - The blister grows within
+        - How can you escape
+        - That which lives under your skin?
+    - lines:
+        - Defiled by darkness
+        - Our souls sodomized
+        - We are becoming
+        - Dehumanized
+    - lines:
+        - Dehumanized
+        - Rotting beneath the madness
+        - Dehumanized
+        - Rotting beneath the madness
+    - lines:
+        - Who will survive
+        - And what will be left of them?
+    - lines:
+        - Who will survive
+        - And what will be left of them?
+    - lines:
+        - The sky is falling
+        - It's falling
+        - There's nothing we can do
+    - lines:
+        - You will pay the price
+        - Time to fucking die
+        - You will pay the price
+        - Kill me quick
+        - Time to fucking die
+        - Who will survive
+        - And what will be left of them?
+    - lines:
+        - You were bred to suffer
+        - You were born to bleed
+        - Scraped from
+        - Your mother's womb
+        - We have become
+        - Dehumanized
+        - Dehumanized
+        - Rotting beneath the madness
+        - We have become
+        - Dehumanized
+    - lines:
+        - Kill each other
+        - An infestation
+        - Braindead at birth
+        - Disciples of desire
+        - Virulent
+        - Scum of the earth
+        - Scum of the earth
+        - Scum of the earth
+        - Scum of the earth
+---

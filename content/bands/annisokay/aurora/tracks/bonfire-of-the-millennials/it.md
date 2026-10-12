@@ -1,0 +1,68 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Mi hai gettato sul fuoco
+        - Mi hai gettato sul fuoco
+    - lines:
+        - E la tua generazione banchetta
+        - Ma la prossima paga il conto
+        - E li hai gettati sul fuoco
+        - Per togliere il morso al gelo
+    - lines:
+        - E hai lasciato morire il pianeta
+        - Oh, il futuro è stato violentato
+        - E ci hai gettati sul fuoco
+        - Per illuminare le fiamme
+    - lines:
+        - Questo è il falò dei millenial
+        - Questo è il falò dei millenial
+    - lines:
+        - Tu mi hai sempre detto
+        - Che avrei dovuto pensare al futuro
+        - Mentre lo gettavi sul fuoco
+        - Tu mi hai sempre detto
+        - Che avrei dovuto pensare al futuro
+        - E poi lo hai gettato sul fuoco
+    - lines:
+        - Mi hai gettato sul fuoco
+        - Mi hai gettato sul fuoco
+    - lines:
+        - Voi baby boomer avete costruito
+        - Città fuori dalla avidità
+        - Per prendere a punta di pistola
+        - Più di quanto vi serva
+        - Quando il denaro diventa dio
+        - E la ricchezza diventa religione
+        - Un sacrificio umano
+        - È una delle condizioni
+    - lines:
+        - Questo è il falò dei millenial
+        - Questo è il falò dei millenial
+    - lines:
+        - Tu mi hai sempre detto
+        - Che avrei dovuto pensare al futuro
+        - Mentre lo gettavi sul fuoco
+        - Tu mi hai sempre detto
+        - Che avrei dovuto pensare al futuro
+        - E poi lo hai gettato sul fuoco
+    - lines:
+        - Me l'hai gettato sul fuoco
+        - Mi hai gettato sul fuoco
+        - Non ti basterà mai
+        - Non ti basterà mai
+    - lines:
+        - Tu mi hai sempre detto
+        - Che avrei dovuto pensare al futuro
+        - Mentre lo gettavi sul fuoco
+        - Tu mi hai sempre detto
+        - Che avrei dovuto pensare al futuro
+        - E poi lo hai gettato sul fuoco
+    - lines:
+        - Mi hai gettato sul fuoco
+        - Mi hai gettato sul fuoco
+        - Mi hai gettato sul fuoco
+        - Mi hai gettato sul fuoco
+---

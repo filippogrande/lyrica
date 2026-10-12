@@ -1,0 +1,58 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Some days I'm a tidal wave
+        - Still lakes never leave a trace
+        - I'm overcome but I don't wanna run
+        - Light fades but the shadows stay
+        - No grace in the breaths I take
+        - I've had enough of staring at the sun
+    - lines:
+        - You wouldn't wanna read my mind
+        - You wouldn't wanna stand beside me
+        - When I'm living on the edge
+    - lines:
+        - Take me to the place where the heavens are haunted
+        - And I'll pray to the cross you bear
+        - Tell me, if I gave you the world would you meet me there?
+        - Do you see me now the lights are out?
+        - I'm a broken mirror
+    - lines:
+        - No sleep in the bed we made
+        - Two saints and a hand grenade
+        - Forever numb, a cry to anyone
+        - Highways over shallow graves
+        - Cold rain down a window pane
+        - I gave you doves but held on to the gun
+    - lines:
+        - You wouldn't wanna read my mind
+        - You wouldn't wanna stand beside me
+        - When I'm living on the edge
+    - lines:
+        - Take me to the place where the heavens are haunted
+        - And I'll pray to the cross you bear
+        - Tell me, if I gave you the world would you meet me there?
+        - Do you see me now the lights are out?
+        - I'm a broken mirror
+    - lines:
+        - These shattered lives
+        - Reflections scattered
+        - Pieces in your eyes
+    - lines:
+        - Take me to the place where the heavens are haunted
+        - And I'll pray to the cross you bear
+        - Tell me, if I gave you the world would you meet me there?
+        - Do you see me now the lights are out?
+        - I'm a broken mirror
+    - lines:
+        - I found you on the other side
+        - I tried to put it all behind me
+        - I think about it all the time
+        - I dream about the end
+        - You wouldn't wanna read my mind
+        - You wouldn't wanna stand beside me
+        - Hear me now, I'm crying out
+        - I'm a broken mirror
+---

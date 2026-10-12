@@ -1,0 +1,83 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Ho sete, ho sete
+        - Ho sete di birra dalla nascita
+        - Ho sete, ho sete
+        - Sì, ho sete di birra dalla nascita, ey
+        - Ho sete (Woah), ho sete (Woah)
+        - Ho sete di birra dalla nascita (Uh)
+        - Sì, ho sete (Yeah), ho sete (Esatto)
+        - Ho sete di birra dalla nascita (Ah, ah, okay)
+    - lines:
+        - Hai molta sete? Che carino, io ho più sete (Che carino)
+        - Ho una sete di birra grande come un mare intero (Hehehe)
+        - E se un giorno muoio per il bere
+        - La mia sete resta sulla terra per sempre (Wouh)
+        - Ey, la mia infanzia è stata un flop miserabile (Flop)
+        - Perché certi giorni ricevevo pochissimo scotch
+        - 'Dico: "Oggi me la prendo comoda", ma dopo si vomita (Urgh)'
+        - La mia sete non si spegne, come un bebè senza testa, okay
+    - lines:
+        - Brucio come una foresta pluviale (Yeah)
+        - Ho la terra allagata come Brema tra poco (Yeah)
+        - Se non mi spara il cacciatore già alle dieci del mattino
+        - Una cosa ce l'ho di sicuro (Sì, blah, blah, blah, blah)
+    - lines:
+        - Io ho, io ho, ho sete, ho sete
+        - Ho sete di birra dalla nascita
+        - Ho sete, ho sete
+        - Sì, ho sete di birra dalla nascita
+    - lines:
+        - Ey, mi scolo la birra, birra
+        - Birra, birra, birra, birra, birra, birra, birra
+        - Ey, mi scolo la birra, birra
+        - Birra, birra, birra, birra, birra, birra, birra
+    - lines:
+        - Birra in testa, birra in testa
+        - Dindindin, mi scolo la birra finché non vomito
+        - Birra in testa, birra in testa
+        - Dindindin, mi scolo la birra finché non vomito
+        - Mi sveglio, penso alla birra e ho sete
+        - Già da neonato poppavo birra dal seno della mamma
+        - Papà mi mise il sixpack nel cono di scuola
+        - In ultima fila sul bus ero quello che pre-beveva
+        - (Dammene ancora, dammene ancora) Birra, birra, più birra
+        - (Dammene ancora) Birra, birra, più birra
+    - lines:
+        - La mia gola è secca come se ci fosse sabbia dentro
+        - Di' al mio capo che domani sono malato (Hey)
+        - Lattina aperta, sono un birrosofo del bere
+        - Perché ce l'ho come quel Fred Durst, quello dei Mehnersmoos
+    - lines:
+        - Ho sete (Woah), ho sete (Woah)
+        - Ho sete di birra dalla nascita (Woah)
+        - Sì, ho sete (Yeah), ho sete (Woah)
+        - Ho sete di birra dalla nascita (Esatto)
+    - lines:
+        - Mi scolo la birra, birra
+        - Birra, birra, birra, birra, birra, birra, birra
+        - Sì, mi scolo la birra, birra
+        - Birra, birra, birra, birra, birra, birra, birra
+    - lines:
+        - Ogni giorno birra come a carnevale (Ogni giorno)
+        - Ogni giorno birra come all'ultima cena (Oh dio)
+        - Ogni giorno birra fino all'ictus (Sì)
+        - Mi sento come se fossi sulle montagne russe da anni (Oh)
+        - Non importa se nella vasca da bagno (Non importa)
+        - O guidando in autostrada a centomila km/h (Vrrm)
+        - Al funerale di mia zia (Sì), all'accoppiamento di una puttana (Sì)
+        - Ho una bottiglia in mano, perché ho sempre
+    - lines:
+        - Sete, ho sete
+        - Ho sete di birra dalla nascita (Sete)
+        - Ho sete, ho sete
+        - Ho sete di birra dalla nascita
+    - lines:
+        - Ey, mi scolo la birra, birra
+        - Birra, birra, birra, birra, birra, birra, birra
+        - Ey, mi scolo la birra, birra
+        - Birra, birra, birra, birra, birra, birra, birra
+---

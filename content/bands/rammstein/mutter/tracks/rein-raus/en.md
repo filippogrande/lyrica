@@ -1,0 +1,47 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - I'm the rider, you are the horse
+        - I get on, we start riding
+        - You moan, I tell you
+        - An elephant in the eye of a needle
+    - lines:
+        - In, out
+        - In, out
+        - In, out
+        - In, out
+    - lines:
+        - I'm the rider, you are the horse
+        - I have the key, you have the lock
+        - The door opens, I enter
+        - Life can be so magnificent
+    - lines:
+        - In, out
+        - In, out
+        - In, out
+        - In, out
+    - lines:
+        - Deeper, deeper
+        - Say it, say it loudly
+        - Deeper, deeper
+        - I feel good inside your skin
+        - And a thousand elephants break out
+    - lines:
+        - The ride was short, I must apologize
+        - I get off, don't have time
+        - I have to go to, the other horses
+        - Want to get ridden as well
+        - In, out
+        - In
+    - lines:
+        - In, out
+        - In, out
+        - In, out
+        - In, out
+        - In (deeper), out (deeper)
+        - In (deeper), out (deeper)
+        - In (deeper), out (deeper)
+        - In (deeper), out (deeper)
+---

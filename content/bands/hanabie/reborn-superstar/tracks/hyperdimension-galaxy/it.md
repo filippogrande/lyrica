@@ -1,0 +1,83 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sto per sparare
+        - Decollo
+    - lines:
+        - Partiamo adesso
+        - Amore sincero, colpisco al primo colpo, compagnia di pretese assurde
+        - Gente vera, anima!
+        - Amore che non raggiunge, diffonditi, avvolti nell'universo, sconsideratamente persi
+    - lines:
+        - Una METAL BABY testarda e in gran forma
+        - Scatena il Big Bang, evviva!
+        - La situazione si fa ancora più Crazy
+        - Perché nemmeno desiderarlo a una stella o pregare un dio basta
+    - lines:
+        - Guardando il cielo notturno, credo che un giorno arriverà
+    - lines:
+        - Il solito HiAce
+        - I miei compagni di sempre
+        - Un gran palco, un giorno
+        - Do un'occhiata alla setlist
+        - Sempre in grande stile
+        - Oltre il campo, via di fuga
+        - Voliamo via, adesso
+    - lines:
+        - Verrò a trovarti
+        - Una storia che gira e rigira
+        - Attraverserò l'universo cantando
+        - Anche dopo centinaia di milioni di anni luce, ti cercherò
+        - Tra le tante stelle
+    - lines:
+        - Ora risplende
+        - Amore che non cambia, all'inizio del cammino, il gruppo delle pretese assurde
+        - Più splendente di qualunque passato
+        - Spicca il volo, un bloom sconsiderato nell'universo
+    - lines:
+        - 1 su 8 miliardi, un incontro che ci lega
+        - Spargi un po' di stile, così figo, la crew segreta
+        - Senza precedenti, canto, ancora più bello
+        - Per quante volte, per qualunque difficoltà, riesco a ribaltare tutto
+    - lines:
+        - Quando la luna si fa piena, ti faccio accadere un miracolo
+    - lines:
+        - Sei sempre tu l'asso
+        - Il mio nome che non cambia
+        - Un 'ti amo' di quei tempi
+        - Perché è un'esperienza che si imprime
+        - Sempre una grande gara
+        - Oltre il campo, via di fuga
+        - Voliamo via, adesso
+    - lines:
+        - Ti offro il mio amore
+        - Perché si può realizzare
+        - Attraverso la galassia, raggiungendoti
+        - Il battito del cuore sta per esplodere
+        - Urlo nel cielo stellato
+    - lines:
+        - Anche se diventassi polvere di stelle
+        - Vivrò per te, nel futuro
+        - L'ombra di stelle che mi guida
+        - Sarò con te, nel futuro
+        - Mi troverai!
+        - Il cielo stellato che scintilla
+        - Non piangere, abbi coraggio
+        - Voliamo via, adesso
+    - lines:
+        - Come una stella cadente
+        - Esaudisco, il tuo desiderio
+    - lines:
+        - Verrò a trovarti
+        - Una storia che gira e rigira
+        - Attraverserò l'universo cantando
+        - Anche dopo centinaia di milioni di anni luce, ti cercherò
+        - La stella che brilla
+    - lines:
+        - Andiamo a raccontarlo, raccogliendo le stelle
+        - Oltre quel cielo che luccica
+        - Ti amo, ehi
+---

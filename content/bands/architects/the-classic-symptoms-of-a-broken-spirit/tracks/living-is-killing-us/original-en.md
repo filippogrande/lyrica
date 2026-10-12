@@ -1,0 +1,51 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Bite my hand
+        - Nothing of worth is ever coming to you
+        - Fall into error and swim the sands
+        - Breathe through the dirt
+        - Repeat your own point of view
+        - We can learn to stand in no man's land
+    - lines:
+        - We fell in love with a death machine (Death machine)
+        - Too much will never be enough (Be enough)
+        - Push comes to shove, but it's heresy just to be
+        - Living is killing us
+    - lines:
+        - Living is killing us (Is killing us)
+    - lines:
+        - Take the stand
+        - God knows that there is nothing else you can do
+        - Weaker together
+        - A firebrand
+        - Another rebel that'll split us in two
+        - We're burning down a holy land
+    - lines:
+        - We fell in love with a death machine (Death machine)
+        - Too much will never be enough (Be enough)
+        - Push comes to shove, but it's heresy just to be
+        - Living is killing us
+    - lines:
+        - We built a home on a battleground
+        - Misfortunes never come alone
+        - Come quick we've gotta turn this ship around
+        - Fuck it, I'll do it on my own
+    - lines:
+        - We built a home on a battleground
+        - Misfortunes never come alone
+        - Come quick we've gotta turn this ship around
+        - Fuck it, fuck it, I'll do it on my own
+    - lines:
+        - We fell in love with a death machine (Death machine)
+        - Too much will never be enough (Be enough)
+        - Push comes to shove, but it's heresy just to be
+        - Living is killing us
+    - lines:
+        - We fell in love with a death machine (Death machine)
+        - Too much will never be enough (Be enough)
+        - Push comes to shove, but it's heresy just to be
+        - Living is killing us
+---

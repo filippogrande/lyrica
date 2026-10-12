@@ -1,0 +1,42 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Stanno in piedi stretti in un abbraccio
+        - Un misto di carne così ricco di giorni
+        - Dove il mare tocca la terra
+        - Vuole dirgli la verità
+    - lines:
+        - Ma le sue parole le mangia il vento
+        - Dove il mare finisce
+        - Tremando gli tiene la mano
+        - E lo ha baciato sulla fronte
+    - lines:
+        - Porta la sera nel petto
+        - E sa che deve andarsene
+        - Appoggia la testa nel suo grembo
+        - E chiede un ultimo bacio
+    - lines:
+        - E poi l'ha baciata
+        - Dove il mare finisce
+        - Le sue labbra deboli e pallide
+        - E i suoi occhi si bagnano
+        - E poi l'ha baciata
+        - Dove il mare finisce
+        - Le sue labbra deboli e pallide
+        - E i suoi occhi si bagnano
+    - lines:
+        - E poi l'ha baciata
+        - Dove il mare finisce
+        - Le sue labbra deboli e pallide
+        - E i suoi occhi si bagnano
+        - E poi l'ha baciata
+        - Dove il mare finisce
+        - Le sue labbra deboli e pallide
+        - E i suoi occhi si bagnano
+    - lines:
+        - L'ultimo bacio è così lontano
+        - L'ultimo bacio
+        - Lui non se lo ricorda più
+---

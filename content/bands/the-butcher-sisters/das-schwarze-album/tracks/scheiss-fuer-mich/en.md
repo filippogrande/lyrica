@@ -1,0 +1,86 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Finally home
+        - Home with you
+        - You're my favourite doggy animal
+        - In your mouth
+        - A canned beer for me
+        - Thank you
+    - lines:
+        - I wanna get on the couch
+        - But my woof woof
+        - Still gotta get his kakapupu out of his butt
+        - Still gotta walk the dog at 11 pm
+        - Well, thank you
+    - lines:
+        - Oh don't look at me like that
+        - I know that you can do it
+        - Why is it taking so long
+    - lines:
+        - I just want you to shit oho
+        - Then we can finally go home again
+        - I just want you to know oho
+        - Without you I could've gone back in long ago
+        - I'm completely soaked and you stink
+        - Don't you dare spread your stink at home
+        - I just want you to shit
+        - Woho
+        - Then we can finally go
+        - Finally go home
+    - lines:
+        - We're out and about at 1 a.m.
+        - I'm so scared my doggy will burst
+        - I'm massaging his rectum tract
+        - Until he poops
+    - lines:
+        - I'm doing my tenth lap around the same block
+        - You're not doing a poo and I can't be arsed
+        - I feel the ice-cold rain on my head
+        - Oh why is my goddamn dog constipated
+        - Oh noo
+    - lines:
+        - I just want you to shit oho
+        - Then we can finally go home again
+        - I just want you to know oho
+        - Without you I could've gone back in long ago
+        - I'm completely soaked and you stink
+        - Don't you dare spread your stink at home
+        - I just want you to shit
+        - Woho
+        - Then we can finally go
+        - Finally go home
+    - lines:
+        - Shit for me
+        - Shit for me
+        - Shit for me
+        - Shit for me
+    - lines:
+        - Shit for me
+        - Shit for me
+        - Shit for me
+        - Shit for me
+    - lines:
+        - I just want you to shit oho
+        - Then we can finally go home again
+        - I just want you to know oho
+        - Without you I could've gone back in long ago
+        - I'm completely soaked and you stink
+        - Don't you dare spread your stink at home
+        - I just want you to shit
+        - Woho
+        - Then we can finally go
+        - Finally go home
+    - lines:
+        - I wanna go home
+        - I wanna go home
+    - lines:
+        - Doggy shit for me
+        - Shit for me oh
+        - Shit for me
+        - Shit just for me
+        - Shit for me
+        - Shit for me
+---

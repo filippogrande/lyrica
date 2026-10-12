@@ -1,0 +1,82 @@
+---
+lang: ja-Latn
+role: original
+stanzas:
+    - lines:
+        - I'm gonna fire
+        - Blast off
+    - lines:
+        - Start right now
+        - Tashika na ai, ikanari meichū, muchaburi renchū
+        - Gachi-sei tamashii!
+        - Todokanai ai, hirogare uchū ni, muchakucha muchū
+    - lines:
+        - Gōjō de kōchō na METAL BABY
+        - Makiokose BIKKU BAN manbanzai!
+        - Chōjō no genjō wa sara ni Crazy
+        - Hoshi ni negatte mo, kami ni inotte mo tarinai kara
+    - lines:
+        - Yozora miage, itsuka todoku to shinjite
+    - lines:
+        - Itsumo no Haiēsu
+        - Kawaranu maimen
+        - Itsuka no Hai sutēji
+        - Setto risuto haiken
+        - Itsu demo biggu sukēru
+        - Fīrudo koete esukēpu
+        - Let's fly away now
+    - lines:
+        - Ai ni ikukara
+        - Meguri meguru sutōrī
+        - Uchū tobikoe utau yo
+        - Nan oku kōnen sugite mo sagasu yo
+        - Kazu aru hoshi no naka
+    - lines:
+        - It's shining now
+        - Kawaranai ai, hajimari no dōchū, muchaburi Group
+        - Donna kako yori kagayakashii
+        - Habatake uchū ni muchakucha Bloom
+    - lines:
+        - 1 in 8 billion tsunagu sōgū
+        - Makichirase So cool himitsu no Crew
+        - Zendai mimon utau isso Good
+        - Nando datte, nandō datte hikkurikaeseru
+    - lines:
+        - Tsuki ga michite, kimi ni kiseki o okosu yo
+    - lines:
+        - Itsu datte kimi ga ēsu
+        - Kawaranu mainēmu
+        - Itsuka no aishiteru
+        - Datte yakitsuku taiken
+        - Itsu demo biggu rēsu
+        - Fīrudo koete esukēpu
+        - Let's fly away now
+    - lines:
+        - Ai o sasagu yo
+        - Kanaerareru kara
+        - Ginga tobikoe tadori tte
+        - Mune no kodō ga harisakesō na no
+        - Hoshizora de sakebu yo
+    - lines:
+        - Even if I become stardust
+        - I'll live for you in the future
+        - Michibite ku hoshikage
+        - I'll be with you in the future
+        - You find me!
+        - Matataite ku hoshizora
+        - Don't cry, have courage
+        - Let's fly away now
+    - lines:
+        - Nagareru hoshi no yō ni
+        - Negai kanaeru yo
+    - lines:
+        - Ai ni ikukara
+        - Meguri meguru sutōrī
+        - Uchū tobikoe utau yo
+        - Nan oku kōnen sugite mo sagasu yo
+        - Kagayaku hoshi o
+    - lines:
+        - Tsutae ni ikō, hoshi o atsumete
+        - Kirakira hikaru ano sora no mukō
+        - Aishiteru yo, nē
+---

@@ -1,0 +1,63 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Ich will
+        - Ich will
+        - Ich will
+        - Ich will
+        - Ich will
+        - Ich will
+        - Ich will
+    - lines:
+        - (Ich will) Ich will, dass ihr mir vertraut
+        - (Ich will) Ich will, dass ihr mir glaubt
+        - (Ich will) Ich will eure Blicke spüren
+        - (Ich will) jeden Herzschlag kontrollieren
+        - (Ich will) Ich will eure Stimmen hören
+        - (Ich will) Ich will die Ruhe stören
+        - (Ich will) Ich will, dass ihr mich gut seht
+        - (Ich will) Ich will, dass ihr mich versteht
+    - lines:
+        - (Ich will) Ich will eure Fantasie
+        - (Ich will) Ich will eure Energie
+        - (Ich will) Ich will eure Hände sehen
+        - (Ich will) in Beifall untergehen
+    - lines:
+        - Seht ihr mich?
+        - Versteht ihr mich?
+        - Fühlt ihr mich?
+        - Hört ihr mich?
+    - lines:
+        - Könnt ihr mich hören? (Wir hören dich)
+        - Könnt ihr mich sehen? (Wir sehen dich)
+        - Könnt ihr mich fühlen? (Wir fühlen dich)
+        - Ich versteh' euch nicht
+        - Könnt ihr mich hören? (Wir hören dich)
+        - Könnt ihr mich sehen? (Wir sehen dich)
+        - Könnt ihr mich fühlen? (Wir fühlen dich)
+        - Ich versteh' euch nicht
+    - lines:
+        - Ich will
+        - Ich will
+        - Ich will
+        - Ich will
+    - lines:
+        - Wir wollen, dass ihr uns vertraut
+        - Wir wollen, dass ihr uns alles glaubt
+        - Wir wollen eure Hände sehen
+        - Wir wollen in Beifall untergehen, ja
+    - lines:
+        - Könnt ihr mich hören? (Wir hören dich)
+        - Könnt ihr mich sehen? (Wir sehen dich)
+        - Könnt ihr mich fühlen? (Wir fühlen dich)
+        - Ich versteh' euch nicht
+        - Könnt ihr uns hören? (Wir hören euch)
+        - Könnt ihr uns sehen? (Wir sehen euch)
+        - Könnt ihr uns fühlen? (Wir fühlen euch)
+        - Wir versteh'n euch nicht
+    - lines:
+        - Ich will
+        - Ich will
+---

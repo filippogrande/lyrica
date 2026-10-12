@@ -1,0 +1,68 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - A small human dies just for appearances
+        - Wanted to be alone
+        - The small heart stands still for hours
+        - People thought it was dead
+        - It gets buried in wet sand
+        - With a music box in his hand
+    - lines:
+        - The first snow covers the grave
+        - Has gently awaken the child
+        - In a cold winter night
+        - The small heart awoke
+        - As the frost flew into the child
+        - It raised the music box
+        - A melody in the wind
+        - From the earth the child sings
+    - lines:
+        - Hop, hop, rider
+        - And no angel descends
+        - My heart doesn't beat anymore
+        - Only rain cries upon the grave
+        - Hop, hop, rider
+        - A melody in the wind
+        - My heart doesn't beat anymore
+        - And from the earth the child sings
+    - lines:
+        - The cold moon in full splendor
+        - Hears the cries in the night
+        - And no angel descends
+        - Only rain cries upon the grave
+        - Between hard oak planks
+        - The music box gets played
+        - A melody in the wind
+        - And from the earth the child sings
+    - lines:
+        - Hop, hop, rider
+        - And no angel descends
+        - My heart doesn't beat anymore
+        - Only rain cries upon the grave
+        - Hop, hop, rider
+        - A melody in the wind
+        - My heart doesn't beat anymore
+        - And from the earth the child sings
+        - Hop, hop, rider
+        - My heart doesn't beat anymore
+    - lines:
+        - On Sunday of the dead they hear
+        - From God's field this melody
+        - That's where they lifted it from its bed
+        - Saved the child's small heart
+    - lines:
+        - Hop, hop, rider
+        - A melody in the wind
+        - My heart doesn't beat anymore
+        - And from the earth the child sings
+        - Hop, hop, rider
+        - And no angel descends
+        - And my heart doesn't beat anymore
+        - Only rain cries upon the grave
+        - Hop, hop, rider
+        - A melody in the wind
+        - My heart doesn't beat anymore
+        - And from the earth the child sings
+---

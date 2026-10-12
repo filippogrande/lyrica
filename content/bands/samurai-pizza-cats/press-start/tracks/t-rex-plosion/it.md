@@ -1,0 +1,89 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - E sono così dispiaciuto
+        - Che finirà in modo fatale per te
+        - Come tutti sappiamo
+        - E sono così dispiaciuto
+        - Che finirà in modo fatale per te
+        - Come tutti sappiamo
+    - lines:
+        - Dalle profondità della preistoria
+        - Quaranta piedi di furia
+        - L'unico
+        - L'unica bestia leggendaria
+    - lines:
+        - Sono il possente re, provami e porterò
+        - Violenza a tutto, zittando qualsiasi cosa
+        - Sono il possente re, tiranno, e vincerò
+        - Vieni nel ring, vieni nel ring adesso
+        - Stringi la mano alle mie manine
+        - Sono pura dominanza
+        - Miglior amico di Earl Sinclair
+        - Salute a me ovunque
+    - lines:
+        - T.R.E.X.
+        - Vieni nel ring, sono il re
+        - T.R.E.X.
+        - Vieni nel ring adesso
+    - lines:
+        - E sono così dispiaciuto
+        - Che finirà in modo fatale per te
+        - Come tutti sappiamo
+        - E sono così dispiaciuto
+        - Che finirà in modo fatale per te
+        - Come tutti sappiamo
+    - lines:
+        - Nucleo dino da carnivoro
+        - Fottiti il tuo collo lungo, Brontosauro
+        - Sono una bestia
+        - Chi?
+        - Sei morto
+        - Cosa?
+        - Vieni nel ring, vieni nel ring adesso
+        - Stringi la mano alle mie manine
+        - Sono pura dominanza
+        - Miglior amico di Earl Sinclair
+        - Salute a me ovunque
+    - lines:
+        - Sono il re, faccio le mie cose
+        - Regno supremo, vivendo il sogno
+        - Sono il re, faccio le mie cose
+        - Regno supremo, vivendo il sogno
+        - Vivendo come un fottutone
+    - lines:
+        - T.R.E.X.
+        - Vieni nel ring, sono il re
+        - T.R.E.X.
+        - Vieni nel ring adesso
+    - lines:
+        - E sono così dispiaciuto
+        - Che finirà in modo fatale per te
+        - Come tutti sappiamo
+        - E sono così dispiaciuto
+        - Che finirà in modo fatale per te
+        - Come tutti sappiamo
+    - lines:
+        - T-Rex-Plosion
+        - Non ne uscirai mai
+        - T-Rex-Plosion
+        - Sentiranno udirti gridare
+        - In un mondo di giganti, io sono la bestia
+        - T.R.E.X.
+        - T.R.E.X.
+    - lines:
+        - Oh, è il possente re
+        - Che porta violenza a tutto
+        - T.R.E.X., T.R.E.X.
+        - T.R.E.X., T.R.E.X.
+    - lines:
+        - E sono così dispiaciuto
+        - Che finirà in modo fatale per te
+        - Come tutti sappiamo
+        - E sono così dispiaciuto
+        - Che finirà in modo fatale per te
+        - Come tutti sappiamo
+---

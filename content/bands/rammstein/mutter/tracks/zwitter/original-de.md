@@ -1,0 +1,73 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - (Zwitter, Zwitter)
+        - (Zwitter, Zwitter)
+        - (Zwitter, Zwitter)
+        - (Zwitter, Zwitter)
+    - lines:
+        - Ich hab ihr einen Kuss gestohlen
+        - Sie wollte sich ihn wiederholen
+        - Ich hab sie nicht mehr losgelassen
+        - Verschmolzen so zu einer Masse
+        - So ist es mir nur allzu recht
+        - Ich bin ein schönes Zweigeschlecht
+        - Zwei Seelen unter meiner Brust
+        - Zwei Geschlechter, eine Lust
+    - lines:
+        - (Zwitter, Zwitter) Zwitter, Zwitter
+        - (Zwitter, Zwitter)
+        - (Zwitter, Zwitter) Zwitter, Zwitter
+        - (Zwitter, Zwitter)
+    - lines:
+        - Ich gehe anders durch den Tag
+        - Ich bin der schönste Mensch von allen
+        - Ich sehe wunderbare Dinge
+        - Die sind mir vorher gar nicht aufgefallen
+        - Ich kann mich jeden Tag beglücken
+        - Ich kann mir selber Rosen schicken
+        - Da ist kein zweiter und kein dritter
+        - Eins und eins, das ist gleich
+    - lines:
+        - (Zwitter, Zwitter) Zwitter, Zwitter
+        - (Zwitter, Zwitter) Ich bin so verliebt
+        - (Zwitter, Zwitter) Zwitter, Zwitter
+        - (Zwitter, Zwitter) Ich bin in mich verliebt
+    - lines:
+        - Eins für mich
+        - Eins für dich
+        - Gibt es nicht
+        - Für mich
+        - Eins für mich (One!)
+        - Eins für dich
+        - Eins und eins (One!)
+        - Das bin ich
+    - lines:
+        - Ich bin alleine doch nicht allein
+        - Ich kann mit mir zusammen sein
+        - Ich küsse früh mein Spiegelbild
+        - Und schlafe abends mit mir ein
+        - Wenn die anderen Mädchen suchten
+        - Könnt ich mich schon selbst befruchten
+        - So bin ich dann auch nicht verzagt
+        - Wenn einer zu mir "Fick dich" sagt
+    - lines:
+        - (Zwitter, Zwitter) Zwitter, Zwitter
+        - (Zwitter, Zwitter) Ich bin so verliebt
+        - (Zwitter, Zwitter) Zwitter, Zwitter
+        - (Zwitter, Zwitter) Ich bin in mich verliebt
+    - lines:
+        - Eins für mich
+        - Eins für dich
+        - Gibt es nicht
+        - Für mich
+        - Eins für mich (One!)
+        - Eins für dich
+        - Eins und eins (One!)
+        - Das bin ich
+    - lines:
+        - One!
+        - One!
+---

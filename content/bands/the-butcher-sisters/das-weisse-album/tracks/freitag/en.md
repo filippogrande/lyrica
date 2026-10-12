@@ -1,0 +1,61 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - When is it Friday again?
+        - The day after which I'm off
+        - When is it Friday again?
+        - The day after which I'm off, woah
+    - lines:
+        - I get up
+        - Beep-beep goes the alarm, I gotta get out
+        - Quarter past five, my life goes ouch
+        - Honk-honk goes the horn because of the traffic jam
+        - I freak out
+    - lines:
+        - When is it Friday again?
+        - The day after which I'm off (Heh)
+        - When is it Friday again?
+        - The day after which I'm off, woah (Friday!)
+    - lines:
+        - Weekend
+        - Uh, baby, baby, weekend
+        - Wee-wee-wee-wee-wee-weekend
+        - The goddamn week is over
+        - Boom, b-boom, boom, boom
+        - I'm going dumb today, d-dumb, dumb, dumb
+        - Boom, b-boom, boom, boom
+        - I'm going dumb today
+    - lines:
+        - In the office
+        - Zero point zero, zero motivation
+        - Eight o'clock, I hide in the toilet
+        - Why, why, why
+        - Didn't I become a rapper like Clueso or Cro?
+        - I almost quit
+        - It was close again, it was close again
+        - I almost quit
+        - Next week it'll work out
+    - lines:
+        - When is it Friday again? (When?)
+        - The day after which I'm off (The day after which I'm off)
+        - When is it Friday again? (Tell me, when?)
+        - The day after which I'm off, woah (Hey, hey)
+    - lines:
+        - (Wo-, Wo-, Wo-Wo-Wo-Wo-Wo-Wo-)
+        - Weekend
+        - Uh, baby, baby, weekend
+        - Wee-wee-wee-wee-wee-weekend
+        - The goddamn week is over
+    - lines:
+        - La, la, la, la-la (Weekend)
+        - Uh, la-la-la-la, la, la, la, la-la (Weekend)
+        - Uh, la-la-la-la, la, la, la, la-la (Weekend)
+        - The goddamn week is over
+    - lines:
+        - Shitty job
+        - Shitty job
+        - I wanna get out of here again
+        - I hate my boss
+---

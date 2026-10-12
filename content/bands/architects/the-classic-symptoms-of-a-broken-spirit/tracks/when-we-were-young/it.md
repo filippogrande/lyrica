@@ -1,0 +1,48 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Uno, due, tre, quattro
+    - lines:
+        - Siamo separati da un margine di grado superiore
+        - La stessa carne e sangue ma in una corsia diversa
+        - Ho letto anche la cura ma le mie parole suonavano ancora uguali
+    - lines:
+        - Quando eravamo giovani
+        - Pensavamo di aver capito tutto il mondo
+        - Ora non facciamo altro che parlare in lingue
+        - Giochiamo una partita persa
+        - Solo ora sentiamo le grida che si spengono
+        - Abbiamo volato verso il sole
+        - Abbiamo volato verso il sole
+    - lines:
+        - Sono devoto all'ombra che mi ha seguito
+        - Mi ha beccato mentre contavo le carte
+        - Immagino che le regole restino
+        - Oh, era celestiale allora
+        - Ma i diavoli chiamavano il mio nome
+    - lines:
+        - Quando eravamo giovani
+        - Pensavamo di aver capito tutto il mondo
+        - Ora non facciamo altro che parlare in lingue
+        - Giochiamo una partita persa
+        - Solo ora sentiamo le grida che si spengono
+        - Abbiamo volato verso il sole
+    - lines:
+        - C'è qualcosa nel tuo occhio?
+        - Sei caduto o eri solo sballato?
+        - Tutti sono così spaventati da poter morire
+        - Ma non hanno mai detto una volta
+        - '"Grazie a Dio che siamo vivi"'
+    - lines:
+        - Quando eravamo giovani
+        - Pensavamo di aver capito tutto il mondo
+        - Abbiamo volato verso il sole
+        - Pensavamo di aver capito tutto il mondo
+        - Ora non facciamo altro che parlare in lingue
+        - Giochiamo una partita persa
+        - Solo ora sentiamo le grida che si spengono
+        - Abbiamo volato verso il sole
+---

@@ -1,0 +1,69 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Fanny pack
+        - F-F-Fanny pack
+        - I've got the fanny pack
+        - Fanny pack
+    - lines:
+        - Boom-chiki-wau, open up the fanny pack
+        - Say what you want, I've got everything you need
+        - Simsalabim, I conjure it out
+        - Ding-a-ling, it's a zipper sale (TBS)
+        - 'You look at my tummy, say: "I want that too-mi"'
+        - Take your fingers off, or your arm gets ouch-i
+        - The bag stays on, even when I undress
+        - Even during love-making the hose hangs under the
+    - lines:
+        - Fanny pack
+        - Eyes go wide when we open it
+        - Hahahahaha, how I laugh at you
+        - With your backpack in the club, yeah, I can feel how you look
+        - Ey
+    - lines:
+        - On my fanny pack, lala-lala-la
+        - On my fanny pack, lala-lala-lala-la
+        - Oh baby, baby
+        - Your zipper makes me crazy
+        - Oh baby, baby, baby
+        - So crazy, crazy, yeah
+    - lines:
+        - Zipp, zipp, zipp goes the zipper of the bag
+        - Even a whole beer goes in
+        - can, doesn't fit in the trousers
+        - I drink the beer sauce from the can, the big one
+        - I open it, close it, open it, close it
+        - Open, close, open, close, open, close, open, close, open, close
+        - Zipper open, zipper closed
+        - I've got the bag on my belly, kangaroo (Like the animal)
+        - Zipper closed, zipper open
+        - And I pull everything out, yeah, I pull everything out
+    - lines:
+        - Fanny pack
+        - Eyes go wide when we open it
+        - Hahahahaha, how I laugh at you
+        - With your backpack in the club, yeah, I can feel how you look
+        - Ey
+    - lines:
+        - On my fanny pack, lala-lala-la
+        - My fanny pack, lala-lala-lala-la
+        - Oh baby, baby
+        - Your zipper makes me crazy
+        - Oh baby, baby, baby
+        - So crazy, crazy, yeah
+    - lines:
+        - I hold my fanny pack into the sky
+        - And a tear of joy comes out my eye
+        - If I ever lose you, my life is over
+        - Fanny pack, you are the love of my life, uwu
+        - (I love you, I love you, I love you)
+    - lines:
+        - My fanny pack, lala-lala-la
+        - My fanny pack, lala-lala-lala-la
+        - Oh baby, baby, baby
+        - Your zipper makes me crazy (Crazy)
+        - Oh baby, baby, baby
+        - So crazy, crazy, yeah
+---

@@ -1,0 +1,34 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Run!
+    - lines:
+        - Because the master sent us
+        - We announce the downfall
+        - The rider of malice
+        - Feeds his ulcer of envy
+    - lines:
+        - The truth is like a storm
+        - It comes to you, you can hear it
+        - To announce it, is so very bitter
+        - It comes to you, to destroy you
+    - lines:
+        - Because the night was dying
+        - We announce judgement day
+        - It gives no mercy
+        - Run, run for your lives
+    - lines:
+        - The truth is a choir in the wind
+        - No angel comes to avenge you
+        - These days are your last
+        - It will break you like a twig
+    - lines:
+        - It comes to you as corruption
+    - lines:
+        - The truth is a choir in the wind
+        - No angel comes to avenge you
+        - These days are your last
+        - It will break you like a twig
+---

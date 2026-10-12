@@ -1,0 +1,65 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - (Ciao, ciao)
+    - lines:
+        - Dal fagiolo e nella luce
+        - Un essere mi spinge a camminare
+        - Per la stessa cosa e il vecchio dolore
+        - Cattura le mie lacrime con le risate
+    - lines:
+        - E sul tappeto marcisce un giovane corpo
+        - Dove il destino dirige le sue marionette
+        - Per la stessa cosa e il vecchio dolore
+        - So finalmente che qui non si regala nulla
+    - lines:
+        - Dal fagiolo e nel nulla
+        - Ognuno sa cosa resta alla fine
+        - La stessa cosa e il vecchio dolore
+        - Mi spinge lentamente alla follia
+    - lines:
+        - E sul tappeto infuria la stessa guerra
+        - Mi brucia ancora il cuore
+        - La stessa cosa e il vecchio dolore
+        - Ora lo so finalmente
+    - lines:
+        - Voglio scopare
+    - lines:
+        - Mai più (Scopare, scopare, scopare)
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+    - lines:
+        - Dal fagiolo e nella luce
+        - Un essere mi spinge a camminare
+        - Per la stessa cosa e il vecchio dolore
+        - Cattura le mie lacrime con le risate
+    - lines:
+        - E sul tappeto marcisce un giovane corpo
+        - Dove il destino dirige le sue marionette
+        - Per la stessa cosa e il vecchio dolore
+        - Ora lo so finalmente
+    - lines:
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+        - Mai più
+        - Mai più il vecchio dolore
+---

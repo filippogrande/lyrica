@@ -1,0 +1,47 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - He loves the mother and from the side
+        - The fish gives itself to her
+        - He loses his skin before he empties his balls
+        - The old skin falls unto the floor
+    - lines:
+        - He loves the sister and from behind
+        - The fish eats towards the mouth
+        - The gills still bloody from sucking
+        - On the big red eyes
+    - lines:
+        - Breeding season
+        - Breeding season
+        - Breeding season
+        - Breeding season
+        - Breeding season
+        - Breeding season
+        - Breeding season
+        - It's breeding season
+    - lines:
+        - He loves the dog, oh God, from above
+        - The fish now kisses with the tongue
+        - Spits dead milk into your face
+        - You don't dare to touch him
+    - lines:
+        - Breeding season
+        - Breeding season
+        - Breeding season
+        - Breeding season
+        - Breeding season
+        - Fish milk everywhere
+        - Breeding season
+        - It's breading season
+    - lines:
+        - The mother has been taken by the ocean
+        - Breeding season, breeding season
+        - The sisters don't have time
+        - Breeding season, breeding season
+        - The dog stands waving on the shore
+        - Breeding season, breeding season
+        - The fish needs its loneliness
+        - Breeding season
+---

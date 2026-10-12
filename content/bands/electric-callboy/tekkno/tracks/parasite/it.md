@@ -1,0 +1,84 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sento che sta prendendo il controllo di tutti i miei sensi
+        - Divento più lento
+        - E ogni parte della tua mente morta sono io
+        - Ma sarai tu l'unico troppo cieco per vedere
+    - lines:
+        - Non riesco a reggerlo
+        - Hai iniziato a risucchiarmi dentro
+        - Non riesco a reggerlo
+        - Vuoi seppellirmi, seppellirmi
+        - Ti strapperei via come un cerotto su un ginocchio
+        - Ma tu ti aggrappa, sei una parte di me
+    - lines:
+        - Abbiamo lottato per tutta la strada
+        - E non è andata male
+        - Ma ho perso il controllo quando sei entrato nella mia testa
+        - Tu e io per sempre
+        - Sei come un parassita
+        - Ma mi tieni in vita
+        - E sento che dici
+        - Stiamo bene
+        - So che stai mentendo ma la verità è ciò che temo
+        - Tu e io per sempre
+        - Sei come un parassita
+        - Ho davvero bisogno che tu resti
+    - lines:
+        - Non puoi sopportarlo
+        - Sto strisciando sotto la tua pelle
+        - Non puoi sopportarlo
+        - Devi portarmi con te, portarmi con te
+        - Ti renderò mio
+        - Puoi scappare ma non puoi nasconderti
+        - E ti spingerò in fondo
+        - Farai meglio a cedere
+    - lines:
+        - Abbiamo lottato per tutta la strada
+        - E non è andata male
+        - Ma ho perso il controllo quando sei entrato nella mia testa
+        - Tu e io per sempre
+        - Sei come un parassita
+        - Ma mi tieni in vita
+        - E sento che dici
+        - Stiamo bene
+        - So che stai mentendo ma la verità è ciò che temo
+        - Tu e io per sempre
+        - Sei come un parassita
+        - Ho davvero bisogno che tu resti
+    - lines:
+        - Sento che sta prendendo il controllo di tutti i miei sensi
+        - Divento più lento
+        - Ti vedo lottare ma sto facendoti sapere
+        - Non mi nascondo nel buio,
+        - sono già qui con te
+    - lines:
+        - E non dirò mai addio
+        - Perché mi nutro della tua
+        - tristezza, dei tuoi incubi, della tua sporca anime piccola
+        - Il tuo dolore è il mio piacere
+        - Mi senti ovunque tu vada
+    - lines:
+        - Non c'è modo di nascondersi
+        - Ti troverò
+        - E ogni volta che pensi che non sono con te
+        - Ti spingerò in profondità
+        - Sei morto ma vivo
+    - lines:
+        - Abbiamo lottato per tutta la strada
+        - E non è andata male
+        - Ma ho perso il controllo quando sei entrato nella mia testa
+        - Tu e io per sempre
+        - Sei come un parassita
+        - Ma mi tieni in vita
+        - E sento che dici
+        - Stiamo bene
+        - So che stai mentendo ma la verità è ciò che temo
+        - Tu e io per sempre
+        - Sei come un parassita
+        - Ho davvero bisogno che tu resti
+---

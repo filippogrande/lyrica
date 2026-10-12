@@ -1,0 +1,57 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - (One, two, three, four)
+        - Mh, ah (Yeah)
+        - Yeehaw
+        - Listen up
+    - lines:
+        - When I was still a little boy
+        - I sat with Daddy by the campfire
+        - That's right, he was hard but fair
+        - Yeah, he was strong like a bear
+        - And when he spoke, truth was in the air
+        - 'He said: "Hey champ, when everything''s against you'
+        - And really nothing works anymore
+        - Take your courage together and say"
+    - lines:
+        - Say, climbing frame
+        - You kissed a naked woman (Ey)
+        - Come on, say climbing frame
+        - You kissed a naked woman-ow-ow (Yeah)
+    - lines:
+        - Today I'm grown up, I work hard for my bread
+        - Only my goddamn boss, he's an idiot
+        - He says I'm fired, just because I drink at work
+        - I open myself another beer and I shout, and I shou-uh-out
+    - lines:
+        - Say, climbing frame
+        - You kissed a naked woman (Ey)
+        - Come on, say climbing frame
+        - You kissed a naked woman-ow-ow (Yeah)
+    - lines:
+        - Oh, say, tomato (Tomato)
+        - Your grandma can do karate
+        - Lime (Lime)
+        - You're stuck in the toilet
+        - Say, dino (Dino)
+        - You're sitting naked in the cinema
+        - Say, cushion
+        - You shat your pants, ey
+    - lines:
+        - Climbing frame
+        - You kissed a naked woman (On the mouth, hahaha)
+        - Come on, say climbing frame (Yeah, say it again)
+        - You kissed a naked woman-ow-ow (You did, you did, yeah, you did it)
+    - lines:
+        - Yeehaw
+        - You kissed her (Yeah)
+        - You kissed her (Kiss her again)
+        - You kissed her
+        - She was very naked
+        - And you were naked too
+        - You're a naked woman-kisser, hehehe
+        - Damn, my son, you old naked-kisser, hehehe
+---

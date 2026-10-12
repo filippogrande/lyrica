@@ -1,0 +1,47 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - I only saw you yesterday standing in the car park (Hi)
+        - I've never seen anything so beautiful (Wow)
+        - Your suspension is hot, lowered
+        - Hardly any wear underneath, full service history
+        - I open your hood for you
+        - All the cash gone when I buy you
+        - You are everything, everything I need
+    - lines:
+        - You are my star, Mercedes AMG
+        - You are my star, that I do my laps with
+        - (I love you)
+    - lines:
+        - City lights on your gleaming hood (hood) (Yeah)
+        - When I drive you, I never want to go home again
+        - Account empty because of Super Plus
+        - '''Cause I constantly have to fill up'
+        - I've got no money, I've got no job, but Mercedes (-cedes)
+        - I still live at my parents' house (parents' house)
+        - Throwing all my money at the leasing (leasing)
+        - I've got no house, I've got no boat, I've got Mercedes
+    - lines:
+        - You are my star, Mercedes AMG
+        - You are my star, that I do my laps with (Oh)
+        - Lamborghini, Maserati or BMW (BMW)
+        - All I want is my AMG
+        - My star, my sports coupé
+        - (I only want you, I love you)
+    - lines:
+        - Clutch broken, a thousand euros
+        - Hole in the exhaust, a thousand euros
+        - New tyres, brakes, oil and rust at the rear
+        - My money's gone
+    - lines:
+        - You are my star, Mercedes AMG
+        - You are my star, that I do my laps with
+    - lines:
+        - You are my star, Mercedes AMG
+        - You are my star (My star), that I do my laps with
+        - Lamborghini, Maserati or BMW (Oh)
+        - All I want is my AMG
+        - My star, my sports coupé (Oh yeah, uh)
+---

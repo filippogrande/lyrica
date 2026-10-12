@@ -1,0 +1,41 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - When I look into your eyes
+        - I wanna give you all tonight
+        - Girl, I love you more with every single bite
+        - Always yours even if I bleed
+        - Cause you're all that I ever need
+        - I want you to swallow every piece of me
+    - lines:
+        - I'm not afraid when nothing is left of me
+        - Cause it's you that I am ending up inside
+    - lines:
+        - I love you just the way you are
+        - When you carve your name inside my beating heart
+        - I want you just the way you are
+        - When you pull me into pieces I just love the way you are
+    - lines:
+        - You're tearing up my heart take a bath in my blood
+        - I wanna feel your face in my fucking guts
+        - You break my every bone
+        - Take a seat on your bloody throne
+        - Eat me till nothing's left
+        - I call it love, you call it death
+    - lines:
+        - You and me as one
+        - You and me as one
+        - You and me as one
+        - Eat me, love me
+        - You're my immortal shell
+        - You and me as one
+        - Eat me, love me
+        - I want you to fuck me up
+    - lines:
+        - Just the way you are
+        - When you carve your name inside my beating heart
+        - I want you just the way you are
+        - When you pull me into pieces, I just love the way you are
+---

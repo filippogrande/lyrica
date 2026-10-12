@@ -1,0 +1,89 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+    - lines:
+        - Fuoco piccante, forse il miso
+        - Fuoco piccante ogni notte
+        - Terrore, i cattivi tremano
+        - Ramen-Man è sempre vicino
+    - lines:
+        - Chi diavolo è Spider-Man?
+        - Sta sparando spaghetti dalle mani
+        - Guarda il suo insegna in alto nel cielo
+        - Ramen Man non morirà
+    - lines:
+        - Muori, muori
+        - Muori, muori
+        - Muori, muori
+    - lines:
+        - Apri gli occhi grandi e spalancati
+        - Ramen-Man firma in tutto il cielo
+        - Sugoi life, saliamo su un veicolo
+        - Kawaii nights, scontriamoci
+    - lines:
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+        - R-A-M-E-N-Man
+    - lines:
+        - Ramen-Man, Ramen-Man
+        - Sale in alto come nessuno
+        - Ramen-Man, Ramen-Man
+        - Ha sempre un piano
+        - Le sirene suonano perché è tornato in città
+        - Tornato in città, quindi attenzione alla tua ciotola, oh
+    - lines:
+        - Ramen-Man, Ramen-Man
+        - Koyoi mo sorakara No.1
+        - Ramen-Man, Ramen-Man
+        - Churutto sukuuzo Only one
+        - Kanzenchouaku mashi mashi
+        - Justice Chou oomori toku
+    - lines:
+        - Muori, muori
+        - Muori, muori
+        - Muori, muori
+    - lines:
+        - Apri gli occhi grandi e spalancati
+        - Ramen-Man firma in tutto il cielo
+        - Sugoi life, saliamo su un veicolo
+        - Kawaii nights, scontriamoci
+    - lines:
+        - Avanzando come vapore di brodo di pollo appena bollito
+        - È il Ramen-Man
+        - Inarrestabile, inabbattibile, totalmente indomabile
+        - È il Ramen-Man
+    - lines:
+        - Salverò le vostre anime e le vostre ciotole
+        - Ramen-Man, Ramen-Man
+    - lines:
+        - La prossima volta Ramen-Man affronta la sua sfida più grande
+        - Sotto forma del malvagio pizza-kaijin
+        - Ora deve partire da Tokyo
+        - E fare il viaggio insidioso fino a Castrop-Rauxel, Germania
+    - lines:
+        - Muori, muori
+        - Muori, muori
+        - Muori, muori
+        - Muori, muori
+        - Muori, muori
+    - lines:
+        - Apri gli occhi grandi e spalancati
+        - Ramen-Man firma in tutto il cielo
+        - Sugoi life, saliamo su un veicolo
+    - lines:
+        - Apri gli occhi grandi e spalancati
+        - Ramen-Man firma in tutto il cielo
+        - Sugoi life, saliamo su un veicolo
+        - Kawaii nights, scontriamoci
+    - lines:
+        - Scontriamoci
+        - Scontriamoci
+---

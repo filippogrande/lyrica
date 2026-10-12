@@ -1,0 +1,72 @@
+---
+lang: en
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - One beer
+        - One beer
+        - Pour it from the tap
+        - Pour it in the glass
+        - One beer
+        - One beer
+        - One beer is good, but ten taste better
+    - lines:
+        - One beer
+        - La, la, la, la, la
+        - Pour it in the glass
+    - lines:
+        - Linen shirt like a Finka owner
+        - Crooked look like a Fiat Multipla
+        - It's hot, it's hot inside my house
+        - Let it cool, let it cool run into my belly
+        - Ah
+    - lines:
+        - On the road I need beer in the world
+        - Run through the streets like a stray dog
+        - I'm thirsty and it never disappeared
+        - When I found the bar
+        - I spend a round
+    - lines:
+        - One beer
+        - One beer
+        - Pour it from the tap
+        - Pour it in the glass
+        - One beer
+        - One beer
+        - One beer is good, but ten taste better
+    - lines:
+        - One beer
+        - La, la, la, la, la
+        - Pour it in the glass
+    - lines:
+        - You are ice cold
+        - I am hot
+        - I am a weightlifter
+        - Robert Geiss
+    - lines:
+        - You so beautifully pricked my belly button
+        - I'll melt, want you deep in my belly
+        - Easily drunk and no appointments
+        - I am the high-speed eight-arm smash machine
+        - I stroll freshly breaded along the seaside promenade
+        - I know what I want and I call your name
+    - lines:
+        - One beer
+        - One beer
+        - Pour it from the tap
+        - Pour it in the glass
+        - One beer
+        - One beer
+        - Ten beers are good, but
+        - A goddamn billion beers taste better
+    - lines:
+        - One beer
+        - La, la, la, la, la
+        - Pour it in the glass
+    - lines:
+        - One beer
+        - One beer
+        - La, la, la, la, la
+        - You in the glass
+---

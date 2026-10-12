@@ -1,0 +1,58 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ho fatto abbastanza
+        - Per capire che nessuno può togliermi questa sensazione
+        - Alzo lo sguardo, ora è chiaro
+        - Ho sofferto, ma mi ha dato un senso
+        - Mi hai fatto bruciare sul rogo
+        - Ma sono vivo, sono sveglio
+        - Vivere senza di te
+        - Ho preso il fuoco fino alla miccia
+    - lines:
+        - Perché ti ho dato un pezzo di me
+        - Ti ho trovato sulla scena del delitto
+        - Hai messo di nuovo in discussione la mia integrità, ancora, ancora, ancora
+        - Ma io sono salito sopra la gravità
+        - Il cielo, la terra e tutto ciò che sta in mezzo
+        - Hai scritto di nuovo il mio epitaffio, ancora, ancora, ancora
+    - lines:
+        - Ho la testa fottutamente tormentata
+        - Vengono a prendere la mia anima
+        - Ti sei preso tutto quello che volevi
+        - Ma hai considerato il costo?
+        - Assolutamente no
+        - Una coscienza colpevole?
+        - Dubito che tu ne avessi mai avuta una
+        - Ti vedo Dracula, che ti bruci via nel sole freddo
+        - Forse sei troppo ignaro, animale violento
+        - Vivo ma morto per il mondo
+    - lines:
+        - Perché ti ho dato un pezzo di me
+        - Ti ho trovato sulla scena del delitto
+        - Hai messo di nuovo in discussione la mia integrità, ancora, ancora, ancora
+        - Ma io sono salito sopra la gravità
+        - Il cielo, la terra e tutto ciò che sta in mezzo
+        - Hai scritto di nuovo il mio epitaffio
+        - Hai scritto di nuovo il mio epitaffio, ancora, ancora, ancora
+    - lines:
+        - Dolce Gesù, non lasciarci
+        - Non spezzarci in mille pezzi
+    - lines:
+        - Starai davanti al mio trono
+        - È tutto quello che sai fare
+        - Non piangere, non per me
+        - Libero, niente fuori verbale
+        - Risparmiami il terzo grado
+        - Spezzerò ogni pietra che mi lanci
+    - lines:
+        - Riuscirai mai a sentire la fine di me?
+        - Ti ho inzuppato di benzina
+        - Non avrò mai più bisogno di un nemico, ancora, ancora, ancora, ancora
+    - lines:
+        - Dolce Gesù, non lasciarci
+        - Non spezzarci in mille pezzi
+---

@@ -1,0 +1,52 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Tre parti Prosecco, due parti Aperol
+        - Una parte Acqua Minerale, questo non è alcol
+        - Aperol
+        - Oh yeah
+    - lines:
+        - 'La gente chiede: ''Quanto è sano l''Aperol?'''
+        - 'E io dico: ''Dopo un bicchiere mi sento bene'''
+        - Colorazione arancio-rossa, come in pubblicità
+        - Bevo per la digestione, bevo per rinforzarmi
+        - Colore arancio-rossa, un dono sacro
+        - Sempre tre, due, uno nel mio bicchiere, lo voglio avere
+        - Questo succo è un miracolo, agrodolce, giù in gola
+        - È il mio anabolizzante, perché sono un aperolico
+    - lines:
+        - Tre parti Prosecco, due parti Aperol
+        - Una parte Acqua Minerale, questo non è alcol
+    - lines:
+        - Questo è Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, questo non è alcol
+        - Questo è Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, questo non è alcol
+    - lines:
+        - Un grande bicchiere da vino col piede, cubetti di ghiaccio
+        - Cannuccia e fetta d'arancia, Aperol Spritz
+        - Il Secco deve sprizzare, ne sono al verde
+        - A questo aperitivo non dico mai no
+    - lines:
+        - Questo non è alcol, questo è Aperol
+        - Questo non è alcol
+    - lines:
+        - Questo è Aperoli, oh yeah (Oh yeah)
+        - Questo è Aperoli (Yeah, oh yeah)
+        - Aperol
+    - lines:
+        - -rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, questo non è alcol
+        - Questo è Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, questo non è alcol
+    - lines:
+        - Questo è Aperoli, oh yeah, questo non è alcol
+        - Questo è Aperoli, oh yeah
+    - lines:
+        - Questo è Aperol, questo non è alcol
+        - Questo è Aperol, questo non è alcol
+        - Aperoli
+---

@@ -1,0 +1,56 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - You look like shit in your Gucci suit
+        - You smell like hell, like the crap on my boots
+        - Oh, I would love to see you slip and fall
+        - Pitiful slip and fall on all banana peels and crawl
+        - I want you to know that all I wish for you
+        - Is to get swallowed whole by the Sharknado
+    - lines:
+        - Oh, what a good day
+        - (Oh, what a good day)
+    - lines:
+        - And the apocalypse is raining, raining down
+        - On this car crash hell highway
+        - But when karma kicks your ass to the ground
+        - It's still a good day, a good day
+        - Oh, what a good day
+    - lines:
+        - Oh, look at yourself with that Starbucks latte
+        - I want to see you get hurt by that hot-ass coffee
+        - No matter what time and where
+    - lines:
+        - Your stain, my gain
+        - It's like champagne in my veins, yeah
+        - I want you to know that all I wish for you
+        - Is to get swallowed whole by the Sharknado
+    - lines:
+        - Oh, what a good day
+        - (Oh, what a good day)
+    - lines:
+        - I hope that your sleeves get wet
+        - When you are washing your hands
+        - I hope your cigarette
+        - Will make you shit your pants
+    - lines:
+        - Your stain, my gain
+        - Like champagne in my veins
+    - lines:
+        - Your stain, my gain
+        - Like champagne in my veins
+    - lines:
+        - And the apocalypse is raining, raining down
+        - On this car crash hell highway
+        - But when karma kicks your ass to the ground
+        - It's still a good day, a good day
+        - Oh, what a good day
+    - lines:
+        - And the apocalypse is raining, raining down
+        - On this car crash hell highway
+        - But when karma kicks your ass to the ground
+        - It's still a good day, a good day
+        - Oh, what a good day
+---

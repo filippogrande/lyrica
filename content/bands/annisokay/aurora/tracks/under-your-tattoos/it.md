@@ -1,0 +1,58 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Avevi intenzione di dirmelo
+        - Delle pastiglie che stai prendendo e perché
+        - Avevi intenzione di dirmelo
+        - Perché ti svegli urlando di notte
+    - lines:
+        - Avevi intenzione di dirmelo
+        - Cosa significano davvero le parole sul tuo polso
+        - Dei tatuaggi che coprono le tue braccia
+        - Con i segreti che giacciono sotto
+    - lines:
+        - Ti ho visto sotto la luna di sangue
+        - Ti ho visto senza la tua maschera
+        - Ti ho visto senza i tuoi tatuaggi
+        - E vedevo solo le tue cicatrici
+    - lines:
+        - Credo ancora in te
+        - Ma non credo nella tua scusa
+        - Perché so cosa hai nascosto
+        - Nascosto sotto i tuoi tatuaggi
+    - lines:
+        - Avevi intenzione di dirmi perché
+        - Continui a spegnere la radio
+        - Ogni volta che suonano la nostra canzone
+        - E poi a fare finta che non vada niente storto
+    - lines:
+        - Avevi intenzione di dirmelo
+        - Del corpo che hai lasciato nel bagagliaio
+        - Quando la verità è che l'animale investito che hai lasciato
+        - Tutto rotto e coperto di sangue
+    - lines:
+        - Ti ho visto sotto la luna di sangue
+        - Ti ho visto senza la tua maschera
+        - Ti ho visto senza i tuoi tatuaggi
+        - E vedevo solo le tue cicatrici
+    - lines:
+        - Credo ancora in te
+        - Ma non credo nella tua scusa
+        - Perché so cosa hai nascosto
+        - Nascosto sotto i tuoi tatuaggi
+    - lines:
+        - Perché
+        - Avevi intenzione di dirmi perché
+        - Perché ti svegli urlando di notte
+        - Dimmi perché
+        - Continui a ripetere cose sottovoce
+        - Come se i morti e i dimenticati potessero sentirti
+    - lines:
+        - Credo ancora in te
+        - Ma non credo nella tua scusa
+        - Perché so cosa hai nascosto
+        - Nascosto sotto i tuoi tatuaggi
+---

@@ -1,0 +1,67 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - You threw me on the fire
+        - You threw me on the fire
+    - lines:
+        - And your generation dines
+        - But the next one pays the bill
+        - And you've thrown them on the fire
+        - To take the edge out of the chill
+    - lines:
+        - And you let the planet die
+        - Oh, the future has been raped
+        - And you've thrown us on the fire
+        - To brighten up the flames
+    - lines:
+        - This is the bonfire of the millennials
+        - This is the bonfire of the millennials
+    - lines:
+        - You always told me that
+        - That I should think about the future
+        - As you threw it on the fire
+        - You always told me that
+        - That I should think about the future
+        - And then you threw it on the fire
+    - lines:
+        - You threw me on the fire
+        - You threw me on the fire
+    - lines:
+        - You baby boomers built
+        - Cities out of greed
+        - To take at gunpoint
+        - More than you need
+        - When money becomes the god
+        - And wealth becomes religion
+        - A human sacrifice
+        - Is one of the conditions
+    - lines:
+        - This is the bonfire of the millennials
+        - This is the bonfire of the millennials
+    - lines:
+        - You always told me that
+        - That I should think about the future
+        - As you threw it on the fire
+        - You always told me that
+        - That I should think about the future
+        - And then you threw it on the fire
+    - lines:
+        - You threw it on the fire
+        - You threw me on the fire
+        - It'll never be enough for you
+        - It'll never be enough for you
+    - lines:
+        - You always told me that
+        - That I should think about the future
+        - As you threw it on the fire
+        - You always told me that
+        - That I should think about the future
+        - And then you threw it on the fire
+    - lines:
+        - You threw me on the fire
+        - You threw me on the fire
+        - You threw me on the fire
+        - You threw me on the fire
+---

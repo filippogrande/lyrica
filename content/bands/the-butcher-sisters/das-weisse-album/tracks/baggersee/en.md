@@ -1,0 +1,83 @@
+---
+lang: en
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Five in the afternoon, thirty-six degrees
+        - In my flip-flops I get on my bike
+        - Feel the wind in my face, twelve km/h
+        - Neck fire-red, back full of hair
+        - Üh
+        - (Yeah)
+    - lines:
+        - Six in the evening, ouch, it's hot (Ouch, ouch)
+        - Luckily I'm smart, I've got a six-pack with me, nice
+        - Ice-cold like ice (Ice)
+        - Beer flows in, sweat flows out
+    - lines:
+        - I go to the quarry lake with my six-pack
+        - And I suck-suck-suck the beer down
+        - If I go into the water, then only with a six-pack
+        - With my six-pack, with my six-pack
+    - lines:
+        - I go to the quarry lake with my six-pack
+        - And I suck-suck-suck the beer down
+        - If I go into the water, then only with a six-pack
+        - With my six-pack, with my six-pack
+    - lines:
+        - Eight in the evening, all the crates are empty (No!)
+        - The sun goes away (Bye), I follow it
+        - To the kiosk, I get myself more
+        - Of that beer, of that beer, and then I drain it
+    - lines:
+        - I go to the stand, inside there's a man
+        - He's suntanned, because he works at the beach
+        - Give me, give me now the six-pack into my hand
+        - I suck it in my mouth and heal my burn
+    - lines:
+        - Warehouse-style beer really hits
+        - Even more than sunstroke
+        - Captain Bluebear now sets sail
+        - At the quarry lake, at the quarry lake
+        - Digger, digger, digger, digger, digger, digger, digger
+        - Digger, digger, digger, digger, digger, digger, digger
+        - Digger, digger, digger, digger, digger, digger
+        - Digger, digger, digger, digger, digger
+    - lines:
+        - I go to the quarry lake with my six-pack
+        - And I suck-suck-suck the beer down
+        - If I go into the water, then only with a six-pack
+        - With my six-pack, with my six-pack
+    - lines:
+        - I go to the quarry lake with my six-pack
+        - And I suck-suck-suck the beer down
+        - If I go into the water, then only with a six-pack
+        - With my six-pack, with my six-pack
+    - lines:
+        - It just can't be that the beer is all gone
+        - Beer all gone, beer all gone
+        - Someone has pissed in the water again
+        - Who pissed? Who pissed?
+    - lines:
+        - Who pissed? (Who was it?)
+        - Which pig pissed in the water?
+        - It wasn't me, it wasn't me
+        - So which pig has pissed in the water here again?
+        - Okay, it actually was me! Ehehe
+    - lines:
+        - And I suck-suck-suck the beer down
+        - If I go into the water, then only with a six-pack
+        - With my six-pack, with my six-pack
+    - lines:
+        - It just can't be that the beer is all gone
+        - Beer all gone, beer all gone
+        - Someone has pissed in the water again
+        - Who pissed? Who pissed?
+    - lines:
+        - Who pissed?
+        - Who pissed?
+        - Who pissed?
+        - Who, who, who pissed?
+        - Who pissed?
+---

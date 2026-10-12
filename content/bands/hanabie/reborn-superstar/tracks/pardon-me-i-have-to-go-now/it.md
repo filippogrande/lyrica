@@ -1,0 +1,69 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Io me ne vado prima, scusate
+        - Ah, capisco
+        - Mi scusi tanto
+        - Io me ne vado prima, scusate
+    - lines:
+        - Gestione di un'agenda sovraccarica
+        - L'unico momento emozionante è la domenica
+        - Voglio divertirmi, voglio spaccare tutto
+        - Ancora non capisco dove sia la trappola
+        - Quando va bene? Mi arriva il DM
+        - Va bene! Dell'impegno non me ne importa
+        - Ah, ultimamente domenica fortunata e felice
+    - lines:
+        - Ci studiamo a vicenda, grazie del tavolo condiviso
+        - Gli occhi si incrociano, da qui comincia la sfida
+        - 【La teoria della relatività? Non ne so niente】
+        - Mi alzo in piedi
+        - Io me ne vado prima, scusate!
+    - lines:
+        - Scusa, scusa, mi dispiace, ora lo so
+        - Scappiamo e basta
+        - Scusa, scusa, mi dispiace, ora lo so
+        - Scappiamo e basta
+        - Mi inchino per bene
+        - Essere adulti è questione di buone maniere
+        - Mi inchino ancora di più
+        - Mi prendi per una bambina? (Per una bambina, per una bambina?)
+    - lines:
+        - Ehi, sei proprio una bambina viziata
+        - Un atteggiamento proprio candy venti, sembra che stia per tirare un pugno
+        - Il brivido è troppo il bello, è la cosa migliore
+        - Sfortuna, chiaro e tondo, istinto omicida, tu là
+    - lines:
+        - Grande liberazione! Più o meno, ambiguo sostituto, grande contro bye-bye
+        - Giorno dopo giorno a ritmo, arrivo prima, cavalco l'onda, un viaggio
+        - Non è un passo avanti?
+        - Ci do una bella ripulita
+        - Con il mondo alle spalle, un rap chiaro e tondo, ce la metto tutta
+        - Faccio di tutto, davvero
+    - lines:
+        - Testa che si inchina, il sorriso è il mio stile
+        - Non riesco proprio a integrarmi, alla festa a bere
+        - 【Visione da studentessa modello, scaliamo la vetta】
+        - Mi alzo in piedi
+        - Io me ne vado prima, scusate
+    - lines:
+        - Scusa, scusa, mi dispiace, ora lo so
+        - Scappiamo e basta
+        - Scusa, scusa, mi dispiace, ora lo so
+        - Scappiamo e basta
+        - Mi inchino per bene
+        - Essere adulti è questione di buone maniere
+        - Mi inchino ancora di più
+        - Mi prendi per una bambina?
+        - Scusa, scusa, mi dispiace, ora lo so
+        - Scappiamo e basta
+        - Scusa, scusa, mi dispiace, ora lo so
+        - Scappiamo e basta
+        - Mi inchino per bene
+        - Essere adulti è questione di buone maniere
+        - Mi inchino ancora di più
+        - Mi prendi per una bambina?
+---

@@ -1,0 +1,57 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Drag me down to the depths, you're my calamity
+        - Your touch is burning agony
+        - I know I can't escape reality
+        - I'm falling into you
+    - lines:
+        - My fears are taking control
+        - As I'm sinking into this black hole
+        - Shrouded in darkness and woe
+        - From the shadows I cannot let go
+    - lines:
+        - Holding on
+        - But you keep pulling me down
+        - I am holdin on
+        - But I can't seem to break the sound
+    - lines:
+        - Drag me down to the depths, you're my calamity
+        - Your touch is burning agony
+        - I know I can't escape reality
+        - I'm falling into you
+        - Drag me down to the depths, you're my disharmony
+        - The chaos and your symphony
+        - I know I cannot escape reality
+        - I'm falling into you
+    - lines:
+        - It's like you turned off the light
+        - It's like you drained all the colors from life
+        - Why am I lonely at night?
+        - You make me feel like the stars losing light
+    - lines:
+        - Holding on
+        - But you keep pulling me down
+        - I am holdin on
+        - But I can't seem to break the sound
+    - lines:
+        - Drag me down to the depths, you're my calamity
+        - Your touch is burning agony
+        - I know I can't escape reality
+        - I'm falling into you
+        - Drag me down to the depths, you're my disharmony
+        - The chaos and your symphony
+        - I know I cannot escape reality
+        - I'm falling into you
+    - lines:
+        - Drag me down to the depths, you're my calamity
+        - I know I can't escape this reality
+        - Drag me down to the depths, you're my disharmony
+        - The screams in my head are your melody
+        - Drag me down to the depths, you're my calamity
+        - Your touch is burning agony
+        - I know I can't escape reality
+        - I'm falling into you
+---

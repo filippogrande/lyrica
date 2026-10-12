@@ -1,0 +1,87 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Such a broken young thing
+        - Wears her pain like a stolen wedding ring
+        - Likes to think she's the poison
+        - On the lips, on the lips of the king
+    - lines:
+        - She wants to be the wreckage, she wants to be damned
+        - She wants to ruin everything and everyone she had
+        - Out there in the desert stands a single tree
+        - And that's where I've been waiting for the girl that she could be
+    - lines:
+        - And out here in the desert
+        - With the last sign of life
+        - And that's where I've been waiting
+        - For the girl that she could be
+    - lines:
+        - She wanna be, wanna be
+        - The tragedy
+        - Wanna be, wanna be
+        - The mess that she's
+        - Always been, always been
+        - The wildfire
+        - Burning through your heart
+    - lines:
+        - Such a broken young thing
+        - With no intention of saving herself
+        - Likes to think she's the ballerina
+        - Dancing rings dancing rings round the king
+    - lines:
+        - She wants to be the wreckage, she wants to be damned
+        - She wants to ruin everything and everyone she had
+        - Out there in the desert stands a single tree
+        - And that's where I've been waiting for the girl that she could be
+    - lines:
+        - And out there in the desert stands a single tree
+        - And that's where I've been waiting for the girl that she could be
+        - Waiting in the desert out by the tree of life
+        - My first thought in the morning and my last thought for the night
+    - lines:
+        - She wanna be, wanna be
+        - The tragedy
+        - Wanna be, wanna be
+        - The mess that she's
+        - Always been, always been
+        - The wildfire
+        - Burning through your heart
+    - lines:
+        - She wanna be, wanna be
+        - The tragedy
+        - Wanna be, wanna be
+        - The mess that she's
+        - Always been, always been
+        - The wildfire
+        - Burning through your heart
+    - lines:
+        - The tragic ballerina
+        - Sitting in the dressing room
+        - Asking her broken mirror
+        - Where it all went so wrong
+    - lines:
+        - And out there in the desert stands a single tree
+        - And that's where I've been waiting for the girl that she could be
+        - Waiting in the desert out by the tree of life
+        - My first thought in the morning and my last thought for the night
+    - lines:
+        - And life is what you make it
+        - But it's the kind of dance
+        - Some people they were built for this
+        - And some people just aren't
+    - lines:
+        - She wanna be, wanna be
+        - The tragedy
+        - Wanna be, wanna be
+        - The mess that she's
+        - Always been, always been
+        - The wildfire
+        - Burning through your heart
+    - lines:
+        - She's the tragedy
+        - She's the shooting star
+        - She has always been the wildfire
+        - That is burning through your heart
+---

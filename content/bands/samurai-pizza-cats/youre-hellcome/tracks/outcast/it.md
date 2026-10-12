@@ -1,0 +1,97 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ti sento
+        - Quasi ti assaggio
+        - E posso
+        - Quasi sprecarti
+        - Sono l'escluso
+        - Eccomi
+    - lines:
+        - Corri
+        - La fottuta caccia è iniziata
+        - Devo ferire qualcuno
+        - Devo uccidere quella pressione
+        - Corri
+        - Il nulla è cominciato
+        - Mi diverto
+        - Devo
+        - Uccidere uccidere uccidere uccidere
+    - lines:
+        - Qual è la tua paura più grande? (paura)
+        - Le urla mi ronzano nell'orecchio (orecchio)
+        - Assicuriamoci che stanotte sarà il tuo
+        - Peggior fottuto incubo
+    - lines:
+        - Sono l'escluso
+        - Sto venendo da te stanotte
+        - Nessuno è al sicuro
+        - Non c'è dove nascondersi
+        - Esclusi
+        - Che strisciano fuori dal buio nella notte
+        - Per darti la caccia come animali
+        - Per darti la caccia come animali
+    - lines:
+        - Ti sento
+        - Quasi ti assaggio
+        - E posso
+        - Quasi sprecarti
+        - Sono l'escluso
+        - Eccomi
+    - lines:
+        - Uno
+        - Meglio che cominci a correre
+        - Due
+        - Perché sto venendoti dietro
+        - Tre
+        - Sto per liberarti
+        - Quattro
+        - Tre due uno
+        - Corri
+    - lines:
+        - Qual è la tua paura più grande? (paura)
+        - Le urla mi ronzano nell'orecchio (orecchio)
+        - Assicuriamoci che stanotte sarà il tuo
+        - Peggior fottuto incubo
+    - lines:
+        - Svolta sbagliata
+        - Svolta sbagliata
+        - Hai preso la svolta sbagliata
+        - Svolta sbagliata
+        - Svolta sbagliata
+        - Hai preso la svolta sbagliata
+    - lines:
+        - Sono l'escluso
+        - Sto venendo da te stanotte
+        - Nessuno è al sicuro
+        - Non c'è dove nascondersi
+        - Esclusi
+        - Che strisciano fuori dal buio nella notte
+        - Per darti la caccia come animali
+        - Per darti la caccia come animali
+    - lines:
+        - Sono l'escluso
+        - Sto venendo da te stanotte
+        - Nessuno è al sicuro
+        - Non c'è dove nascondersi
+        - Esclusi
+        - Che strisciano fuori dal buio nella notte
+        - Andiamo
+        - Vieni, vieni
+    - lines:
+        - Qual è la tua paura più grande? (paura)
+        - Le urla mi ronzano nell'orecchio (orecchio)
+        - Assicuriamoci che stanotte sarà il tuo
+        - Peggior fottuto incubo
+    - lines:
+        - Sono l'escluso
+        - Sto venendo da te stanotte
+        - Nessuno è al sicuro
+        - Non c'è dove nascondersi
+        - Esclusi
+        - Che strisciano fuori dal buio nella notte
+        - Per darti la caccia come animali
+---

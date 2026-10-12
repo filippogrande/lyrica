@@ -1,0 +1,96 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - No betting on tomorrow
+        - But we all love a tragedy
+        - Come drown in our sorrow
+        - And see the world as it oughta be
+        - Delete another day
+        - Doomscrolling, sat beneath my shadow
+        - Keep loading, nothing here is hallowed
+        - Oh
+        - Come see the world as it oughta be
+        - (Come see the world as it oughta be)
+        - Delete another day
+    - lines:
+        - This path is growing kinda narrow
+        - With rotten roses all the way
+        - No guarantees it'll carry me
+        - Nobody ordered me to swallow
+    - lines:
+        - I wanna know are we the bow or the arrow?
+        - Go take a dive where the waters are shallow
+        - We can swim the undertow
+        - Swim the undertow
+        - Swim the undertow
+    - lines:
+        - No betting on tomorrow
+        - But we all love a tragedy
+        - (But we all love a tragedy)
+        - Come drown in our sorrow
+        - And see the world as it oughta be
+        - (And see the world as it oughta be)
+        - Delete another day
+        - Doomscrolling, sat beneath my shadow
+        - Keep loading, nothing here is hallowed
+        - Oh
+        - Come see the world as it oughta be
+        - (Come see the world as it oughta be)
+        - Delete another day
+    - lines:
+        - We saw the flaw right from the get-go
+        - Who knew the hell we had to pay?
+        - We like to please 'cause we're devotees
+        - Hopefully, God is at the gallows
+    - lines:
+        - I wanna know are we the bow or the arrow?
+        - Go take a dive where the waters are shallow
+        - We can swim the undertow
+        - Swim the undertow
+        - Swim the undertow
+    - lines:
+        - No betting on tomorrow
+        - But we all love a tragedy
+        - (But we all love a tragedy)
+        - Come drown in our sorrow
+        - And see the world as it oughta be
+        - (And see the world as it oughta be)
+        - Delete another day
+        - Doomscrolling, sat beneath my shadow
+        - Keep loading, nothing here is hallowed
+        - Oh
+        - Come see the world as it oughta be
+        - (Come see the world as it oughta be)
+        - Delete another day
+    - lines:
+        - God save our souls
+    - lines:
+        - Let's take the flame and hold it closer to the fuse
+        - We're well aware that we've got everything to lose
+        - We're singing, "We don't wanna know"
+        - '"We don''t wanna know"'
+        - '"We don''t wanna know"'
+        - We kick the habit then we let the fire loose
+        - It doesn't matter when there's water at the roots
+        - We're singing, "We don't wanna know"
+        - '"We don''t wanna know"'
+    - lines:
+        - Let's take the flame and hold it closer to the fuse
+        - We're well aware that we've got everything to lose
+        - We're singing, "We don't wanna know"
+        - '"We don''t wanna know"'
+        - '"We don''t wanna know"'
+        - God save our souls
+        - We kick the habit then we let the fire loose
+        - It doesn't matter when there's water at the roots
+        - We're singing, "We don't wanna know"
+        - '"We don''t wanna know"'
+        - '"We don''t wanna know"'
+    - lines:
+        - No betting on tomorrow
+        - But we all love a tragedy
+        - Come drown in our sorrow
+        - And see the world as it oughta be
+---

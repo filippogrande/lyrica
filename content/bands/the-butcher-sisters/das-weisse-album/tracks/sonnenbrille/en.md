@@ -1,0 +1,75 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - I look cool, I look cool
+        - I come out of the pool cool with the shades on
+        - I look cool, I look cool
+        - I come out of the pool cool with the shades on
+        - Sunglasses
+        - Sunglasses
+    - lines:
+        - It's so bright, it's so bright
+        - I grab my sunglasses quick
+        - Tinted lenses, cool like lasers
+        - Cooler than a cool shark, everyone says hi to me
+    - lines:
+        - I look cool, I look cool
+        - I come out of the pool cool with the shades on
+        - I look cool, I look cool
+        - I come out of the pool cool with the shades on
+    - lines:
+        - Sunglasses on my face
+        - No shades, no me
+        - Sunglasses on my face
+        - Today sunglasses are mandatory
+        - Sunglasses mandatory, sunglasses mandatory
+        - No shades, no me
+        - Sunglasses mandatory, sunglasses mandatory
+        - Sunglasses on my face
+    - lines:
+        - Sunglasses mandatory
+        - Sunglasses
+    - lines:
+        - The sun makes me aggro
+        - It blinds me in the car
+        - And on the bike too
+        - I'll never take the shades off again
+    - lines:
+        - I've got plenty of sunglasses, man
+        - I'm a regular at Fielmann
+        - I want them all, it's my last will
+        - Please just give me my sunglasses
+    - lines:
+        - I look cool, I look cool
+        - I come out of the pool cool with the shades on
+        - I look cool, I look cool
+        - I come out of the pool cool with the shades on
+    - lines:
+        - Sunglasses on my face
+        - No shades, no me
+        - Sunglasses on my face
+        - Today sunglasses are mandatory
+        - Sunglasses mandatory, sunglasses mandatory
+        - No shades, no me
+        - Sunglasses mandatory, sunglasses mandatory
+        - Sunglasses on my face
+    - lines:
+        - The sun laughs, I laugh back (Hahaha, hahaha, ha, ha)
+        - It gives me joy, gives me luck, uh
+        - Shoot your hot UV at me
+        - In my face and on my belly
+    - lines:
+        - Sunglasses on my face
+        - No shades, no me
+        - Sunglasses on my face
+        - Today sunglasses are mandatory
+        - Sunglasses mandatory, sunglasses mandatory
+        - No shades, no me
+        - Sunglasses mandatory, sunglasses mandatory
+        - Sunglasses on my face
+    - lines:
+        - Sunglasses mandatory
+        - Sunglasses
+---

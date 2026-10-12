@@ -1,0 +1,53 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - La vita ha un modo di umiliarci tutti
+        - E tutti noi assaggiamo la sconfitta
+        - Tutti vogliono sedersi sul trono
+        - Finché qualcuno non tira via il sedile
+    - lines:
+        - Galeggiamo come una piuma
+        - Corriamo con il fiume
+        - Deroghiamo nel mai
+        - Ma finiamo sempre per terra
+    - lines:
+        - Proprio quando pensavi di poter volare
+        - Stai perdendo quota
+        - Alla velocità della luce
+        - Proprio quando pensavi di aver raggiunto il cielo
+        - La vita al Terminale
+        - Velocità Terminale
+    - lines:
+        - La vita ha un modo di sollevarti
+        - E di spazzarti via da terra
+        - Alcuni devono ricominciare da capo
+        - E altri piangono contando pecore
+    - lines:
+        - Come può un bambino avere il cancro?
+        - Come puoi chiamarlo karma?
+        - Come può una guerra essere civile?
+        - Eppure piena di melodramma?
+    - lines:
+        - Proprio quando pensavi di poter volare
+        - Stai perdendo quota
+        - Alla velocità della luce
+        - Proprio quando pensavi di aver raggiunto il cielo
+        - La vita al Terminale
+        - Velocità Terminale
+    - lines:
+        - Proprio quando pensavi di essere al sicuro
+        - E hai lasciato l'amore entrare nel tuo cuore
+        - La recinzione di filo spinato che ti protegge
+        - Era in realtà il cortile del carcere
+    - lines:
+        - La vita è una questione di fede
+        - Sentire che non sei già morto
+        - L'arrampicata fino in cima alla scogliera
+        - E il passo oltre il bordo
+    - lines:
+        - Vivere la vita al Terminale
+        - Velocità Terminale
+---

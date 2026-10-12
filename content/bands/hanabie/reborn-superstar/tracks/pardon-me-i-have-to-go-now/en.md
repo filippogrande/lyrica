@@ -1,0 +1,69 @@
+---
+lang: en
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Pardon me, I have to go now
+        - I see, of course
+        - Much obliged
+        - Pardon me, I have to go now
+    - lines:
+        - Juggling an overpacked schedule
+        - The only thrill is Sunday
+        - I wanna have fun, I wanna blow it up
+        - I still can't see the pitfall coming
+        - When's it okay? The DM arrives
+        - It's okay! Effort means nothing to me
+        - Ah, lately it's lucky happy Sunday
+    - lines:
+        - Sizing each other up, thanks for sharing the table
+        - Eyes meet eyes, this is where the fight starts
+        - 【The theory of relativity? I don't know】
+        - I'm standing up
+        - Pardon me, I have to go now!
+    - lines:
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - I bow down nice and proper
+        - Being a grown-up means manners
+        - I bow down even more
+        - Do you take me for a kid? (A kid, a kid?)
+    - lines:
+        - Hey, you're such a spoiled brat
+        - A real candy venti attitude, like you're about to throw a punch
+        - The thrill is way too good, it's the best part
+        - Unlucky, plain as day, bloodlust, you there
+    - lines:
+        - Great liberation! Roughly, a vague pinch hitter, greatness versus bye-bye
+        - Day after day riding the groove, first in line, riding the wave, a journey
+        - Isn't that stepping up?
+        - I'm brushing it up
+        - With the world behind me, a crystal-clear rap, with all my life
+        - I'll do anything, honestly
+    - lines:
+        - Head bowing over and over, a smile is the code
+        - I just can't fit in, drinking party
+        - 【Honor-student vision, let's climb to the top】
+        - I'm standing up
+        - Pardon me, I have to go now
+    - lines:
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - I bow down nice and proper
+        - Being a grown-up means manners
+        - I bow down even more
+        - Do you take me for a kid?
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - I bow down nice and proper
+        - Being a grown-up means manners
+        - I bow down even more
+        - Do you take me for a kid?
+---

@@ -1,0 +1,44 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Quando vedo tutte le immagini
+        - Penso solo a te
+        - A come ieri stavi sopra di me
+        - Dio, era disgustoso
+    - lines:
+        - Il tuo profumo che mi è ancora addosso
+        - Ora è ovunque
+        - E già mi squilla il telefono
+        - Tu vuoi di me ancora una volta
+    - lines:
+        - Sei come un uragano
+        - Che attraversa la mia vita
+        - Senza tregua né sentimento
+        - Mi trascini sempre di nuovo verso di te
+    - lines:
+        - Sei come un uragano
+        - Che attraversa la mia vita
+        - E tu lo sai benissimo
+        - Non posso mai più scapparti
+    - lines:
+        - Divorami!
+    - lines:
+        - Lei ha fame, è arrapata, desidera carne
+        - Oh tesoro, sono pronto a morire
+        - Oh, tu banchetti il mio sangue, le mie ossa, le mie viscere
+        - Affogati!
+        - Lei è l'amore della mia vita!
+    - lines:
+        - Non ri—
+        - Non riesco a resistere
+        - Mangiami vivo
+        - Il tuo volto necrotico
+        - È quello che mi piace
+    - lines:
+        - Sei la mia regina marcia
+        - Le tue mani sul mio cuore
+        - Sposami!
+---

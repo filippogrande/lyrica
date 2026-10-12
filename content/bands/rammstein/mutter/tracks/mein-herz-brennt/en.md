@@ -1,0 +1,54 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Now, dear children, pay attention
+        - I am the voice from the pillow
+        - I brought you something
+        - Have ripped it out of my chest
+        - With this heart, I have the power
+        - Blackmail the eyelids
+        - I sing until the new day comes
+        - A bright light in the heaven's sky
+    - lines:
+        - My heart burns
+    - lines:
+        - They come to you at night
+        - Demons, ghosts and black elves
+        - They crawl up from the cellar rows
+        - And will take a look under your blanket
+    - lines:
+        - Little children listen now
+        - I am the voice from the pillow
+        - I brought something to you
+        - A bright light in the heaven's sky
+    - lines:
+        - My heart burns
+        - My heart burns
+    - lines:
+        - They come to you at night
+        - And steal your small hot tears
+        - They wait 'til the moon awakes
+        - And push them in my cold veins
+    - lines:
+        - Little children listen now
+        - I am the voice from the pillow
+        - I sing 'til the day awakes
+        - A bright light in the heaven's sky
+    - lines:
+        - My heart burns
+        - My heart burns
+        - My heart burns
+        - My heart burns
+    - lines:
+        - With this heart I have the power
+        - To blackmail the eyelids
+        - I sing 'til the day wakes up
+        - A bright light in the heaven's sky
+    - lines:
+        - My heart burns
+        - My heart burns
+        - My heart burns (My heart)
+        - My heart burns
+---

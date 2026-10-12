@@ -1,0 +1,44 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - White flesh
+    - lines:
+        - You, on the school yard, Me, ready to kill
+        - And no one here is aware of my loneliness
+        - Red marks on white skin
+        - I hurt you and you whine loudly
+    - lines:
+        - Now you have fear and I'm ready
+        - My black blood is messing up your dress
+    - lines:
+        - Your white flesh excites me so (flesh, flesh, flesh, flesh)
+        - I'm just a gigolo (flesh, flesh, flesh, flesh)
+        - Your white flesh enlightens me (flesh, flesh, flesh, flesh)
+    - lines:
+        - My black blood and your white flesh
+        - I get endlessly more horny from your screams
+        - The cold sweat there on your white forehead
+        - Hails into my sick brain
+    - lines:
+        - Your white flesh excites me so (flesh, flesh, flesh, flesh)
+        - I'm just a gigolo (flesh, flesh, flesh, flesh)
+        - My father was just like me (flesh, flesh, flesh, flesh)
+        - Your white flesh enlightens me
+    - lines:
+        - Now you have fear and I'm ready
+        - My sick presence that screams for salvation
+        - Your white flesh becomes my scaffolding
+        - In my heaven there is no God
+    - lines:
+        - Your white flesh excites me so (flesh, flesh, flesh, flesh)
+        - I'm just a gigolo (flesh, flesh, flesh, flesh)
+        - Your white flesh enlightens me (flesh, flesh, flesh, flesh)
+        - My father was just like me (flesh, flesh, flesh, flesh)
+    - lines:
+        - Your white flesh excites me so (flesh, flesh, flesh, flesh)
+        - I'm a sad gigolo (flesh, flesh, flesh, flesh)
+        - Your white flesh enlightens me (flesh, flesh, flesh)
+        - Me
+---

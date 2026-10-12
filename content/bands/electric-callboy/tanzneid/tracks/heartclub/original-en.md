@@ -1,0 +1,78 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Welcome, say hi, and join my Heartclub
+        - We're gonna show you the perfect
+        - Version of yourself
+        - Be anything but who you are
+        - Fake, from the front to back
+        - A little hate here and there will make you feel complete
+        - If you really wanna join the club
+        - Then let them taste your toxic hate
+    - lines:
+        - That's when your dreams will go to die
+    - lines:
+        - You can keep your perfect life for you
+        - I'm ready to finally let it go
+        - You can keep your paradise for you
+        - I found it in myself 'cause I know
+        - I was born enough
+    - lines:
+        - I was born enough
+        - I was born enough
+        - I was born enough
+        - I, I
+    - lines:
+        - I wanna swipe for death and pain
+        - We're chasing hearts and likes
+        - That never reach our soul
+        - It's raining on a desert floor
+        - Fake, when a reel's not real
+        - You can hype it up, but I will fuck you up
+        - I said hey, you're a masterpiece
+        - Just let your reason take control
+    - lines:
+        - That's when your dreams will come alive
+    - lines:
+        - You can keep your perfect life for you
+        - I'm ready to finally let it go
+        - You can keep your paradise for you
+        - I found it in myself 'cause I know
+        - I was born enough
+    - lines:
+        - I was born enough
+        - I was born enough
+        - I was born enough
+        - I, I
+    - lines:
+        - And you want to build a life
+        - Out of staged reactions
+        - I am tired of your lies
+        - Call it imperfection
+    - lines:
+        - Lies, lies
+        - Oh, oh, you tell me lies
+        - Lies, lies
+        - I will not obey
+        - Lies, lies
+        - I will never fake it, you're just full of
+        - Lies, lies
+        - Let me out
+    - lines:
+        - You can keep your perfect life for you
+        - I'm ready to finally let it go
+        - You can keep your paradise for you
+        - I found it in myself 'cause I know
+        - That I'm stronger, no longer a slave to the show
+        - Never feel like I'm nothing, and you
+        - You can keep your paradise for you
+        - I found it in myself 'cause I know
+        - I was born enough
+    - lines:
+        - I was born enough
+        - I was born enough
+        - I was born enough
+        - I, I
+---

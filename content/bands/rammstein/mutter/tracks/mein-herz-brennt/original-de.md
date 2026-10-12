@@ -1,0 +1,54 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Nun, liebe Kinder, gebt fein Acht
+        - Ich bin die Stimme aus dem Kissen
+        - Ich hab' euch etwas mitgebracht
+        - Hab' es aus meiner Brust gerissen
+        - Mit diesem Herz hab' ich die Macht
+        - Die Augenlider zu erpressen
+        - Ich singe, bis der Tag erwacht
+        - Ein heller Schein am Firmament
+    - lines:
+        - Mein Herz brennt!
+    - lines:
+        - Sie kommen zu euch in der Nacht
+        - Dämonen, Geister, schwarze Feen
+        - Sie kriechen aus dem Kellerschacht
+        - Und werden unter euer Bettzeug sehen
+    - lines:
+        - Nun, liebe Kinder, gebt fein Acht
+        - Ich bin die Stimme aus dem Kissen
+        - Ich hab' euch etwas mitgebracht
+        - Ein heller Schein am Firmament
+    - lines:
+        - Mein Herz brennt!
+        - Mein Herz brennt!
+    - lines:
+        - Sie kommen zu euch in der Nacht
+        - Und stehlen eure kleinen, heißen Tränen
+        - Sie warten, bis der Mond erwacht
+        - Und drücken sie in meine kalten Venen
+    - lines:
+        - Nun, liebe Kinder, gebt fein Acht
+        - Ich bin die Stimme aus dem Kissen
+        - Ich singe, bis der Tag erwacht
+        - Ein heller Schein am Firmament
+    - lines:
+        - Mein Herz brennt!
+        - Mein Herz brennt!
+        - Mein Herz brennt!
+        - Mein Herz brennt!
+    - lines:
+        - Mit diesem Herz hab' ich die Macht
+        - Die Augenlider zu erpressen
+        - Ich singe, bis der Tag erwacht
+        - Ein heller Schein am Firmament
+    - lines:
+        - Mein Herz brennt!
+        - Mein Herz brennt!
+        - Mein Herz brennt! (Mein Herz)
+        - Mein Herz brennt!
+---

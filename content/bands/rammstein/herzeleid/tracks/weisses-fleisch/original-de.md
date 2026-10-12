@@ -1,0 +1,44 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Weißes Fleisch!
+    - lines:
+        - Du auf dem Schulhof, ich zum Töten bereit
+        - Und keiner hier weiß von meiner Einsamkeit
+        - Rote Striemen auf weißer Haut
+        - Ich tu' dir weh und du jammerst laut
+    - lines:
+        - Jetzt hast du Angst und ich bin soweit
+        - Mein schwarzes Blut versaut dir das Kleid
+    - lines:
+        - Dein weißes Fleisch erregt mich so (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Ich bin doch nur ein Gigolo (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Dein weißes Fleisch erleuchtet mich (Fleisch, Fleisch, Fleisch, Fleisch!)
+    - lines:
+        - Mein schwarzes Blut und dein weißes Fleisch
+        - Ich werd' immer geiler von deinem Gekreisch
+        - Der Angstschweiß da auf deiner weißen Stirn
+        - Hagelt in mein krankes Gehirn
+    - lines:
+        - Dein weißes Fleisch erregt mich so (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Ich bin doch nur ein Gigolo (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Mein Vater war genau wie ich (Fleisch, Fleisch, Fleisch!)
+        - Dein weißes Fleisch erleuchtet mich
+    - lines:
+        - Jetzt hast du Angst und ich bin soweit
+        - Mein krankes Dasein nach Erlösung schreit
+        - Dein weißes Fleisch wird mein Schafott-t-t-t
+        - In meinem Himmel gibt es keinen Gott
+    - lines:
+        - Dein weißes Fleisch erregt mich so (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Ich bin doch nur ein Gigolo (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Dein weißes Fleisch erleuchtet mich (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Mein Vater war genau wie ich (Fleisch, Fleisch, Fleisch, Fleisch!)
+    - lines:
+        - Dein weißes Fleisch erregt mich so (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Ich bin ein trauriger Gigolo (Fleisch, Fleisch, Fleisch, Fleisch!)
+        - Dein weißes Fleisch erleuchtet (Fleisch, Fleisch, Fleisch!)
+        - Mich
+---

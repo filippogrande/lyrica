@@ -1,0 +1,68 @@
+---
+lang: ja-Jpan
+role: original
+stanzas:
+    - lines:
+        - お先に失礼します
+        - なるほどです
+        - 恐れ入ります
+        - お先に失礼します
+    - lines:
+        - 過密スケジュール管理
+        - 唯一わくわく日曜日
+        - 遊びたいカマシタイ
+        - 未だに落とし穴分からない
+        - いつオッケー？届くDM
+        - It's okay! 努力無縁
+        - Ah 最近ラッキーハッピー Sunday
+    - lines:
+        - 探り合ってご相席どうも
+        - 目と目合ってここからが勝負
+        - 【相対性理論 なんて I don't know】
+        - 立ち上がるわ
+        - お先に失礼します!
+    - lines:
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - ペコペコちゃんとする
+        - オトナって礼儀
+        - ペコペコもっとする
+        - コドモって見る気？（見る気、見る気？）
+    - lines:
+        - ねえ、甘ったれてるよね
+        - まるでキャンディベンティな態度 パンチ出そうよ
+        - スリルが醍醐味過ぎててなにより
+        - アンラッキーハッキリ殺気 you there
+    - lines:
+        - 大解放だいっ！だいたい 曖昧代打 偉大 対 バイバーイ
+        - 日々ノリ先乗り先取り波乗りジャーニー
+        - ステップアップちゃう？
+        - ブラッシュアップしちゃう
+        - 世界バックに明快ラップを命から
+        - 何でもするます
+    - lines:
+        - 頭ぺこぺこ 笑顔が流儀
+        - 馴染めないない drinking party
+        - 【特待生ビジョン 成り上がろうよ】
+        - 立ち上がるワ
+        - お先に失礼します
+    - lines:
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - ペコペコちゃんとする
+        - オトナって礼儀
+        - ペコペコもっとする
+        - コドモって見る気？
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - ペコペコちゃんとする
+        - オトナって礼儀
+        - ペコペコもっとする
+        - コドモって見る気？
+---

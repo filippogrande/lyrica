@@ -1,0 +1,113 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Oh
+    - lines:
+        - Lycanthropy
+        - A part of me
+        - Lycanthropy
+        - The wolf in me
+    - lines:
+        - Here we go
+        - Keep on looking at me
+        - I am the hottest creature
+        - You will ever see
+    - lines:
+        - Look at my hair
+        - Why do you stare
+        - Come on my dear
+        - Do you really think that I don't care?
+    - lines:
+        - Come on and smell me
+        - Come on and breathe me
+        - Say can you smell me?
+        - Go on and fear me
+    - lines:
+        - I am not of your dead kind
+        - I am the one to make you piss your pants
+    - lines:
+        - Lycanthropy
+        - A part of me
+        - Lycanthropy
+        - The wolf in me
+        - '''Cause I''m a full moon creature'
+        - And I am born to kill ya
+    - lines:
+        - Own the day
+        - Own the night
+        - Carry on with the fight
+        - Cause it's time for glory
+        - Own the day
+        - Own the night
+        - '''Cause it ends tonight'
+        - Ends tonight
+        - Silence
+        - Own the day
+        - Own the night
+        - Carry on with the fight
+        - Cause it's time for glory
+        - Own the day
+        - Own the night
+        - '''Cause it ends tonight'
+        - Ends tonight
+        - Silence
+    - lines:
+        - You blood sucking suckers
+        - You pale motherfuckers
+        - Suck on your mothers
+        - Stupid twilight fuckers
+    - lines:
+        - Oh you bags of dead skin
+        - Would be better off six six six feet deep
+    - lines:
+        - Come on and smell me
+        - Come on and breathe me
+        - Say can you smell me?
+        - Go on and fear me!
+    - lines:
+        - The wolf in me
+        - You want to fight, huh?
+        - The wolf in me
+        - Start to bow down
+    - lines:
+        - Lycanthropy
+        - A part of me
+        - Lycanthropy
+        - The wolf in me
+        - Cause I'm a full moon creature
+        - And I am born to kill ya
+    - lines:
+        - Own the day
+        - Own the night
+        - Carry on with the fight
+        - '''Cause it''s time for glory'
+        - Own the day
+        - Own the night
+        - Cause it ends tonight
+        - Ends tonight
+        - Silence
+        - Own the day
+        - Own the night
+        - Carry on with the fight
+        - '''Cause it''s time for glory'
+        - Own the day
+        - Own the night
+        - Cause it ends tonight
+        - Ends tonight
+        - Silence
+    - lines:
+        - Lycanthropy
+        - A part of me
+        - Lycanthropy
+        - The wolf in me
+        - Cause I'm a full moon creature
+        - And I am born to kill ya
+        - Lycanthropy
+        - A part of me
+        - Lycanthropy
+        - The wolf in me
+        - Cause I'm a full moon creature
+        - And I am born to kill ya
+---

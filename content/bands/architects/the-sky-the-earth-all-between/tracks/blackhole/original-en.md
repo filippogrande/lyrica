@@ -1,0 +1,66 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Is there nothing but the cold at the centre of a black hole?
+        - Oh
+        - Ah, bitch
+    - lines:
+        - Ah, the signal fire's gonna burn out
+        - Through the sirens and the flares
+        - I was swallowed by the storm clouds
+        - Hailstones on a glass house
+        - There were diamonds in the air
+        - And the oxygen left my chest
+    - lines:
+        - Lost souls trapped beneath this ceiling
+        - It's figure-eight till the ghosts have been laid to rest
+        - Pull it tight, try to stop this bleeding
+        - Stampede as the horrors run through my head
+    - lines:
+        - Death stared, and I died a thousand times
+        - Nightmares left a riot in my mind
+        - Is today so hollow if there were no tomorrow?
+        - Midnight, we cut the power lines
+        - No light but the fire in my eyes
+        - Is today so hollow if there were no tomorrow?
+    - lines:
+        - Oh
+        - Ah, bitch
+    - lines:
+        - Ah, sick of living with the pain now
+        - Someone take me for repair
+        - There's a bitter taste in my mouth
+        - In the silence, there was ill health
+        - Maybe life just isn't fair
+        - Maybe I'm just fucking self-obsessed
+    - lines:
+        - Don't say I gotta chase this feeling
+        - Bullets hit, but it's only gonna dent the vest
+        - Wartime with the whole world sleeping
+        - Bombs drop on the prison hope built instead
+    - lines:
+        - Struck down
+        - Souls carried through an unknown universe
+        - No service for the faithless, everything turns to dust
+    - lines:
+        - There were diamonds in the air
+        - And the oxygen left my chest
+        - Is there anybody there?
+        - I pray that I'll be blessed
+    - lines:
+        - Death stared, and I died a thousand times
+        - Nightmares left a riot in my mind
+        - Is today so hollow if there were no tomorrow?
+        - Midnight, we cut the power lines
+        - No light but the fire in my eyes
+        - Is today so hollow if there were no tomorrow?
+    - lines:
+        - Heaven to Earth, God only knows if we're here in spirit
+        - Chapter and verse, there's nowhere to go when the sky is the limit
+        - Reign, reign
+        - Is there nothing but the cold at the centre of a black hole?
+        - Heaven to Earth, God only knows if we're here in spirit
+        - Chapter and verse, nowhere to go when the sky is the limit
+---

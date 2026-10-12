@@ -1,0 +1,46 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Can you feel the breath in your neck?
+        - Your pulse is racing
+        - Can you feel your heart beat faster?
+    - lines:
+        - This is a warning
+        - This is a calling
+        - There is no safety
+        - Nowhere to hide
+    - lines:
+        - You can try to close your eyes but
+        - The lights keep falling in
+        - Don't you dare to turn around
+        - It could be the last breath you take
+    - lines:
+        - This is
+        - This is a warning
+        - There's no
+        - No fucking safety
+    - lines:
+        - A calling
+        - A warning
+        - You won't get out of here
+        - Distraction
+        - Cinefaction
+        - Welcome to hell
+    - lines:
+        - Can you feel the breath in your neck
+        - Your pulse is racing
+        - Can you feel your heart beat faster
+        - No one is safe
+    - lines:
+        - You cannot run from me
+        - "666"
+        - Now I am your destiny
+    - lines:
+        - Your life seems shredded
+        - Everything keeps falling around you
+    - lines:
+        - "666"
+        - Now I am your destiny
+---

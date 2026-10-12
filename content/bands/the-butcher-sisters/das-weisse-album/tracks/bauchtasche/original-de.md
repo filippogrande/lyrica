@@ -1,0 +1,69 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Bauchtasche
+        - B-B-Bauchtasche
+        - Ich hab' die Bauchtasche
+        - Bauchtasche
+    - lines:
+        - Boom-chiki-wau, mach' die Bauchtasche auf
+        - Sag, was du willst, ich hab' alles, was du brauchst
+        - Simsalabim, ich zauber' es heraus
+        - Klingelingeling, es ist Reißverschlussverkauf (TBS)
+        - 'Du schaust auf meinen Bauchi, sagst: "Das will ich auchi"'
+        - Nimm deine Finger weg, sonst ist dein Arm verstauchi
+        - Die Tasche bleibt an, auch wenn ich mich auszieh'
+        - Sogar beim Liebemachi hängt der Schlauch unter der
+    - lines:
+        - Bauchtasche
+        - Augen werden groß, wenn wir sie aufmachen
+        - Hahahahaha, wie ich dich auslache
+        - Mit deinem Rucksack im Club, ja, ich spür', wie du guckst
+        - Ey
+    - lines:
+        - Auf meine Bauchtasche, lala-lala-la
+        - Auf meine Bauchtasche, lala-lala-lala-la
+        - Oh Baby, Baby
+        - Dein Zipper macht mich crazy
+        - Oh Baby, Baby, Baby
+        - So crazy, crazy, yeah
+    - lines:
+        - Zipp, zipp, zipp macht der Zipper von der Tasche
+        - Rein geht sogar eine ganze Bier-
+        - Dose, passt nicht in die Hose
+        - Ich trinke die Biersoße aus der Dose, die große
+        - Ich mach' sie auf, zu, auf, zu
+        - Auf, zu, auf, zu, auf, zu, auf, zu, auf, zu, auf, zu
+        - Zipper auf, Zipper zu
+        - Ich hab' den Beutel am Bauch, Känguru (Wie das Tier)
+        - Zipper zu, Zipper auf
+        - Und ich hole alles raus, ja, ich hole alles raus
+    - lines:
+        - Bauchtasche
+        - Augen werden groß, wenn wir sie aufmachen
+        - Hahahahaha, wie ich dich auslache
+        - Mit deinem Rucksack im Club, ja, ich spür', wie du guckst
+        - Ey
+    - lines:
+        - Auf meine Bauchtasche, lala-lala-la
+        - Meine Bauchtasche, lala-lala-lala-la
+        - Oh Baby, Baby
+        - Dein Zipper macht mich crazy
+        - Oh Baby, Baby, Baby
+        - So crazy, crazy, yeah
+    - lines:
+        - Ich halte meine Bauchtaschi into the sky
+        - Und eine Träne der Freude comes out my eye
+        - If I ever lose you, my life is vorbei
+        - Bauchtaschi, you are the love of my life, uwu
+        - (I love you, I love you, I love you)
+    - lines:
+        - Meine Bauchtasche, lala-lala-la
+        - Meine Bauchtasche, lala-lala-lala-la
+        - Oh Baby, Baby, Baby
+        - Dein Zipper macht mich crazy (Crazy)
+        - Oh Baby, Baby, Baby
+        - So crazy, crazy, yeah
+---

@@ -1,0 +1,78 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Piep, piep, piep
+        - Piep, piep, piep
+        - Piep, piep, piep
+        - My bird goes piep, piep, piep, piep
+        - (Hey)
+        - (Hey)
+    - lines:
+        - Wwt, wwt, bing, bing
+        - I stare at a meme, stare at another meme
+        - Wwt, wwt, bing, bing
+        - Just one more meme, I fuck my life
+        - You don't need advice
+        - I need screen time
+        - I want hemorrhoids from swiping on the toilet
+        - Little algorithm, fuck my li-i-fe
+    - lines:
+        - Piep, piep, piep
+        - My bird goes piep, piep, piep
+        - My bird goes piep, piep, piep
+        - Mm, my bird goes piep, piep, piep, piep, piep, piep, piep, piep
+        - Oh!
+        - (Hey)
+        - (Hey)
+    - lines:
+        - Piep, piep, piep, piep
+        - My algorithm pushes
+        - My algorithm pushes
+        - My algorithm pushes, pushes, pushes, pushes, pushes
+        - My bird goes piep
+        - My bird goes piep
+        - My bird goes piep, piep, piep, piep
+    - lines:
+        - Wwt, wwt, bing, bing
+        - Just one more meme, a little meme
+        - Wwt, wwt, bing, bing
+        - Just one more meme, just one more meme
+        - You don't need advice
+        - I need screen time
+        - I goon in my bed on TBS
+        - Ja-ja-ja-ja-ja
+        - I watch another reel
+        - Ah, I watch another reel
+        - Ah, ah, ah, ah, ah
+    - lines:
+        - Piep, Piep, Piep
+        - My bird goes piep, Piep, Piep
+        - My bird goes piep, Piep, Piep
+        - My bo–, my bird goes–
+    - lines:
+        - Piep, piep, piep, piep
+        - My algorithm pushes
+        - My algorithm pushes
+        - My algorithm pushes, pushes, pushes, pushes, pushes
+        - My bird goes piep
+        - My bird goes piep
+        - My bird goes piep, piep, piep, piep, piep, piep
+        - Piep, piep, piep
+        - Piep, piep, piep, piep, piep
+    - lines:
+        - Let me fly
+        - I wanna fly
+        - Let me fly
+        - Psycho
+        - (Hey)
+        - Yeah! (Hey)
+        - I stare at a meme, stare at another meme
+        - Just one more meme, I fuck my life
+        - I stare at a meme, just one more meme
+        - I fuck my life, I fuck my life
+    - lines:
+        - My bird goes piep!
+        - Piep!
+---

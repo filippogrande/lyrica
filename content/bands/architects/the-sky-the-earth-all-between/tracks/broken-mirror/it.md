@@ -1,0 +1,59 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Alcuni giorni sono un'onda di marea
+        - I laghi fermi non lasciano mai traccia
+        - Sono sopraffatto ma non voglio scappare
+        - La luce svanisce ma le ombre restano
+        - Nessuna grazia nei respiri che prendo
+        - Ho avuto abbastanza di fissare il sole
+    - lines:
+        - Non vorresti leggere nella mia mente
+        - Non vorresti stare al mio fianco
+        - Quando vivo sul filo del taglio
+    - lines:
+        - Portami nel luogo dove i cieli sono infestati
+        - E pregherò sulla croce che porti
+        - Dimmi, se ti donassi il mondo, verresti da me?
+        - Mi vedi ora che le luci sono spente?
+        - Sono uno specchio rotto
+    - lines:
+        - Niente sonno nel letto che abbiamo fatto
+        - Due santi e una granata a mano
+        - Per sempre intorpidito, un grido a chiunque
+        - Autostrade sopra fosse poco profonde
+        - Pioggia fredda su un vetro
+        - Ti ho dato colombe ma ho tenuto la pistola
+    - lines:
+        - Non vorresti leggere nella mia mente
+        - Non vorresti stare al mio fianco
+        - Quando vivo sul filo del taglio
+    - lines:
+        - Portami nel luogo dove i cieli sono infestati
+        - E pregherò sulla croce che porti
+        - Dimmi, se ti donassi il mondo, verresti da me?
+        - Mi vedi ora che le luci sono spente?
+        - Sono uno specchio rotto
+    - lines:
+        - Queste vite incrinate
+        - Riflessi sparsi
+        - Pezzi nei tuoi occhi
+    - lines:
+        - Portami nel luogo dove i cieli sono infestati
+        - E pregherò sulla croce che porti
+        - Dimmi, se ti donassi il mondo, verresti da me?
+        - Mi vedi ora che le luci sono spente?
+        - Sono uno specchio rotto
+    - lines:
+        - Ti ho trovato dall'altra parte
+        - Ho provato a mettermi tutto alle spalle
+        - Ci penso sempre
+        - Sogno la fine
+        - Non vorresti leggere nella mia mente
+        - Non vorresti stare al mio fianco
+        - Ascoltami, sto urlando
+        - Sono uno specchio rotto
+---

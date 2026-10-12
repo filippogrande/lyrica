@@ -1,0 +1,63 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - I want
+        - I want
+        - I want
+        - I want
+        - I want
+        - I want
+        - I want
+    - lines:
+        - (I want) I want you to trust me
+        - (I want) I want you to believe me
+        - (I want) I want to feel your glances
+        - (I want) to control every heartbeat
+        - (I want) I want to hear your voices
+        - (I want) I want to break the silence
+        - (I want) I want you to see me clearly
+        - (I want) I want you to understand me
+    - lines:
+        - (I want) I want your fantasy
+        - (I want) I want your energy
+        - (I want) I want to see your hands
+        - (I want) to go down in applause
+    - lines:
+        - Do you see me?
+        - Do you understand me?
+        - Do you feel me?
+        - Do you hear me?
+    - lines:
+        - Can you hear me? (We hear you)
+        - Can you see me? (We see you)
+        - Can you feel me? (We feel you)
+        - I don't understand you
+        - Can you hear me? (We hear you)
+        - Can you see me? (We see you)
+        - Can you feel me? (We feel you)
+        - I don't understand you
+    - lines:
+        - I want
+        - I want
+        - I want
+        - I want
+    - lines:
+        - We want you to trust us
+        - We want you to believe everything we say
+        - We want to see your hands
+        - We want to go down in applause, yeah
+    - lines:
+        - Can you hear me? (We hear you)
+        - Can you see me? (We see you)
+        - Can you feel me? (We feel you)
+        - I don't understand you
+        - Can you hear us? (We hear you)
+        - Can you see us? (We see you)
+        - Can you feel us? (We feel you)
+        - We don't understand you
+    - lines:
+        - I want
+        - I want
+---

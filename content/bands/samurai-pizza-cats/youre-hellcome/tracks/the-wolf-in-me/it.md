@@ -1,0 +1,114 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Oh
+    - lines:
+        - Licanthropia
+        - Una parte di me
+        - Licanthropia
+        - Il lupo in me
+    - lines:
+        - Eccoci
+        - Continua a guardarmi
+        - Sono la creatura più bella
+        - Che vedrai mai
+    - lines:
+        - Guarda i miei capelli
+        - Perché fissi?
+        - Vieni, mio caro
+        - Pensi davvero che non me ne fotta?
+    - lines:
+        - Vieni ad annusarmi
+        - Vieni a respirarmi
+        - Dimmi, riesci a sentirmi?
+        - Vai e temimi
+    - lines:
+        - Non sono della vostra razza morta
+        - Sono quello che ti farà pisciare addosso
+    - lines:
+        - Licanthropia
+        - Una parte di me
+        - Licanthropia
+        - Il lupo in me
+        - Perché sono una creatura di luna piena
+        - E sono nato per ucciderti
+    - lines:
+        - Possiedi il giorno
+        - Possiedi la notte
+        - Continua a combattere
+        - Perché è ora della gloria
+        - Possiedi il giorno
+        - Possiedi la notte
+        - Perché finisce stanotte
+        - Finisce stanotte
+        - Silenzio
+        - Possiedi il giorno
+        - Possiedi la notte
+        - Continua a combattere
+        - Perché è ora della gloria
+        - Possiedi il giorno
+        - Possiedi la notte
+        - Perché finisce stanotte
+        - Finisce stanotte
+        - Silenzio
+    - lines:
+        - Succhiasanguini
+        - Pallide fottutazzi
+        - Succhiate le vostre madri
+        - Fottuti cretini del crepuscolo
+    - lines:
+        - Oh, sacchi di pelle morta
+        - Stareste meglio sepolti a sei sei sei piedi sotto terra
+    - lines:
+        - Vieni ad annusarmi
+        - Vieni a respirarmi
+        - Dimmi, riesci a sentirmi?
+        - Vai e temimi!
+    - lines:
+        - Il lupo in me
+        - Vuoi combattere, eh?
+        - Il lupo in me
+        - Inizia a prostrarti
+    - lines:
+        - Licanthropia
+        - Una parte di me
+        - Licanthropia
+        - Il lupo in me
+        - Perché sono una creatura di luna piena
+        - E sono nato per ucciderti
+    - lines:
+        - Possiedi il giorno
+        - Possiedi la notte
+        - Continua a combattere
+        - Perché è ora della gloria
+        - Possiedi il giorno
+        - Possiedi la notte
+        - Perché finisce stanotte
+        - Finisce stanotte
+        - Silenzio
+        - Possiedi il giorno
+        - Possiedi la notte
+        - Continua a combattere
+        - Perché è ora della gloria
+        - Possiedi il giorno
+        - Possiedi la notte
+        - Perché finisce stanotte
+        - Finisce stanotte
+        - Silenzio
+    - lines:
+        - Licanthropia
+        - Una parte di me
+        - Licanthropia
+        - Il lupo in me
+        - Perché sono una creatura di luna piena
+        - E sono nato per ucciderti
+        - Licanthropia
+        - Una parte di me
+        - Licanthropia
+        - Il lupo in me
+        - Perché sono una creatura di luna piena
+        - E sono nato per ucciderti
+---

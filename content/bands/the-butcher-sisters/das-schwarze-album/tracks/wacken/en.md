@@ -1,0 +1,81 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - We're going to Wacken
+        - Once a year
+        - We're going to Wacken
+        - Schalalala
+        - We're going to Wacken
+        - Once a year
+        - Sing with 3 per mille fear of the dark
+    - lines:
+        - I've got the camping chair
+        - I've got the inflatable pool
+        - I've got the canned beer with me
+    - lines:
+        - Can of ravioli
+        - Just one pair of underpants
+        - I smell cows and I scream
+    - lines:
+        - I wanna see Slayer
+        - Then I wanna go to Iron Maiden
+        - Fear of the dark
+        - I'm covered in mud
+        - Oh god I love it
+        - I search all night
+        - For Helga on the campsite
+    - lines:
+        - All metalheads are brothers in spirit
+        - Metal is simply the best
+    - lines:
+        - We're going to Wacken
+        - Once a year
+        - We're going to Wacken
+        - Schalalala
+        - We're going to Wacken
+        - Once a year
+        - Sing with 3 per mille fear of the dark
+    - lines:
+        - I watch the fire brigade
+        - I drain my drinking horn
+        - I don't make it to the Dixi toilet
+    - lines:
+        - And after the wall of death
+        - I've got a bruise
+        - My metal heart burns bright yeah
+    - lines:
+        - I wanna see Slipknot
+        - Then I wanna go to Guns N' Roses
+        - Wooohooohooo
+    - lines:
+        - Truly every year
+        - I drive to the WOA
+        - Take me to Wacken
+        - My heart is already there
+    - lines:
+        - All metalheads are sisters in spirit
+        - Metal is simply the best
+    - lines:
+        - We're going to Wacken
+        - Once a year
+        - We're going to Wacken
+        - Schalalala
+        - We're going to Wacken
+        - Once a year
+        - Sing with 3 per mille fear of the dark
+    - lines:
+        - Come with me to Wacken
+        - Come with me to Wacken
+        - Into the promised land
+        - Give me your hand
+    - lines:
+        - We're going to Wacken
+        - Once a year
+        - We're going to Wacken
+        - Schalalala
+        - We're going to Wacken
+        - Once a year
+        - Sing with 3 per mille fear of the dark
+---

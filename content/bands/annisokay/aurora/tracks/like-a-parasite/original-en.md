@@ -1,0 +1,73 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I give it all
+        - Shoot for the stars
+        - You feed yourself
+        - While I starve
+    - lines:
+        - You never
+        - Had my back
+        - Not a bit
+        - You left me hanging
+        - I call it quits
+        - You damn hypocrite
+    - lines:
+        - You were faking, simulating
+        - But the times have changed
+        - No more hiding, no disguising
+        - Lay down your veil
+    - lines:
+        - I, I leave you behind
+        - Cut all of our ties
+        - Before you bleed me dry
+    - lines:
+        - We built this world for you
+        - I can see right through you
+        - Every time
+        - I died some more on the inside
+        - You bleed me dry
+        - Like a parasite...
+    - lines:
+        - It is a matter of give and take
+        - Not fighting for your own sake
+        - Backstabber
+        - And in the final aftermath
+        - You will show me your bare face
+        - Without a mask
+    - lines:
+        - You were faking, simulating
+        - But the times have changed
+        - No more hiding, no disguising
+        - Lay down your veil
+    - lines:
+        - I can't see through your eyes
+        - I can't justify
+        - The way you bled me dry
+    - lines:
+        - We built this world for you
+        - I can see right through you
+        - Every time
+        - I died some more on the inside
+        - You bled me dry
+        - Like a parasite...
+    - lines:
+        - I choke on the air you breathe
+        - I won't let you sow your seeds
+        - I won't hear the lies you preach
+        - I won't be fooled, you bleed me dry
+    - lines:
+        - After all of this
+        - You still try to stab my back
+        - And while you're losing ground
+        - You still try to bring me down
+    - lines:
+        - We built this world for you
+        - I can see right through you
+        - Every time
+        - I died some more on the inside
+        - You bled me dry
+        - You fucking parasite
+---

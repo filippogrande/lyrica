@@ -1,0 +1,42 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - They are standing in a tight embrace
+        - A union of flesh so rich in days
+        - Where the sea touches the land
+        - She wants to tell him the truth
+    - lines:
+        - But the wind eats her words away
+        - Where the sea is at an end
+        - Trembling she holds his hands
+        - And she kissed his forehead
+    - lines:
+        - She is carrying the evening in her breast
+        - And she knows she must leave now
+        - She puts her head in his lap
+        - And asks for one last kiss
+    - lines:
+        - And then he kissed her
+        - Where the sea is at an end
+        - Her lips weak and pale
+        - And his eyes wettened
+        - And then he kissed her
+        - Where the sea is at an end
+        - Her lips weak and pale
+        - And his eyes wettened
+    - lines:
+        - And then he kissed her
+        - Where the sea is at an end
+        - Her lips weak and pale
+        - And his eyes wettened
+        - And then he kissed her
+        - Where the sea is at an end
+        - Her lips weak and pale
+        - And his eyes wettened
+    - lines:
+        - The last kiss has been so long
+        - The last kiss
+        - He doesn't remember it anymore
+---

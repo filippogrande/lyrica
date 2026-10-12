@@ -1,0 +1,66 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I really got the feeling that I lose control
+        - I'm feeling like I miss a little rock 'n' roll
+        - All this bamboo eating and the kung fu beatings
+        - Got my batterie low, I got vertigo
+    - lines:
+        - You're unbearable, fucking terrible
+        - But phantasmagorical, so damn beautiful
+        - Like the waterfall in an urinal
+        - You're unbearable, fucking terrible
+    - lines:
+        - I am the spark and the fun in your routine
+        - Your water gun, I filled with pee-pee
+        - One, I set you free, two, let's make a scene
+        - Three, we hate mainstream
+    - lines:
+        - My voice of chaos
+        - Is killing the sad
+        - Killing all the noise that's inside my head
+    - lines:
+        - My voice of chaos
+        - Is killing the sad
+        - Killing all the noise that's inside my head
+        - In a world of chaos
+        - Where nothing makes sense
+        - It is never us, it's them
+        - We're unbearable
+    - lines:
+        - I really got the feeling that I lose control
+        - I'm feeling like I miss a little rock 'n' roll
+        - Too cute to kill, yoo dumb to fuck
+        - Is it flattery? No! But I'm pandastruck
+    - lines:
+        - You're unbearable, fucking terrible
+        - But phantasmagorical, so damn beautiful
+        - Like the waterfall in an urinal
+        - You're unbearable, fucking terrible
+    - lines:
+        - I am the match and you're the gasoline
+        - You are the shit but I'm Mr. Clean
+        - One, I set you free, two, let's make a scene
+        - Three - we hate mainstream
+    - lines:
+        - My voice of chaos
+        - Is killing the sad
+        - Killing all the noise that's inside my head
+        - In a world of chaos
+        - Where nothing makes sense
+        - It is never us, it's them
+        - We're unbearable
+    - lines:
+        - Pandastruck
+        - Pandastruck
+    - lines:
+        - My voice of chaos
+        - Is killing the sad
+        - Killing all the noise that's inside my head
+        - In a world of chaos
+        - Where nothing makes sense
+        - It is never us, it's them
+        - We're unbearable
+---

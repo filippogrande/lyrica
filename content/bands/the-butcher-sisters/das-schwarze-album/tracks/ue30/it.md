@@ -1,0 +1,63 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Aiuto, aiuto, quando mi alzo dal letto
+        - Aiuto, aiuto, quando non mi alzo sulle gambe
+        - Bevo tre birre, tre giorni a terra
+        - C'era chi beveva fino a quattro, oggi corro dal dottore
+        - Porto la toppetta, tutti lo sanno
+        - Clicco su MILF su siti di merda
+        - Ne avevo mille su MySpace
+        - Ora ho mille dolori nel culo, eh
+    - lines:
+        - Un tempo ero un figo, un tempo ero una roccia (Peace)
+        - Ora sono il chewers di erba
+        - Un tempo ero un cool, un tempo ero un cool (Cool)
+        - Domani sarò freddo nella fossa
+    - lines:
+        - Oh no, oh no
+        - Bro, non mi cool più, man
+        - Oh no, oh no
+        - Sono così vecchio, sto per spegnere
+        - Che imbarazzo
+        - Sono Ü30
+        - Che motherfucking imbarazzo
+        - Non voglio occhiali bifocali
+    - lines:
+        - Baby, oh no
+        - Baby, oh no
+    - lines:
+        - Aiuto, aiuto, quando mi metto la scarpa
+        - Aiuto, aiuto, quando mi vedo nudo allo specchio
+        - 'Carattere del telefono: grandissimo, qual è il mio PIN?'
+        - Face-ID non sa chi sono la mattina
+        - Guardo Titanic e inizio a piangere
+        - Il mio dealer di coccupina potrebbe essere la figlia
+        - Ero capocannoniere in campionato di quartiere
+        - Ora sono più vecchio di tutti quegli allenatori merda
+    - lines:
+        - Oh dio
+    - lines:
+        - Un tempo ero fresco e adesso devo marcire
+        - Amore, vieni qui, rasami la schiena
+        - Se altri due bambini mi dicon "Sig.ra" (No!)
+        - Allora devo spudorarmi
+    - lines:
+        - Oh no, oh no
+        - Bro, non mi cool più, man
+        - Oh no, oh no
+        - Sono così vecchio, sto per spegnere
+        - Che imbarazzo
+        - Sono Ü30
+        - Che motherfucking imbarazzo
+        - Non voglio occhiali bifocali
+    - lines:
+        - Baby, oh no (Voltaren, Ibuprofen)
+        - (Alpecin e Aspirina)
+        - Un tempo ero un figo, un tempo ero una roccia (Voltaren, Ibuprofen)
+        - Ora sono il chewers di erba
+        - Un tempo ero un cool, un tempo ero un cool (Alpecin e Aspirina)
+        - Domani sarò freddo nella fossa
+---

@@ -1,0 +1,63 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Aua, aua, wenn ich aus dem Bett aufstehe
+        - Aua, aua, wenn ich nicht aus den Beinen hebe
+        - Ich sauf' drei Bier, bin drei Tage am Arsch
+        - Früher saufi bis vier, heute laufi zum Arzt
+        - Ich trag' Toupet, alle wissen Bescheid
+        - Klicke aus MILF auf Schmuddel-Websites
+        - Ich hatte eintausend Fans auf MySpace
+        - Jetzt hab' ich eintausend Pain im Steiß, ey
+    - lines:
+        - Ich war mal ein Geiler, ich war mal ein Heißer (Peace)
+        - Jetzt bin ich der In-das-Gras-Beißer
+        - Ich war mal ein Cooler, ich war mal ein Cooler (Cool)
+        - Jetzt bin ich bald kühl in der Grube
+    - lines:
+        - Oh no, oh no
+        - Brudi, mein Swag ist nicht mehr dope
+        - Oh no, oh no
+        - Ich bin so alt, ich bin bald schon tot
+        - Wie peinlich
+        - Ich bin Ü30
+        - Wie motherfucking peinlich
+        - Ich will keine Gleitsichtbrille
+    - lines:
+        - Baby, oh no
+        - Baby, oh no
+    - lines:
+        - Aua, aua, wenn ich meinen Schuh anziehe
+        - Aua, aua, wenn ich mich nackt im Spiegel sehe
+        - 'Handyschriftgröße: groß, wie geht mein PIN?'
+        - Face-ID hat morgens kein'n Plan wer ich bin
+        - Ich schau' Titanic und fang' an zu wein'n
+        - Mein Kusch-Dealer könnte meine Tochter sein
+        - Ich war Torschützenkönig in der Kreisliga
+        - Jetzt bin ich älter als die ganzen scheiß Trainer da
+    - lines:
+        - Oh Gott
+    - lines:
+        - Ich war so fresh und jetzt muss ich krepieren
+        - Schatz, komm bitte her meinen Rücken rasieren
+        - Wenn mich noch ein paar mehr Kinder siezen (Nein!)
+        - Dann muss ich mich erschießen
+    - lines:
+        - Oh no, oh no
+        - Brudi, mein Swag ist nicht mehr dope
+        - Oh no, oh no
+        - Ich bin so alt, ich bin bald schon tot
+        - Wie peinlich
+        - Ich bin Ü30
+        - Wie motherfucking peinlich
+        - Ich will keine Gleitsichtbrille
+    - lines:
+        - Baby, oh no (Voltaren, Ibuprofen)
+        - (Alpecin und Aspirin)
+        - Ich war mal ein Geiler, ich war mal ein Heißer (Voltaren, Ibuprofen)
+        - Jetzt bin ich der In-das-Gras-Beißer
+        - Ich war mal ein Cooler, ich war mal ein Cooler (Alpecin und Aspirin)
+        - Jetzt bin ich bald kühl in der Grube
+---

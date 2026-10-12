@@ -1,0 +1,82 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sono arrivato dal vuoto con i poteri laser e un piano
+        - Mandato dai miei signori supremi per indagare le tue terre
+        - È vero, non riesco a credere a quello che fanno
+        - Questi idioti malguidati adorano il frutto proibito
+    - lines:
+        - Oh, amico alieno di una galassia
+        - Dove non credono a quello che i loro occhi vedono
+        - Questi umani sono stupidi con i loro modi così bizzarri
+        - Ma la pizza all'ananas è la stella splendente della Terra
+    - lines:
+        - Una stranezza fatta di impasto, con formaggio e pomodoro sopra
+        - Ma l'ananas non va bene, ci riempiva sempre di paura
+    - lines:
+        - Vaffanculoste, non temo nessuna fetta
+        - Sto per dare un morso
+        - Lascia che i sapori ora divampino
+        - La pizza all'ananas ora sa di giusto
+    - lines:
+        - Non temo nessuna fetta
+        - Lascia che i sapori ora divampino
+        - Prendi un morso, non temo nessuna fetta
+        - La pizza è amore al primo morso
+        - Non temo nessuna fetta
+        - Lascia che i sapori ora divampino
+        - Prendi un morso, non temo nessuna fetta
+        - Prendi un morso
+        - La pizza è amore al primo morso
+    - lines:
+        - Oh, amico alieno di una galassia
+        - Dove non credono a quello che i loro occhi vedono
+        - Questi umani sono stupidi con i loro modi così bizzarri
+        - Ma la pizza all'ananas è la stella splendente della Terra
+    - lines:
+        - Il sapore, il formaggio, l'armonia
+        - Questo cerchio magico è stato fatto per me
+        - Ha cambiato il mio cuore, ha cambiato la mia anima
+        - Questa poesia di una pizza vale più di tutto
+    - lines:
+        - Il sapore, il formaggio, l'armonia
+        - Questo cerchio magico è stato fatto per me
+        - Ha cambiato il mio cuore, ha cambiato la mia anima
+        - Questa poesia di una pizza vale più di tutto
+    - lines:
+        - Ma che cazzo?
+        - Fermatelo, fermati
+        - Sei matto?
+        - Questa merda fa schifo
+        - Fateli esplodere
+        - Ma che cazzo?
+        - Fermatelo, fermati
+        - Sei matto?
+        - Questa merda fa schifo
+        - Fateli esplodere
+    - lines:
+        - Fai esplodere questo pianeta
+        - Vai, vai e fai esplodere
+        - Fai esplodere questo pianeta
+        - Vai, vai, non mostrare amore
+        - Fallo esplodere
+        - Fateli esplodere
+    - lines:
+        - Oh, amico alieno di una galassia
+        - Dove non credono a quello che i loro occhi vedono
+        - Questi umani sono stupidi con i loro modi così bizzarri
+        - Ma la pizza all'ananas è la stella splendente della Terra
+    - lines:
+        - Oh, amico alieno di una galassia
+        - Dove non credono a quello che i loro occhi vedono
+        - Questi umani sono stupidi con i loro modi così bizzarri
+        - Ma la pizza all'ananas è la stella splendente della Terra
+    - lines:
+        - Oh, amico alieno di una galassia
+        - Dove non credono a quello che i loro occhi vedono
+        - Questi umani sono stupidi con i loro modi così bizzarri
+        - Ma la pizza all'ananas è la stella splendente della Terra
+---

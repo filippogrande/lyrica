@@ -1,0 +1,57 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - We, we wanna swim the deepest depths of oblivion
+        - We wanna know that the gods have us in control
+    - lines:
+        - We see the cards and we go to fold
+        - We play along but it soon grows old
+        - They took the ark and sold it all for parts
+        - They've got a fist full of fucking gold
+        - A return on the souls they sold
+        - Do you remember who we are?
+        - These tyrants will build an abyss
+        - But the rest of us wish to exist
+        - We're hiding like a shadow in the dark
+    - lines:
+        - In the dark
+    - lines:
+        - Be the change that you wanna see
+        - No, not like that
+        - It's a risk we can all agree
+        - Fuck the fucking facts
+        - But it bleeds right in front of me
+        - We're under attack
+        - Yeah, we all know that these rights are holy
+    - lines:
+        - We see the cards and we go to fold
+        - We play along but it soon grows old
+        - They took the ark and sold it all for parts
+        - They've got a fist full of fucking gold
+        - A return on the souls they sold
+        - Do you remember who we are?
+        - These tyrants will build an abyss
+        - But the rest of us wish to exist
+        - We're hiding like a shadow in the dark
+    - lines:
+        - We're never gonna leave this shell
+        - Let's hope your gold don't fail you now
+        - Save us a special place in hell
+        - You're the reason that our hearts ache
+        - Deep fake
+    - lines:
+        - We are one and the fucking same
+        - We see the cards and we go to fold
+        - We play along but it soon grows old
+        - We took the ark and sold it all for parts
+        - They've got a fist full of fucking gold
+        - A return on the souls they sold
+        - Do you remember who we are?
+        - These tyrants will build an abyss
+        - But the rest of us wish to exist
+        - We're fighting with a shadow in the dark
+    - lines:
+        - Deep fake
+---

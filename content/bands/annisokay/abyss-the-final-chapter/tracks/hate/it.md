@@ -1,0 +1,80 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Una sensazione divisa di me stesso
+        - Mi sento qualcun altro
+        - È sia Paradiso che Inferno
+        - Sto rompendomi, mi sto rompendo
+        - La mia mente è in guerra
+        - Una battaglia per la mia anima
+        - Sono libero, ma perso, lo sai
+        - Non c'è via d'uscita, nessuna via da percorrere
+    - lines:
+        - L'ira, la rabbia
+        - Il veleno, la peste
+        - Distruggono tutto ciò che è puro
+    - lines:
+        - Sono l'odio
+        - Sono la paura
+        - Sono la voce che non puoi sentire
+        - Sono la fine che è sempre vicina (la fine che è sempre vicina)
+    - lines:
+        - H. A. T. E.
+        - Avere rabbia verso tutto
+        - H. A. T. E.
+        - Avere rabbia verso tutto
+    - lines:
+        - Il mio passato sepolto dentro
+        - Sembra che io sia sepolto vivo
+        - Non riesco ad aprire gli occhi
+        - Chi sono
+    - lines:
+        - Sono diviso e strappato in due
+        - Ma so da che parte andare
+        - Raccoglierò la mia croce
+        - Per salvare la mia anima
+    - lines:
+        - L'ira, la rabbia
+        - Il veleno, la peste
+        - Distruggono tutto ciò che è puro
+    - lines:
+        - Sono l'odio
+        - Sono la paura
+        - Sono la voce che non puoi sentire
+        - Sono la fine che è sempre vicina (che è sempre vicina)
+    - lines:
+        - Sono l'odio
+        - Sono la paura
+        - Sono il dolore che conservi caro
+        - Sono la fine che è sempre vicina
+    - lines:
+        - Sei stato un mostro
+        - E lo vedo
+        - Sei solo un guscio vuoto
+        - Un'ombra di me
+    - lines:
+        - La mia mente è in guerra con sé stessa
+        - Sembra che io sia qualcun altro
+        - Quei demoni che non posso negare
+        - Perché la mia mente è solo inferno
+    - lines:
+        - H. A. T. E.
+    - lines:
+        - Sono l'odio
+        - Sono la paura
+        - Sono la voce che non puoi sentire
+        - Sono la fine che è sempre vicina (che è sempre vicina)
+    - lines:
+        - Sono l'odio
+        - Sono la paura
+        - Sono il dolore che conservi caro
+        - Sono la fine di tutti i tuoi sogni (la fine di tutti i tuoi sogni)
+    - lines:
+        - H. A. T. E.
+        - Avere rabbia verso tutto
+        - H. A. T. E.
+        - Avere rabbia verso tutto
+---

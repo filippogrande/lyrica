@@ -1,0 +1,57 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - (Uno, due, tre, quattro)
+        - Mh, ah (Yeah)
+        - Yeehaw
+        - Ascoltate
+    - lines:
+        - Quando ero ancora un ragazzino
+        - Sedevo con papà al falò
+        - Proprio così, era duro ma giusto
+        - Sì, era forte come un orso
+        - E quando parlava, la verità era nell'aria
+        - 'Diceva: "Ehi campione, quando tutto ti è contro'
+        - E davvero non va più niente
+        - Raccogli il tuo coraggio e dì"
+    - lines:
+        - Dimmi, castello da arrampicata
+        - Hai baciato una donna nuda (Ey)
+        - Dai, dimmi, castello da arrampicata
+        - Hai baciato una donna nuda-au-au (Yeah)
+    - lines:
+        - Oggi sono grande, lavoro duro per il mio pane
+        - Solo il mio dannato capo, è un idiota
+        - Dice che mi ha licenziato, solo perché bevo al lavoro
+        - Mi apro un'altra birretta e urlo, e urlo-uh-o
+    - lines:
+        - Dimmi, castello da arrampicata
+        - Hai baciato una donna nuda (Ey)
+        - Dai, dimmi, castello da arrampicata
+        - Hai baciato una donna nuda-au-au (Yeah)
+    - lines:
+        - Oh, dimmi, pomodoro (Pomodoro)
+        - Tua nonna sa fare karate
+        - Lime (Lime)
+        - Sei incastrato nel water
+        - Dimmi, dino (Dino)
+        - Sei seduto nudo al cinema
+        - Dimmi, cuscino
+        - Ti sei cagato nei pantaloni, ey
+    - lines:
+        - Castello da arrampicata
+        - Hai baciato una donna nuda (Sulla bocca, hahaha)
+        - Dai, dimmi, castello da arrampicata (Yeah, dillo ancora)
+        - Hai baciato una donna nuda-au-au (L'hai fatto, l'hai fatto, yeah, l'hai fatto)
+    - lines:
+        - Yeehaw
+        - L'hai baciata (Yeah)
+        - L'hai baciata (Baciala ancora)
+        - L'hai baciata
+        - Era molto nuda
+        - E anche tu eri nudo
+        - Sei un baciatore di donne nude, hehehe
+        - Dannazione, figlio mio, vecchio baciatore nudo, hehehe
+---

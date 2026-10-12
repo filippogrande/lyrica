@@ -1,0 +1,103 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - All of his life
+        - He tried to behave
+        - But all his calm was never meant to stay
+    - lines:
+        - I feel my heart running fast to the beat
+        - Waking up the other side of me
+        - So I just let it go
+        - There's nothing I can do
+        - But to breathe and give in to the heat
+    - lines:
+        - And I feel so alive when I'm losing control
+        - Step aside, I'm about to explode
+        - Feel the bass in my heart that is made of steel
+        - And I know, oh-oh
+        - I'm gonna be the one to break it all
+    - lines:
+        - I don't wanna break it
+        - Don't wanna break it all
+        - The beat says yeah
+        - The beat says yeah
+        - I don't wanna wreck it
+        - Don't wanna lose control
+        - The beat says yeah
+        - The beat says yeah
+        - I don't wanna break it
+        - Don't wanna break it all
+        - The beat says yeah
+        - The beat says yeah
+        - I don't wanna wreck it
+        - Don't wanna lose control
+        - The beat says yeah
+        - The beat says yeah
+    - lines:
+        - Never give up
+        - Never give in
+        - Ready to fight
+        - When the beat is kicking in
+        - Deep in my heart
+        - Under my skin
+        - I feel the rage
+        - Cannot hold it in
+    - lines:
+        - I knock you back and trap you inside
+        - This is MadEvil Manor
+        - You got nowhere to hide
+        - I am born to own the stage
+        - But when the bass is kicking in, oh-oh
+        - I will never be the same
+    - lines:
+        - I don't wanna break it
+        - Don't wanna break it all
+        - The beat says yeah
+        - The beat says yeah
+        - I don't wanna wreck it
+        - Don't wanna lose control
+        - The beat says yeah
+        - The beat says yeah
+    - lines:
+        - Never give up
+        - Never give in
+        - Ready to fight
+        - When the beat is kicking in
+        - Deep in my heart
+        - Under my skin
+        - I feel the rage
+        - Cannot hold it in
+    - lines:
+        - And when I'm hiding in the dark
+        - I can feel my pounding heart
+        - I wanna shut it down for once
+        - But it keeps on beating
+        - You know what's up
+        - You can't escape
+        - I'm gonna break it down in a total rage
+        - My metal heart is hypercharged
+        - This is what keeps me alive
+    - lines:
+        - This is when I lose control
+        - Brawl!
+        - Watch out!
+        - It ain't stopping now
+        - I can't hold it anymore
+        - The beat is dropping
+        - It ain't stopping, yeah
+        - It's a part of me now
+        - This is what keeps me alive
+    - lines:
+        - Never give up
+        - Never give in
+        - Ready to fight
+        - When the beat is kicking in
+        - Never give up never give in, ready to fight
+        - When the beat is kicking in
+        - Deep in my heart
+        - Under my skin I feel the rage cannot hold it in
+        - Now I can't hold it anymore
+        - It ain't stopping
+---

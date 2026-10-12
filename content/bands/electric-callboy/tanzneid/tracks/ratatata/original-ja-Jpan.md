@@ -1,0 +1,127 @@
+---
+lang: ja-Jpan
+role: original
+stanzas:
+    - lines:
+        - Every night when the sky turns red up above
+        - I feel the beat in my veins and I'm searching for love
+        - You know that hips don't lie, I leave you hypnotized
+        - Just give me one more try to make you feel that vibe
+        - And it goes
+    - lines:
+        - Ra ta ta ta ta ta!
+        - My body is a weapon
+        - Ra ta ta ta ta ta!
+        - We're gonna hit the floor
+        - Ra ta ta ta ta ta!
+        - We're gonna make it happen
+        - Ra ta ta ta ta ta!
+        - Now gimme some more
+    - lines:
+        - I will push it to the limit
+        - And everybody's feeling the sound of the night
+        - I don't wanna stop
+        - We push it to the limit
+        - Together we will crash the morning light
+    - lines:
+        - ブチアガレ!
+        - ブンブンブン ムーヴィング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン シェイキング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン ジャンピング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン ストンピング
+        - ブンブンブンブン
+    - lines:
+        - アゲ!
+        - キラっとしちゃう
+        - アゲ!
+        - フワっとしちゃう
+        - アゲ!
+        - ドキっとしちゃう
+        - アゲ!
+        - 小悪魔しちゃうけど
+        - 大丈夫？
+        - 瞳に映した
+        - 笑顔の魔法で
+        - 罠に誘い込む
+        - And it goes
+    - lines:
+        - Ra ta ta ta ta ta!
+        - My body is a weapon
+        - Ra ta ta ta ta ta!
+        - We're gonna hit the floor
+        - Ra ta ta ta ta ta!
+        - We're gonna make it happen
+        - Ra ta ta ta ta ta!
+        - Now gimme some more
+    - lines:
+        - I will push it to the limit
+        - And everybody's feeling the sound of the night
+        - I don't wanna stop
+        - We push it to the limit
+        - Together we will crash the morning light
+    - lines:
+        - ブチアガレ!
+        - ブンブンブン ムーヴィング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン シェイキング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン ジャンピング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン ストンピング
+        - ブンブンブンブン
+    - lines:
+        - I'm here for the moment
+        - Here for the beat
+        - Here for the love
+        - And the friends I need
+        - You know that I'll be there for good
+    - lines:
+        - I'm here for the moment
+        - Here for the beat
+        - Here for the love
+        - And the friends I need
+        - You know that I'll be there for good
+    - lines:
+        - RA TA TA TA!
+        - I go fucking crazy 'cause I'm waiting for the drop
+        - Are you ready? (Are you ready?)
+        - Let's GO!
+    - lines:
+        - So tell me baby can I get a
+        - (Fu! Fu!)
+        - So hear me now
+        - (Fu! Fu!)
+        - You know what I want
+        - (Fu! Fu!)
+        - Now everybody's getting down
+    - lines:
+        - I will push it to the limit
+        - And everybody's feeling the sound of the night
+        - I don't wanna stop
+        - We push it to the limit
+        - Together we will crash the morning light
+    - lines:
+        - ブチアガレ!
+        - ブンブンブン ムーヴィング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン シェイキング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン ジャンピング
+        - ブンブンブンブン (フー! フー!)
+        - ブンブンブン ストンピング
+        - ブンブンブンブン
+    - lines:
+        - Everybody
+        - (Fu! Fu!)
+        - Out of control
+        - (Fu! Fu!)
+        - Everybody
+        - (Fu! Fu!)
+        - Out of control
+        - (Fu! Fu! Fu! Fu!)
+    - lines:
+        - Now everybody's getting down
+---

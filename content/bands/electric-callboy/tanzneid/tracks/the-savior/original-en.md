@@ -1,0 +1,75 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - The world has lit a match
+        - And now, we watch it burn
+        - Scream it out from the top of your lungs
+        - It's the end of days, but we're singing along
+        - We wanna get high, baby, but the flames getting higher
+        - The planet is dying, but the memes are on fire
+        - We wanna get out of here, we wanna disappear
+        - Smile for a selfie, while the world's in decay
+    - lines:
+        - We're gonna get loud, throw the ash in the air
+        - And fucking get loud, we're gonna light it up, light it up
+        - Get loud, it's the end of the day so
+        - Get loud, get loud
+    - lines:
+        - We wanna get high again
+        - We wanna get down until the end
+        - If we ever fall onto the ground
+        - We will always get up again
+        - Till the sun will make us high again
+        - We wanna get down until the end
+        - If we ever fall onto the ground
+        - We will always get up again
+        - Till the sun will make us high
+        - We're gonna turn it up
+    - lines:
+        - You really need to get loud
+        - '''Cause every single word could be our last shout'
+        - Waiting for a miracle, a get out
+        - We need a true survivor
+        - Looking for freedom, for a new messiah
+    - lines:
+        - Get loud, throw the ash in the air
+        - And fucking get loud, we're gonna light it up, light it up
+        - Get loud, it's the end of the day so
+        - Get loud, get loud
+    - lines:
+        - We wanna get high again
+        - We wanna get down until the end
+        - If we ever fall onto the ground
+        - We will always get up again
+        - Till the sun will make us high again
+        - We wanna get down until the end
+        - If we ever fall onto the ground
+        - We will always get up again
+        - Till the sun will make us high
+        - We're gonna turn it up
+    - lines:
+        - When hope is gone
+        - And the night feels long
+        - There's a sound in the distance
+        - Hear that song
+        - You called me
+        - In the darkest time
+        - I'm coming to save you
+        - Just close your eyes
+    - lines:
+        - When hope is gone
+        - And the night feels long
+        - There's a sound in the distance
+        - Hear that song
+        - And I can hear you calling
+        - In the darkest time
+        - I'm coming to save you
+        - Just close your eyes
+    - lines:
+        - And I'm gonna wake you up
+        - '''Cause I really wanna get loud, and we never gonna stop'
+        - Can you see the chaos drop? We're raging till the bottles pop
+        - Get loud, just get loud
+---

@@ -1,0 +1,50 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Fischi, Fischi, yo, Fischi, yo, Fischi, yeah
+        - Fischi, Fischi, yo, Fischi, yo, Fischi, yeah
+        - Rochen Roll
+    - lines:
+        - Ciao (Dove?), sono un pesce
+        - Ho le branchie e la faccia proprio come un pesce
+        - Sono viscido come un'anguilla
+        - Questa canzone è un killer come una balena
+        - Vuoi una foto con me, ma il tuo telefono è scarico
+        - Chiedi al pesce, guarda, ho un cavo-pesce per la ricarica
+        - Sono Barsch (Hey), Barsch (Ho), Barsch (Hey)
+        - Il luccio mi fa star male, hüah
+    - lines:
+        - Barsch, Barsch, Barsch, Barsch
+        - Barsch, Barsch, Barsch, Barsch
+        - Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-...
+    - lines:
+        - Leccami il Barsch, Barsch, Barsch, Barsch
+        - Leccami il Barsch, Barsch, Barsch, Barsch
+        - Leccami il Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+        - Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+    - lines:
+        - Sei un pesce figo? Io mi sganascio dal ridere
+        - Qual è il tuo pesce preferito? (Barsch) Io delfino bene
+        - Il mio nome è Alex Zander, vivo water under
+        - 'Lancio i guppy per tutto il club e grido: "Blub, blub"'
+        - 'Lancio i guppy per tutto il club e grido: "Blub, blub"'
+        - 'Lancio i guppy per tutto il club e grido: "Blub, blub"'
+        - Sono Barsch (Hey), Barsch (Ho), Barsch (Hey)
+        - Il luccio mi fa star male, hüah
+    - lines:
+        - Barsch, Barsch, Barsch, Barsch
+        - Barsch, Barsch, Barsch, Barsch
+        - Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-...
+    - lines:
+        - Leccami il Barsch, Barsch, Barsch, Barsch
+        - Leccami il Barsch, Barsch, Barsch, Barsch
+        - Leccami il Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+        - Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Ba-Ba-
+    - lines:
+        - 'Lancio i guppy per tutto il club e grido: "Blub, blub"'
+        - 'Lancio i guppy per tutto il club e grido: "Blub, blub"'
+        - 'Lancio i guppy per tutto il club e grido: "Blub, blub"'
+        - Lancio i guppy per tutto il club
+---

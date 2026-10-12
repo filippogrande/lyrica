@@ -1,0 +1,54 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ti ho visto nello specchietto retrovisore
+        - I lampioni che ti schizzano in oro
+        - Solo un cenno, poi eri sparita
+        - Non sapevo che saresti finita così
+    - lines:
+        - Momenti intrappolati nel vetro della finestra
+        - La tua risata che balla ancora nell'aria
+        - Se avessi saputo che sarebbe finito
+        - Sarei rimasto, avrei avuto cura
+    - lines:
+        - Un'altra occasione è tutto ciò che mi serve
+        - Per tenerti vicino, senza mai lasciarti andare
+        - Ora vivo nel passato
+        - Tenendo schegge fatte di vetro
+    - lines:
+        - Un'altra occasione è tutto ciò che mi serve
+        - Per tenerti vicino, senza lasciarti andare
+        - Ora vivo nel passato
+        - Tenendo schegge fatte di vetro
+    - lines:
+        - Le promesse che non ho mai fatto
+        - Faranno sempre eco nel mio petto
+        - Non ti ho visto svanire come fumo
+        - Con solo il silenzio come ospite
+    - lines:
+        - Piccole tracce restano ancora
+        - Come la tua tazza ancora al lavandino
+        - Un'altra crepa sul vetro
+        - E per un momento non riesco a pensare
+    - lines:
+        - Un'altra occasione è tutto ciò che mi serve
+        - Per tenerti vicino, senza mai lasciarti andare
+        - Ora vivo nel passato
+        - Tenendo schegge fatte di vetro
+    - lines:
+        - Un'altra occasione è tutto ciò che mi serve
+        - Per tenerti vicino, senza lasciarti andare
+        - Ora vivo nel passato
+        - Tenendo schegge fatte di-
+    - lines:
+        - (Schegge fatte di vetro)
+        - Tenendo schegge fatte di vetro
+        - Un'altra occasione è tutto ciò che mi serve
+        - (Schegge fatte di vetro)
+        - Un'altra occasione è tutto ciò che mi serve
+        - Schegge fatte di vetro
+        - Schegge fatte di vetro
+---

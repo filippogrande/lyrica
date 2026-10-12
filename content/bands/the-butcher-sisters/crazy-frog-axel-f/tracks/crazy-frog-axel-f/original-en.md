@@ -1,0 +1,42 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Ring ding ding daa baa
+        - Baa aramba baa bom baa barooumba
+        - Wh-wha-what's going on-on?
+    - lines:
+        - Ding, ding
+        - This is the Crazy Frog, yeah!
+        - Ding, ding
+        - Bem bem!
+    - lines:
+        - Ring ding ding ding ding
+        - Ring ding ding ding ding ding
+        - Ring ding ding ding ding
+        - Ring ding ding baa baa
+        - Ring ding ding ding
+        - Ring ding ding ding ding
+        - Ring ding ding ding
+        - This is the Crazy Frog
+        - Crazy Frog, yeah!
+    - lines:
+        - Br-br-break it, br-break it
+        - Bem, bem!
+        - This is the Crazy Frog
+        - This is the Crazy Frog
+    - lines:
+        - A ram me am brem da
+        - Am da rem ram am da baabeeeaaaaaaa!
+    - lines:
+        - This is the Crazy Frog
+    - lines:
+        - Ding, ding
+        - Bem, bem!
+        - This is the Crazy Frog
+    - lines:
+        - Bem, bem!
+        - This is the Crazy Frog
+        - This is the Crazy Frog
+---

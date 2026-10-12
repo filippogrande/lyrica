@@ -1,0 +1,55 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Brain dead
+    - lines:
+        - Ho trovato la felicità nell'apocalisse
+        - Immagino che vomiterò finché non avrò la mia dose
+        - Fotterti tutto, dovrei dichiarare un pareggio
+        - Dottore, dottore, questo è così traumatico
+    - lines:
+        - Non diventerai mai un astronauta
+        - Non poserai mai le mani sul tesoro
+        - Non sei nient'altro che un pensiero tardivo
+        - Prima lo prendi, meglio è
+    - lines:
+        - Più in alto di un aquilone, sì, sono più leggero di una piuma
+        - Stai lontano, stai lontano, stai fottutamente lontano
+        - Collegato ogni notte e poi lo rubo a un altro giorno
+        - C'è stata una rapina
+        - Stanco della lotta, ma sono iperattivo dal terrore
+        - Stai lontano, stai lontano, niente scuse
+        - Sepolgi quelle teste e potremo essere tutti brain dead
+    - lines:
+        - Possiamo inchiodarci su un crocifisso
+        - Ce ne andremo tutti, perché siamo ipocriti
+        - Non è forse felicità vivere in viaggi nell'ego?
+        - Gesù Cristo, devo essere sintomatico
+    - lines:
+        - Non c'è nessuno che non si possa comprare
+        - Qualcuno regge la pressione?
+        - Come vivere con un supporto vitale
+        - Ma preoccupati a morte 'cause del tempo
+    - lines:
+        - Più in alto di un aquilone, sì, sono più leggero di una piuma
+        - Stai lontano, stai lontano, stai fottutamente lontano
+        - Collegato ogni notte e poi lo rubo a un altro giorno
+        - C'è stata una rapina
+        - Stanco della lotta, ma sono iperattivo dal terrore
+        - Stai lontano, stai lontano, niente più profezie
+        - Sepolgi quelle teste e potremo essere tutti brain dead
+    - lines:
+        - (Ehi) Siamo figli di figlie
+        - Che annegano se stessi nelle acque basse
+        - Portando gli agnelli al macello
+        - Non saremo felici finché non saremo squartati e fatti a pezzi
+    - lines:
+        - No, no, un errore nel codice sorgente
+        - No, no, e ora balliamo sull'agonia della morte
+        - Blegh, un errore nel codice sorgente (Ehi)
+        - Errore
+        - Un errore nel codice sorgente
+---

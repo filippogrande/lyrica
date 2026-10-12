@@ -1,0 +1,79 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Vivi a pigione nella tua testa
+        - '"Rip Requiem", hanno commentato'
+        - L'ho sentito quando hanno detto
+        - '"Ti amiamo solo quando sei tutto rosso"'
+        - Blegh
+        - Vedere il rosso
+    - lines:
+        - Dovresti sapere che sono come una macchina rotta
+        - Non sono impermeabile come mi dipingete
+        - Il tempo non si è fermato, perché vuoi che urli?
+        - Sei un tossico punk che si cura gratis?
+    - lines:
+        - Sei tutto ciò che ci serve
+        - Ci farai re
+        - Saremo i migliori nemici
+    - lines:
+        - Leggimi tutti i diritti
+        - Non mi stancherò mai del tuo splendido consiglio
+        - Non mi dirà nessuno in cosa credo?
+        - Mi dispiace per il tuo sacrificio
+        - Immagino di aver suonato come l'Anticristo
+        - Non mi dirà nessuno
+        - Non mi dirà nessuno
+        - In cosa credo?
+    - lines:
+        - Niente debiti, solo amore, me ne fotto
+        - La mia testa, il mio cuore, non basterebbero
+        - Non ci penserò due volte
+        - Temo di essere il prete e tu il poltergeist
+        - Siamo come una grande famiglia
+        - Gee, grazie mille per la minaccia di morte
+        - Senti l'audacia?
+        - Voi idioti vivete solo su internet
+    - lines:
+        - Sei tutto ciò che ci serve (Ah sì? Esatto!)
+        - Ci farai re (Dammi quell'oro)
+        - Saremo i migliori nemici
+    - lines:
+        - Leggimi tutti i diritti
+        - Non mi stancherò mai del tuo splendido consiglio
+        - Non mi dirà nessuno in cosa credo?
+        - Mi dispiace per il tuo sacrificio
+        - Immagino di aver suonato come l'Anticristo
+        - Non mi dirà nessuno
+        - Non mi dirà nessuno
+        - In cosa credo?
+    - lines:
+        - Oh
+    - lines:
+        - '"Sei felice adesso?"'
+        - Vivi a pigione nella tua testa
+        - '"Rip Requiem", hanno commentato'
+        - L'ho sentito quando hanno detto
+        - '"Ti amiamo solo quando sei tutto rosso"'
+    - lines:
+        - Il cielo brucia luminoso
+        - Devi davvero chiederti come dormo di notte
+        - Non mi dirà nessuno?
+        - Non mi dirà nessuno?
+    - lines:
+        - Leggimi tutti i diritti
+        - Non mi stancherò mai del tuo splendido consiglio
+        - Non mi dirà nessuno in cosa credo?
+        - Mi dispiace per il tuo sacrificio
+        - Immagino di aver suonato come l'Anticristo
+        - Non mi dirà nessuno
+        - Non mi dirà nessuno
+    - lines:
+        - In cosa credo?
+        - In cosa credo?
+        - Tutti gli occhi su di me
+        - In cosa credo
+---

@@ -1,0 +1,60 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sono stufo di tenermi stretto
+        - Sono stufo di quello che sono diventato
+        - C'era un tempo in cui vagavo, intorpidito a ogni parola che dicevi
+        - Intrappolato sotto il peso di pensieri che non riuscivo a scacciare
+        - Le ore si dilatavano in vite, bloccato dentro la mia testa
+        - Oppresso sotto il dubbio che non mi sono mai liberato
+    - lines:
+        - Questi echi di una battaglia
+        - Cicatrici che non ho mai mostrato
+        - Non riesco a vedere la fine
+        - Perso nell'ignoto
+        - Combattere all'infinito
+        - Sto perdendo contro me stesso
+        - Quanto posso ancora resistere
+        - In questo inferno abbandonato
+    - lines:
+        - Sono stufo di tenermi stretto
+        - Sono stufo di quello che sono diventato
+    - lines:
+        - Il tempo è passato, ma i demoni sono rimasti, non hanno mai perso la presa
+        - Il passato mi segue da vicino con artigli che divorano lentamente
+        - Anche se sono guarito in superficie, le ferite bruciano ancora dentro
+        - Cammino ancora sul bordo di dove comincia il buio
+    - lines:
+        - Questi echi di una battaglia
+        - Cicatrici che non ho mai mostrato
+        - Non riesco a vedere la fine
+        - Perso nell'ignoto
+        - Combattere all'infinito
+        - Sto perdendo contro me stesso
+        - Quanto posso ancora resistere
+        - In questo inferno abbandonato
+    - lines:
+        - Sei il mio riflesso, mi hai visto bruciare
+        - Ho attraversato il fuoco, ma ora è il tuo turno
+    - lines:
+        - Ogni respiro sembra una lotta
+        - Graffiando attraverso il buio
+        - Ma non sto bene
+    - lines:
+        - Sto picchiando il muro solo per sentire qualcosa
+        - Dipendente dalla violenza, il tuo burattino con i fili
+        - Soffocando me stesso, finché il mio battito non torna
+        - Ancora intrappolato nel tuo fuoco, dove la sanità brucia
+    - lines:
+        - Questi echi di una battaglia
+        - Cicatrici che non ho mai mostrato
+        - Non riesco a vedere la fine
+        - Perso nell'ignoto
+        - Combattere all'infinito
+        - Sto perdendo contro me stesso
+        - Quanto posso ancora resistere
+        - In questo inferno abbandonato
+---

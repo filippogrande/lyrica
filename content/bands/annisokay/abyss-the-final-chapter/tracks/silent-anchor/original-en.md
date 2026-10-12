@@ -1,0 +1,48 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Drag me down slow, deeper below
+        - Tethered tight, you won't let go
+        - Passive torture, quiet violence
+        - Choking slowly on your silence
+    - lines:
+        - You built this cage, locked the door
+        - Threw your keys to the ocean floor
+        - Deeper and deeper, I'm pulled below
+        - Into depths you'll never know
+    - lines:
+        - I'm sinking further every day
+        - Watching colors fade away
+        - Held beneath your apathy I'll keep fighting but you don't care
+        - You're killing me slowly by simply standing there
+    - lines:
+        - Words like knives, you never speak
+        - Bleeding out, too numb to scream
+        - Promises rust, trust corrodes
+        - Your empty eyes watch me erode
+    - lines:
+        - You built this cage, locked the door
+        - Threw your keys to the ocean floor
+        - You stood there just to watch me drown
+        - And called this twisted wreck your crown
+    - lines:
+        - I'm sinking further every day
+        - Watching colors fade away
+        - Held beneath your apathy I'll keep fighting but you don't care
+        - You're killing me slowly by simply standing there
+    - lines:
+        - Cut the rope, let me arise
+        - Watch me break your perfect lies
+        - I scream, I drown, but you just look away
+        - Your empire has become my grave
+    - lines:
+        - I'm sinking further every day
+        - Watching colors fade away
+        - Held beneath your apathy I'll keep fighting but you don't care
+        - You're killing me slowly by simply standing there
+    - lines:
+        - I'm starving, suffocating slow
+        - By doing nothing, you've let me go
+---
