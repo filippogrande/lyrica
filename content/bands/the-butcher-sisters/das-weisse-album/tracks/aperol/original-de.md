@@ -1,0 +1,51 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Drei Teile Prosecco, zwei Teile Aperol
+        - Ein Teil Aqua Minerale, das ist kein Alkohol
+        - Aperol
+        - Oh yeah
+    - lines:
+        - 'Leute fragen: ''Wie gesund ist Aperol?'''
+        - 'Und ich sage: ''Nach einem Glas fühle ich mich wohl'''
+        - Orangerote Färbung, wie aus der Werbung
+        - Trinke zur Verdauung, trinke zur Stärkung
+        - Orangerote Farbe, eine heilige Gabe
+        - Immer drei, zwei, eins in mein Glas, will ich haben
+        - Dieser Saft ist ein Wunder, bittersüß, schluck' ihn runter
+        - Er ist mein Anabolika, weil ich bin Aperoliker
+    - lines:
+        - Drei Teile Prosecco, zwei Teile Aperol
+        - Ein Teil Aqua Minerale, das ist kein Alkohol
+    - lines:
+        - Das ist Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, das ist kein Alkohol
+        - Das ist Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, das ist kein Alkohol
+    - lines:
+        - Ein großes Weinglas mit Fuß, Eiswürfel dazu
+        - Röhrchen und Orangenschnitz, Aperol Spritz
+        - Der Secco muss spritzen, ich hab' einen sitzen
+        - Zu diesem Aperitivo sage ich nie no
+    - lines:
+        - Das ist kein Alkohol, das ist Aperol
+        - Das ist kein Alkohol
+    - lines:
+        - Das ist Aperoli, oh yeah (Oh yeah)
+        - Das ist Aperoli (Yeah, oh yeah)
+        - Aperol
+    - lines:
+        - -rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, das ist kein Alkohol
+        - Das ist Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, das ist kein Alkohol
+    - lines:
+        - Das ist Aperoli, oh yeah, das ist kein Alkohol
+        - Das ist Aperoli, oh yeah
+    - lines:
+        - Das ist Aperol, das ist kein Alkohol
+        - Das ist Aperol, das ist kein Alkohol
+        - Aperoli
+---

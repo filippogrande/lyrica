@@ -1,0 +1,61 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Momenti preziosi passati senza un suono
+        - Provo a tenerli come un tesoro sotto terra
+        - Incapsulando tutto il bene che riesco a trovare
+        - Perché in questo buio solo i segreti sopravvivono
+    - lines:
+        - Quando i nostri cuori si scontrano
+        - Con la marea delle tenebre
+        - Mentre cadono attraverso i cieli
+        - Come fiori saranno
+    - lines:
+        - Il mio sanctum interiore
+        - Da qualche parte dentro le nuvole
+        - Che nessuno possa raggiungere
+        - Un rifugio silenzioso per la mia anima
+    - lines:
+        - Non mi prenderanno mai vivo da questo mondo
+        - Io definirò il tempo e il luogo
+        - Sarai sempre con me nella mia mente
+        - E solo i segreti sopravviveranno
+    - lines:
+        - Quando i nostri cuori si scontrano
+        - Con la marea delle tenebre
+        - Mentre cadono attraverso i cieli
+        - Come fiori saranno
+    - lines:
+        - Cadendo, cadendo
+        - Dalle vette che abbiamo conosciuto
+        - Saremo lontani, lontani
+        - Dal luogo che chiamiamo casa
+    - lines:
+        - Quando i nostri cuori si scontrano
+        - Con la marea delle tenebre
+        - Mentre cadono attraverso i cieli
+        - Come fiori saranno
+    - lines:
+        - Cadendo, cadendo
+        - Dalle vette che abbiamo conosciuto
+        - Saremo lontani, lontani
+        - Dal luogo che chiamiamo casa
+    - lines:
+        - Sanctum interiore
+        - Sanctum interiore
+        - Brucia, scotta la superficie
+        - Decadono ma il nostro tesoro sopravviverà
+    - lines:
+        - Quando i nostri cuori si scontrano
+        - Con la marea delle tenebre
+        - Mentre cadono attraverso i cieli
+        - Come fiori saranno
+    - lines:
+        - Cadendo, cadendo
+        - Dalle vette che abbiamo conosciuto
+        - Saremo lontani, lontani
+        - Dal luogo che chiamiamo casa
+---

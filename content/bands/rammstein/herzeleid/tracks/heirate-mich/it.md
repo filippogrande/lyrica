@@ -1,0 +1,58 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Lo si vede aggirarsi intorno alla chiesa
+        - Da un anno è solo
+        - Il lutto gli ha tolto ogni senso
+        - Dorme ogni notte accanto alla sua lapide
+    - lines:
+        - Là vicino alle campane dorme una pietra
+        - Solo io riesco a leggerla
+        - E sul recinto il gallo rosso
+        - Un tempo era il tuo cuore
+        - La paura infilzata su questo recinto
+        - Ora vado a scavare ogni notte
+        - Per vedere cosa resta ancora
+        - Del viso che mi rideva
+    - lines:
+        - Là vicino alle campane passo la notte
+        - Là tra le lumache un animale solitario
+        - Di giorno inseguo la notte
+        - Per la seconda volta mi sfuggi
+    - lines:
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+    - lines:
+        - Con le mie mani scavo in profondità
+        - Per trovare ciò che mi manca tanto
+        - E quando la luna nel vestito più bello
+        - Ho baciato la tua bocca fredda
+        - Ti prendo teneramente tra le braccia
+        - Ma la tua pelle si strappa come carta
+        - E pezzi cadono da te
+        - Per la seconda volta mi sfuggi
+    - lines:
+        - Là vicino alle campane passo la notte
+        - Là tra le lumache un animale solitario
+        - Di giorno inseguo la notte
+        - Per la seconda volta mi sfuggi
+    - lines:
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+    - lines:
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+        - Sposami (Ei-, ei-, ei-)
+    - lines:
+        - Così prendo ciò che è rimasto
+        - La notte è calda e siamo nudi
+        - Come maledizione il gallo saluta il mattino
+        - Gli ho tagliato la testa
+---

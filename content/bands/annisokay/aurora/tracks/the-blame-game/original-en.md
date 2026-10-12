@@ -1,0 +1,61 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Some guys are broken
+        - And only bring shit to your life
+        - You give them so much as an inch
+        - And they're taking the
+        - Fucking mile
+        - And some guys they just never capture
+        - The eye of the girls
+        - And some guys just never fit
+        - And never found their place
+        - In this world
+    - lines:
+        - Don't blame yourself
+        - Don't blame yourself
+        - For the sun
+        - As it burns out the love out of life
+        - Don't blame yourself
+        - For some coward
+        - Who just hides in the shape of man
+    - lines:
+        - And some guys just can't see the forest for the trees
+        - The chip on their shoulder is growing
+        - And somehow its all
+        - They can feel
+        - And some guys will never be honest with themselves
+        - They'll breathe in the heaven around you
+        - But breathe out the hell
+    - lines:
+        - Don't blame yourself
+        - Don't blame yourself
+        - For the sun
+        - As it burns out the love out of life
+        - Don't blame yourself
+        - For some coward
+        - Who just hides in the shape of man
+    - lines:
+        - Don't blame yourself
+        - But no excuses please
+        - But no excuses please
+        - But no excuses please
+    - lines:
+        - And some guys will always be bitter that
+        - They gave up on their dreams
+        - They've blamed everybody around them
+        - But never admitted a thing
+    - lines:
+        - So don't blame yourself
+        - No excuses please
+    - lines:
+        - Don't blame yourself
+        - Don't blame yourself
+        - For the sun
+        - As it burns out the love out of life
+        - Don't blame yourself
+        - For some coward
+        - Who just hides in the shape of man
+---

@@ -1,0 +1,79 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Is there a way out?
+        - I can not comprehend
+        - Oh, what the fuck is happening
+        - My hands are cold
+        - And my eyes are dead
+        - Dragging me away from here
+        - To finally mute these voices
+        - Inside my head
+    - lines:
+        - I feel this comfort in silence
+        - Far away from my violence
+        - I'm scared to admit
+        - But my brain's losing grip
+        - Shit I might slip
+        - Living my life away
+        - Disappointed of myself
+        - I need a
+        - Kick in my face
+        - To start to feel alive again
+    - lines:
+        - Why am I like this?
+        - My fingers shake
+        - When I'm thinking about you
+        - Every step I take
+        - My muscles ache
+        - From tip to toe
+        - For your soul sake
+        - My ambitions too low
+    - lines:
+        - Why am I like this?
+        - My fingers shake
+        - When I'm thinking about you
+        - Every step I take
+        - My muscles ache
+        - From tip to toe
+        - For your soul sake
+        - My ambitions too low
+    - lines:
+        - My past keeps hunting me
+        - And I feel like my back keeps running cold
+        - With my fears breaking free
+        - It seems like my story has been told
+    - lines:
+        - It seems like we've reached a dead end (uh)
+        - Please enjoy my freak show
+        - '''Cause I feel like I tied up both of my hands'
+        - There's just no way to leave now
+    - lines:
+        - Tell me why am I like this
+        - I'm thinking about you baby
+        - Living my life away
+        - Disappointed of myself
+        - I need a
+        - Kick in my face
+        - To start to feel alive again
+    - lines:
+        - Why am I like this?
+        - My fingers shake
+        - When I'm thinking about you
+        - Every step I take
+        - My muscles ache
+        - From tip to toe
+        - For your soul sake
+        - My ambitions too low
+    - lines:
+        - Why am I like this?
+        - My fingers shake
+        - When I'm thinking about you
+        - Every step I take
+        - My muscles ache
+        - From tip to toe
+        - For your soul sake
+        - My ambitions too low
+---

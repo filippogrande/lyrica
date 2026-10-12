@@ -1,0 +1,42 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Komm in mein Boot
+        - Ein Sturm kommt auf und es wird Nacht
+        - Wo willst du hin?
+        - So ganz allein treibst du davon
+        - Wer hält deine Hand
+        - Wenn es dich nach unten zieht?
+    - lines:
+        - Wo willst du hin?
+        - So uferlos die kalte See
+        - Komm in mein Boot
+        - Der Herbstwind hält die Segel straff
+    - lines:
+        - Jetzt stehst du da an der Laterne
+        - Mit Tränen im Gesicht
+        - Das Tageslicht fällt auf die Seite
+        - Der Herbstwind fegt die Straße leer
+    - lines:
+        - Jetzt stehst du da an der Laterne
+        - Hast Tränen im Gesicht
+        - Das Abendlicht verjagt die Schatten
+        - Die Zeit steht still und es wird Herbst
+    - lines:
+        - Komm in mein Boot
+        - Die Sehnsucht wird der Steuermann
+        - Komm in mein Boot
+        - Der beste Seemann war doch ich
+    - lines:
+        - Jetzt stehst du da an der Laterne
+        - Hast Tränen im Gesicht
+        - Das Feuer nimmst du von der Kerze
+        - Die Zeit steht still und es wird Herbst
+    - lines:
+        - Sie sprachen nur von deiner Mutter
+        - So gnadenlos ist nur die Nacht
+        - Am Ende bleib' ich doch alleine
+        - Die Zeit steht still und mir ist kalt (Kalt, kalt, kalt, kalt)
+---

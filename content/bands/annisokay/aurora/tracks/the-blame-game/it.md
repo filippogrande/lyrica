@@ -1,0 +1,62 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Alcuni ragazzi sono spezzati
+        - E portano solo merda nella tua vita
+        - Dai loro un pollicino e loro
+        - Si prendono
+        - Un miglio intero
+        - E alcuni ragazzi non riescono mai a catturare
+        - L'occhio delle ragazze
+        - E alcuni ragazzi non vanno mai bene
+        - E non trovano mai il loro posto
+        - In questo mondo
+    - lines:
+        - Non dare la colpa a te stesso
+        - Non dare la colpa a te stesso
+        - Al sole
+        - Mentre brucia l'amore fuori dalla vita
+        - Non dare la colpa a te stesso
+        - Per qualche codardo
+        - Che si nasconde dietro le sembianze d'uomo
+    - lines:
+        - E alcuni ragazzi non vedono la foresta per gli alberi
+        - Il rancore sulla loro spalla sta crescendo
+        - E in qualche modo è tutto
+        - Riescono a sentire
+        - E alcuni ragazzi non saranno mai onesti con se stessi
+        - Respirano il paradiso intorno a te
+        - Ma espirano l'inferno
+    - lines:
+        - Non dare la colpa a te stesso
+        - Non dare la colpa a te stesso
+        - Al sole
+        - Mentre brucia l'amore fuori dalla vita
+        - Non dare la colpa a te stesso
+        - Per qualche codardo
+        - Che si nasconde dietro le sembianze d'uomo
+    - lines:
+        - Non dare la colpa a te stesso
+        - Ma niente scuse, per favore
+        - Ma niente scuse, per favore
+        - Ma niente scuse, per favore
+    - lines:
+        - E alcuni ragazzi saranno sempre amareggiati perché
+        - Hanno rinunciato ai loro sogni
+        - Hanno dato la colpa a tutti intorno a loro
+        - Ma non hanno mai ammesso niente
+    - lines:
+        - Quindi non dare la colpa a te stesso
+        - Niente scuse, per favore
+    - lines:
+        - Non dare la colpa a te stesso
+        - Non dare la colpa a te stesso
+        - Al sole
+        - Mentre brucia l'amore fuori dalla vita
+        - Non dare la colpa a te stesso
+        - Per qualche codardo
+        - Che si nasconde dietro le sembianze d'uomo
+---

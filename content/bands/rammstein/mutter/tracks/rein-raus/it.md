@@ -1,0 +1,47 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Io sono il cavaliere, tu sei il cavallo
+        - Salgo in sella, partiamo al galoppo
+        - Tu gemi, io ti dico
+        - Un elefante nella cruna dell'ago
+    - lines:
+        - Dentro fuori
+        - Dentro fuori
+        - Dentro fuori
+        - Dentro fuori
+    - lines:
+        - Io sono il cavaliere, tu sei il cavallo
+        - Io ho la chiave, tu hai la serratura
+        - La porta si apre, io entro
+        - La vita può essere così magnifica
+    - lines:
+        - Dentro fuori
+        - Dentro fuori
+        - Dentro fuori
+        - Dentro fuori
+    - lines:
+        - Più profondo, più profondo
+        - Dillo, dillo forte
+        - Più profondo, più profondo
+        - Sto bene dentro la tua pelle
+        - E mille elefanti irrompono fuori
+    - lines:
+        - La cavalcata è stata breve, mi dispiace
+        - Scendo di sella, non ho tempo
+        - Devo andare dagli altri cavalli
+        - Anche loro vogliono essere cavalcati
+        - Dentro fuori
+        - Dentro
+    - lines:
+        - Dentro fuori
+        - Dentro fuori
+        - Dentro fuori
+        - Dentro fuori
+        - Dentro (Più profondo) fuori (Più profondo)
+        - Dentro (Più profondo) fuori (Più profondo)
+        - Dentro (Più profondo) fuori (Più profondo)
+        - Dentro (Più profondo) fuori (Più profondo)
+---

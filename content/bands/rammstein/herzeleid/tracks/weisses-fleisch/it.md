@@ -1,0 +1,44 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Carne bianca!
+    - lines:
+        - Tu nel cortile della scuola, io pronto a uccidere
+        - E nessuno qui sa della mia solitudine
+        - Striature rosse sulla pelle bianca
+        - Ti faccio male e tu gemi forte
+    - lines:
+        - Ora hai paura e io sono pronto
+        - Il mio sangue nero ti sporca il vestito
+    - lines:
+        - La tua carne bianca mi eccita così tanto (Carne, carne, carne, carne!)
+        - Sono solo un gigolò (Carne, carne, carne, carne!)
+        - La tua carne bianca mi illumina (Carne, carne, carne, carne!)
+    - lines:
+        - Il mio sangue nero e la tua carne bianca
+        - Divento sempre più eccitato dal tuo strillo
+        - Il sudore freddo sulla tua fronte bianca
+        - Grandina nel mio cervello malato
+    - lines:
+        - La tua carne bianca mi eccita così tanto (Carne, carne, carne, carne!)
+        - Sono solo un gigolò (Carne, carne, carne, carne!)
+        - Mio padre era proprio come me (Carne, carne, carne!)
+        - La tua carne bianca mi illumina
+    - lines:
+        - Ora hai paura e io sono pronto
+        - La mia esistenza malata grida redenzione
+        - La tua carne bianca sarà il mio patibolo-o-o-o
+        - Nel mio paradiso non c'è nessun dio
+    - lines:
+        - La tua carne bianca mi eccita così tanto (Carne, carne, carne, carne!)
+        - Sono solo un gigolò (Carne, carne, carne, carne!)
+        - La tua carne bianca mi illumina (Carne, carne, carne, carne!)
+        - Mio padre era proprio come me (Carne, carne, carne, carne!)
+    - lines:
+        - La tua carne bianca mi eccita così tanto (Carne, carne, carne, carne!)
+        - Sono un gigolò triste (Carne, carne, carne, carne!)
+        - La tua carne bianca mi illumina (Carne, carne, carne!)
+        - Me
+---

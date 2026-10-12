@@ -1,0 +1,65 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - (Hello, hello)
+    - lines:
+        - From the pod into the light
+        - A being pushes me to go
+        - For the same thing and the old suffering
+        - Catches my tears joyfully
+    - lines:
+        - And on the mat rots a young body
+        - Where fate directs it's puppets
+        - For the same thing and the old suffering
+        - I finally know nothing is for free here
+    - lines:
+        - From the pod and into nothingness
+        - Everyone knows what remains in the end
+        - The same thing and the old suffering
+        - Drives me slowly into insanity
+    - lines:
+        - And on the mat the same war rages
+        - Forever scorching my heart
+        - The same thing and the old suffering
+        - I finally know
+    - lines:
+        - I want to fuck
+    - lines:
+        - Never again (Fuck, fuck, fuck)
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+    - lines:
+        - From the pod into the light
+        - A being pushes me to go
+        - For the same thing and the old suffering
+        - Catches my tears joyfully
+    - lines:
+        - And on the mat rots a young body
+        - Where fate directs it's puppets
+        - For the same thing and the old suffering
+        - I finally know
+    - lines:
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+        - Never again
+        - Never again the old suffering
+---

@@ -1,0 +1,91 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sono un spaceman, ho un razzo sulla schiena
+        - Spaceman, oh, sto raveando come un maniaco
+        - Spaceman, ho un razzo sulla schiena
+        - L'universo è in vista del mio attacco rave
+        - (Tre, due, uno)
+    - lines:
+        - Sì
+    - lines:
+        - Finchi Gagarin
+        - Girate un po' le casse, per favore
+        - Ieri ancora in cantiere
+        - Oggi sono un cosmonauta
+        - Sì sì, chiunque li può vedere
+        - Lì in cielo strisce bianche (Lassù)
+        - Chi ha più bisogno di prove da voi?
+        - Sì, la Terra è un disco piatto
+    - lines:
+        - Il mio nome è Tekkno, sto viaggiando nello spazio
+        - Ho un razzo sulla schiena alimentato dal basso del big bang
+        - Sono Tekkno, la mia religione è il rave
+        - E lo porto nel mondo esterno
+        - Allora fatemi sentire
+    - lines:
+        - Sono un spaceman, ho un razzo sulla schiena
+        - Spaceman, oh, sto raveando come un maniaco
+        - Spaceman, ho un razzo sulla schiena
+        - L'universo è in vista del mio attacco rave (Due, uno)
+    - lines:
+        - Fred da Giove
+        - Sta davanti al supermercato
+        - Accende la boombox
+        - E se ne va in scooter
+        - Rubino la sua navicella
+        - Volo in alto verso Marte
+        - Blblblblb, adesso i cavoli sono già
+    - lines:
+        - Il mio nome è Tekkno, sto viaggiando nello spazio
+        - Ho un razzo sulla schiena alimentato dal basso del big bang
+        - Sono Tekkno, la mia religione è il rave
+        - E lo porto nel mondo esterno
+        - Allora fatemi sentire
+    - lines:
+        - Spaceman, ho un razzo sulla schiena
+        - Spaceman, oh, sto raveando come un maniaco
+        - Spaceman, ho un razzo sulla schiena
+        - L'universo è in vista del mio attacco rave
+    - lines:
+        - Spaceman, ho un razzo sulla schiena
+        - Spaceman, oh, sto raveando come un maniaco
+        - Spaceman, ho un razzo sulla schiena
+        - L'universo è in vista del mio attacco rave
+    - lines:
+        - Dove sono i Cavalieri Jedi?
+        - Dove sono gli uomini di Marte?
+        - Dove sono i Klingon?
+        - Fate come con la mia ex
+        - Vi sparo tutti sulla luna
+        - Con una leberwurst legata addosso
+        - Il Kebekus vola via per l'universo
+        - Sempre più lontano da noi
+        - Grazie, assenza di peso
+        - L'ingratitudine è la ricompensa del mondo
+        - Ecco l'uomo razzo
+        - Viva Elton John
+    - lines:
+        - Viva Elton John
+    - lines:
+        - Ravagate
+        - Ovunqueiate porca puttana
+        - E non vedete niente che sia
+        - Un uccello o soltanto un uomo?
+        - In viaggio per raveare l'universo
+    - lines:
+        - Sono un spaceman, ho un razzo sulla schiena
+        - Spaceman, oh, sto raveando come un maniaco
+        - Spaceman, ho un razzo sulla schiena
+        - L'universo è in vista del mio attacco rave
+    - lines:
+        - Spaceman, ho un razzo sulla schiena
+        - Spaceman, oh, sto raveando come un maniaco
+        - Spaceman, ho un razzo sulla schiena
+        - L'universo è in vista del mio attacco rave
+    - lines:
+        - Missione completata
+---

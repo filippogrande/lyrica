@@ -1,0 +1,86 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Endlich daheim
+        - Daheim bei dir
+        - Du bist mein Lieblingshunditier
+        - In deinem Maul
+        - Für mich ein Dosibier
+        - Dankeschön
+    - lines:
+        - Ich will auf die Couch
+        - Doch mein Wau Wau
+        - Muss noch Kakapupu aus dem Popo raus
+        - 23 Uhr noch Gassi gehn
+        - Na dankeschön
+    - lines:
+        - Oh schau mich nicht so an
+        - Ich weiß, dass du es kannst
+        - Warum dauert das so lang
+    - lines:
+        - Ich will nur, dass du scheißt oho
+        - Dann könn wir endlich wieder heim
+        - Ich will nur, dass du weißt oho
+        - Ohne dich könnt ich längst wieder rein
+        - Ich bin komplett nass und du stinkst
+        - Wehe du verteilst daheim deinen Stink
+        - Ich will nur, dass du scheißt
+        - Woho
+        - Dann könn wir endlich wieder
+        - Endlich wieder heim
+    - lines:
+        - Wir sind unterwegs um 1 Uhr nachts
+        - Ich hab so Angst, dass mein Hundi platzt
+        - Ich massiere seinen Enddarmtrakt
+        - Bis er kackt
+    - lines:
+        - Ich lauf zehnten Mal um denselben Block
+        - Du machst kein Kaka und ich hab keinen Bock
+        - Spür den eiskalten Regen auf meinem Kopf
+        - Oh wieso ist mein gottverdammter Hund verstopft
+        - Oh noo
+    - lines:
+        - Ich will nur, dass du scheißt oho
+        - Dann könn wir endlich wieder heim
+        - Ich will nur, dass du weißt oho
+        - Ohne dich könnt ich längst wieder rein
+        - Ich bin komplett nass und du stinkst
+        - Wehe du verteilst daheim deinen Stink
+        - Ich will nur, dass du scheißt
+        - Woho
+        - Dann könn wir endlich wieder
+        - Endlich wieder heim
+    - lines:
+        - Scheiß für mich
+        - Scheiß für mich
+        - Scheiß für mich
+        - Scheiß für mich
+    - lines:
+        - Scheiß für mich
+        - Scheiß für mich
+        - Scheiß für mich
+        - Scheiß für mich
+    - lines:
+        - Ich will nur, dass du scheißt oho
+        - Dann könn wir endlich wieder heim
+        - Ich will nur, dass du weißt oho
+        - Ohne dich könnt ich längst wieder rein
+        - Ich bin komplett nass und du stinkst
+        - Wehe du verteilst daheim deinen Stink
+        - Ich will nur, dass du scheißt
+        - Woho
+        - Dann könn wir endlich wieder
+        - Endlich wieder heim
+    - lines:
+        - Ich will heim
+        - Ich will heim
+    - lines:
+        - Hundi scheiß für mich
+        - Scheiß für mich oh
+        - Scheiß für mich
+        - Scheiß nur für mich
+        - Scheiß für mich
+        - Scheiß für mich
+---

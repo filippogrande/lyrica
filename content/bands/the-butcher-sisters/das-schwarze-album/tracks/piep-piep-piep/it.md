@@ -1,0 +1,78 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Piep, piep, piep
+        - Piep, piep, piep
+        - Piep, piep, piep
+        - Il mio uccello fa piep, piep, piep, piep
+        - (Hey)
+        - (Hey)
+    - lines:
+        - Wwt, wwt, bing, bing
+        - Guardo un meme, guardo un altro meme
+        - Wwt, wwt, bing, bing
+        - Ancora un meme, sto cagando la vita
+        - Non serve consiglio
+        - Mi serve screen time
+        - Voglio emorroidi dallo swiping in bagno
+        - Algorütti bella, fatti il mio li-i-ife
+    - lines:
+        - Piep, piep, piep
+        - Il mio uccello fa piep, piep, piep
+        - Il mio uccello fa piep, piep, piep
+        - Mm, il mio uccello fa piep, piep, piep, piep, piep, piep, piep, piep
+        - Oh!
+        - (Hey)
+        - (Hey)
+    - lines:
+        - Piep, piep, piep, piep
+        - Il mio algoritmo spinge
+        - Il mio algoritmo spinge
+        - Il mio algoritmo spinge, spinge, spinge, spinge, spinge
+        - Il mio uccello fa piep
+        - Il mio uccello fa piep
+        - Il mio uccello fa piep, piep, piep, piep
+    - lines:
+        - Wwt, wwt, bing, bing
+        - Ancora un meme, un meme piccolo
+        - Wwt, wwt, bing, bing
+        - Ancora un meme, ancora un meme
+        - Non serve consiglio
+        - Mi serve screen time
+        - Goono nel letto alla TBS
+        - Ja-ja-ja-ja-ja
+        - Guardo una reel ancora
+        - Ah, guardo una reel ancora
+        - Ah, ah, ah, ah, ah
+    - lines:
+        - Piep, Piep, Piep
+        - Il mio uccello fa piep, Piep, Piep
+        - Il mio uccello fa piep, Piep, Piep
+        - Il mio vo–, il mio uccello fa–
+    - lines:
+        - Piep, piep, piep, piep
+        - Il mio algoritmo spinge
+        - Il mio algoritmo spinge
+        - Il mio algoritmo spinge, spinge, spinge, spinge, spinge
+        - Il mio uccello fa piep
+        - Il mio uccello fa piep
+        - Il mio uccello fa piep, piep, piep, piep, piep, piep
+        - Piep, piep, piep
+        - Piep, piep, piep, piep, piep
+    - lines:
+        - Lasciatemi volare
+        - Voglio volare
+        - Lasciatemi volare
+        - Psicosi
+        - (Hey)
+        - Sì! (Hey)
+        - Guardo un meme, guardo un altro meme
+        - Ancora un meme, sto cagando la vita
+        - Guardo un meme, ancora un meme
+        - Sto cagando la vita, sto cagando la vita
+    - lines:
+        - Il mio uccello fa piep!
+        - Piep!
+---

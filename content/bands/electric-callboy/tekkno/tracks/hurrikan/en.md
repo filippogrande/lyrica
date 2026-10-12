@@ -1,0 +1,44 @@
+---
+lang: en
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - When I see all the pictures
+        - I only think of you
+        - How you were sitting on me yesterday
+        - God, that was disgusting
+    - lines:
+        - Your smell that's still clinging to me
+        - It's everywhere now
+        - And my phone is already ringing
+        - You want me one more time
+    - lines:
+        - You're like a hurricane
+        - Cutting through my life
+        - Without rest and without feeling
+        - You always pull me back to you
+    - lines:
+        - You're like a hurricane
+        - Cutting through my life
+        - And you know it very well
+        - I can never escape you again
+    - lines:
+        - Eat me up!
+    - lines:
+        - She's hungry, she's horny, she's longing for flesh
+        - Oh honey, I'm ready to die
+        - Oh, you feast on my blood, my bones, my guts
+        - Choke!
+        - She's the love of my life!
+    - lines:
+        - Can't re—
+        - Cannot resist
+        - Eat me alive
+        - Your necrotic face
+        - Is the one that I like
+    - lines:
+        - You're my rotten queen
+        - Your hands on my heart
+        - Marry me!
+---

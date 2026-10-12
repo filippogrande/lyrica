@@ -1,0 +1,61 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Quando è di nuovo venerdì?
+        - Il giorno dopo cui sono libero
+        - Quando è di nuovo venerdì?
+        - Il giorno dopo cui sono libero, woah
+    - lines:
+        - Mi alzo
+        - Bip-bip fa la sveglia, devo uscire
+        - Cinque e un quarto, la mia vita fa ahi
+        - Bip-bip fa il clacson per il traffico
+        - Io esco di testa
+    - lines:
+        - Quando è di nuovo venerdì?
+        - Il giorno dopo cui sono libero (Heh)
+        - Quando è di nuovo venerdì?
+        - Il giorno dopo cui sono libero, woah (Venerdì!)
+    - lines:
+        - Weekend
+        - Uh, baby, baby, weekend
+        - We-we-we-we-we-weekend
+        - La dannata settimana è finita
+        - Boom, b-boom, boom, boom
+        - Oggi faccio il cretino, c-cretino, cretino, cretino
+        - Boom, b-boom, boom, boom
+        - Oggi faccio il cretino
+    - lines:
+        - In ufficio
+        - Zero virgola zero, zero motivazione
+        - Alle otto mi nascondo in bagno
+        - Perché, perché, perché
+        - Non sono diventato un rapper come Clueso o Cro?
+        - Per poco non mi licenzio
+        - Ci è mancato poco, ci è mancato poco
+        - Per poco non mi licenzio
+        - La prossima settimana ce la faccio
+    - lines:
+        - Quando è di nuovo venerdì? (Quando?)
+        - Il giorno dopo cui sono libero (Il giorno dopo cui sono libero)
+        - Quando è di nuovo venerdì? (Dimmi, quando?)
+        - Il giorno dopo cui sono libero, woah (Hey, hey)
+    - lines:
+        - (We-, We-, We-We-We-We-We-We-)
+        - Weekend
+        - Uh, baby, baby, weekend
+        - We-we-we-we-we-weekend
+        - La dannata settimana è finita
+    - lines:
+        - La, la, la, la-la (Weekend)
+        - Uh, la-la-la-la, la, la, la, la-la (Weekend)
+        - Uh, la-la-la-la, la, la, la, la-la (Weekend)
+        - La dannata settimana è finita
+    - lines:
+        - Lavoro di merda
+        - Lavoro di merda
+        - Voglio andarmene via da qui
+        - Odio il mio capo
+---

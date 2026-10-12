@@ -1,0 +1,47 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Er liebt die Mutter und von der Seite
+        - Den Fisch gibt er ihr selbst
+        - Dieser häutet sich vor leerem Hoden
+        - Die alte Haut fällt auf den Boden
+    - lines:
+        - Er liebt die Schwester und von hinten
+        - Der Fisch frisst sich zum Mund
+        - Die Kiemen blutig noch vom Saugen
+        - An den roten großen Augen
+    - lines:
+        - Laichzeit
+        - Laichzeit
+        - Laichzeit
+        - Laichzeit
+        - Laichzeit
+        - Laichzeit
+        - Laichzeit
+        - Es ist Laichzeit
+    - lines:
+        - Er liebt den Hund, oh Gott, von oben
+        - Der Fisch jetzt mit der Zunge küsst
+        - Speit tote Milch dir ins Gesicht
+        - Ihn anzufassen wagst du nicht
+    - lines:
+        - Laichzeit
+        - Laichzeit
+        - Laichzeit
+        - Laichzeit
+        - Laichzeit
+        - Überall Fischmilch
+        - Laichzeit
+        - Es ist Laichzeit
+    - lines:
+        - Die Mutter hat das Meer geholt
+        - Laichzeit, Laichzeit
+        - Die Schwestern haben keine Zeit
+        - Laichzeit, Laichzeit
+        - Der Hund steht winkend am Gestade
+        - Laichzeit, Laichzeit
+        - Der Fisch braucht seine Einsamkeit
+        - Laichzeit
+---

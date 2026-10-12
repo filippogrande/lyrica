@@ -1,0 +1,102 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Kill it
+        - Nothing satisfies my thirst
+        - My soul is drying out
+        - I want to break free
+        - Kill me
+        - What is this burning need
+        - That grows in me
+        - God I want to stop it
+        - But I can't break free
+        - It is a part of me
+        - Oh, this burning need
+        - That fucking keeps me trapped in
+    - lines:
+        - Everything in here feels so numb
+    - lines:
+        - So tell me what the fuck is wrong with me
+        - Who is there to fucking blame
+        - If this will go on
+        - There is no god
+        - And you should fucking pray my dear
+    - lines:
+        - I want to take your pain away
+        - I just wanna take it
+        - Take it and not feel it
+        - I am gonna kill it
+    - lines:
+        - You say
+        - That I am your curse
+        - No way
+        - I will free you I am your deliverer
+    - lines:
+        - I sit and rot in here
+        - There's no turning back
+        - All blood that has been shed
+        - Oh, he would be so proud
+        - My mind is going mad
+        - There is no return
+        - All blood that has been shed
+        - Oh, your screams are so loud
+    - lines:
+        - Kill it
+        - Nothing can ease my hunger
+        - And it's growing stronger
+        - Gonna break me
+        - Kill me
+        - What is this hurt in me
+        - That turns on me
+        - God I want to stop it
+        - But I can't break free
+        - It is a part of me
+        - Oh, this burning need
+        - That fucking keeps me trapped in
+    - lines:
+        - Everything in here feels so
+    - lines:
+        - I want to take your pain away
+        - I just want to hate it
+        - Hate it and not feel it
+        - I just want to kill it
+    - lines:
+        - You say
+        - That I am your curse
+        - No way
+        - I will free you
+        - I am your deliverer
+    - lines:
+        - So tell me what the fuck is wrong with me
+        - Who is there to fucking blame
+        - If this will go on?
+    - lines:
+        - I sit and rot in here
+        - There's no turning back
+        - All blood that has been shed
+        - Oh, he would be so proud
+        - My mind is going mad
+        - There is no return
+        - All blood that has been shed
+        - Oh, your screams are so loud
+    - lines:
+        - (I sit and rot in here
+        - There's no turning back
+        - All blood that has been shed
+        - Oh, he would be so proud
+        - My mind is going mad
+        - There is no return
+        - All blood that has been shed
+        - Oh, your screams are so loud)
+    - lines:
+        - I sit and rot in here
+        - There's no turning back
+        - All blood that has been shed
+        - Oh, he would be so proud
+        - My mind is going mad
+        - There is no return
+        - All blood that has been shed
+        - Oh, your screams are so loud
+---

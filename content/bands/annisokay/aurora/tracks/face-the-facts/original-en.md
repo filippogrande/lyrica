@@ -1,0 +1,68 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - And you say it's DNA
+        - But never just the way that you behave
+        - And you say you're built this way
+        - But many things in life rely on change
+        - Cop out cause you're afraid of it
+        - Till now you got away with it
+        - One life and still you're failing it
+        - You better grow up and face the facts
+    - lines:
+        - Yeah you have the power
+        - So take control
+        - And make your own choices
+        - Yeah you have the power
+        - Some call it power
+        - Some call it poison
+    - lines:
+        - Drop drop drop
+        - Drop the act
+        - Fuck your excuses
+        - And face the facts
+        - Drop drop drop
+        - Drop the act
+        - Fuck your excuses
+        - And face the facts
+    - lines:
+        - And you say it's DNA
+        - As if you had no choice in how you play
+        - And you say you hate the weak
+        - When they were stronger than you'll ever be
+        - No way cause in reality
+        - You're safe inside your fallacy
+        - You play on your insanity
+        - Whenever it comes time to face the facts
+    - lines:
+        - Yeah you have the power
+        - So take control
+        - And make your own choices
+        - Yeah you have the power
+        - Some call it power
+        - Some call it poison
+    - lines:
+        - Drop drop
+        - Drop the act
+        - Fuck your excuses
+        - And face the facts
+        - Drop drop
+        - Drop the act
+        - Fuck your excuses
+        - And face the facts
+    - lines:
+        - Yeah you have the power
+        - To make your own
+        - To make your own choices
+        - Yeah you have the power
+        - Some call it poison
+    - lines:
+        - But you have the power
+        - So take control
+        - And make your own choices
+        - Yeah you have the power
+        - Some call it power
+        - Some call it poison
+---

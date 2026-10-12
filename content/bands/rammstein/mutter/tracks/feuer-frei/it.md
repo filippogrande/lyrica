@@ -1,0 +1,50 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Biasimato è chi conosce il dolore
+        - Dal fuoco che brucia la pelle
+        - Mi getto una luce in faccia
+        - Un urlo caldo, fuoco a volontà!
+    - lines:
+        - Bäng bäng
+        - Bäng bäng
+    - lines:
+        - Nobilitato è chi conosce il dolore
+        - Dal fuoco che brucia nella lussuria
+        - Una scintilla nel suo grembo
+        - Un urlo caldo, fuoco a volontà!
+    - lines:
+        - Bäng bäng
+        - Bäng bäng
+        - Fuoco a volontà!
+        - Bäng bäng
+        - Bäng bäng
+        - Fuoco a volontà!
+    - lines:
+        - Pericoloso è chi conosce il dolore
+        - Dal fuoco che brucia lo spirito (Bäng bäng)
+        - Pericoloso il bambino bruciato
+        - Con il fuoco che separa dalla vita
+        - Un urlo caldo (Bäng bäng), fuoco a volontà!
+    - lines:
+        - La tua fortuna
+        - Non è la mia fortuna
+        - È la mia sfortuna
+        - La tua fortuna
+        - Non è la mia fortuna
+        - È la mia sfortuna
+    - lines:
+        - Bäng bäng
+        - Bäng bäng
+        - Fuoco a volontà!
+        - Bäng bäng
+        - Bäng bäng
+        - Fuoco a volontà!
+        - Bäng bäng
+        - Bäng bäng
+        - Fuoco a volontà!
+    - lines:
+        - Bäng bäng
+---

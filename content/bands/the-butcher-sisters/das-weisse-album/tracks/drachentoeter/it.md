@@ -1,0 +1,75 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sì, il petto temprato e la spada affilata
+        - Sì, sì, sì, lui arriva quando il drago rompe le scatole
+        - Drachentöter TBS
+        - (Sì)
+        - '''Ehi, sì, ciao, c''è l''uomo Drachentöter?'''
+        - '''Sì, sono io'''
+        - '''Oh mio dio, c''è l''allarme draghi in città, sta distruggendo tutto'''
+        - '''Allarme draghi? Arrivo'''
+    - lines:
+        - Sono un cavaliere a caccia del drago, grr
+        - La spada è sguainata per farlo fuori
+        - Niente peli sulla schiena, il mio corpo è d'acciaio
+        - La pozione magica Dosibier scorre nelle mie vene
+        - Sono il drago, faccio cose da drago
+        - Sono il drago, voglio distruggere tutta la città
+    - lines:
+        - Tutti conoscono il suo nome (Woah)
+        - Tutti si entusiasmano per le sue gesta
+    - lines:
+        - Sì, il petto temprato e la spada affilata
+        - Drachentöter TBS
+        - Sì, sì, sì, lui arriva quando il drago rompe le scatole
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - Che spada figa
+        - Drachentöter, yeah
+    - lines:
+        - Sono sulla montagna, tengo la spada in alto
+        - Il drago sputa fuoco, buff-buff
+        - La bestia guarda me e io guardo lei
+        - Ci fissiamo in faccia per un bel po'
+        - Bumm, con la mano sulla testa del drago
+        - Verso una, due birre Dogi nella gola del drago
+        - La bestia è domata, ora si fa il fico
+        - Stanotte faccio sesso in piscina con
+        - Yeah, ero io il drago
+        - Non posso più fare niente
+        - Ero io il drago
+        - Non posso più distruggere proprio niente
+    - lines:
+        - Tutti conoscono il suo nome (Woah)
+        - Tutti si entusiasmano per le sue gesta
+    - lines:
+        - Sì, il petto temprato e la spada affilata
+        - Drachentöter TBS
+        - Sì, sì, sì, lui arriva quando il drago rompe le scatole
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - Che spada figa
+        - Drachentöter
+    - lines:
+        - La profezia è vera
+        - Eccolo qui con la sua spada figa
+        - A tutti i draghi tremano le ginocchia
+        - Drachentöter
+        - Sì
+        - Era famoso in tutto il paese
+        - Ha colpito il drago con la mano
+        - È chiaro, il [?]
+        - 'Il suo nome: Drachentöter Superstar'
+    - lines:
+        - Sì, il petto temprato e la spada affilata
+        - Drachentöter TBS
+        - Sì, sì, sì, lui arriva quando il drago rompe le scatole
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - Che spada figa
+        - Drachentöter
+---

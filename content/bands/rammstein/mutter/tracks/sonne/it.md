@@ -1,0 +1,52 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Uno, due, tre, quattro, cinque, sei, sette, otto, nove, fuori!
+    - lines:
+        - Tutti aspettano la luce
+        - Temete, non temete
+        - Il sole mi brilla dagli occhi
+        - Stanotte non tramonterà
+        - E il mondo conta forte fino a dieci
+    - lines:
+        - Uno, ecco che arriva il sole
+        - Due, ecco che arriva il sole
+        - Tre, è la stella più luminosa di tutte
+        - Quattro, ecco che arriva il sole
+    - lines:
+        - Il sole mi brilla dalle mani
+        - Può bruciare, può accecarvi
+        - Quando irrompe dai pugni
+        - Si posa caldo sul viso
+        - Stanotte non tramonterà
+        - E il mondo conta forte fino a dieci
+    - lines:
+        - Uno, ecco che arriva il sole
+        - Due, ecco che arriva il sole
+        - Tre, è la stella più luminosa di tutte
+        - Quattro, ecco che arriva il sole
+        - Cinque, ecco che arriva il sole
+        - Sei, ecco che arriva il sole
+        - Sette, è la stella più luminosa di tutte
+        - Otto, nove, ecco che arriva il sole
+    - lines:
+        - Il sole mi brilla dalle mani
+        - Può bruciare, può accecarti
+        - Quando irrompe dai pugni
+        - Si posa caldo sul tuo viso
+        - Si posa doloroso sul petto
+        - L'equilibrio diventa perdita
+        - Ti fa cadere a terra pesantemente
+        - E il mondo conta forte fino a dieci
+    - lines:
+        - Uno, ecco che arriva il sole
+        - Due, ecco che arriva il sole
+        - Tre, è la stella più luminosa di tutte
+        - Quattro, e non cadrà mai dal cielo
+        - Cinque, ecco che arriva il sole
+        - Sei, ecco che arriva il sole
+        - Sette, è la stella più luminosa di tutte
+        - Otto, nove, ecco che arriva il sole
+---

@@ -1,0 +1,45 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Mette l'ago sulla vena
+        - E invita la musica a entrare
+        - Tra collo e avambraccio
+        - La melodia scivola piano nelle ossa
+    - lines:
+        - (Vai! Vai! Vai!) Bop bop shu bop (Vai! Vai! Vai!)
+    - lines:
+        - Ha chiuso gli occhi
+        - Nel suo sangue infuria una battaglia
+        - Un esercito marcia nel suo intestino
+        - Le viscere si scaldano lentamente
+    - lines:
+        - (Vai! Vai! Vai!) Bop bop shu bop (Vai! Vai! Vai!)
+        - (Vai! Vai! Vai!) Bop bop shu bop (Vai! Vai! Vai!)
+    - lines:
+        - Niente è per te
+        - Niente era per te
+        - Niente resta per te
+        - Per sempre
+        - Niente è per te
+        - Niente era per te
+        - Niente resta per te
+        - Per sempre
+    - lines:
+        - Toglie l'ago dalla vena
+        - La melodia esce dalla pelle
+        - I violini bruciano con stridori
+        - Le arpe si tagliano nella carne
+        - Ha aperto gli occhi
+        - Ma non si è svegliato
+    - lines:
+        - Niente è per te
+        - Niente era per te
+        - Niente resta per te
+        - Per sempre
+        - Niente è per te
+        - Niente era per te
+        - Niente resta per te
+        - Per sempre
+---

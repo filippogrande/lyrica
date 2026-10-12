@@ -1,0 +1,64 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Primo sguardo, colpo di fulmine, il tuo tocco
+        - Voglio sentirla giorno e notte
+    - lines:
+        - Rottto, troppo, ho pensato al nostro primo contatto
+    - lines:
+        - Nuova città, sconosciuta, ricominciare
+        - Ora vivo per conto mio
+    - lines:
+        - Eravamo pronti a volare
+        - Non eravamo che vicini al cielo
+        - Dimmi il perché
+        - Hai deciso di allontanarmi
+    - lines:
+        - Pronti a volare
+        - Non eravamo che vicini al cielo
+        - Pronti a volare
+        - Non altro che vicini al cielo
+    - lines:
+        - Rottta, roba seria, maledetta
+        - Voglio lasciarmelo alle spalle
+    - lines:
+        - Siamo pronti a volare
+        - Non eravamo che vicini al cielo
+        - Pronti a volare
+        - Non altro che vicini al cielo
+    - lines:
+        - Non possiamo tornare a
+        - Il tempo in cui è cominciato
+        - Ma voglio ringraziarti
+        - Per i ricordi che condividiamo
+    - lines:
+        - Oh tesoro, salviamo i momenti, quelli belli e quelli brutti
+        - Ricordo te e me
+    - lines:
+        - Oh tesoro, non possiamo tornare, oh, non posso dimenticare
+        - Che eravamo solo vicini al cielo
+    - lines:
+        - Non possiamo tornare a
+        - Il tempo in cui è cominciato
+        - Ma voglio ringraziarti
+        - Che eravamo solo vicini al cielo
+    - lines:
+        - Non possiamo tornare a
+        - (Tutto quello che volevo era stare con te)
+        - Il tempo in cui è cominciato
+        - (Non importa quello che mi hai fatto passare)
+        - Ma voglio ringraziarti
+        - (Tutto quello che volevo era stare con te)
+        - Che eravamo solo vicini al cielo
+    - lines:
+        - Non possiamo tornare a
+        - (Tutto quello che volevo era stare con te)
+        - Il tempo in cui è cominciato
+        - (Non importa quello che mi hai fatto passare)
+        - Ma voglio ringraziarti
+        - (Tutto quello che volevo era stare con te)
+        - Che eravamo solo vicini al cielo
+---

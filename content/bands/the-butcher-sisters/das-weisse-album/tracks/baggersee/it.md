@@ -1,0 +1,83 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ore diciassette, trentasei gradi
+        - Con le infradito salgo in bici
+        - Sento il vento, dodici km/h
+        - Collo rosso fuoco, schiena piena di capelli
+        - Üh
+        - (Sì)
+    - lines:
+        - Ore diciotto, aua, fa caldo (Aua, aua)
+        - Per fortuna sono furbo, ho la confezione da sei con me, bello
+        - Ghiacciata come il ghiaccio (Ghiaccio)
+        - Entra la birra, esce il sudore
+    - lines:
+        - Vado al lago escavatore con la mia confezione da sei
+        - E succhio-succhio-succhio via la birra
+        - Se vado in acqua, allora solo con la confezione da sei
+        - Con la mia confezione da sei, con la mia confezione da sei
+    - lines:
+        - Vado al lago escavatore con la mia confezione da sei
+        - E succhio-succhio-succhio via la birra
+        - Se vado in acqua, allora solo con la confezione da sei
+        - Con la mia confezione da sei, con la mia confezione da sei
+    - lines:
+        - Ore venti, tutte le cassette vuote (No!)
+        - Il sole se ne va (Ciao), io lo inseguo
+        - Al chiosco, me ne prendo ancora
+        - Di quella birra, di quella birra, e poi la svuoto
+    - lines:
+        - Vado al bancone, dentro c'è un uomo
+        - È abbronzato, perché lavora in spiaggia
+        - Dammi, dammi subito la confezione da sei in mano
+        - La succhio in bocca e guarisco la mia ustione
+    - lines:
+        - La birra da banco spacca parecchio
+        - Ancora più del colpo di sole
+        - Capitano Barbablu salpa ora
+        - Al lago escavatore, al lago escavatore
+        - Escavatore, escavatore, escavatore, escavatore, escavatore, escavatore, escavatore
+        - Escavatore, escavatore, escavatore, escavatore, escavatore, escavatore, escavatore
+        - Escavatore, escavatore, escavatore, escavatore, escavatore, escavatore
+        - Escavatore, escavatore, escavatore, escavatore, escavatore
+    - lines:
+        - Vado al lago escavatore con la mia confezione da sei
+        - E succhio-succhio-succhio via la birra
+        - Se vado in acqua, allora solo con la confezione da sei
+        - Con la mia confezione da sei, con la mia confezione da sei
+    - lines:
+        - Vado al lago escavatore con la mia confezione da sei
+        - E succhio-succhio-succhio via la birra
+        - Se vado in acqua, allora solo con la confezione da sei
+        - Con la mia confezione da sei, con la mia confezione da sei
+    - lines:
+        - Non può essere che la birra sia finita
+        - Birra finita, birra finita
+        - Qui qualcuno ha di nuovo pisciato in acqua
+        - Chi ha pisciato? Chi ha pisciato?
+    - lines:
+        - Chi ha pisciato? (Chi è stato?)
+        - Che maiale ha pisciato nell'acqua?
+        - Non sono stato io, non sono stato io
+        - Allora che maiale ha di nuovo pisciato in acqua?
+        - Ok, sono stato proprio io! Ehehe
+    - lines:
+        - E succhio-succhio-succhio via la birra
+        - Se vado in acqua, allora solo con la confezione da sei
+        - Con la mia confezione da sei, con la mia confezione da sei
+    - lines:
+        - Non può essere che la birra sia finita
+        - Birra finita, birra finita
+        - Qui qualcuno ha di nuovo pisciato in acqua
+        - Chi ha pisciato? Chi ha pisciato?
+    - lines:
+        - Chi ha pisciato?
+        - Chi ha pisciato?
+        - Chi ha pisciato?
+        - Chi, chi, chi ha pisciato?
+        - Chi ha pisciato?
+---

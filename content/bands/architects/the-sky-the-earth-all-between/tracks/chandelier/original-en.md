@@ -1,0 +1,62 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Outta luck, beaten up
+        - Living under thunder clouds, all around
+        - Can anybody take me home?
+        - And cure me of these aching bones?
+        - Weaker now, can't you tell?
+        - Freezing in a broken shell by myself
+        - Spinning into vertigo
+        - Driving when my eyes are closed
+    - lines:
+        - Was I dead or was I dreaming?
+        - I stopped breathing
+        - When all I really needed was this feeling
+        - No more lies if I disappear
+        - Just one less light on the chandelier
+        - If I begged you and I pleaded
+        - I don't mean it
+        - Nobody can hear the words that I'm screaming
+        - No more lies if I disappear
+        - Just one less light on the chandelier
+        - Chandelier
+    - lines:
+        - Chandelier
+    - lines:
+        - Half asleep, don't you see?
+        - Everything so incomplete, bittersweet
+        - Just tell me how to break this code
+        - Don't you see the bruises glow?
+        - Window seat, hell beneath
+        - Frozen, but I feel the heat burning deep
+        - Somebody tell me where the angels go
+        - And save me from the dead we rose
+    - lines:
+        - Was I dead or was I dreaming?
+        - I stopped breathing
+        - When all I really needed was this feeling
+        - No more lies if I disappear
+        - Just one less light on the chandelier
+        - If I begged you and I pleaded
+        - I don't mean it
+        - Nobody can hear the words that I'm screaming
+        - No more lies if I disappear
+        - Just one less light on the chandelier
+        - Chandelier
+    - lines:
+        - Chandelier
+    - lines:
+        - Chandelier
+        - Chandelier
+        - Chandelier
+        - One less light on the chandelier
+    - lines:
+        - Was I dead or was I dreaming?
+        - I stopped breathing
+        - When all I really needed was this feeling
+        - No more lies if I disappear
+        - Just one less light on the chandelier
+---

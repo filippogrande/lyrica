@@ -1,0 +1,66 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Oh, yeah
+    - lines:
+        - È la mia missione consegnarti un po' d'amore caldo
+        - Dalle cinque alle nove, yo, una semplice telefonata
+        - È fatta di impasto, formaggio, e quello che ti va
+        - Non mi importa se sei a est o a ovest
+    - lines:
+        - Allontanati, allontanati, oh, allontanati
+        - A tutta velocità, non c'è nessun preliminare
+        - Resta a casa, resta a casa, resta a casa di fottuta
+        - Bussa, bussa, apri o ti scasso la serratura
+    - lines:
+        - Perché, oh per favore, dimmi perché
+        - Sto per morire
+        - Se solo provassi
+        - L'ananas mi fa piangere
+        - Oh per favore, dimmi perché
+        - Sto per morire
+        - Omicidio della pizza, tramite omicidio della pizza
+    - lines:
+        - Perché, oh per favore, dimmi perché
+        - Sto per morire
+        - Se solo provassi
+        - L'ananas mi fa piangere
+        - Oh per favore, dimmi perché
+        - Sto per morire
+        - Omicidio della pizza, tramite omicidio della pizza
+    - lines:
+        - Fottutissima frutta sulla mia pizza
+        - Niente ananas sulla mia pizza
+        - Grasso e carne è tutto ciò che mi serve, tutto ciò che mi serve
+    - lines:
+        - Non ne posso più della tua blasfemia
+        - Nessuna scusa, brutalità bestiale
+        - Affetta, affetta, affetta, affetta, affetta, omicidio della pizza
+        - Troveranno le tue parti del corpo a est e a ovest
+    - lines:
+        - Allontanati, allontanati, oh, allontanati
+        - A tutta velocità, non c'è nessun preliminare
+        - Resta a casa, resta a casa, resta a casa di fottuta
+        - Bussa, bussa, apri o ti scasso la serratura
+    - lines:
+        - Perché, oh per favore, dimmi perché
+        - Sto per morire
+        - Se solo provassi
+        - L'ananas mi fa piangere
+        - Oh per favore, dimmi perché
+        - Sto per morire
+        - Omicidio della pizza, tramite omicidio della pizza
+    - lines:
+        - Allontanati, allontanati, oh, allontanati
+        - A tutta velocità, non c'è nessun preliminare
+        - Allontanati, allontanati, oh, allontanati
+        - Bussa, bussa, apri o ti scasso la serratura
+        - Bussa, bussa, apri o ti scasso la serratura
+    - lines:
+        - A tutta velocità, non c'è nessun preliminare
+        - A tutta velocità, non c'è nessun preliminare
+        - A tutta velocità, non c'è nessun preliminare
+---

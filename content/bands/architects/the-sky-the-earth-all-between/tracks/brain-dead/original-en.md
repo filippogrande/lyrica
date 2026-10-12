@@ -1,0 +1,54 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Brain dead
+    - lines:
+        - I've been finding bliss in the apocalypse
+        - Guess I'll be vomiting till I get my fix
+        - Fuck all this, I oughta call it quits
+        - Doctor, doctor, this is so traumatic
+    - lines:
+        - You'll never be an astronaut
+        - You'll never lay your hands on the treasure
+        - You're nothing but an afterthought
+        - The sooner you get it, the better
+    - lines:
+        - Higher than a kite, yeah, I'm lighter than a feather
+        - Stay away, stay away, stay the fuck away
+        - Wired every night then I steal it from another day
+        - There's been a robbery
+        - Tired of the fight, but I'm hyper from the terror
+        - Stay away, stay away, no apologies
+        - Bury those heads and we can all be brain dead
+    - lines:
+        - We can nail ourselves onto a crucifix
+        - We'll all go on and go, 'cause we're hypocrites
+        - Ain't it bliss living in ego trips?
+        - Jesus Christ, I must be symptomatic
+    - lines:
+        - There's nobody that can't be bought
+        - Can anybody handle the pressure?
+        - Like living on a life support
+        - But worried to death 'bout the weather
+    - lines:
+        - Higher than a kite, yeah, I'm lighter than a feather
+        - Stay away, stay away, stay the fuck away
+        - Wired every night then I steal it from another day
+        - There's been a robbery
+        - Tired of the fight, but I'm hyper from the terror
+        - Stay away, stay away, no more prophecies
+        - Bury those heads and we can all be brain dead
+    - lines:
+        - (Hey) We are the sons of daughters
+        - Drowning ourselves under the shallow waters
+        - Taking the lambs to slaughter
+        - We won't be happy till we're drawn and quartered
+    - lines:
+        - No, no, an error in the source code
+        - No, no, and now we're dancing to the death throes
+        - Blegh, an error in the source code (Hey)
+        - Error
+        - An error in the source code
+---

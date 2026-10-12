@@ -1,0 +1,73 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Evil eyes
+        - They're watching me
+        - Evil eyes
+        - They're watching me
+    - lines:
+        - Malicious
+        - You pray that the comet hits
+        - So vicious
+        - No less than a counterfeit
+        - Goodbye
+        - I've suffocated too long so now it's goodbye
+        - These moments are mine
+    - lines:
+        - Tonight, the fear in the scythe
+        - A spear through the side
+        - Could drown me but I survive
+        - Tonight, tonight, tonight, I feel alive
+    - lines:
+        - Evil eyes
+        - They're watching me
+        - Evil eyes
+        - They're watching me
+    - lines:
+        - You're blissless
+        - I see the fangs, you fucking snake
+        - Just business
+        - You devil, you hypocrite
+        - Goodbye
+        - I've suffocated too long so now it's goodbye
+        - I've suffocated too long
+    - lines:
+        - Rip tide, pull me under
+        - And bathe me in the blue
+        - Rip tide, pull me under
+        - Just pull me under
+    - lines:
+        - Tonight the fear in the scythe
+        - A spear through the side
+        - Could drown me but I survive
+        - Tonight the fear in the scythe
+    - lines:
+        - A spear through the side
+        - Could drown me but I survive
+    - lines:
+        - Can I take this weight?
+        - Leave it in another
+        - Empty lake
+        - I'm daydreaming
+        - Wide awake
+        - Waiting for another wave to break
+        - I swear to God I'm gonna break these chains
+        - I don't wanna live my life this way
+        - I'm still screaming
+        - Wide awake
+        - Waiting for another wave to break
+        - I'm still screaming
+    - lines:
+        - I'm still screaming
+    - lines:
+        - Tonight, the fear in the scythe
+        - A spear through the side
+        - Could drown me but I survive
+        - Tonight, tonight, tonight, I feel alive
+    - lines:
+        - Evil eyes
+        - They're watching me
+        - Evil eyes
+---

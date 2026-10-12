@@ -1,0 +1,81 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I came from the void with laserpower and a plan
+        - Sent by my overlords to investigate your lands
+        - It is true, I can't believe what they do
+        - These misguided idiots worship the forbidden fruit
+    - lines:
+        - Oh, alien friend from a galaxy
+        - Where they can't believe what their eyes can see
+        - These humans are fools with their ways so bizarre
+        - But pineapple pizza is Earth's shining star
+    - lines:
+        - An oddity made of dough, topped with cheese and tomato
+        - But pineapple ain't right, that always filled us with fright
+    - lines:
+        - Fuck it, I fear no slice
+        - I'm gonna take a bite
+        - Let flavors now ignite
+        - Pineapple pizza now tastes right
+    - lines:
+        - Fear no slice
+        - Let the flavours now ignite
+        - Take a bite, fear no slice
+        - Pizza is love at first bite
+        - Fear no slice
+        - Let the flavours now ignite
+        - Take a bite, fear no slice
+        - Take a bite
+        - Pizza is love at first bite
+    - lines:
+        - Oh, alien friend from a galaxy
+        - Where they can't believe what their eyes can see
+        - These humans are fools with their ways so bizarre
+        - But pineapple pizza is Earth's shining star
+    - lines:
+        - The taste, the cheese, the harmony
+        - This circle of magic was made for me
+        - It changed my heart, it changed my soul
+        - This poem of a pizza beats it all
+    - lines:
+        - The taste, the cheese, the harmony
+        - This circle of magic was made for me
+        - It changed my heart, it changed my soul
+        - This poem of a pizza beats it all
+    - lines:
+        - What the fuck?
+        - Stop it, stop
+        - Are you nuts?
+        - This shit sucks
+        - Blow them up
+        - What the fuck?
+        - Stop it, stop
+        - Are you nuts?
+        - This shit sucks
+        - Blow them up
+    - lines:
+        - Blow this planet up
+        - Go, go and blow it up
+        - Blow this planet up
+        - Go, go, show no love
+        - Blow it up
+        - Blow them up
+    - lines:
+        - Oh, alien friend from a galaxy
+        - Where they can't believe what their eyes can see
+        - These humans are fools with their ways so bizarre
+        - But pineapple pizza is Earth's shining star
+    - lines:
+        - Oh, alien friend from a galaxy
+        - Where they can't believe what their eyes can see
+        - These humans are fools with their ways so bizarre
+        - But pineapple pizza is Earth's shining star
+    - lines:
+        - Oh, alien friend from a galaxy
+        - Where they can't believe what their eyes can see
+        - These humans are fools with their ways so bizarre
+        - But pineapple pizza is Earth's shining star
+---

@@ -1,0 +1,72 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Posso essere il padrone
+        - Posso essere lo schiavo
+        - Potrei spostare montagne
+        - O scavare la fossa di qualcun altro
+    - lines:
+        - Verrò dimenticato
+        - Come tracce nella neve
+        - Ho lasciato un segno
+        - In questa vita che conosco
+    - lines:
+        - Il tempo continua a scorrere
+        - E non possiamo fuggire il sole
+        - In questa corsa che non si può vincere
+    - lines:
+        - Sul trono del tramonto
+        - Tutti cadiamo in ginocchio
+        - Mentre la luce svanisce nel buio
+        - Il nostro destino è ciò in cui crediamo
+        - Come sopra, così sotto
+        - Siamo tutti parte dello stesso spettacolo
+        - Sul trono del tramonto
+        - Anche gli dèi dovranno andarsene
+    - lines:
+        - Riempi il tuo calice finché non è finita
+        - Sii te stesso, non obbedire
+        - Quindi, nell'inferno o nell'alta mare
+        - Moriremo tutti allo stesso modo
+    - lines:
+        - Come trovo un senso
+        - Se vivo per lasciar andare
+        - Se continuo a credere
+        - Mi salverà l'anima?
+    - lines:
+        - Il tempo continua a scorrere
+        - E non possiamo fuggire il sole
+        - In questa corsa che non si può vincere
+    - lines:
+        - Sul trono del tramonto
+        - Tutti cadiamo in ginocchio
+        - Mentre la luce svanisce nel buio
+        - Il nostro destino è ciò in cui crediamo
+        - Come sopra, così sotto
+        - Siamo tutti parte dello stesso spettacolo
+        - Sul trono del tramonto
+        - Anche gli dèi dovranno andarsene
+    - lines:
+        - Nel vuoto la nostra speranza piano svanisce
+        - Non sai che ce ne andiamo come siamo arrivati?
+        - Intrappolati in una corsa dalla culla alla tomba
+        - Non sai che ce ne andiamo come siamo arrivati?
+        - E se morissimo tutti invano?
+    - lines:
+        - Come sopra, così sotto
+        - La vita andrà avanti per tutti noi
+        - Ogni cacciatore sarà cacciato
+        - Al limite del tempo
+    - lines:
+        - Sul trono del tramonto
+        - Tutti cadiamo in ginocchio
+        - Mentre la luce svanisce nel buio
+        - Il nostro destino è ciò in cui crediamo
+        - Come sopra, così sotto
+        - Siamo tutti parte dello stesso spettacolo
+        - Sul trono del tramonto
+        - Anche gli dèi dovranno andarsene
+---

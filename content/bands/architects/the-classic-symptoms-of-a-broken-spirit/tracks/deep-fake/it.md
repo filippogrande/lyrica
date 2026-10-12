@@ -1,0 +1,58 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Noi, noi vogliamo nuotare nelle profondità più profonde dell'oblio
+        - Vogliamo sapere che gli dei ci hanno in pugno
+    - lines:
+        - Vediamo le carte e andiamo a piegare
+        - Ci prestiamo, ma presto diventa stucchevole
+        - Hanno preso l'arca e l'hanno venduta tutta a pezzi
+        - Hanno una mano piena di fottuto oro
+        - Un ritorno sulle anime che hanno venduto
+        - Ti ricordi chi siamo?
+        - Questi tiranni costruiranno un abisso
+        - Ma il resto di noi vuole esistere
+        - Ci nascondiamo come un'ombra nel buio
+    - lines:
+        - Nel buio
+    - lines:
+        - Sii il cambiamento che vuoi vedere
+        - No, non così
+        - È un rischio che possiamo condividere tutti
+        - Fotto i fottuti fatti
+        - Ma sanguina proprio davanti a me
+        - Siamo sotto attacco
+        - Sì, sappiamo tutti che questi diritti sono sacri
+    - lines:
+        - Vediamo le carte e andiamo a piegare
+        - Ci prestiamo, ma presto diventa stucchevole
+        - Hanno preso l'arca e l'hanno venduta tutta a pezzi
+        - Hanno una mano piena di fottuto oro
+        - Un ritorno sulle anime che hanno venduto
+        - Ti ricordi chi siamo?
+        - Questi tiranni costruiranno un abisso
+        - Ma il resto di noi vuole esistere
+        - Ci nascondiamo come un'ombra nel buio
+    - lines:
+        - Non ci lasceremo mai più scappare
+        - Speriamo che il tuo oro non ti abbandoni adesso
+        - Riservaci un posto speciale all'inferno
+        - Sei la ragione per cui i nostri cuori fanno male
+        - Deep fake
+    - lines:
+        - Siamo uno e lo stesso fottuto
+        - Vediamo le carte e andiamo a piegare
+        - Ci prestiamo, ma presto diventa stucchevole
+        - Abbiamo preso l'arca e l'abbiamo venduta tutta a pezzi
+        - Hanno una mano piena di fottuto oro
+        - Un ritorno sulle anime che hanno venduto
+        - Ti ricordi chi siamo?
+        - Questi tiranni costruiranno un abisso
+        - Ma il resto di noi vuole esistere
+        - Ma il resto di noi lotta con un'ombra nel buio
+    - lines:
+        - Deep fake
+---

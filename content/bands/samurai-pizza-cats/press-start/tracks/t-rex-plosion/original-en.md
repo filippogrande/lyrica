@@ -1,0 +1,88 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - And I'm so sorry
+        - That it's going to end deadly for you
+        - As we all know
+        - And I'm so sorry
+        - That it's going to end deadly for you
+        - As we all know
+    - lines:
+        - From the depths of prehistory
+        - Forty feet of fury
+        - The one
+        - The only legendary beast
+    - lines:
+        - I am the mighty king, try me and I will bring
+        - Violence to everything, silencing anything
+        - I am the mighty king, tyrant, and I will win
+        - Get in the ring, get in the ring now
+        - High-five my tiny hands
+        - I am pure dominance
+        - Best friend of Earl Sinclair
+        - All hail me everywhere
+    - lines:
+        - T.R.E.X.
+        - Get in the ring, I am the king
+        - T.R.E.X.
+        - Get in the ring now
+    - lines:
+        - And I'm so sorry
+        - That it's going to end deadly for you
+        - As we all know
+        - And I'm so sorry
+        - That it's going to end deadly for you
+        - As we all know
+    - lines:
+        - Dino-Core by a carnivore
+        - Fuck your long neck Brontosaur
+        - I am a beast
+        - Who?
+        - You are deceased
+        - What?
+        - Get in the ring, get in the ring now
+        - High-five my tiny hands
+        - I am pure dominance
+        - Best friend of Earl Sinclair
+        - All hail me everywhere
+    - lines:
+        - I am the king, doing my thing
+        - I reign supreme, living the dream
+        - I am the king, doing my thing
+        - I reign supreme, living the dream
+        - Living like a motherfucker
+    - lines:
+        - T.R.E.X.
+        - Get in the ring, I am the king
+        - T.R.E.X.
+        - Get in the ring now
+    - lines:
+        - And I'm so sorry
+        - That it's going to end deadly for you
+        - As we all know
+        - And I'm so sorry
+        - That it's going to end deadly for you
+        - As we all know
+    - lines:
+        - T-Rex-Plosion
+        - You'll never make it out
+        - T-Rex-Plosion
+        - They're gonna hear you shout
+        - In a world of giants, I'm the beast
+        - T.R.E.X.
+        - T.R.E.X.
+    - lines:
+        - Oh, he's the mighty king
+        - Bringing violence to everything
+        - T.R.E.X., T.R.E.X.
+        - T.R.E.X., T.R.E.X.
+    - lines:
+        - And I'm so sorry
+        - That it's going to end deadly for you
+        - As we all know
+        - And I'm so sorry
+        - That it's going to end deadly for you
+        - As we all know
+---

@@ -1,0 +1,80 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Scappa dalla tua realtà
+        - Io non sono il tuo nemico
+        - Non avere paura
+        - Addormentato sotto la ghigliottina
+        - Prometto che non farò una scenata
+        - Giochiamo solo a fingere
+    - lines:
+        - Ero troppo sedato per sentire?
+        - Prometto che ora ti sento
+        - Perché hai aspettato
+        - Credi nel Dio che temo
+    - lines:
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+    - lines:
+        - Ero troppo sedato per sentire?
+        - Prometto che ora ti sento
+        - Perché hai aspettato
+        - Credi nel Dio che temo
+    - lines:
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+    - lines:
+        - Senza pentirsi
+        - Rompendo la mia chimica
+        - Svanendo
+        - Non pensi che sia paradisiaco?
+        - Muoio proprio davanti a me
+        - Ripetendo amen
+    - lines:
+        - Ero troppo sedato per sentire?
+        - Prometto che ora ti sento
+        - Perché hai aspettato
+        - Credi nel Dio che temo
+    - lines:
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+    - lines:
+        - Macchine intorpidite
+        - E sogni da condannato a morte
+        - Regna sovrano
+    - lines:
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+    - lines:
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+        - Pioggia, pioggia, vattene
+        - Lasciami in binario
+        - Dicono, va tutto bene
+        - È solo il giorno del giudizio
+---

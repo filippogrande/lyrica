@@ -1,0 +1,81 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Federico, -co, -co, -co-co
+        - Federico, -co, -co, -co- co-co-co
+    - lines:
+        - Wir sind die Barilla-Boys, denn unsere Nudeln sind immer al dente (Yes)
+        - Pesto Rosso, Genovese, Hauptsache Italo-Ambiente (Sì)
+        - Gib mir das Hartweizen, sonst wirst du ins Gras beißen (Hüah)
+        - Sieh mich mit meinen Fingern auf bemehlter Arbeitsfläche Parts schreiben
+        - Bin in der Trattoria und fülle mit Freude die Cannelone
+        - TBS, KNG, göttliche Combinazione (Yes)
+        - Ich will Lasagne und drücke mir Biss für Biss rein in die Futterluke (Oah)
+        - Essen geil, drei Wochen Durchfall, ein Arzt muss mich untersuchen
+    - lines:
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi, grazie, Tortelloni
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - Man kann Nudel machen warm, man kann Nudel machen kalt
+        - Ich mach' Nudel in den Mundi, bis es knallt
+        - Man kann Nudel machen warm, man kann Nudel machen kalt
+        - Ich mach' Nudel in den Mundi, bis es knallt (Federico)
+    - lines:
+        - Spaghettini, Rigatone, quattrio statione
+        - Parmigiano, niemals ohne, andres Essen, freie Zone
+        - No, no, no insalata, sì, sì, sì, pasta, pasta
+        - No, no, no risottono, Pasta nur al bronzo
+        - Nudel kann ich essen warm, kann ich essen kalt (Kalt)
+        - Nudel hab' ich lieb, bin in Nudel verknallt
+        - Ich mache Nudel aus dem Wasser raus, heiß, heiß, heiß
+        - Löffel' aus dem Becher Spaghetti-Eis, -Eis, -Eis
+    - lines:
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi, grazie, Tortelloni
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - Man kann Nudel machen warm, man kann Nudel machen kalt
+        - Ich mach' Nudel in den Mundi, bis es knallt
+        - Man kann Nudel machen warm, man kann Nudel machen kalt
+        - Ich mach' Nudel in den Mundi, bis es knallt
+    - lines:
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi, grazie, Tortelloni
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+    - lines:
+        - (Federico)
+        - Yeah, happa, happa
+        - Pasta, Pasta
+        - Happa, happa, Pasta, Pasta, happa, happa
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa, happa
+    - lines:
+        - Man kann Nudel machen warm, man kann Nudel machen kalt
+        - Ich mach' Nudel in den Mundi, bis es knallt
+        - Man kann Nudel machen warm, man kann Nudel machen kalt
+        - Ich mach' Nudel in den Mundi, bis es knallt, yeah
+    - lines:
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi, grazie, Tortelloni
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa, happa
+---

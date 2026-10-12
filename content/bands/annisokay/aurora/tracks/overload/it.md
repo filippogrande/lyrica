@@ -1,0 +1,70 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sei stanco di controllare
+        - Il tuo cervello sta andando in sovraccarico
+        - Stanco di tutte le benedizioni
+        - Che tutti elargiscono
+        - Stai cercando di combattere la sensazione
+        - Che la vita non ha senso
+        - Sei terrorizzato dal fallire
+        - Di essere quello che abbandona, quello a cui danno la colpa
+    - lines:
+        - Corri, corri, e combattila
+        - Corri, corri, e combattila
+    - lines:
+        - Corri, corri, e combattila
+        - Non riesco più a nascondere me stesso
+        - È troppo complicato
+        - Corri, corri e affrontala
+        - Nessuna possibilità, non c'è via per me
+        - Per fermare questo sovraccarico
+    - lines:
+        - Per fermare questo sovraccarico
+        - Per fermare questo sovraccarico
+        - Per fermare questo sovraccarico
+        - Per fermare questo sovraccarico
+    - lines:
+        - Il termostato sta salendo
+        - Tutte le tue nocche sbiancando
+        - Sei stanco di trattenerti
+        - I demoni che hai domato
+        - La cornice è dorata
+        - I colori in sovraccarico
+        - Stai sanguinando, urlando dall'interno
+        - Mentre tutti guardano
+    - lines:
+        - Corri, corri, e combattila
+        - Non riesco più a nascondere me stesso
+        - È troppo complicato
+        - Corri, corri e affrontala
+        - Nessuna possibilità, non c'è via per me
+        - Per fermare questo sovraccarico
+    - lines:
+        - Per fermare questo sovraccarico
+        - Per fermare questo sovraccarico
+        - Per fermare questo sovraccarico
+        - Per fermare questo sovraccarico
+    - lines:
+        - Quest'immagine è senza colore
+        - Ne ho abbastanza
+        - Non c'è bisogno di impressionare
+        - Non c'è bisogno di tuffarmi
+        - Quest'immagine è senza colore
+        - Ne ho abbastanza
+        - Non c'è bisogno di impressionare
+        - Ora mi sento vivo
+    - lines:
+        - Corri, corri, e combattila
+        - Non riesco più a nascondere me stesso
+        - È troppo complicato
+        - Corri, corri e affrontala
+        - Nessuna possibilità, non c'è via per me
+        - Per fermare questo
+    - lines:
+        - Per fermare questo
+        - Per fermare questo sovraccarico
+---

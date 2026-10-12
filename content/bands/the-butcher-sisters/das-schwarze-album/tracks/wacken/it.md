@@ -1,0 +1,81 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Andiamo a Wacken
+        - Una volta all'anno
+        - Andiamo a Wacken
+        - Schalalala
+        - Andiamo a Wacken
+        - Una volta all'anno
+        - Canta con 3 di alcolemia fear of the dark
+    - lines:
+        - Ho la sedia da campeggio
+        - Ho la piscina gonfiabile
+        - Ho la birra in lattina con me
+    - lines:
+        - Scatoletta di ravioli
+        - Solo un paio di mutande
+        - Sento odore di mucche e urlo
+    - lines:
+        - Voglio vedere gli Slayer
+        - Poi voglio andare agli Iron Maiden
+        - Fear of the dark
+        - Sono pieno di fango
+        - Oh dio quanto amo questo
+        - Cerco per tutta la notte
+        - Helga al campeggio
+    - lines:
+        - Tutti i metalhead sono fratelli nello spirito
+        - Il metal è semplicemente il massimo
+    - lines:
+        - Andiamo a Wacken
+        - Una volta all'anno
+        - Andiamo a Wacken
+        - Schalalala
+        - Andiamo a Wacken
+        - Una volta all'anno
+        - Canta con 3 di alcolemia fear of the dark
+    - lines:
+        - Guardo i vigili del fuoco
+        - Mi scolo il corno potorio
+        - Non ce la faccio ad arrivare al Dixi
+    - lines:
+        - E dopo la wall of death
+        - Ho un livido
+        - Il mio cuore metal brucia a fiamma viva yeah
+    - lines:
+        - Voglio vedere gli Slipknot
+        - Poi voglio andare ai Guns N' Roses
+        - Wooohooohooo
+    - lines:
+        - Davvero ogni anno
+        - Vado al WOA
+        - Portami a Wacken
+        - Il mio cuore è già là
+    - lines:
+        - Tutti i metalhead sono sorelle nello spirito
+        - Il metal è semplicemente il massimo
+    - lines:
+        - Andiamo a Wacken
+        - Una volta all'anno
+        - Andiamo a Wacken
+        - Schalalala
+        - Andiamo a Wacken
+        - Una volta all'anno
+        - Canta con 3 di alcolemia fear of the dark
+    - lines:
+        - Vieni con me a Wacken
+        - Vieni con me a Wacken
+        - Nella terra promessa
+        - Dammi la mano
+    - lines:
+        - Andiamo a Wacken
+        - Una volta all'anno
+        - Andiamo a Wacken
+        - Schalalala
+        - Andiamo a Wacken
+        - Una volta all'anno
+        - Canta con 3 di alcolemia fear of the dark
+---

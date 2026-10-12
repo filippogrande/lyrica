@@ -1,0 +1,68 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Enemy, enemy
+        - Enemy, friend or enemy
+    - lines:
+        - There's a price on your head
+        - And deep down you know
+        - It's all just a business my friend
+        - Where anything goes
+    - lines:
+        - The fix is in
+        - The battle lines are drawn
+        - And friendly fire
+        - The deadliest of all
+        - The fix is in
+        - The knives are coming out
+        - You thought you were
+        - The last Boy Scout
+    - lines:
+        - If you're their enemy
+        - They will kill you, kill you for money
+        - If you're a friend
+        - They will kill you but for nothing
+    - lines:
+        - You're my enemy
+        - You're my enemy
+        - Friend or enemy
+    - lines:
+        - There's a price on your head
+        - They're cashing you out
+        - So all raise your glasses please
+        - This ones on the house
+    - lines:
+        - The fix is in
+        - The undertow is strong
+        - Conspiracy
+        - The massacre they want
+        - Are you their friend?
+        - Or enemy of the state?
+        - Their little bitch
+        - Coming out to play
+    - lines:
+        - If you're their enemy
+        - They will kill you, kill you for money
+        - If you're a friend
+        - They will kill you but for nothing
+    - lines:
+        - You can do the things you want
+        - Just leave this shadow, shadow of fear
+        - You can do the things you want
+        - Just leave this shadow, shadow of fear
+    - lines:
+        - Don't be afraid of it
+        - It's inside of us
+        - We need to overcome that fear
+        - Which is controlling us
+    - lines:
+        - It's controlling us
+        - It's controlling us
+    - lines:
+        - This world is so big
+        - Don't be afraid of it
+        - A variety of mystery
+        - Don't be afraid of it
+---

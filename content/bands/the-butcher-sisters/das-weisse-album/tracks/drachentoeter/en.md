@@ -1,0 +1,75 @@
+---
+lang: en
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Yeah, chest steeled and sword sharpened
+        - Yeah, yeah, yeah, he comes when the dragon annoys
+        - Drachentöter TBS
+        - (Yeah)
+        - '''Uh, yes, hello, is this the dragon-slayer man?'''
+        - '''Yes, speaking'''
+        - '''Oh my god, we have a dragon alert in the city, it''s wrecking everything'''
+        - '''Dragon alert? I''m coming'''
+    - lines:
+        - I'm a knight hunting the dragon, grr
+        - Sword drawn to kill it dead
+        - No hair on my back, my body is made of steel
+        - Magic potion Dosibier flows through my veins
+        - I am the dragon, doing dragon things
+        - I am the dragon, want to wreck the whole city
+    - lines:
+        - Everyone knows his name (Woah)
+        - Everybody raves about his deeds
+    - lines:
+        - Yeah, chest steeled and sword sharpened
+        - Drachentöter TBS
+        - Yeah, yeah, yeah, he comes when the dragon annoys
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - Such a cool sword
+        - Drachentöter, yeah
+    - lines:
+        - I stand on the mountain, holding the sword up high
+        - The dragon breathes fire, buff-buff
+        - The beast looks at me and I look back at it
+        - We stare into each other's face for a long time
+        - Boom, with my hand on the dragon's head
+        - I pour one, two Dogi beers into the dragon's throat
+        - The beast is tamed, now we chill cool
+        - Tonight I'm having sex in a pool with
+        - Yeah, I was the dragon
+        - I can't do anything anymore
+        - I was the dragon
+        - I can't destroy anything at all anymore
+    - lines:
+        - Everyone knows his name (Woah)
+        - Everybody raves about his deeds
+    - lines:
+        - Yeah, chest steeled and sword sharpened
+        - Drachentöter TBS
+        - Yeah, yeah, yeah, he comes when the dragon annoys
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - Such a cool sword
+        - Drachentöter
+    - lines:
+        - The prophecy is true
+        - Here he is with his cool sword
+        - All the dragons' knees are shaking
+        - Drachentöter
+        - Yeah
+        - He was famous throughout the land
+        - He struck the dragon with his hand
+        - It's clear, the [?]
+        - 'His name: Drachentöter Superstar'
+    - lines:
+        - Yeah, chest steeled and sword sharpened
+        - Drachentöter TBS
+        - Yeah, yeah, yeah, he comes when the dragon annoys
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - Such a cool sword
+        - Drachentöter
+---

@@ -1,0 +1,82 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Waddle, waddle on the ice so cold
+        - Little tuxedo, looking so bold
+        - Flap those wings like you're ready to strike
+        - He's so dope
+        - And this is what he sounds like
+    - lines:
+        - He is the king of ice forever and ever
+        - Cold as a motherfucker, comin' to get ya
+        - Comin' to get ya, comin' to get ya
+        - Colder than polar caps forever and ever
+    - lines:
+        - Penguin Supreme, yeah, the ruler of snow
+        - Swagger like Mick Jagger, in a rodeo
+        - Penguin Supreme, yeah, the ruler of snow
+        - Are you fucking cold? He is putting on his Speedo
+    - lines:
+        - He slips and falls, but he won't give in
+        - All hail the penguin
+        - He slips and falls, but he won't give in
+        - All hail the penguin
+    - lines:
+        - Penguins in a cuddly parade
+        - Looking sharp and they're never afraid
+        - They fall, they slide, they sway anyday
+        - The clowns and the kings of the ice play
+    - lines:
+        - Penguins in a cuddly parade
+        - Looking sharp and they're never afraid
+        - They fall, they slide, they sway anyday
+        - The clowns and the kings of the ice play
+    - lines:
+        - Waddle, waddle on the ice so cold
+        - Little tuxedo, looking so bold
+        - Clap your wings if you're ready to fly
+        - But oh, no!
+        - That's the only thing you can't, right?
+    - lines:
+        - He is the clown of ice forever and ever
+        - Dumb as a motherfuck, not coming to get ya
+        - Not coming to get ya, not coming to get ya
+        - Trapped on your block of ice, wherever, whatever
+    - lines:
+        - He slips and falls, but he won't give in
+        - All hail the penguin
+        - He slips and falls, but he won't give in
+        - All hail the penguin
+    - lines:
+        - Penguins in a cuddly parade
+        - Looking sharp and they're never afraid
+        - They fall, they slide, they sway anyday
+        - The clowns and the kings of the ice play
+    - lines:
+        - Penguins in a cuddly parade
+        - Looking sharp and they're never afraid
+        - They fall, they slide, they sway anyday
+        - The clowns and the kings of the ice play
+    - lines:
+        - Waddle, waddle on the ice so cold
+        - Little tuxedo, looking so bold
+        - Clap your wings if you're ready to fly
+        - But oh, no!
+        - That's the only thing you can't, right?
+    - lines:
+        - Penguins in a cuddly parade
+        - Looking sharp and they're never afraid
+        - They fall, they slide, they sway anyday
+        - The clowns and the kings of the ice play
+    - lines:
+        - Penguins in a cuddly parade
+        - Looking sharp and they're never afraid
+        - They fall, they slide, they sway anyday
+        - The clowns and the kings of the ice play
+    - lines:
+        - All hail penguin
+        - Bow down to the ruler of the ice
+        - You suckers
+---

@@ -1,0 +1,45 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Er legt die Nadel auf die Ader
+        - Und bittet die Musik herein
+        - Zwischen Hals und Unterarm
+        - Die Melodie fährt leise ins Gebein
+    - lines:
+        - (Los! Los! Los!) Bop bop shu bop (Los! Los! Los!)
+    - lines:
+        - Er hat die Augen zugemacht
+        - In seinem Blut tobt eine Schlacht
+        - Ein Heer marschiert durch seinen Darm
+        - Die Eingeweide werden langsam warm
+    - lines:
+        - (Los! Los! Los!) Bop bop shu bop (Los! Los! Los!)
+        - (Los! Los! Los!) Bop bop shu bop (Los! Los! Los!)
+    - lines:
+        - Nichts ist für dich
+        - Nichts war für dich
+        - Nichts bleibt für dich
+        - Für immer
+        - Nichts ist für dich
+        - Nichts war für dich
+        - Nichts bleibt für dich
+        - Für immer
+    - lines:
+        - Er nimmt die Nadel von der Ader
+        - Die Melodie fährt aus der Haut
+        - Geigen brennen mit Gekreisch
+        - Harfen schneiden sich ins Fleisch
+        - Er hat die Augen aufgemacht
+        - Doch er ist nicht aufgewacht
+    - lines:
+        - Nichts ist für dich
+        - Nichts war für dich
+        - Nichts bleibt für dich
+        - Für immer
+        - Nichts ist für dich
+        - Nichts war für dich
+        - Nichts bleibt für dich
+        - Für immer
+---

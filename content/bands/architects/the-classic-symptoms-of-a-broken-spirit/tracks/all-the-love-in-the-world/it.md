@@ -1,0 +1,75 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Il tuono è scritto sul tuo viso?
+        - Perché stiamo in equilibrio tra il cielo e il fuoco
+        - Ti vedo mendicare un altro assaggio
+        - Quando la medicina è facile da procurare
+        - Adoriamo sull'altare dell'eco
+        - Ma il custode delle chiavi non se ne importa
+        - Per niente di meno
+        - Lascia andare, lascia andare, lascia andare
+    - lines:
+        - Viviamo una vita intera là fuori nel freddo
+        - Qui non c'è niente da vedere, è tutto sotto controllo
+        - Il segnale si sta spegnendo
+        - Non piove mai, è sempre fottutamente torrenziale
+        - Dicono che è meglio aver dimenticato le nostre potenzialità
+        - Non ci resta più niente da cantare?
+        - Voglio davvero gridare su
+        - Tutto l'amore del mondo?
+    - lines:
+        - Tutto l'amore del mondo
+        - Tutto l'amore del mondo
+        - Tutto l'amore del mondo
+    - lines:
+        - Se vuoi sprecare tutto
+        - Ripeti il messaggio che scende lungo il filo
+        - Vedo l'indifferenza tutta in maiuscolo
+        - Sarai un'altra spia a soldo?
+        - Undici ore e poi un Hail Mary
+        - Puoi versare un'altra lacrima per i corpi che seppellisci?
+        - Benedici il vuoto
+        - Con il diavolo che desiderano
+    - lines:
+        - Viviamo una vita intera là fuori nel freddo
+        - Qui non c'è niente da vedere, è tutto sotto controllo
+        - Il segnale si sta spegnendo
+        - Non piove mai, è sempre fottutamente torrenziale
+        - Dicono che è meglio aver dimenticato le nostre potenzialità
+        - Non ci resta più niente da cantare?
+        - Voglio davvero gridare su
+        - Tutto l'amore del mondo?
+    - lines:
+        - Whoa-oh, whoa-oh
+        - Whoa, whoa
+        - Whoa-oh, whoa-oh
+        - Whoa, whoa
+    - lines:
+        - Il segnale si sta spegnendo
+    - lines:
+        - Se siamo tutte macchine allora tagliamo la scena
+        - E non guardarti indietro
+        - No, non piangiamo mai i nostri nemici
+        - Non abbandoniamo mai il branco
+        - Se vengono a prendermi mentre dormo
+        - Segui queste tracce
+        - Perché, in qualche modo impossibile, siamo nati
+        - Dal nero
+    - lines:
+        - Viviamo una vita intera là fuori nel freddo
+        - Qui non c'è niente da vedere, è tutto sotto controllo
+        - Il segnale si sta spegnendo
+        - Non piove mai, è sempre fottutamente torrenziale
+        - Dicono che è meglio aver dimenticato le nostre potenzialità
+        - Non ci resta più niente da cantare?
+        - Voglio davvero gridare su
+        - Tutto l'amore del mondo?
+    - lines:
+        - Tutto l'amore del mondo
+        - Tutto l'amore del mondo
+        - Tutto l'amore del mondo
+---

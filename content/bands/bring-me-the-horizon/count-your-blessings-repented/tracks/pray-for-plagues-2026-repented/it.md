@@ -1,0 +1,49 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Vola!
+    - lines:
+        - Inizia la sua nuova dieta di liquore e cazzi
+        - Proprio come Hollywood, ma intrisa di malattia
+        - Il sole tramonta e pure lei
+        - Il sole tramonta e pure lei
+    - lines:
+        - Ha svenduto l'amore che aveva con un taglio alla gola
+        - Giro di drink a sue spese prima che si avvii verso il fossato
+        - Il sole tramonta e pure lei
+        - Il sole tramonta e pure lei
+    - lines:
+        - Oh (Oh, oh), piangi
+        - (Conta le tue fottute) Benedizioni
+        - Dai, conta le tue benedizioni
+        - Perché conto ogni bugia, conta le tue benedizioni
+        - Perché conto ogni bugia, contando ogni bugia
+        - Cristo, ti chiedo solo una cosa
+        - Ti chiedo solo una cosa
+        - Sradica questa malattia
+    - lines:
+        - Chiudi gli occhi, prega per le piaghe
+        - Oh, Signore, purifica questa terra e porta su di noi il nostro giorno del giudizio
+        - Oh, chiudi gli occhi, prega per le piaghe
+        - Purifica questa terra e porta il giorno del giudizio
+    - lines:
+        - Ah, inizia la sua nuova dieta di liquore e cazzi
+        - Proprio come Hollywood ma intrisa di malattia
+        - Il sole tramonta e pure lei
+        - Il sole tramonta e pure lei
+    - lines:
+        - Quindi batti le mani al suono di ogni primogenito che muore adesso
+        - Guarda i fiumi scorrere di sangue, la morte starà dove un tempo sorgeva la vita
+        - Quindi batti le mani al suono di ogni primogenito che muore adesso
+        - Guarda i fiumi trasformarsi in sangue, la morte starà dove un tempo sorgeva la vita
+        - Quindi batti le mani al suono di ogni primogenito che muore adesso
+        - Guarda i fiumi trasformarsi in sangue, la morte starà dove un tempo sorgeva la vita
+    - lines:
+        - Chiudi gli occhi, prega per le piaghe
+        - Purifica questa terra, porta il nostro giorno del giudizio
+    - lines:
+        - Vieni sulla mia faccia
+---

@@ -1,0 +1,48 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Fly!
+    - lines:
+        - She starts her new diet of liquor and dick
+        - Just like Hollywood, but laced in sick
+        - The sun goes down and so does she
+        - The sun goes down and so does she
+    - lines:
+        - Sold out the love that she had with the cut of a throat
+        - Drinks all 'round on her before she strolls to the moat
+        - The sun goes down and so does she
+        - The sun goes down and so does she
+    - lines:
+        - Oh (Oh, oh), cry
+        - (Count your fucking) Blessings
+        - Come on, count your blessings
+        - '''Cause I''m counting every lie, count your blessings'
+        - '''Cause I''m counting every lie, counting every lie'
+        - Christ, I'm asking you for just one thing
+        - I'm asking you for just one thing
+        - Eradicate this disease
+    - lines:
+        - Close your eyes, pray for plagues
+        - Oh, Lord, cleanse this earth and bring upon our doomsday
+        - Oh, close your eyes, pray for plagues
+        - Cleanse this earth and bring doomsday
+    - lines:
+        - Ah, she starts her new diet of liquor and dick
+        - Just like Hollywood but laced in sick
+        - The sun goes down and so does she
+        - The sun goes down and so does she
+    - lines:
+        - So clap your hands to the sound of every first born dying now
+        - Watch the rivers flow with blood, death will stand where life once stood
+        - So clap your hands to the sound of every first born dying now
+        - Watch the rivers turn to blood, death will stand where life once stood
+        - So clap your hands to the sound of every first born dying now
+        - Watch the rivers turn to blood, death will stand where life once stood
+    - lines:
+        - Close your eyes, pray for plagues
+        - Cleanse this earth, bring our doomsday
+    - lines:
+        - Cum on my face
+---

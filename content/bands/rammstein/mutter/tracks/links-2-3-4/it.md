@@ -1,0 +1,68 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Si possono spezzare i cuori?
+        - I cuori possono parlare?
+        - Si possono tormentare i cuori?
+        - Si possono rubare i cuori?
+    - lines:
+        - Vogliono il mio cuore al posto giusto, ma
+        - Poi guardo in basso
+        - E batte a sinistra
+        - Sinistra
+    - lines:
+        - I cuori possono cantare?
+        - Un cuore può scoppiare?
+        - I cuori possono essere puri?
+        - Un cuore può essere di pietra?
+    - lines:
+        - Vogliono il mio cuore al posto giusto, ma
+        - Poi guardo in basso
+        - E batte a sinistra
+    - lines:
+        - Sinistra
+        - Sinistra
+        - Sinistra
+        - Sinistra
+        - Sinistra due, tre, quattro
+        - Sinistra due, sinistra due
+        - Sinistra due, tre, quattro
+        - Sinistra
+        - Sinistra due, sinistra due
+        - Sinistra due, tre, quattro
+        - Sinistra
+        - Sinistra due, tre, quattro
+    - lines:
+        - Si possono interrogare i cuori?
+        - (Si può) Portare dentro un bambino?
+        - Si può regalare?
+        - (Si può) Pensare con il cuore?
+        - Vogliono il mio cuore al posto giusto
+        - Ma poi guardo in basso
+        - Batte lì, nel petto sinistro
+        - L'invidioso l'ha saputo male
+    - lines:
+        - Sinistra
+        - Sinistra
+        - Sinistra
+        - Sinistra
+        - Sinistra due, tre, quattro
+        - Sinistra
+        - Sinistra due, tre, quattro
+        - Sinistra due, sinistra due
+        - Sinistra due, tre, quattro
+        - Sinistra
+        - Sinistra due, sinistra due
+        - Sinistra due, tre, quattro
+        - Sinistra
+        - Sinistra due, sinistra due
+        - Sinistra due, tre, quattro
+        - Sinistra due, sinistra due
+        - Sinistra due, tre, quattro
+        - Sinistra due, sinistra due
+        - Sinistra due, tre, quattro
+        - Sinistra due, sinistra due
+        - Sinistra due, tre, quattro
+---

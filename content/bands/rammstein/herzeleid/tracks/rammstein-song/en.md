@@ -1,0 +1,38 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Rammstein
+        - A human burns
+        - Rammstein
+        - Smell of meat in the air
+        - Rammstein
+        - A child dies
+        - Rammstein
+        - The sun shines
+    - lines:
+        - Rammstein
+        - A lake of fire
+        - Rammstein
+        - Pools of blood on the asphalt
+        - Rammstein
+        - Mothers scream
+        - Rammstein
+        - The sun shines
+    - lines:
+        - Rammstein
+        - A mass grave
+        - Rammstein
+        - No way out
+        - Rammstein
+        - No bird sings anymore
+        - Rammstein
+        - The sun shines
+    - lines:
+        - Rammstein
+        - Rammstein
+        - Rammstein
+        - Rammstein
+        - Rammstein
+---

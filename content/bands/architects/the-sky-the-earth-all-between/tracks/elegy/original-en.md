@@ -1,0 +1,57 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I've done enough
+        - To figure out that nobody can take this feeling
+        - I'm looking up, it's clear now
+        - I suffered but it gave me meaning
+        - You had me burnt at the stake
+        - But I'm alive, I'm awake
+        - Living without you
+        - I took the fire to the fuse
+    - lines:
+        - '''Cause I gave you all a part of me'
+        - I found you at the murder scene
+        - You questioned my integrity again, again, again
+        - But I rose above the gravity
+        - The sky, the earth and all between
+        - You've written out my elegy again, again, again
+    - lines:
+        - My head is fucking haunted
+        - They're coming for my soul
+        - You've taken everything you wanted
+        - But did you consider the toll?
+        - Hell no
+        - A guilty conscience?
+        - I doubt that you'd ever had one
+        - I see you Dracula, burning out in the cold sun
+        - Maybe you're too unaware, violent animal
+        - Living but dead to the world
+    - lines:
+        - '''Cause I gave you all a part of me'
+        - I found you at the murder scene
+        - You questioned my integrity again, again, again
+        - But I rose above the gravity
+        - The sky, the earth and all between
+        - You've written out my elegy again
+        - Written out my elegy again, again, again
+    - lines:
+        - Sweet Jesus, don't leave us
+        - Don't tear us into pieces
+    - lines:
+        - You'll sit before my throne
+        - That's all you're good for
+        - Don't grieve, not for me
+        - Set free, nothing off the record
+        - Spare me the third degree
+        - I'll break every stone that you throw
+    - lines:
+        - Will you ever hear the end of me?
+        - I soaked you in the gasoline
+        - I'll never need an enemy again, again, again, again
+    - lines:
+        - Sweet Jesus, don't leave us
+        - Don't tear us into pieces
+---

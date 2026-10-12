@@ -1,0 +1,71 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Una cerveza
+        - Una cerveza
+        - Tus aus dem Hahn raus
+        - Tus in den Becher
+        - Una cerveza
+        - Una cerveza
+        - Ein Bier ist gut, aber zehn schmecken besser
+    - lines:
+        - Una cerveza
+        - La, la, la, la, la
+        - Tus in den Becher
+    - lines:
+        - Leinenhemd wie ein Finka-Besitzer
+        - Schiefer Blick wie ein Fiat Multipla
+        - Es ist heiß, es ist heiß in mei'm Haus drinnen
+        - Lass es kühl, lass es kühl in mein' Bauch rinnen
+        - Ah
+    - lines:
+        - Unterwegs brauche Bier in den Mundo
+        - Lauf durch die Gassen wie ein streunender Hundo
+        - Ich habe Durst und der ist nie verschwundo
+        - Wenn ich die Bar hab gefundo
+        - Gebe ich aus eine Rundo
+    - lines:
+        - Una cerveza
+        - Una cerveza
+        - Tus aus dem Hahn raus
+        - Tus in den Becher
+        - Una cerveza
+        - Una cerveza
+        - Ein Bier ist gut, aber zehn schmecken besser
+    - lines:
+        - Una cerveza
+        - La, la, la, la, la
+        - Tus in den Becher
+    - lines:
+        - Du bist eisgekühlt
+        - Ich bin heiß
+        - Ich bin Hebemann
+        - Robert Geiss
+    - lines:
+        - Du hast so schön geprickelt in mei'm Bauchnabel
+        - Trink dich aus, will dich tief in mein' Bauch haben
+        - Leicht einen sitzen und keine Termine
+        - Ich bin die Highspeed-Achtarm-Dummsauf-Maschine
+        - Ich flanier frisch paniert an der Strandpromenade
+        - Ich weiß, was ich will und ich ruf deinen Namen
+    - lines:
+        - Una cerveza
+        - Una cerveza
+        - Tus aus dem Hahn raus
+        - Tus in den Becher
+        - Una cerveza
+        - Una cerveza
+        - Zehn Bier sind gut, aber
+        - Eine gottverdammte Billionen Bier schmecken besser
+    - lines:
+        - Una cerveza
+        - La, la, la, la, la
+        - Tus in den Becher
+    - lines:
+        - Una cerveza
+        - Una cerveza
+        - La, la, la, la, la
+        - Tu es in den Becher
+---

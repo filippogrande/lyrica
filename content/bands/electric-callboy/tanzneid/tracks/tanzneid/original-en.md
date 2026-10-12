@@ -1,0 +1,52 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I see the motion, I can feel the beat, and
+        - My legs are tied onto the ground (To the ground)
+        - I cannot move, but I just wanna feel it
+        - Gimme, gimme, yeah, I'ma cut the fucking rope
+    - lines:
+        - Tanzneid, everybody jump around
+        - Tanzneid when the bass is hammering
+        - Tanzneid, everybody's getting down
+        - Tanzneid to the boom-boom sound
+    - lines:
+        - A fever burning in my soul and I love what it feels like
+        - And I will never let it go till you know what it feels like
+        - I want it, I need it, and I will keep it up for me
+        - A fever burning in my soul that I hold inside of me
+        - That I hold inside of me
+    - lines:
+        - The heat is rising up with every minute
+        - I don't wanna give it, give it, give it up
+        - But I know I can end my suffering
+        - Gimme, gimme, yeah, I'ma cut the fucking rope
+    - lines:
+        - Tanzneid, everybody jump around
+        - Tanzneid when the bass is hammering
+        - Tanzneid, everybody's getting down
+        - Tanzneid to the boom-boom sound
+    - lines:
+        - A fever burning in my soul and I love what it feels like
+        - And I will never let it go till you know what it feels like
+        - I want it, I need it, and I will keep it up for me
+        - A fever burning in my soul that I hold inside of me
+        - That I hold inside of me
+    - lines:
+        - Tanzneid
+        - Tanzneid
+    - lines:
+        - I'm gonna shake it like that
+        - Burn! Burn! Burn!
+        - I'm gonna make you burn! Burn! Burn!
+        - Till the fire goes off
+    - lines:
+        - A fever burning in my soul and I love what it feels like
+        - And I will never let it go till you know what it feels like
+        - I want it, I need it, and I will keep it up for me
+        - A fever burning in my soul that I hold inside of me
+        - That I hold inside of me
+        - That I hold inside of me
+---

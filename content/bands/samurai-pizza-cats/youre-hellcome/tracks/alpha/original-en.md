@@ -1,0 +1,61 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I am the alpha
+        - I am the leader
+        - You are the scum and I am your feeder
+        - We are like sirens bursting your ears
+        - We are the one representing your fears
+    - lines:
+        - I am the alpha
+        - I am the leader
+        - You are the scum and I am your feeder
+        - We are like sirens bursting your ears
+        - We are the one representing your fears
+    - lines:
+        - Is this what you waited for
+        - Alright
+        - No more chance for you fucks
+        - So step aside
+        - We gonna break your fucking face tonight
+        - SPC is here for a gun fight
+    - lines:
+        - Come on now
+        - Show us what you got
+        - You know it's getting hot
+        - This will be your last shot
+        - Come on now
+        - Show us what you got
+        - So get the fuck out
+    - lines:
+        - Digger steh mir nicht im Weg man Mach Platz da du Lappen
+        - Weil die Königin am Start ist und ich Ansagen mache
+        - Also runter auf die Knie jetzt, verneig dich vor dem Alpha-Tier
+        - Keiner hier, hat mir was zu sagen das ist mein Quartier
+        - Schnauze jetzt da unten man, bell nicht wie ein Hund
+        - Du machst Platz wenn ich das sage, wenn ich will hältst du den Mund
+        - Ich dominiere wen ich will und das völlig ohne Grund
+        - Mach das Alpha-Tier nicht wütend digger wäre nicht gesund
+    - lines:
+        - I am the alpha
+        - I am the leader
+        - You are the scum and I am your feeder
+        - We are like sirens bursting your ears
+        - We are the one representing your fears
+    - lines:
+        - Come on now
+        - You can't really be surprised
+        - SPC is here so you'll pay the price
+        - You fucks try to stand in our light
+        - But all we see is just a fools paradise
+    - lines:
+        - Come on now
+        - Show us what you got
+        - You know it's getting hot
+        - This will be your last shot
+        - Come on now
+        - Show us what you got
+        - So get the fuck out
+---

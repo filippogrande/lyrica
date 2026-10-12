@@ -1,0 +1,83 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Procede a dondolo sul ghiaccio così freddo
+        - Piccolo smoking, sembra così coraggioso
+        - Sbatte quelle ali come se fosse pronto a colpire
+        - È così fico
+        - E questo è il suono che fa
+    - lines:
+        - È il re del ghiaccio per sempre e per sempre
+        - Freddo come un cazzo, viene a prenderti
+        - Viene a prenderti, viene a prenderti
+        - Più freddo dei coperchi polari per sempre e per sempre
+    - lines:
+        - Penguin Supreme, yeah, il sovrano della neve
+        - Con il tuo fare da Mick Jagger, in un rodeo
+        - Penguin Supreme, yeah, il sovrano della neve
+        - Hai un cazzo di freddo? Lui si mette lo Speedo
+    - lines:
+        - Scivola e cade, ma non si arrende
+        - Salve al pinguino
+        - Scivola e cade, ma non si arrende
+        - Salve al pinguino
+    - lines:
+        - Pinguini in una parata coccolosa
+        - Hanno un aspetto elegante e non hanno mai paura
+        - Cadono, scivolano, oscillano ogni giorno
+        - I clown e i re del ghiaccio giocano
+    - lines:
+        - Pinguini in una parata coccolosa
+        - Hanno un aspetto elegante e non hanno mai paura
+        - Cadono, scivolano, oscillano ogni giorno
+        - I clown e i re del ghiaccio giocano
+    - lines:
+        - Procede a dondolo sul ghiaccio così freddo
+        - Piccolo smoking, sembra così coraggioso
+        - Batti le ali se sei pronto a volare
+        - Ma oh, no!
+        - Quella è l'unica cosa che non sai fare, vero?
+    - lines:
+        - È il clown del ghiaccio per sempre e per sempre
+        - Stupido come un cazzo, non viene a prenderti
+        - Non viene a prenderti, non viene a prenderti
+        - Intrappolato sul tuo blocco di ghiaccio, ovunque, qualunque cosa
+    - lines:
+        - Scivola e cade, ma non si arrende
+        - Salve al pinguino
+        - Scivola e cade, ma non si arrende
+        - Salve al pinguino
+    - lines:
+        - Pinguini in una parata coccolosa
+        - Hanno un aspetto elegante e non hanno mai paura
+        - Cadono, scivolano, oscillano ogni giorno
+        - I clown e i re del ghiaccio giocano
+    - lines:
+        - Pinguini in una parata coccolosa
+        - Hanno un aspetto elegante e non hanno mai paura
+        - Cadono, scivolano, oscillano ogni giorno
+        - I clown e i re del ghiaccio giocano
+    - lines:
+        - Procede a dondolo sul ghiaccio così freddo
+        - Piccolo smoking, sembra così coraggioso
+        - Batti le ali se sei pronto a volare
+        - Ma oh, no!
+        - Quella è l'unica cosa che non sai fare, vero?
+    - lines:
+        - Pinguini in una parata coccolosa
+        - Hanno un aspetto elegante e non hanno mai paura
+        - Cadono, scivolano, oscillano ogni giorno
+        - I clown e i re del ghiaccio giocano
+    - lines:
+        - Pinguini in una parata coccolosa
+        - Hanno un aspetto elegante e non hanno mai paura
+        - Cadono, scivolano, oscillano ogni giorno
+        - I clown e i re del ghiaccio giocano
+    - lines:
+        - Salve pinguino
+        - Piegatevi al sovrano del ghiaccio
+        - Voi succhioni
+---

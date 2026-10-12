@@ -1,0 +1,81 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Federico, -co, -co, -co-co
+        - Federico, -co, -co, -co- co-co-co
+    - lines:
+        - Siamo i Barilla Boys, perché la nostra pasta è sempre al dente (Yes)
+        - Pesto Rosso, Genovese, l'importante è l'ambiente italo (Sì)
+        - Dammi il grano duro, o morderai la polvere (Hüah)
+        - Guardami mentre scrivo strofe con le dita sulla spianatoia infarinata
+        - Sono in trattoria e riempio con gioia i cannelloni
+        - TBS, KNG, divina combinazione (Yes)
+        - Voglio la lasagna e me la spingo boccone per boccone in gola (Oah)
+        - Cibo da urlo, tre settimane di diarrea, un medico deve visitarmi
+    - lines:
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi, grazie, Tortelloni
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - La pasta si può fare calda, la pasta si può fare fredda
+        - Mi caccio la pasta in bocca finché non scoppia
+        - La pasta si può fare calda, la pasta si può fare fredda
+        - Mi caccio la pasta in bocca finché non scoppia (Federico)
+    - lines:
+        - Spaghettini, rigatone, quattrio statione
+        - Parmigiano, mai senza, altro cibo, zona libera
+        - No, no, no insalata, sì, sì, sì, pasta, pasta
+        - No, no, no risottono, pasta solo al bronzo
+        - La pasta la posso mangiare calda, la posso mangiare fredda (Fredda)
+        - La pasta la amo, sono innamorato perso della pasta
+        - Tiro la pasta fuori dall'acqua, calda, calda, calda
+        - Scolo dal bicchiere il gelato spaghetti, -ghi, -ghi
+    - lines:
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi, grazie, Tortelloni
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - La pasta si può fare calda, la pasta si può fare fredda
+        - Mi caccio la pasta in bocca finché non scoppia
+        - La pasta si può fare calda, la pasta si può fare fredda
+        - Mi caccio la pasta in bocca finché non scoppia
+    - lines:
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi, grazie, Tortelloni
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+    - lines:
+        - (Federico)
+        - Yeah, happa, happa
+        - Pasta, Pasta
+        - Happa, happa, Pasta, Pasta, happa, happa
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa, happa
+    - lines:
+        - La pasta si può fare calda, la pasta si può fare fredda
+        - Mi caccio la pasta in bocca finché non scoppia
+        - La pasta si può fare calda, la pasta si può fare fredda
+        - Mi caccio la pasta in bocca finché non scoppia, yeah
+    - lines:
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi, grazie, Tortelloni
+        - Buongiorno, buongiorno, prego al forno
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa, happa
+---

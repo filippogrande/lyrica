@@ -1,0 +1,80 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I wanna feel it day and night
+        - You are the power of my life
+        - I wanna pump it better
+    - lines:
+        - I wanna feel it day and night
+        - My workout, my delight
+        - You are the power of my life
+        - I wanna pump it better
+    - lines:
+        - I wanna feel that burn
+        - In my testo bod
+        - The anabolic superman
+        - You'll never gonna stop yeah!
+    - lines:
+        - You better suck it up
+        - Before you suck it in
+        - Activating motherfucking beast mode
+        - Everybody down
+    - lines:
+        - Do you really wanna work it out?
+        - '''Cause I won''t take it slow'
+        - This fucking life is what I'm all about
+        - I wanna feel it day and night
+    - lines:
+        - I wanna feel it day and night
+        - My workout, my delight
+        - You are the power of my life
+        - I wanna pump it better
+    - lines:
+        - I wanna feel it day and night
+        - My workout, my delight
+        - You are the power of my life
+        - I wanna pump it better
+    - lines:
+        - Just look at my glutes
+        - What a perfect butt
+        - I'm pumping like a pro
+        - And I never really stop
+    - lines:
+        - I push myself
+        - And I push you too
+        - My body is a board
+        - Look at me! Fuck you!
+        - Get down!
+    - lines:
+        - Do you really wanna work it out?
+        - '''Cause I won''t take it slow!'
+        - This fucking life is what I'm all about
+        - You see me going deeper!
+        - With every rep you can see me grow every day... deeper!
+        - Speed it up, let's do it again!
+    - lines:
+        - Pump it!
+    - lines:
+        - I wanna feel it day and night
+        - My workout, my delight
+        - You are the power of my life
+        - I wanna pump it better
+    - lines:
+        - I wanna feel it day and night
+        - My workout, my delight
+        - You are the power of my life
+        - I wanna pump it better
+    - lines:
+        - And if you feel like your body's given up
+        - You gotta kill the pain and you pump it harder!
+        - And if you feel like the pain is getting real
+        - Then make it your life goal to fucking kill that bitch
+        - To fucking kill that bitch
+    - lines:
+        - Wake up, beast mode
+        - Every single day, I'm gonna push it fucking hard
+        - And it goes
+        - Pow, pow, pow, pow, pow, pow I just wanna pump it!
+---

@@ -1,0 +1,50 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Fischi, Fischi, yo, Fischi, yo, Fischi, yeah
+        - Fischi, Fischi, yo, Fischi, yo, Fischi, yeah
+        - Rochen Roll
+    - lines:
+        - Hi (Where?), I'm a fish
+        - Got gills and a face just like a fish
+        - I'm slippery as an eel
+        - This song is a killer like a whale
+        - You want a photo with me, but your phone is dead
+        - Ask the fish, look, I've got a charging cod
+        - I'm Barsch (Hey), Barsch (Ho), Barsch (Hey)
+        - Pike makes me sick, hüah
+    - lines:
+        - Barsch, Barsch, Barsch, Barsch
+        - Barsch, Barsch, Barsch, Barsch
+        - Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-...
+    - lines:
+        - Lick my Barsch, Barsch, Barsch, Barsch
+        - Lick my Barsch, Barsch, Barsch, Barsch
+        - Lick my Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+        - Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+    - lines:
+        - You're a cool fish? I'm laughing my salmon off
+        - What's your favourite fish? (Barsch) I dolphin-fine
+        - My name is Alex Zander, I live water under
+        - 'Throw the guppies through the club and shout: "Blub, blub"'
+        - 'Throw the guppies through the club and shout: "Blub, blub"'
+        - 'Throw the guppies through the club and shout: "Blub, blub"'
+        - I'm Barsch (Hey), Barsch (Ho), Barsch (Hey)
+        - Pike makes me sick, hüah
+    - lines:
+        - Barsch, Barsch, Barsch, Barsch
+        - Barsch, Barsch, Barsch, Barsch
+        - Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-...
+    - lines:
+        - Lick my Barsch, Barsch, Barsch, Barsch
+        - Lick my Barsch, Barsch, Barsch, Barsch
+        - Lick my Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+        - Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Ba-Ba-
+    - lines:
+        - 'Throw the guppies through the club and shout: "Blub, blub"'
+        - 'Throw the guppies through the club and shout: "Blub, blub"'
+        - 'Throw the guppies through the club and shout: "Blub, blub"'
+        - Throw the guppies through the club
+---

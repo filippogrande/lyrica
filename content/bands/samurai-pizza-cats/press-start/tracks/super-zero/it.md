@@ -1,0 +1,84 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - In una stanza con mantelli e calzamaglie
+        - Che si ritrovano ogni mercoledì sera
+        - Sentendo le cose che proviamo
+        - Siamo seduti fianco a fianco
+        - In una stanza con torte e pasticci
+        - Mangiando, nutrendo il paradiso
+        - Avendo bisogno che queste cose muoiano
+        - Siamo incitandoci fianco a fianco
+    - lines:
+        - Geeks con gambe sottili e frontoni enormi
+        - Convinti che ce la faranno
+        - Mangiano merda come in Human Centipede
+        - Non lo sopporto, sono disadattati
+        - Non vedono l'ironia
+        - Quello che gli serve è fottutamente una terapia
+    - lines:
+        - Avanti, avanti, avanti, è così divertente
+        - No, no, no, mi sto innervosendo
+        - Avanti, avanti, avanti, è così divertente
+        - No, no, no, sono pericolosamente stupidi
+    - lines:
+        - Completi troppo stretti
+        - Le nostre maschere per nascondere la luce
+        - Siamo saliti per rivendicare il trono
+        - Eroi nascosti, tutti soli
+    - lines:
+        - Possiamo inciampare, possiamo cadere
+        - Ma alla fine siamo in piedi, alti
+        - Nelle ombre del giorno
+        - Siamo eroi comunque
+    - lines:
+        - Sono un supereroe senza nessuna abilità
+        - Solo un cuore che non sta fermo
+        - In un mondo fatto per emozionare
+        - Siamo supereroi senza nessuna abilità, whoa
+    - lines:
+        - Oh, basta, smettila, devo suonare il rock
+        - Tutti voi perdenti mi fate stare male
+        - Stanco e malato delle vostre cagate da posatori
+        - Io finisco qui, occhi laser
+        - Avanti, prova a fottutamente scappare
+        - Oh, le tue urla rendono molto più divertente
+    - lines:
+        - Avanti, avanti, avanti, è così divertente
+        - No, no, no, mi sto innervosendo
+        - Avanti, avanti, avanti, è così divertente
+        - No, no, no, sono pericolosamente stupidi
+    - lines:
+        - In te ho trovato un amico
+        - Per sempre tengo la tua mano
+        - Le nostre magliette dicono "Ti amo"
+        - Oh, può essere tutto questo vero
+    - lines:
+        - Possiamo inciampare, possiamo cadere
+        - Ma alla fine siamo in piedi, alti
+        - Nelle ombre del giorno
+        - Siamo eroi comunque
+        - È ora di show
+    - lines:
+        - Oh mio dio
+        - Sono più super di Superman
+        - Sentimi il potere
+        - Ti acchiappo, ti nutro, e poi mi mangio te
+        - Sai che posso
+    - lines:
+        - Sono un supereroe senza nessuna abilità
+        - Solo un cuore che non sta fermo
+        - In un mondo fatto per emozionare
+    - lines:
+        - Sono un supereroe senza nessuna abilità
+        - Solo un cuore che non sta fermo
+        - In un mondo fatto per emozionare
+    - lines:
+        - Sono un supereroe senza nessuna abilità
+        - Solo un cuore che non sta fermo
+        - In un mondo fatto per emozionare
+        - Siamo supereroi senza nessuna abilità
+---

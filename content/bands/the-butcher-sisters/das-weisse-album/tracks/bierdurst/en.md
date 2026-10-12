@@ -1,0 +1,83 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - I'm thirsty, I'm thirsty
+        - I've been beer-thirsty since birth
+        - I'm thirsty, I'm thirsty
+        - Yeah, I've been beer-thirsty since birth, ey
+        - I'm thirsty (Woah), I'm thirsty (Woah)
+        - I've been beer-thirsty since birth (Uh)
+        - Yeah, I'm thirsty (Yeah), I'm thirsty (Exactly)
+        - I've been beer-thirsty since birth (Ah, ah, okay)
+    - lines:
+        - You're very thirsty? Cute, I'm thirstier (Cute)
+        - I'm thirsty for beer like for a whole sea (Hehehe)
+        - And if I die from drinking someday
+        - My thirst stays on earth forever (Wouh)
+        - Ey, my childhood was a miserable flop (Flop)
+        - '''Cause some days I only got very little scotch'
+        - 'I say: "I''ll take it easy today", but later there''s puking (Urgh)'
+        - My thirst can't be quenched like a baby without a head, okay
+    - lines:
+        - I'm burning like a rainforest (Yeah)
+        - I've got land under water like Bremen soon (Yeah)
+        - If the hunter doesn't bang at my place by ten in the morning
+        - One thing I've got for sure (Yeah, blah, blah, blah, blah)
+    - lines:
+        - I have, I've got, I'm thirsty, I'm thirsty
+        - I've been beer-thirsty since birth
+        - I'm thirsty, I'm thirsty
+        - Yeah, I've been beer-thirsty since birth
+    - lines:
+        - Ey, I chug the beer, beer
+        - Beer, beer, beer, beer, beer, beer, beer
+        - Ey, I chug the beer, beer
+        - Beer, beer, beer, beer, beer, beer, beer
+    - lines:
+        - Beer in my head, beer in my head
+        - Ding-a-ling, I chug beer till I puke
+        - Beer in my head, beer in my head
+        - Ding-a-ling, I chug beer till I puke
+        - I wake up, think of beer and I'm thirsty
+        - Even as a baby I sucked beer from mama's breast
+        - Papa put the six-pack in my school cone
+        - In the back row of the bus I was the one pre-drinking
+        - (Give me more, give me more) Beer, beer, more beer
+        - (Give me more) Beer, beer, more beer
+    - lines:
+        - My throat is bone dry, as if there's sand in it
+        - Tell my boss I'm sick tomorrow (Hey)
+        - Beer can open, I'm a beer-philoso-drunk
+        - '''Cause I''ve got it like that Fred Durst, the one from Mehnersmoos'
+    - lines:
+        - I'm thirsty (Woah), I'm thirsty (Woah)
+        - I've been beer-thirsty since birth (Woah)
+        - Yeah, I'm thirsty (Yeah), I'm thirsty (Woah)
+        - I've been beer-thirsty since birth (Exactly)
+    - lines:
+        - I chug the beer, beer
+        - Beer, beer, beer, beer, beer, beer, beer
+        - Yeah, I chug the beer, beer
+        - Beer, beer, beer, beer, beer, beer, beer
+    - lines:
+        - Every day beer like at carnival (Every day)
+        - Every day beer like at the Last Supper (Oh god)
+        - Every day beer until the stroke (Yeah)
+        - I feel like I've been on a rollercoaster for years (Oh)
+        - Doesn't matter if in the bathtub (Doesn't matter)
+        - Or driving on the motorway at a hundred thousand km/h (Vrrm)
+        - At my aunt's funeral (Yeah), at the mounting of a slut (Yeah)
+        - I've got a bottle in my hand, 'cause I'm always
+    - lines:
+        - Thirst, I'm thirsty
+        - I've been beer-thirsty since birth (Thirst)
+        - I'm thirsty, I'm thirsty
+        - I've been beer-thirsty since birth
+    - lines:
+        - Ey, I chug the beer, beer
+        - Beer, beer, beer, beer, beer, beer, beer
+        - Ey, I chug the beer, beer
+        - Beer, beer, beer, beer, beer, beer, beer
+---

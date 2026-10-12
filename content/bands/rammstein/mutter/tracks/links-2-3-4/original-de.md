@@ -1,0 +1,68 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Kann man Herzen brechen?
+        - Können Herzen sprechen?
+        - Kann man Herzen quälen?
+        - Kann man Herzen stehlen?
+    - lines:
+        - Sie woll'n mein Herz am rechten Fleck, doch
+        - Seh' ich dann nach unten weg
+        - Da schlägt es links
+        - Links
+    - lines:
+        - Können Herzen singen?
+        - Kann ein Herz zerspringen?
+        - Können Herzen rein sein?
+        - Kann ein Herz aus Stein sein?
+    - lines:
+        - Sie woll'n mein Herz am rechten Fleck, doch
+        - Seh' ich dann nach unten weg
+        - Da schlägt es links
+    - lines:
+        - Links
+        - Links
+        - Links
+        - Links
+        - Links zwo, drei, vier
+        - Links zwo, links zwo
+        - Links zwo, drei, vier
+        - Links
+        - Links zwo, links zwo
+        - Links zwo, drei, vier
+        - Links
+        - Links zwo, drei, vier
+    - lines:
+        - Kann man Herzen fragen?
+        - (Kann man) Ein Kind darunter tragen?
+        - Kann man es verschenken?
+        - (Kann man) Mit dem Herzen denken?
+        - Sie woll'n mein Herz am rechten Fleck
+        - Doch seh' ich dann nach unten weg
+        - Da schlägt es in der linken Brust
+        - Der Neider hat es schlecht gewusst
+    - lines:
+        - Links
+        - Links
+        - Links
+        - Links
+        - Links zwo, drei, vier
+        - Links
+        - Links zwo, drei, vier
+        - Links zwo, links zwo
+        - Links zwo, drei, vier
+        - Links
+        - Links zwo, links zwo
+        - Links zwo, drei, vier
+        - Links
+        - Links zwo, links zwo
+        - Links zwo, drei, vier
+        - Links zwo, links zwo
+        - Links zwo, drei, vier
+        - Links zwo, links zwo
+        - Links zwo, drei, vier
+        - Links zwo, links zwo
+        - Links zwo, drei, vier
+---

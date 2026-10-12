@@ -1,0 +1,57 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Were you planning on letting me know
+        - About the pills you've been taking and why
+        - Were you planning on letting me know
+        - Why you wake up screaming at night
+    - lines:
+        - Were you planning on letting me know
+        - What the words on your wrist really mean
+        - About the tattoos that cover your arms
+        - With the secrets that lie underneath
+    - lines:
+        - I saw you under the blood moon
+        - I saw you without your mask
+        - I saw you without your tattoos
+        - And all I could see were your scars
+    - lines:
+        - I still believe in you
+        - But don't believe in your excuse
+        - Because I know what you've been hiding
+        - Hiding under your tattoos
+    - lines:
+        - Were you planning on telling me why
+        - You keep on turning the radio off
+        - Every time that they're playing our song
+        - And go on acting like nothing is wrong
+    - lines:
+        - Were you planning on letting me know
+        - About the body you left in the trunk
+        - When the truth is the roadkill you left
+        - All broken and covered in blood
+    - lines:
+        - I saw you under the blood moon
+        - I saw you without your mask
+        - I saw you without your tattoos
+        - And all I could see were the scars
+    - lines:
+        - I still believe in you
+        - But don't believe in your excuse
+        - Because I know what you've been hiding
+        - Hiding under your tattoos
+    - lines:
+        - Why
+        - Were you planning on telling me why
+        - Why you wake up screaming at night
+        - Tell me why
+        - You keep repeating things under your breath
+        - As if the dead and forgotten can hear you
+    - lines:
+        - I still believe in you
+        - But don't believe in your excuse
+        - Because I know what you've been hiding
+        - Hiding under your tattoos
+---

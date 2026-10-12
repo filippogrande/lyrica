@@ -1,0 +1,69 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Warmer Körper (Warmer Körper)
+        - Heißes Kreuz (Heißes Kreuz)
+        - Falsches Urteil (Falsches Urteil)
+        - Kaltes Grab (Kaltes Grab)
+    - lines:
+        - Auf dem Kreuze lieg' ich jetzt
+        - Sie schlagen mir die Nägel ein
+        - Das Feuer wäscht die Seele rein
+        - Und übrig bleibt ein Mund voll
+        - Asche
+    - lines:
+        - Ich komm' wieder (Ich komm' wieder)
+        - In zehn Tagen (Ich komm' wieder)
+        - Als dein Schatten (Ich komm' wieder)
+        - Und werd' dich jagen (Ich komm' wieder)
+    - lines:
+        - Heimlich werd' ich auferstehen
+        - Und du wirst um Gnade flehen
+        - Dann knie ich mich in dein Gesicht
+        - Und steck den Finger in die
+    - lines:
+        - Asche
+        - Asche
+        - Asche
+        - Asche
+        - Asche zu Asche
+        - Asche zu Asche
+        - Asche zu Asche
+        - Und Staub zu Staub
+    - lines:
+        - Heimlich werd' ich auferstehen
+        - Und du wirst um Gnade flehen
+        - Dann knie ich mich in dein Gesicht
+        - Und steck den Finger in die
+    - lines:
+        - Asche zu Asche
+        - Asche zu Asche
+        - Asche zu Asche
+        - Und Staub zu Staub
+    - lines:
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Und Staub zu Staub (Staub, staub, staub, staub)
+    - lines:
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Und Staub zu Staub (Staub, staub, staub, staub)
+    - lines:
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Asche zu Asche (Staub, staub, staub, staub)
+        - Und Staub zu Staub (Staub, staub, staub, staub)
+    - lines:
+        - Zu Staub, zu Staub (Staub, staub, staub, staub) (Ich komm' wieder)
+        - Zu Staub, zu Staub (Staub, staub, staub, staub)
+        - Zu Staub, zu Staub (Staub, staub, staub, staub)
+        - Zu Staub, zu Staub (Staub, staub, staub, staub)
+        - Zu Staub, zu Staub (Staub, staub, staub, staub) (Ich komm' wieder)
+        - Zu Staub, zu Staub (Staub, staub, staub, staub)
+        - Zu Staub, zu Staub (Staub, staub, staub, staub)
+        - Zu Staub, zu Staub, ja! (Staub, staub, staub, staub)
+---

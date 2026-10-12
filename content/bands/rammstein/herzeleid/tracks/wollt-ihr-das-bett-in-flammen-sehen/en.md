@@ -1,0 +1,47 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Do you want to see the bed in flames?
+        - Do you want to perish with skin and hair?
+        - You too, want to stick the dagger through the sheets
+        - You too, want to lick the blood from the sword
+    - lines:
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - You see the crosses on the pillow
+        - You think innocence may kiss you
+        - You believe it would be hard to kill
+        - But where are all the dead coming from?
+    - lines:
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - Sex is a battle
+        - Love is war
+        - Sex is a battle, yes
+        - Love is war
+        - Sex is a battle
+        - Love is war
+        - Sex is a battle, yes
+        - Love is war
+    - lines:
+        - Do you want to see the bed in flames
+        - Do you want to perish with skin and hair
+        - You too, want to stick the dagger in the sheet
+        - You too, want to lick the blood from the sword
+    - lines:
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+---

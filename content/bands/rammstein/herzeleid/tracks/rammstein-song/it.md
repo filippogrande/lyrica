@@ -1,0 +1,38 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Rammstein
+        - Un uomo brucia
+        - Rammstein
+        - Odore di carne nell'aria
+        - Rammstein
+        - Un bambino muore
+        - Rammstein
+        - Il sole splende
+    - lines:
+        - Rammstein
+        - Un mare di fiamme
+        - Rammstein
+        - Sangue che si coagula sull'asfalto
+        - Rammstein
+        - Le madri urlano
+        - Rammstein
+        - Il sole splende
+    - lines:
+        - Rammstein
+        - Una fossa comune
+        - Rammstein
+        - Nessuna via d'uscita
+        - Rammstein
+        - Nessun uccello canta più
+        - Rammstein
+        - E il sole splende
+    - lines:
+        - Rammstein
+        - Rammstein
+        - Rammstein
+        - Rammstein
+        - Rammstein
+---

@@ -1,0 +1,34 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Correte!
+    - lines:
+        - Perché il maestro ci ha mandati
+        - Annunciamo la rovina
+        - Il cavaliere della malvagità
+        - Nutre la sua ulcera d'invidia
+    - lines:
+        - La verità è come un temporale
+        - Viene da te, puoi sentirla
+        - Annunciarla è così amaro
+        - Viene da te per distruggere
+    - lines:
+        - Perché la notte era in agonia
+        - Annunciamo il giorno del giudizio
+        - Non ci sarà alcuna pietà
+        - Correte, correte per la vostra vita
+    - lines:
+        - La verità è un coro di vento
+        - Nessun angelo viene a vendicarvi
+        - Questi giorni sono i vostri ultimi
+        - Vi spezzerà come stecchi
+    - lines:
+        - Viene a voi come perdizione
+    - lines:
+        - La verità è un coro di vento
+        - Nessun angelo viene a vendicarvi
+        - Questi giorni sono i vostri ultimi
+        - Vi spezzerà come stecchi
+---

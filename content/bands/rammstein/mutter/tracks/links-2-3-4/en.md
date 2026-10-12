@@ -1,0 +1,68 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Can you break hearts?
+        - Can hearts speak?
+        - Can you torture hearts?
+        - Can you steal hearts?
+    - lines:
+        - They want my heart in the right place
+        - But then I look below
+        - It beats to the left
+        - Left
+    - lines:
+        - Can hearts sing?
+        - Can a heart burst?
+        - Can hearts be pure?
+        - Can a heart be made of stone?
+    - lines:
+        - They want my heart in the right place
+        - But then I look below
+        - it beats to the left
+    - lines:
+        - Left
+        - Left
+        - Left
+        - Left
+        - Left two three four
+        - Left two, left two
+        - Left two three four
+        - Left
+        - Left two, left two
+        - Left two three four
+        - Left
+        - Left two three four
+    - lines:
+        - Can you ask hearts?
+        - (Can you) Carry a child
+        - Can you give it away?
+        - (Can you) Think with your heart
+        - They want my heart on the right spot?
+        - But then I look below
+        - It beats there in the left breast
+        - The envious have not known it well
+    - lines:
+        - Left
+        - Left
+        - Left
+        - Left
+        - Left two three four
+        - Left
+        - Left two three four
+        - Left two, left two
+        - Left two three four
+        - Left
+        - Left two, left two
+        - Left two three four
+        - Left
+        - Left two, left two
+        - Left two three four
+        - Left two, left two
+        - Left two three four
+        - Left two, left two
+        - Left two three four
+        - Left two, left two
+        - Left two three four
+---

@@ -1,0 +1,57 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - So am I still waiting
+        - For this world to stop hating?
+        - Can't find a good reason
+        - Can't find hope to believe in
+    - lines:
+        - Drop dead, a bullet to my head
+        - Your words are like a gun in hand
+        - You can't change the state of the nation
+        - We just need some motivation
+        - These eyes have seen no conviction
+        - Just lies and more contradiction
+        - Tell me, what would you say?
+        - I'd say it's time to
+    - lines:
+        - So am I still waiting
+        - For this world to stop hating?
+        - Can't find a good reason
+        - Can't find hope to believe in
+    - lines:
+        - Ignorance and understanding
+        - We're the first ones to jump in line
+        - Out of step for what we believe in
+        - But who's left to stop the bleeding?
+        - How far will we take this?
+        - It's not hard to see through the thickness
+        - Tell me, what would you say?
+        - I'd say it's time to
+    - lines:
+        - So am I still waiting
+        - For this world to stop hating?
+        - Can't find a good reason
+        - Can't find hope to believe in
+    - lines:
+        - This can't last forever
+        - Time won't make things better
+        - I feel so alone, can't help myself
+        - And no one knows that this is worthless to me
+    - lines:
+        - What have we done?
+        - We're in a war that can't be won
+        - This can't be real
+        - '''Cause I don''t know what to feel'
+    - lines:
+        - So am I still waiting
+        - For this world to stop hating?
+        - Can't find a good reason
+        - Can't find hope to believe in
+        - So am I still waiting
+        - For this world to stop hating?
+        - Can't find a good reason
+        - Can't find hope to believe
+---

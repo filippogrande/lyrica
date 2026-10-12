@@ -1,0 +1,61 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Il sole tramonta
+        - Mentre il giorno si arrende alla notte
+        - Gli ultimi minuti con te
+        - Prima che perda il senno
+        - E poi è volato via
+        - Pezzo per pezzo e cellula per cellula
+        - Svanendo come le favole
+        - Non ci serve il Paradiso, basta che non ci sia l'inferno
+    - lines:
+        - Mi muovo lentamente
+        - Potrei star andando nella direzione sbagliata
+        - Potrei stare tirando
+        - Tutte queste pietre al mio riflesso
+    - lines:
+        - Sto immobile
+        - O è il resto del mondo (il mondo) che ci sfugge
+        - Sto immobile
+        - Perché le cose non accadono mai
+        - Come penso che accadano, penso che accadano
+    - lines:
+        - Diventiamo estranei
+        - In un battito di ciglia
+        - Nessuna redenzione
+        - Più nessuna parola per rimettere a posto
+        - Tutto è andato storto
+        - E cadere nel nulla pezzo per pezzo
+        - Qualunque sacrificio abbiamo fatto
+        - Non può cambiare il nostro destino amaro
+    - lines:
+        - Ci muoviamo lentamente
+        - Avanziamo verso l'alienazione
+        - Sembra che stiamo stringendo
+        - Il cadavere della nostra stessa creazione
+    - lines:
+        - Sto immobile
+        - O è il resto del mondo (il mondo) che ci sfugge
+        - Sto immobile
+        - Perché le cose non accadono mai
+        - Come penso che accadano, penso che accadano
+    - lines:
+        - Non guardarti indietro
+        - Non guardare in basso
+        - Cadiamo insieme
+        - Senza più rimpianti
+        - Non guardarti indietro
+        - Non guardare in basso
+        - Saltiamo insieme
+        - Cadiamo insieme
+    - lines:
+        - Sto immobile
+        - O è il resto del mondo (il mondo) che ci sfugge (sfugge)
+        - Sto immobile (immobile)
+        - Perché le cose non accadono mai
+        - Come penso che accadano, penso che accadano
+---

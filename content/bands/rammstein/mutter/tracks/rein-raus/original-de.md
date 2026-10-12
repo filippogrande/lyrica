@@ -1,0 +1,47 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Ich bin der Reiter, du bist das Ross
+        - Ich steige auf, wir reiten los
+        - Du stöhnst, ich sag' dir vor
+        - Ein Elefant im Nadelöhr
+    - lines:
+        - Rein Raus
+        - Rein Raus
+        - Rein Raus
+        - Rein Raus
+    - lines:
+        - Ich bin der Reiter, du bist das Ross
+        - Ich hab den Schlüssel, du hast das Schloss
+        - Die Tür geht auf, ich trete ein
+        - Das Leben kann so prachtvoll sein
+    - lines:
+        - Rein Raus
+        - Rein Raus
+        - Rein Raus
+        - Rein Raus
+    - lines:
+        - Tiefer, tiefer
+        - Sag es, sag es laut
+        - Tiefer, tiefer
+        - Ich fühl' mich wohl in deiner Haut
+        - Und tausend Elefanten brechen aus
+    - lines:
+        - Der Ritt war kurz, es tut mir leid
+        - Ich steige ab, hab' keine Zeit
+        - Muss jetzt zu den anderen Pferden
+        - Wollen auch geritten werden
+        - Rein Raus
+        - Rein
+    - lines:
+        - Rein Raus
+        - Rein Raus
+        - Rein Raus
+        - Rein Raus
+        - Rein (Tiefer) raus (Tiefer)
+        - Rein (Tiefer) raus (Tiefer)
+        - Rein (Tiefer) raus (Tiefer)
+        - Rein (Tiefer) raus (Tiefer)
+---

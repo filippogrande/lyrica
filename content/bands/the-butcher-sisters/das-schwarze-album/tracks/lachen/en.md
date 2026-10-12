@@ -1,0 +1,61 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Laughing
+        - Laughing
+        - Laughing
+        - Ha-haha-ha-ha-ha-ha-haha
+        - Laughing
+    - lines:
+        - I called Spiderman
+        - But he had no signal, the moron (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - I called the bread, it was engaged
+        - Because of the topping on the bread (Ha-ha-ha-ha)
+        - You get it?
+        - At the bakery only the flour box picked up
+        - At the hotel there was no reception
+        - Nobody picked up at the butcher's
+        - TBS loves fun and fun
+    - lines:
+        - Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)
+    - lines:
+        - What's a steak doing under the sofa?
+        - Well, hiding like a steak, you loser (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Watch out, here comes another banger
+        - For old white cis men
+        - Why is the willy in jail?
+        - (Watch out) Because he stood up
+    - lines:
+        - Ha, yeah, yeah, I've got one too
+        - So, uh, little Fritzchen goes to the bakery and, um
+        - He wants, uh, he orders two rolls
+        - And the baker lady, uh, looks at him and says
+        - Uh, why don't you take three, uh, uh, um
+        - Then you'll have one more
+        - Oh, hoho, ho, hoho, hoho, yeah, uh
+        - A man a-and, a woman and so, oh
+        - Laughing
+        - Laughing
+    - lines:
+        - Prick up your ears and listen
+        - Where that came from, there's more
+        - The jokes so good, it's not fair
+        - TBS are funny and very much so
+        - Stress again at work
+        - In private life you're just unlucky too
+        - We're there for you, at any time
+        - Always ready for a joke
+        - Ha-ha-ha
+    - lines:
+        - Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Laughing (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)
+        - Laughing!
+        - Laughing!
+        - Laughing!
+        - Ha-haha-ha-ha-ha-ha-haha
+---

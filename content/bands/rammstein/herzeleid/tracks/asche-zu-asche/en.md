@@ -1,0 +1,69 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Warm body (Warm body)
+        - Hot cross (Hot cross)
+        - Wrong judgement (Wrong judgement)
+        - Cold grave (Cold grave)
+    - lines:
+        - On the cross I lay now
+        - They hammer the nails through me
+        - The fire washes the soul clean
+        - And what remains is a mouthful of
+        - Ashes
+    - lines:
+        - I will return (I will return)
+        - In ten days (I will return)
+        - As your shadow (I will return)
+        - And will hunt you (I will return)
+    - lines:
+        - Secretly, I will be resurrected
+        - And you will beg for mercy
+        - Then I kneel down unto your face
+        - And stick the finger in the
+    - lines:
+        - Ashes
+        - Ashes
+        - Ashes
+        - Ashes
+        - Ashes to ashes
+        - Ashes to ashes
+        - Ashes to ashes
+        - And dust to dust
+    - lines:
+        - Secretly, I will be resurrected
+        - And you will beg for mercy
+        - Then I kneel down unto your face
+        - And stick the finger in the
+    - lines:
+        - Ashes to ashes
+        - Ashes to ashes
+        - Ashes to ashes
+        - And dust to dust
+    - lines:
+        - Ashes to ashes (dust, dust, dust, dust)
+        - Ashes to ashes (dust, dust, dust, dust)
+        - Ashes to ashes (dust, dust, dust, dust)
+        - And dust to dust (dust, dust, dust, dust)
+    - lines:
+        - Ashes to ashes (dust, dust, dust, dust)
+        - Ashes to ashes (dust, dust, dust, dust)
+        - Ashes to ashes (dust, dust, dust, dust)
+        - And dust to dust (dust, dust, dust, dust)
+    - lines:
+        - Ashes to ashes (dust, dust, dust, dust)
+        - Ashes to ashes (dust, dust, dust, dust)
+        - Ashes to ashes (dust, dust, dust, dust)
+        - And dust to dust (dust, dust, dust, dust)
+    - lines:
+        - To dust, to dust (dust, dust, dust, dust) (I will return)
+        - To dust, to dust (dust, dust, dust, dust)
+        - To dust, to dust (dust, dust, dust, dust)
+        - To dust, to dust (dust, dust, dust, dust)
+        - To dust, to dust (dust, dust, dust, dust) (I will return)
+        - To dust, to dust (dust, dust, dust, dust)
+        - To dust, to dust (dust, dust, dust, dust)
+        - To dust, to dust, yes (dust, dust, dust, dust)
+---

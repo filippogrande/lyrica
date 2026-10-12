@@ -1,0 +1,52 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Le lacrime di una folla di vecchi bambini
+        - Le infilo su un capello bianco
+        - Getto in aria la catena bagnata
+        - E desidero avere una madre
+        - Nessun sole che mi splende
+        - Nessun seno ha pianto latte
+        - Nella mia gola c'è infilato un tubo
+        - Non ho ombelico sulla pancia
+    - lines:
+        - Madre, madre
+        - Madre, madre
+    - lines:
+        - Non ho potuto leccare nessun capezzolo
+        - E nessuna piega in cui nascondermi
+        - Nessuno mi ha dato un nome
+        - Generato in fretta e senza seme
+        - Alla madre che non mi ha mai partorito
+        - Stanotte ho giurato
+        - Le regalerò una malattia
+        - E poi la affonderò nel fiume
+    - lines:
+        - Madre, madre
+        - Madre, madre
+        - Madre, madre
+        - Madre, madre
+    - lines:
+        - Nei suoi polmoni vive un'anguilla
+        - Sulla mia fronte un neo
+        - Lo rimuovo con il bacio del coltello
+        - Anche se devo morirne
+    - lines:
+        - Madre, madre
+        - Madre, madre!
+    - lines:
+        - Nei suoi polmoni vive un'anguilla
+        - Sulla mia fronte un neo
+        - Lo rimuovo con il bacio del coltello
+        - Anche se devo sanguinare fino alla morte
+    - lines:
+        - Oh, dammi la forza
+        - Madre, madre
+        - Oh, dammi la forza
+        - Madre, madre
+        - Oh, dammi la forza
+        - Madre, madre
+        - Oh, dammi la forza
+---

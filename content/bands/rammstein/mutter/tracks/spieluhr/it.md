@@ -1,0 +1,68 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Un piccolo essere umano muore solo per finta
+        - Voleva stare tutto solo
+        - Il piccolo cuore restò fermo per ore
+        - Così lo dichiararono morto
+        - Viene sepolto nella sabbia bagnata
+        - Con un carillon in mano
+    - lines:
+        - La prima neve copre la tomba
+        - Ha svegliato il bambino pian piano
+        - In una fredda notte d'inverno
+        - Il piccolo cuore si è risvegliato
+        - Quando il gelo è entrato nel bambino
+        - Ha caricato il carillon
+        - Una melodia nel vento
+        - E dalla terra canta il bambino
+    - lines:
+        - Hop hop, cavaliere
+        - E nessun angelo scende
+        - Il mio cuore non batte più
+        - Solo la pioggia piange sulla tomba
+        - Hop hop, cavaliere
+        - Una melodia nel vento
+        - Il mio cuore non batte più
+        - E dalla terra canta il bambino
+    - lines:
+        - La luna fredda in tutto il suo splendore
+        - Sente le grida nella notte
+        - E nessun angelo scende
+        - Solo la pioggia piange sulla tomba
+        - Tra dure assi di quercia
+        - Giocherà con il carillon
+        - Una melodia nel vento
+        - E dalla terra canta il bambino
+    - lines:
+        - Hop hop, cavaliere
+        - E nessun angelo scende
+        - Il mio cuore non batte più
+        - Solo la pioggia piange sulla tomba
+        - Hop hop, cavaliere
+        - Una melodia nel vento
+        - Il mio cuore non batte più
+        - E dalla terra canta il bambino
+        - Hop hop, cavaliere
+        - Il mio cuore non batte più
+    - lines:
+        - Il giorno dei morti hanno sentito
+        - Dal campo di Dio questa melodia
+        - Allora l'hanno dissotterrato
+        - Salvato il piccolo cuore nel bambino
+    - lines:
+        - Hop hop, cavaliere
+        - Una melodia nel vento
+        - Il mio cuore non batte più
+        - E dalla terra canta il bambino
+        - Hop hop, cavaliere
+        - E nessun angelo scende
+        - Il mio cuore non batte più
+        - Solo la pioggia piange sulla tomba
+        - Hop hop, cavaliere
+        - Una melodia nel vento
+        - Il mio cuore non batte più
+        - E dalla terra canta il bambino
+---

@@ -1,0 +1,56 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I've never been someone who was looking back
+        - Rushing through my life, always stayed on track
+        - We missed out on time to reconnect
+        - No space no room to give you something back
+    - lines:
+        - We're chasing diamonds just to see
+        - The ones we love are all we need
+        - Nothing is built for eternity
+        - So Tell Me
+    - lines:
+        - What if I loose you?
+        - What if this life takes you away?
+        - What if I can't get through?
+        - When you fly off into the clouds
+        - Into the clouds
+        - Into the clouds
+        - Into, into the grey
+    - lines:
+        - The Silence is echoing
+        - In spaces unsaid
+        - Can I find closure
+        - Or will there just be regret?
+    - lines:
+        - We're chasing diamonds just to see
+        - The ones we love are all we need
+        - Nothing is built for eternity
+        - So Tell Me
+    - lines:
+        - What if I loose you?
+        - What if this life takes you away?
+        - What if I can't get through?
+        - When you fly off into the clouds
+        - Into the clouds
+        - Into the clouds
+        - Into, into the grey
+    - lines:
+        - I'm too afraid to say
+        - That time will wash the pain away
+    - lines:
+        - I'm too afraid to say
+        - That I could make it without you
+        - Day by day
+    - lines:
+        - What if I loose you?
+        - What if this life takes you away?
+        - What if I can't get through?
+        - When you fly off into the clouds
+        - Into the clouds
+        - Into the clouds
+        - Into, into the grey
+---

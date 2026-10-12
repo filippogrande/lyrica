@@ -1,0 +1,57 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - (One, two, three, four)
+        - Mh, ah (Yeah)
+        - Yeehaw
+        - Listen up
+    - lines:
+        - Als ich noch ein kleiner Boy war
+        - Saß ich mit Daddy am Lagerfeuer
+        - That's right, er war hart, aber fair
+        - Ja, er war stark wie ein Bär
+        - Und wenn er sprach, lag Truth in the Air
+        - 'Er sagte: "Hey Champ, wenn alles gegen dich steht'
+        - Und wirklich nothing mehr geht
+        - Nimm deinen Mut together and say"
+    - lines:
+        - Sag mal Klettergerüst
+        - Du hast 'ne nackte Frau geküsst (Ey)
+        - Sag doch mal Klettergerüst
+        - Du hast 'ne nackte Frau-au-au geküsst (Yeah)
+    - lines:
+        - Heute bin ich groß, worke hard für mein Brot
+        - Nur mein gottverdammter Boss, er ist ein Idiot
+        - Er sagt, die Kündigung ist raus, nur weil ich bei der Arbeit sauf'
+        - Ich mach' mir noch ein Bierchen auf and I shout, and I shou-uh-out
+    - lines:
+        - Sag mal Klettergerüst
+        - Du hast 'ne nackte Frau geküsst (Ey)
+        - Sag doch mal Klettergerüst
+        - Du hast 'ne nackte Frau-au-au geküsst (Yeah)
+    - lines:
+        - Oh, sag mal Tomate (Tomate)
+        - Deine Oma kann Karate
+        - Limette (Limette)
+        - Du steckst fest in der Toilette
+        - Sag mal Dino (Dino)
+        - Du sitzt nackt im Kino
+        - Sag mal Kissen
+        - Du hast in die Hose geschissen, ey
+    - lines:
+        - Klettergerüst
+        - Du hast 'ne nackte Frau geküsst (Auf den Mund, hahaha)
+        - Sag doch mal Klettergerüst (Yeah, sag's nochmal)
+        - Du hast 'ne nackte Frau-au-au geküsst (Du hast, du hast, yeah, du hast es getan)
+    - lines:
+        - Yeehaw
+        - Du hast sie geküsst (Yeah)
+        - Du hast sie geküsst (Küss sie nochmal)
+        - Du hast sie geküsst
+        - Sie war sehr nackt
+        - Und du warst auch nackt
+        - Du bist ein nackter Frau'nküsser, hehehe
+        - Verdammt, mein Sohn, du alter Nacktküsser, hehehe
+---

@@ -1,0 +1,86 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Vogliono venire a stanare tutta la tua privacy
+        - Vai, vai, obbedisci alla fottuta nuova macchina
+        - Dobbiamo pagare il prezzo al fottuto nemico
+        - Pagare per nascere e pagare per morire
+    - lines:
+        - Oh, guardatevi
+        - Tutti schiavi del nuovo supremo
+        - Ciechi, che seguono
+        - Domati e che dormono
+        - Come le pecore che siete
+    - lines:
+        - Bruciateli
+        - Date loro tutto ciò di cui hanno bisogno, amico
+        - Bruciateli
+        - È tutto ciò che potete avvicinare
+        - Ascoltate
+        - Ascoltate
+        - Ascoltate quello che dico
+        - Siamo il tumulto che divanterà nella tua testa
+    - lines:
+        - Benzina per il nuovo supremo
+        - Benzina
+        - Ora accendeteli
+    - lines:
+        - No, non obbediremo
+        - A qualsiasi cosa tu dica
+        - Tutte queste fottute stupidaggini
+        - Che provi a giocare con me
+        - Siamo qui per restare
+        - E pianteremo un seme
+        - Guardiamo questa città bruciare
+    - lines:
+        - Cosa abbiamo da perdere?
+        - Cosa abbiamo da scegliere?
+        - Cosa abbiamo da perdere?
+        - Siamo il tumulto in arrivo
+        - Quindi svegliati il cazzo
+    - lines:
+        - Bruciateli
+        - Date loro tutto ciò di cui hanno bisogno, amico
+        - Bruciateli
+        - È tutto ciò che potete avvicinare
+        - Ascoltate
+        - Ascoltate
+        - Ascoltate quello che dico
+        - Siamo il tumulto che divanterà nella tua testa
+    - lines:
+        - Siamo la benzina
+        - Siamo la rivoluzione
+    - lines:
+        - No, non obbediremo
+        - A qualsiasi cosa tu dica
+        - Tutte queste fottute stupidaggini
+        - Che provi a giocare con me
+        - Siamo qui per restare
+        - E pianteremo un seme
+        - Guardiamo questa città bruciare
+    - lines:
+        - Giù, giù scendiamo
+        - Dimmi cosa riesci a vedere?
+        - Questo lampo di fuoco è ciò che li fa cadere in ginocchio
+    - lines:
+        - È la nostra voce
+        - È la tua voce
+        - Yeah
+    - lines:
+        - Bruciateli
+        - Date loro tutto ciò di cui hanno bisogno
+        - Bruciateli
+        - È tutto ciò che potete avvicinare
+    - lines:
+        - Bruciateli
+        - Date loro tutto ciò di cui hanno bisogno, amico
+        - Bruciateli
+        - È tutto ciò che potete avvicinare
+        - Ascoltate
+        - Ascoltate
+        - Ascoltate quello che dico
+        - Siamo il tumulto che divanterà nella tua testa
+---

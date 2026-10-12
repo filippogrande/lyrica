@@ -1,0 +1,83 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - In a room with capes and tights
+        - Meeting every Wednesday night
+        - Feeling the things we try
+        - We are sitting side by side
+        - In a room with cakes and pies
+        - Eating, feeding paradise
+        - Needing these things to die
+        - We are cheering side by side
+    - lines:
+        - Geeks with thinlegs, big-ass foreheads
+        - Thinking that they will succeed
+        - Eat shit like in human centipede
+        - I can't take it, they are misfits
+        - Don't they see the irony
+        - What they fucking need is therapy
+    - lines:
+        - Go, go, go, this is so hilarious
+        - No, no, no, I am getting furious
+        - Go, go, go, this is so hilarious
+        - No, no, no, they are dummy-dangerous
+    - lines:
+        - Suits so tight
+        - Our masks to hide the light
+        - Risen to claim the throne
+        - Hidden heroes all alone
+    - lines:
+        - We may trip, we may fall
+        - But in the end we are standing tall
+        - In the shadows of the day
+        - We are heroes anyway
+    - lines:
+        - I'm a superhero without any skills
+        - Just a heart that won't stand still
+        - In a world that's made to thrill
+        - We are superheroes without any skills, whoa
+    - lines:
+        - Oh, fuck stop it, got to rock it
+        - All you losers make me sick
+        - Sick and tired of your poser-shit
+        - I will end this, laser eyes
+        - Go on, try to fucking run
+        - Oh, your screams make it a lot more fun
+    - lines:
+        - Go, go, go, this is so hilarious
+        - No, no, no, I am getting furious
+        - Go, go, go, this is so hilarious
+        - No, no, no, they are dummy-dangerous
+    - lines:
+        - In you I found a friend
+        - Forever hold your hand
+        - Our shirts say, "I love you"
+        - Oh, can all this be true
+    - lines:
+        - We may trip, we may fall
+        - But in the end we're standing tall
+        - In the shadows of the day
+        - We are heroes anyway
+        - It's show time
+    - lines:
+        - Oh my god
+        - I am more super than superman
+        - Feel my power
+        - Catch you, feed you, then I get to eat you
+        - You know I can
+    - lines:
+        - I'm a superhero without any skills
+        - Just a heart that won't stand still
+        - In a world that's made to thrill
+    - lines:
+        - I'm a superhero without any skills
+        - Just a heart that won't stand still
+        - In a world that's made to thrill
+    - lines:
+        - I'm a superhero without any skills
+        - Just a heart that won't stand still
+        - In a world that's made to thrill
+        - We are superheroes without any skills
+---

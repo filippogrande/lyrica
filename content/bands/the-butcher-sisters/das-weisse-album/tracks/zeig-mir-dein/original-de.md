@@ -1,0 +1,68 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Zeig mir dein'n— yeah, yeah, yeah
+        - Und ich zeig' dir mein'n— uh, uh, uh, uh
+        - Zeig mir dein'n— lala, lalala
+        - Und ich zeig' dir mein'n— (Zeig ma'), lala, lalala
+    - lines:
+        - Oh, ich sitze in der Sauna
+        - Mit meinem ****, der noch nie eine Frau sah
+        - Oh, ich bin verzaubert
+        - Was für einen ****, der da drüben unterm Bauch hat
+        - Ich schaue nach links, ich schaue nach rechts
+        - Kann es gar nicht fassen, sind die **** alle echt?
+        - Und der Bademeister gibt mir den Rest
+        - Wie kriegt der sein'n riesengroßen **** in die Speedo gepresst?
+    - lines:
+        - Entschuldigung, das kommt jetzt vielleicht dumm (Oh, ah)
+        - Aber ich sah sie untenherum (Oha)
+        - Bevor Sie geh'n, darf ich noch mal seh'n? (Oh, ah, ah)
+        - Er war so wunderschön
+    - lines:
+        - Zeig mir dein'n— yeah, yeah, yeah
+        - Und ich zeig' dir mein'n— uh, uh, uh, uh
+        - Zeig mir dein'n— lala, lalala
+        - Und ich zeig' dir mein'n— lala, lalala
+    - lines:
+        - Ich kam in das Gym, doch kam nie in der Ex
+        - Ich gucke nach links, ich gucke nach rechts
+        - Alle hab'n ein'n **, aber ich habe ein'n **
+        - Warum machen alle mit ihr'm **** immer (Ah)?
+        - Jedes Mal, wenn ihr mit euren **** um mich herumsteht
+        - Geht bei mir der Puls hoch, doch leider mein **** nicht
+        - Ich seh' aus wie Ken, sie denkt, es wäre mein Bauchnabel
+        - Eure machen Terror, meiner quietscht wie 'ne Clownsnase
+        - Ich kann leider mit mei'm nicht ma' im Sitzen pissen
+        - Sonst hab' ich die Hose voll, nicht von außen, von inn'n
+        - Würd gern noch ma' wein'n, aber ich hab' kein Intresse
+        - Denn ich bin grad beschäftigt so mit Lupe und Pinzette
+        - Frag mich nach der Größe und du wirst angelügt
+        - Und jeder tut mir glauben, denn ich hab' das geübt
+        - Ich hätte bitte gerne so ein'n **** wie all die andern
+        - Aber ich hab' nur ein'n **** wie meine Mama
+    - lines:
+        - Zeig mir dein'n— yeah, yeah, yeah
+        - Und ich zeig' dir mein'n— uh, uh, uh, uh
+        - Zeig mir dein'n— lala, lalala
+        - Und ich zeig' dir mein'n— lala, lalala
+    - lines:
+        - Ey, das war 'n Verseh'n, bin auf 'n Stab getreten
+        - Dachte, da lag 'n Besen, aber war 'n Penis
+        - Er fand's okay, ich fand's beschämend
+        - So was kann man doch nicht einfach hier an' Strand hinlegen
+        - Meiner ist grausam klein, ich find' ihn kaum zum Greifen
+        - Und er legt braungebrannt hier so 'nen Baum in Sand
+        - Hätte gern auch so'n lang'n, ein Traum, der Schwanz
+        - Vielleicht hilft noch eine Kiste von mei'm Zaubertrank
+    - lines:
+        - Lala, lalala
+        - Und ich zeig' dir mein'n— lala, lalala
+    - lines:
+        - Zeig mir dein'n— yeah, yeah, yeah
+        - Und ich zeig' dir mein'n— uh, uh, uh, uh
+        - Zeig mir dein'n— lala, lalala
+        - Und ich zeig' dir mein'n— lala, lalala
+---

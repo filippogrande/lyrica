@@ -1,0 +1,69 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Go
+    - lines:
+        - We bleed like an open wound
+        - The stitches are of no use
+        - Nothing will satisfy
+        - We're suffering the classic symptoms
+        - Of a broken spirit
+        - You wanna push us to the fucking limit?
+        - This is how we keep a tiger tame
+    - lines:
+        - Nothing worth fighting for?
+        - Just step outside your door
+        - They all say revelation's on its way
+        - So be very afraid
+        - Revelation's on its way
+    - lines:
+        - Waiting for the world to burn
+        - Living but we never learn
+        - Sorry, it don't look good
+        - We're suffering the classic symptoms
+        - Of a broken spirit
+    - lines:
+        - You wanna push us to the fucking limit?
+        - This is how we keep a tiger tame
+        - Nothing worth fighting for?
+        - Just step outside your door
+        - They all say revelation's on its way
+    - lines:
+        - Nothing worth fighting for?
+        - Just step outside your door
+        - They all say revelation's on its way
+        - So be very afraid
+        - Revelation's on its way
+    - lines:
+        - If Armageddon can't eclipse our pain
+        - Every action left will be in vain
+        - It's like boiling the ocean
+        - Nothing left to do but to bottle the emotion
+    - lines:
+        - '''Cause we''re all players and the world''s a stage'
+        - We'll give a fuck so long as we get paid
+        - It's like boiling the ocean
+        - Nothing left to do but to bottle the emotion
+    - lines:
+        - Be very afraid
+        - It's like boiling the ocean
+        - Everything we love lays resting on a broken spirit
+        - You wanna push us to the fucking limit?
+        - The classic symptoms of a broken spirit
+        - You wanna push us to the fucking limit?
+        - The classic symptoms of a broken spirit
+    - lines:
+        - You wanna push us to the fucking limit?
+        - This is how we keep a tiger tame
+        - Nothing worth fighting for?
+        - Just step outside your door
+        - They all say revelation's on its way
+    - lines:
+        - They all say revelation's on its way
+        - So be afraid
+        - Let's all be very afraid
+        - They all say revelation's on its way
+        - '''Cause they all say revelation''s on its way'
+---

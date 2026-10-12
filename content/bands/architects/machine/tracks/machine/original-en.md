@@ -1,0 +1,64 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I'm trying to speak to myself
+        - But the universe can tell
+        - I cry for help when nobody's around
+    - lines:
+        - But I gotta feel it
+        - Keep bringing me down to Earth and bury me in the dirt
+        - Tangle me in the roots beneath the ground
+        - I don't care why you left me here
+    - lines:
+        - I just wanna believe
+        - When life took a bite out of me
+        - I built myself again
+        - The space that was left still bleeds
+        - Don't you see?
+        - I just wanna believe
+    - lines:
+        - I looked at the peak as I fell
+        - It was infinitely now
+        - Behind the clouds
+        - The stars were fading out
+    - lines:
+        - But I gotta feel it
+        - Keep bringing me down to Earth and bury me in the dirt
+        - Tangle me in the roots beneath the ground
+        - I don't care why you left me here
+    - lines:
+        - I just wanna believe
+        - When life took a bite out of me
+        - I built myself again
+        - The space that was left still bleeds
+        - Don't you see?
+        - I just wanna believe
+        - '''Cause fate doesn''t know how to please'
+        - And there's poison in regret
+        - It's taken a bite out of me
+        - Don't you see?
+        - I just wanna believe
+    - lines:
+        - So tell me I'm more than machine (-chine, -chine)
+        - Despair
+        - Ah, oh
+    - lines:
+        - I just wanna believe
+        - When life took a bite out of me
+        - I built myself again
+        - The space that was left still bleeds
+        - Don't you see?
+        - I just wanna believe
+        - '''Cause fate doesn''t know how to please (To please)'
+        - And there's poison in regret (In regret)
+        - It's taken a bite out of me (Out of me)
+        - Don't you see? (Don't you see?)
+        - I just wanna believe (I just wanna believe)
+    - lines:
+        - (Wanna believe) But I gotta feel it (Gotta feel it)
+        - Keep bringing me down to Earth and bury me in the dirt
+        - '''Cause if I don''t feel it, and I don''t feel it'
+        - I just wanna believe
+---

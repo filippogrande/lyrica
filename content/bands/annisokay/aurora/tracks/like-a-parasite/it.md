@@ -1,0 +1,74 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Do tutto
+        - Punta le stelle
+        - Ti sfami tu
+        - Mentre io muoio di fame
+    - lines:
+        - Tu mai
+        - Avuto la mia schiena
+        - Nemmeno un po'
+        - Mi hai lasciato appeso
+        - Do le dimissioni
+        - Ipocrita fottuta
+    - lines:
+        - Stavi fingendo, simulando
+        - Ma i tempi sono cambiati
+        - Niente più nascondersi, niente più travestimenti
+        - Posa il tuo velo
+    - lines:
+        - Io, io ti lascio indietro
+        - Taglio tutti i nostri legami
+        - Prima che tu mi dissangui
+    - lines:
+        - Abbiamo costruito questo mondo per te
+        - Riesco a vederti chiaramente
+        - Ogni volta
+        - Morivo un po' di più dentro
+        - Mi dissangui
+        - Come un parassita...
+    - lines:
+        - È una questione di dare e ricevere
+        - Non litigare per il tuo stesso bene
+        - Pugnale alle spalle
+        - E nella catastrofe finale
+        - Mi mostrerai il volto nudo
+        - Senza una maschera
+    - lines:
+        - Stavi fingendo, simulando
+        - Ma i tempi sono cambiati
+        - Niente più nascondersi, niente più travestimenti
+        - Posa il tuo velo
+    - lines:
+        - Non riesco a vedere attraverso i tuoi occhi
+        - Non riesco a giustificare
+        - Il modo in cui mi hai dissanguato
+    - lines:
+        - Abbiamo costruito questo mondo per te
+        - Riesco a vederti chiaramente
+        - Ogni volta
+        - Morivo un po' di più dentro
+        - Mi dissangui
+        - Come un parassita...
+    - lines:
+        - Mi soffoco con l'aria che respiri
+        - Non ti lascerò seminare i tuoi semi
+        - Non ascolterò le bugie che predichi
+        - Non mi farai fregare, tu mi dissangui
+    - lines:
+        - Dopo tutto questo
+        - Tu provi ancora a piantarmi un coltello alle spalle
+        - E mentre stai perdendo terreno
+        - Tu provi ancora a abbattermi
+    - lines:
+        - Abbiamo costruito questo mondo per te
+        - Riesco a vederti chiaramente
+        - Ogni volta
+        - Morivo un po' di più dentro
+        - Mi dissangui
+        - Parassita fottuto
+---
