@@ -1,5 +1,19 @@
 # FRONTEND — interfaccia, pagina brano, lingue, ricerca, PWA
 
+## Stato di implementazione
+
+Questo documento descrive il **progetto**. Molto di ciò che descrive esiste e si vede nel sito;
+alcune cose **no**, e dove mancano la riga lo dice. Per la lista completa, vedi
+[`REFERENCE.md`](REFERENCE.md#non-esiste-ancora-dove-non-cercare).
+
+| Esiste oggi | Previsto, non implementato |
+|---|---|
+| Layout comune con head, header sticky, footer, skip link, breadcrumb | Ricerca live nell'header (e nella 404) |
+| Corsie della home, pagine Bands/band/album/brano con le loro griglie | PWA: `manifest.webmanifest` e `sw.js` |
+| Filtro alfabetico delle band, selettore lingua del brano (lato client) | Ads: banner e colonne laterali |
+| Lingue dell'interfaccia (it/en), hreflang, link al feed nel `<head>` | Fascia "chiedi altre canzoni" con link al form |
+| Contatori pubblici in home e nel footer | Tag `meta description` e `og:` per pagina |
+
 ## Principi
 
 1. **Il testo è il contenuto**: la pagina brano è progettata attorno alla leggibilità del testo, non attorno a decorazioni.
@@ -33,6 +47,10 @@ Gli elementi che il browser e i motori di ricerca usano senza passare dal conten
 - La **404** non ha versioni per lingua e si esclude dagli alternati (`PageData.NoAlternates`): un `hreflang` che porta alla home mentirebbe.
 - I parametri `?orig=` e `?lang=` non entrano negli alternati: sono preferenze di lettura, non pagine diverse.
 
+**Manca**: `PageData.Description` è calcolato per ogni pagina (`internal/build/pages.go` → `trackDescription`),
+ma `layout.templ` **non lo stampa**: non c'è `<meta name="description">` e non ci sono tag `og:`.
+Se servono, vanno aggiunti nel layout.
+
 ## Griglia e breakpoints
 
 Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
@@ -65,8 +83,8 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 
 | Componente | Note |
 |---|---|
-| **Header** | sticky; nome del sito, nav (Home / Bands / Ricerca), toggle tema, A-/A+; sotto `lg` nav in **offcanvas** |
-| **Ricerca** | dropdown live nell'header |
+| **Header** | sticky; nome del sito, nav (Home / Bands), toggle tema, A-/A+; sotto `lg` nav in **offcanvas**. La **ricerca non c'è ancora** (FASE 4) |
+| **Ricerca** | **prevista, non esistente**: dropdown live nell'header |
 | **Breadcrumb** | su tutte le pagine interne |
 | **Card band** | foto se dichiarata (`image` in `band.md`), altrimenti **segnaposto con l'iniziale**; nome, paese, generi, numero di album |
 | **Corsia (rail)** | elenco orizzontale: titolo (`.rail-heading`), link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie"); usata in home, nella **pagina Bands** e nelle pagine **band** e **album** |
@@ -79,7 +97,7 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 | **Etichetta di stato** | motivo per cui una traccia non ha una pagina: "In arrivo", "Strumentale", "Solo originale" (classe `.track-flag`, testo dai locale) |
 | **Strofa** | blocco di testo con eventuale nome del cantante sopra |
 | **Riga dei contatori** | la stessa riga in **home** (sotto la presentazione) e nel **footer**: `StatsLine` in `stats.templ`, numeri calcolati dal build, separatore `·`, etichette dai locale |
-| **Footer** | disclaimer, licenza CC, **link al feed RSS della lingua corrente** (URL assoluto), riga dei contatori, attribuzione delle immagini |
+| **Footer** | disclaimer, licenza CC, **link al feed RSS della lingua corrente** (URL assoluto), riga dei contatori, attribuzione delle immagini. I link a contatti e note legali **non ci sono** finché quelle pagine non esistono |
 
 ## Accessibilità (requisiti, non buone intenzioni)
 
@@ -227,7 +245,7 @@ La pagina di un album mostra, in quest'ordine (D89):
    - I brani **pubblicati** (con almeno una traduzione) sono **link** alla pagina del brano, con le **lingue disponibili accanto, con la bandiera** (`🇩🇪 DE`).
    - Ogni altra voce resta in elenco **senza link e non cliccabile**, con il **motivo** accanto al titolo: *"In arrivo"* (`track.pending`: il testo non è ancora scritto), *"Strumentale"* (`track.instrumental`), *"Solo originale"* (`track.only_original`: c'è il testo ma non una traduzione). Il motivo è un **testo tradotto dai locale**, mai scritto nel codice (D90).
    - La tracklist **non si accorcia** mai: mostrare solo i brani tradotti nasconderebbe che manca ancora del lavoro.
-   - Sulle voci **"in arrivo"** arriverà la call to action "segnalaci che vuoi questa traduzione", **insieme al form di segnalazione** (FASE 6, D91): finché il form non esiste la riga resta senza link, perché un link a una pagina che non c'è è peggio di nessun link.
+   - Sulle voci **"in arrivo"** arriverà la call to action "segnalaci che vuoi questa traduzione", **insieme al form di segnalazione** (FASE 6, D91): finché il form non esiste la riga resta senza link, perché un link a una pagina che non c'è è peggio di nessun link. **Oggi la call to action non c'è**.
 3. **Corsia "Altri album della band"** (`album.other_albums`): gli altri album **pubblicati** della stessa band, **anno di pubblicazione** decrescente, **escluso quello che si sta guardando**. Stesse card della pagina band (copertina o segnaposto con l'iniziale, titolo, anno). Se l'album è l'unico pubblicato della band, la corsia **non esiste nel DOM**.
 
 - La corsia degli album è **la stessa** della pagina band: il costruttore sta in `internal/render/album_rail.go`, cambia solo il titolo.
@@ -244,18 +262,18 @@ La pagina di un album mostra, in quest'ordine (D89):
 ```
 ┌─ header (sticky) ───────────────────────────────────────┐
 ├─ breadcrumb: Home > Band > Album > Brano ───────────────┤
-├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
+├─ [ ads: banner largo e basso ] (se attive) ─────────────┤   (previsto, non esistente)
 │  ┌────────┐  TITOLO DEL BRANO                           │
 │  │ cover  │  Band · Album · Anno · Lingue 🇩🇪 DE        │
 │  └────────┘  aggiunto il … · voci …                      │
 ├──────────────────────────────────────────────────────────┤
 │  [ads]  │ ORIGINALE 🇩🇪 DE    │ TRADUZIONE [🇮🇹 IT ▾]  │  [ads]
-│  later. │  (nome cantante)    │  tradotto da …          │  later.
-│         │  strofa 1           │  strofa 1               │
-│  solo   │  (nome cantante)    │  (nome cantante)        │  solo
-│  xl+    │  strofa 2           │  strofa 2               │  xl+
-├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤
-├─ [ ads: banner largo e basso ] (se attive) ─────────────┤
+│  later. │  (nome cantante)    │  tradotto da …          │   (previsti,
+│         │  strofa 1           │  strofa 1               │    non esistenti)
+│  solo   │  (nome cantante)    │  (nome cantante)        │
+│  xl+    │  strofa 2           │  strofa 2               │
+├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤   (previsto, non esistente)
+├─ [ ads: banner largo e basso ] (se attive) ─────────────┤   (previsto, non esistente)
 ├─ footer (link al feed, riga dei contatori) ─────────────┤
 ```
 
@@ -269,7 +287,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 
 ## Desktop (`xl` e oltre)
 
-- Due colonne **affiancate** con il testo, più **due colonne sottili ai lati** per gli ads: `2 + 4 + 4 + 2` sulla griglia da 12.
+- Due colonne **affiancate** con il testo, più **due colonne sottili ai lati** per gli ads: `2 + 4 + 4 + 2` sulla griglia da 12 — **le colonne laterali sono previste, non esistenti**.
 - Tra `lg` e `xl`: **solo le due colonne di testo**, nessuna colonna laterale — lo spazio non basta senza comprimere la lettura.
 - Le strofe corrispondenti stanno **alla stessa altezza**: la griglia si costruisce **per strofa** (riga per riga), non con due colonne indipendenti. Se una strofa ha meno versi dell'originale, la riga cresce e resta allineata in alto.
 - Nessuna linea verticale di separazione pesante: lo spazio fa il lavoro.
@@ -317,6 +335,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 - Sta **sotto il testo**, prima del banner finale: chi ha appena letto una traduzione è la persona con più probabilità di proporne un'altra.
 - Fascia breve con una frase e un link al **form di segnalazione**: nessun form inline, nessun popup.
 - Su **ogni** pagina brano.
+- **Stato**: **prevista, non implementata** (FASE 6). Finché il form non esiste, la pagina brano non ha né la fascia né il link.
 
 ## Note dentro la pagina
 
@@ -340,7 +359,7 @@ Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è q
 | Traduzione con strofe più corte | colonna allineata in alto, nessun riempimento artificiale |
 | Numero di voci mancante | nessuna etichetta cantante |
 | Lingua con alfabeto diverso | il font multialfabeto deve coprirla, altrimenti è un bug |
-| Nessun advertiser | gli slot non esistono nel DOM, il testo prende tutta la larghezza |
+| Nessun advertiser | gli slot non esistono nel DOM, il testo prende tutta la larghezza — **e oggi non esiste nemmeno il codice degli slot** |
 
 ---
 
@@ -373,9 +392,9 @@ Questa stessa semantica governa il **contatore delle lingue** in home e nel foot
 ## Come si implementa
 
 - Italiano = default e **fallback di tutto**.
-- Ogni lingua = un file `locales/<lang>.yaml`; il build genera le pagine per **ogni lingua con un locale presente**.
+- Ogni lingua = un file `locales/<lang>.yaml`; il build genera le pagine per **ogni lingua con un locale presente** e con almeno una traduzione nei contenuti.
 - Aggiungere una lingua = copiare `locales/it.yaml`, tradurre i **valori**, aprire una PR.
-- Nessuna lingua viene servita se il locale è incompleto.
+- Una traduzione in una lingua senza il suo locale è un **errore della build** (`interfaceLangs`, in `internal/build/build.go`): il sito non mostra quella lingua con le stringhe di un'altra.
 
 ## URL
 
@@ -396,22 +415,30 @@ Questa stessa semantica governa il **contatore delle lingue** in home e nel foot
 
 - Tutte le stringhe visibili stanno in `locales/<lang>.yaml`: **nessun testo hard-coded nei template**.
 - Chiavi piatte e parlanti (`nav.home`, `track.added`, `search.no_results`).
-- **Chiave mancante = fallback italiano** + warning in build (non blocca, ma la PR deve sistemarlo o giustificarlo).
+- **Chiave mancante** = fallback italiano a runtime (`Bundle.MustT`); se manca anche in italiano il programma **panica** con un errore visibile, invece di mostrare un testo vuoto.
 - I nomi propri (band, brani, cantanti) **non si traducono mai**, e **nemmeno i codici lingua** (una bandiera non è un testo da tradurre).
 
 ## Cosa si adatta e cosa no
 
-Si adattano: formato delle date, etichette dei contatori, meta description e `og:` tags (per lingua).
+Si adattano: formato delle date, etichette dei contatori.
 
 Non cambiano: i contenuti dei brani (sono dato, non interfaccia) e gli slug (stesso slug in tutte le lingue).
 
 ## Validazione
 
-Il validatore controlla che tutte le lingue di `locales/` abbiano le **stesse chiavi** del locale italiano. Segnala anche (warning) quando una lingua di traduzione presente nei contenuti **non ha** un locale di interfaccia: è il promemoria che quella lingua ha ormai un pubblico. L'avviso **non vale** per una traduzione verso una lingua che il brano ha già come originale (D96, confermata in D97): lì il pubblico non cambia.
+**Il validatore non confronta le chiavi dei locale fra lingue.** L'unico controllo è che una
+lingua di traduzione presente nei contenuti abbia il suo file `locales/<lang>.yaml`
+(`interfaceLangs`, in `internal/build/build.go`): senza, la build fallisce. Le chiavi mancanti in
+un locale si vedono solo a runtime (fallback italiano, oppure errore di `MustT` se manca anche in
+italiano) — `ARCHITECTURE.md`, "Limiti noti".
 
 ---
 
 # Ricerca full-text
+
+**Stato: prevista (FASE 4), non implementata.** Non esiste né l'indice (`public/search-index.json`)
+né l'endpoint (`GET /it/api/cerca`): `internal/web/routes.go` registra solo la radice, `/healthz` e
+il file server. Le sezioni che seguono descrivono **come sarà**.
 
 ## Cosa si cerca
 
@@ -459,11 +486,16 @@ A parità di categoria: prima i brani con più lingue, poi ordine alfabetico. Ne
 - Nessuna ricerca semantica, nessun sinonimo, nessuna tolleranza ai refusi: se servirà, sarà una decisione nuova.
 - Nessuna cronologia, nessun suggerimento personalizzato.
 
-La ricerca sta nell'header di tutte le pagine e nella **404**: chi sbaglia URL deve poter cercare subito.
+La ricerca starà nell'header di tutte le pagine e nella **404**: chi sbaglia URL deve poter cercare
+subito. **Oggi nessuna delle due ha il campo**: l'header (`internal/render/header.templ`) ha solo
+brand, Home, Bands, tema e A-/A+; la 404 (`internal/render/error.templ`) ha messaggio e link alla home.
 
 ---
 
 # PWA — installabilità e lettura offline
+
+**Stato: prevista (FASE 6), non implementata.** Il build non scrive `manifest.webmanifest` né
+`sw.js`, e non esiste nessun service worker. Le sezioni che seguono descrivono **come sarà**.
 
 ## Obiettivo
 
