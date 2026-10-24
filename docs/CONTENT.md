@@ -1,5 +1,26 @@
 # CONTENT — schema dei contenuti e come si aggiungono
 
+## Stato: due formati, uno in arrivo
+
+Oggi i contenuti in repo sono nel **formato a file unico** (`tracks/<slug>.md`): un file per brano con
+front-matter e blocchi di testo inline. È questo il formato descritto nella sezione
+`tracks/<slug>.md` più sotto, ed è quello che il loader legge oggi per tutto il catalogo.
+
+Il **formato a cartella** (`tracks/<slug>/` con `song.md` e un file per lingua) è la
+destinazione: lo crea `lyrica new brano`, lo legge il loader, e `lyrica migrate` lo produce a
+partire dal formato precedente. Per questo la sezione `tracks/<slug>/` è marcata come
+**destinazione**: i file su disco sono ancora quasi tutti nel formato a file unico.
+
+Il passaggio si fa **con la migrazione, non a mano**:
+
+```
+go run ./cmd/lyrica migrate [--band <slug>]          # prova: dice cosa farebbe
+go run ./cmd/lyrica migrate --apply                  # scrive davvero
+```
+
+oppure da browser: **Actions → Migrazione brani (cartella per brano) → Run workflow**
+(`.github/workflows/migrazione-brani.yml`), che apre una PR.
+
 ## Struttura delle cartelle
 
 ```
@@ -10,8 +31,11 @@ content/
         └── <album-slug>/
             ├── album.md                # anagrafica dell'album + tracklist
             └── tracks/
-                ├── <track-slug>.md     # testo originale + traduzioni
-                └── ...
+                ├── <track-slug>.md     # FORMATO ATTUALE: testo originale + traduzioni inline
+                └── <track-slug>/       # DESTINAZIONE: una cartella per brano
+                    ├── song.md
+                    ├── original-<lang>.md
+                    └── <lang>.md
 covers/
 ├── <album-slug>.webp                   # cover dell'album, 600x600
 └── <band-slug>.webp                    # foto della band, 600x600 (opzionale)
@@ -99,7 +123,7 @@ description: >
 | `name` | sì | come si legge in pagina; è anche il nome con cui si cerca la foto della band |
 | `slug` | sì | deve coincidere con il nome della cartella |
 | `country` | no | sigla ISO a 2 lettere |
-| `tags` | no | **tag liberi** di genere; generano le pagine `/it/tag/{tag}` |
+| `tags` | no | **tag liberi** di genere; generano le pagine `/it/tag/{tag}` (**previste, non esistenti**) |
 | `original_langs` | sì | una o più lingue originali della band |
 | `formed_year` | no | numero |
 | `members` | no | lista di stringhe |
@@ -147,7 +171,7 @@ La tracklist è **il disco intero**, non l'elenco dei brani già scritti: si met
 - `pending` e `instrumental` sono gli unici valori ammessi: un valore diverso è un errore, non un'etichetta libera.
 - La **pagina album** si genera quando c'è almeno una traduzione (D35), ma la tracklist mostra **tutte** le tracce dichiarate, comprese quelle in arrivo.
 - La **pagina brano** esiste solo per i brani che hanno il testo (e almeno una traduzione): le voci in arrivo non sono link e non sono cliccabili.
-- Chi vuole la traduzione di un brano "in arrivo" potrà chiederla dal form di segnalazione: la call to action in pagina arriva **insieme al form** (FASE 6, D90), per non mettere un link a una pagina che non esiste.
+- Chi vuole la traduzione di un brano "in arrivo" potrà chiederla dal form di segnalazione (**previsto, non esistente**): la call to action in pagina arriva **insieme al form** (FASE 6, D90).
 
 ## Immagini (`covers/`)
 
@@ -206,10 +230,13 @@ python3 scripts/declare-image.py content/bands/<band>/band.md band <band-slug>.w
 - `declare-image.py` scrive `cover:` / `image:` nel front-matter (aggiorna la riga se c'è, la aggiunge se manca, errore esplicito se non c'è front-matter).
 - Le foto delle band **non esistono su MusicBrainz**: le indicizza fanart.tv (di solito `artistthumb`, si prende quella con più like).
 - Chiavi sul proprio computer: `FANART_API_KEY` / `FANART_CLIENT_KEY`, oppure una riga in `~/.fanart_api_key` / `~/.fanart_client_key`. Basta una delle due. **Mai nel repo**, mai stampate, mai nell'URL.
-- Serve **ImageMagick** (`brew install imagemagick`), `curl` e `python3`: se manca qualcosa, gli script escono con un errore esplicito e non scrivono niente.
+- Serve **ImageMagick** (`brew install imagemagick`), `curl` e `python3`: se manca qualcosa, gli script escono con un errore esplicito e non scrivono nulla.
 - MusicBrainz accetta **una richiesta al secondo**: gli script aspettano da soli fra una ricerca e l'altra. Duecento album richiedono qualche minuto, non duecento click.
 
-## `tracks/<slug>.md`
+## `tracks/<slug>.md` (formato attuale)
+
+È il formato dei file **che ci sono oggi** in `content/`: un file per brano, front-matter con
+l'anagrafica **e i blocchi di testo inline**, corpo dopo i `---` per le note redazionali.
 
 ```yaml
 ---
@@ -316,6 +343,30 @@ Quando lo **stesso brano** compare in **due album di due artisti diversi** (es. 
 - **L'altro album** tiene la voce di tracklist **senza file**, con `status: pending` (la tracklist è il disco intero, D90): lì `pending` non significa "testo non scritto" ma "questo testo vive nell'album dell'altro artista".
 - **Entrambe le pagine band** linkano il brano (`track.HasArtist`), quindi la traduzione è raggiungibile anche dall'artista che non ospita il file.
 
+## `tracks/<slug>/` (destinazione: una cartella per brano)
+
+È il formato che `lyrica new brano` crea e che `lyrica migrate` produce. Il loader lo legge
+già (`internal/content/trackfolder.go`), ma i contenuti in repo sono ancora quasi tutti nel
+formato a file unico.
+
+```
+tracks/<slug>/
+  song.md             anagrafica del brano (stessi campi del front-matter sopra, senza blocks)
+  original-<lang>.md un file per ogni blocco role: original
+  <lang>.md           un file per ogni blocco role: translation
+```
+
+- Il nome del file **è** la chiave del blocco: `original-<lang>.md` è un originale, `<lang>.md`
+  è una traduzione. Un brano che ha la stessa lingua come originale e come versione completa
+  (D96) non collide: `original-de.md` e `de.md` sono due file diversi, non un doppione.
+- `song.md` contiene l'anagrafica **senza** `blocks` e il corpo dopo i `---` come note redazionali.
+- Ogni file di blocco è **autocontenuto**: si legge e si valida da solo, e una traduzione nuova è
+  un file nuovo, non una modifica a un file che cresce.
+- Il loader verifica che **nome del file e front-matter dicano la stessa cosa**: un file chiamato
+  `it.md` con `lang: de` è un errore, non una sorpresa.
+- I blocchi si leggono **in ordine di nome**, così l'elenco delle lingue in pagina non dipende
+  dall'ordine del filesystem.
+
 ## Regole di validazione (applicate in CI)
 
 Un contenuto è **invalido** se:
@@ -332,6 +383,7 @@ Un contenuto è **invalido** se:
 10. `image` di una band punta a un file inesistente in `covers/` (o a una cartella invece che a un file).
 11. `status` di una voce di `tracks` con un valore diverso da `pending` e `instrumental`.
 12. `artists` contiene uno slug che non esiste in `content/bands/`.
+13. Una riga di testo **vuota** dentro una strofa: diventa una riga fantasma in pagina.
 
 La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 
@@ -342,10 +394,13 @@ La regola 4 è la più importante: **una traduzione a metà non si pubblica**.
 - **band senza immagine**: la card usa il segnaposto con l'iniziale (non è un errore: una band può restare tipografica);
 - tag usato una volta sola (possibile refuso: `metal` vs `metalcore`);
 - descrizione band mancante;
-- chiavi di locale mancanti rispetto a `it.yaml`;
 - `title` o `instrumental` di un file diversi da quelli dichiarati nella tracklist di `album.md`;
 - tracklist vuota, o con **tutte** le tracce "in arrivo";
-- brano senza `artists` (non collegato a band esterne).
+- brano senza `artists` (non collegato a band esterne);
+- album con una voce "in arrivo" ma nessun brano con il testo: l'album non ha nemmeno un lavoro in corso.
+
+**Non è un warning né un errore**: una chiave di locale mancante rispetto a `it.yaml`. Il
+validatore **non** confronta le chiavi fra lingue (`ARCHITECTURE.md`, "Limiti noti").
 
 ## Come si aggiunge un contenuto
 
@@ -373,16 +428,21 @@ Il primo argomento è lo **slug della band** (non il nome). Crea `content/bands/
 lyrica new brano tocotronic digital-ist-besser "Ich möchte dich" --lang de
 ```
 
-Crea `content/bands/tocotronic/digital-ist-besser/tracks/ich-moechte-dich.md` con lo scheletro dei blocchi lingua (una strofa vuota pronta da riempire) e **aggiunge la voce alla tracklist** di `album.md`. Poi, a mano:
+Crea la **cartella** `content/bands/tocotronic/digital-ist-besser/tracks/ich-moechte-dich/` con
+`song.md` (anagrafica) e `original-de.md` (lo scheletro del blocco originale, una strofa vuota
+da riempire), e **aggiunge la voce alla tracklist** di `album.md`. Poi, a mano:
 
 - scrivi il testo originale **strofa per strofa**, un verso per riga;
 - se il brano ha più voci, aggiungi `singer:` a **ogni** strofa;
-- scrivi la traduzione **completa**: strofe della stessa lunghezza dell'originale;
-- `added_date` = il giorno in cui la pubblichi;
+- aggiungi un file `<lang>.md` per ogni traduzione, **completa**: strofe della stessa lunghezza dell'originale;
+- `added_date` = il giorno in cui la pubblichi (la CLI lo mette già a oggi);
 - `featured: true` solo se il brano deve stare nella corsia "In evidenza" della home;
 - niente annotazioni per verso.
 
 Se il brano era già dichiarato `status: pending` in `album.md`, quando scrivi il testo **togli lo `status`**: la voce torna a puntare al file (una voce con `status` e il file è un errore).
+
+Se invece scrivi il brano nel **formato a file unico** (`tracks/<slug>.md` con i blocchi inline), vale
+lo stesso schema della sezione `tracks/<slug>.md`: è il formato che `lyrica migrate` trasforma.
 
 ### 4. Verifica in locale
 
@@ -410,21 +470,32 @@ lyrica serve      # serve il risultato su una porta locale
 - [ ] Il contenuto si legge bene **da telefono**, non solo da desktop.
 - [ ] Se un brano non ha traduzioni, è segnato come "solo originale" e non è linkato.
 - [ ] Se il brano è una collaborazione, `artists` è presente con i ruoli corretti.
+- [ ] Se hai scritto il brano nel formato a file unico, `lyrica migrate` lo porta in cartella (o resta così: il loader legge entrambi).
 
 ### Aggiungere una lingua di traduzione a un brano
 
-Aggiungi al file un blocco con `role: translation`, `lang:`, `translator:` e le strofe **complete**. Il validatore controlla che combacino con l'originale: se non combaciano, la PR è rossa. Il selettore lingua in pagina si aggiorna da solo.
+Aggiungi al brano un blocco con `role: translation`, `lang:`, `translator:` e le strofe
+**complete** — nel formato a file unico dentro `blocks:`, in quello a cartella come file
+`<lang>.md`. Il validatore controlla che combacino con l'originale: se non combaciano, la PR è
+rossa. Il selettore lingua in pagina si aggiorna da solo.
 
-Se la traduzione è la **versione completa** in una lingua che il brano ha già come originale — il tedesco intero di un brano bilingue — vale la stessa regola: un blocco `role: translation` con la stessa `lang` dell'originale e **tutte** le strofe allineate. Non si duplica il blocco `original` (D96).
+Se la traduzione è la **versione completa** in una lingua che il brano ha già come originale — il tedesco intero di un brano bilingue — vale la stessa regola: un blocco `role: translation` con la stessa `lang` dell'originale e **tutte** le strofe allineate. Non si duplica il blocco `original` (D96). Nel formato a cartella è il caso in cui esistono sia `original-de.md` sia `de.md`.
 
 La versione completa si può scrivere per **ogni** lingua di `original_langs`, non solo per le due di un brano bilingue (D97): un brano `["it", "fr", "de"]` può avere una `translation` completa in italiano, una in francese e una in tedesco, più le traduzioni di arrivo. Ogni blocco resta allineato all'originale, strofa per strofa (regola 4).
 
 ### Aggiungere una lingua all'interfaccia
 
-Copia `locales/it.yaml` in `locales/<lang>.yaml` e traduci i **valori**, non le chiavi. Il build genera `/<lang>/...` con hreflang. Una chiave mancante è un errore in CI.
+Copia `locales/it.yaml` in `locales/<lang>.yaml` e traduci i **valori**, non le chiavi. Il build genera `/<lang>/...` con hreflang. Una lingua di traduzione senza il suo file di locale è un **errore della build** (`interfaceLangs` in `internal/build/build.go`).
 
 Una traduzione verso una lingua che il catalogo ha **già come lingua originale** non fa nascere un'interfaccia in quella lingua (D96, confermata in D97): chi legge quella lingua legge già l'originale, quindi il pubblico non cambia. Il tedesco "completo" di un brano bilingue non chieda `locales/de.yaml`.
 
+Nota: le **chiavi mancanti** in un locale non sono un errore di validazione. Il validatore non
+confronta le chiavi fra lingue; una chiave assente si vede solo a runtime (fallback italiano, o
+errore di `MustT` se manca anche in italiano).
+
 ### Rinominare uno slug (cambio URL)
 
-Rinomina cartella o file, aggiungi la **regola di redirect 301** nel file dei redirect (vecchio URL → nuovo URL) e verifica il redirect nella build locale.
+Rinomina cartella o file. Il **redirect 301 non esiste**: oggi il vecchio URL dà 404, quindi il
+redirect è una decisione da prendere (e da implementare) prima di rinominare. Dove sarà
+implementato, la regola è: vecchio URL → nuovo URL in un file di redirect letto dal build e
+verificato nella build locale.
