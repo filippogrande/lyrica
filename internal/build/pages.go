@@ -68,8 +68,8 @@ func (w *pageWriter) writeLang(lang string) error {
 // senza album pubblicati non ha pagina: non compare in nessun elenco, quindi
 // una pagina vuota sarebbe un orfano.
 func (w *pageWriter) writeBand(lang string, band *content.Band) error {
-	abums := publishedAlbums(band)
-	if len(abums) == 0 {
+	albums := publishedAlbums(band)
+	if len(albums) == 0 {
 		return nil
 	}
 	page := w.pageData(lang, "band/"+band.Slug+"/", band.Name)
@@ -77,7 +77,7 @@ func (w *pageWriter) writeBand(lang string, band *content.Band) error {
 	if err := w.write(lang, "band/"+band.Slug+"/", render.Band(render.BuildBandView(page, band, w.catalog))); err != nil {
 		return err
 	}
-	for _, album := range abums {
+	for _, album := range albums {
 		if err := w.writeAlbum(lang, band, album); err != nil {
 			return err
 		}
