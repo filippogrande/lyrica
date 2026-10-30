@@ -137,6 +137,8 @@ Perché esiste il job `compila`: l'ambiente in cui scrive l'agente **non ha un c
 
 Il workflow dell'immagine **non gira sulle PR**: una PR non deve poter pubblicare un tag `latest`.
 
+La sicurezza ha un workflow suo, `.github/workflows/security.yml`, separato da `ci.yml`, con tre job. `dipendenze` esegue `govulncheck`: segnala solo le vulnerabilità che il codice chiama davvero, non ogni CVE presente nei moduli. `sast` esegue `gosec` sul codice nostro con `-exclude-generated` (i `*_templ.go` sono artefatti di generazione) e carica i rilievi in SARIF nella scheda code scanning. `immagine` costruisce l'immagine vera dal `Dockerfile` e la passa a Trivy, poi fa una seconda scansione con `scan-type: config` su `Dockerfile` e workflow: l'OS di base e i suoi pacchetti cambiano anche quando il `go.mod` non cambia. Gira sulle **PR**, sui **push su `main`** e una volta a settimana con un cron. Gli strumenti sono installati a `@latest` perché non sono dipendenze del progetto e un database di CVE vecchio è peggio di un tool non pinnato.
+
 ## Docker
 
 ### Immagine
