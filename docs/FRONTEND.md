@@ -436,59 +436,57 @@ italiano) — `ARCHITECTURE.md`, "Limiti noti".
 
 # Ricerca full-text
 
-**Stato: prevista (FASE 4), non implementata.** Non esiste né l'indice (`public/search-index.json`)
-né l'endpoint (`GET /it/api/cerca`): `internal/web/routes.go` registra solo la radice, `/healthz` e
-il file server. Le sezioni che seguono descrivono **come sarà**.
+**Stato: implementata (D110).** La ricerca live è **tutta lato client**: **nessun endpoint, nessun
+HTMX**. Un indice JSON **per lingua dell'interfaccia** — `public/<lang>/search-index.json` — viene
+generato **a build time** (`internal/build/search.go` → `writeSearchIndex`) e scaricato **insieme
+alla pagina**; il dropdown la filtra in `assets/js/search.js` (JS vanilla, nessuna dipendenza).
 
 ## Cosa si cerca
 
 1. **Titoli** dei brani
 2. **Nomi** delle band
-3. **Versi** dei testi (originali e traduzioni)
+3. **Titoli** degli album
+4. **Versi** dei testi (originali e traduzioni)
 
 La ricerca per verso è la ragione per cui la ricerca esiste: chi ricorda "quella frase" non ricorda il titolo.
 
 ## Indice
 
-- Costruito **a build time** e salvato in `public/` come **JSON** unico: nessun database, nessun servizio esterno.
-- Ogni voce: tipo (`track` \| `band`), titolo, band, lingue disponibili, URL, versi normalizzati.
-- **Normalizzazione** a build time: minuscole, rimozione dei segni diacritici, spazi collassati, punteggiatura ignorata.
-- L'indice è caricato in memoria dal server all'avvio: ricerca istantanea, niente I/O per richiesta.
+- **Un JSON per lingua**, in `public/<lang>/search-index.json` (niente file unico alla root e niente
+  endpoint: il file si genera a build time e si scarica con la pagina).
+- Generato da `writeSearchIndex` (`internal/build/search.go`): gli stessi brani che hanno pagina
+  (`HasTranslations`), le stesse band e gli stessi album dei link della sitemap — una pagina
+  indicizzata è una pagina raggiungibile.
+- Ogni voce: tipo (`track` | `band` | `album`), titolo, band, album, URL e i **versi** del brano
+  (tutti i blocchi, originali e traduzioni: un verso si trova qualunque sia la lingua).
+- Le righe stanno **come sono scritte**: la **normalizzazione** — minuscole, accenti e umlaut rimossi
+  (`NFD`), `ß` → `ss` — la fa **il browser**, la **stessa** su query e su testo (`strip()` in
+  `assets/js/search.js`): chi scrive "Fur Elise" trova "Für Elise".
 
-## Endpoint
+## Dropdown (JS vanilla)
 
-`GET /it/api/cerca?q=<query>`
-
-- Restituisce un **frammento HTML** già renderizzato (per HTMX), non JSON: il risultato è nella lingua dell'interfaccia senza JS che lo dipinge.
-- Massimo **10 risultati**; se ce ne sono altri, l'ultima voce è "affina la ricerca", non una paginazione.
-- Query sotto i **2 caratteri**: risposta vuota, nessuna richiesta inutile.
-- Rate-limit per IP, per non trasformare la ricerca in un endpoint da abusare.
-
-## Interfaccia
-
-- Campo nell'header; digitando, HTMX aggiorna il dropdown con **debounce ~200 ms**.
-- Ogni risultato mostra **titolo del brano + band**, mai uno snippet del verso.
-- Navigazione da **tastiera** (frecce, invio) e ruoli ARIA corretti (`combobox`/`listbox`).
-- **Esc** chiude e svuota; click fuori chiude.
-- Senza risultati: messaggio breve, non un errore.
-
-## Ordinamento (rilevanza)
-
-1. Match nel **titolo**
-2. Match nel nome della **band**
-3. Match nel **verso**
-
-A parità di categoria: prima i brani con più lingue, poi ordine alfabetico. Nessun punteggio opaco: l'ordine è spiegabile a voce.
+- Il campo sta nell'**header di tutte le pagine** e nella **404**: componente `SearchBox` in
+  `internal/render/searchbox.templ`, incluso da `Header` (`internal/render/header.templ`) e da
+  `NotFound` (`internal/render/error.templ`); lo script è `assets/js/search.js`.
+- **Debounce ~180 ms**; servono almeno **2 caratteri**; massimo **8 risultati**.
+- Risultato = **titolo + band · album** (per i brani, con il **verso** fra virgolette quando il match
+  è nel testo); nessuna pagina di risultati.
+- Ordinamento: **band → album → brano**, e per i brani prima il match su **titolo/band/album**, poi
+  il **verso**: i nomi prima dei testi, senza punteggi opachi.
+- L'indice si scarica **una volta** (`fetch` con `cache: force-cache`) e le righe si
+  **pre-normalizzano** al caricamento: il controllo a ogni tasto non rifà il lavoro per ogni verso.
+- **Navigazione da tastiera** (frecce su/giù, invio, Esc) e ruoli ARIA corretti
+  (`combobox`/`listbox`); Esc chiude e svuota, click fuori chiude, senza risultati un messaggio
+  breve, non un errore.
+- **Senza JS il campo non esiste**: campo e dropdown stanno nel DOM ma si mostrano **solo con la
+  classe `.js`** che `theme.js` mette su `<html>` prima del paint (stessa convenzione dei menu lingua,
+  D92) — lo script **aggiunge, non nasconde**, quindi a chi non ha JS non va tolto niente.
 
 ## Cosa NON fa
 
 - Nessuna pagina di risultati dedicata.
 - Nessuna ricerca semantica, nessun sinonimo, nessuna tolleranza ai refusi: se servirà, sarà una decisione nuova.
 - Nessuna cronologia, nessun suggerimento personalizzato.
-
-La ricerca starà nell'header di tutte le pagine e nella **404**: chi sbaglia URL deve poter cercare
-subito. **Oggi nessuna delle due ha il campo**: l'header (`internal/render/header.templ`) ha solo
-brand, Home, Bands, tema e A-/A+; la 404 (`internal/render/error.templ`) ha messaggio e link alla home.
 
 ---
 
