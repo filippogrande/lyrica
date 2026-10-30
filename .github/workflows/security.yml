@@ -1,0 +1,142 @@
+# Security — i tre controlli automatici di sicurezza.
+#
+# Separato da `ci.yml` di proposito: la CI dice se il sito è corretto, questo
+# workflow dice se è sicuro. Un rosso qui non deve nascondere un rosso di build.
+#
+# Cosa copre:
+#   1. CVE nelle dipendenze Go (govulncheck): guarda solo i difetti che il codice
+#      CHIAMA davvero, non ogni CVE presente nel modulo.
+#   2. Analisi statica del nostro Go (gosec): path traversal, errori ignorati,
+#      uso di file/permissioni, crypto debole. I file generati da templ sono
+#      esclusi con -exclude-generated (non sono codice nostro e vengono rigenerati).
+#   3. Vulnerabilità dentro l'immagine (Trivy) e misconfigurazioni del
+#      Dockerfile: l'OS di base e i suoi pacchetti cambiano anche se il nostro
+#      go.mod non cambia, quindi questo job non si può fare "una volta sola".
+#
+# Segreti: già coperti da GitGuardian su ogni PR.
+#
+# Gli strumenti sono installati a @latest perché non sono dipendenze del
+# progetto: un database di CVE vecchio è peggio di un tool non pinnato.
+
+name: Security
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Il repository cambia raramente, le CVE no: un controllo a settimana.
+    - cron: "0 4 * * 1"
+
+concurrency:
+  group: security-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  dipendenze:
+    name: CVE dipendenze (govulncheck)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Go 1.27.2
+        uses: actions/setup-go@v7
+        with:
+          go-version: "1.27.2"
+          cache: true
+
+      - name: Risolvi le dipendenze
+        run: go mod tidy
+
+      # govulncheck carica i pacchetti con il loader di Go: senza i file
+      # generati da templ, internal/render non compila e l'analisi si ferma.
+      - name: Genera i template Templ
+        run: go run github.com/a-h/templ/cmd/templ@v0.3.1070 generate
+
+      - name: Installa govulncheck
+        run: go install golang.org/x/vuln/cmd/govulncheck@latest
+
+      # govulncheck esce con codice 3 se trova una vulnerabilità raggiungibile.
+      # Il log si rimanda come annotation: i log del job richiedono il login.
+      - name: Cerca vulnerabilità raggiungibili
+        run: |
+          if ! govulncheck ./... > /tmp/vuln.log 2>&1; then
+            echo "::error::govulncheck ha trovato vulnerabilità raggiungibili: $(awk '{printf "%s%%0A", $0}' /tmp/vuln.log | head -c 4000)"
+            exit 1
+          fi
+          cat /tmp/vuln.log
+
+  sast:
+    name: Analisi statica (gosec)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Go 1.27.2
+        uses: actions/setup-go@v7
+        with:
+          go-version: "1.27.2"
+          cache: true
+
+      - name: Risolvi le dipendenze
+        run: go mod tidy
+
+      - name: Genera i template Templ
+        run: go run github.com/a-h/templ/cmd/templ@v0.3.1070 generate
+
+      - name: Installa gosec
+        run: go install github.com/securego/gosec/v2/cmd/gosec@latest
+
+      # gosec esce con 1 se trova almeno un rilievo: il job diventa rosso e i
+      # rilievi restano anche nella scheda Security > Code scanning.
+      - name: Analizza il codice
+        run: gosec -exclude-generated -fmt sarif -out gosec.sarif ./...
+
+      - name: Carica i rilievi in code scanning
+        if: always()
+        continue-on-error: true
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: gosec.sarif
+          category: gosec
+
+  immagine:
+    name: Vulnerabilità immagine (Trivy)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      # Si costruisce l'immagine vera: la scansione di un Dockerfile non dice
+      # cosa c'è dentro lo stage finale.
+      - name: Costruisci l'immagine
+        run: docker build -t lyrica:security .
+
+      - name: Scansiona l'immagine (OS + pacchetti)
+        uses: aquasecurity/trivy-action@0.28.0
+        with:
+          image-ref: lyrica:security
+          format: table
+          severity: HIGH,CRITICAL
+          ignore-unfixed: true
+          exit-code: "1"
+
+      - name: Scansiona le configurazioni (Dockerfile, workflow)
+        uses: aquasecurity/trivy-action@0.28.0
+        with:
+          scan-type: config
+          scan-ref: .
+          format: table
+          severity: HIGH,CRITICAL
+          exit-code: "1"
