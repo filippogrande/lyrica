@@ -89,6 +89,7 @@ un simbolo, aggiorni la mappa **nella stessa PR**.
 | Dove stanno i workflow manuali (immagini, migrazione)? | `docs/CONTENT.md` | `.github/workflows/immagini-mancanti.yml` | `Immagini mancanti`; `immagini.yml` → `Immagini dagli archivi`; `migrazione-brani.yml` → `Migrazione brani` |
 | Dove si configura Dependabot? | `docs/GUIDELINES.md` | `.github/dependabot.yml` | `gomod`, `docker`, `github-actions` |
 | Dove vivono le stringhe dell'interfaccia? | `docs/FRONTEND.md` | `locales/it.yaml` | chiavi piatte (`nav.home`, `track.added`); lette da `internal/i18n/i18n.go` → `Bundle.MustT` |
+| Dove gira il controllo di sicurezza (CVE dipendenze, analisi statica, immagine)? | `docs/ARCHITECTURE.md` | `.github/workflows/security.yml` | job `dipendenze`, `sast`, `immagine` |
 
 ### Regole, decisioni, piano
 

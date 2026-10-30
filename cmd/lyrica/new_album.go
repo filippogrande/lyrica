@@ -48,7 +48,7 @@ func newAlbum(args []string) error {
 	if y := keys["year"]; y != "" {
 		year, err = strconv.Atoi(y)
 		if err != nil {
-		return fmt.Errorf("--year non è un numero: %q", y)
+			return fmt.Errorf("--year non è un numero: %q", y)
 		}
 	}
 	doc, err := frontMatter(albumFM{Title: title, Slug: slug, Year: year})
@@ -56,10 +56,13 @@ func newAlbum(args []string) error {
 		return err
 	}
 	dir := filepath.Join(bandDir, slug)
+	// #nosec G301 -- contenuti del repo: 0755 voluto, git e i tool devono
+	// attraversare le cartelle.
 	if err := os.MkdirAll(filepath.Join(dir, "tracks"), 0o755); err != nil {
 		return fmt.Errorf("creazione cartella %s: %w", dir, err)
 	}
 	path := filepath.Join(dir, "album.md")
+	// #nosec G306 -- contenuti del repo: 0644 voluto, leggibili da git e CI.
 	if err := os.WriteFile(path, []byte(doc), 0o644); err != nil {
 		return fmt.Errorf("scrittura di %s: %w", path, err)
 	}

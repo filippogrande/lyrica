@@ -58,6 +58,7 @@ func Load(dir string) (Bundle, error) {
 
 // loadFile legge un singolo file di locale.
 func loadFile(path string) (map[string]string, error) {
+	// #nosec G304 -- path arriva da Load() sui file locales/ del repo.
 	data, err := os.ReadFile(path)
 	if err != nil {
 		return nil, fmt.Errorf("lettura di %q: %w", path, err)

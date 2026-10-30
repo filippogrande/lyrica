@@ -31,6 +31,8 @@ func Serve() error {
 		ReadHeaderTimeout: 5 * time.Second,
 	}
 
+	// #nosec G706 -- addr arriva da LYRICA_ADDR (variabile dell'autore), mai
+	// da input utente.
 	log.Printf("Lyrica in ascolto su http://localhost%s", addr)
 	if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 		return fmt.Errorf("server: %w", err)

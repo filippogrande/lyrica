@@ -42,6 +42,8 @@ func decodeFrontMatter(front []byte, v any) error {
 // readFrontMatterFile legge un file di contenuto, decodifica il front-matter
 // in v e restituisce il corpo del file.
 func readFrontMatterFile(path string, v any) (string, error) {
+	// #nosec G304 -- path arriva dal loader dei contenuti (content/ del repo),
+	// mai da input di rete.
 	doc, err := os.ReadFile(path)
 	if err != nil {
 		return "", fmt.Errorf("lettura di %s: %w", path, err)

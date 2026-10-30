@@ -177,6 +177,8 @@ func legacyFilesOfBand(bandDir string) ([]string, error) {
 // song.md con l'anagrafica e le note, un file per ogni blocco. Poi toglie il
 // file vecchio. Se qualcosa non torna si ferma prima di scrivere.
 func migrateTrackFile(path string) error {
+	// #nosec G304 -- path arriva da legacyTrackFiles(), che cammina il repo
+	// (content/): nessun input esterno.
 	raw, err := os.ReadFile(path)
 	if err != nil {
 		return fmt.Errorf("lettura di %s: %w", path, err)
@@ -200,11 +202,14 @@ func migrateTrackFile(path string) error {
 	if err != nil {
 		return fmt.Errorf("%s: %w", path, err)
 	}
+	// #nosec G301 -- contenuti del repo: 0755 voluto, git e i tool devono
+	// attraversare le cartelle.
 	if err := os.MkdirAll(dir, 0o755); err != nil {
 		return fmt.Errorf("creazione di %s: %w", dir, err)
 	}
 	for name, doc := range docs {
 		target := filepath.Join(dir, name)
+		// #nosec G306 -- contenuti del repo: 0644 voluto, leggibili da git e CI.
 		if err := os.WriteFile(target, []byte(doc), 0o644); err != nil {
 			return fmt.Errorf("scrittura di %s: %w", target, err)
 		}

@@ -35,6 +35,8 @@ func copyTree(sourceDir, destinationDir string) error {
 		}
 		target := filepath.Join(destinationDir, relative)
 		if entry.IsDir() {
+			// #nosec G301 -- output del sito pubblico: 0755 voluto, il server
+			// non-root (uid 10001) del container deve attraversare le cartelle.
 			if err := os.MkdirAll(target, 0o755); err != nil {
 				return fmt.Errorf("creazione di %s: %w", target, err)
 			}
@@ -46,18 +48,21 @@ func copyTree(sourceDir, destinationDir string) error {
 
 // copyFile copia un singolo file.
 func copyFile(source, target string) error {
+	// #nosec G304 -- source/target derivano da filepath.WalkDir sugli asset
+	// del repo, mai da input di rete.
 	input, err := os.Open(source)
 	if err != nil {
 		return fmt.Errorf("apertura di %s: %w", source, err)
 	}
 	defer input.Close()
 
+	// #nosec G304 -- vedi sopra.
 	output, err := os.Create(target)
 	if err != nil {
 		return fmt.Errorf("creazione di %s: %w", target, err)
 	}
 	if _, err := io.Copy(output, input); err != nil {
-		output.Close()
+		_ = output.Close()
 		return fmt.Errorf("copia di %s in %s: %w", source, target, err)
 	}
 	if err := output.Close(); err != nil {
