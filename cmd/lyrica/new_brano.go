@@ -111,6 +111,8 @@ func writeTrackSkeleton(tracksDir, slug, title, lang string, instrumental bool) 
 // addToTracklist legge album.md, aggiunge il brano alla tracklist e riscrive
 // il file. È una modifica all'album: la fa solo la CLI, mai a mano.
 func addToTracklist(albumPath, slug, title string, instrumental bool) error {
+	// #nosec G304 -- albumPath arriva dagli argomenti della CLI dell'autore
+	// (contentDir + slug), mai da input esterni.
 	raw, err := os.ReadFile(albumPath)
 	if err != nil {
 		return fmt.Errorf("lettura di %s: %w", albumPath, err)

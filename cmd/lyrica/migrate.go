@@ -177,6 +177,8 @@ func legacyFilesOfBand(bandDir string) ([]string, error) {
 // song.md con l'anagrafica e le note, un file per ogni blocco. Poi toglie il
 // file vecchio. Se qualcosa non torna si ferma prima di scrivere.
 func migrateTrackFile(path string) error {
+	// #nosec G304 -- path arriva da legacyTrackFiles(), che cammina il repo
+	// (content/): nessun input esterno.
 	raw, err := os.ReadFile(path)
 	if err != nil {
 		return fmt.Errorf("lettura di %s: %w", path, err)
