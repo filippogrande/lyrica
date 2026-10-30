@@ -76,6 +76,8 @@ func newBrano(args []string) error {
 // il file del blocco originale, pronti da riempire.
 func writeTrackSkeleton(tracksDir, slug, title, lang string, instrumental bool) error {
 	dir := filepath.Join(tracksDir, slug)
+	// #nosec G301 -- contenuti del repo: 0755 voluto, git e i tool devono
+	// attraversare le cartelle.
 	if err := os.MkdirAll(dir, 0o755); err != nil {
 		return fmt.Errorf("creazione di %s: %w", dir, err)
 	}
@@ -90,6 +92,7 @@ func writeTrackSkeleton(tracksDir, slug, title, lang string, instrumental bool) 
 		return err
 	}
 	songPath := filepath.Join(dir, songFileName)
+	// #nosec G306 -- contenuti del repo: 0644 voluto, leggibili da git e CI.
 	if err := os.WriteFile(songPath, []byte(song), 0o644); err != nil {
 		return fmt.Errorf("scrittura di %s: %w", songPath, err)
 	}
@@ -102,6 +105,7 @@ func writeTrackSkeleton(tracksDir, slug, title, lang string, instrumental bool) 
 		return err
 	}
 	blockPath := filepath.Join(dir, "original-"+lang+".md")
+	// #nosec G306 -- contenuti del repo: 0644 voluto, leggibili da git e CI.
 	if err := os.WriteFile(blockPath, []byte(block), 0o644); err != nil {
 		return fmt.Errorf("scrittura di %s: %w", blockPath, err)
 	}
@@ -130,6 +134,7 @@ func addToTracklist(albumPath, slug, title string, instrumental bool) error {
 	if err != nil {
 		return err
 	}
+	// #nosec G306 -- contenuti del repo: 0644 voluto, leggibili da git e CI.
 	if err := os.WriteFile(albumPath, []byte(doc), 0o644); err != nil {
 		return fmt.Errorf("scrittura di %s: %w", albumPath, err)
 	}
