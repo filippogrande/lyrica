@@ -1,0 +1,111 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Estate, mood
+        - Sabbia calda sotto i miei piedi
+        - Birra fredda, vino economico
+        - Sì, è tutto quello che ci serve
+        - Abbiamo le mosse
+        - Abbiamo le mosse
+        - E tutti fanno
+        - Oh porca puttana, rifacciamolo
+    - lines:
+        - Abbiamo le mosse
+        - Abbiamo le mosse
+        - E tutti fanno
+        - Ieri abbiamo bevuto troppo
+        - Rifacciamolo
+        - Abbiamo il groove
+        - Abbiamo il groove
+        - Quindi tutti alzate le mani dritte
+        - Stasera è la notte
+    - lines:
+        - Siamo giovani
+        - Siamo liberi
+        - Bevendo alcol su una spiaggia assolata
+        - Siamo vivi
+        - Crediamo
+        - Che i ricordi dell'estate
+        - Non scompariranno mai
+    - lines:
+        - Stiamo vivendo la bella vita, la vita alta
+        - Tutti vogliono quella vibe rovente
+        - Vogliamo sentirla ancora e ancora e ancora
+        - Di più, dammene ancora di più
+        - Perché siamo dipendenti dal groove
+        - Oh yeah, lo facciamo ancora
+        - Abbiamo le mosse
+        - Abbiamo le mosse
+        - E tutti fanno
+        - Ieri abbiamo bevuto troppo
+        - Rifacciamolo
+        - Abbiamo il groove
+        - Abbiamo il groove
+        - Quindi tutti alzate le mani dritte
+        - Stasera è la notte
+    - lines:
+        - Siamo giovani
+        - Siamo liberi
+        - Bevendo alcol su una spiaggia assolata
+        - Siamo vivi
+        - Crediamo
+        - Che i ricordi dell'estate
+        - Non scompariranno mai
+        - Non scompariranno mai
+        - Non scompariranno mai
+    - lines:
+        - Non ci serve nessun club
+        - Ci serve solo il sole
+        - Sì, faremo il rave come dannati
+        - Fino a quando il weekend non è finito
+    - lines:
+        - Abbiamo le mosse
+        - Abbiamo le mosse
+        - E tutti alzate le mani dritte
+        - Stasera è la notte
+        - Noi diciamo
+    - lines:
+        - Dup dodododo dup
+        - Dup dodododo dup
+        - Dup dodododo dup
+        - Dup dodododo dup
+        - Dup dodododo dup
+        - Dup dodododo dup
+    - lines:
+        - Abbiamo le mosse
+        - Abbiamo le mosse
+        - E tutti fanno
+        - Ieri abbiamo bevuto troppo
+        - Rifacciamolo
+        - Abbiamo il groove
+        - Abbiamo il groove
+        - Quindi tutti alzate le mani dritte
+        - Stasera è la notte
+    - lines:
+        - Tutti mani in alto
+        - Non ci serve un fottuto club
+        - Scendete, perché stiamo per festeggiare come dannati
+        - E non ci fermeremo finché il sole non salirà
+        - Colpisce i nostri occhi incandescenti come boom boom
+        - Mettiamo il brano in loop
+    - lines:
+        - Siamo giovani
+        - Siamo liberi
+        - Bevendo alcol su una spiaggia assolata
+        - Siamo vivi
+        - Crediamo
+        - Che i ricordi dell'estate
+    - lines:
+        - Siamo giovani
+        - Siamo liberi
+        - Bevendo alcol su una spiaggia assolata
+        - Siamo vivi
+        - Crediamo
+        - Che i ricordi dell'estate
+        - Non scompariranno mai
+        - Non scompariranno mai
+        - Non scompariranno mai
+---

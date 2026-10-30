@@ -1,0 +1,70 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Fottuto fannullone
+        - 24/7 pizza surgelata
+        - Fottuto fannullone
+        - 'Gruppo sanguigno: Margherita'
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - Pizza
+        - Buona pizza, pizza Margherita
+        - Margherita, buona, buona pizza
+        - Buona pizza, pizza Margherita, sì, sì, sì, ha
+    - lines:
+        - Yeah (Aha)
+        - Mangio la mia pizza con le mani (Aha)
+        - Aua, aua, il palato è bruciato (Aha)
+        - Odio, ma mangio il bordo della pizza (Aha, aha)
+    - lines:
+        - Fottuto fannullone
+        - 24/7 pizza surgelata
+        - Fottuto fannullone
+        - 'Gruppo sanguigno: Margherita'
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - Pizza (Pizza)
+        - Buona pizza, pizza Margherita (Margherita)
+        - Margherita, buona, buona pizza (Yeah)
+        - Buona pizza, pizza Margherita, sì, sì, sì
+    - lines:
+        - Yeah (Aha)
+        - Sono un fottuto fannullone, sono pigro (Aha)
+        - Mille pizze surgelate in bocca (Aha)
+        - Non posso mangiare senza guardare YouTube (Aha, aha)
+    - lines:
+        - Ti tiro fuori, ti spoglio
+        - Sei così bellissima
+        - Pizza surgelata
+        - '''Ti voglio bene'', dico e ti spingo'
+        - Nel forno, in profondità
+        - Pizza surgelata, yeah
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - (Fottuto fannullone) Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - (Fottuto fannullone) Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - Ti tiro fuori, ti spoglio
+        - Sei così bellissima
+        - Pizza surgelata
+        - '''Ti voglio bene'', dico e ti spingo'
+        - Nel forno, in profondità
+        - Pizza surgelata
+---

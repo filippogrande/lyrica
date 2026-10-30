@@ -1,0 +1,70 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Never afraid to be despicable, no
+        - Stood at the brink and you're still looking for the last laugh
+        - You're only crying from the tear gas
+        - Somebody turn us inside out
+        - Maybe you think that I'm too cynical, yeah
+        - Freezing to death stood in the shadow of an avalanche
+        - Are you looking at the hourglass?
+    - lines:
+        - It's do or die
+        - Any other time than now
+        - Any other time than now
+        - Just one life
+        - I guess you're gonna go to hell
+        - Guess you're gonna go to hell
+        - Tell a lie
+        - Anything is possible
+        - We could be unstoppable
+        - Be less than no one to me
+        - Just leave me in the mercy seat
+    - lines:
+        - Surely this ain't the fucking pinnacle? No
+        - These modern saints would have us writing our own epitaph
+        - Well, we knew that it would never last
+        - Somebody turn us inside out
+        - There's nothing left of ourselves that we won't sell
+    - lines:
+        - Do or die
+        - Any other time than now
+        - Any other time than now
+        - Just one life
+        - I guess you're gonna go to hell
+        - Guess you're gonna go to hell
+        - Tell a lie
+        - Anything is possible
+        - We could be unstoppable
+        - Be less than no one to me
+        - Just leave me in the mercy seat
+    - lines:
+        - We are well aware
+        - No one can stand without a spine
+        - But if we never dare
+        - We'll only flatten out the line
+    - lines:
+        - We are well aware
+        - No one can stand without a spine
+        - But if we never dare
+        - We'll only flatten out the line
+    - lines:
+        - Do or die
+        - Any other time than now
+        - Any other time than now
+        - Just one life
+        - I guess you're gonna go to hell
+        - Guess you're gonna go to hell
+        - Tell a lie
+        - Anything is possible
+        - We could be unstoppable
+        - Be less than no one to me
+        - Just leave me in the mercy seat
+    - lines:
+        - We are well aware
+        - No one can stand without a spine
+        - But if we never dare
+        - We'll only flatten out the line
+---

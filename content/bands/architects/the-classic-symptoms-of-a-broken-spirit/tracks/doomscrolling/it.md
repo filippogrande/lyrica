@@ -1,0 +1,97 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Non scommetto sul domani
+        - Ma a tutti piace una tragedia
+        - Vieni ad annegarci nel nostro dolore
+        - E guarda il mondo come dovrebbe essere
+        - Cancella un altro giorno
+        - Doomscrolling, seduto sotto la mia ombra
+        - Continua a caricare, qui niente è sacro
+        - Oh
+        - Vieni a vedere il mondo come dovrebbe essere
+        - (Vieni a vedere il mondo come dovrebbe essere)
+        - Cancella un altro giorno
+    - lines:
+        - Questo sentiero si sta facendo un po' stretto
+        - Con rose marce per tutta la strada
+        - Nessuna garanzia che mi porterà via
+        - Nessuno mi ha ordinato di deglutire
+    - lines:
+        - 'Voglio sapere: siamo l''arco o la freccia?'
+        - Vai a tuffarti dove le acque sono basse
+        - Possiamo nuotare nella risacca
+        - Nuota nella risacca
+        - Nuota nella risacca
+    - lines:
+        - Non scommetto sul domani
+        - Ma a tutti piace una tragedia
+        - (Ma a tutti piace una tragedia)
+        - Vieni ad annegarci nel nostro dolore
+        - E guarda il mondo come dovrebbe essere
+        - (E guarda il mondo come dovrebbe essere)
+        - Cancella un altro giorno
+        - Doomscrolling, seduto sotto la mia ombra
+        - Continua a caricare, qui niente è sacro
+        - Oh
+        - Vieni a vedere il mondo come dovrebbe essere
+        - (Vieni a vedere il mondo come dovrebbe essere)
+        - Cancella un altro giorno
+    - lines:
+        - Abbiamo visto il difetto fin dall'inizio
+        - Chi sapeva l'inferno che avremmo dovuto pagare?
+        - Ci piace fare contenti perché siamo devoti
+        - Speriamo che Dio sia al patibolo
+    - lines:
+        - 'Voglio sapere: siamo l''arco o la freccia?'
+        - Vai a tuffarti dove le acque sono basse
+        - Possiamo nuotare nella risacca
+        - Nuota nella risacca
+        - Nuota nella risacca
+    - lines:
+        - Non scommetto sul domani
+        - Ma a tutti piace una tragedia
+        - (Ma a tutti piace una tragedia)
+        - Vieni ad annegarci nel nostro dolore
+        - E guarda il mondo come dovrebbe essere
+        - (E guarda il mondo come dovrebbe essere)
+        - Cancella un altro giorno
+        - Doomscrolling, seduto sotto la mia ombra
+        - Continua a caricare, qui niente è sacro
+        - Oh
+        - Vieni a vedere il mondo come dovrebbe essere
+        - (Vieni a vedere il mondo come dovrebbe essere)
+        - Cancella un altro giorno
+    - lines:
+        - Dio salva le nostre anime
+    - lines:
+        - Prendiamo la fiamma e teniamola più vicina alla miccia
+        - Siamo ben consapevoli che abbiamo tutto da perdere
+        - Stiamo cantando, "Non vogliamo saperlo"
+        - '"Non vogliamo saperlo"'
+        - '"Non vogliamo saperlo"'
+        - Ci sblocchiamo l'abitudine e poi liberiamo il fuoco
+        - Non importa quando c'è acqua alle radici
+        - Stiamo cantando, "Non vogliamo saperlo"
+        - '"Non vogliamo saperlo"'
+    - lines:
+        - Prendiamo la fiamma e teniamola più vicina alla miccia
+        - Siamo ben consapevoli che abbiamo tutto da perdere
+        - Stiamo cantando, "Non vogliamo saperlo"
+        - '"Non vogliamo saperlo"'
+        - '"Non vogliamo saperlo"'
+        - Dio salva le nostre anime
+        - Ci sblocchiamo l'abitudine e poi liberiamo il fuoco
+        - Non importa quando c'è acqua alle radici
+        - Stiamo cantando, "Non vogliamo saperlo"
+        - '"Non vogliamo saperlo"'
+        - '"Non vogliamo saperlo"'
+    - lines:
+        - Non scommetto sul domani
+        - Ma a tutti piace una tragedia
+        - Vieni ad annegarci nel nostro dolore
+        - E guarda il mondo come dovrebbe essere
+---

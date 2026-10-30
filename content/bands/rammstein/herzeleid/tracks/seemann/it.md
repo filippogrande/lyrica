@@ -1,0 +1,42 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Vieni nella mia barca
+        - Arriva una tempesta e si fa notte
+        - Dove vuoi andare?
+        - Così tutto solo vai alla deriva
+        - Chi ti tiene la mano
+        - Quando ti tira giù?
+    - lines:
+        - Dove vuoi andare?
+        - Senza rive il mare freddo
+        - Vieni nella mia barca
+        - Il vento d'autunno tiene le vele tese
+    - lines:
+        - Ora stai lì al lampione
+        - Con le lacrime sul viso
+        - La luce del giorno cade di lato
+        - Il vento d'autunno spazza la strada vuota
+    - lines:
+        - Ora stai lì al lampione
+        - Hai le lacrime sul viso
+        - La luce della sera scaccia le ombre
+        - Il tempo si ferma e diventa autunno
+    - lines:
+        - Vieni nella mia barca
+        - La nostalgia sarà il timoniere
+        - Vieni nella mia barca
+        - Il miglior marinaio ero comunque io
+    - lines:
+        - Ora stai lì al lampione
+        - Hai le lacrime sul viso
+        - Prendi il fuoco dalla candela
+        - Il tempo si ferma e diventa autunno
+    - lines:
+        - Parlavano solo di tua madre
+        - Così spietata è solo la notte
+        - Alla fine resto comunque solo
+        - Il tempo si ferma e ho freddo (Freddo, freddo, freddo, freddo)
+---

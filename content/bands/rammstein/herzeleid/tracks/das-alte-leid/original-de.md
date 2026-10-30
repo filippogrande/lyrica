@@ -1,0 +1,65 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - (Hallo, hallo)
+    - lines:
+        - Aus der Bohne und in das Licht
+        - Ein Wesen mich zu gehen drängt
+        - Für die selbe Sache und das alte Leid
+        - Meine Tränen mit Gelächter fängt
+    - lines:
+        - Und auf der Matte fault ein junger Leib
+        - Wo das Schicksal seine Puppen lenkt
+        - Für die selbe Sache und das alte Leid
+        - Weiß ich endlich hier wird nichts verschenkt
+    - lines:
+        - Aus der Bohne und in das Nichts
+        - Weiß jeder was am Ende bleibt
+        - Dieselbe Sache und das alte Leid
+        - Mich so langsam in den Wahnsinn treibt
+    - lines:
+        - Und auf der Matte tobt derselbe Krieg
+        - Mir immer noch das Herz versengt
+        - Dieselbe Sache und das alte Leid
+        - Weiß nun endlich
+    - lines:
+        - Ich will ficken
+    - lines:
+        - Nie mehr (Ficken, ficken, ficken)
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+    - lines:
+        - Aus der Bohne und in das Licht
+        - Ein Wesen mich zu gehen drängt
+        - Für die selbe Sache und das alte Leid
+        - Meine Tränen mit Gelächter fängt
+    - lines:
+        - Und auf der Matte fault ein junger Leib
+        - Wo das Schicksal seine Puppen lenkt
+        - Für die selbe Sache und das alte Leid
+        - Weiß ich endlich
+    - lines:
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+        - Nie mehr
+        - Nie mehr das alte Leid
+---

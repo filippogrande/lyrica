@@ -1,0 +1,91 @@
+---
+lang: de
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ich bin ein Spaceman, ein Rakete auf dem Rücken
+        - Spaceman, oh, ich rave wie ein Verrückter
+        - Spaceman, ein Rakete auf dem Rücken
+        - Das Universum steht bereit für meinen Rave-Angriff
+        - (Drei, zwei, eins)
+    - lines:
+        - Ja
+    - lines:
+        - Finchi Gagarin
+        - Dreh die Boxen doch mal auf
+        - Gestern noch im Trockenbau
+        - Heute bin ich Kosmonaut
+        - Ja-ja, jeder kann sie sehen
+        - Da am Himmel weiße Streifen (Da oben)
+        - Wer braucht von euch noch Beweise?
+        - Ja die Erde ist 'ne Scheibe
+    - lines:
+        - Mein Name ist Tekkno, ich reise durch den Raum
+        - Ich hab eine Rakete auf dem Rücken, angetrieben vom Big-Bang-Bass
+        - Ich bin Tekkno, meine Religion ist Rave
+        - Und ich bringe ihn in die Außenwelt
+        - Also lass es mich hören
+    - lines:
+        - Ich bin ein Spaceman, ein Rakete auf dem Rücken
+        - Spaceman, oh, ich rave wie ein Verrückter
+        - Spaceman, ein Rakete auf dem Rücken
+        - Das Universum steht bereit für meinen Rave-Angriff (Zwei, eins)
+    - lines:
+        - Fred vom Jupiter
+        - Steht vorm Supermarkt
+        - Dreht die Boombox an
+        - Und geht zu Scooter ab
+        - Klau mir sein Raumschiff
+        - Fliege hoch Richtung Mars
+        - Blblblblb, jetzt sind die Kohlköpfe ja
+    - lines:
+        - Mein Name ist Tekkno, ich reise durch den Raum
+        - Ich hab eine Rakete auf dem Rücken, angetrieben vom Big-Bang-Bass
+        - Ich bin Tekkno, meine Religion ist Rave
+        - Und ich bringe ihn in die Außenwelt
+        - Also lass es mich hören
+    - lines:
+        - Spaceman, eine Rakete auf dem Rücken
+        - Spaceman, oh, ich rave wie ein Verrückter
+        - Spaceman, eine Rakete auf dem Rücken
+        - Das Universum steht bereit für meinen Rave-Angriff
+    - lines:
+        - Spaceman, eine Rakete auf dem Rücken
+        - Spaceman, oh, ich rave wie ein Verrückter
+        - Spaceman, eine Rakete auf dem Rücken
+        - Das Universum steht bereit für meinen Rave-Angriff
+    - lines:
+        - Wo sind die Jedi Ritter?
+        - Wo sind die Marsmenschen?
+        - Wo sind die Klingonen?
+        - Mach's wie mit meiner Ex
+        - Ich schieß euch alle auf den Mond
+        - An 'ne Leberwurst geschnallt
+        - Fliegt die Kebekus durchs All
+        - Immer weiter von uns weg
+        - Danke, Schwerelosigkeit
+        - Undank ist der Weltenlohn
+        - Hier kommt der Raketenmann
+        - Viva la Elton John
+    - lines:
+        - Viva la Elton John
+    - lines:
+        - Rave on
+        - Egal wo du gerade bist
+        - Und du siehst nichts als
+        - Einen Vogel oder nur einen Mann?
+        - Auf dem Weg, die Welt zu raven
+    - lines:
+        - Ich bin ein Spaceman, ein Rakete auf dem Rücken
+        - Spaceman, oh, ich rave wie ein Verrückter
+        - Spaceman, eine Rakete auf dem Rücken
+        - Das Universum steht bereit für meinen Rave-Angriff
+    - lines:
+        - Ich bin ein Spaceman, ein Rakete auf dem Rücken
+        - Spaceman, oh, ich rave wie ein Verrückter
+        - Spaceman, eine Rakete auf dem Rücken
+        - Das Universum steht bereit für meinen Rave-Angriff
+    - lines:
+        - Mission erfüllt
+---

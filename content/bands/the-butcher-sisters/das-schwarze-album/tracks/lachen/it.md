@@ -1,0 +1,61 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Ridere
+        - Ridere
+        - Ridere
+        - Ha-haha-ha-ha-ha-ha-haha
+        - Ridere
+    - lines:
+        - Ho chiamato Spiderman
+        - Ma non aveva segnale, il cretino (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Ho chiamato il pane, era occupato
+        - Per colpa del condimento sul pane (Ha-ha-ha-ha)
+        - Capito?
+        - Dal fornaio rispondeva solo la casella della farina
+        - In hotel non c'era ricezione
+        - Al macellaio non rispondeva nessuno
+        - TBS ama il divertimento e il fun
+    - lines:
+        - Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)
+    - lines:
+        - Cosa fa una bistecca sotto il divano?
+        - Beh, si sta nascondendo, bistecca, sfigato (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Attenzione, adesso arriva un altro banger
+        - Per uomini cis bianchi e vecchi
+        - Perché il pisellino è in galera?
+        - (Attenzione) Perché si è alzato
+    - lines:
+        - Ha, sì, sì, ne ho anch'io una
+        - Allora ehm, Fritzchen va dal fornaio e ehm
+        - Vuole ehm, ordina due panini
+        - E la fornaia ehm, lo guarda e dice
+        - Ehm, prenda tre ehm, ehm, ehm
+        - Così ne ha uno in più
+        - Oh, hoho, ho, hoho, hoho, sì, ehm
+        - Un uomo e-e, una donna e quindi, oh
+        - Ridere
+        - Ridere
+    - lines:
+        - Orecchie aperte e ascoltate
+        - Da dove viene quello, ce n'è ancora
+        - Le barzellette così belle, non è giusto
+        - TBS sono divertenti e pure molto
+        - Al lavoro di nuovo stress
+        - Anche in privato hai solo sfortuna
+        - Ci siamo per te, in ogni momento
+        - Sempre pronti per una battuta
+        - Ha-ha-ha
+    - lines:
+        - Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Ridere (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)
+        - Ridere!
+        - Ridere!
+        - Ridere!
+        - Ha-haha-ha-ha-ha-ha-haha
+---

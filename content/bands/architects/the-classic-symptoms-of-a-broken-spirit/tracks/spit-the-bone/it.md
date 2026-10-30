@@ -1,0 +1,81 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ora siamo tutti cannibali
+    - lines:
+        - Dì che tutto questo sarà temporaneo
+        - Anche il segno accanto al mio nome
+        - Le fiamme sono tutte immaginarie
+        - Sii semplicemente felice che c'è un allentamento nella catena
+    - lines:
+        - Dobbiamo essere straordinari
+        - Attenti a chi state adorando
+        - Perché siamo stati sfamandoci
+        - Inghiottando una granata a mano
+        - Non lasceremo fermare il sanguinamento
+    - lines:
+        - È più sacro sotto di me
+        - Giochiamo tutti morti
+        - Ma tutti sanno
+        - Un alone
+        - Sotto il carico utile
+        - Avevamo tutto
+        - Ora siamo tutti cannibali
+    - lines:
+        - Ora siamo tutti cannibali
+    - lines:
+        - Sono più di un mercenario
+        - C'è sempre un tremito nella mia mira
+        - Prega che fosse tutto immaginario
+        - Stavamamo mettendo da parte quei guadagni mal acquistati?
+    - lines:
+        - Dobbiamo essere straordinari
+        - Attenti a chi state adorando
+        - Perché siamo stati sfamandoci
+        - Inghiottando una granata a mano
+        - Non lasceremo fermare il sanguinamento
+    - lines:
+        - È più sacro sotto di me
+        - Giochiamo tutti morti
+        - Ma tutti sanno
+        - Un alone
+        - Sotto il carico utile
+        - Avevamo tutto
+    - lines:
+        - Se pensi di bruciare quel ponte
+        - Allora farai meglio a imparare a vogiare
+        - Ma scommetto che non lo farai
+        - Ti ho visto quando hai bruciato la barca
+        - Leggi le mie labbra
+        - Se sei sordo per il rumore
+        - Se lo mastichi
+        - Non dimenticare di sputare l'osso
+        - Sputa l'osso
+        - Non dimenticare di sputare
+    - lines:
+        - Se pensi di bruciare quel ponte
+        - Allora farai meglio a imparare a vogiare
+        - Ma scommetto che non lo farai
+        - Ti ho visto quando hai bruciato la barca
+        - Leggi le mie labbra
+        - Se sei sordo per il rumore
+        - Se lo mastichi
+        - Non dimenticare di sputare l'osso
+    - lines:
+        - Giochiamo tutti morti
+        - Ma tutti sanno
+        - Un alone
+        - Sotto il carico utile
+        - Avevamo tutto
+    - lines:
+        - Ma ora è più sacro sotto di me
+        - Giochiamo tutti morti
+        - Ma tutti sanno
+        - Un alone
+        - Sotto il carico utile
+        - Avevamo tutto
+        - Ora siamo tutti cannibali
+---

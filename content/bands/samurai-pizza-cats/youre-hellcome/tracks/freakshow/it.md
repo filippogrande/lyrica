@@ -1,0 +1,80 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - C'è una via d'uscita?
+        - Non riesco a capire
+        - Oh, che cazzo sta succedendo
+        - Le mie mani sono fredde
+        - E i miei occhi sono morti
+        - Mi trascinano via da qui
+        - Per finalmente zittare queste voci
+        - Dentro la mia testa
+    - lines:
+        - Provo questo conforto nel silenzio
+        - Lontano dalla mia violenza
+        - Ho paura ad ammetterlo
+        - Ma il mio cervello sta perdendo il controllo
+        - Merda, potrei scivolare
+        - Vivendo la mia vita via
+        - Deluso di me stesso
+        - Ho bisogno di
+        - Un calcio in faccia
+        - Per ricominciare a sentirmi vivo
+    - lines:
+        - Perché sono così?
+        - Le dita mi tremano
+        - Quando penso a te
+        - Ogni passo che faccio
+        - I muscoli mi fanno male
+        - Dalla punta dei piedi alla testa
+        - Per il bene della tua anima
+        - Le mie ambizioni sono troppo basse
+    - lines:
+        - Perché sono così?
+        - Le dita mi tremano
+        - Quando penso a te
+        - Ogni passo che faccio
+        - I muscoli mi fanno male
+        - Dalla punta dei piedi alla testa
+        - Per il bene della tua anima
+        - Le mie ambizioni sono troppo basse
+    - lines:
+        - Il mio passato continua a inseguirmi
+        - E sento che la mia schiena va sempre più fredda
+        - Con le mie paure che si liberano
+        - Sembra che la mia storia sia già stata scritta
+    - lines:
+        - Sembra che siamo arrivati a un vicolo cieco (uh)
+        - Goditi il mio spettacolo freak
+        - Perché sento di essermi legato entrambe le mani
+        - Ora non c'è più nessuna via per andarmene
+    - lines:
+        - Dimmi perché sono così
+        - Sto pensando a te, tesoro
+        - Vivendo la mia vita via
+        - Deluso di me stesso
+        - Ho bisogno di
+        - Un calcio in faccia
+        - Per ricominciare a sentirmi vivo
+    - lines:
+        - Perché sono così?
+        - Le dita mi tremano
+        - Quando penso a te
+        - Ogni passo che faccio
+        - I muscoli mi fanno male
+        - Dalla punta dei piedi alla testa
+        - Per il bene della tua anima
+        - Le mie ambizioni sono troppo basse
+    - lines:
+        - Perché sono così?
+        - Le dita mi tremano
+        - Quando penso a te
+        - Ogni passo che faccio
+        - I muscoli mi fanno male
+        - Dalla punta dei piedi alla testa
+        - Per il bene della tua anima
+        - Le mie ambizioni sono troppo basse
+---

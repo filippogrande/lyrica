@@ -1,0 +1,68 @@
+---
+lang: ja-Latn
+role: original
+stanzas:
+    - lines:
+        - Osaki ni shitsurei shimasu
+        - Naruhodo desu
+        - Osore irimasu
+        - Osaki ni shitsurei shimasu
+    - lines:
+        - Kamitsu sukejūru kanri
+        - Yuiitsu wakuwaku nichiyōbi
+        - Asobitai kamashitai
+        - Imada ni otoshiana wakaranai
+        - Itsu okkē? Todoku DM
+        - It's okay! Doryoku muen
+        - Ah, saikin rakkī happī Sunday
+    - lines:
+        - Saguri atte go-aiseki dōmo
+        - Me to me atte koko kara ga shōbu
+        - 【Sōtaisei riron nante I don't know】
+        - Tachiagaru wa
+        - Osaki ni shitsurei shimasu!
+    - lines:
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Pekopeko chanto suru
+        - Otona tte reigi
+        - Pekopeko motto suru
+        - Kodomo tte miru ki? (Miru ki, miru ki?)
+    - lines:
+        - Nee, amattareteru yo ne
+        - Maru de kyandi benti na taido panchi dasō yo
+        - Suriru ga daigomi sugitete nani yori
+        - Anrakkī hakkiri sakki you there
+    - lines:
+        - Dai kaihō dai! Daitai aimai daiuchi idai tai baibāi
+        - Hibi nori sakinori sakidori naminori jānī
+        - Suteppu appu chau?
+        - Burasshu appu shichau
+        - Sekai bakku ni meikai rappu o inochi kara
+        - Nandemo suru masu
+    - lines:
+        - Atama pekopeko egao ga ryūgi
+        - Najimenai nai drinking party
+        - 【Tokutaisei bijon nariagarō yo】
+        - Tachiagaru wa
+        - Osaki ni shitsurei shimasu
+    - lines:
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Pekopeko chanto suru
+        - Otona tte reigi
+        - Pekopeko motto suru
+        - Kodomo tte miru ki?
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Sorry, sorry, I'm sorry, I know now
+        - Let's just run away
+        - Pekopeko chanto suru
+        - Otona tte reigi
+        - Pekopeko motto suru
+        - Kodomo tte miru ki?
+---

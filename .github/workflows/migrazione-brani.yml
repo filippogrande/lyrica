@@ -1,0 +1,105 @@
+name: Migrazione brani (cartella per brano)
+
+# Trasforma i brani dal formato a file unico (tracks/<slug>.md) alla cartella
+# per brano (tracks/<slug>/) e apre una PR. Un click: il comando legge i
+# contenuti, scrive la cartella, toglie il file vecchio e valida.
+#
+# Con «applica» spento è una prova: il comando stampa cosa farebbe e non tocca
+# niente. Accendilo per migrare davvero.
+#
+# La PR la apre il workflow e la mergia Filippo: il workflow non merge mai.
+
+on:
+  workflow_dispatch:
+    inputs:
+      band:
+        description: "Opzionale: una sola band (slug). Vuoto = tutte le band."
+        required: false
+        default: ""
+      applica:
+        description: "Scrivi davvero (altrimenti è solo una prova)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  BRANCH_MIGRAZIONE: migrazione/track-folder
+
+jobs:
+  migra:
+    name: Migra i brani e apri la PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Go 1.27.1
+        uses: actions/setup-go@v7
+        with:
+          go-version: "1.27.1"
+          cache: true
+
+      - name: Risolvi le dipendenze
+        run: go mod tidy
+
+      # Il comando importa internal/web (i template generati): senza questo
+      # passo non compila.
+      - name: Genera i template Templ
+        run: go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate
+
+      - name: Migra i brani
+        env:
+          BAND: ${{ inputs.band }}
+          APPLICA: ${{ inputs.applica }}
+        run: |
+          set -euo pipefail
+          ARGS=()
+          if [ -n "${BAND}" ]; then ARGS+=(--band "${BAND}"); fi
+          if [ "${APPLICA}" = "true" ]; then ARGS+=(--apply); fi
+          go run ./cmd/lyrica migrate "${ARGS[@]}"
+
+      - name: Valida e genera il sito
+        run: |
+          go run ./cmd/lyrica valida
+          go run ./cmd/lyrica build
+
+      - name: Commit, branch e PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BAND: ${{ inputs.band }}
+          APPLICA: ${{ inputs.applica }}
+        run: |
+          set -euo pipefail
+          if [ "${APPLICA}" != "true" ]; then
+            echo "::notice::prova: niente da committare. Rilancia con «applica» acceso."
+            exit 0
+          fi
+          ETICHETTA="${BAND:-tutte le band}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH_MIGRAZIONE"
+          git add -A content
+          if git diff --cached --quiet; then
+            echo "::notice::niente da migrare: i brani sono già in cartelle"
+            exit 0
+          fi
+          FILE="$(git diff --cached --numstat | wc -l)"
+          git commit -m "refactor(contenuti): brani in cartelle, un file per lingua (${ETICHETTA})"
+          # Il branch è generato da capo a ogni run (main + migrazione), quindi
+          # il push forza: non è un branch dove si scrive a mano.
+          git push -u origin "$BRANCH_MIGRAZIONE" --force
+          APERTA="$(gh pr list --head "$BRANCH_MIGRAZIONE" --json number --jq '.[0].number // empty')"
+          if [ -n "$APERTA" ]; then
+            echo "::notice::PR già aperta e aggiornata: https://github.com/${GITHUB_REPOSITORY}/pull/${APERTA}"
+            exit 0
+          fi
+          gh pr create --base main --head "$BRANCH_MIGRAZIONE" \
+            --title "refactor(contenuti): brani in cartelle, un file per lingua" \
+            --body "I brani passano da un file unico a una cartella: song.md con l'anagrafica e un file per lingua (original-lang.md, lang.md). Generato dal comando lyrica migrate, non a mano.
+
+          File toccati: ${FILE}
+
+          La validazione dei contenuti e la generazione del sito sono nel job di questo run. Da guardare: che nessun brano sia rimasto indietro e che le pagine siano identiche."

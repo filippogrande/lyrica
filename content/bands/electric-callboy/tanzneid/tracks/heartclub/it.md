@@ -1,0 +1,79 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Benvenuto, saluta e entra nel mio Heartclub
+        - Ti mostreremo la versione perfetta
+        - Di te stesso
+        - Sii qualsiasi cosa tranne chi sei
+        - Falso, davanti e dietro
+        - Qui un po' di odio, lì un po' di odio, ti farà sentire completo
+        - Se davvero vuoi entrare nel club
+        - Allora lascia che si gustino il tuo odio tossico
+    - lines:
+        - Ed è allora che i tuoi sogni moriranno
+    - lines:
+        - Ti puoi tenere la tua vita perfetta
+        - Sono pronto a lasciarla andare, finalmente
+        - Ti puoi tenere il tuo paradiso
+        - L'ho trovato dentro di me perché so
+        - Sono nato abbastanza
+    - lines:
+        - Sono nato abbastanza
+        - Sono nato abbastanza
+        - Sono nato abbastanza
+        - Io, io
+    - lines:
+        - Voglio swipeare in cerca di morte e dolore
+        - Stiamo inseguendo cuori e like
+        - Che non raggiungono mai la nostra anima
+        - Piove sul pavimento di un deserto
+        - Falso, quando un reel non è reale
+        - Lo puoi pompare, ma io ti fotterò
+        - Ho detto, ehi, sei un capolavoro
+        - Lascia che la ragione prenda il controllo
+    - lines:
+        - Ed è allora che i tuoi sogni torneranno a vivere
+    - lines:
+        - Ti puoi tenere la tua vita perfetta
+        - Sono pronto a lasciarla andare, finalmente
+        - Ti puoi tenere il tuo paradiso
+        - L'ho trovato dentro di me perché so
+        - Sono nato abbastanza
+    - lines:
+        - Sono nato abbastanza
+        - Sono nato abbastanza
+        - Sono nato abbastanza
+        - Io, io
+    - lines:
+        - E tu vuoi costruirti una vita
+        - Su reazioni costruite a arte
+        - Sono stanco delle tue bugie
+        - Chiamala imperfezione
+    - lines:
+        - Mentire, mentire
+        - Oh, oh, mi racconti bugie
+        - Mentire, mentire
+        - Non obbedirò
+        - Mentire, mentire
+        - Non fingerò mai, sei solo pieno di
+        - Mentire, mentire
+        - Fammi uscire
+    - lines:
+        - Ti puoi tenere la tua vita perfetta
+        - Sono pronto a lasciarla andare, finalmente
+        - Ti puoi tenere il tuo paradiso
+        - L'ho trovato dentro di me perché so
+        - Sono più forte, non sono più schiavo dello spettacolo
+        - Non sentirti come se non valessi nulla, e tu
+        - Ti puoi tenere il tuo paradiso
+        - L'ho trovato dentro di me perché so
+        - Sono nato abbastanza
+    - lines:
+        - Sono nato abbastanza
+        - Sono nato abbastanza
+        - Sono nato abbastanza
+        - Io, io
+---

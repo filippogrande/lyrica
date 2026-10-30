@@ -1,0 +1,80 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Now we're all cannibals
+    - lines:
+        - Say this will all be temporary
+        - Even the mark by my name
+        - The flames are all imaginary
+        - Just be happy there's slack in the chain
+    - lines:
+        - We must be extra ordinary
+        - Watch who you're worshipping
+        - Cause we've been feeding
+        - Swallowing a hand grenade
+        - We won't let the bleeding stop
+    - lines:
+        - It's holier below me
+        - We all play dead
+        - But everybody knows
+        - One halo
+        - Beneath the payload
+        - We had it all
+        - Now we're all cannibals
+    - lines:
+        - Now we're all cannibals
+    - lines:
+        - I'm more than just a mercenary
+        - There's always a shake to my aim
+        - Pray it was all imaginary
+        - Were we banking those ill-gotten gains?
+    - lines:
+        - We must be extra ordinary
+        - Watch who you're worshipping
+        - Cause we've been feeding
+        - Swallowing a hand grenade
+        - We won't let the bleeding stop
+    - lines:
+        - It's holier below me
+        - We all play dead
+        - But everybody knows
+        - One halo
+        - Beneath the payload
+        - We had it all
+    - lines:
+        - If you're gonna burn that bridge
+        - Then you'd better learn to paddle
+        - But I bet you don't
+        - I saw you when you burnt the boat
+        - Read my lips
+        - If you're deafened by the rattle
+        - If you chew it up
+        - Don't forget to spit the bone
+        - Spit the bone
+        - Don't forget to spit
+    - lines:
+        - If you're gonna burn that bridge
+        - Then you'd better learn to paddle
+        - But I bet you don't
+        - I saw you when you burnt the boat
+        - Read my lips
+        - If you're deafened by the rattle
+        - If you chew it up
+        - Don't forget to spit the bone
+    - lines:
+        - We all play dead
+        - But everybody knows
+        - One halo
+        - Beneath the payload
+        - We had it all
+    - lines:
+        - But now it's holier below me
+        - We all play dead
+        - But everybody knows
+        - One halo
+        - Beneath the payload
+        - We had it all
+        - Now we're all cannibals
+---

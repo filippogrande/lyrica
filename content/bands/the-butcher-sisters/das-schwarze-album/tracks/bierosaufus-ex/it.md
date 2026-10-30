@@ -1,0 +1,80 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Vedo le birre
+        - Le butto giù
+        - Vedo le birre
+        - Le butto giù
+        - Vedo le birre
+        - Le mando giù
+    - lines:
+        - Non sono un Dinosaurus Rex
+        - Sono il Bierosaufus Ex
+        - Dove avete nascosto la birra?
+        - La rubo e la butto giù
+    - lines:
+        - Se non mi dici dove tenete la birra
+        - Se non ho subito 4 in ogni artiglio
+        - Se non ho un milione di birre in testa
+        - Allora ti stacco la testa, yo
+    - lines:
+        - Sono un dino così assetato
+        - Ti prego solo una piccolissima birra
+        - Sono solo un Dinomann assetato
+        - Voglio bere, oh mamma mia
+    - lines:
+        - Vedo le birre
+        - Le butto giù
+        - Vedo le birre
+        - Le butto giù
+        - Vedo le birre
+        - Le mando giù
+    - lines:
+        - Sono il re del tracannare
+        - E tu sei solo un clown
+        - Vedo le tue birre e me le frego con gli artigli yeah
+        - Yabba dabba dabba dabba dabba dabba dabba dabba du
+        - Sparo sparo sparo sparo sparo tutte le birre nella mia bocca
+        - Ex ex ex ex ex
+        - Vedo le birre le tracanno
+        - Giù giù giù giù giù
+        - B b Bierosaufus
+        - Ex ex ex ex ex
+        - Vedo le birre le tracanno
+        - Giù
+    - lines:
+        - '[*rutto*]'
+        - Vedo le birre le butto giù
+        - Le butto giù
+    - lines:
+        - Balbetto come a Ballermann
+        - Come un tedesco a Maiorca, wallah
+        - Schalalala cadi a quattro zampe, amico
+        - Amico, mi sparo le birre
+        - Nel cervello finché non strabico
+        - Voglio birre dentro di me
+        - Sono Bierosaufus Ex
+    - lines:
+        - Ex ex ex ex ex
+        - Vedo le birre le tracanno
+        - Giù giù giù giù giù
+        - B b Bierosaufus
+        - Ex ex ex ex ex
+        - Vedo le birre le tracanno
+        - Giù giù giù giù giù
+        - Le tracanno
+    - lines:
+        - Sono un dino così assetato
+        - Ti prego solo una piccolissima birra
+        - Sono solo un Dinomann assetato
+        - Voglio bere, oh mamma mia
+    - lines:
+        - Vedo le birre
+        - Le butto giù
+        - Vedo le birre
+        - Le butto giù
+        - Vedo le birre
+        - Le mando giù
+---

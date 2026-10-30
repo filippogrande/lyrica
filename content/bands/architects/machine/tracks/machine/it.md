@@ -1,0 +1,65 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sto cercando di parlare con me stesso
+        - Ma l'universo se ne accorge
+        - Chiedo aiuto quando non c'è nessuno in giro
+    - lines:
+        - Ma devo sentirlo
+        - Continuate a riportarmi sulla terra e a seppellirmi nella terra
+        - Intricatemi nelle radici sotto il suolo
+        - Non mi interessa perché mi hai lasciato qui
+    - lines:
+        - Voglio solo crederci
+        - Quando la vita mi ha dato un morso
+        - Mi sono ricostruito da capo
+        - Lo spazio che è rimasto sanguina ancora
+        - Non lo vedi?
+        - Voglio solo crederci
+    - lines:
+        - Ho guardato la vetta mentre cadevo
+        - Era un adesso infinito
+        - Dietro le nuvole
+        - Le stelle si stavano spegnendo
+    - lines:
+        - Ma devo sentirlo
+        - Continuate a riportarmi sulla terra e a seppellirmi nella terra
+        - Intricatemi nelle radici sotto il suolo
+        - Non mi interessa perché mi hai lasciato qui
+    - lines:
+        - Voglio solo crederci
+        - Quando la vita mi ha dato un morso
+        - Mi sono ricostruito da capo
+        - Lo spazio che è rimasto sanguina ancora
+        - Non lo vedi?
+        - Voglio solo crederci
+        - Perché il destino non sa come farti contento
+        - E c'è veleno nel rimpianto
+        - Mi ha dato un morso
+        - Non lo vedi?
+        - Voglio solo crederci
+    - lines:
+        - Allora dimmi che sono più di una macchina (-cchina, -cchina)
+        - Disperazione
+        - Ah, oh
+    - lines:
+        - Voglio solo crederci
+        - Quando la vita mi ha dato un morso
+        - Mi sono ricostruito da capo
+        - Lo spazio che è rimasto sanguina ancora
+        - Non lo vedi?
+        - Voglio solo crederci
+        - Perché il destino non sa come farti contento (Farti contento)
+        - E c'è veleno nel rimpianto (Nel rimpianto)
+        - Mi ha dato un morso (Un morso)
+        - Non lo vedi? (Non lo vedi?)
+        - Voglio solo crederci (Voglio solo crederci)
+    - lines:
+        - (Volerci credere) Ma devo sentirlo (Devo sentirlo)
+        - Continuate a riportarmi sulla terra e a seppellirmi nella terra
+        - Perché se non lo sento, e non lo sento
+        - Voglio solo crederci
+---

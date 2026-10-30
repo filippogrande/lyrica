@@ -1,0 +1,58 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Man sieht ihn um die Kirche schleichen
+        - Seit einem Jahr ist er allein
+        - Die Trauer nahm ihm alle Sinne
+        - Schläft jede Nacht bei ihrem Stein
+    - lines:
+        - Dort bei den Glocken schläft ein Stein
+        - Ich alleine kann ihn lesen
+        - Und auf dem Zaun der rote Hahn
+        - Ist seinerzeit dein Herz gewesen
+        - Die Furcht auf diesen Zaun gespießt
+        - Gehe ich nun graben jede Nacht
+        - Zu sehen, was noch übrig ist
+        - Von dem Gesicht, das mir gelacht
+    - lines:
+        - Dort bei den Glocken verbring' ich die Nacht
+        - Dort zwischen Schnecken ein einsames Tier
+        - Tagsüber lauf' ich der Nacht hinterher
+        - Zum zweiten Mal entkommst du mir
+    - lines:
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+    - lines:
+        - Mit meinen Händen grab' ich tief
+        - Zu finden, was ich so vermisst
+        - Und als der Mond im schönsten Kleid
+        - Hab' deinen kalten Mund geküsst
+        - Ich nehm' dich zärtlich in den Arm
+        - Doch deine Haut reißt wie Papier
+        - Und Teile fallen von dir ab
+        - Zum zweiten Mal entkommst du mir
+    - lines:
+        - Dort bei den Glocken verbring' ich die Nacht
+        - Dort zwischen Schnecken ein einsames Tier
+        - Tagsüber lauf' ich der Nacht hinterher
+        - Zum zweiten Mal entkommst du mir
+    - lines:
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+    - lines:
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+        - Heirate mich (Hei-, hei-, hei-)
+    - lines:
+        - So nehm' ich, was noch übrig ist
+        - Die Nacht ist heiß und wir sind nackt
+        - Zum Fluch der Hahn den Morgen grüßt
+        - Ich hab' den Kopf ihm abgehackt
+---

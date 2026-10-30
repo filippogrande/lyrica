@@ -1,0 +1,58 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Trascinami in fondo, sei la mia calamità
+        - Il tuo tocco è un dolore che brucia
+        - So che non posso sfuggire la realtà
+        - Sto cadendo dentro di te
+    - lines:
+        - Le mie paure stanno prendendo il controllo
+        - Mentre affondo in questo buco nero
+        - Avvolto nelle tenebre e nel dolore
+        - Dalle ombre non riesco a liberarmi
+    - lines:
+        - Mi aggrappo
+        - Ma tu continui a tirarmi giù
+        - Mi aggrappo
+        - Ma non riesco a spezzare il suono
+    - lines:
+        - Trascinami in fondo, sei la mia calamità
+        - Il tuo tocco è un dolore che brucia
+        - So che non posso sfuggire la realtà
+        - Sto cadendo dentro di te
+        - Trascinami in fondo, sei la mia disarmonia
+        - Il caos e la tua sinfonia
+        - So che non posso sfuggire la realtà
+        - Sto cadendo dentro di te
+    - lines:
+        - È come se avessi spento la luce
+        - È come se avessi prosciugato tutti i colori dalla vita
+        - Perché sono solo di notte?
+        - Tu mi fai sentire come stelle che perdono la luce
+    - lines:
+        - Mi aggrappo
+        - Ma tu continui a tirarmi giù
+        - Mi aggrappo
+        - Ma non riesco a spezzare il suono
+    - lines:
+        - Trascinami in fondo, sei la mia calamità
+        - Il tuo tocco è un dolore che brucia
+        - So che non posso sfuggire la realtà
+        - Sto cadendo dentro di te
+        - Trascinami in fondo, sei la mia disarmonia
+        - Il caos e la tua sinfonia
+        - So che non posso sfuggire la realtà
+        - Sto cadendo dentro di te
+    - lines:
+        - Trascinami in fondo, sei la mia calamità
+        - So che non posso sfuggire questa realtà
+        - Trascinami in fondo, sei la mia disarmonia
+        - Le grida nella mia testa sono la tua melodia
+        - Trascinami in fondo, sei la mia calamità
+        - Il tuo tocco è un dolore che brucia
+        - So che non posso sfuggire la realtà
+        - Sto cadendo dentro di te
+---

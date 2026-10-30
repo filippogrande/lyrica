@@ -1,0 +1,70 @@
+---
+lang: en
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Fucking slacker
+        - 24/7 frozen pizza
+        - Fucking slacker
+        - 'Blood type: Margherita'
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - Pizza
+        - Tasty pizza, Pizza Margherita
+        - Margherita, tasty, tasty pizza
+        - Tasty pizza, Pizza Margherita, yeah, yeah, yeah, ha
+    - lines:
+        - Yeah (Aha)
+        - I eat my pizza by hand (Aha)
+        - Ouch, ouch, my palate is burnt (Aha)
+        - I hate, but I eat the pizza crust (Aha, aha)
+    - lines:
+        - Fucking slacker
+        - 24/7 frozen pizza
+        - Fucking slacker
+        - 'Blood type: Margherita'
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - Pizza (Pizza)
+        - Tasty pizza, Pizza Margherita (Margherita)
+        - Margherita, tasty, tasty pizza (Yeah)
+        - Tasty pizza, Pizza Margherita, yeah, yeah, yeah
+    - lines:
+        - Yeah (Aha)
+        - I'm a fucking slacker, I'm lazy (Aha)
+        - A thousand frozen pizzas in my mouth (Aha)
+        - Can't eat without watching YouTube (Aha, aha)
+    - lines:
+        - I take you out, I strip you off
+        - You look so beautiful
+        - Frozen pizza
+        - '''I love you'', I say and push'
+        - You into the oven, deep down
+        - Frozen pizza, yeah
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - (Fucking slacker) Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - (Fucking slacker) Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - I take you out, I strip you off
+        - You look so beautiful
+        - Frozen pizza
+        - '''I love you'', I say and push'
+        - You into the oven, deep down
+        - Frozen pizza
+---

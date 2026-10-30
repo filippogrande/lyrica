@@ -1,0 +1,62 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sono l'alpha
+        - Sono il leader
+        - Tu sei la feccia e io sono il tuo nutrice
+        - Siamo come sirene che fanno esplodere le tue orecchie
+        - Siamo quelli che rappresentano le tue paure
+    - lines:
+        - Sono l'alpha
+        - Sono il leader
+        - Tu sei la feccia e io sono il tuo nutrice
+        - Siamo come sirene che fanno esplodere le tue orecchie
+        - Siamo quelli che rappresentano le tue paure
+    - lines:
+        - È questo che hai aspettato
+        - Va bene
+        - Per voi fottuti non c'è più nessuna possibilità
+        - Quindi fatti da parte
+        - Stanotte ti spaccheremo la fottuta faccia
+        - SPC è qui per uno scontro a fuoco
+    - lines:
+        - Dai, vieni
+        - Mostraci quello che hai
+        - Sai che si sta scaldando
+        - Questo sarà il tuo ultimo tentativo
+        - Dai, vieni
+        - Mostraci quello che hai
+        - Quindi fuori dal cazzo
+    - lines:
+        - Digger, non intralciarmi, fammi spazio, sgabello
+        - Perché la regina è in partenza e io faccio le annunci
+        - Quindi giù in ginocchio ora, inchinati davanti all'Alpha-Tier
+        - Qui nessuno ha niente da dirmi, questo è il mio territorio
+        - Chiudi la becca là sotto, uomo, non abbaiare come un cane
+        - Fai spazio quando lo dico io, se voglio resti zitto
+        - Do minare a chi voglio e senza nessun motivo
+        - Non fare arrabbiare l'Alpha-Tier, digger, non farebbe bene alla salute
+    - lines:
+        - Sono l'alpha
+        - Sono il leader
+        - Tu sei la feccia e io sono il tuo nutrice
+        - Siamo come sirene che fanno esplodere le tue orecchie
+        - Siamo quelli che rappresentano le tue paure
+    - lines:
+        - Dai, vieni
+        - Non puoi davvero essere sorpreso
+        - SPC è qui, quindi pagherai il prezzo
+        - Voi fottuti provate a stare alla nostra luce
+        - Ma noi vediamo solo un paradiso da idioti
+    - lines:
+        - Dai, vieni
+        - Mostraci quello che hai
+        - Sai che si sta scaldando
+        - Questo sarà il tuo ultimo tentativo
+        - Dai, vieni
+        - Mostraci quello che hai
+        - Quindi fuori dal cazzo
+---

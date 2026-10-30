@@ -1,0 +1,56 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Inondiamo la terra
+        - Di gas e tradimenti
+        - Un dono sacro
+        - Che versiamo per una ragione
+    - lines:
+        - Fino a quando le nostre speranze esplodono
+        - Non ci importerà mai
+        - Non ci importerà mai
+        - Un brindisi all'essere umani
+        - Dei delle tentazioni
+        - Banchettate fino alla caduta
+        - Crescete verso la fine
+        - Come lapidi al sole
+    - lines:
+        - Inquiniamo le nostre anime
+        - Con bugie contro chi sanguina
+        - Il progresso è tutto ciò che conosciamo
+        - Perché in questa corsa non c'è un soffitto
+        - Quindi corri più veloce che puoi
+        - Perché il tempo continua a scandire
+        - Ovunque tu sia
+        - Soffoca i fatti
+    - lines:
+        - Quando le nostre vite esplodono
+        - Non torneremo indietro
+        - Un brindisi all'essere umani
+        - Dei delle tentazioni
+        - Banchettate fino alla caduta
+    - lines:
+        - Sotto lo stendardo della salvezza
+        - Banchettiamo il sangue delle nazioni zoppicanti
+        - Mentre ci sforziamo per avere di più
+        - Affronteremo la verità
+        - Della nostra stessa fine
+        - Ce ne accorgeremo
+        - Che puntiamo solo al potere e al controllo
+        - Mentre scaviamo la nostra fottuta buca
+    - lines:
+        - Stiamo solo scavando la nostra fottuta buca
+        - Qualcuno dice te l'avevo detto
+        - Qualcuno mette in discussione tutto quello che facciamo
+        - Ma alla fine tutti
+        - Non vogliono arrivare in ritardo
+    - lines:
+        - Un brindisi all'essere umani
+        - Dei delle tentazioni
+        - Banchettate fino alla caduta
+        - Crescete verso la fine
+        - Come lapidi al sole
+---

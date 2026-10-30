@@ -1,0 +1,42 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Sie stehen eng umschlungen
+        - Ein Fleischgemisch so reich an Tagen
+        - Wo das Meer das Land berührt
+        - Will sie ihm die Wahrheit sagen
+    - lines:
+        - Doch ihre Worte frisst der Wind
+        - Wo das Meer zu Ende ist
+        - Hält sie zitternd seine Hand
+        - Und hat ihn auf die Stirn geküsst
+    - lines:
+        - Sie trägt den Abend in der Brust
+        - Und weiß, dass sie verleben muss
+        - Sie legt den Kopf in seinen Schoß
+        - Und bittet einen letzten Kuss
+    - lines:
+        - Und dann hat er sie geküsst
+        - Wo das Meer zu Ende ist
+        - Ihre Lippen schwach und blass
+        - Und seine Augen werden nass
+        - Und dann hat er sie geküsst
+        - Wo das Meer zu Ende ist
+        - Ihre Lippen schwach und blass
+        - Und seine Augen werden nass
+    - lines:
+        - Und dann hat er sie geküsst
+        - Wo das Meer zu Ende ist
+        - Ihre Lippen schwach und blass
+        - Und seine Augen werden nass
+        - Und dann hat er sie geküsst
+        - Wo das Meer zu Ende ist
+        - Ihre Lippen schwach und blass
+        - Und seine Augen werden nass
+    - lines:
+        - Der letzte Kuss ist so lang her
+        - Der letzte Kuss
+        - Er erinnert sich nicht mehr
+---

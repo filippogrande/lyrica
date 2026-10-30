@@ -27,7 +27,9 @@ selezionabile a destra. Go + Templ, contenuti come Markdown con front-matter YAM
 ```
 bash scripts/fetch-assets.sh                              # una volta (Bootstrap 5.3.8)
 go mod tidy
-go run github.com/a-h/templ/cmd/templ@v0.3.1070 generate   # dopo ogni modifica ai .templ
+
+go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate   # dopo ogni modifica ai .templ
+
 go run ./cmd/lyrica build        # valida i contenuti e genera public/
 go run ./cmd/lyrica serve        # http://localhost:8080 (richiede public/)
 go run ./cmd/lyrica valida       # valida i contenuti senza generare nulla

@@ -1,0 +1,68 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Fammi vedere il tuo— yeah, yeah, yeah
+        - E io ti faccio vedere il mio— uh, uh, uh, uh
+        - Fammi vedere il tuo— lala, lalala
+        - E io ti faccio vedere il mio— (Fammi vede'), lala, lalala
+    - lines:
+        - Oh, sono seduto nella sauna
+        - Con il mio ****, che non ha mai visto una donna
+        - Oh, sono incantato
+        - Che **** che ha quello là sotto la pancia
+        - Guardo a sinistra, guardo a destra
+        - Non ci credo, sono tutti **** veri?
+        - E il bagnino mi dà il colpo di grazia
+        - Come fa a ficcare il suo **** gigantesco nello Speedo?
+    - lines:
+        - Scusi, ora forse dico una stupidaggine (Oh, ah)
+        - Ma l'ho visto lì sotto (Oha)
+        - Prima che vada via, posso rivederlo? (Oh, ah, ah)
+        - Era così bello
+    - lines:
+        - Fammi vedere il tuo— yeah, yeah, yeah
+        - E io ti faccio vedere il mio— uh, uh, uh, uh
+        - Fammi vedere il tuo— lala, lalala
+        - E io ti faccio vedere il mio— lala, lalala
+    - lines:
+        - Sono arrivato in palestra, ma non sono mai venuto con l'ex
+        - Guardo a sinistra, guardo a destra
+        - Tutti ne hanno uno **, ma io ne ho uno **
+        - Perché tutti fanno sempre con il loro **** (Ah)?
+        - Ogni volta che state intorno a me con i vostri ****
+        - Il mio battito sale, ma purtroppo il mio **** no
+        - Sembro Ken, lei pensa che sia il mio ombelico
+        - I vostri fanno terrore, il mio squittisce come un naso da clown
+        - Purtroppo con il mio non riesco nemmeno a pisciare seduto
+        - Altrimenti ho i pantaloni pieni, non fuori, dentro
+        - Vorrei piangere ancora un po', ma non ho interesse
+        - Perché sono impegnato con lente e pinzetta
+        - Chiedimi la misura e ti verrà detta una bugia
+        - E tutti mi credono, perché mi sono esercitato
+        - Vorrei per favore uno **** come tutti gli altri
+        - Ma io ne ho solo uno **** come la mia mamma
+    - lines:
+        - Fammi vedere il tuo— yeah, yeah, yeah
+        - E io ti faccio vedere il mio— uh, uh, uh, uh
+        - Fammi vedere il tuo— lala, lalala
+        - E io ti faccio vedere il mio— lala, lalala
+    - lines:
+        - Ey, è stato un errore, sono salito su un bastone
+        - Pensavo ci fosse una scopa, ma era un pene
+        - Lui l'ha presa bene, io l'ho trovata imbarazzante
+        - Non si può mica lasciare una cosa del genere qui sulla spiaggia
+        - Il mio è piccolo in modo atroce, non riesco quasi a trovarlo per afferrarlo
+        - E lui sta lì abbronzato a piantare un albero nella sabbia
+        - Vorrei anch'io uno lungo così, un sogno, il cazzo
+        - Magari aiuta ancora una cassa della mia pozione magica
+    - lines:
+        - Lala, lalala
+        - E io ti faccio vedere il mio— lala, lalala
+    - lines:
+        - Fammi vedere il tuo— yeah, yeah, yeah
+        - E io ti faccio vedere il mio— uh, uh, uh, uh
+        - Fammi vedere il tuo— lala, lalala
+        - E io ti faccio vedere il mio— lala, lalala
+---

@@ -1,0 +1,74 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - They say we're all going to hell for eternity
+        - While they drop their bombs on us from their war machines
+        - Are you ready to die?
+        - Are you ready to bleed for me?
+        - And now we're out of time
+    - lines:
+        - There is nothing better
+        - Than the feeling of forever
+        - When your body decomposes
+        - And lighter than a feather
+        - And you pray "I don't wanna go"
+        - He don't wanna die
+        - I don't wanna go to heaven
+        - I don't wanna see the light
+    - lines:
+        - (Welcome to the end of the road)
+        - (You fucking degenerate pieces of shit)
+    - lines:
+        - Fuck the world with a loaded gun
+        - Shots ring out, everybody better duck
+        - Blame it on bad luck
+        - (Do do do)
+    - lines:
+        - Watch the bodies drop
+        - Now you're on your own
+        - It's social suicide
+    - lines:
+        - Breaking down the walls
+        - Stand tall my friend, we will meet again
+    - lines:
+        - You were meant to live
+        - For so much more
+    - lines:
+        - I'm so sick and tired of the way we're livin'
+        - We're bombing schools just to build a prison
+        - Shoot to kill in a crowded lot
+        - One by one 'til the bodies drop
+    - lines:
+        - Now you're on your own
+        - This bullet knows your name
+        - Breaking down the walls
+        - And you cannot escape your fate
+    - lines:
+        - So what the fuck are you gonna do?
+        - I'm not afraid to die
+        - War, pride
+        - Blood was spilled
+    - lines:
+        - Genocide
+        - Hope
+        - All gone
+        - But no matter what
+        - It is not enough for them
+        - Enough for them
+    - lines:
+        - For them
+        - Repeat the cycle
+        - Bless the martyr
+        - Love thy neighbor
+        - Kill your father
+        - Repeat the cycle
+        - Kill your idols
+        - Love thy neighbor
+        - Repeat the cycle now
+    - lines:
+        - Repeat the cycle
+        - Repeat the cycle
+        - Ora ripeti il ciclo
+---

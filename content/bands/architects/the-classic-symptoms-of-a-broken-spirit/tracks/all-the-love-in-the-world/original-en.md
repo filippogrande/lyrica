@@ -1,0 +1,74 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Is thunder written on your face?
+        - '''Cause we''re balancing between the sky and fire'
+        - I see you begging for another taste
+        - When the medicine is easy to acquire
+        - We worship at the altar of the echo
+        - But the keeper of the keys couldn't care
+        - Any less so
+        - Let go, let go, let go
+    - lines:
+        - Let's live a lifetime out in the cold
+        - Nothing to see here, it's under control
+        - The signal's dropping out
+        - It never rains, it's always fucking torrential
+        - They say it's best that we forgot our potential
+        - Have we nothing left to sing about now?
+        - Do I really wanna shout about
+        - All the love in the world?
+    - lines:
+        - All the love in the world
+        - All the love in the world
+        - All the love in the world
+    - lines:
+        - If you wanna lay it all to waste
+        - Then repeat the message coming down the wire
+        - I'm seeing apathy all upper case
+        - Are you gonna be another gun for hire?
+        - Eleven hours then a Hail Mary
+        - Can you shed another tear for the bodies that you bury?
+        - Bless the empty
+        - With the devil they desire
+    - lines:
+        - Let's live a lifetime out in the cold
+        - Nothing to see here, it's under control
+        - The signal's dropping out
+        - It never rains, it's always fucking torrential
+        - They say it's best that we forgot our potential
+        - Have we nothing left to sing about now?
+        - Do I really wanna shout about
+        - All the love in the world?
+    - lines:
+        - Whoa-oh, whoa-oh
+        - Whoa, whoa
+        - Whoa-oh, whoa-oh
+        - Whoa, whoa
+    - lines:
+        - The signal's dropping out
+    - lines:
+        - If we're all machines then cut the scene
+        - And don't look back
+        - No, we never grieve our enemies
+        - We never leave the pack
+        - If they come for me when I'm asleep
+        - Trace these tracks
+        - '''Cause impossibly, we came to be'
+        - From out the black
+    - lines:
+        - Let's live a lifetime out in the cold
+        - Nothing to see here, it's under control
+        - The signal's dropping out
+        - It never rains, it's always fucking torrential
+        - They say it's best that we forgot our potential
+        - Have we nothing left to sing about now?
+        - Do I really wanna shout about
+        - All the love in the world?
+    - lines:
+        - All the love in the world
+        - All the love in the world
+        - All the love in the world
+---

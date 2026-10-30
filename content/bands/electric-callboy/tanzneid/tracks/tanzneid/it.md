@@ -1,0 +1,53 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Vedo il movimento, sento il ritmo, e
+        - Le mie gambe sono legate a terra (A terra)
+        - Non posso muovermi, ma voglio solo sentirlo
+        - Dammi, dammi, sì, taglierò la fottuta corda
+    - lines:
+        - Tanzneid, tutti saltano in giro
+        - Tanzneid quando il basso martella
+        - Tanzneid, tutti si scatenano
+        - Tanzneid al suono boom-boom
+    - lines:
+        - Una febbre che brucia nella mia anima e amo come ci si sente
+        - E non la lascerò mai andare finché non saprai come ci si sente
+        - La voglio, mi serve, e la terrò accesa per me
+        - Una febbre che brucia nella mia anima, che tengo dentro di me
+        - Che tengo dentro di me
+    - lines:
+        - Il calore sale a ogni minuto
+        - Non voglio cederla, cederla, cederla
+        - Ma so che posso porre fine alla mia sofferenza
+        - Dammi, dammi, sì, taglierò la fottuta corda
+    - lines:
+        - Tanzneid, tutti saltano in giro
+        - Tanzneid quando il basso martella
+        - Tanzneid, tutti si scatenano
+        - Tanzneid al suono boom-boom
+    - lines:
+        - Una febbre che brucia nella mia anima e amo come ci si sente
+        - E non la lascerò mai andare finché non saprai come ci si sente
+        - La voglio, mi serve, e la terrò accesa per me
+        - Una febbre che brucia nella mia anima, che tengo dentro di me
+        - Che tengo dentro di me
+    - lines:
+        - Tanzneid
+        - Tanzneid
+    - lines:
+        - La scuoterò così
+        - Brucia! Brucia! Brucia!
+        - Ti farò bruciare! Brucia! Brucia!
+        - Finché il fuoco non si spegne
+    - lines:
+        - Una febbre che brucia nella mia anima e amo come ci si sente
+        - E non la lascerò mai andare finché non saprai come ci si sente
+        - La voglio, mi serve, e la terrò accesa per me
+        - Una febbre che brucia nella mia anima, che tengo dentro di me
+        - Che tengo dentro di me
+        - Che tengo dentro di me
+---

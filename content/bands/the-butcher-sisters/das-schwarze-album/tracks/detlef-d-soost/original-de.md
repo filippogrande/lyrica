@@ -1,0 +1,72 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Was los, ich bin Detlef D! Soost
+        - Ich tanze mit den Bros, tanze, tanze
+        - Mit den Bros
+        - Was los, ich bin Detlef D! Soost
+        - Ich tanze mit den Bros, tanze, tanze
+        - Mit den Bros
+    - lines:
+        - Ich werd gesucht von den Cops
+        - Weil ich dance zu hot (aha)
+        - Der Club unter Strom
+        - Wie ein elektrischer Schock
+        - Oh mein Gott, oh mein Gott, ich tanz
+        - Wie ein Gott
+        - Diese Moves sind so smooth, Leute
+        - Glauben es not (kein Weg)
+        - Ich kann zu allem tanzen – hab es
+        - Gelearnt, learnt
+        - Step auf dem Ground – so tight, dass
+        - Es burnt, burnt
+        - Ich bin ein schöner Mann im mittleren Alter
+        - Im Club sagen alle "Boah, alter Verwalter"
+    - lines:
+        - Mama sagt, such dir 'nen rich-
+        - Tigen Job
+        - Aber ich hab kein Bock, nein
+        - Ich hab kein Bock, nein
+        - Ich will nur tanzen
+        - Ich will nur tanzen
+        - Ich will nur tanzen
+        - Ich will nur tanzen
+    - lines:
+        - Was los, ich bin Detlef D! Soost
+        - Ich tanze mit den Bros, tanze, tanze
+        - Mit den Bros
+        - Was los, ich bin Detlef D! Soost
+        - Ich tanze mit den Bros, tanze, tanze
+        - Mit den Bros
+    - lines:
+        - Digitiere zu Tanzomon
+        - TBS featuring Callejon
+        - PAM PAM, ich bin Bird in the sky
+        - Dance vorbei und fliege fly like a fly
+        - PAM PAM, ich tanze like shit
+        - Who wants a Ritt auf meinem Discostick?
+        - Es geht 5, 6, 7, 8!
+        - Ich will tanzen
+        - Ich will tanzen
+    - lines:
+        - Tanzen
+        - Ich will nur tanzen
+        - Ich bin bereit
+        - Baby tanzen
+        - Into se light
+    - lines:
+        - Und wenn du jetzt meine Hand nimmst, Bro
+        - Dann zeig ich dir, wie man tanzt so wie Soost
+        - Hab keine Angst, ich zeige dir alle Moves
+        - Erst die 6, dann die 7, dann die 8, dann geht's los
+        - Let's go
+    - lines:
+        - Was los, ich bin Detlef D! Soost
+        - Ich tanze mit den Bros, tanze, tanze
+        - Mit den Bros
+        - Was los, ich bin Detlef D! Soost
+        - Ich tanze mit den Bros, tanze, tanze
+        - Mit den Bros
+---

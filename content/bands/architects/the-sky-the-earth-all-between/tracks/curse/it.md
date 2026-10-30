@@ -1,0 +1,70 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ho venduto me stesso al paradiso
+        - Ma sto rinunciando a quello spettro
+        - Perché mi impedisce di contare il costo
+        - Momenti che ho amato e che ho perso
+        - Mi inginocchio davanti alle fratture in pochi secondi
+    - lines:
+        - Ho sofferto fino in fondo? Le notti erano troppo lunghe?
+        - Tutti gli echi, tutti mal calcolati
+        - Quando sarò morto e se n'è andato, e la corsa vinta
+        - Sarà tutto meno complicato?
+    - lines:
+        - Ti do la mia parola
+        - Nei momenti in cui ho avuto abbastanza
+        - Desidero ancora il peggio
+        - Libero come un uccello
+        - Ma i giorni vanno barrati
+        - Il cielo è venuto con una maledizione
+    - lines:
+        - Sono congelato qui, sono paralizzato
+        - Me lo toglieresti dalla gola?
+        - Perché sono stanco di bruciare queste barche
+        - Pregando Dio che io galleggi
+        - Mi inginocchio davanti alle fratture in pochi secondi!
+    - lines:
+        - Ti do la mia parola
+        - Nei momenti in cui ho avuto abbastanza
+        - Desidero ancora il peggio
+        - Libero come un uccello
+        - Ma i giorni vanno barrati
+        - Il cielo è venuto con una maledizione
+    - lines:
+        - Non fingerò di conoscere la mia fine
+        - I titoli di coda scorrono, temo che sia
+        - La fine della terra
+        - Perché i giorni vanno barrati
+        - Il cielo è venuto con una maledizione!
+    - lines:
+        - Tu mi dai una coscienza, io ti do una crisi
+        - Tempi duri ma preferisco vedere questo che restare cieco
+        - Crolla, ciò che abbiamo alle spalle
+        - Il buio si cura solo di quello che fa la luce!
+    - lines:
+        - Ti do la mia parola
+        - Nei momenti in cui ho avuto abbastanza
+        - Desidero ancora il peggio
+        - Libero come un uccello
+        - Ma i giorni vanno barrati
+        - Il cielo è venuto con una maledizione
+    - lines:
+        - Ti do la mia parola
+        - Nei momenti in cui ho avuto abbastanza
+        - Desidero ancora il peggio
+        - Libero come un uccello
+        - Ma i giorni vanno barrati
+        - Il cielo è venuto con una maledizione
+    - lines:
+        - Non fingerò di conoscere la mia fine
+        - I titoli di coda scorrono, temo che sia
+        - La fin de la terra
+        - Perché i giorni vanno barrati
+        - Il cielo è venuto con una maledizione!
+    - lines:
+        - Il cielo è venuto con una maledizione!
+---

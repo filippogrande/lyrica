@@ -1,0 +1,80 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Seh die Biere
+        - Sauf sie weg
+        - Seh die Biere
+        - Sauf sie weg
+        - Seh die Biere
+        - Auf sie weg
+    - lines:
+        - Ich bin kein Dinosaurus Rex
+        - Ich bin der Bierosaufus Ex
+        - Wo habt ihr denn das Bier versteckt?
+        - Ich klaue es und sauf es weg
+    - lines:
+        - Wenn du mir nich sagst wo ihr Bier habt
+        - Wenn ich nich in jeder Kralle gleich 4 hab
+        - Wenn ich keine Mio Bier in meinem Kopf hab
+        - Dann beiss ich dein Kopf ab, yo
+    - lines:
+        - Ich bin so ein durstiger Dino
+        - Bitte nur ein ganz kleines Piwo
+        - Ich bin doch nur ein durstiger Dinomann
+        - Ich will saufen oh Mannomann
+    - lines:
+        - Seh die Biere
+        - Sauf sie weg
+        - Seh die Biere
+        - Sauf sie weg
+        - Seh die Biere
+        - Auf sie weg
+    - lines:
+        - Ich bin König im Exen
+        - Und du bist nur ein Clown
+        - Ich seh deine Biere und werde sie mit meinen Klauen klaun yeah
+        - Yabba dabba dabba dabba dabba dabba dabba dabba du
+        - Ich ballere ballere ballere ballere baller alle Biere in mein Maul auf
+        - Ex ex ex ex ex
+        - Seh die Biere sauf sie
+        - Weg weg weg weg weg
+        - B b Bierosaufus
+        - Ex ex ex ex ex
+        - Seh die Biere sauf sie
+        - Weg
+    - lines:
+        - '[*rülps*]'
+        - Seh die Biere sauf sie weg
+        - Ich sauf sie weg
+    - lines:
+        - Ich lalle ala Ballermann
+        - Wie'n Alleman auf Malle wallah
+        - Schalalala fall auf alle Viere aller
+        - Mann ich schaller mir die Biere
+        - In die Birne bis ich schiele
+        - Ich will Biere in mir drinne
+        - Ich bin Bierosaufus Ex
+    - lines:
+        - Ex ex ex ex ex
+        - Seh die Biere sauf sie
+        - Weg weg weg weg weg
+        - B b Bierosaufus
+        - Ex ex ex ex ex
+        - Seh die Biere sauf sie
+        - Weg weg weg weg weg
+        - Ich sauf sie
+    - lines:
+        - Ich bin so ein durstiger Dino
+        - Bitte nur ein ganz kleines Piwo
+        - Ich bin doch nur ein durstiger Dinomann
+        - Ich will saufen oh Mannomann
+    - lines:
+        - Seh die Biere
+        - Sauf sie weg
+        - Seh die Biere
+        - Sauf sie weg
+        - Seh die Biere
+        - Auf sie weg
+---

@@ -1,0 +1,58 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - You can spot him sneaking around the church
+        - He's been alone for a year
+        - The sadness took away all his senses
+        - Sleeps by her headstone every night
+    - lines:
+        - There, near the bells, a stone is sleeping
+        - And I alone can read it
+        - And on the fence, a red cock
+        - That once was your heart
+        - The fear skewered unto this fence
+        - Now I go digging every night
+        - To see what still remains
+        - Of the face that I amused
+    - lines:
+        - There, near the bells, I spend the night
+        - There between snails, a lonely animal
+        - During the day I run after the night
+        - For the second time, you escape me
+    - lines:
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+    - lines:
+        - I dig deep with my hands
+        - To find what I miss so much
+        - And as the moon is in it's most beautiful dress
+        - Have kissed your cold mouth
+        - I tenderly take you into my arms
+        - But your skin tears like paper
+        - And parts fall from you
+        - For the second time, you escape me
+    - lines:
+        - There, near the bells, I spend the night
+        - There between snails, a lonely animal
+        - During the day I run after the night
+        - For the second time, you escape me
+    - lines:
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+    - lines:
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+        - Marry me (Hey, hey, hey)
+    - lines:
+        - So I take what's left
+        - The night is hot and we are naked
+        - As a curse, the cock greets the morning
+        - I have chopped off its head
+---

@@ -1,0 +1,68 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Every step a brand new stage
+        - Every stage a brand new cage
+        - Every cage had its own rage
+        - Here I stand, now disengaged
+        - There is more than that
+        - There is more than that
+        - More than what I had
+        - More than, more than what I had
+    - lines:
+        - Press start to try again
+        - I still got credits left
+        - 1,2,3,4
+        - Stepping back on to the floor
+        - 1,2,3,4
+        - Start again 'cause I want more
+    - lines:
+        - Press start, retry tomorrow
+        - There'll be adventures to follow
+        - Press start, maybe tomorrow
+        - Follow the light through the shadows
+    - lines:
+        - Press start and try again
+    - lines:
+        - Upgraded a million times
+        - Million times I realised
+        - Realised there is more than this
+        - Had to chase the next damn bliss
+        - There is more than this
+        - There is more than this
+        - Again, a genesis
+        - Escaping apocalypse
+    - lines:
+        - Press start to try again
+        - I still got credits left
+        - 4,3,2,1
+        - New level has just begun
+        - 4,3,2,1
+        - Check me, play, I'm never done
+    - lines:
+        - Press start, retry tomorrow
+        - There'll be adventures to follow
+        - Press start, maybe tomorrow
+        - Follow the light through the shadows
+    - lines:
+        - Press start and try again
+    - lines:
+        - I never stop
+        - I will never stop
+        - I want more
+        - I won't stop and I live it up
+        - I will never go down
+        - I got credits left, go down
+        - Press start again, go down
+        - This is not a test, press start again
+    - lines:
+        - Press start and try again
+    - lines:
+        - Press start and try again
+    - lines:
+        - Press start and try again
+    - lines:
+        - Press start and try again
+---

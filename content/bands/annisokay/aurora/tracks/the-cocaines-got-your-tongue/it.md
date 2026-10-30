@@ -1,0 +1,97 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ora è festa, lo sai
+        - E tutti si innamorano di nuovo
+        - Ma lei si è innamorata delle droghe
+        - E a quel punto ha smesso di essere divertente
+        - Noti che la roba si sta esaurendo
+        - Ecco, dammi i soldi e vado
+        - Non puoi far esaurire quella merda
+        - Perché nessuno vuole scendere
+    - lines:
+        - Hai iniziato la serata facendo intendere che è
+        - Un drink con gli amici per rilassarti un po'
+        - Ridi e condividi il loro vino
+        - State tutti perdendo il conto del tempo
+        - E poi qualcuno tira su una riga
+        - E no, tu declines educatamente
+        - E poi in qualche modo cambi idea
+        - Forse mi prendo solo una riga
+    - lines:
+        - Qualcuno dovrebbe chiamare Frank
+        - Ma quando Frank arrivò
+        - Anche lui si fece fottutamente storto
+        - Qualcuno dovrebbe chiamare Frank
+        - Ma Frank parlava un sacco di stronzate
+        - E niente di tutto ciò che diceva era vero
+    - lines:
+        - E ora stai volando
+        - Ma la tua felicità
+        - È solo un prestito dal futuro
+        - E tu la stai bevendo
+        - Da una fontana di giovinezza
+        - Che prosciuga il futuro
+        - La cocaina ha la tua lingua
+        - E un giorno la ripagherai
+        - Un giorno la ripagherai
+        - La cocaina ha la tua lingua
+        - Perché parli solo un sacco di stronzate
+        - Che non vuol dire niente
+    - lines:
+        - Che non vuol dire niente
+        - Che non vuol dire niente
+        - Che non vuol dire niente
+    - lines:
+        - Lei ti chiama al telefono
+        - E perché ci mette tanto
+        - Non stai davvero percependo il suo tono
+        - Sta parlando così veloce che non capisci
+        - Appena torni nella stanza
+        - Tutti suonano il loro pezzo
+        - Tutti parlano insieme
+        - Guardandoti tirare su
+    - lines:
+        - Qualcuno dovrebbe chiamare Frank
+        - Ma quando Frank arrivò
+        - Anche lui si fece fottutamente storto
+        - Qualcuno dovrebbe chiamare Frank
+        - Ma Frank parlava un sacco di stronzate
+        - E niente di tutto ciò che diceva era vero
+    - lines:
+        - E ora stai volando
+        - Ma la tua felicità
+        - È solo un prestito dal futuro
+        - E tu la stai bevendo
+        - Da una fontana di giovinezza
+        - Che prosciuga il futuro
+        - La cocaina ha la tua lingua
+        - E un giorno la ripagherai
+        - Un giorno la ripagherai
+        - La cocaina ha la tua lingua
+        - Perché parli solo un sacco di stronzate
+        - Che non vuol dire niente
+    - lines:
+        - Che non vuol dire niente
+        - La cocaina ha la tua lingua
+    - lines:
+        - La cocaina ha la tua lingua
+        - E un giorno la ripagherai
+        - Un giorno la ripagherai
+        - La cocaina ha la tua lingua
+        - Perché parli solo un sacco di stronzate
+        - Che non vuol dire niente
+    - lines:
+        - E mentre il sole sta sorgendo
+        - È Frank che ti dice
+        - Cosa c'è adesso, figliolo
+        - La cocaina ha la tua lingua
+    - lines:
+        - Parli un sacco di stronzate
+    - lines:
+        - Che non vuol dire niente
+        - Che non vuol dire niente
+---

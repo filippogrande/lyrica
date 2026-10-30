@@ -1,0 +1,117 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Hello Mister Dokter
+        - I can't be arsed anymore
+        - Please fetch the yellow block
+    - lines:
+        - Hello Mister Dokter
+        - I can't be arsed anymore
+        - I can't be arsed anymore
+        - I can't be arsed anymore
+    - lines:
+        - (Hello Mister-)
+    - lines:
+        - Hello Mister Doctor
+        - I've been asking myself
+        - What do I do with this beautiful day?
+        - Do I go to the park?
+        - Do I drink myself into the coffin?
+        - Or do I fulfil my employment contract?
+        - (No!)
+        - Ow!
+        - If I press there it hurts
+        - And there too!
+        - I've got ouch ouch ouch
+        - And my belly
+        - Makes
+        - Weird noises
+    - lines:
+        - I can't work like this, oh dear
+    - lines:
+        - I never get enough
+        - Of workplace time theft
+        - So please be so kind
+    - lines:
+        - I never get enough
+        - Of workplace time theft
+        - So please be so kind, kind, kind
+    - lines:
+        - Hello Mister Dokter
+        - I can't be arsed anymore
+        - Please fetch the yellow block
+    - lines:
+        - Hello Mister Dokter
+        - I can't be arsed anymore
+        - I can't be arsed anymore
+        - I can't be arsed anymore
+    - lines:
+        - (Hello Mister-)
+    - lines:
+        - I never get enough
+        - Of workplace time theft
+        - So please be so kind, kind, kind
+    - lines:
+        - Hello Mister Dokter
+        - Why do I have to go to work?
+        - And not lie on the beach for 8 hours?
+        - Or sleep in
+        - Or watch TV
+        - I wanna booze beer 25/7
+    - lines:
+        - In the sun
+        - Till my head turns red
+        - You can work
+        - If you're an idiot (Dumb)
+        - I keep my jammies on (Very long)
+        - Employees just wanna have fun (I want fun)
+    - lines:
+        - Yellow is the note
+        - Red is the wine
+        - I'm staying home
+        - I'm staying home
+    - lines:
+        - Yellow is the note
+        - Red is the wine
+        - I'm staying home
+        - I'm staying home
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+    - lines:
+        - Hello Mister Dokter
+        - I can't be arsed anymore
+        - Please fetch the yellow block
+    - lines:
+        - Hello Mister Dokter
+        - I can't be arsed anymore
+        - I can't be arsed anymore
+        - I can't be arsed anymore
+    - lines:
+        - (Hello Mister Dokter!)
+    - lines:
+        - I never get enough
+        - Of workplace time theft
+        - So please be so kind, kind, kind, yeah!
+    - lines:
+        - I never get enough
+        - Of workplace time theft
+        - So please be so kind, kind, kind
+    - lines:
+        - I can't be arsed anymore...
+        - I can't be arsed anymore...
+        - I can't be arsed!
+        - I can't be arsed!
+        - I can't be arsed!
+        - I can't be arsed!
+        - I can't be arsed!
+        - I can't be arsed!
+        - I can't be arsed!
+        - I can't be arsed!
+---

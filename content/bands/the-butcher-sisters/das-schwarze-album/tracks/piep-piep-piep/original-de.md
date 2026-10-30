@@ -1,0 +1,78 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Piep, piep, piep
+        - Piep, piep, piep
+        - Piep, piep, piep
+        - Mein Vogel macht Piep, piep, piep, piep
+        - (Hey)
+        - (Hey)
+    - lines:
+        - Wwt, wwt, bing, bing
+        - Ich guck' ein Meme, guck' noch ein Meme
+        - Wwt, wwt, bing, bing
+        - Nur noch ein Meme, ich fick' mein Leben
+        - Ein brauch' kein'n Advi-i-ice
+        - Ich brauche Screenti-i-ime
+        - Ich will Hämoreiden vom auf Klo Swipen
+        - Bitti Algorütti, fick' mein Li-i-ife
+    - lines:
+        - Piep, piep, piep
+        - Mein Vogel macht Piep, piep, piep
+        - Mein Vogel macht Piep, piep, piep
+        - Mm, mein Vogel macht Piep, piep, piep, piep, piep, piep, piep, piep
+        - Oh!
+        - (Hey)
+        - (Hey)
+    - lines:
+        - Piep, piep, piep, piep
+        - Mein Algorithmus schiebt
+        - Mein Algorithmus schiebt
+        - Mein Algorithmus schiebt, schiebt, schiebt, schiebt, schiebt
+        - Mein Vogel macht piep
+        - Mein Vogel macht piep
+        - Mein Vogel macht piep, piep, piep, piep
+    - lines:
+        - Wwt, wwt, bing, bing
+        - Nur noch ein Meme, ein kleines Meme
+        - Wwt, wwt, bing, bing
+        - Nur noch ein Meme, nur noch ein Meme
+        - Ich brauch' kein'n Advi-i-ice
+        - Ich brauche Screenti-i-ime
+        - Ich goon' im Bett auf TBS
+        - Ja-ja-ja-ja-ja
+        - Ich gucke noch eine Reel
+        - Ah, ich gucke noch ein Reel
+        - Ah, ah, ah, ah, ah
+    - lines:
+        - Piep, Piep, Piep
+        - Mein Vogel macht Piep, Piep, Piep
+        - Mein Vogel macht Piep, Piep, Piep
+        - Mein Vo–, mein Vogel macht–
+    - lines:
+        - Piep, piep, piep, piep
+        - Mein Algorithmus schiebt
+        - Mein Algorithmus schiebt
+        - Mein Algorithmus schiebt, schiebt, schiebt, schiebt, schiebt
+        - Mein Vogel macht piep
+        - Mein Vogel macht piep
+        - Mein Vogel macht piep, piep, piep, piep, piep, piep
+        - Piep, piep, piep
+        - Piep, piep, piep, piep, piep
+    - lines:
+        - Lasst mich fliegen
+        - Ich will fliegen
+        - Lasst mich fliegen
+        - Psychose
+        - (Hey)
+        - Ja! (Hey)
+        - Ich guck' ein Meme, guck' noch ein Meme
+        - Nur noch ein Meme, ich fick' mein Leben
+        - Ich guck' ein Meme, nur noch ein Meme
+        - Ich fick' mein Leben, ich fick' mein Leben
+    - lines:
+        - Mein Vogel macht piep!
+        - Piep!
+---

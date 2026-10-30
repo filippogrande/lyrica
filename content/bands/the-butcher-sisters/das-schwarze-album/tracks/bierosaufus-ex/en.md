@@ -1,0 +1,80 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - See the beers
+        - Gulp them down
+        - See the beers
+        - Gulp them down
+        - See the beers
+        - Chug them away
+    - lines:
+        - I ain't no Dinosaurus Rex
+        - I'm the Bierosaufus Ex
+        - Where did you guys hide the beer?
+        - I steal it and gulp it down
+    - lines:
+        - If you don't tell me where you keep your beer
+        - If I don't have 4 in every claw right away
+        - If I don't have a million beers in my head
+        - Then I bite your head off, yo
+    - lines:
+        - I'm such a thirsty dino
+        - Please just one tiny little beer
+        - I'm just a thirsty Dinomann
+        - I wanna booze, oh man oh man
+    - lines:
+        - See the beers
+        - Gulp them down
+        - See the beers
+        - Gulp them down
+        - See the beers
+        - Chug them away
+    - lines:
+        - I'm the king of chugging
+        - And you're just a clown
+        - I see your beers and I'm gonna steal 'em with my claws yeah
+        - Yabba dabba dabba dabba dabba dabba dabba dabba du
+        - I blast blast blast blast blast all the beers into my mouth
+        - Ex ex ex ex ex
+        - See the beers gulp 'em
+        - Down down down down down
+        - B b Bierosaufus
+        - Ex ex ex ex ex
+        - See the beers gulp 'em
+        - Down
+    - lines:
+        - '[*burp*]'
+        - See the beers gulp them down
+        - I gulp them down
+    - lines:
+        - I'm slur-singing like Ballermann
+        - Like a German on Malle, wallah
+        - Schalalala fall on all fours, mate
+        - Man, I'm blasting the beers
+        - Into my head till I go cross-eyed
+        - I want beers inside me
+        - I'm Bierosaufus Ex
+    - lines:
+        - Ex ex ex ex ex
+        - See the beers gulp 'em
+        - Down down down down down
+        - B b Bierosaufus
+        - Ex ex ex ex ex
+        - See the beers gulp 'em
+        - Down down down down down
+        - I gulp 'em
+    - lines:
+        - I'm such a thirsty dino
+        - Please just one tiny little beer
+        - I'm just a thirsty Dinomann
+        - I wanna booze, oh man oh man
+    - lines:
+        - See the beers
+        - Gulp them down
+        - See the beers
+        - Gulp them down
+        - See the beers
+        - Chug them away
+---

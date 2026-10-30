@@ -1,0 +1,47 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Ti ho vista appena ieri in piedi nel parcheggio (Hi)
+        - Non ho mai visto niente di così bello (Wow)
+        - Il tuo assetto è bollente, ribassata
+        - Sotto quasi nessuna usura, tagliandi in regola
+        - Ti apro il cofano
+        - Tutti i soldi via, quando ti compro
+        - Sei tutto, tutto quello di cui ho bisogno
+    - lines:
+        - Sei la mia stella, Mercedes AMG
+        - Sei la mia stella, con cui faccio i miei giri
+        - (Ti amo)
+    - lines:
+        - Le luci della città sul tuo cofano scintillante (cofano) (Sì)
+        - Quando ti guido, non voglio più tornare a casa
+        - Conto vuoto per la Super Plus
+        - Perché devo fare benzina in continuazione
+        - Non ho soldi, non ho un lavoro, ma ho una Mercedes (-cedes)
+        - Vivo ancora a casa dei miei (casa dei miei)
+        - Butto tutti i soldi nel leasing (leasing)
+        - Non ho una casa, non ho una barca, ho una Mercedes
+    - lines:
+        - Sei la mia stella, Mercedes AMG
+        - Sei la mia stella, con cui faccio i miei giri (Oh)
+        - Lamborghini, Maserati o BMW (BMW)
+        - Tutto quello che voglio è la mia AMG
+        - La mia stella, la mia Sportcoupé
+        - (Voglio solo te, ti amo)
+    - lines:
+        - Frizione rotta, mille euro
+        - Buco nella marmitta, mille euro
+        - Gomme nuove, freni, olio e ruggine al posteriore
+        - I miei soldi sono finiti
+    - lines:
+        - Sei la mia stella, Mercedes AMG
+        - Sei la mia stella, con cui faccio i miei giri
+    - lines:
+        - Sei la mia stella, Mercedes AMG
+        - Sei la mia stella (La mia stella), con cui faccio i miei giri
+        - Lamborghini, Maserati o BMW (Oh)
+        - Tutto quello che voglio è la mia AMG
+        - La mia stella, la mia Sportcoupé (Oh yeah, uh)
+---

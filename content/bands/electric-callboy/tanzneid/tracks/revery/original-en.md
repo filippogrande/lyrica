@@ -1,0 +1,82 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Hush, my darling
+        - Can you see the midnight sun?
+        - Midnight sun
+        - Close your eyes
+        - It's time to dream the night has come
+        - Night has come
+        - Don't be scared
+        - Just let the darkness hold you tight
+        - Hold you tight
+        - Tip, tap, tip, tap, follow me
+        - Into the light
+    - lines:
+        - I wanna float away, leave my body behind
+        - When I deep dive right into a world left behind
+        - I can see the scary faces, they're smiling at me
+        - And it feels like they wanna break out to be free
+    - lines:
+        - Faces, I see those faces
+        - And they keep on coming back, back
+        - Can you see those faces, the scary faces?
+        - Tell me what you want, what you want from me
+    - lines:
+        - Revery
+        - You took the loneliness away from me
+        - Don't wanna feel like a puppet
+        - I see your leash, I'm gonna cut it
+        - All I need is revery
+        - You will forever be a part of me
+        - Don't wanna feel like a puppet
+        - I see your leash, I'm gonna cut it
+        - You make me feel alive
+    - lines:
+        - And I cannot get away, they are guiding my steps
+        - My fear is a secret that needs to be kept
+        - Together we will face what is hiding in the dark
+        - And follow the path where the nightmares spark
+    - lines:
+        - Faces, I see those faces
+        - And they keep on coming back, back
+        - Can you see those faces, the scary faces?
+        - Tell me what you want, what you want from me
+    - lines:
+        - Revery
+        - You took the loneliness away from me
+        - Don't wanna feel like a puppet
+        - I see your leash, I'm gonna cut it
+        - All I need is revery
+        - You will forever be a part of me
+        - Don't wanna feel like a puppet
+        - I see your leash, I'm gonna cut it
+        - You make me feel alive
+    - lines:
+        - I steal all your dreams, I feed on the light
+        - Follow my call, you'll be mine tonight
+        - I steal all your dreams, I feed on the light
+        - I drown your mind in the dark
+    - lines:
+        - '''Cause I''ll be fighting you'
+        - You will never own me
+        - '''Cause I''ll be fighting you back'
+    - lines:
+        - Me and the faces will put you in places
+        - Where all the lights are leaving your soul
+        - Cannot deny you're gonna die
+        - It's your time to bow
+        - Down
+        - You're gonna die, you're gonna die
+    - lines:
+        - Revery
+        - You took the loneliness away from me
+        - Don't wanna feel like a puppet
+        - I see your leash, I'm gonna cut it
+        - All I need is revery
+        - You will forever be a part of me
+        - Don't wanna feel like a puppet
+        - I see your leash, I'm gonna cut it
+---

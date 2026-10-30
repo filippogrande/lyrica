@@ -1,0 +1,110 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Summer mood
+        - Hot sand under my feet
+        - Cold beer, cheap wine
+        - Yeah that's all that we need
+        - We got the moves
+        - We got the moves
+        - And everybody's like
+        - Oh fuck yeah, let's do it again
+    - lines:
+        - We got the moves
+        - We got the moves
+        - And everybody's like
+        - Yesterday we drank too much
+        - Let's do it again
+        - We got the groove
+        - We got the groove
+        - So everybody put your hands straight up
+        - Tonight is the night
+    - lines:
+        - We are young
+        - We are free
+        - Sipping on booze on a sunny beach
+        - We're alive
+        - We believe
+        - That summer time memories
+        - Will never fade away
+    - lines:
+        - We're living the good life, high life
+        - Everybody wants that hot vibe
+        - We wanna feel it just all over and over again
+        - More, just give me more
+        - '''Cause we''re addicted to the groove'
+        - Oh yeah, we do it again
+        - We got the moves
+        - We got the moves
+        - And everybody's like
+        - Yesterday we drank too much
+        - Let's do it again
+        - We got the groove
+        - We got the groove
+        - So everybody put your hands straight up
+        - Tonight is the night
+    - lines:
+        - We are young
+        - We are free
+        - Sipping on booze on a sunny beach
+        - We're alive
+        - We believe
+        - That summer time memories
+        - Will never fade away
+        - Will never fade away
+        - Will never fade away
+    - lines:
+        - We don't need no club
+        - All we need is the sun
+        - Yeah we will rave like hell
+        - '''Til the weekend is done'
+    - lines:
+        - We got the moves
+        - We got the moves
+        - And everybody put your hands straight up
+        - Tonight is the night
+        - We say
+    - lines:
+        - Döp dödödö döp
+        - Döp dödödö döp
+        - Döp dödödö döp
+        - Döp dödödö döp
+        - Döp dödödö döp
+        - Döp dödödö döp
+    - lines:
+        - We got the moves
+        - We got the moves
+        - And everybody's like
+        - Yesterday we drank too much
+        - Let's do it again
+        - We got the groove
+        - We got the groove
+        - So everybody put your hands straight up
+        - Tonight is the night
+    - lines:
+        - Everybody hands up
+        - We don't need a damn club
+        - Get down 'cause we're gonna party like hell
+        - And we won't stop until the sun up
+        - Hits our glowing eyes like boom boom
+        - We gon' put the track on repeat
+    - lines:
+        - We are young
+        - We are free
+        - Sipping on booze on a sunny beach
+        - We're alive
+        - We believe
+        - That summer time memories
+    - lines:
+        - We are young
+        - We are free
+        - Sipping on booze on a sunny beach
+        - We're alive
+        - We believe
+        - That summer time memories
+        - Will never fade away
+        - Will never fade away
+        - Will never fade away
+---

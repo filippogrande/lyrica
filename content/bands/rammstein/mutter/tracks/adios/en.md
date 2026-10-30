@@ -1,0 +1,45 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - He puts the needle on the vein
+        - And invites the music in
+        - Between neck and forearm
+        - The melody settles quietly into the bone
+    - lines:
+        - (Go! Go! Go!) Bop bop shu bop (Go! Go! Go!)
+    - lines:
+        - He has closed his eyes
+        - In his blood rages a battle
+        - An army marches through his gut
+        - The intestines slowly warm up
+    - lines:
+        - (Go! Go! Go!) Bop bop shu bop (Go! Go! Go!)
+        - (Go! Go! Go!) Bop bop shu bop (Go! Go! Go!)
+    - lines:
+        - Nothing is for you
+        - Nothing was for you
+        - Nothing stays for you
+        - For always
+        - Nothing is for you
+        - Nothing was for you
+        - Nothing stays for you
+        - For always
+    - lines:
+        - He takes the needle from the vein
+        - The melody goes out of the skin
+        - Fiddles burn with shrieks
+        - Harps cut into the flesh
+        - He opened his eyes
+        - But he did not wake up
+    - lines:
+        - Nothing is for you
+        - Nothing was for you
+        - Nothing stays for you
+        - For always
+        - Nothing is for you
+        - Nothing was for you
+        - Nothing stays for you
+        - For always
+---

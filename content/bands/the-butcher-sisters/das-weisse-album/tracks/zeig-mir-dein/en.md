@@ -1,0 +1,68 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Show me yours— yeah, yeah, yeah
+        - And I'll show you mine— uh, uh, uh, uh
+        - Show me yours— lala, lalala
+        - And I'll show you mine— (Show me), lala, lalala
+    - lines:
+        - Oh, I'm sitting in the sauna
+        - With my ****, which has never seen a woman
+        - Oh, I'm enchanted
+        - What a **** that one over there has under his belly
+        - I look to the left, I look to the right
+        - Can't believe it, are all the **** real?
+        - And the lifeguard finishes me off
+        - How does he press his giant **** into the Speedo?
+    - lines:
+        - Excuse me, this may sound dumb now (Oh, ah)
+        - But I saw it down below (Oha)
+        - Before you go, may I see it again? (Oh, ah, ah)
+        - It was so beautiful
+    - lines:
+        - Show me yours— yeah, yeah, yeah
+        - And I'll show you mine— uh, uh, uh, uh
+        - Show me yours— lala, lalala
+        - And I'll show you mine— lala, lalala
+    - lines:
+        - I came into the gym, but never came in the ex
+        - I look to the left, I look to the right
+        - Everyone's got a **, but I've got a **
+        - Why does everyone always do it with their **** (Ah)?
+        - Every time you all stand around me with your ****
+        - My pulse goes up, but unfortunately my **** doesn't
+        - I look like Ken, she thinks it's my belly button
+        - Yours cause terror, mine squeaks like a clown nose
+        - Unfortunately I can't even piss sitting down with mine
+        - Or I've got my trousers full, not from outside, from inside
+        - I'd love to cry again, but I'm not interested
+        - '''Cause I''m busy right now with a magnifying glass and tweezers'
+        - Ask me about the size and you'll be lied to
+        - And everyone believes me, 'cause I've practised it
+        - I'd please like a **** like all the others
+        - But I've only got a **** like my mama
+    - lines:
+        - Show me yours— yeah, yeah, yeah
+        - And I'll show you mine— uh, uh, uh, uh
+        - Show me yours— lala, lalala
+        - And I'll show you mine— lala, lalala
+    - lines:
+        - Ey, that was an oversight, I stepped on a rod
+        - Thought there was a broom lying there, but it was a penis
+        - He was fine with it, I found it embarrassing
+        - You can't just lay something like that down here on the beach
+        - Mine is cruelly small, I can barely find it to grab
+        - And he lies there tanned, planting a tree in the sand
+        - I'd like a long one too, a dream, the cock
+        - Maybe a crate of my magic potion will help
+    - lines:
+        - Lala, lalala
+        - And I'll show you mine— lala, lalala
+    - lines:
+        - Show me yours— yeah, yeah, yeah
+        - And I'll show you mine— uh, uh, uh, uh
+        - Show me yours— lala, lalala
+        - And I'll show you mine— lala, lalala
+---

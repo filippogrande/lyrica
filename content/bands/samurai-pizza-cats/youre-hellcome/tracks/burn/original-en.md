@@ -1,0 +1,85 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - They wanna come and hunt all down your privacy
+        - Go on, go on, obey the fucking new machine
+        - We got to pay the price to the damn enemy
+        - Pay to be born and pay to die
+    - lines:
+        - Oh, look at yourselves
+        - All slaves to the new supreme
+        - Blindfolded, following
+        - Tamed and sleeping
+        - Like the sheep you are
+    - lines:
+        - Burn them down
+        - Give them everything they need pal
+        - Burn them down
+        - That's as close as you can get
+        - Listen up
+        - Listen up
+        - Listen to what I say
+        - We are the riot that will be raging in your head
+    - lines:
+        - Gasoline for the new supreme
+        - Gasoline
+        - Now light them up
+    - lines:
+        - No we won't obey
+        - Anything you say
+        - All these stupid games
+        - You try to play with me
+        - We are here to stay
+        - And we will plant a seed
+        - Let's watch this city burn down
+    - lines:
+        - What do we have to lose?
+        - What do we get to choose?
+        - What do we have to lose?
+        - We are the riot to come
+        - So wake the fuck up now
+    - lines:
+        - Burn them down
+        - Give them everything they need pal
+        - Burn them down
+        - That's as close as you can get
+        - Listen up
+        - Listen up
+        - Listen to what I say
+        - We are the riot that will be raging in your head
+    - lines:
+        - We are the gasoline
+        - We are the revolution
+    - lines:
+        - No we won't obey
+        - Anything you say
+        - All these stupid games
+        - You try to play with me
+        - We are here to stay
+        - And we will plant a seed
+        - Let's watch this city burn down
+    - lines:
+        - Down, down we go
+        - Tell me what can you see?
+        - This glimpse of fire is what brings them down to their knees
+    - lines:
+        - It's our voice
+        - It's your voice
+        - Yeah
+    - lines:
+        - Burn them down
+        - Give them everything they need
+        - Burn them down
+        - That's as close as you can get
+    - lines:
+        - Burn them down
+        - Give them everything they need pal
+        - Burn them down
+        - That's as close as you can get
+        - Listen up
+        - Listen up
+        - Listen to what I say
+        - We are the riot that will be raging in your head
+---

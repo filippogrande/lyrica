@@ -1,0 +1,69 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Credi ancora al mito?
+        - Credi ancora alla hype?
+        - Segui ancora il suonatore
+        - Come un cadavere che attira le mosche
+    - lines:
+        - Era tutto un sacco di stronzate
+        - Nato dalle fottute notizie false
+        - Che leggi come il vangelo
+        - E ci credi ancora
+    - lines:
+        - È facile vedere una cospirazione
+        - Quando il mondo è così fottuto piatto
+        - È facile vedere una cospirazione
+        - Quando il mondo è pieno di odio
+    - lines:
+        - Non crederci e basta
+        - A qualsiasi stronzata vecchia che leggi
+        - Mescolando miti urbani
+        - Con la fantascienza
+        - Non ripetere e basta
+        - Ciò in cui qualcun altro crede
+        - Diffondendo odio e paura
+        - Con pura finzione
+        - Chiudi il fottuto becco!
+        - Chiudi il fottuto becco ora!
+        - E comincia a usare il tuo proprio cervello
+    - lines:
+        - Crediamo ancora ai fantasmi?
+        - Crediamo ancora alle voci?
+        - Di qualcuno che lancia mele
+        - Oltre i muri dell'Eden
+    - lines:
+        - Era tutto un sacco di stronzate
+        - Nato dalle fottute notizie false
+        - Che leggi come il vangelo
+        - Pieno di fatti da un feed social
+    - lines:
+        - È facile vedere una cospirazione
+        - Quando il mondo è così fottuto piatto
+        - È facile vedere una cospirazione
+        - Quando il mondo è pieno di odio
+    - lines:
+        - Non crederci e basta
+        - A qualsiasi stronzata vecchia che leggi
+        - Mescolando miti urbani
+        - Con la fantascienza
+        - Non ripetere e basta
+        - Ciò in cui qualcun altro crede
+        - Diffondendo odio e paura
+        - Con pura finzione
+        - Chiudi il fottuto becco!
+        - Ti sei incoronato re
+        - Dei deboli e dei codardi
+        - Ti sei incoronato re
+        - Senza usare il tuo proprio cervello
+    - lines:
+        - (Chiudi il fottuto becco)
+        - (Chiudi il fottuto becco)
+        - (Chiudi il fottuto becco)
+        - Chiudi il fottuto becco!
+    - lines:
+        - Chiudi il fottuto becco ora!
+---

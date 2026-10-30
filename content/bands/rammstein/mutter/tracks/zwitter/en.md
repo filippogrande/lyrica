@@ -1,0 +1,73 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - (Hermaphrodite, hermaphrodite)
+        - (Hermaphrodite, hermaphrodite)
+        - (Hermaphrodite, hermaphrodite)
+        - (Hermaphrodite, hermaphrodite)
+    - lines:
+        - I stole a kiss from her
+        - She wanted to repeat it
+        - I didn't let her go anymore
+        - Merged into a single mass
+        - That's just the thing for me
+        - I'm a pretty hermaphrodite
+        - Two souls under my breast
+        - Two genders, one lust
+    - lines:
+        - (Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite
+        - (Hermaphrodite, hermaphrodite)
+        - (Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite
+        - (Hermaphrodite, hermaphrodite)
+    - lines:
+        - I go through the day differently
+        - I'm the prettiest person of all
+        - I see wonderful things
+        - That I didn't notice before
+        - I can pleasure myself every day
+        - I can send myself roses
+        - There isn't a second and no third
+        - One and one, that's equal
+    - lines:
+        - (Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite
+        - (Hermaphrodite, hermaphrodite) I'm so in love
+        - (Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite
+        - (Hermaphrodite, hermaphrodite) I am in love with myself
+    - lines:
+        - One for me
+        - One for you
+        - Does not exist
+        - For me
+        - One for me (one!)
+        - One for you
+        - One and one (one!)
+        - That is me
+    - lines:
+        - I'm alone, yet not alone
+        - I can be together with myself
+        - I kiss my reflection early
+        - And sleep with myself at night
+        - When the other girls were searching
+        - I could already fertilize myself
+        - That's why I'm not discouraged
+        - When someone says 'Fuck you' to me
+    - lines:
+        - (Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite
+        - (Hermaphrodite, hermaphrodite) I'm so in love
+        - (Hermaphrodite, hermaphrodite) Hermaphrodite, hermaphrodite
+        - (Hermaphrodite, hermaphrodite) I am in love with myself
+    - lines:
+        - One for me
+        - One for you
+        - Does not exist
+        - For me
+        - One for me (one!)
+        - One for you
+        - One and one (one!)
+        - That is me
+    - lines:
+        - One!
+        - One!
+---

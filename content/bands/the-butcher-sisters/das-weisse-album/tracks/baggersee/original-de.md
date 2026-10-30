@@ -1,0 +1,82 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Siebzehn Uhr, sechsunddreißig Grad
+        - Mit Flip-Flop-Schlappen steig' ich auf mein Rad
+        - Spür' den Fahrtwind, zwölf km/h
+        - Nacken feuerrot, Rücken volles Haar
+        - Üh
+        - (Ja)
+    - lines:
+        - Achtzehn Uhr, aua, es ist heiß (Aua, aua)
+        - Zum Glück bin ich schlau, ich habe Sixer dabei, nice
+        - Eiskalt so wie Eis (Eis)
+        - Rein läuft das Bier, raus läuft der Schweiß
+    - lines:
+        - Ich geh' zum Baggersee mit meinem Sixpack
+        - Und ich sau-sau-sauge das Bier weg
+        - Wenn ich ins Wasser geh', dann nur mit Sixpack
+        - Mit meinem Sixpack, mit meinem Sixpack
+    - lines:
+        - Ich geh' zum Baggersee mit meinem Sixpack
+        - Und ich sau-sau-sauge das Bier weg
+        - Wenn ich ins Wasser geh', dann nur mit Sixpack
+        - Mit meinem Sixpack, mit meinem Sixpack
+    - lines:
+        - Zwanzig Uhr, Dosis alle leer (Nein!)
+        - Die Sonne geht weg (Tschüss), ich geh' hinterher
+        - Zum Kiosk, ich hole mir mehr
+        - Von dem Bier, von dem Bier, und dann saug' ich es leer
+    - lines:
+        - Ich geh' an den Stand, drinnen steht ein Mann
+        - Er ist braungebrannt, denn er arbeitet am Strand
+        - Gib mir, gib mir jetzt das Sixpack rein in meine Hand
+        - Ich saug' es in den Mund und heile meinen Brand
+    - lines:
+        - Dosibier ballert ordentlich
+        - Noch mehr als der Sonnenstich
+        - Kapitän Blaubär sticht jetzt in See
+        - Am Baggersee, am Baggersee
+        - Bagger, Bagger, Bagger, Bagger, Bagger, Bagger, Bagger
+        - Bagger, Bagger, Bagger, Bagger, Bagger, Bagger, Bagger
+        - Bagger, Bagger, Bagger, Bagger, Bagger, Bagger
+        - Bagger, Bagger, Bagger, Bagger, Bagger
+    - lines:
+        - Ich geh' zum Baggersee mit meinem Sixpack
+        - Und ich sau-sau-sauge das Bier weg
+        - Wenn ich ins Wasser geh', dann nur mit Sixpack
+        - Mit meinem Sixpack, mit meinem Sixpack
+    - lines:
+        - Ich geh' zum Baggersee mit meinem Sixpack
+        - Und ich sau-sau-sauge das Bier weg
+        - Wenn ich ins Wasser geh', dann nur mit Sixpack
+        - Mit meinem Sixpack, mit meinem Sixpack
+    - lines:
+        - Das kann ja wohl nicht sein, dass das Bier alle ist
+        - Bier alle ist, Bier alle ist
+        - Hier hat doch wieder jemand ins Wasser gepisst
+        - Wer hat gepisst? Wer hat gepisst?
+    - lines:
+        - Wer hat gepisst? (Wer war es?)
+        - Welches Schwein hat ins Waser gepisst?
+        - Ich war es nicht, ich war es nicht
+        - Also welches Schwein hat hier wieder ins Wasser gepisst?
+        - Okay, ich war es doch! Ehehe
+    - lines:
+        - Und ich sau-sau-sauge das Bier weg
+        - Wenn ich ins Wasser geh', dann nur mit Sixpack
+        - Mit meinem Sixpack, mit meinem Sixpack
+    - lines:
+        - Das kann ja wohl nicht sein, dass das Bier alle ist
+        - Bier alle ist, Bier alle ist
+        - Hier hat doch wieder jemand ins Wasser gepisst
+        - Wer hat gepisst? Wer hat gepisst?
+    - lines:
+        - Wer hat gepisst?
+        - Wer hat gepisst?
+        - Wer hat gepisst?
+        - Wer, wer, wer hat gepisst?
+        - Wer hat gepisst?
+---

@@ -1,0 +1,72 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Che si dice, sono Detlef D! Soost
+        - Ballo con i bros, balla, balla
+        - Con i bros
+        - Che si dice, sono Detlef D! Soost
+        - Ballo con i bros, balla, balla
+        - Con i bros
+    - lines:
+        - Mi cercano gli sbirri
+        - Perché ballo troppo forte (aha)
+        - Il club è elettrizzato
+        - Come una scossa elettrica
+        - Oh mio dio, oh mio dio, ballo
+        - Come un dio
+        - Queste mosse sono così fluide, gente
+        - Non ci credono (impossibile)
+        - Posso ballare su tutto – l'ho
+        - Imparato, imparato
+        - Passo sul terreno – così preciso che
+        - Brucia, brucia
+        - Sono un bell'uomo di mezza età
+        - Nel club tutti dicono "Wow, vecchio mio"
+    - lines:
+        - Mamma dice, trovati un la-
+        - Voro serio
+        - Ma non ho voglia, no
+        - Non ho voglia, no
+        - Voglio solo ballare
+        - Voglio solo ballare
+        - Voglio solo ballare
+        - Voglio solo ballare
+    - lines:
+        - Che si dice, sono Detlef D! Soost
+        - Ballo con i bros, balla, balla
+        - Con i bros
+        - Che si dice, sono Detlef D! Soost
+        - Ballo con i bros, balla, balla
+        - Con i bros
+    - lines:
+        - Digitalizza su Tanzomon
+        - TBS featuring Callejon
+        - PAM PAM, sono un uccello in cielo
+        - Passo ballando e volo, volo come una mosca
+        - PAM PAM, ballo come una merda
+        - Chi vuole fare un giro sul mio Discostick?
+        - Si va, 5, 6, 7, 8!
+        - Voglio ballare
+        - Voglio ballare
+    - lines:
+        - Ballare
+        - Voglio solo ballare
+        - Sono pronto
+        - Baby balla
+        - Dentro la luce
+    - lines:
+        - E se adesso mi prendi la mano, bro
+        - Allora ti mostro come si balla come Soost
+        - Non avere paura, ti mostro tutte le mosse
+        - Prima la 6, poi la 7, poi la 8, poi si parte
+        - Andiamo
+    - lines:
+        - Che si dice, sono Detlef D! Soost
+        - Ballo con i bros, balla, balla
+        - Con i bros
+        - Che si dice, sono Detlef D! Soost
+        - Ballo con i bros, balla, balla
+        - Con i bros
+---

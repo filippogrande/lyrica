@@ -1,0 +1,76 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Il mondo ha acceso un fiammifero
+        - E adesso lo guardiamo bruciare
+        - Urlalo dal fondo dei polmoni
+        - È la fine dei giorni, ma cantiamo insieme
+        - Vogliamo essere alti, tesoro, ma le fiamme salgono
+        - Il pianeta sta morendo, ma i meme sono in fiamme
+        - Vogliamo uscire di qui, vogliamo sparire
+        - Sorridi per un selfie, mentre il mondo va in rovina
+    - lines:
+        - Stiamo per fare casino, tiriamo la cenere in aria
+        - E porca puttana faremo casino, stiamo per accenderlo tutto, accenderlo tutto
+        - Fai casino, è la fine del giorno quindi
+        - Fai casino, fai casino
+    - lines:
+        - Vogliamo essere alti ancora
+        - Vogliamo scendere fino alla fine
+        - Se mai cadessimo a terra
+        - Ci rialzeremo sempre
+        - Finché il sole ci farà salire ancora
+        - Vogliamo scendere fino alla fine
+        - Se mai cadessimo a terra
+        - Ci rialzeremo sempre
+        - Finché il sole ci farà salire
+        - Stiamo per alzare il volume
+    - lines:
+        - Devi proprio fare casino
+        - Perché ogni singola parola potrebbe essere il nostro ultimo grido
+        - In attesa di un miracolo, di una via d'uscita
+        - Ci serve un vero sopravvissuto
+        - Cerchiamo la libertà, un nuovo messia
+    - lines:
+        - Fai casino, tiriamo la cenere in aria
+        - E porca puttana faremo casino, stiamo per accenderlo tutto, accenderlo tutto
+        - Fai casino, è la fine del giorno quindi
+        - Fai casino, fai casino
+    - lines:
+        - Vogliamo essere alti ancora
+        - Vogliamo scendere fino alla fine
+        - Se mai cadessimo a terra
+        - Ci rialzeremo sempre
+        - Finché il sole ci farà salire ancora
+        - Vogliamo scendere fino alla fine
+        - Se mai cadessimo a terra
+        - Ci rialzeremo sempre
+        - Finché il sole ci farà salire
+        - Stiamo per alzare il volume
+    - lines:
+        - Quando la speranza è finita
+        - E la notte sembra lunga
+        - C'è un suono in lontananza
+        - Senti quella canzone
+        - Mi hai chiamato
+        - Nel momento più buio
+        - Sto venendo a salvarti
+        - Chiudi gli occhi
+    - lines:
+        - Quando la speranza è finita
+        - E la notte sembra lunga
+        - C'è un suono in lontananza
+        - Senti quella canzone
+        - E sento che mi stai chiamando
+        - Nel momento più buio
+        - Sto venendo a salvarti
+        - Chiudi gli occhi
+    - lines:
+        - E ti sveglierò
+        - Perché voglio davvero fare casino, e non ci fermeremo mai
+        - Vedi cadere il caos? Furiamo fino a quando saltano le bottiglie
+        - Fai casino, fai casino
+---

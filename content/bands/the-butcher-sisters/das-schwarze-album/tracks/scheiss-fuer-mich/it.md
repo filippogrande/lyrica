@@ -1,0 +1,86 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Finalmente a casa
+        - A casa da te
+        - Sei il mio animale-cagnolino preferito
+        - Nella tua bocca
+        - Per me una birra in lattina
+        - Grazie mille
+    - lines:
+        - Voglio andare sul divano
+        - Ma il mio wau wau
+        - Deve ancora fare kakapupu dal popò
+        - Alle 23 ancora a portarlo a spasso
+        - Beh, grazie
+    - lines:
+        - Oh non guardarmi così
+        - Lo so che ci riesci
+        - Perché ci mette così tanto
+    - lines:
+        - Voglio solo che tu caghi oho
+        - Così possiamo finalmente tornare a casa
+        - Voglio solo che tu sappia oho
+        - Senza di te sarei già rientrato da un pezzo
+        - Sono fradicio e tu puzzi
+        - Guai a te se spargi il tuo puzzo in casa
+        - Voglio solo che tu caghi
+        - Woho
+        - Così possiamo finalmente
+        - Finalmente tornare a casa
+    - lines:
+        - Siamo in giro all'una di notte
+        - Ho tanta paura che il mio cagnolino scoppi
+        - Gli massaggio il tratto dell'intestino finale
+        - Finché non caga
+    - lines:
+        - Faccio il decimo giro intorno allo stesso isolato
+        - Tu non fai la cacca e io non ho voglia
+        - Sento la pioggia gelida sulla testa
+        - Oh perché il mio cane dannato è stitico
+        - Oh noo
+    - lines:
+        - Voglio solo che tu caghi oho
+        - Così possiamo finalmente tornare a casa
+        - Voglio solo che tu sappia oho
+        - Senza di te sarei già rientrato da un pezzo
+        - Sono fradicio e tu puzzi
+        - Guai a te se spargi il tuo puzzo in casa
+        - Voglio solo che tu caghi
+        - Woho
+        - Così possiamo finalmente
+        - Finalmente tornare a casa
+    - lines:
+        - Caga per me
+        - Caga per me
+        - Caga per me
+        - Caga per me
+    - lines:
+        - Caga per me
+        - Caga per me
+        - Caga per me
+        - Caga per me
+    - lines:
+        - Voglio solo che tu caghi oho
+        - Così possiamo finalmente tornare a casa
+        - Voglio solo che tu sappia oho
+        - Senza di te sarei già rientrato da un pezzo
+        - Sono fradicio e tu puzzi
+        - Guai a te se spargi il tuo puzzo in casa
+        - Voglio solo che tu caghi
+        - Woho
+        - Così possiamo finalmente
+        - Finalmente tornare a casa
+    - lines:
+        - Voglio andare a casa
+        - Voglio andare a casa
+    - lines:
+        - Cagnolino caga per me
+        - Caga per me oh
+        - Caga per me
+        - Caga solo per me
+        - Caga per me
+        - Caga per me
+---

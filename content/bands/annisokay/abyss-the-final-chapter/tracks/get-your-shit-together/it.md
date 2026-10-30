@@ -1,0 +1,88 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Il cielo sta cadendo
+        - I venti ululano
+        - I mari si alzano
+        - La terra ringhia
+    - lines:
+        - Siamo perduti nel caos
+        - Il futuro è incerto
+        - Nessuno che ci guidi
+        - Attraverso tutto ciò che temiamo
+    - lines:
+        - I campi sono in fiamme
+        - Il fuoco che converge
+        - I sogni stanno morendo
+        - Non c'è più ritorno
+        - I loro cuori soffrono
+        - Il tempo che scivola via
+        - Ogni secondo che scegli di sprecare
+    - lines:
+        - Come servo del popolo in obbligo di giuramento
+        - Ogni bugia che hai detto per ogni singolo voto
+        - Che ti porta solo più a fondo nell'ignoto
+        - Che cosa hai fatto?
+        - Ora corri
+    - lines:
+        - Stai servendo uno spettacolo di merda
+        - Hai perso il tuo fottuto senno?
+    - lines:
+        - Camminando senza fine come un fantasma tra le mura
+        - Ogni sogno che perseguo è solo un altro da cui cadere
+        - In una corsa con la mia ombra, senza fiato per la corsa frenetica
+        - Come posso scappare da tutto ciò che inseguo?
+    - lines:
+        - Preso in un vortice - che gira fuori controllo
+        - Perso nella scia
+        - Camminando tra le fiamme nella notte
+        - In cerca del giorno
+        - Dicono che non è mai più di un mandato
+        - Una tempesta che tutti devono sopportare
+        - Ma stiamo combattendo per la nostra vita
+        - Per vedere la fine della tempesta
+    - lines:
+        - E ora hai acceso un fuoco dentro di me
+        - È ora di cambiare la marea del destino - spezza il ciclo in cui sono
+        - E se indossassi la maschera?
+        - Dicessi che va tutto bene?
+        - Ogni giorno più vicino alla fine della linea
+        - Corro
+    - lines:
+        - Stai servendo uno spettacolo di merda
+        - Hai perso il tuo fottuto senno?
+    - lines:
+        - Ho sognato una sinfonia
+        - Un'armonia perfetta
+        - Ma il maestro ha perso la testa
+        - Nell'entropia - bloccato in ripetizione
+    - lines:
+        - Ogni morso che dai
+        - Il minimo assaggio di inganno velato
+        - Resta sui tuoi denti ghignanti
+        - Quindi tirati insieme
+    - lines:
+        - Le catene pesano, ogni parola, veleno nelle nostre vene
+        - Cadendo dalla grazia, attraverso il dolore, sopportando queste catene
+        - Il silenzio urla, le voci svaniscono, in un mondo selvaggio
+        - La vita è una lotta spietata e alla fine restiamo mutilati
+    - lines:
+        - Stiamo venendo mutilati!
+        - Quindi tirati insieme!
+    - lines:
+        - Ho sognato una sinfonia
+        - Un'armonia perfetta
+        - Ma il maestro ha perso la testa
+        - Nell'entropia - bloccato in ripetizione
+    - lines:
+        - Ogni morso che dai
+        - Il minimo assaggio di inganno velato
+        - Resta sui tuoi denti ghignanti
+        - Quindi tirati insieme
+    - lines:
+        - Tirati fuori da tutto adesso
+        - Tirati insieme
+---

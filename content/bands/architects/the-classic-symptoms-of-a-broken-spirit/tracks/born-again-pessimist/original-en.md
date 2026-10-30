@@ -1,0 +1,65 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I took an easy ride so the world could pretend
+        - That I'm superior
+        - You'd have an honest man if you took the time
+        - To wire up my jaw
+        - I fell asleep in the backseat
+        - Fuck, it was so sweet
+        - I ran a red like I saw a matador
+        - Yeah the sun might melt whilst you wait
+        - For my arteries to thaw
+        - I'm taking you to war
+        - I'm taking you to war
+    - lines:
+        - I'm never gonna spill my guts
+        - It feels like death by a thousand cuts
+        - So when the here and now holds me down
+        - I fall apart
+        - I don't wanna talk too much
+        - I'm never gonna stop yeah, I love this crutch
+        - So if I kiss the ground
+        - Don't look 'round
+        - God bless my big empty heart
+    - lines:
+        - I'll only lose my head if I stand too close to hysteria
+        - And if it took your breath, then I'm betting that
+        - I focused on the flaw
+        - So go and set me in concrete
+        - I'm just a deadbeat
+        - You always said I'm the wolf that's at your door
+        - I would drown myself but the thirst'd have me coming back for more
+    - lines:
+        - I'm never gonna spill my guts
+        - It feels like death by a thousand cuts
+        - So when the here and now holds me down
+        - I fall apart
+        - I don't wanna talk too much
+        - I'm never gonna stop yeah, I love this crutch
+        - So if I kiss the ground
+        - Don't look 'round
+        - God bless my big empty heart
+        - God bless my big empty heart
+    - lines:
+        - I'm just a born again pessimist
+        - I'll only kick you from the precipice
+        - Come follow me we'll march on heaven's gates
+    - lines:
+        - I'm never gonna spill my guts
+        - It feels like death by a thousand cuts
+        - So when the here and now holds me down
+        - I fall apart
+        - I don't wanna talk too much
+        - I'm never gonna stop yeah, I love this crutch
+        - So if I kiss the ground
+        - Don't look 'round
+        - God bless my big empty heart
+    - lines:
+        - My big empty heart
+        - My big empty heart
+        - My big empty heart
+        - God bless my big empty heart
+---

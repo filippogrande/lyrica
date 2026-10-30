@@ -1,0 +1,90 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Rollin rollin rollin rollin
+        - Rollin rollin rollin rollin
+        - Rollin rollin rollin rollin
+        - Rollin rollin rollin rollin
+    - lines:
+        - Ah yeah
+        - C c cityroller
+        - Step aside when I roll through the city
+        - Ah yeah
+        - Ain't no South Tyrolean
+        - But I make cheese
+        - When the speed camera snaps a photo of me
+        - Ah yeah
+    - lines:
+        - Aura farmer on aluminium
+        - Inline skater, running everyone over
+        - Kickboard K2 bro, are you dumb
+        - Are you dumb, are you dumb, are you dumb, are you dumb
+    - lines:
+        - Yeah
+        - I feel Hüper Hüper
+        - Do you feel Hüper Hüper
+        - Yeah
+        - I feel Hüper Hüper
+        - Do you feel Hüper Hüper
+    - lines:
+        - Ride with me, Scooter
+        - Let's roll into the night
+        - Listen with me, Scooter
+        - I got my Discman with me
+        - Bye bye bye
+        - Hans Peter how much is the fish
+        - Hans Peter how much is the fish
+        - Hans Peter how much is the fish
+        - The fish the fish the fish
+    - lines:
+        - Fischi fischi fischi
+    - lines:
+        - How much is the
+        - FISH
+    - lines:
+        - Fischi fischi fischi
+    - lines:
+        - Aahhhhhhhh
+        - My shinbone
+        - Aaaaaaahhh
+        - My damn shinbone
+        - Yah
+        - Not the shinbone again
+        - My shinbone
+    - lines:
+        - Yeah
+        - I feel Hüper Hüper
+        - Do you feel Hüper Hüper
+        - Yeah
+        - I feel Hüper Hüper
+        - Do you feel Hüper Hüper
+    - lines:
+        - Ride with me, Scooter
+        - Let's roll into the night
+        - Listen with me, Scooter
+        - I got my Discman with me
+        - Bye bye bye
+        - Hans Peter how much is the fish
+        - Hans Peter how much is the fish
+        - Hans Peter how much is the fish
+        - The fish the fish the fish
+    - lines:
+        - Fischi fischi fischi
+    - lines:
+        - Through the night with my bro
+        - Head on autopilot
+        - I let go of the handlebars
+        - Hold on to me
+    - lines:
+        - Ride with me, Scooter
+        - Let's roll into the night
+        - Listen with me, Scooter
+        - I got my Discman with me
+        - Bye bye bye
+        - Hans Peter how much is the fish
+        - Hans Peter how much is the fish
+        - Hans Peter how much is the fish
+        - The fish the fish the fish
+---

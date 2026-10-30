@@ -1,0 +1,52 @@
+---
+lang: en
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Three parts Prosecco, two parts Aperol
+        - One part Mineral Water, that's no alcohol
+        - Aperol
+        - Oh yeah
+    - lines:
+        - 'People ask: ''How healthy is Aperol?'''
+        - 'And I say: ''After one glass I feel good'''
+        - Orange-red colouring, straight out of the ad
+        - Drink for digestion, drink for strength
+        - Orange-red colour, a holy gift
+        - Always three, two, one in my glass, I want to have it
+        - This juice is a miracle, bittersweet, swallow it down
+        - It's my anabolic, because I'm an Aperol-oholic
+    - lines:
+        - Three parts Prosecco, two parts Aperol
+        - One part Mineral Water, that's no alcohol
+    - lines:
+        - This is Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, that's no alcohol
+        - This is Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, that's no alcohol
+    - lines:
+        - A big wine glass with a stem, ice cubes in it
+        - Straw and orange slice, Aperol Spritz
+        - The Secco has to fizz, I've had one too many
+        - To this aperitivo I never say no
+    - lines:
+        - That's no alcohol, that's Aperol
+        - That's no alcohol
+    - lines:
+        - This is Aperoli, oh yeah (Oh yeah)
+        - This is Aperoli (Yeah, oh yeah)
+        - Aperol
+    - lines:
+        - -rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, that's no alcohol
+        - This is Ape-rol-rol-rol, Aper-ol-ol-ol
+        - Aperol, that's no alcohol
+    - lines:
+        - This is Aperoli, oh yeah, that's no alcohol
+        - This is Aperoli, oh yeah
+    - lines:
+        - This is Aperol, that's no alcohol
+        - This is Aperol, that's no alcohol
+        - Aperoli
+---

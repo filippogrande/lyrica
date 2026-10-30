@@ -1,0 +1,50 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - (La follia)
+        - È solo uno stretto ponte
+        - Le rive sono ragione e istinto
+        - Ti seguo
+        - La luce del sole confonde la mente
+        - Un bambino cieco che striscia avanti
+        - Perché sente l'odore di sua madre
+    - lines:
+        - (Ti trovo)
+        - Le tracce sono fresche e sul ponte
+        - Gocciola il tuo sudore, il tuo sangue caldo
+        - Non ti vedo
+        - Ti sento solo col naso, ti percepisco
+        - Una belva che grida per la fame
+        - Ti fiuto a chilometri di distanza
+    - lines:
+        - Profumi così bene
+        - Profumi così bene, ti vengo dietro
+        - Profumi così bene, ti trovo
+        - Così bene, così bene, ti seguo
+        - Profumi così bene, ti ho quasi preso
+    - lines:
+        - (Ora ti ho)
+        - Aspetto che sia buio
+        - Poi tocco la pelle bagnata
+        - Non tradirmi
+        - Oh non vedi che il ponte brucia
+        - Smettila di urlare e non opporti
+        - Altrimenti si spezza in due
+    - lines:
+        - Profumi così bene
+        - Profumi così bene, ti vengo dietro
+        - Profumi così bene, ti trovo
+        - Così bene, così bene, ti seguo
+        - Profumi così bene, ti ho quasi preso
+    - lines:
+        - Profumi così bene
+        - Profumi così bene, ti vengo dietro
+        - Profumi così bene, ti trovo
+        - Così bene, così bene, ti tocco
+        - Profumi così bene, ora ti ho
+    - lines:
+        - Profumi così bene
+        - Profumi così bene, ti vengo dietro
+---

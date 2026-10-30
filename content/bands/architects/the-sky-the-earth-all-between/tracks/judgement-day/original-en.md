@@ -1,0 +1,79 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Escape from your reality
+        - I am not your enemy
+        - Don't be afraid
+        - Asleep under the guillotine
+        - Promise I won't make a scene
+        - Let's just play pretend
+    - lines:
+        - Was I too sedated to feel?
+        - I promise I can hear you now
+        - '''Cause you''ve waited'
+        - You believe in the God I fear
+    - lines:
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+    - lines:
+        - Was I too sedated to feel?
+        - I promise I can hear you now
+        - '''Cause you''ve waited'
+        - You believe in the God I fear
+    - lines:
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+    - lines:
+        - Unapologetically
+        - Messing with my chemistry
+        - Fading away
+        - Don't ya think it's heavenly
+        - Dying right in front me
+        - Repeating amen
+    - lines:
+        - Was I too sedated to feel?
+        - I promise I can hear you now
+        - '''Cause you''ve waited'
+        - You believe in the God I fear
+    - lines:
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+    - lines:
+        - Numb machines
+        - And death-row dreams
+        - Reign supreme
+    - lines:
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+    - lines:
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+        - Rain, rain, go away
+        - Leave me in binary
+        - They say, it's okay
+        - It's only judgment day
+---

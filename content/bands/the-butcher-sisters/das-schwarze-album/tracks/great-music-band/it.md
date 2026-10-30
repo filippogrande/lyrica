@@ -1,0 +1,68 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Siamo cool (Cool), ma non fa freddo
+        - Chiamiamo squalo (Hi baby) ma non siamo in spiaggia
+        - Viviamo lo stile di vita da rockstar, non ci fermiamo mai
+        - Il Dokter dice meno festa ma noi non lo facciamo (Si parte)
+        - È la great music band (Yeah) che spacca la tua città
+        - Suoniamo una canzone molto buona (Yeah) e tutti si scatenano, andiamo
+        - Uh, baby, baby, uh, baby, baby
+        - Muovi le mani avanti e indietro come se non ti importasse davvero
+        - Andiamo
+    - lines:
+        - Weekend
+        - Uh, baby, baby, weekend
+        - We-we-we-we-we-weekend
+        - Facciamo festa, un sacco
+        - Abbiamo una bella sensazione
+    - lines:
+        - La-la-la-la-la-la-la-la-al-la-la
+        - La-la-la-la-la-la
+        - Bella musica, bella musica
+        - La-la-la-la-la-la-la-la-al-la-la
+        - La-la-la-la-la-la
+        - Band, band
+    - lines:
+        - Sì, aha
+        - Aha, aha, sì
+    - lines:
+        - Yeah, yeah, cosa va su?
+        - Cosa va su? Dico, cosa va su?
+        - Rock in giro in ogni città
+        - Dai, si parte, non ci fermiamo mai
+        - Luci brillanti della città, seduto nella mia Ferrari
+        - Sono in cammino ora (Yeah) verso la prossima festa (Andiamo)
+        - Alla festa? Alla festa
+        - Alla festa? Alla festa
+        - Mi chiedi cosa indosso?
+        - Per sempre, Ed Hardy
+        - Dai un'occhiata
+    - lines:
+        - Alla festa? Alla festa
+        - Ed Hardy? Ed Hardy
+        - Bacardi? Bacardi
+        - Alla festa? Dai un'occhiata
+        - Sì!
+        - Dai un'occhiata
+        - Alla festa? Alla festa
+        - Alla festa? Alla festa
+        - Bacardi, Ed Hardy
+        - Ferrari, facciamo festa
+    - lines:
+        - La-la-la-la-la-la-la-la-al-la-la
+        - La-la-la-la-la-la
+        - Bella musica, bella musica
+        - Andiamo, sì, sì (La-la-la-la-la-la-la-la-al-la-la)
+        - La-la-la-la-la-la
+        - 'E adesso: band, band'
+    - lines:
+        - La-la-la-la-la-la-la-la-al-la-la (Tutti dentro)
+        - La-la-la-la-la-la
+        - Bella musica, bella musica, band
+        - La-la-la-la-la-la-la-la-al-la-la (Andiamo, andiamo, si parte)
+        - La-la-la-la-la-la
+        - Band, band, sì, sì
+---

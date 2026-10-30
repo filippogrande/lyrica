@@ -1,0 +1,49 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Trascinami in giù lentamente, più in profondità
+        - Legato stretto, non lascerai andare
+        - Tormento passivo, violenza silenziosa
+        - Soffocando lentamente nel tuo silenzio
+    - lines:
+        - Hai costruito questa gabbia, chiuso la porta
+        - Hai buttato le chiavi sul fondo dell'oceano
+        - Più in giù, più in giù, mi trascini sotto
+        - In profondità che non conoscerai mai
+    - lines:
+        - Sto affondando ogni giorno di più
+        - Guardando i colori svanire
+        - Tenuto sotto la tua apatia continuerò a lottare ma a te non importa
+        - Mi stai uccidendo lentamente restando semplicemente lì
+    - lines:
+        - Parole come coltelli, non parli mai
+        - Sanguinando, troppo intorpidito per urlare
+        - Le promesse si ossidano, la fiducia si corrode
+        - I tuoi occhi vuoti mi guardano erodere
+    - lines:
+        - Hai costruito questa gabbia, chiuso la porta
+        - Hai buttato le chiavi sul fondo dell'oceano
+        - Sei stato lì solo a guardarmi annegare
+        - E hai chiamato questo relitto contorto la tua corona
+    - lines:
+        - Sto affondando ogni giorno di più
+        - Guardando i colori svanire
+        - Tenuto sotto la tua apatia continuerò a lottare ma a te non importa
+        - Mi stai uccidendo lentamente restando semplicemente lì
+    - lines:
+        - Taglia la corda, lasciami risorgere
+        - Guardami spaccare le tue perfette bugie
+        - Urlo, annego, ma tu guardi altrove
+        - Il tuo impero è diventato la mia tomba
+    - lines:
+        - Sto affondando ogni giorno di più
+        - Guardando i colori svanire
+        - Tenuto sotto la tua apatia continuerò a lottare ma a te non importa
+        - Mi stai uccidendo lentamente restando semplicemente lì
+    - lines:
+        - Sto morendo di fame, soffocando lentamente
+        - Facendo nulla, mi hai lasciato andare
+---

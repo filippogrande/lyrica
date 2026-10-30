@@ -1,0 +1,75 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Come una lama che desidera il polso
+        - Non voglio sanguinare per te
+        - Un'altra goccia solo per la mia dose
+        - C'è un limite a quanto posso perdere
+    - lines:
+        - Ho corso per la mia vita
+        - Scambando coltelli per una lama
+        - Il tuo inferno è il mio paradiso
+        - Soffocare tra le tue braccia è il mio modo preferito di morire
+    - lines:
+        - Oh, fanculo
+        - Te
+        - Soffocare tra le tue braccia è il mio modo preferito di morire
+    - lines:
+        - Inspira le fiamme
+        - Soffocati di colpa
+        - Prendi il mio ossigeno
+        - Non mi importa se respirerò mai più, cazzo
+    - lines:
+        - Ho corso per la mia vita
+        - Scambando coltelli per una lama
+        - Il tuo inferno è il mio paradiso
+        - Soffocare tra le tue braccia è il mio modo preferito di morire
+    - lines:
+        - Fanculo
+        - Te
+        - Soffocare tra le tue braccia è il mio modo preferito di morire
+    - lines:
+        - Sedatemi, disturbatemi
+        - Il mio inferno in paradiso
+        - Non salvatemi, prendetemi
+        - Il mio modo preferito di morire
+    - lines:
+        - Sedatemi, disturbatemi
+        - Il mio inferno in paradiso
+        - Non salvatemi, prendetemi
+        - Il mio modo preferito di morire
+        - Sedatemi, disturbatemi
+        - Il mio inferno in paradiso
+        - Non salvatemi, prendetemi
+        - Il mio modo preferito di morire
+        - Sedatemi, disturbatemi
+        - Il mio inferno in paradiso
+        - Non salvatemi, prendetemi
+        - Il mio modo preferito di morire
+    - lines:
+        - Sedatemi, disturbatemi
+        - Il mio inferno in paradiso
+        - Non salvatemi, prendetemi
+        - Il mio modo preferito di morire
+        - Sedatemi (Sedatemi), disturbatemi
+        - Il mio inferno in paradiso
+        - Non salvatemi (Non salvatemi), prendetemi
+        - Il mio modo preferito di morire
+        - Modo di morire (Modo di morire)
+        - Sedatemi (Sedatemi), disturbatemi (Disturbatemi)
+        - Il mio inferno in paradiso
+        - Non salvatemi (Non salvatemi), prendetemi (Prendetemi)
+        - Il mio modo preferito di morire
+    - lines:
+        - Sedatemi, disturbatemi
+        - Il mio inferno in paradiso
+        - Non salvatemi, prendetemi
+        - Il mio modo preferito di morire
+        - Sedatemi (Sedatemi), disturbatemi
+        - Il mio inferno in paradiso
+        - Non salvatemi (Non salvatemi), prendetemi
+        - Il mio modo preferito di morire
+---

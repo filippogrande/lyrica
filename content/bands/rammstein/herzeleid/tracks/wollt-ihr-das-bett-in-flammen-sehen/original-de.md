@@ -1,0 +1,47 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Wollt ihr das Bett in Flammen sehen?
+        - Wollt ihr in Haut und Haaren untergehen?
+        - Ihr wollt doch auch den Dolch ins Laken stecken
+        - Ihr wollt doch auch das Blut vom Degen lecken
+    - lines:
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - Ihr seht die Kreuze auf dem Kissen
+        - Ihr meint euch darf die Unschuld küssen
+        - Ihr glaubt zu töten wäre schwer
+        - Doch wo kommen all die Toten her?
+    - lines:
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - Sex ist eine Schlacht
+        - Liebe ist Krieg
+        - Sex ist eine Schlacht, ja
+        - Liebe ist Krieg
+        - Sex ist eine Schlacht
+        - Liebe ist Krieg
+        - Sex ist eine Schlacht, ja
+        - Liebe ist Krieg
+    - lines:
+        - Wollt ihr das Bett in Flammen sehen?
+        - Wollt ihr in Haut und Haaren untergehen?
+        - Ihr wollt doch auch den Dolch ins Laken stecken
+        - Ihr wollt doch auch das Blut vom Degen lecken
+    - lines:
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+---

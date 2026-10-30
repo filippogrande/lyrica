@@ -1,0 +1,88 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Voglio condividere il mio cuore con tutti intorno
+        - Voglio diffondere un po' d'amore, sento il ritmo
+        - Sto per dare il mio cuore a tutti intorno
+        - Sto per condividere il mio amore con tutti, tutti
+    - lines:
+        - Voglio condividere il mio cuore con tutti intorno
+        - Voglio diffondere un po' d'amore, sento il ritmo
+        - Sto per dare il mio cuore a tutti intorno
+        - Sto per condividere il mio amore con tutti, tutti
+    - lines:
+        - Oh, sono di nuovo in ritardo
+        - La mia gente ha bisogno disperatamente di me
+        - Guarda Herbert qui
+        - Sta litigando con il suo amico
+        - Sono stufo della tua rabbia e del tuo odio
+        - Colpisci sempre, sferri pugni, mordi
+        - Per tutta la fottuta giornata
+    - lines:
+        - Ti do amore
+        - Sparato dritto in faccia, amore
+        - L'amore è tutto quello che ti serve, amore
+        - Che manca in questo posto senza amore
+        - Condivido il mio cuore con tutti
+    - lines:
+        - Voglio condividere il mio cuore con tutti intorno
+        - Voglio diffondere un po' d'amore, sento il ritmo
+        - Sto per dare il mio cuore a tutti intorno
+        - Sto per condividere il mio amore con tutti
+    - lines:
+        - Voglio condividere il mio cuore con tutti intorno
+        - Voglio diffondere un po' d'amore, sento il ritmo
+        - Sto per dare il mio cuore a tutti intorno
+        - Sto per condividere il mio amore con tutti, tutti
+    - lines:
+        - Ehi, non puoi scappare
+        - Il mio amore ti raggiungerà
+        - E non avere paura perché non voglio farti del male
+        - Sono il dio dell'amore, ho il potere di guarire
+        - Te da tutta la tristezza e le cose brutte che senti
+    - lines:
+        - Ti do amore
+        - Sparato dritto in faccia, amore
+        - L'amore è tutto quello che ti serve, amore
+        - Che manca in questo posto senza amore
+        - Condivido il mio cuore con tutti
+    - lines:
+        - Voglio condividere il mio cuore con tutti intorno
+        - Voglio diffondere un po' d'amore, sento il ritmo
+        - Sto per dare il mio cuore a tutti intorno
+        - Sto per condividere il mio amore con tutti
+    - lines:
+        - Non smettiamo mai di credere nella magia
+        - Ci tuffiamo nella luce
+        - Non smettiamo mai di credere nella magia
+        - Saremos per sempre giovani, per sempre giovani
+    - lines:
+        - Non smettiamo mai di credere nella magia
+        - Ci tuffiamo nella luce
+        - Non smettiamo mai di credere nella magia
+        - Saremos per sempre giovani, per sempre giovani
+    - lines:
+        - Non smettiamo mai di credere nella magia
+        - Ci tuffiamo nella luce
+        - Non smettiamo mai di credere nella magia
+        - Saremos per sempre giovani, per sempre giovani
+    - lines:
+        - Io sono quello che ti serve
+        - Sono mandato da sopra
+        - Per riempire il tuo cuore vuoto con una freccia d'amore
+        - Non posso andarmene
+        - Prima che tu mi dia tutto il tuo gusto, le tue emozioni, il tuo amore
+    - lines:
+        - Voglio condividere il mio cuore con tutti intorno
+        - Voglio diffondere un po' d'amore, sento il ritmo
+        - Sto per dare il mio cuore a tutti intorno
+        - Sto per condividere il mio amore con tutti
+    - lines:
+        - Voglio condividere il mio cuore con tutti intorno
+        - Voglio diffondere un po' d'amore, sento il ritmo
+        - Sto per dare il mio cuore a tutti intorno
+        - Sto per condividere il mio amore con tutti, tutti
+---

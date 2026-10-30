@@ -1,0 +1,87 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Go
+    - lines:
+        - Headlights shining through the night
+        - We need no daylight, feels like we will never die
+        - We are unstoppable, we are incredible
+        - And I feel like everybody knows that
+    - lines:
+        - I wanna shake it
+        - And you can watch me rule the floor
+        - I wanna shake it
+        - Sh-shake it, shake it, uh
+        - I wanna shake it
+        - And you can watch me rule the floor
+        - I wanna shake it
+        - Just everywhere I go
+    - lines:
+        - (We turn on the fun, we are ready to go
+        - Keep your friends close and let the good times roll)
+        - We turn on the fun, we are ready to go
+        - Keep your friends close and let the good times roll
+        - Grab your bag, come along, play your favorite song
+        - Scream your heart out and let the good times roll
+    - lines:
+        - Whoa
+        - We will never let it go
+        - And let the good times roll
+        - We will never let it go
+        - We let the good times roll
+        - And let the good times roll
+    - lines:
+        - Sunlight shining on my face
+        - I'm feeling so high, that's what I was waiting for
+        - A long time, I am gonna leave it all behind
+        - The best is yet to come
+    - lines:
+        - I wanna shake it
+        - And you can watch me rule the floor
+        - I wanna shake it
+        - Sh-shake it, shake it, uh
+        - I wanna shake it
+        - And you can watch me rule the floor
+        - I wanna shake it
+        - Just everywhere I go
+    - lines:
+        - We turn on the fun, we are ready to go
+        - Keep your friends close and let the good times roll
+        - Grab your bag, come along, play your favorite song
+        - Scream your heart out and let the good times roll
+    - lines:
+        - Whoa
+        - We will never let it go
+        - And let the good times roll
+        - We will never let it go
+    - lines:
+        - Uh, you see me move
+        - My hips for you
+        - You likey like
+        - Me feel the groove
+        - Now it's your time
+        - To make a step
+        - Uno, dos, tres
+        - Cuatro, cinco, cinco, seis, go!
+        - Ritmo
+        - Sh-shake it, shake it, uh
+        - Ritmo
+    - lines:
+        - Whoa
+        - We will never let it go
+        - And let the good times roll
+        - We will never let it go
+    - lines:
+        - We turn on the fun, we are ready to go
+        - Keep your friends close and let the good times roll
+        - Grab your bag, come along, play your favorite song
+        - Scream your heart out and let the good times roll
+    - lines:
+        - Whoa
+        - We will never let it go
+        - And let the good times roll
+        - We will never let it go
+        - We let the good times roll
+---

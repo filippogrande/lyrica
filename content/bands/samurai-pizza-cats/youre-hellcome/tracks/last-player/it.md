@@ -1,0 +1,85 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Lasciami essere la tua paura più grande
+        - Sono lo sterminatore del destino
+        - Lasciami essere la tua paura più grande
+        - Faresti meglio a recitare le preghiere
+    - lines:
+        - Sì
+        - Non mi fermerai mai e poi mai
+        - "No"
+        - Non provare mai a affrontarmi
+        - Voci nella mia testa
+        - Mi dicono di fermarmi
+        - Voci nella mia testa
+        - Suono come un fottutissimo rock
+    - lines:
+        - Guarda la mia uniforme
+        - Sono stato fatto per uccidere
+        - Ho ucciso l'Inferno
+        - Ma ha perso il mordente
+    - lines:
+        - Tutto ciò che voglio è un lavoro dalle 9 alle 5
+        - Costruire una casa
+        - Piantare un albero
+        - E avere un cane da grembo
+        - Voci nella mia testa
+        - Mi dicono di suonare
+        - Voci nella mia testa
+        - Uccidere o smettere?
+    - lines:
+        - Tutto quell'uccidere non dà più mordente
+        - Immagino di aver perso la sete di uccidere
+    - lines:
+        - Ho bruciato tutti i miei nemici
+        - Avevo i fan
+        - Avevo le ragazze
+        - Oh, gli arti continuavano a cadere
+        - Le bottiglie che scoppavano
+        - Festeggiavo come i Kennedy
+    - lines:
+        - Questo lavoro va fatto
+        - Sono lo sterminatore del destino
+        - Sono l'ultimo giocatore
+        - Chiamami quello scelto
+        - Perché sono lo sterminatore del destino
+        - Sono l'ultimo giocatore
+    - lines:
+        - "No"
+        - Non posso fare più questo
+        - Mi sento come Mrs. Doubtfire
+        - Ma ho palle come Quagmire
+        - Mi serve il mio fuoco d'arma
+        - Per impilare i morti più in alto
+        - Bum bum bum bum
+        - Non posso andare in pensione
+    - lines:
+        - Ogni colpo che sparo è un colpo ricevuto
+        - Sangue nel tuo sputo
+        - Questa è la vera roba da sterminatore
+        - Ogni testa che rompo nella fossa
+        - Mi fa impegnarmi di più nella vera roba da sterminatore
+    - lines:
+        - Guarda la mia uniforme
+        - Sono fatto per uccidere
+        - Uccido l'Inferno
+        - Immagino di aver ritrovato il mordente
+    - lines:
+        - Questo lavoro va fatto
+        - Sono lo sterminatore del destino
+        - Sono l'ultimo giocatore
+        - Chiamami quello scelto
+        - Perché sono lo sterminatore del destino
+        - Sono l'ultimo giocatore
+    - lines:
+        - Brucio tutti i miei nemici
+        - Ho i fan
+        - Ho le ragazze
+        - Oh, gli arti continuano a cadere
+        - Le bottiglie che scoppavano
+        - Festeggio come i Kennedy
+---

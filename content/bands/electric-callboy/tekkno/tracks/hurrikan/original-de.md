@@ -1,0 +1,43 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Wenn ich all' die Bilder seh'
+        - Dann denk' ich nur an dich
+        - Wie du gestern auf mir saßt
+        - Gott, war das widerlich
+    - lines:
+        - Dein Geruch der noch an mir klebt
+        - Der ist jetzt überall
+        - Und schon klingelt mein Telefon
+        - Du willst mich noch einmal
+    - lines:
+        - Du bist wie ein Hurricane
+        - Der sich durch mein Leben zieht
+        - Ohne Rast und Gefühl
+        - Ziehst du mich immer wieder zu dir
+    - lines:
+        - Du bist wie ein Hurricane
+        - Der sich durch mein Leben zieht
+        - Und du weißt ganz genau
+        - Ich kann dir niemals wieder entkomm'
+    - lines:
+        - Friss mich auf!
+    - lines:
+        - She's hungry, she's horny, she's longing for flesh
+        - Oh honey, I'm ready to die
+        - Oh, you feast on my blood, my bones, my guts
+        - Choke!
+        - She's the love of my life!
+    - lines:
+        - Can't re—
+        - Cannot resist
+        - Eat me alive
+        - Your necrotic face
+        - Is the one that I like
+    - lines:
+        - You're my rotten queen
+        - Your hands on my heart
+        - Marry me!
+---

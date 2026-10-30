@@ -1,0 +1,59 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ho iniziato a cercare una nuova via d'uscita
+        - Bloccato su un'isola
+        - Non c'è nient'altro che l'oceano
+        - Ogni secondo è un campo di battaglia
+        - Oltre l'orizzonte, qualcuno può sentire le mie urla?
+    - lines:
+        - Quando cerco di litigare
+        - Sappia che stavo affondando
+        - E se non sembra giusto
+        - Dillo al tempo
+        - È un'altra notte che respira dentro sangue e tuono
+        - Dimmi come dovrei fingere
+    - lines:
+        - Potrei essere l'ultimo a uccidere il dolore
+        - Cambio come le stagioni, desiderando la pioggia
+        - Non mettermi di nuovo a ragionare
+        - Perché sto morendo qui, ma tutto finisce
+    - lines:
+        - Se resto solo, sono destinato ad annegarme
+        - Non senti il silenzio, spezzato dal suono della sirena?
+        - Se nuoto, mi trascineranno giù
+        - Sono stanco della violenza, è difficile mettermi in testa
+    - lines:
+        - Quando cerco di litigare
+        - È solo perché sto affondando
+        - E se non sembra giusto
+        - Do la colpa al tempo
+        - È un'altra notte che respira dentro sangue e tuono
+        - Castelli che solo io posso difendere
+    - lines:
+        - Potrei essere l'ultimo a uccidere il dolore
+        - Cambio come le stagioni, desiderando la pioggia
+        - Non mettermi di nuovo a ragionare
+        - Perché sto morendo qui, ma tutto finisce
+        - Potrei essere l'ultimo a uccidere il dolore
+        - Cambio come le stagioni, ma desiderando la pioggia
+        - Non mettermi di nuovo a ragionare
+        - Perché sto morendo qui, ma tutto finisce
+    - lines:
+        - Se cado troppo in basso, e sopravvivo a tutto questo
+        - Come una stella morente, è finita e basta
+        - Abbasso le difese, poi finisco a terra
+        - Nessuna goccia di pioggia guarirà la siccità
+    - lines:
+        - Potrei essere l'ultimo a uccidere il dolore
+        - Cambio come le stagioni, ma desiderando la pioggia
+        - Non mettermi di nuovo a ragionare
+        - Perché sto morendo qui, ma tutto finisce
+    - lines:
+        - Tutto finisce, tutto finisce
+        - Tutto finisce
+        - Sì, sto morendo qui, ma tutto finisce
+---

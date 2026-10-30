@@ -1,0 +1,90 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Rollin rollin rollin rollin
+        - Rollin rollin rollin rollin
+        - Rollin rollin rollin rollin
+        - Rollin rollin rollin rollin
+    - lines:
+        - Ah yeah
+        - C c cityroller
+        - Spostati quando sfreccio in roller per la city
+        - Ah yeah
+        - Non sono un sudtirolese
+        - Ma faccio grana
+        - Quando l'autovelox mi scatta la foto
+        - Ah yeah
+    - lines:
+        - Aura farmer su alluminio
+        - Inline skater, li travolgo tutti
+        - Kickboard K2 bro, sei scemo
+        - Sei scemo, sei scemo, sei scemo, sei scemo
+    - lines:
+        - Yeah
+        - Mi sento Hüper Hüper
+        - Ti senti Hüper Hüper
+        - Yeah
+        - Mi sento Hüper Hüper
+        - Ti senti Hüper Hüper
+    - lines:
+        - Corri con me, Scooter
+        - Rotoliamo dentro la notte
+        - Ascolta con me, Scooter
+        - Ho il Discman con me
+        - Bye bye bye
+        - Hans Peter quanto costa il pesce
+        - Hans Peter quanto costa il pesce
+        - Hans Peter quanto costa il pesce
+        - Il pesce il pesce il pesce
+    - lines:
+        - Fischi fischi fischi
+    - lines:
+        - Quanto costa il
+        - PESCE
+    - lines:
+        - Fischi fischi fischi
+    - lines:
+        - Aahhhhhhhh
+        - Il mio stinco
+        - Aaaaaaahhh
+        - Il mio dannato stinco
+        - Yah
+        - Non di nuovo lo stinco
+        - Il mio stinco
+    - lines:
+        - Yeah
+        - Mi sento Hüper Hüper
+        - Ti senti Hüper Hüper
+        - Yeah
+        - Mi sento Hüper Hüper
+        - Ti senti Hüper Hüper
+    - lines:
+        - Corri con me, Scooter
+        - Rotoliamo dentro la notte
+        - Ascolta con me, Scooter
+        - Ho il Discman con me
+        - Bye bye bye
+        - Hans Peter quanto costa il pesce
+        - Hans Peter quanto costa il pesce
+        - Hans Peter quanto costa il pesce
+        - Il pesce il pesce il pesce
+    - lines:
+        - Fischi fischi fischi
+    - lines:
+        - Nella notte con il mio bro
+        - Testa in autopilota
+        - Lascio il manubrio
+        - Tienimi forte
+    - lines:
+        - Corri con me, Scooter
+        - Rotoliamo dentro la notte
+        - Ascolta con me, Scooter
+        - Ho il Discman con me
+        - Bye bye bye
+        - Hans Peter quanto costa il pesce
+        - Hans Peter quanto costa il pesce
+        - Hans Peter quanto costa il pesce
+        - Il pesce il pesce il pesce
+---

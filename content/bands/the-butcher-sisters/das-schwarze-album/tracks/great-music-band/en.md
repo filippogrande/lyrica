@@ -1,0 +1,68 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - We are cool (Cool), but it is not cold
+        - We are calling shark (Hi baby) but we're not at the beach
+        - Living the rockstar lifestyle, never don't stop
+        - The Dokter says less party but we don't do it (Here we go)
+        - It's the great music band (Yeah) rocking your town
+        - We play a very good song (Yeah) and everyone's going off, let's go
+        - Uh, baby, baby, uh, baby, baby
+        - Move your hands back and forth as if you really didn't care
+        - Let's go
+    - lines:
+        - Weekend
+        - Uh, baby, baby, weekend
+        - Wee-wee-wee-wee-wee-weekend
+        - Making party, a whole lot
+        - We have a good feel
+    - lines:
+        - La-la-la-la-la-la-la-la-al-la-la
+        - La-la-la-la-la-la
+        - Great music, great music
+        - La-la-la-la-la-la-la-la-al-la-la
+        - La-la-la-la-la-la
+        - Band, Band
+    - lines:
+        - Yeah, aha
+        - Aha, aha, yeah
+    - lines:
+        - Yeah, yeah, what goes up?
+        - What goes up? I say what goes up?
+        - Rock around in every town
+        - Come on, here we go, we never stop
+        - Bright city lights, sitting in my Ferrari
+        - I'm on my way now (Yeah) to the next party (Let's go)
+        - To the party? To the party
+        - To the party? To the party
+        - You ask what I'm wearing?
+        - Forever, Ed Hardy
+        - Check it out
+    - lines:
+        - To the party? To the party
+        - Ed Hardy? Ed Hardy
+        - Bacardi? Bacardi
+        - To the party? Check it out
+        - Yeah!
+        - Check it out
+        - To the party? To the party
+        - To the party? To the party
+        - Bacardi, Ed Hardy
+        - Ferrari, let's party
+    - lines:
+        - La-la-la-la-la-la-la-la-al-la-la
+        - La-la-la-la-la-la
+        - Great music, great music
+        - Let's go, yeah, yeah (La-la-la-la-la-la-la-la-al-la-la)
+        - La-la-la-la-la-la
+        - 'And now: Band, Band'
+    - lines:
+        - La-la-la-la-la-la-la-la-al-la-la (Everybody go)
+        - La-la-la-la-la-la
+        - Great music, great music band
+        - La-la-la-la-la-la-la-la-al-la-la (Let's go, let's go, here we go)
+        - La-la-la-la-la-la
+        - Band, Band, yeah, yeah
+---

@@ -1,0 +1,61 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Wann ist wieder Freitag?
+        - Der Tag, nach dem ich frei hab'
+        - Wann ist wieder Freitag?
+        - Der Tag, nach dem ich frei hab', woah
+    - lines:
+        - Ich steh' auf
+        - Biep-biep macht der Wecker, ich muss raus
+        - Viertel sechs Uhr, mein Leben macht au
+        - Hup-hup macht die Hupe wegen Stau
+        - Ich raste aus
+    - lines:
+        - Wann ist wieder Freitag?
+        - Der Tag, nach dem ich frei hab' (Heh)
+        - Wann ist wieder Freitag?
+        - Der Tag, nach dem ich frei hab', woah (Freitag!)
+    - lines:
+        - Wochenende
+        - Uh, Baby, Baby, Wochenende
+        - Wo-Wo-Wo-Wo-Wo-Wochenende
+        - Die gottverdammte Woche ist zu Ende
+        - Boom, b-boom, boom, boom
+        - Ich geh' heute dumm, d-dumm, dumm, dumm
+        - Boom, b-boom, boom, boom
+        - Ich geh' heute dumm
+    - lines:
+        - Im Büro
+        - Null Komma null, null Motivation
+        - Acht Uhr, ich verstecke mich im Klo
+        - Wieso, wieso, wieso
+        - Wurd ich kein Rapper wie Clueso oder Cro?
+        - Ich kündige fast
+        - Wieder war es knapp, wieder war es knapp
+        - Ich kündige fast
+        - Nächste Woche klappt's
+    - lines:
+        - Wann ist wieder Freitag? (Wann?)
+        - Der Tag, nach dem ich frei hab' (Der Tag, nach dem ich frei hab')
+        - Wann ist wieder Freitag? (Sag mir, wann?)
+        - Der Tag, nach dem ich frei hab', woah (Hey, hey)
+    - lines:
+        - (Wo-, Wo-, Wo-Wo-Wo-Wo-Wo-Wo-)
+        - Wochenende
+        - Uh, Baby, Baby, Wochenende
+        - Wo-Wo-Wo-Wo-Wo-Wochenende
+        - Die gottverdammte Woche ist zu Ende
+    - lines:
+        - La, la, la, la-la (Wochenende)
+        - Uh, la-la-la-la, la, la, la, la-la (Wochenende)
+        - Uh, la-la-la-la, la, la, la, la-la (Wochenende)
+        - Die gottverdammte Woche ist zu Ende
+    - lines:
+        - Scheiß Arbeit
+        - Scheiß Arbeit
+        - Ich will hier wieder weg
+        - Ich hasse meinen Chef
+---

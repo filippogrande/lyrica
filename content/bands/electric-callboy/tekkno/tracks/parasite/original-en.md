@@ -1,0 +1,83 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I can feel it taking over all my senses
+        - Getting slower
+        - And every part of your dead mind is me
+        - But you're gonna be the one too blind to see
+    - lines:
+        - I cannot take it
+        - You started taking me in
+        - I cannot take it
+        - You wanna bury me, bury me
+        - I would rip you off like a Band-Aid on my knee
+        - But you hold on tight, you're a part of me
+    - lines:
+        - We struggled all the way
+        - And it was still okay
+        - But I lost it when you got into my head
+        - You and me forever
+        - You're like a parasite
+        - But you keep me alive
+        - And I can hear you say
+        - We're gonna be okay
+        - I know you're lying but the truth is what I fear
+        - You and me forever
+        - You're like a parasite
+        - I really need you to stay
+    - lines:
+        - You cannot take it
+        - I'm crawling under your skin
+        - You cannot take it
+        - You gotta carry me, carry me
+        - I will make you mine
+        - You can run but you can't hide
+        - And I will push you down
+        - You better give in to me
+    - lines:
+        - We struggled all the way
+        - And it was still okay
+        - But I lost it when you got into my head
+        - You and me forever
+        - You're like a parasite
+        - But you keep me alive
+        - And I can hear you say
+        - We're gonna be okay
+        - I know you're lying but the truth is what I fear
+        - You and me forever
+        - You're like a parasite
+        - I really need you to stay
+    - lines:
+        - I can feel it taking over all my senses
+        - Getting slower
+        - I see you fighting but I'm letting you know
+        - I don't lurk in the dark but
+        - I'm already here with you
+    - lines:
+        - And I'll never say goodbye
+        - Cause I'm feeding on your
+        - Sadness, your nightmares, your dirty little soul
+        - Your pain is my pleasure
+        - You feel me everywhere you go
+    - lines:
+        - There's no way to hide
+        - I will find you
+        - And every time that you think I'm not with you
+        - I will push you into deep
+        - You are dead but alive
+    - lines:
+        - We struggled all the way
+        - And it was still okay
+        - But I lost it when you got into my head
+        - You and me forever
+        - You're like a parasite
+        - But you keep me alive
+        - And I can hear you say
+        - We're gonna be okay
+        - I know you're lying but the truth is what I fear
+        - You and me forever
+        - You're like a parasite
+        - I really need you to stay
+---

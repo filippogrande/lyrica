@@ -1,0 +1,55 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Non manderò mai via il vuoto
+        - Sono stanco di arrampicarmi sui muri
+        - Dio, ho bisogno di quelle sostanze chimiche
+        - Quando non voglio sentire
+        - Nessun significato più profondo quando le mie ossa cominciano a spezzarsi
+        - Ma se mi trasformo in pietra
+        - Potrei stare meglio da solo?
+        - Ascolterei la mia testa, ma sarei morto entro domani
+    - lines:
+        - Sto saltando sopra le mine
+    - lines:
+        - Ho ancora la sensazione che ci sia un inferno che ho cancellato
+        - È come se il fuoco avesse preso tutto
+        - Ma non responderò comunque alla chiamata
+        - Perché non voglio sentirla
+        - Troppo occupato a rubare tutto il tempo in cui sono sveglio
+        - Sono in un altro episodio
+        - Dove il buono viene abbattuto
+        - E nessuno di noi ci crede
+    - lines:
+        - Come ingoiare l'oceano
+        - Non farmi esplodere
+        - Perché io mi conosco
+        - Sono abbastanza vicino a rompermi
+        - Quindi vieni e aprimi
+        - Potrei passarci una vita a saltare sopra le mine
+        - Costruendo su una faglia
+        - Camminando verso i fari
+        - Sto saltando sopra le mine
+        - Come se fosse tutto a posto
+    - lines:
+        - Sto saltando sopra le mine
+    - lines:
+        - Ancora un paio di scioperi e poi sono fuori
+        - Questi castighi sono stati fatti su misura
+        - Annegare fiori nella profondità di una siccità
+        - Destinato a ripetere fino alla fine del mai
+    - lines:
+        - Come ingoiare l'oceano
+        - Non farmi esplodere
+        - Perché io mi conosco
+        - Sono abbastanza vicino a rompermi
+        - Quindi vieni e aprimi
+        - Potrei passarci una vita a saltare sopra le mine
+        - Costruendo su una faglia
+        - Camminando verso i fari
+        - Sto saltando sopra le mine
+        - Come se tutto andrà bene
+---

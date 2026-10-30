@@ -1,0 +1,76 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sono innamorato della luce del mattino
+        - La sento in profondità dentro
+        - Il mio giorno, il mio tempo, il mio modo
+        - Ma tu non resti mai per la notte
+        - Non mi conosci come
+        - Un giorno vorrei che lo facessi
+    - lines:
+        - Sì, tutti pensano che io sia solo un cazzo di ragazzo
+        - Perché so che tu pensi che io sia solo un cazzo di ragazzo
+    - lines:
+        - So di non avere una buona reputazione
+        - Vuoi essere la mia via d'uscita da questa situazione?
+    - lines:
+        - Ma voglio davvero sapere che tu mi vuoi
+        - Voglio davvero dimostrare che ne valgo la pena
+        - Perché lo so, perché lo so
+        - Sono meglio, sono buono per te
+    - lines:
+        - Sì, tutti pensano che io sia solo un cazzo di ragazzo
+        - Perché so che tu pensi che io sia solo un cazzo di ragazzo
+    - lines:
+        - Ora mi chiami tardi
+        - Mi stai entrando sotto la pelle
+        - E ti presenti a casa mia da giorni
+        - Beh, credo che mi piaccia
+    - lines:
+        - Perché vivi nella mia testa senza affitto
+        - Quando dici il mio nome fa un effetto diverso
+        - Devo sapere, devo sapere, sei buono per me?
+    - lines:
+        - Sì, tutti pensano che tu sia solo un cazzo di ragazzo
+        - Beh, forse non sei buono per me
+        - Tutti pensano che tu sia solo un cazzo di ragazzo
+        - Non posso farne a meno, mi sento
+    - lines:
+        - Non me ne frega di quello che dicono
+        - Ragazzo, ho bisogno che tu resti
+        - Sì, ti voglio così male
+        - In tutti i modi peggiori
+        - Tutti pensano che tu sia solo un cazzo di ragazzo
+        - Sì, beh, me ne fotto, ragazzo
+    - lines:
+        - Perché continuano a parlare di merda quando nessuno cazz'ha chiesto niente?
+        - Sai quanto mi piace guardare i tuoi occhi che rotolano indietro
+        - Hai avuto un assaggio e ora sei dipendente perché ti piace
+        - Rotoli a letto, ragazzo, dovresti sapere che ti morderò dietro
+    - lines:
+        - Non me ne frega di quello che dicono
+        - Perché ho bisogno che tu resti
+        - Sì, ti voglio così male
+        - In tutti i modi peggiori
+    - lines:
+        - Non me ne frega di quello che dicono
+        - Perché ho bisogno che tu resti
+        - Sì, ti voglio così male
+        - In tutti i modi peggiori
+    - lines:
+        - Sì, tutti pensano che io sia solo un cazzo di ragazzo
+        - Non importa quello che dicono, voglio stare con te
+        - Perché so che tu pensi che io sia solo un cazzo di ragazzo
+        - Quindi, tesoro, dimmi le bugie perché non ho bisogno della verità
+    - lines:
+        - Dagli qualcosa di cui parlare
+        - Perché ho bisogno che tu resti
+        - Sì, ti voglio così male
+        - In tutti i modi peggiori
+    - lines:
+        - Sì, tutti pensano che io sia solo un cazzo di ragazzo
+        - Quindi vieni qui perché me ne fotto, ragazzo
+---

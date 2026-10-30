@@ -1,0 +1,131 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Ich bin ein Monster
+        - Gib mir White Monster
+        - Gib mir Energie
+        - Für meine Batterie
+    - lines:
+        - Ich bin ein Monster
+        - Gib mir White Monster
+        - Gib mir Energie
+        - Für meine Batterie
+    - lines:
+        - Ich bin ein Monster
+        - Ich bin ein Monster
+    - lines:
+        - Ich bin ein Monster
+        - Ich bin ein Monster
+        - Ich bin ein
+    - lines:
+        - Zero kalorien (null)
+        - Zero zucker (null)
+        - Ich bin der monster white energy schlucker (gluck gluck)
+    - lines:
+        - Cool wie John Cena
+        - Schlau wie ein lehrer
+        - Ich bin der mit dem selber gemachten herzfehler
+    - lines:
+        - 8 tage wach - ich halluzinier
+        - Das urinal schmilzt - Wenn ich urinier
+        - Ich gehe schnell – wie ein geparden-tier
+        - Brüh den kaffe auf mit monster
+        - Habt ihr das mal probiert?
+    - lines:
+        - Ohne Taurin
+        - Und Koffein
+        - Macht leben keinen sinn
+    - lines:
+        - Ohne Taurin
+        - Und Koffein
+        - Ja!
+    - lines:
+        - Ich bin ein Monster
+        - Gib mir White Monster
+        - Gib mir Energie
+        - Für meine Batterie
+    - lines:
+        - Ich bin ein Monster
+        - Gib mir White Monster
+        - Gib mir Energie
+        - Für meine Batterie
+    - lines:
+        - Ich bin ein Monster
+        - Ich bin ein
+    - lines:
+        - Ich bin ein Monster
+        - Monster
+        - White Monster
+        - Yeah
+    - lines:
+        - Ja Ja
+        - Ich geh im Internet auf gutefrage.de
+        - Wie viele White Monster trinkt ihr so am day?"
+        - Denn ich sauge täglich very very many away
+        - Und mein Hausarzt meint - das wär nicht okay
+    - lines:
+        - Abeeer
+        - Ich bin kein Kind keine stillende Frau
+        - Ich bin ein chilliger typ mit einem monster im bauch
+        - Ich bin kettendosentrinker gib mir energy now
+        - Ich habe viele monster weil ich habe viele gekauft
+    - lines:
+        - Ohne Taurin
+        - Und Koffein
+        - Macht leben keinen sinn
+        - Ohne Taurin
+        - Und Koffein
+        - Ja!
+    - lines:
+        - Bro bist du noch wach
+        - Ja
+        - Ich auch
+        - Wie viel uhr?
+        - "4"
+        - Welcher tag? Montag?
+        - Donnerstag Digger
+        - Willst du noch ein Monster?
+        - Ja schon
+    - lines:
+        - Aaaaaah
+        - Aaaaaah
+        - Jaaaaah
+        - Jaaaaah
+        - Wach für immer
+        - Wach für immer
+        - Ich drücke mir in meine augen mit den fingern
+        - Wach für immer
+        - Wach für immer
+        - Wach wach wach waaaach
+    - lines:
+        - Ich bin ein Monster
+        - Gib mir White Monster
+        - Gib mir Energie
+        - Für meine Batterie
+    - lines:
+        - Ich bin ein Monster
+        - Gib mir White Monster
+        - Gib mir Energie
+        - Für meine Batterie
+    - lines:
+        - Ich bin ein Monster
+        - Ich bin ein Monster
+    - lines:
+        - Nur noch ein kleines Monster
+    - lines:
+        - (Ich bin ein Monster)
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster
+    - lines:
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster...
+    - lines:
+        - Oh yeah forever and ever
+---

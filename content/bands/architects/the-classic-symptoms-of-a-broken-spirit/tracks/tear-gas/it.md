@@ -1,0 +1,71 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Mai paura di essere spregevole, no
+        - In piedi sull'orlo e cerchi ancora l'ultima risata
+        - Piangi solo per il gas lacrimante
+        - Qualcuno ci rivolti come un guanto
+        - Forse pensi che sono troppo cinico, sì
+        - Congelato a morte sono rimasto all'ombra di una valanga
+        - Stai guardando la clessidra?
+    - lines:
+        - Fatto o morte
+        - In qualsiasi altro momento non ora
+        - In qualsiasi altro momento non ora
+        - Una sola vita
+        - Immagino che andrai all'inferno
+        - Immagino che andrai all'inferno
+        - Racconta una bugia
+        - È tutto possibile
+        - Potremmo essere incontenibili
+        - Sii meno che nessuno per me
+        - Lasciami pure sul seggiolino della grazia
+    - lines:
+        - Di sicuro non è la fottuta cima? No
+        - Questi santi moderni vorrebbero farci scrivere il nostro epitaffio
+        - Be', sapevamo che non sarebbe durato
+        - Qualcuno ci rivolti come un guanto
+        - Non c'è più niente di noi che non venderemo
+    - lines:
+        - Fatto o morte
+        - In qualsiasi altro momento non ora
+        - In qualsiasi altro momento non ora
+        - Una sola vita
+        - Immagino che andrai all'inferno
+        - Immagino che andrai all'inferno
+        - Racconta una bugia
+        - È tutto possibile
+        - Potremmo essere incontenibili
+        - Sii meno che nessuno per me
+        - Lasciami pure sul seggiolino della grazia
+    - lines:
+        - Ne siamo ben coscienti
+        - Nessuno può stare in piedi senza una spina dorsale
+        - Ma se non osiamo mai
+        - Ci appiattiremo solo la linea
+    - lines:
+        - Ne siamo ben coscienti
+        - Nessuno può stare in piedi senza una spina dorsale
+        - Ma se non osiamo mai
+        - Ci appiattiremo solo la linea
+    - lines:
+        - Fatto o morte
+        - In qualsiasi altro momento non ora
+        - In qualsiasi altro momento non ora
+        - Una sola vita
+        - Immagino che andrai all'inferno
+        - Immagino che andrai all'inferno
+        - Racconta una bugia
+        - È tutto possibile
+        - Potremmo essere incontenibili
+        - Sii meno che nessuno per me
+        - Lasciami pure sul seggiolino della grazia
+    - lines:
+        - Ne siamo ben coscienti
+        - Nessuno può stare in piedi senza una spina dorsale
+        - Ma se non osiamo mai
+        - Ci appiattiremo solo la linea
+---

@@ -1,0 +1,63 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Io voglio
+        - Io voglio
+        - Io voglio
+        - Io voglio
+        - Io voglio
+        - Io voglio
+        - Io voglio
+    - lines:
+        - (Io voglio) Voglio che vi fidiate di me
+        - (Io voglio) Voglio che mi crediate
+        - (Io voglio) Voglio sentire i vostri sguardi
+        - (Io voglio) controllare ogni battito
+        - (Io voglio) Voglio sentire le vostre voci
+        - (Io voglio) Voglio disturbare il silenzio
+        - (Io voglio) Voglio che mi vediate bene
+        - (Io voglio) Voglio che mi capiate
+    - lines:
+        - (Io voglio) Voglio la vostra fantasia
+        - (Io voglio) Voglio la vostra energia
+        - (Io voglio) Voglio vedere le vostre mani
+        - (Io voglio) sprofondare negli applausi
+    - lines:
+        - Mi vedete?
+        - Mi capite?
+        - Mi sentite?
+        - Mi ascoltate?
+    - lines:
+        - Riuscite a sentirmi? (Ti sentiamo)
+        - Riuscite a vedermi? (Ti vediamo)
+        - Riuscite a percepirmi? (Ti percepiamo)
+        - Non vi capisco
+        - Riuscite a sentirmi? (Ti sentiamo)
+        - Riuscite a vedermi? (Ti vediamo)
+        - Riuscite a percepirmi? (Ti percepiamo)
+        - Non vi capisco
+    - lines:
+        - Io voglio
+        - Io voglio
+        - Io voglio
+        - Io voglio
+    - lines:
+        - Vogliamo che vi fidiate di noi
+        - Vogliamo che crediate a tutto quello che diciamo
+        - Vogliamo vedere le vostre mani
+        - Vogliamo sprofondare negli applausi, sì
+    - lines:
+        - Riuscite a sentirmi? (Ti sentiamo)
+        - Riuscite a vedermi? (Ti vediamo)
+        - Riuscite a percepirmi? (Ti percepiamo)
+        - Non vi capisco
+        - Riuscite a sentirci? (Vi sentiamo)
+        - Riuscite a vederci? (Vi vediamo)
+        - Riuscite a percepirci? (Vi percepiamo)
+        - Non vi capiamo
+    - lines:
+        - Io voglio
+        - Io voglio
+---

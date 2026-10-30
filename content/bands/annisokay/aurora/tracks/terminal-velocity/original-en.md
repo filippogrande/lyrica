@@ -1,0 +1,52 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Life has a way of humbling us all
+        - And all of us taste defeat
+        - Everyone wants to sit on the throne
+        - Till someone pulls out the seat
+    - lines:
+        - We float like a feather
+        - We run with the river
+        - We drift through the never
+        - But always end up on the ground
+    - lines:
+        - Just when you thought you could fly
+        - You're losing height
+        - At the speed of light
+        - Just when you thought you had reached the sky
+        - Life at Terminal
+        - Terminal Velocity
+    - lines:
+        - Life has a way of lifting you up
+        - And sweeping you off your feet
+        - Some have to start all over
+        - And some cry while counting sheep
+    - lines:
+        - How can a child have cancer?
+        - How can you call that karma?
+        - How can a war be civil?
+        - Yet filled with melodrama?
+    - lines:
+        - Just when you thought you could fly
+        - You're losing height
+        - At the speed of light
+        - Just when you thought you had reached the sky
+        - Life at Terminal
+        - Terminal Velocity
+    - lines:
+        - Just when you thought you were safe
+        - And you let love into your heart
+        - The barbed wire fence that protects you
+        - Was really the prisoners yard
+    - lines:
+        - Life is a matter of faith
+        - To feel you're not already dead
+        - The climb to the top of the cliff
+        - And stepping out over the edge
+    - lines:
+        - Living life at Terminal
+        - Terminal Velocity
+---

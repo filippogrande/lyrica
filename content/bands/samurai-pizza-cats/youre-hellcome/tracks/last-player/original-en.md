@@ -1,0 +1,84 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Let me be your biggest fear
+        - I am the doom slayer
+        - Let me be your biggest fear
+        - You better say your prayers
+    - lines:
+        - Yeah
+        - You will never ever stop me
+        - "No"
+        - Never try to confront me
+        - Voices in my head
+        - Telling me to stop
+        - Voices in my head
+        - I rock like fuck
+    - lines:
+        - Check my uniform
+        - I was made to kill
+        - Killed the hellborn
+        - But it lost its thrill
+    - lines:
+        - All I want is a 9 to 5 day job
+        - Build a house
+        - Plant a tree
+        - And have a lapdog
+        - Voices in my head
+        - Telling me to rock
+        - Voices in my head
+        - Go kill or stop?
+    - lines:
+        - All the killing got no thrill
+        - Guess I lost my thirst to kill
+    - lines:
+        - I burned all my enemies
+        - Had the fans
+        - Had the girls
+        - Oh, limbs kept dropping
+        - Bottles popping
+        - Partied like the Kennedys
+    - lines:
+        - This job needs to be done
+        - I am the doom slayer
+        - I am the last player
+        - Call me the chosen one
+        - '''Cause I am the doom slayer'
+        - I am the last player
+    - lines:
+        - "No"
+        - I can't do this anymore
+        - I am feeling like Mrs. Doubtfire
+        - But got balls like Quagmire
+        - I need my gunfire
+        - To stack the dead higher
+        - Boom boom boom boom
+        - I cannot retire
+    - lines:
+        - Every shot I'm taking is a hit
+        - Blood in your spit
+        - This is the real slayer shit
+        - Every head I break in the pit
+        - Makes me commit more to the real slayer shit
+    - lines:
+        - Check my uniform
+        - I am made to kill
+        - Kill the hellborn
+        - Guess I regained my thrill
+    - lines:
+        - This job needs to be done
+        - I am the doom slayer
+        - I am the last player
+        - Call me the chosen one
+        - '''Cause I am the doom slayer'
+        - I am the last player
+    - lines:
+        - I'll burn all my enemies
+        - Got the fans
+        - Got the girls
+        - Oh, limbs keep dropping
+        - Bottles popping
+        - Party like the Kennedys
+---

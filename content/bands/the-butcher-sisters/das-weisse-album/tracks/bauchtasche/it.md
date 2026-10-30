@@ -1,0 +1,69 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Marsupio
+        - M-M-Marsupio
+        - Ho il marsupio
+        - Marsupio
+    - lines:
+        - Boom-chiki-wau, apri il marsupio
+        - Dimmi cosa vuoi, ho tutto quello che ti serve
+        - Simsalabim, te lo tiro fuori con la magia
+        - Dindindin, è il saldo delle zip (TBS)
+        - 'Guardi il mio pancino, dici: "Voglio anch''io quel cosino"'
+        - Togli le dita, o ti faccio male al braccino
+        - Il marsupio resta su, anche quando mi spoglio
+        - Persino mentre si fa l'amore il tubo pende sotto il
+    - lines:
+        - Marsupio
+        - Gli occhi si spalancano quando lo apriamo
+        - Hahahahaha, come ti prendo in giro
+        - Con lo zaino in discoteca, sì, sento come mi guardi
+        - Ey
+    - lines:
+        - Sul mio marsupio, lala-lala-la
+        - Sul mio marsupio, lala-lala-lala-la
+        - Oh baby, baby
+        - La tua zip mi fa impazzire
+        - Oh baby, baby, baby
+        - Così pazzo, pazzo, yeah
+    - lines:
+        - Zipp, zipp, zipp fa la zip del marsupio
+        - Ci sta dentro persino un'intera lattina di bir-
+        - -ra, non ci sta nei pantaloni
+        - Bevo la salsa di birra dalla lattina, quella grande
+        - La apro, la chiudo, la apro, la chiudo
+        - Apro, chiudo, apro, chiudo, apro, chiudo, apro, chiudo, apro, chiudo
+        - Zip aperta, zip chiusa
+        - Ho la sacca sulla pancia, canguro (Come l'animale)
+        - Zip chiusa, zip aperta
+        - E tiro fuori tutto, sì, tiro fuori tutto
+    - lines:
+        - Marsupio
+        - Gli occhi si spalancano quando lo apriamo
+        - Hahahahaha, come ti prendo in giro
+        - Con lo zaino in discoteca, sì, sento come mi guardi
+        - Ey
+    - lines:
+        - Sul mio marsupio, lala-lala-la
+        - Il mio marsupio, lala-lala-lala-la
+        - Oh baby, baby
+        - La tua zip mi fa impazzire
+        - Oh baby, baby, baby
+        - Così pazzo, pazzo, yeah
+    - lines:
+        - Tengo il mio marsupio verso il cielo
+        - E una lacrima di gioia mi esce dall'occhio
+        - Se mai ti perdessi, la mia vita è finita
+        - Marsupio, sei l'amore della mia vita, uwu
+        - (Ti amo, ti amo, ti amo)
+    - lines:
+        - Il mio marsupio, lala-lala-la
+        - Il mio marsupio, lala-lala-lala-la
+        - Oh baby, baby, baby
+        - La tua zip mi fa impazzire (Pazzo)
+        - Oh baby, baby, baby
+        - Così pazzo, pazzo, yeah
+---

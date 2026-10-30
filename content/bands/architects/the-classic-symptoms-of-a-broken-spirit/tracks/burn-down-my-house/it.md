@@ -1,0 +1,48 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Brucia la mia casa
+        - Mi darò la colpa io e nessun altro
+        - Cuore in bocca
+        - Sempre in dubbio sulla mia salute
+    - lines:
+        - Brucia la mia casa
+        - Mi darò la colpa io e nessun altro
+        - Cuore in bocca
+        - Mai in dubbio
+    - lines:
+        - Il tuo amore mi lascerà solo
+        - Ripetendo, "Oh, se solo"
+        - Mi dispiace, sono distrutto per tutto il tempo che passo
+        - Portandomi in giro a un punto di rottura
+        - Derivo come olio nell'acqua
+        - Giuro che sto bene
+        - Senti solo le parole che non dico
+        - Mi dispiace, i pensieri che non riesco a cogliere
+        - Dimmi che non c'è un lieto fine
+        - Sto derivando come olio nell'acqua
+    - lines:
+        - Brucia la mia casa
+        - Mi darò la colpa io e nessun altro
+        - Cuore in bocca
+        - Mai in dubbio
+    - lines:
+        - Il tuo amore mi lascerà solo
+        - Ripetendo, "Oh, se solo"
+        - Mi dispiace, sono distrutto per tutto il tempo che passo
+        - Portandomi in giro a un punto di rottura
+        - Derivo come olio nell'acqua
+        - Giuro che sto bene
+        - Senti solo le parole che non dico
+        - Mi dispiace, i pensieri che non riesco a cogliere
+        - Dimmi che non c'è un lieto fine
+        - Sto derivando come olio nell'acqua
+    - lines:
+        - Brucia la mia casa
+        - Mi darò la colpa io e nessun altro
+        - Cuore in bocca
+        - Sempre in dubbio sulla mia salute
+---

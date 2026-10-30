@@ -1,0 +1,103 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ammazzalo
+        - Niente placa la mia sete
+        - La mia anima si sta seccando
+        - Voglio liberarmi
+        - Ammazzami
+        - Cos'è questo bisogno bruciante
+        - Che cresce in me
+        - Dio voglio fermarlo
+        - Ma non riesco a liberarmi
+        - Fa parte di me
+        - Oh, questo bisogno bruciante
+        - Che fottutamente mi tiene intrappolato
+    - lines:
+        - Tutto ciò che c'è qui dentro è così intorpidito
+    - lines:
+        - Allora dimmi che cazzo ha di sbagliato in me
+        - Chi c'è da incolpare
+        - Se questo continua
+        - Non c'è nessun dio
+        - E dovresti fottutamente pregare, cara mia
+    - lines:
+        - Voglio toglierti il dolore
+        - Voglio solo prenderlo
+        - Prenderlo e non sentirlo
+        - Sto per ammazzarlo
+    - lines:
+        - Dici
+        - Che sono la tua maledizione
+        - No way
+        - Ti libererò, sono il tuo liberatore
+    - lines:
+        - Sto qui seduto a marcire
+        - Non c'è più ritorno
+        - Tutto il sangue che è stato versato
+        - Oh, lui ne sarebbe così fiero
+        - La mia mente sta impazzendo
+        - Non c'è ritorno
+        - Tutto il sangue che è stato versato
+        - Oh, le tue urla sono così forti
+    - lines:
+        - Ammazzalo
+        - Niente può placare la mia fame
+        - E sta diventando più forte
+        - Mi spezzerà
+        - Ammazzami
+        - Cos'è questo dolore in me
+        - Che si rivolge contro di me
+        - Dio voglio fermarlo
+        - Ma non riesco a liberarmi
+        - Fa parte di me
+        - Oh, questo bisogno bruciante
+        - Che fottutamente mi tiene intrappolato
+    - lines:
+        - Tutto ciò che c'è qui dentro è così
+    - lines:
+        - Voglio toglierti il dolore
+        - Voglio solo odiarla
+        - Odiarla e non sentirla
+        - Voglio solo ammazzarla
+    - lines:
+        - Dici
+        - Che sono la tua maledizione
+        - No way
+        - Ti libererò
+        - Sono il tuo liberatore
+    - lines:
+        - Allora dimmi che cazzo ha di sbagliato in me
+        - Chi c'è da incolpare
+        - Se questo continua?
+    - lines:
+        - Sto qui seduto a marcire
+        - Non c'è più ritorno
+        - Tutto il sangue che è stato versato
+        - Oh, lui ne sarebbe così fiero
+        - La mia mente sta impazzendo
+        - Non c'è ritorno
+        - Tutto il sangue che è stato versato
+        - Oh, le tue urla sono così forti
+    - lines:
+        - (Sto qui seduto a marcire
+        - Non c'è più ritorno
+        - Tutto il sangue che è stato versato
+        - Oh, lui ne sarebbe così fiero
+        - La mia mente sta impazzendo
+        - Non c'è ritorno
+        - Tutto il sangue che è stato versato
+        - Oh, le tue urla sono così forti)
+    - lines:
+        - Sto qui seduto a marcire
+        - Non c'è più ritorno
+        - Tutto il sangue che è stato versato
+        - Oh, lui ne sarebbe così fiero
+        - La mia mente sta impazzendo
+        - Non c'è ritorno
+        - Tutto il sangue che è stato versato
+        - Oh, le tue urla sono così forti
+---
