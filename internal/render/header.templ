@@ -11,7 +11,7 @@ templ Header(d PageData) {
 			<div class="site-nav-actions">
 				<a class="nav-link" href={ d.URL("") }>{ d.T("nav.home") }</a>
 				<a class="nav-link" href={ d.URL("bands") }>{ d.T("nav.bands") }</a>
-				@LangSwitch(d)
+				@LangSwitch(d, langSwitchData(d))
 				<button type="button" class="btn btn-sm btn-outline-secondary" data-theme-toggle="1">
 					{ d.T("nav.theme") }
 				</button>
