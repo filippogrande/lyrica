@@ -28,7 +28,7 @@ COPY . .
 RUN go mod tidy
 
 # 3) i file .templ diventano Go: senza questo passo il progetto non compila
-RUN go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate
+RUN go run github.com/a-h/templ/cmd/templ@v0.3.1070 generate
 
 # 4) CSS di terze parti (Bootstrap 5.3.8) dentro l'immagine.
 # Invocato come "bash scripts/..." e NON "./scripts/...": il file non ha il bit
