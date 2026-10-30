@@ -21,6 +21,12 @@
 # progetto: un database di CVE vecchio è peggio di un tool non pinnato. Trivy
 # si installa dallo script ufficiale, non dalla action, per lo stesso motivo:
 # una versione vecchia di Trivy è il modo più sicuro di lasciar passare una CVE.
+#
+# Il policy di gosec sta in .gosec.json. Esclusioni GLOBALI (G301 cartelle
+# 0755, G306 file 0644): i file generati devono essere leggibili dal server
+# non-root (uid 10001) del container, e G706 (log injection): i log usano solo
+# valori interni, nessun input utente. I falsi positivi puntuali si dichiarano
+# con #nosec e il motivo nel codice, mai in silenzio.
 
 name: Security
 
