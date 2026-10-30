@@ -11,7 +11,7 @@ alcune cose **no**, e dove mancano la riga lo dice. Per la lista completa, vedi
 | Layout comune con head, header sticky, footer, skip link, breadcrumb, ricerca live nell'header e nella 404 (indice JSON per lingua + JS vanilla, D110) | — |
 | Corsie della home, pagine Bands/band/album/brano con le loro griglie | PWA: `manifest.webmanifest` e `sw.js` |
 | Filtro alfabetico delle band, selettore lingua del brano (lato client) | Ads: banner e colonne laterali |
-| Lingue dell'interfaccia (it/en), hreflang, link al feed nel `<head>` | Fascia "chiedi altre canzoni" con link al form |
+| Lingue dell'interfaccia (it/en) con **switcher nell'header** (D111), hreflang, link al feed nel `<head>` | Fascia "chiedi altre canzoni" con link al form |
 | Contatori pubblici in home e nel footer | Tag `meta description` e `og:` per pagina |
 
 ## Principi
@@ -83,7 +83,8 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 
 | Componente | Note |
 |---|---|
-| **Header** | sticky; nome del sito, nav (Home / Bands), toggle tema, A-/A+; sotto `lg` nav in **offcanvas** |
+| **Header** | sticky; nome del sito, nav (Home / Bands), **switcher di lingua** (D111), toggle tema, A-/A+; sotto `lg` nav in **offcanvas** |
+| **Switcher di lingua** | **esistente (D111)**: link alla stessa pagina nell'altra lingua dell'interfaccia, etichetta bandiera+codice (`LangLabel`), accanto al toggle del tema; salva la scelta nel cookie `lyrica.lang` (vedi "Negoziazione") |
 | **Ricerca** | **esistente (D110)**: dropdown live nell'header e nella 404; indice JSON per lingua da `internal/build/search.go`, script `assets/js/search.js` (componente `SearchBox` in `internal/render/searchbox.templ`) |
 | **Breadcrumb** | su tutte le pagine interne |
 | **Card band** | foto se dichiarata (`image` in `band.md`), altrimenti **segnaposto con l'iniziale**; nome, paese, generi, numero di album |
@@ -409,7 +410,7 @@ Questa stessa semantica governa il **contatore delle lingue** in home e nel foot
 
 1. Richiesta a `/` → il server legge `Accept-Language` e redirige alla prima lingua supportata.
 2. Se nessuna lingua corrisponde → **italiano**.
-3. Il cambio lingua manuale nell'header è un **link** alla stessa pagina in un'altra lingua (nessun JS, nessun cookie).
+3. Il cambio lingua manuale nell'header è lo **switcher** (D111): un link alla stessa pagina nell'altra lingua dell'interfaccia, accanto al toggle del tema (`LangSwitch` in `internal/render/lang_switch.templ`, dati calcolati in `lang_switch.go` → `langSwitchData`; sulla 404, senza alternati, porta alla radice dell'altra lingua). Al clic `assets/js/lyrica.js` salva la scelta nel cookie **`lyrica.lang`** (1 anno, SameSite=Lax, path=/); la radice `/` (`internal/web/handlers.go`, const `LangCookie`) rispetta il cookie **prima** di Accept-Language — chi ha scelto torna nella sua lingua, chi non ha mai scelto continua con la negoziazione.
 
 ## Stringhe
 
