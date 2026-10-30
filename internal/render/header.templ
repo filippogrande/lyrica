@@ -1,10 +1,12 @@
 package render
 
-// Header è l'intestazione sticky: brand, navigazione, tema, dimensione testo.
+// Header è l'intestazione sticky: brand, ricerca, navigazione, tema, dimensione
+// testo. La ricerca sta fra brand e azioni: la casa della funzione più usata.
 templ Header(d PageData) {
 	<header class="site-header">
 		<nav class="container site-nav" aria-label={ d.T("nav.label") }>
 			<a class="site-brand" href={ d.URL("") }>Lyrica</a>
+			@SearchBox(d)
 			<div class="site-nav-actions">
 				<a class="nav-link" href={ d.URL("") }>{ d.T("nav.home") }</a>
 				<a class="nav-link" href={ d.URL("bands") }>{ d.T("nav.bands") }</a>

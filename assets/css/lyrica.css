@@ -660,6 +660,72 @@ main {
   display: block;
 }
 
+/* --- Ricerca live ------------------------------------------------------- */
+/* Il campo e il dropdown si mostrano solo con la classe .js (messa da theme.js
+   prima del primo paint): senza JS non c'è un campo che non funziona, non c'è
+   proprio il campo (D110). Il dropdown è assoluto rispetto al campo: la
+   navigazione con frecce/Invio/Esc sta in assets/js/search.js. */
+.search-box {
+  display: none;
+  position: relative;
+}
+
+.js .search-box {
+  display: block;
+  flex: 1 1 15rem;
+  max-width: 22rem;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  right: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0;
+  background: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+  z-index: 1040;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.search-item a {
+  display: block;
+  padding: 0.45rem 0.75rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.search-item.is-active a,
+.search-item a:hover {
+  background: var(--bs-secondary-bg);
+}
+
+.search-item-title {
+  font-weight: 600;
+}
+
+.search-item-meta {
+  font-size: 0.85rem;
+  color: var(--bs-secondary-color);
+}
+
+.search-item-verse {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--bs-secondary-color);
+  font-style: italic;
+}
+
+.search-empty {
+  padding: 0.45rem 0.75rem;
+  color: var(--bs-secondary-color);
+}
+
 /* --- Footer ------------------------------------------------------------- */
 
 .site-footer {

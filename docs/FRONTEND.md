@@ -8,7 +8,7 @@ alcune cose **no**, e dove mancano la riga lo dice. Per la lista completa, vedi
 
 | Esiste oggi | Previsto, non implementato |
 |---|---|
-| Layout comune con head, header sticky, footer, skip link, breadcrumb | Ricerca live nell'header (e nella 404) |
+| Layout comune con head, header sticky, footer, skip link, breadcrumb, ricerca live nell'header e nella 404 (indice JSON per lingua + JS vanilla, D110) | — |
 | Corsie della home, pagine Bands/band/album/brano con le loro griglie | PWA: `manifest.webmanifest` e `sw.js` |
 | Filtro alfabetico delle band, selettore lingua del brano (lato client) | Ads: banner e colonne laterali |
 | Lingue dell'interfaccia (it/en), hreflang, link al feed nel `<head>` | Fascia "chiedi altre canzoni" con link al form |
@@ -83,8 +83,8 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 
 | Componente | Note |
 |---|---|
-| **Header** | sticky; nome del sito, nav (Home / Bands), toggle tema, A-/A+; sotto `lg` nav in **offcanvas**. La **ricerca non c'è ancora** (FASE 4) |
-| **Ricerca** | **prevista, non esistente**: dropdown live nell'header |
+| **Header** | sticky; nome del sito, nav (Home / Bands), toggle tema, A-/A+; sotto `lg` nav in **offcanvas** |
+| **Ricerca** | **esistente (D110)**: dropdown live nell'header e nella 404; indice JSON per lingua da `internal/build/search.go`, script `assets/js/search.js` (componente `SearchBox` in `internal/render/searchbox.templ`) |
 | **Breadcrumb** | su tutte le pagine interne |
 | **Card band** | foto se dichiarata (`image` in `band.md`), altrimenti **segnaposto con l'iniziale**; nome, paese, generi, numero di album |
 | **Corsia (rail)** | elenco orizzontale: titolo (`.rail-heading`), link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie"); usata in home, nella **pagina Bands** e nelle pagine **band** e **album** |
@@ -268,13 +268,13 @@ La pagina di un album mostra, in quest'ordine (D89):
 │  └────────┘  aggiunto il … · voci …                      │
 ├──────────────────────────────────────────────────────────┤
 │  [ads]  │ ORIGINALE 🇩🇪 DE    │ TRADUZIONE [🇮🇹 IT ▾]  │  [ads]
-│  later. │  (nome cantante)    │  tradotto da …          │   (previsti,
+│  later. │  (nome cantante)    │ tradotto da …          │   (previsti,
 │         │  strofa 1           │  strofa 1               │    non esistenti)
 │  solo   │  (nome cantante)    │  (nome cantante)        │
 │  xl+    │  strofa 2           │  strofa 2               │
 ├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤   (previsto, non esistente)
 ├─ [ ads: banner largo e basso ] (se attive) ─────────────┤   (previsto, non esistente)
-├─ footer (link al feed, riga dei contatori) ─────────────┤
+├─ footer (link al feed, riga dei contatori) ─────────────┘
 ```
 
 Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è quello che fa partire i due testi insieme (D94, D95).
@@ -436,59 +436,57 @@ italiano) — `ARCHITECTURE.md`, "Limiti noti".
 
 # Ricerca full-text
 
-**Stato: prevista (FASE 4), non implementata.** Non esiste né l'indice (`public/search-index.json`)
-né l'endpoint (`GET /it/api/cerca`): `internal/web/routes.go` registra solo la radice, `/healthz` e
-il file server. Le sezioni che seguono descrivono **come sarà**.
+**Stato: implementata (D110).** La ricerca live è **tutta lato client**: **nessun endpoint, nessun
+HTMX**. Un indice JSON **per lingua dell'interfaccia** — `public/<lang>/search-index.json` — viene
+generato **a build time** (`internal/build/search.go` → `writeSearchIndex`) e scaricato **insieme
+alla pagina**; il dropdown la filtra in `assets/js/search.js` (JS vanilla, nessuna dipendenza).
 
 ## Cosa si cerca
 
 1. **Titoli** dei brani
 2. **Nomi** delle band
-3. **Versi** dei testi (originali e traduzioni)
+3. **Titoli** degli album
+4. **Versi** dei testi (originali e traduzioni)
 
 La ricerca per verso è la ragione per cui la ricerca esiste: chi ricorda "quella frase" non ricorda il titolo.
 
 ## Indice
 
-- Costruito **a build time** e salvato in `public/` come **JSON** unico: nessun database, nessun servizio esterno.
-- Ogni voce: tipo (`track` \| `band`), titolo, band, lingue disponibili, URL, versi normalizzati.
-- **Normalizzazione** a build time: minuscole, rimozione dei segni diacritici, spazi collassati, punteggiatura ignorata.
-- L'indice è caricato in memoria dal server all'avvio: ricerca istantanea, niente I/O per richiesta.
+- **Un JSON per lingua**, in `public/<lang>/search-index.json` (niente file unico alla root e niente
+  endpoint: il file si genera a build time e si scarica con la pagina).
+- Generato da `writeSearchIndex` (`internal/build/search.go`): gli stessi brani che hanno pagina
+  (`HasTranslations`), le stesse band e gli stessi album dei link della sitemap — una pagina
+  indicizzata è una pagina raggiungibile.
+- Ogni voce: tipo (`track` | `band` | `album`), titolo, band, album, URL e i **versi** del brano
+  (tutti i blocchi, originali e traduzioni: un verso si trova qualunque sia la lingua).
+- Le righe stanno **come sono scritte**: la **normalizzazione** — minuscole, accenti e umlaut rimossi
+  (`NFD`), `ß` → `ss` — la fa **il browser**, la **stessa** su query e su testo (`strip()` in
+  `assets/js/search.js`): chi scrive "Fur Elise" trova "Für Elise".
 
-## Endpoint
+## Dropdown (JS vanilla)
 
-`GET /it/api/cerca?q=<query>`
-
-- Restituisce un **frammento HTML** già renderizzato (per HTMX), non JSON: il risultato è nella lingua dell'interfaccia senza JS che lo dipinge.
-- Massimo **10 risultati**; se ce ne sono altri, l'ultima voce è "affina la ricerca", non una paginazione.
-- Query sotto i **2 caratteri**: risposta vuota, nessuna richiesta inutile.
-- Rate-limit per IP, per non trasformare la ricerca in un endpoint da abusare.
-
-## Interfaccia
-
-- Campo nell'header; digitando, HTMX aggiorna il dropdown con **debounce ~200 ms**.
-- Ogni risultato mostra **titolo del brano + band**, mai uno snippet del verso.
-- Navigazione da **tastiera** (frecce, invio) e ruoli ARIA corretti (`combobox`/`listbox`).
-- **Esc** chiude e svuota; click fuori chiude.
-- Senza risultati: messaggio breve, non un errore.
-
-## Ordinamento (rilevanza)
-
-1. Match nel **titolo**
-2. Match nel nome della **band**
-3. Match nel **verso**
-
-A parità di categoria: prima i brani con più lingue, poi ordine alfabetico. Nessun punteggio opaco: l'ordine è spiegabile a voce.
+- Il campo sta nell'**header di tutte le pagine** e nella **404**: componente `SearchBox` in
+  `internal/render/searchbox.templ`, incluso da `Header` (`internal/render/header.templ`) e da
+  `NotFound` (`internal/render/error.templ`); lo script è `assets/js/search.js`.
+- **Debounce ~180 ms**; servono almeno **2 caratteri**; massimo **8 risultati**.
+- Risultato = **titolo + band · album** (per i brani, con il **verso** fra virgolette quando il match
+  è nel testo); nessuna pagina di risultati.
+- Ordinamento: **band → album → brano**, e per i brani prima il match su **titolo/band/album**, poi
+  il **verso**: i nomi prima dei testi, senza punteggi opachi.
+- L'indice si scarica **una volta** (`fetch` con `cache: force-cache`) e le righe si
+  **pre-normalizzano** al caricamento: il controllo a ogni tasto non rifà il lavoro per ogni verso.
+- **Navigazione da tastiera** (frecce su/giù, invio, Esc) e ruoli ARIA corretti
+  (`combobox`/`listbox`); Esc chiude e svuota, click fuori chiude, senza risultati un messaggio
+  breve, non un errore.
+- **Senza JS il campo non esiste**: campo e dropdown stanno nel DOM ma si mostrano **solo con la
+  classe `.js`** che `theme.js` mette su `<html>` prima del paint (stessa convenzione dei menu lingua,
+  D92) — lo script **aggiunge, non nasconde**, quindi a chi non ha JS non va tolto niente.
 
 ## Cosa NON fa
 
 - Nessuna pagina di risultati dedicata.
 - Nessuna ricerca semantica, nessun sinonimo, nessuna tolleranza ai refusi: se servirà, sarà una decisione nuova.
 - Nessuna cronologia, nessun suggerimento personalizzato.
-
-La ricerca starà nell'header di tutte le pagine e nella **404**: chi sbaglia URL deve poter cercare
-subito. **Oggi nessuna delle due ha il campo**: l'header (`internal/render/header.templ`) ha solo
-brand, Home, Bands, tema e A-/A+; la 404 (`internal/render/error.templ`) ha messaggio e link alla home.
 
 ---
 
@@ -510,7 +508,7 @@ Un testo tradotto serve spesso **senza rete** (in metro, in aereo, in un posto s
 - Scritto a mano, poche decine di righe, **nessun tool di build**.
 - **In cache**: CSS, font, JS minimo (shell) e le **pagine dei brani visitate**.
 - Strategie: shell **cache-first** (aggiornata con la versione dell'app); pagine brano **stale-while-revalidate**; cover cache-first.
-- **Non in cache**: risposte di ricerca e form — meglio un errore chiaro che un comportamento ambiguo.
+- **Non in cache**: solo le risposte dei form (quando esisteranno) — meglio un errore chiaro che un comportamento ambiguo. La ricerca non ha risposte di rete: `search-index.json` è un **file statico** e si cachea come gli altri asset (D110).
 
 ## Cosa funziona offline
 
@@ -521,7 +519,7 @@ Un testo tradotto serve spesso **senza rete** (in metro, in aereo, in un posto s
 | Menu della lingua del brano (originale e traduzione) | sì (è locale) |
 | Cambio tema e dimensione testo | sì (è locale) |
 | Filtro alfabetico delle band | sì (è locale) |
-| Ricerca | no (avviso chiaro) |
+| Ricerca | sì (indice JSON lato client, D110) |
 | Segnalazioni e contatti | no (il form lo dice prima dell'invio) |
 | Nuove traduzioni non ancora aperte | no |
 

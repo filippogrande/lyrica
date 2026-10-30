@@ -1,0 +1,17 @@
+package render
+
+// SearchBox è il campo di ricerca live (D110): indice JSON generato a build
+// time, filtro lato client in assets/js/search.js. Il campo e il dropdown
+// stanno nel DOM e si mostrano solo con la classe .js (theme.js la mette prima
+// del primo paint): senza JS non c'è niente da nascondere e niente da cercare.
+templ SearchBox(d PageData) {
+	<div class="search-box" data-lang={ d.Lang }>
+		<input class="form-control" type="search" id="search-input"
+			placeholder={ d.T("search.placeholder") }
+			role="combobox" aria-expanded="false" aria-controls="search-results"
+			aria-label={ d.T("search.label") }
+			autocomplete="off" spellcheck="false"/>
+		<ul class="search-dropdown" id="search-results" role="listbox"
+			data-empty={ d.T("search.no_results") } hidden></ul>
+	</div>
+}

@@ -25,7 +25,7 @@ type pageWriter struct {
 	// pagina (home e footer li mostrano, e non possono divergere).
 	stats render.SiteStats
 	// pages conta le pagine HTML, files i file non-HTML (rss.xml, sitemap.xml,
-	// robots.txt): il riepilogo della build li distingue.
+	// robots.txt, search-index.json): il riepilogo della build li distingue.
 	pages int
 	files int
 }
@@ -41,7 +41,8 @@ func newPageWriter(outputDir string, bundle i18n.Bundle, catalog *content.Catalo
 	}
 }
 
-// writeLang genera tutte le pagine di una lingua e il suo feed RSS.
+// writeLang genera tutte le pagine di una lingua, il suo indice di ricerca e
+// il suo feed RSS.
 func (w *pageWriter) writeLang(lang string) error {
 	home := render.BuildHomeView(w.pageData(lang, "", w.bundle.MustT(lang, "home.title")), w.catalog)
 	if err := w.write(lang, "", render.Home(home)); err != nil {
@@ -59,6 +60,9 @@ func (w *pageWriter) writeLang(lang string) error {
 		}
 	}
 	if err := w.writeNotFound(lang); err != nil {
+		return err
+	}
+	if err := w.writeSearchIndex(lang); err != nil {
 		return err
 	}
 	return w.writeFeed(lang)

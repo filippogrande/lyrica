@@ -15,6 +15,10 @@ a11y.text_bigger: "Make text bigger"
 
 a11y.breadcrumb: "Breadcrumb"
 
+search.label: "Search the lyrics"
+search.placeholder: "Search a verse, a song or a band…"
+search.no_results: "No results"
+
 home.title: "Lyrica"
 home.lead: "Translations of song lyrics, with the original and the translation side by side."
 home.no_content: "Nothing published yet."
