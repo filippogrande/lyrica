@@ -44,6 +44,7 @@ un simbolo, aggiorni la mappa **nella stessa PR**.
 | Dove vive il dominio pubblico (gli URL assoluti)? | `docs/ARCHITECTURE.md` | `internal/build/urls.go` | `siteBaseURL`, `absoluteURL` |
 | Dove si decide quali lingue d'interfaccia vengono generate? | `docs/FRONTEND.md` | `internal/build/build.go` | `interfaceLangs` |
 | Dove si copiano asset e cover dentro `public/`? | `docs/ARCHITECTURE.md` | `internal/build/assets.go` | `copyAssets`, `copyCovers` |
+| Dove si genera l'indice di ricerca (per lingua)? | docs/FRONTEND.md | internal/build/search.go | writeSearchIndex |
 
 ### Rendering e interfaccia
 
@@ -61,6 +62,7 @@ un simbolo, aggiorni la mappa **nella stessa PR**.
 | Dove si costruisce la corsia degli album (riusata in pagina band e album)? | `docs/FRONTEND.md` | `internal/render/album_rail.go` | `newAlbumRail` |
 | Dove sta la struttura comune di ogni pagina (head, header, footer)? | `docs/FRONTEND.md` | `internal/render/layout.templ` | `Layout` |
 | Dove si scrive la riga dei contatori? | `docs/FRONTEND.md` | `internal/render/stats.templ` | `StatsLine`; i numeri in `internal/render/stats.go` → `SiteStats.Line` |
+| Dove sta il campo di ricerca e il dropdown? | docs/FRONTEND.md | internal/render/searchbox.templ | SearchBox; assets/js/search.js |
 
 ### Server, runtime e i18n
 
