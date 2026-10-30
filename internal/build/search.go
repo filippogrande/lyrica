@@ -35,7 +35,7 @@ type searchBand struct {
 // searchAlbum è un album pubblicato.
 type searchAlbum struct {
 	Title string `json:"title"`
-	Band  string `json:"band"`
+	Band  string   `json:"band"`
 	Path  string `json:"path"`
 }
 
@@ -103,8 +103,9 @@ func (w *pageWriter) writeSearchIndexFile(lang string, idx searchIndex) error {
 		return fmt.Errorf("indice di ricerca %s: %w", lang, err)
 	}
 	target := filepath.Join(lang, "search-index.json")
-	// #nosec G304 -- target deriva da w.outputDir e dal catalogo (repo), mai
-	// da input di rete.
+	// #nosec G304,G306 -- target deriva da w.outputDir e dal catalogo (repo),
+	// mai da input di rete; 0644 perché il sito pubblico deve essere leggibile
+	// dal container non-root (uid 10001), come in writeRaw.
 	if err := os.WriteFile(filepath.Join(w.outputDir, target), data, 0o644); err != nil {
 		return fmt.Errorf("scrittura di %s: %w", target, err)
 	}
