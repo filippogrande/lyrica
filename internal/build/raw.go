@@ -13,9 +13,13 @@ import (
 // un file saltato: un feed a metà è un feed rotto, e nessuno se ne accorgerebbe.
 func (w *pageWriter) writeRaw(relative string, data []byte) error {
 	target := filepath.Join(w.outputDir, relative)
+	// #nosec G301 -- output del sito pubblico: 0755 voluto, il server non-root
+	// (uid 10001) del container deve attraversare le cartelle.
 	if err := os.MkdirAll(filepath.Dir(target), 0o755); err != nil {
 		return fmt.Errorf("creazione di %s: %w", filepath.Dir(target), err)
 	}
+	// #nosec G306 -- file pubblico generato: 0644 voluto, il server non-root
+	// (uid 10001) deve leggerlo.
 	if err := os.WriteFile(target, data, 0o644); err != nil {
 		return fmt.Errorf("scrittura di %s: %w", target, err)
 	}

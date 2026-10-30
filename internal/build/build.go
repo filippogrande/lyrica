@@ -124,6 +124,8 @@ func prepareOutput(dir string) error {
 	if err := os.RemoveAll(dir); err != nil {
 		return fmt.Errorf("pulizia di %s: %w", dir, err)
 	}
+	// #nosec G301 -- output del sito pubblico: 0755 voluto, il server non-root
+	// (uid 10001) del container deve attraversare le cartelle.
 	if err := os.MkdirAll(dir, 0o755); err != nil {
 		return fmt.Errorf("creazione di %s: %w", dir, err)
 	}

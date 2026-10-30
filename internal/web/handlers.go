@@ -35,6 +35,8 @@ func serveNotFound(w http.ResponseWriter, r *http.Request, bundle i18n.Bundle, r
 	lang := bundle.Negotiate(r.Header.Get("Accept-Language"))
 	body, err := root.ReadFile(filepath.Join(lang, "404.html"))
 	if err != nil {
+		// #nosec G706 -- lang esce da Negotiate su set fisso di lingue, mai da
+		// input grezzo; err è un errore di os, non testo controllabile.
 		log.Printf("404 generata non trovata (%s): %v", lang, err)
 		http.Error(w, "404 page not found", http.StatusNotFound)
 		return
