@@ -46,10 +46,13 @@ func newBand(args []string) error {
 		return err
 	}
 	dir := filepath.Join(contentDir, "bands", slug)
+	// #nosec G301 -- contenuti del repo: 0755 voluto, git e i tool devono
+	// attraversare le cartelle.
 	if err := os.MkdirAll(dir, 0o755); err != nil {
 		return fmt.Errorf("creazione cartella %s: %w", dir, err)
 	}
 	path := filepath.Join(dir, "band.md")
+	// #nosec G306 -- contenuti del repo: 0644 voluto, leggibili da git e CI.
 	if err := os.WriteFile(path, []byte(doc), 0o644); err != nil {
 		return fmt.Errorf("scrittura di %s: %w", path, err)
 	}
