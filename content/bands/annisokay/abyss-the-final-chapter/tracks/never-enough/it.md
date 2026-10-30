@@ -1,0 +1,76 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Annegando in profondità nel dolore
+        - La guerra dentro di me
+        - Sono il mio peggior nemico
+    - lines:
+        - Mi sveglio nel mezzo di uno scontro a fuoco
+        - Munizioni nella trincea della mia mente annebbiata
+        - Il campo di battaglia dei miei errori
+        - E sogni lacerati tutti ridotti a nada
+    - lines:
+        - Sotto cieli oscuri accendo la mia anima
+        - Do fuoco alla miccia in un mondo diventato freddo
+        - Dietro le linee nemiche
+        - In cerca di una scintilla di vita
+    - lines:
+        - Voglio essere invulnerabile
+        - Sfonderare la nostra incredulità
+        - Non voglio diventare paranoico
+        - Cercando cose che non posso vedere
+        - Quando tutti i muri crollano
+        - Combattiamo per avere spazio per respirare
+        - E sento l'alba sopra di noi
+        - Calda al tatto
+        - Ma non è mai abbastanza
+        - Ma non è mai abbastanza
+    - lines:
+        - L'arma del dubbio, un attacco inesauribile
+        - Schegge si conficcano più a fondo nella schiena
+        - Paura e sfiducia girano sopra le nostre teste
+        - Sono legato a ciò che temo
+    - lines:
+        - Sotto cieli oscuri accendo la mia anima
+        - Do fuoco alla miccia in un mondo diventato freddo
+        - Dietro le linee nemiche
+        - In cerca di una scintilla di vita
+    - lines:
+        - Voglio essere invulnerabile
+        - Sfonderare la nostra incredulità
+        - Non voglio diventare paranoico
+        - Cercando cose che non posso vedere
+        - Quando tutti i muri crollano
+        - Combattiamo per avere spazio per respirare
+        - E sento l'alba sopra di noi
+        - Calda al tatto
+        - Ma non è mai abbastanza
+    - lines:
+        - Il mio disprezzo
+        - Il mio peccato
+        - Lascio che tutto si insinui sotto la mia pelle
+        - Il mio disprezzo
+        - Il mio peccato
+        - Lascio che tutto si insinui sotto la mia pelle
+        - Me ne fotte un cazzo
+    - lines:
+        - Lascio che tutto si insinui sotto la mia pelle
+        - Me ne fotte un cazzo
+        - Me ne fotte un cazzo
+        - Lascio che tutto si insinui dentro
+    - lines:
+        - (Voglio essere invulnerabile
+        - Sfonderare la nostra incredulità
+        - Non voglio diventare paranoico
+        - Cercando cose che non posso vedere)
+        - Quando tutti i muri crollano
+        - Combattiamo per avere spazio per respirare
+        - E sento l'alba sopra di noi
+        - Calda al tatto
+        - Ma non è mai abbastanza...
+    - lines:
+        - (Lascio che tutto si insinui sotto la mia pelle)
+---

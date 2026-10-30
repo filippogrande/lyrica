@@ -1,0 +1,81 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Wir fahrn nach wacken
+        - Einmal im jahr
+        - Wir fahrn nach wacken
+        - Schalalala
+        - Wir fahrn nach wacken
+        - Einmal im jahr
+        - Sing mit 3 promille fear of the dark
+    - lines:
+        - Ich hab den Campingstuhl
+        - Ich hab den Aufblaspool
+        - Ich hab das Dosenbier dabei
+    - lines:
+        - Ravioli Dose
+        - Nur eine Unterhose
+        - Ich rieche kühe und ich schrei
+    - lines:
+        - Ich will slayer sehn
+        - Danach will ich zu iron maiden gehn
+        - Fear of the dark
+        - Ich bin voller Matsch
+        - Oh Gott ich liebe das
+        - Ich such die ganze nacht
+        - Helga auf dem Campingplatz
+    - lines:
+        - Alle metalheads sind brüder im geiste
+        - Metal ist einfach das geilste
+    - lines:
+        - Wir fahrn nach wacken
+        - Einmal im jahr
+        - Wir fahrn nach wacken
+        - Schalalala
+        - Wir fahrn nach wacken
+        - Einmal im jahr
+        - Sing mit 3 promille fear of the dark
+    - lines:
+        - Ich guck die feuerwehr
+        - Ich sauf mein trinkhorn leer
+        - Ich schaff es nicht zum dixi klo
+    - lines:
+        - Und nach der wall of death
+        - Hab ich ein blauen fleck
+        - Mein metalherz brennt lichterloh yeah
+    - lines:
+        - Ich will Slipknot sehn
+        - Danach will ich zu guns n roses gehn
+        - Wooohooohooo
+    - lines:
+        - Wirklich Jedes jahr
+        - Fahr ich zum WOA
+        - Bring mich nach wacken
+        - Mein herz ist schon da
+    - lines:
+        - Alle metalheads sind schwestern im geiste
+        - Metal ist einfach das geilste
+    - lines:
+        - Wir fahrn nach wacken
+        - Einmal im jahr
+        - Wir fahrn nach wacken
+        - Schalalala
+        - Wir fahrn nach wacken
+        - Einmal im jahr
+        - Sing mit 3 promille fear of the dark
+    - lines:
+        - Komm mit nach Wacken
+        - Komm mit nach Wacken
+        - In das gelobte Land
+        - Reich mir die Hand
+    - lines:
+        - Wir fahrn nach wacken
+        - Einmal im jahr
+        - Wir fahrn nach wacken
+        - Schalalala
+        - Wir fahrn nach wacken
+        - Einmal im jahr
+        - Sing mit 3 promille fear of the dark
+---

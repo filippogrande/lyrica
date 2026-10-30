@@ -1,0 +1,69 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Corpo caldo (Corpo caldo)
+        - Croce ardente (Croce ardente)
+        - Giudizio falso (Giudizio falso)
+        - Tomba fredda (Tomba fredda)
+    - lines:
+        - Sulla croce ora giaccio
+        - Mi piantano i chiodi dentro
+        - Il fuoco lava l'anima
+        - E resta solo una bocca piena di
+        - Cenere
+    - lines:
+        - Tornerò (Tornerò)
+        - Fra dieci giorni (Tornerò)
+        - Come la tua ombra (Tornerò)
+        - E ti darò la caccia (Tornerò)
+    - lines:
+        - Risorgerò di nascosto
+        - E tu implorerai grazia
+        - Poi mi inginocchio sulla tua faccia
+        - E infilo il dito nella
+    - lines:
+        - Cenere
+        - Cenere
+        - Cenere
+        - Cenere
+        - Cenere in cenere
+        - Cenere in cenere
+        - Cenere in cenere
+        - E polvere alla polvere
+    - lines:
+        - Risorgerò di nascosto
+        - E tu implorerai grazia
+        - Poi mi inginocchio sulla tua faccia
+        - E infilo il dito nella
+    - lines:
+        - Cenere in cenere
+        - Cenere in cenere
+        - Cenere in cenere
+        - E polvere alla polvere
+    - lines:
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - E polvere alla polvere (Polvere, polvere, polvere, polvere)
+    - lines:
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - E polvere alla polvere (Polvere, polvere, polvere, polvere)
+    - lines:
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - Cenere in cenere (Polvere, polvere, polvere, polvere)
+        - E polvere alla polvere (Polvere, polvere, polvere, polvere)
+    - lines:
+        - Polvere alla polvere (Polvere, polvere, polvere, polvere) (Tornerò)
+        - Polvere alla polvere (Polvere, polvere, polvere, polvere)
+        - Polvere alla polvere (Polvere, polvere, polvere, polvere)
+        - Polvere alla polvere (Polvere, polvere, polvere, polvere)
+        - Polvere alla polvere (Polvere, polvere, polvere, polvere) (Tornerò)
+        - Polvere alla polvere (Polvere, polvere, polvere, polvere)
+        - Polvere alla polvere (Polvere, polvere, polvere, polvere)
+        - Polvere alla polvere, sì! (Polvere, polvere, polvere, polvere)
+---

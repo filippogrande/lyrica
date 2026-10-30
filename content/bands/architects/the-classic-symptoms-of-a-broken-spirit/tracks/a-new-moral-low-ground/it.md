@@ -1,0 +1,69 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sabbia che mi scricchiola fra i denti
+        - Immagino di potermi fermare se ti sto abbattendo
+        - Mi terrò al guinzaglio
+        - Se sono nato per essere impiccato non annegarò mai
+    - lines:
+        - Una piuma mi ha abbattuto
+        - Oh, che peccato
+        - Ero in piedi tra le fauci della sconfitta
+        - Provando a combattere per un nuovo basso morale
+    - lines:
+        - Vedo i parallelismi quando i peccatori sono
+        - A reggere le frecce
+    - lines:
+        - Nessun sentimento rimasto
+        - Eppure stiamo morendo di sapere
+        - Ma è il prezzo che paghi per il tuo dolore
+    - lines:
+        - Un amore per il tuo nemico
+        - Due passi dal bordo della tua sanità
+        - Tre strike per la cavalleria
+        - Mi tagli fino all'osso
+        - Quattro muri che non vedrai mai
+        - Cinque attende un assaggio di umanità
+        - Sei piedi, che tragedia
+        - Mi tagli fino all'osso
+    - lines:
+        - Perché non ti fermi?
+        - È solo un gioco ma viviamo sul bordo del sedile
+        - Ci piace e non siamo facili da convincere
+        - Sentiamo il pugnale girare quando ci troviamo davanti la via stretta e dritta
+    - lines:
+        - Nessun sentimento rimasto
+        - Eppure stiamo morendo di sapere
+        - Ma è il prezzo che paghi per il tuo dolore
+    - lines:
+        - Un amore per il tuo nemico
+        - Due passi dal bordo della tua sanità
+        - Tre strike per la cavalleria
+        - Mi tagli fino all'osso
+        - Quattro muri che non vedrai mai
+        - Cinque attende un assaggio di umanità
+        - Sei piedi, che tragedia
+        - Mi tagli fino all'osso
+    - lines:
+        - Dio sa che ti sto abbattendo
+        - Sabbia che mi scricchiola fra i denti
+        - Immagino di potermi fermare se ti sto abbattendo
+    - lines:
+        - Mi terrò al guinzaglio
+        - Se sono nato per essere impiccato non annegarò mai
+        - (Non annegarò mai)
+        - (Sabbia che mi scricchiola fra i denti)
+        - (Dio sa che ti sto abbattendo)
+    - lines:
+        - Un amore per il tuo nemico
+        - Due passi dal bordo della tua sanità
+        - Tre strike per la cavalleria
+        - Mi tagli fino all'osso
+        - Quattro muri che non vedrai mai
+        - Cinque attende un assaggio di umanità
+        - Sei piedi, che tragedia
+        - Mi tagli fino all'osso
+---

@@ -1,0 +1,72 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - What's up, I'm Detlef D! Soost
+        - I dance with the bros, dance, dance
+        - With the bros
+        - What's up, I'm Detlef D! Soost
+        - I dance with the bros, dance, dance
+        - With the bros
+    - lines:
+        - I'm wanted by the cops
+        - Cause I dance too hot (aha)
+        - The club is electrified
+        - Like an electric shock
+        - Oh my god, oh my god, I dance
+        - Like a god
+        - These moves are so smooth, people
+        - Don't believe it (no way)
+        - I can dance to anything – I've
+        - Learnt it, learnt
+        - Step on the ground – so tight that
+        - It burns, burns
+        - I'm a handsome man in middle age
+        - In the club everybody says "Whoa, old man"
+    - lines:
+        - Mama says, get yourself a pro-
+        - Per job
+        - But I don't feel like it, no
+        - I don't feel like it, no
+        - I just wanna dance
+        - I just wanna dance
+        - I just wanna dance
+        - I just wanna dance
+    - lines:
+        - What's up, I'm Detlef D! Soost
+        - I dance with the bros, dance, dance
+        - With the bros
+        - What's up, I'm Detlef D! Soost
+        - I dance with the bros, dance, dance
+        - With the bros
+    - lines:
+        - Go digital with Tanzomon
+        - TBS featuring Callejon
+        - PAM PAM, I'm bird in the sky
+        - Dance past and fly, fly like a fly
+        - PAM PAM, I dance like shit
+        - Who wants a ride on my disco stick?
+        - Here we go, 5, 6, 7, 8!
+        - I wanna dance
+        - I wanna dance
+    - lines:
+        - Dance
+        - I just wanna dance
+        - I'm ready
+        - Baby dance
+        - Into the light
+    - lines:
+        - And if you take my hand now, bro
+        - Then I'll show you how to dance just like Soost
+        - Don't be scared, I'll show you all the moves
+        - First the 6, then the 7, then the 8, then off we go
+        - Let's go
+    - lines:
+        - What's up, I'm Detlef D! Soost
+        - I dance with the bros, dance, dance
+        - With the bros
+        - What's up, I'm Detlef D! Soost
+        - I dance with the bros, dance, dance
+        - With the bros
+---

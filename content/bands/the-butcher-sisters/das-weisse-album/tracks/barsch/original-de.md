@@ -1,0 +1,50 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Fischi, Fischi, yo, Fischi, yo, Fischi, yeah
+        - Fischi, Fischi, yo, Fischi, yo, Fischi, yeah
+        - Rochen Roll
+    - lines:
+        - Hai (Wo?), ich bin ein Fisch
+        - Habe Kiemen und Gesicht so wie ein Fisch
+        - Ich bin aalglatt wie ein Aal
+        - Dieses Lied ist Killer wie ein Wal
+        - Du willst ein Foto mit mir, doch dein Handy ist leer
+        - Frag den Fisch, schau, ich hab' ein Ladekabeljau
+        - Ich bin Barsch (Hey), Barsch (Ho), Barsch (Hey)
+        - Vom Hecht wird mir schlecht, hüah
+    - lines:
+        - Barsch, Barsch, Barsch, Barsch
+        - Barsch, Barsch, Barsch, Barsch
+        - Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-...
+    - lines:
+        - Leck mich am Barsch, Barsch, Barsch, Barsch
+        - Leck mich am Barsch, Barsch, Barsch, Barsch
+        - Leck mich am Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+        - Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+    - lines:
+        - Du bist ein cooler Fisch? Ich lachse mich tot
+        - Was ist dein Lieblingsfisch? (Barsch) Delfin ich gut
+        - Mein Name Alex Zander, ich lebe water under
+        - 'Schmeiß'' die Guppys durch den Club und schrei'': "Blub, blub"'
+        - 'Schmeiß'' die Guppys durch den Club und schrei'': "Blub, blub"'
+        - 'Schmeiß'' die Guppys durch den Club und schrei'': "Blub, blub"'
+        - Ich bin Barsch (Hey), Barsch (Ho), Barsch (Hey)
+        - Vom Hecht wird mir schlecht, hüah
+    - lines:
+        - Barsch, Barsch, Barsch, Barsch
+        - Barsch, Barsch, Barsch, Barsch
+        - Ba-, Ba-, Ba-, Ba-, Ba-Ba-Ba-Ba-...
+    - lines:
+        - Leck mich am Barsch, Barsch, Barsch, Barsch
+        - Leck mich am Barsch, Barsch, Barsch, Barsch
+        - Leck mich am Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch
+        - Ba-Ba-Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Barsch, Ba-Ba-
+    - lines:
+        - 'Schmeiß'' die Guppys durch den Club und schrei'': "Blub, blub"'
+        - 'Schmeiß'' die Guppys durch den Club und schrei'': "Blub, blub"'
+        - 'Schmeiß'' die Guppys durch den Club und schrei'': "Blub, blub"'
+        - Schmeiß' die Guppys durch den Club
+---

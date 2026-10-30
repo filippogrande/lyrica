@@ -1,0 +1,88 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Vai
+    - lines:
+        - Fari che brillano nella notte
+        - Non ci serve la luce del giorno, sembra che non moriremo mai
+        - Siamo inarrestabili, siamo incredibili
+        - E sento che lo sanno tutti
+    - lines:
+        - Voglio scuotermi
+        - E puoi guardarmi dominare la pista
+        - Voglio scuotermi
+        - Sc-scotomelo, scotomelo, uh
+        - Voglio scuotermi
+        - E puoi guardarmi dominare la pista
+        - Voglio scuotermi
+        - Ovunque io vada
+    - lines:
+        - (Accendiamo il divertimento, siamo pronti a partire
+        - Tieniti gli amici vicini e lascia girare i bei tempi)
+        - Accendiamo il divertimento, siamo pronti a partire
+        - Tieniti gli amici vicini e lascia girare i bei tempi
+        - Prendi la tua borsa, vieni con noi, suona la tua canzone preferita
+        - Sgrida dal profondo e lascia girare i bei tempi
+    - lines:
+        - Whoa
+        - Non lo lasceremo mai
+        - E lascia girare i bei tempi
+        - Non lo lasceremo mai
+        - Facciamo girare i bei tempi
+        - E lascia girare i bei tempi
+    - lines:
+        - Il sole splende sul mio viso
+        - Mi sento così in alto, era questo che aspettavo
+        - Per un sacco di tempo, me ne andrò e lascerò tutto indietro
+        - Il meglio deve ancora venire
+    - lines:
+        - Voglio scuotermi
+        - E puoi guardarmi dominare la pista
+        - Voglio scuotermi
+        - Sc-scotomelo, scotomelo, uh
+        - Voglio scuotermi
+        - E puoi guardarmi dominare la pista
+        - Voglio scuotermi
+        - Ovunque io vada
+    - lines:
+        - Accendiamo il divertimento, siamo pronti a partire
+        - Tieniti gli amici vicini e lascia girare i bei tempi
+        - Prendi la tua borsa, vieni con noi, suona la tua canzone preferita
+        - Sgrida dal profondo e lascia girare i bei tempi
+    - lines:
+        - Whoa
+        - Non lo lasceremo mai
+        - E lascia girare i bei tempi
+        - Non lo lasceremo mai
+    - lines:
+        - Ehi, mi vedi muovere
+        - Il culo per voi
+        - Ti piace, ti piace
+        - Senti il groove
+        - Adesso è il tuo momento
+        - Muoviti
+        - Uno, due, tre
+        - Quattro, cinque, cinque, sei, via!
+        - Ritmo
+        - Sc-scotomelo, scotomelo, uh
+        - Ritmo
+    - lines:
+        - Whoa
+        - Non lo lasceremo mai
+        - E lascia girare i bei tempi
+        - Non lo lasceremo mai
+    - lines:
+        - Accendiamo il divertimento, siamo pronti a partire
+        - Tieniti gli amici vicini e lascia girare i bei tempi
+        - Prendi la tua borsa, vieni con noi, suona la tua canzone preferita
+        - Sgrida dal profondo e lascia girare i bei tempi
+    - lines:
+        - Whoa
+        - Non lo lasceremo mai
+        - E lascia girare i bei tempi
+        - Non lo lasceremo mai
+        - Facciamo girare i bei tempi
+---

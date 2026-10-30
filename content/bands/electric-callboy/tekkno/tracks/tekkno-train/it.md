@@ -1,0 +1,82 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Salite, salite
+        - Sul treno Tekkno adesso
+        - Prendete il vostro posto
+        - Apritevi, sentite il basso che picchia dentro di voi
+        - Tremante tremante, sudato sudato
+        - Tu rendi il mio spaghetti pronto
+        - Scalda la salsa, è una cena per uno
+    - lines:
+        - Meglio che ti aggrappi forte
+        - Perché stiamo ripartendo
+        - Attraverso le terre umide, dove la natura è semplice
+        - E quando diventa un casino ne do la colpa
+        - Perché ho bisogno che tu resti sul mio treno Tekkno
+    - lines:
+        - C'è tutto un mondo nuovo
+        - Che devi esplorare, è il suono della rotaia
+        - Che ami e adorì, stiamo proseguendo e proseguendo
+        - Attraverso la valle dell'amore
+        - Perché tutto quello che hai è ciò
+        - Tutto quello che hai è ciò che voglio
+    - lines:
+        - Destinazione amore
+        - Piacere lassù in alto
+        - Non puoi davvero fermare il calore
+        - Ho il rossetto sui piedi
+        - Leccoso, leccoso
+        - Succhiatore, succhiatore
+        - Sì, tu rendi il mio leccalecca un momento di zucchero caramella
+        - Vai a prenderti la cena per uno
+    - lines:
+        - Meglio che ti riempia la faccia
+        - Prima che sia troppo tardi
+        - Perché sono già in fila
+        - Per prendere un pezzo della torta
+        - E quando la festa sarà finita ci vedremo di nuovo
+        - La settimana prossima, stesso ora, sul treno Tekkno
+    - lines:
+        - C'è tutto un mondo nuovo
+        - Che devi esplorare, è il suono della rotaia
+        - Che ami e adorì, stiamo proseguendo e proseguendo
+        - Attraverso la valle dell'amore
+        - Perché tutto quello che hai è ciò, tutto quello che hai è ciò
+    - lines:
+        - C'è tutto un mondo nuovo
+        - Che devi esplorare, è il suono della rotaia
+        - Che ami e adorì, stiamo proseguendo e proseguendo
+        - Attraverso la valle dell'amore
+        - Perché tutto quello che hai è ciò
+        - Tutto quello che hai è ciò che voglio
+    - lines:
+        - Attenzione per favore
+        - Il servizio 69 EC treno Tekkno al binario A, M, P e V
+        - La città dell'orgasmo sta arrivando in anticipo
+        - Ci scusiamo per qualsiasi svago perso
+    - lines:
+        - Me lo prendo adesso! Passamelo!
+        - Questo viaggio è gratis ma devo davvero sentirlo adesso! Passamelo!
+        - Boom boom pow, eccola a te
+    - lines:
+        - Trenè, trenè trenè, trenè trenè, trenè trenè
+        - Stiamo proseguendo sul treno Tekkno, trenè, trenè trenè, trenè
+        - Stiamo uscendo dalla città
+    - lines:
+        - C'è tutto un mondo nuovo
+        - Che devi esplorare, è il suono della rotaia
+        - Che ami e adorì, stiamo proseguendo e proseguendo
+        - Attraverso la valle dell'amore
+        - Perché tutto quello che hai è ciò, tutto quello che hai è ciò
+    - lines:
+        - C'è tutto un mondo nuovo
+        - Che devi esplorare, è il suono della rotaia
+        - Che ami e adorì, stiamo proseguendo e proseguendo
+        - Attraverso la valle dell'amore
+        - Perché tutto quello che hai è ciò
+        - Tutto quello che hai è ciò che voglio
+---

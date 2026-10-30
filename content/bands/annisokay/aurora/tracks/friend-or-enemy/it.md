@@ -1,0 +1,69 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Nemico, nemico
+        - Nemico, amico o nemico
+    - lines:
+        - C'è un prezzo sulla tua testa
+        - E in fondo lo sai
+        - È solo un affare, mio amico
+        - Dove va tutto
+    - lines:
+        - La soluzione è in arrivo
+        - Le linee di battaglia sono tracciate
+        - E il fuoco amico
+        - Il più letale di tutti
+        - La soluzione è in arrivo
+        - I coltelli stanno uscendo
+        - Pensavi di essere
+        - L'ultimo boy scout
+    - lines:
+        - Se sei il loro nemico
+        - Ti uccideranno, ti uccideranno per soldi
+        - Se sei un amico
+        - Ti uccideranno ma per niente
+    - lines:
+        - Sei il mio nemico
+        - Sei il mio nemico
+        - Amico o nemico
+    - lines:
+        - C'è un prezzo sulla tua testa
+        - Ti stanno incassando
+        - Quindi tutti alziamo i bicchieri per favore
+        - Questa la mette casa
+    - lines:
+        - La soluzione è in arrivo
+        - La risacca è forte
+        - Cospirazione
+        - Il massacro che vogliono
+        - Sei il loro amico?
+        - O nemico dello Stato?
+        - La loro cagnolina
+        - Che esce per giocare
+    - lines:
+        - Se sei il loro nemico
+        - Ti uccideranno, ti uccideranno per soldi
+        - Se sei un amico
+        - Ti uccideranno ma per niente
+    - lines:
+        - Puoi fare quello che vuoi
+        - Basta lasciare quest'ombra, quest'ombra di paura
+        - Puoi fare quello che vuoi
+        - Basta lasciare quest'ombra, quest'ombra di paura
+    - lines:
+        - Non averne paura
+        - È dentro di noi
+        - Dobbiamo superare quella paura
+        - Che ci controlla
+    - lines:
+        - Ci controlla
+        - Ci controlla
+    - lines:
+        - Questo mondo è così grande
+        - Non averne paura
+        - Una varietà di misteri
+        - Non averne paura
+---

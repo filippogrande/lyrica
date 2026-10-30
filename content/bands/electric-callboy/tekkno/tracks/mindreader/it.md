@@ -1,0 +1,74 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sei come un'armonia amara
+        - E in realtà non c'è mai stato un tu e un me
+        - Mi hai avvolto intorno al tuo dito
+        - E poi mi hai colpito la schiena con il tuo pungiglione letale
+    - lines:
+        - Salvami da me stesso
+        - Sarai la mia morte
+        - Salvami da me stesso
+        - Stai lontano da me
+        - Salvami da me stesso
+        - Ti voglio fuori dalla mia testa così tanto
+    - lines:
+        - E anche se volessi nascondere quello che provo per te
+        - Lo capiresti perché
+        - Sei un lettore di pensieri
+        - E anche se volessi nascondere quello che provo per te
+        - Lo capiresti perché
+        - Sei un lettore di pensieri
+    - lines:
+        - Per tutta la fottuta vita mi hai fatto sentire una merda
+        - L'unica cosa che ti importava davvero era il tuo vantaggio
+        - Voglio uscire mentre tu provi a entrare, succhiatore
+        - Tutto quello che hai fatto lo farò io meglio
+    - lines:
+        - Salvati
+        - Oh ti darò una lezione
+        - Salvati
+        - So che non smetteresti mai
+        - Salvati
+        - Te ne farai pentire così tanto
+    - lines:
+        - E anche se volessi nascondere quello che provo per te
+        - Lo capiresti perché
+        - Sei un lettore di pensieri
+        - E anche se volessi nascondere quello che provo per te
+        - Lo capiresti perché
+        - Sei un lettore di pensieri
+    - lines:
+        - Salvami da me stesso
+    - lines:
+        - Sei il diavolo, puttana
+        - Lo sanno tutti
+        - Voglio tagliare i miei pensieri fuori dalla tua testa
+        - Sei il diavolo, puttana
+        - Lo sanno tutti
+        - Quando avrò finito con te, preferiresti essere morto
+    - lines:
+        - Morto, morto
+        - Quando avrò finito con te, preferiresti essere morto
+        - Morto, morto
+        - Quando avrò finito con te, preferiresti essere morto
+    - lines:
+        - E anche se volessi nascondere quello che provo per te
+        - Lo capiresti perché
+        - Sei un lettore di pensieri
+        - E anche se volessi nascondere quello che provo per te
+        - Lo capiresti perché
+        - Sei un lettore di pensieri
+        - Lettore di pensieri
+    - lines:
+        - Devo andare avanti ma tu mi trattieni
+        - Sei ancora nella mia testa, mi controlli
+        - Perché sei un lettore di pensieri
+        - Voglio essere qui senza di te
+        - Voglio solo dimenticare quello che ho passato
+        - Mi serve un lettore di pensieri
+        - Lettore di pensieri
+---

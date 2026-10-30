@@ -1,0 +1,34 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Lauft!
+    - lines:
+        - Weil der Meister uns gesandt
+        - Verkünden wir den Untergang
+        - Der Reiter der Boshaftigkeit
+        - Füttert sein Geschwür aus Neid
+    - lines:
+        - Die Wahrheit ist wie ein Gewitter
+        - Es kommt zu dir, du kannst es hören
+        - Es kund zu tun ist ach so bitter
+        - Es kommt zu dir, um zu zerstören
+    - lines:
+        - Weil die Nacht im Sterben lag
+        - Verkünden wir den jüngsten Tag
+        - Es wird kein Erbarmen geben
+        - Lauft, lauft um euer Leben
+    - lines:
+        - Die Wahrheit ist ein Chor aus Wind
+        - Kein Engel kommt, um euch zu rächen
+        - Diese Tage eure letzten sind
+        - Wie Stäbchen wird es euch zerbrechen
+    - lines:
+        - Es kommt zu euch als das Verderben
+    - lines:
+        - Die Wahrheit ist ein Chor aus Wind
+        - Kein Engel kommt, um euch zu rächen
+        - Diese Tage eure letzten sind
+        - Wie Stäbchen wird es euch zerbrechen
+---

@@ -1,0 +1,74 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Here we roll
+        - Stepping on fucking toes, yeah
+        - We control
+        - Wrecking all you produce, so
+    - lines:
+        - Give me all, give me all, give me all of that
+        - Is this all, is this all, is this all that
+    - lines:
+        - Is this everything you got?
+        - Nothing more to say
+        - Nothing more to give me?
+        - We return as loud as sirens
+        - Bursting your ears
+    - lines:
+        - Give me all, give me all, give me all you got
+        - This is our anthem
+    - lines:
+        - And we will prevail
+        - When everything comes down
+        - It falls down
+        - Down to nothingness
+        - And we will prevail
+        - When everything comes down
+        - It falls down
+        - Down to nothingness
+    - lines:
+        - Sing it out, sing it out, sing it all out loud
+        - We are all, we are all, we are all you got
+    - lines:
+        - Our triumph is a secret?
+        - Pardon me, I think there is no reason left to keep it
+        - We are always craving for more
+        - This is our time to fucking break free
+    - lines:
+        - Give me all, give me all, give me all you got
+        - This is our anthem
+    - lines:
+        - And we will prevail
+        - When everything comes down
+        - It falls down
+        - Down to nothingness
+        - And we will prevail
+        - When everything comes down
+        - It falls down
+        - Down to nothingness
+    - lines:
+        - Everything is fake (fake)
+        - Plastic sold as gold (gold)
+        - Tell me what you see (see)
+        - Stories that are told (told)
+        - Nothing's hurting like the truth
+        - Are you planning your next move?
+        - Oh, you really want to fuck with us?
+    - lines:
+        - Give me all you got
+        - We will fucking prevail
+    - lines:
+        - And we will prevail
+        - When everything comes down
+        - It falls down
+        - Down to nothingness
+    - lines:
+        - Give me all
+        - Give me all
+        - Give me all of that
+        - Is this all
+        - Is this all
+        - Is this all you got?
+---

@@ -1,0 +1,57 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Whoa-oh-oh-oh, oh
+        - Whoa-oh-oh-oh, oh
+        - Whoa-oh-oh-oh, oh
+    - lines:
+        - Neon flashing in the dark tonight
+        - Cities breathing with electric light
+        - Feel the rhythm, feel it in the streets
+        - Every step is like a living heartbeat
+    - lines:
+        - Oh-oh-oh-oh, let the night unfold
+        - Oh-oh-oh-oh, let the city turn gold
+        - We are alive in this endless glow
+        - Oh-oh-oh-oh, and I lose control
+    - lines:
+        - Oh-oh, oh
+        - Oh-oh, oh
+        - Whoa-oh-oh-oh, oh-oh-oh
+    - lines:
+        - Lights are cutting through the midnight haze
+        - City's soul is locked in sonic waves
+        - Electric echoes everywhere I seek
+        - Every step is like a living heartbeat
+    - lines:
+        - Oh-oh-oh-oh, let the night unfold
+        - Oh-oh-oh-oh, let the city turn gold
+        - We are alive in this endless glow
+        - Oh-oh-oh-oh, and I lose control
+    - lines:
+        - Oh-oh, oh
+        - Oh-oh, oh
+        - Whoa-oh-oh-oh, oh-oh-oh
+    - lines:
+        - Let the night unfold
+        - Let the city turn gold
+        - We're alive in this endless glow
+        - And I lose control
+    - lines:
+        - We are chasing something sacred
+        - Shining brighter than the city sky
+        - Every heartbeat is a brand new spark
+        - We are chasing dreams that will ignite
+    - lines:
+        - Whoa-oh-oh-oh
+        - Let the night unfold
+        - Whoa-oh-oh-oh
+        - Let the city turn gold
+        - Whoa-oh-oh-oh
+        - We're alive in this endless glow
+        - Whoa-oh-oh-oh
+        - And I lose control
+        - Whoa-oh-oh-oh, oh
+---

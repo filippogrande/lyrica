@@ -1,0 +1,90 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I'm a spaceman, got a rocket on my back
+        - Spaceman, oh, I'm raving like a maniac
+        - Spaceman, got a rocket on my back
+        - The universe is down for my rave attack
+        - (Three, two, one)
+    - lines:
+        - Yeah
+    - lines:
+        - Finchi Gagarin
+        - Dreh die Boxen doch mal auf
+        - Gestern noch im Trockenbau
+        - Heute bin ich Kosmonaut
+        - Ja-ja, jeder kann sie sehen
+        - Da am Himmel weiße Streifen (Da oben)
+        - Wer braucht von euch noch Beweise?
+        - Ja die Erde ist 'ne Scheibe
+    - lines:
+        - My name is Tekkno, I am travelling space
+        - I got a rocket on my back fueled by big bang bass
+        - I'm Tekkno, my religion is rave
+        - And I bring it to the outerworld
+        - So let me hear you say
+    - lines:
+        - I'm a spaceman, got a rocket on my back
+        - Spaceman, oh, I'm raving like a maniac
+        - Spaceman, got a rocket on my back
+        - The universe is down for my rave attack (Two, one)
+    - lines:
+        - Fred vom Jupiter
+        - Steht vorm Supermarkt
+        - Dreht die Boombox an
+        - Und geht zu Scooter ab
+        - Klau mir sein Raumschiff
+        - Fliege hoch Richtung Mars
+        - Blblblblb, jetzt sind die Kohlköpfe ja
+    - lines:
+        - My name is Tekkno, I am travelling space
+        - I got a rocket on my back fueled by big bang bass
+        - I'm Tekkno, my religion is rave
+        - And I bring it to the outerworld
+        - So let me hear you say
+    - lines:
+        - Spaceman, got a rocket on my back
+        - Spaceman, oh, I'm raving like a maniac
+        - Spaceman, got a rocket on my back
+        - The universe is down for my rave attack
+    - lines:
+        - Spaceman, got a rocket on my back
+        - Spaceman, oh, I'm raving like a maniac
+        - Spaceman, got a rocket on my back
+        - The universe is down for my rave attack
+    - lines:
+        - Wo sind die Jedi Ritter?
+        - Wo sind die Marsmenschen?
+        - Wo sind die Klingonen?
+        - Mach's wie mit meiner Ex
+        - Ich schieß euch alle auf den Mond
+        - An 'ne Leberwurst geschnallt
+        - Fliegt die Kebekus durchs All
+        - Immer weiter von uns weg
+        - Danke, Schwerelosigkeit
+        - Undank ist der Weltenlohn
+        - Hier kommt der Raketenmann
+        - Viva la Elton John
+    - lines:
+        - Viva la Elton John
+    - lines:
+        - Rave on
+        - No matter where you fucking are
+        - And you see nothing but a
+        - Is it a bird or just a man?
+        - On his way to rave the universe
+    - lines:
+        - I'm a spaceman, got a rocket on my back
+        - Spaceman, oh, I'm raving like a maniac
+        - Spaceman, got a rocket on my back
+        - The universe is down for my rave attack
+    - lines:
+        - Spaceman, got a rocket on my back
+        - Spaceman, oh, I'm raving like a maniac
+        - Spaceman, got a rocket on my back
+        - The universe is down for my rave attack
+    - lines:
+        - Mission complete
+---

@@ -1,0 +1,42 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Quando guardo nei tuoi occhi
+        - Voglio darti tutto stanotte
+        - Ragazza, ti amo di più a ogni singolo morso
+        - Sempre tuo anche se sanguino
+        - Perché sei tutto ciò che mi serve
+        - Voglio che tu ingoi ogni pezzo di me
+    - lines:
+        - Non ho paura quando di me non resta niente
+        - Perché è dentro di te che finisco
+    - lines:
+        - Ti amo proprio come sei
+        - Quando incidi il tuo nome dentro al mio cuore che batte
+        - Ti voglio proprio come sei
+        - Quando mi fai a pezzi amo solo il modo in cui sei
+    - lines:
+        - Mi laceri il cuore, fai un bagno nel mio sangue
+        - Voglio sentire la tua faccia nelle mie fottute interiora
+        - Mi frantumi ogni osso
+        - Siediti sul tuo trono insanguinato
+        - Mangiami finché non resta niente
+        - Io lo chiamo amore, tu lo chiami morte
+    - lines:
+        - Tu e io come uno
+        - Tu e io come uno
+        - Tu e io come uno
+        - Mangiami, amami
+        - Sei la mia conchiglia immortale
+        - Tu e io come uno
+        - Mangiami, amami
+        - Voglio che mi fotessi
+    - lines:
+        - Solo il modo in cui sei
+        - Quando incidi il tuo nome dentro al mio cuore che batte
+        - Ti voglio proprio come sei
+        - Quando mi fai a pezzi, amo solo il modo in cui sei
+---

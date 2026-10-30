@@ -1,0 +1,47 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Burn down my house
+        - I'll blame myself and no one else
+        - Heart in my mouth
+        - Always in doubt about my health
+    - lines:
+        - Burn down my house
+        - I'll blame myself and no one else
+        - Heart in my mouth
+        - Never in doubt
+    - lines:
+        - Your love will leave me lonely
+        - Repeating, "Oh, if only"
+        - I'm sorry, I'm broke from all the time I spend
+        - Driving myself 'round the bend
+        - Drifting like I'm oil in water
+        - I swear I'm okay
+        - Just hear the words I don't say
+        - I'm sorry, the thoughts that I don't apprehend
+        - Tell me there's no happy end
+        - I'm drifting like I'm oil in water
+    - lines:
+        - Burn down my house
+        - I'll blame myself and no one else
+        - Heart in my mouth
+        - Never in doubt
+    - lines:
+        - Your love will leave me lonely
+        - Repeating, "Oh, if only"
+        - I'm sorry, I'm broke from all the time I spend
+        - Driving myself 'round the bend
+        - Drifting like I'm oil in water
+        - I swear I'm okay
+        - Just hear the words I don't say
+        - I'm sorry, the thoughts that I don't apprehend
+        - Tell me there's no happy end
+        - I'm drifting like I'm oil in water
+    - lines:
+        - Burn down my house
+        - I'll blame myself and no one else
+        - Heart in my mouth
+        - Always in doubt about my health
+---

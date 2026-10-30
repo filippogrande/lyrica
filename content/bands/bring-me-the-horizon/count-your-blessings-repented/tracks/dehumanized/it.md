@@ -1,0 +1,80 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Sei nato per soffrire
+        - Sei stato allevato per sanguinare
+        - Raschiato via dal grembo di tua madre
+        - Carne per la macchina
+    - lines:
+        - Ingrassato di latte e miele
+        - Cullato da una menzogna dorata
+        - Stiamo diventando
+        - Dehumanized
+    - lines:
+        - Alcuni di noi sono macellai
+        - Alcuni di noi sono agnelli
+        - Mandami al mattatoio
+        - Scopriamo quale di essi sono
+    - lines:
+        - Metti il tuo cuore al sicuro
+        - Oppure affronta la ghigliottina
+        - Perché l'empatia è un'eresia
+        - E la speranza è una malattia
+    - lines:
+        - Dissociandomi
+        - La vescica cresce dentro
+        - Come puoi scappare
+        - Da ciò che vive sotto la tua pelle?
+    - lines:
+        - Profanati dalle tenebre
+        - Le nostre anime sodomizzate
+        - Stiamo diventando
+        - Dehumanized
+    - lines:
+        - Dehumanized
+        - Marcendo sotto la follia
+        - Dehumanized
+        - Marcendo sotto la follia
+    - lines:
+        - Chi sopravviverà
+        - E cosa resterà di loro?
+    - lines:
+        - Chi sopravviverà
+        - E cosa resterà di loro?
+    - lines:
+        - Il cielo sta cadendo
+        - Sta cadendo
+        - Non c'è nulla che possiamo fare
+    - lines:
+        - Pagherai il prezzo
+        - È ora di morire, cazzo
+        - Pagherai il prezzo
+        - Uccidimi in fretta
+        - È ora di morire, cazzo
+        - Chi sopravviverà
+        - E cosa resterà di loro?
+    - lines:
+        - Sei stato allevato per soffrire
+        - Sei nato per sanguinare
+        - Raschiato via
+        - Dal grembo di tua madre
+        - Siamo diventati
+        - Dehumanized
+        - Dehumanized
+        - Marcendo sotto la follia
+        - Siamo diventati
+        - Dehumanized
+    - lines:
+        - Uccidetevi a vicenda
+        - Un'infestazione
+        - Morti di cervello alla nascita
+        - Discepoli del desiderio
+        - Virulenti
+        - Feccia della terra
+        - Feccia della terra
+        - Feccia della terra
+        - Feccia della terra
+---

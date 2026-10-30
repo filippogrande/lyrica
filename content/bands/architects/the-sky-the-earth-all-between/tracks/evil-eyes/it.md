@@ -1,0 +1,74 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Occhi cattivi
+        - Mi stanno guardando
+        - Occhi cattivi
+        - Mi stanno guardando
+    - lines:
+        - Malevoli
+        - Preghi che la cometa colpisca
+        - Così feroci
+        - Non meno di una controfazione
+        - Addio
+        - Ho soffocato troppo a lungo, quindi ora è addio
+        - Questi momenti sono miei
+    - lines:
+        - Stanotte, la paura nella falce
+        - Una lancia nel fianco
+        - Potrebbe annegarne ma sopravvivo
+        - Stanotte, stanotte, stanotte, mi sento vivo
+    - lines:
+        - Occhi cattivi
+        - Mi stanno guardando
+        - Occhi cattivi
+        - Mi stanno guardando
+    - lines:
+        - Senza beatitudine
+        - Vedo le zanne, tu fottuto serpente
+        - Solo affari
+        - Tu diavolo, tu ipocrita
+        - Addio
+        - Ho soffocato troppo a lungo, quindi ora è addio
+        - Ho soffocato troppo a lungo
+    - lines:
+        - Risacca, tirami sotto
+        - E lavami nell'azzurro
+        - Risacca, tirami sotto
+        - Tiramelo sotto, basta
+    - lines:
+        - Stanotte la paura nella falce
+        - Una lancia nel fianco
+        - Potrebbe annegarne ma sopravvivo
+        - Stanotte la paura nella falce
+    - lines:
+        - Una lancia nel fianco
+        - Potrebbe annegarne ma sopravvivo
+    - lines:
+        - Posso portare questo peso?
+        - Lascialo in un altro
+        - Lago vuoto
+        - Sto sognando a occhi aperti
+        - Sveglio
+        - In attesa che un'altra onda si rompa
+        - Giuro su Dio che spezzerò queste catene
+        - Non voglio vivere la mia vita in questo modo
+        - Sto ancora urlando
+        - Sveglio
+        - In attesa che un'altra onda si rompa
+        - Sto ancora urlando
+    - lines:
+        - Sto ancora urlando
+    - lines:
+        - Stanotte, la paura nella falce
+        - Una lancia nel fianco
+        - Potrebbe annegarne ma sopravvivo
+        - Stanotte, stanotte, stanotte, mi sento vivo
+    - lines:
+        - Occhi cattivi
+        - Mi stanno guardando
+        - Occhi cattivi
+---

@@ -1,0 +1,83 @@
+---
+lang: en
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - I'm gonna fire
+        - Blast off
+    - lines:
+        - Start right now
+        - Real love, hitting you at first shot, a crew of absurd demands
+        - True spirit, soul!
+        - A love that can't reach, spread out, lost in the universe, recklessly
+    - lines:
+        - A stubborn, sharp METAL BABY
+        - Let's stir up a Big Bang, hooray!
+        - At the top, things are even more insane
+        - Because even wishing on a star or praying to a god isn't enough
+    - lines:
+        - Gazing at the night sky, believing it will reach you someday
+    - lines:
+        - The usual HiAce
+        - My unshakeable crew
+        - A grand stage, someday
+        - Glance at the setlist
+        - Always grand scale
+        - Past the field, escape
+        - Let's fly away now
+    - lines:
+        - I'll come to see you
+        - A story that keeps turning round
+        - I'll cross the universe and sing
+        - Even after hundreds of millions of light-years, I'll keep searching
+        - Among the countless stars
+    - lines:
+        - It's shining now
+        - A love that never changes, along the road from the start, the crew of absurd demands
+        - More radiant than any past
+        - Spread your wings, a reckless bloom in the universe
+    - lines:
+        - 1 in 8 billion, a connection that binds us
+        - Scatter it around, so cool, the secret crew
+        - Unheard of, I sing, even better
+        - No matter how many times, no matter how hard, I can flip it all around
+    - lines:
+        - When the moon swells, I'll work a miracle for you
+    - lines:
+        - You're always the ace
+        - My name that doesn't change
+        - An 'I love you' from someday
+        - Because it's an experience that burns in
+        - Always a grand race
+        - Past the field, escape
+        - Let's fly away now
+    - lines:
+        - I offer you my love
+        - Because it can come true
+        - Crossing the galaxy, tracing my way
+        - My heartbeat feels ready to burst
+        - I shout in the starry sky
+    - lines:
+        - Even if I become stardust
+        - I'll live for you in the future
+        - The starlight that guides me
+        - I'll be with you in the future
+        - You find me!
+        - The twinkling starry sky
+        - Don't cry, have courage
+        - Let's fly away now
+    - lines:
+        - Like a shooting star
+        - I'll make your wish come true
+    - lines:
+        - I'll come to see you
+        - A story that keeps turning round
+        - I'll cross the universe and sing
+        - Even after hundreds of millions of light-years, I'll keep searching
+        - For the shining star
+    - lines:
+        - Let's go tell it, gathering the stars
+        - Beyond that sparkling sky
+        - I love you, hey
+---

@@ -1,0 +1,58 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Allora sto ancora aspettando
+        - Che questo mondo smetta di odiare?
+        - Non trovo un buon motivo
+        - Non trovo una speranza in cui credere
+    - lines:
+        - Muori, un proiettile in testa
+        - Le tue parole sono come una pistola in mano
+        - Non puoi cambiare lo stato della nazione
+        - Ci serve solo un po' di motivazione
+        - Questi occhi non hanno visto convinzione
+        - Solo bugie e ancora contraddizioni
+        - Dimmi, che cosa diresti?
+        - Io dico che è ora di
+    - lines:
+        - Allora sto ancora aspettando
+        - Che questo mondo smetta di odiare?
+        - Non trovo un buon motivo
+        - Non trovo una speranza in cui credere
+    - lines:
+        - Ignoranza e comprensione
+        - Siamo i primi a metterci in fila
+        - Fuori passo rispetto a quello in cui crediamo
+        - Ma chi resta a fermare il sangue?
+        - Quanto ci porteremo avanti?
+        - Non è difficile vedere oltre la cortina
+        - Dimmi, che cosa diresti?
+        - Io dico che è ora di
+    - lines:
+        - Allora sto ancora aspettando
+        - Che questo mondo smetta di odiare?
+        - Non trovo un buon motivo
+        - Non trovo una speranza in cui credere
+    - lines:
+        - Questo non può durare per sempre
+        - Il tempo non migliorerà le cose
+        - Mi sento così solo, non posso farci niente
+        - E nessuno sa che per me non vale niente
+    - lines:
+        - Che cosa abbiamo fatto?
+        - Siamo in una guerra che non si può vincere
+        - Questo non può essere vero
+        - Perché non so cosa provare
+    - lines:
+        - Allora sto ancora aspettando
+        - Che questo mondo smetta di odiare?
+        - Non trovo un buon motivo
+        - Non trovo una speranza in cui credere
+        - Allora sto ancora aspettando
+        - Che questo mondo smetta di odiare?
+        - Non trovo un buon motivo
+        - Non trovo una speranza in cui credere
+---

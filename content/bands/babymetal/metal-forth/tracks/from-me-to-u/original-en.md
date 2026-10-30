@@ -1,0 +1,97 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Let's go
+    - lines:
+        - I know you're scared 'cause you're running for cover
+        - But you might be running far
+        - And if the demons know you're scared to death
+        - Then they will find you where you are
+        - Is there a virus infecting your system?
+        - Have the cuts left an animal mark?
+        - That will make you one of us
+        - And we will never never never be apart
+    - lines:
+        - The evil has its motive
+        - And now so do I
+        - And I'll hold you to your fragile alibi
+    - lines:
+        - With this rage inside of me
+        - Kiminitodoke
+        - Kiminitodoke
+        - Maybe now we can kill the enemy
+        - Totemo kibishī
+        - Stand up and make your move
+        - Let the fire carry on, let the power go from me to you
+        - From me to you
+    - lines:
+        - I need a friend that will never betray me
+        - There's no time like where we are
+        - I'm so bored, I don't care for the consequence
+        - So I'll come find you where you are
+    - lines:
+        - Is it a sin if I wish for destruction?
+        - Is it a call that I can make?
+        - And I hail for the wrath of crimson on the faces in my way
+        - And it goes from me to you
+    - lines:
+        - I've had enough from your mouth
+        - You can shove it
+        - '''Cause you know you don''t stand a chance'
+    - lines:
+        - With this rage inside of me
+        - Kiminitodoke
+        - Kiminitodoke
+        - Maybe now we can kill the enemy
+        - Totemo kibishī
+        - Stand up and make your move
+        - Let the fire carry on, let the power go from me to you
+    - lines:
+        - Yami o nuke
+        - Hikari to tomoni
+        - Owari o tsugeta toki
+        - Boku wa tada
+        - Zetsubō o samayō no sa
+    - lines:
+        - You're doing this wrong
+        - '''Cause if the end is a promise'
+        - It's still looking up
+        - I cannot rest till you're fucking breathless
+        - As the strong intention has been justified
+        - Hung from the edges, you'll rest with your lies
+        - Rest with your lies
+    - lines:
+        - With this rage inside of me
+        - Kiminitodoke
+        - Kiminitodoke
+        - With this rage inside of me
+        - Inside of me
+        - Kiminitodoke
+        - Kiminitodoke
+        - Kiminitodoke
+        - Tekiwotaosu
+        - Maybe now we can kill the enemy
+        - Kill enemy
+        - Totemo kibishī
+        - Stand up and make your move
+        - Let the fire carry on, let the power go from me to you
+        - From me to you
+    - lines:
+        - With this rage inside of me
+        - Kiminitodoke
+        - Kiminitodoke
+        - With this rage inside of me
+        - Inside of me
+        - Kiminitodoke
+        - Kiminitodoke
+        - Kiminitodoke
+        - Tekiwotaosu
+        - Maybe now we can kill the enemy
+        - Kill enemy
+        - Totemo kibishī
+        - Stand up and make your move
+        - Let the fire carry on, let the power go from me to you
+        - From me to you
+---

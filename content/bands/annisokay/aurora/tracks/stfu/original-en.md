@@ -1,0 +1,68 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Do you still believe the myth?
+        - Do you still believe the hype?
+        - Still following the piper
+        - Like the corpse that draws the flies
+    - lines:
+        - It was all just a load of bullshit
+        - Born of the fake fucking news
+        - That you read out like the gospel
+        - And you still believe it's true
+    - lines:
+        - It's easy to see a conspiracy
+        - When the world is so damn flat
+        - It is easy to see a conspiracy
+        - When the world is full of hate
+    - lines:
+        - Never just believe
+        - Any old shit you read
+        - Mixing urban myths
+        - With science fiction
+        - Never just repeat
+        - What someone else believes
+        - Spreading hate and fear
+        - With pure fiction
+        - Shut the fuck up!
+        - Shut the fuck up now!
+        - And start using your own brain
+    - lines:
+        - Do we still believe in ghosts?
+        - Do we still believe the rumours?
+        - Of someone throwing apples
+        - Over the walls of Eden
+    - lines:
+        - It was all just a load of bullshit
+        - Born of the fake fucking news
+        - That you read out like the gospel
+        - Full of facts from a social feed
+    - lines:
+        - It's easy to see a conspiracy
+        - When the world is so damn flat
+        - It's easy to see a conspiracy
+        - When the world is full of hate
+    - lines:
+        - Never just believe
+        - Any old shit you read
+        - Mixing urban myths
+        - With science fiction
+        - Never just repeat
+        - What someone else believes
+        - Spreading hate and fear
+        - With pure fiction
+        - Shut the fuck up!
+        - You crowned yourself the king
+        - Of the weak and the cowards
+        - You crowned yourself the king
+        - Without using your own brain
+    - lines:
+        - (Shut the fuck up)
+        - (Shut the fuck up)
+        - (Shut the fuck up)
+        - Shut the fuck up!
+    - lines:
+        - Shut the fuck up now!
+---

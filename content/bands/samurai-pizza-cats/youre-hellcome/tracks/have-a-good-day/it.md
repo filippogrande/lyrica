@@ -1,0 +1,57 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Con quel completo Gucci fai una schifezza
+        - Puzzi come l'inferno, come la merda sui miei stivali
+        - Oh, mi piacerebbe vederti scivolare e cadere
+        - Un misero scivolone e cadere su tutte le bucce di banana e gattonare
+        - Voglio che tu sappia che tutto ciò che desidero per te
+        - È farti inghiottire intero dallo Sharknado
+    - lines:
+        - Oh, che bella giornata
+        - (Oh, che bella giornata)
+    - lines:
+        - E l'apocalisse sta pioveendo, pioveendo
+        - Su questa autostrada dell'inferno incidentale
+        - Ma quando il karma ti spazza il culo per terra
+        - È comunque una bella giornata, una bella giornata
+        - Oh, che bella giornata
+    - lines:
+        - Oh, guardati con quel latte Starbucks
+        - Voglio vedere che ti faccia male quel caffè del cazzo
+        - Non importa quando e dove
+    - lines:
+        - La tua macchia, il mio guadagno
+        - È come champagne nelle mie vene, yeah
+        - Voglio che tu sappia che tutto ciò che desidero per te
+        - È farti inghiottire intero dallo Sharknado
+    - lines:
+        - Oh, che bella giornata
+        - (Oh, che bella giornata)
+    - lines:
+        - Spero che le tue maniche si bagnino
+        - Quando ti lavi le mani
+        - Spero che la tua sigaretta
+        - Ti faccia cacare i pantaloni
+    - lines:
+        - La tua macchia, il mio guadagno
+        - Come champagne nelle mie vene
+    - lines:
+        - La tua macchia, il mio guadagno
+        - Come champagne nelle mie vene
+    - lines:
+        - E l'apocalisse sta pioveendo, pioveendo
+        - Su questa autostrada dell'inferno incidentale
+        - Ma quando il karma ti spazza il culo per terra
+        - È comunque una bella giornata, una bella giornata
+        - Oh, che bella giornata
+    - lines:
+        - E l'apocalisse sta pioveendo, pioveendo
+        - Su questa autostrada dell'inferno incidentale
+        - Ma quando il karma ti spazza il culo per terra
+        - È comunque una bella giornata, una bella giornata
+        - Oh, che bella giornata
+---

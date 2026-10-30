@@ -1,0 +1,66 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ho preso la strada facile così il mondo poteva fingere
+        - Che sono superiore
+        - Avresti un uomo onesto se ti prendessi il tempo
+        - Di collegare il mio mento
+        - Mi sono addormentato sul sedile posteriore
+        - Fanculo, era così dolce
+        - Ho preso un rosso come se avessi visto un matador
+        - Sì, il sole potrebbe sciogliersi mentre aspetti
+        - Che le mie arterie si scongelino
+        - Porto te in guerra
+        - Porto te in guerra
+    - lines:
+        - Non spillerò mai le mie interiora
+        - Sembra una morte per mille tagli
+        - Quindi quando il qui e ora mi schiaccia a terra
+        - Mi spezzo in mille pezzi
+        - Non voglio parlare troppo
+        - Non mi fermerò mai, sì, amo questa stampella
+        - Quindi se bacio il terreno
+        - Non guardarti intorno
+        - Dio benedica il mio grande cuore vuoto
+    - lines:
+        - Perderò la testa solo se mi metto troppo vicino all'isteria
+        - E se ti ha tolto il respiro, allora scommetto che
+        - Mi sono concentrato sul difetto
+        - Quindi vai e mettimi nel cemento
+        - Sono solo un fannullone
+        - Hai sempre detto che sono il lupo alla tua porta
+        - Mi affogherei, ma la sete mi farebbe tornare per altro
+    - lines:
+        - Non spillerò mai le mie interiora
+        - Sembra una morte per mille tagli
+        - Quindi quando il qui e ora mi schiaccia a terra
+        - Mi spezzo in mille pezzi
+        - Non voglio parlare troppo
+        - Non mi fermerò mai, sì, amo questa stampella
+        - Quindi se bacio il terreno
+        - Non guardarti intorno
+        - Dio benedica il mio grande cuore vuoto
+        - Dio benedica il mio grande cuore vuoto
+    - lines:
+        - Sono solo un pessimista rinato
+        - Ti spingerò giù dal precipizio
+        - Vieni, seguimi, marceremo sulle porte del cielo
+    - lines:
+        - Non spillerò mai le mie interiora
+        - Sembra una morte per mille tagli
+        - Quindi quando il qui e ora mi schiaccia a terra
+        - Mi spezzo in mille pezzi
+        - Non voglio parlare troppo
+        - Non mi fermerò mai, sì, amo questa stampella
+        - Quindi se bacio il terreno
+        - Non guardarti intorno
+        - Dio benedica il mio grande cuore vuoto
+    - lines:
+        - Il mio grande cuore vuoto
+        - Il mio grande cuore vuoto
+        - Il mio grande cuore vuoto
+        - Dio benedica il mio grande cuore vuoto
+---

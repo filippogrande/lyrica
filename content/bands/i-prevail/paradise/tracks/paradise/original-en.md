@@ -1,0 +1,74 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Like a blade that longs for the wrist
+        - I don't wanna bleed for you
+        - Another drop just to get my fix
+        - There's only so much I can lose
+    - lines:
+        - I've been running for my life
+        - Trading bullets for a knife
+        - Your hell is my paradise
+        - Suffocating in your arms is my favorite way to die
+    - lines:
+        - Oh, fuck
+        - You
+        - Suffocating in your arms is my favorite way to die
+    - lines:
+        - Inhale the flames
+        - Choke on blame
+        - Take my oxygen
+        - I don't care if I ever fucking breath again
+    - lines:
+        - I've been running for my life
+        - Trading bullets for a knife
+        - Your hell is my paradise
+        - Suffocating in your arms is my favorite way to die
+    - lines:
+        - Fuck
+        - You
+        - Suffocating in your arms is my favorite way to die
+    - lines:
+        - Sedate me, derange me
+        - My hell in paradise
+        - Don't save me, just take me
+        - My favorite way to die
+    - lines:
+        - Sedate me, derange me
+        - My hell in paradise
+        - Don't save me, just take me
+        - My favorite way to die
+        - Sedate me, derange me
+        - My hell in paradise
+        - Don't save me, just take me
+        - My favorite way to die
+        - Sedate me, derange me
+        - My hell in paradise
+        - Don't save me, just take me
+        - My favorite way to die
+    - lines:
+        - Sedate me, derange me
+        - My hell in paradise
+        - Don't save me, just take me
+        - My favorite way to die
+        - Sedate me (Sedate me), derange me
+        - My hell in paradise
+        - Don't save me (Don't save me), just take me
+        - My favorite way to die
+        - Way to die (Way to die)
+        - Sedate me (Sedate me), derange me (Derange me)
+        - My hell in paradise
+        - Don't save me (Don't save me), just take me (Just take me)
+        - My favorite way to die
+    - lines:
+        - Sedate me, derange me
+        - My hell in paradise
+        - Don't save me, just take me
+        - My favorite way to die
+        - Sedate me (Sedate me), derange me
+        - My hell in paradise
+        - Don't save me (Don't save me), just take me
+        - My favorite way to die
+---

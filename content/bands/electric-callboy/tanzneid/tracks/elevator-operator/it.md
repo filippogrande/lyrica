@@ -1,0 +1,79 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Hai sentito di un uomo
+        - Il padrone dell'ascensore
+        - Il re della leva, te l'avevo detto
+        - Salta dentro e lascia che cominci il viaggio
+        - Occhiali da sole, un viso luccicante
+        - Come se venisse dallo spazio
+        - Così pieno di grazia
+        - Voglio solo entrarci
+    - lines:
+        - Su e giù
+        - Ci muoviamo ovunque
+        - Stiamo salendo e scendendo
+        - Ci muoviamo ovunque
+    - lines:
+        - Voglio mostrarti il mio mondo
+        - Dove il ritmo sale e scende
+        - Lascia che apra la porta
+        - Elevator operator
+    - lines:
+        - Su! Su!
+        - Giù! Giù!
+        - Su! Su!
+        - Elevator operator
+    - lines:
+        - Voglio essere come lui
+        - Davvero voglio essere come lui
+        - Voglio stare con lui
+        - Lascia perdere quello
+        - Teste in cielo e continuiamo a salire
+        - Una magia nella sua leva che non puoi negare
+    - lines:
+        - Una luce che splende
+        - Lui è tutto luminoso
+        - Non vedo l'ora di entrare
+        - Ancora fuori vista
+        - E vogliamo andare
+        - Su e giù
+        - Ci muoviamo ovunque
+        - Stiamo salendo e scendendo
+        - Ci muoviamo ovunque
+    - lines:
+        - Voglio mostrarti il mio mondo
+        - Dove il ritmo sale e scende
+        - Lascia che apra la porta
+        - Elevator operator
+    - lines:
+        - Su! Su!
+        - Giù! Giù!
+        - Su! Su!
+        - Elevator operator
+    - lines:
+        - E voglio solo scendere
+        - Ma sto solo salendo
+        - Meglio che ascolti il suono
+        - Muovi il corpo come un dio
+        - E non ci fermiamo mai
+        - Scendi
+    - lines:
+        - Voglio sentirti dire
+        - Ta-ta-tatata-tatatata, scendi
+        - Ta-ta-tatata-tatatata, scendi
+    - lines:
+        - Voglio mostrarti il mio mondo
+        - Dove il ritmo sale e scende
+        - Lascia che apra la porta
+        - Elevator operator
+    - lines:
+        - Su! Su!
+        - Giù! Giù!
+        - Su! Su!
+        - Elevator operator
+        - Elevator operator
+---

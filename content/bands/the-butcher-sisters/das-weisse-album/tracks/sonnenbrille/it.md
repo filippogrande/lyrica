@@ -1,0 +1,75 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Sembro figo, sembro figo
+        - Esco dalla piscina figo con gli occhiali
+        - Sembro figo, sembro figo
+        - Esco dalla piscina figo con gli occhiali
+        - Occhiali da sole
+        - Occhiali da sole
+    - lines:
+        - C'è così tanta luce, c'è così tanta luce
+        - Prendo subito i miei occhiali da sole
+        - Lenti colorate, fighi come laser
+        - Più figo di uno squalo figo, tutti mi dicono ciao
+    - lines:
+        - Sembro figo, sembro figo
+        - Esco dalla piscina figo con gli occhiali
+        - Sembro figo, sembro figo
+        - Esco dalla piscina figo con gli occhiali
+    - lines:
+        - Occhiali da sole sul viso
+        - Senza occhiali, senza di me
+        - Occhiali da sole sul viso
+        - Oggi gli occhiali da sole sono obbligatori
+        - Occhiali obbligatori, occhiali obbligatori
+        - Senza occhiali, senza di me
+        - Occhiali obbligatori, occhiali obbligatori
+        - Occhiali da sole sul viso
+    - lines:
+        - Occhiali da sole obbligatori
+        - Occhiali da sole
+    - lines:
+        - Il sole mi fa incazzare
+        - Mi acceca in macchina
+        - E anche in bicicletta
+        - Non toglierò mai più gli occhiali
+    - lines:
+        - Di occhiali da sole ne ho tanti, amico
+        - Sono un cliente fisso da Fielmann
+        - Li voglio tutti, è il mio ultimo desiderio
+        - Ti prego, dammi i miei occhiali da sole
+    - lines:
+        - Sembro figo, sembro figo
+        - Esco dalla piscina figo con gli occhiali
+        - Sembro figo, sembro figo
+        - Esco dalla piscina figo con gli occhiali
+    - lines:
+        - Occhiali da sole sul viso
+        - Senza occhiali, senza di me
+        - Occhiali da sole sul viso
+        - Oggi gli occhiali da sole sono obbligatori
+        - Occhiali obbligatori, occhiali obbligatori
+        - Senza occhiali, senza di me
+        - Occhiali obbligatori, occhiali obbligatori
+        - Occhiali da sole sul viso
+    - lines:
+        - Il sole ride, io rido di rimando (Hahaha, hahaha, ha, ha)
+        - Mi regala gioia, mi regala fortuna, uh
+        - Sparami addosso i tuoi raggi UV bollenti
+        - In faccia e sulla pancia
+    - lines:
+        - Occhiali da sole sul viso
+        - Senza occhiali, senza di me
+        - Occhiali da sole sul viso
+        - Oggi gli occhiali da sole sono obbligatori
+        - Occhiali obbligatori, occhiali obbligatori
+        - Senza occhiali, senza di me
+        - Occhiali obbligatori, occhiali obbligatori
+        - Occhiali da sole sul viso
+    - lines:
+        - Occhiali da sole obbligatori
+        - Occhiali da sole
+---

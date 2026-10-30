@@ -1,0 +1,72 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Now this is my day
+        - I can't take it not today
+        - The red in my eyes
+        - Makes me see but parasites
+    - lines:
+        - I gotta fuck shit up
+        - I gotta get it out
+        - I do not control
+        - My god damned life anymore
+    - lines:
+        - I'll set myself free
+        - I love what's wrong with me
+    - lines:
+        - Another day, another burn
+        - Better get out my way
+        - Call me Will D-Fens
+        - Breakfast's gonna be intense
+        - Point of no return
+        - You gonna bleed and learn
+        - 1133 fuck
+        - I'm going home
+    - lines:
+        - I can not stop
+        - I can't take no more
+        - It will not stop
+        - Fear me
+        - I am falling down
+    - lines:
+        - Oh, I know this is a bad, bad day
+        - No more going home for me
+        - (This is a bad, bad day)
+        - Now I know this is the only way
+        - I am falling down today
+    - lines:
+        - Don't want to make it stop
+        - My ego is so pumped
+        - It's my way to the top yeah
+        - Stop your blah, blah, blah
+        - I am the fucking law
+        - And I bring the hurt
+        - To your idiot world
+    - lines:
+        - This is what I call a bad day
+        - This is gonna be your judgement day
+    - lines:
+        - Oh, I know this is a bad, bad day
+        - No more going home for me
+        - (This is a bad, bad day)
+        - Now I know this is the only way
+        - I am falling down today
+    - lines:
+        - Will all who wish to die please raise their hands
+        - Oh
+    - lines:
+        - This is what I call a bad day
+        - This is gonna be your judgement day
+    - lines:
+        - I'll set myself free
+        - I love what's wrong with me
+    - lines:
+        - Oh, I know this is a bad, bad day
+        - No more going home for me
+        - (This is a bad, bad day)
+        - Now I know this is the only way
+        - I am falling down today
+        - This is a bad, bad day
+---

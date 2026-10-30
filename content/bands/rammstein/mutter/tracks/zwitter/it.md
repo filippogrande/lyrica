@@ -1,0 +1,73 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - (Ermafrodito, ermafrodito)
+        - (Ermafrodito, ermafrodito)
+        - (Ermafrodito, ermafrodito)
+        - (Ermafrodito, ermafrodito)
+    - lines:
+        - Le ho rubato un bacio
+        - Lei voleva ripeterlo
+        - Non l'ho più lasciata andare
+        - Fusi insieme in un'unica massa
+        - Così va benissimo per me
+        - Sono un bell'ermafrodito
+        - Due anime sotto il mio petto
+        - Due sessi, una sola voglia
+    - lines:
+        - (Ermafrodito, ermafrodito) Ermafrodito, ermafrodito
+        - (Ermafrodito, ermafrodito)
+        - (Ermafrodito, ermafrodito) Ermafrodito, ermafrodito
+        - (Ermafrodito, ermafrodito)
+    - lines:
+        - Attraverso la giornata in modo diverso
+        - Sono la persona più bella di tutte
+        - Vedo cose meravigliose
+        - Che prima non avevo nemmeno notato
+        - Posso rendermi felice ogni giorno
+        - Posso mandarmi delle rose
+        - Non c'è un secondo né un terzo
+        - Uno e uno, è uguale
+    - lines:
+        - (Ermafrodito, ermafrodito) Ermafrodito, ermafrodito
+        - (Ermafrodito, ermafrodito) Sono così innamorato
+        - (Ermafrodito, ermafrodito) Ermafrodito, ermafrodito
+        - (Ermafrodito, ermafrodito) Sono innamorato di me
+    - lines:
+        - Uno per me
+        - Uno per te
+        - Non esiste
+        - Per me
+        - Uno per me (One!)
+        - Uno per te
+        - Uno e uno (One!)
+        - Quello sono io
+    - lines:
+        - Sono solo ma non solo
+        - Posso stare insieme a me stesso
+        - La mattina bacio il mio riflesso
+        - E la sera mi addormento con me
+        - Quando le altre ragazze cercavano
+        - Io potevo già fecondarmi da solo
+        - Così non mi perdo d'animo
+        - Quando qualcuno mi dice "Fottiti"
+    - lines:
+        - (Ermafrodito, ermafrodito) Ermafrodito, ermafrodito
+        - (Ermafrodito, ermafrodito) Sono così innamorato
+        - (Ermafrodito, ermafrodito) Ermafrodito, ermafrodito
+        - (Ermafrodito, ermafrodito) Sono innamorato di me
+    - lines:
+        - Uno per me
+        - Uno per te
+        - Non esiste
+        - Per me
+        - Uno per me (One!)
+        - Uno per te
+        - Uno e uno (One!)
+        - Quello sono io
+    - lines:
+        - One!
+        - One!
+---

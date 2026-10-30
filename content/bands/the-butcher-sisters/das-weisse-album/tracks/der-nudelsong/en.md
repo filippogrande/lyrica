@@ -1,0 +1,81 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Federico, -co, -co, -co-co
+        - Federico, -co, -co, -co- co-co-co
+    - lines:
+        - We are the Barilla Boys, 'cause our pasta is always al dente (Yes)
+        - Pesto Rosso, Genovese, the main thing is Italo vibes (Yes)
+        - Give me the durum wheat, or you'll bite the dust (Hüah)
+        - Watch me writing parts with my fingers on the floured worktop
+        - I'm in the trattoria and happily filling the cannelloni
+        - TBS, KNG, divine combinazione (Yes)
+        - I want lasagne and shove bite after bite into my gob (Oah)
+        - Food's great, three weeks of diarrhoea, a doctor has to examine me
+    - lines:
+        - Good morning, good morning, please to the oven
+        - Bon Jovi, Bon Jovi, thanks, tortelloni
+        - Good morning, good morning, please to the oven
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - You can make pasta hot, you can make pasta cold
+        - I put pasta in my mouth till it bangs
+        - You can make pasta hot, you can make pasta cold
+        - I put pasta in my mouth till it bangs (Federico)
+    - lines:
+        - Spaghettini, rigatone, quattrio statione
+        - Parmigiano, never without, other food, free zone
+        - No, no, no salad, yes, yes, yes, pasta, pasta
+        - No, no, no risottono, pasta only bronze-cut
+        - I can eat pasta hot, I can eat it cold (Cold)
+        - I love pasta, I'm head over heels for pasta
+        - I take the pasta out of the water, hot, hot, hot
+        - Spooning spaghetti ice cream out of the tub, -cream, -cream
+    - lines:
+        - Good morning, good morning, please to the oven
+        - Bon Jovi, Bon Jovi, thanks, tortelloni
+        - Good morning, good morning, please to the oven
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - You can make pasta hot, you can make pasta cold
+        - I put pasta in my mouth till it bangs
+        - You can make pasta hot, you can make pasta cold
+        - I put pasta in my mouth till it bangs
+    - lines:
+        - Good morning, good morning, please to the oven
+        - Bon Jovi, Bon Jovi, thanks, tortelloni
+        - Good morning, good morning, please to the oven
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa
+    - lines:
+        - (Federico)
+        - Yeah, happa, happa
+        - Pasta, Pasta
+        - Happa, happa, Pasta, Pasta, happa, happa
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa, happa
+    - lines:
+        - You can make pasta hot, you can make pasta cold
+        - I put pasta in my mouth till it bangs
+        - You can make pasta hot, you can make pasta cold
+        - I put pasta in my mouth till it bangs, yeah
+    - lines:
+        - Good morning, good morning, please to the oven
+        - Bon Jovi, Bon Jovi, thanks, tortelloni
+        - Good morning, good morning, please to the oven
+        - Bon Jovi, Bon Jovi
+    - lines:
+        - Happa, happa
+        - Pasta, Pasta
+        - Happa, happa, happa
+---

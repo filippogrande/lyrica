@@ -1,0 +1,88 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Una cosa giovane e spezzata
+        - Indossa il suo dolore come un anello nuziale rubato
+        - Le piace pensare di essere il veleno
+        - Sulle labbra, sulle labbra del re
+    - lines:
+        - Vuole essere il relitto, vuole essere dannata
+        - Vuole rovinare tutto e tutti quelli che aveva
+        - Là fuori, nel deserto, c'è un solo albero
+        - E è lì che ho aspettato la ragazza che avrebbe potuto essere
+    - lines:
+        - E qui fuori, nel deserto
+        - Con l'ultimo segno di vita
+        - E è lì che ho aspettato
+        - La ragazza che avrebbe potuto essere
+    - lines:
+        - Vuole essere, vuole essere
+        - La tragedia
+        - Vuole essere, vuole essere
+        - Il disordine che è
+        - Sempre stata, sempre stata
+        - L'incendio
+        - Che brucia il tuo cuore
+    - lines:
+        - Una cosa giovane e spezzata
+        - Senza alcuna intenzione di salvarsi
+        - Le piace pensare di essere la ballerina
+        - Che gira in tondo intorno al re
+    - lines:
+        - Vuole essere il relitto, vuole essere dannata
+        - Vuole rovinare tutto e tutti quelli che aveva
+        - Là fuori, nel deserto, c'è un solo albero
+        - E è lì che ho aspettato la ragazza che avrebbe potuto essere
+    - lines:
+        - E là fuori, nel deserto, c'è un solo albero
+        - E è lì che ho aspettato la ragazza che avrebbe potuto essere
+        - In attesa nel deserto, vicino all'albero della vita
+        - Il mio primo pensiero al mattino e l'ultimo pensiero della notte
+    - lines:
+        - Vuole essere, vuole essere
+        - La tragedia
+        - Vuole essere, vuole essere
+        - Il disordine che è
+        - Sempre stata, sempre stata
+        - L'incendio
+        - Che brucia il tuo cuore
+    - lines:
+        - Vuole essere, vuole essere
+        - La tragedia
+        - Vuole essere, vuole essere
+        - Il disordine che è
+        - Sempre stata, sempre stata
+        - L'incendio
+        - Che brucia il tuo cuore
+    - lines:
+        - La ballerina tragica
+        - Seduta nella stanza di trucco
+        - Che chiede al suo specchio rotto
+        - Dove sia andato storto tutto
+    - lines:
+        - E là fuori, nel deserto, c'è un solo albero
+        - E è lì che ho aspettato la ragazza che avrebbe potuto essere
+        - In attesa nel deserto, vicino all'albero della vita
+        - Il mio primo pensiero al mattino e l'ultimo pensiero della notte
+    - lines:
+        - E la vita è quello che ne fai
+        - Ma è il tipo di ballo
+        - Alcune persone sono nate per questo
+        - E alcune persone semplicemente no
+    - lines:
+        - Vuole essere, vuole essere
+        - La tragedia
+        - Vuole essere, vuole essere
+        - Il disordine che è
+        - Sempre stata, sempre stata
+        - L'incendio
+        - Che brucia il tuo cuore
+    - lines:
+        - Lei è la tragedia
+        - Lei è la stella cadente
+        - È sempre stata l'incendio
+        - Che brucia il tuo cuore
+---

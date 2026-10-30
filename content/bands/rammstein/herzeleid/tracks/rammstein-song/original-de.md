@@ -1,0 +1,38 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Rammstein
+        - Ein Mensch brennt
+        - Rammstein
+        - Fleischgeruch in der Luft
+        - Rammstein
+        - Ein Kind stirbt
+        - Rammstein
+        - Die Sonne scheint
+    - lines:
+        - Rammstein
+        - Ein Flammenmeer
+        - Rammstein
+        - Blut gerinnt auf dem Asphalt
+        - Rammstein
+        - Mütter schreien
+        - Rammstein
+        - Die Sonne scheint
+    - lines:
+        - Rammstein
+        - Ein Massengrab
+        - Rammstein
+        - Kein Entrinnen
+        - Rammstein
+        - Kein Vogel singt mehr
+        - Rammstein
+        - Und die Sonne scheint
+    - lines:
+        - Rammstein
+        - Rammstein
+        - Rammstein
+        - Rammstein
+        - Rammstein
+---

@@ -1,0 +1,131 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Sono un mostro
+        - Dammi White Monster
+        - Dammi energia
+        - Per la mia batteria
+    - lines:
+        - Sono un mostro
+        - Dammi White Monster
+        - Dammi energia
+        - Per la mia batteria
+    - lines:
+        - Sono un mostro
+        - Sono un mostro
+    - lines:
+        - Sono un mostro
+        - Sono un mostro
+        - Sono un
+    - lines:
+        - Zero calorie (nulla)
+        - Zero zucchero (nulla)
+        - Sono il tracannatore di monster white energy (gluck gluck)
+    - lines:
+        - Fico come John Cena
+        - Sveglio come un professore
+        - Sono quello con il difetto cardiaco fatto in casa
+    - lines:
+        - 8 giorni sveglio - sto allucinando
+        - L'orinatoio si scioglie - quando piscio
+        - Vado veloce – come una bestia ghepardo
+        - Preparo il caffè con il Monster
+        - L'avete mai provato?
+    - lines:
+        - Senza taurina
+        - E caffeina
+        - La vita non ha senso
+    - lines:
+        - Senza taurina
+        - E caffeina
+        - Sì!
+    - lines:
+        - Sono un mostro
+        - Dammi White Monster
+        - Dammi energia
+        - Per la mia batteria
+    - lines:
+        - Sono un mostro
+        - Dammi White Monster
+        - Dammi energia
+        - Per la mia batteria
+    - lines:
+        - Sono un mostro
+        - Sono un
+    - lines:
+        - Sono un mostro
+        - Monster
+        - White Monster
+        - Yeah
+    - lines:
+        - Sì sì
+        - Vado su internet su gutefrage.de
+        - Quanti White Monster bevete voi al giorno?
+        - Perché io ne tracanno ogni giorno a bizzeffe
+        - E il mio medico di base dice - che non va bene
+    - lines:
+        - Peròòò
+        - Non sono un bambino né una donna che allatta
+        - Sono un tipo chill con un mostro nello stomaco
+        - Sono un tracannatore a catena di lattine, dammi energy now
+        - Ho tanti monster perché ne ho comprati tanti
+    - lines:
+        - Senza taurina
+        - E caffeina
+        - La vita non ha senso
+        - Senza taurina
+        - E caffeina
+        - Sì!
+    - lines:
+        - Bro sei ancora sveglio
+        - Sì
+        - Anche io
+        - Che ore sono?
+        - "4"
+        - Che giorno? Lunedì?
+        - Giovedì, bro
+        - Vuoi ancora un Monster?
+        - Sì dai
+    - lines:
+        - Aaaaaah
+        - Aaaaaah
+        - Sìììììì
+        - Sìììììì
+        - Sveglio per sempre
+        - Sveglio per sempre
+        - Mi premo le dita negli occhi
+        - Sveglio per sempre
+        - Sveglio per sempre
+        - Sveglio sveglio sveglio svegliooo
+    - lines:
+        - Sono un mostro
+        - Dammi White Monster
+        - Dammi energia
+        - Per la mia batteria
+    - lines:
+        - Sono un mostro
+        - Dammi White Monster
+        - Dammi energia
+        - Per la mia batteria
+    - lines:
+        - Sono un mostro
+        - Sono un mostro
+    - lines:
+        - Solo un piccolo Monster in più
+    - lines:
+        - (Sono un mostro)
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster
+    - lines:
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster...
+    - lines:
+        - Oh yeah per sempre e sempre
+---

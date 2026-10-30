@@ -1,0 +1,104 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Per tutta la sua vita
+        - Ha cercato di comportarsi bene
+        - Ma tutta la sua calma non era destinata a restare
+    - lines:
+        - Sento il mio cuore correre veloce sul ritmo
+        - Risvegliando l'altra parte di me
+        - Quindi lo lascio andare
+        - Non c'è niente che io possa fare
+        - Se non respirare e cedere al calore
+    - lines:
+        - E mi sento così vivo quando perdo il controllo
+        - Fatti da parte, sto per esplodere
+        - Senti il basso nel mio cuore fatto d'acciaio
+        - E lo so, oh-oh
+        - Sarò io quello che farà a pezzi tutto
+    - lines:
+        - Non voglio romperlo
+        - Non voglio rompere tutto
+        - Il ritmo dice sì
+        - Il ritmo dice sì
+        - Non voglio distruggerlo
+        - Non voglio perdere il controllo
+        - Il ritmo dice sì
+        - Il ritmo dice sì
+        - Non voglio romperlo
+        - Non voglio rompere tutto
+        - Il ritmo dice sì
+        - Il ritmo dice sì
+        - Non voglio distruggerlo
+        - Non voglio perdere il controllo
+        - Il ritmo dice sì
+        - Il ritmo dice sì
+    - lines:
+        - Non arrenderti mai
+        - Non cedere mai
+        - Pronto a combattere
+        - Quando il ritmo entra
+        - In fondo al cuore
+        - Sotto la pelle
+        - Sento la rabbia
+        - Non posso trattenerla
+    - lines:
+        - Ti spingo indietro e ti intrappolo dentro
+        - Questa è MadEvil Manor
+        - Non hai dove nasconderti
+        - Sono nato per dominare il palco
+        - Ma quando il basso entra, oh-oh
+        - Non sarò mai più lo stesso
+    - lines:
+        - Non voglio romperlo
+        - Non voglio rompere tutto
+        - Il ritmo dice sì
+        - Il ritmo dice sì
+        - Non voglio distruggerlo
+        - Non voglio perdere il controllo
+        - Il ritmo dice sì
+        - Il ritmo dice sì
+    - lines:
+        - Non arrenderti mai
+        - Non cedere mai
+        - Pronto a combattere
+        - Quando il ritmo entra
+        - In fondo al cuore
+        - Sotto la pelle
+        - Sento la rabbia
+        - Non posso trattenerla
+    - lines:
+        - E quando mi nascondo nel buio
+        - Sento il mio cuore che martella
+        - Vorrei spegnerlo per una volta
+        - Ma continua a battere
+        - Sai com'è la situazione
+        - Non puoi scappare
+        - Lo farò a pezzi in una rabbia totale
+        - Il mio cuore di metallo è ipercarico
+        - Questo è ciò che mi tiene in vita
+    - lines:
+        - Questo è quando perdo il controllo
+        - Brawl!
+        - Attento!
+        - Non si sta fermando ora
+        - Non riesco più a trattenerlo
+        - Il ritmo sta scendendo
+        - Non si sta fermando, sì
+        - Ora è parte di me
+        - Questo è ciò che mi tiene in vita
+    - lines:
+        - Non arrenderti mai
+        - Non cedere mai
+        - Pronto a combattere
+        - Quando il ritmo entra
+        - Non arrenderti mai, non cedere mai, pronto a combattere
+        - Quando il ritmo entra
+        - In fondo al cuore
+        - Sotto la pelle sento la rabbia, non posso trattenerla
+        - Ora non riesco più a trattenerlo
+        - Non si sta fermando
+---

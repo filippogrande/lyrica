@@ -1,0 +1,44 @@
+---
+lang: de
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Wenn ich all' die Bilder seh'
+        - Dann denk' ich nur an dich
+        - Wie du gestern auf mir saßt
+        - Gott, war das widerlich
+    - lines:
+        - Dein Geruch der noch an mir klebt
+        - Der ist jetzt überall
+        - Und schon klingelt mein Telefon
+        - Du willst mich noch einmal
+    - lines:
+        - Du bist wie ein Hurricane
+        - Der sich durch mein Leben zieht
+        - Ohne Rast und Gefühl
+        - Ziehst du mich immer wieder zu dir
+    - lines:
+        - Du bist wie ein Hurricane
+        - Der sich durch mein Leben zieht
+        - Und du weißt ganz genau
+        - Ich kann dir niemals wieder entkomm'
+    - lines:
+        - Friss mich auf!
+    - lines:
+        - Sie ist hungrig, sie ist geil, sie giert nach Fleisch
+        - Oh Schatz, ich bin bereit zu sterben
+        - Oh, du schmaust mein Blut, meine Knochen, meine Eingeweide
+        - Würge!
+        - Sie ist die Liebe meines Lebens!
+    - lines:
+        - Kann mich nicht ver—
+        - Kann nicht widerstehen
+        - Friss mich lebendig
+        - Dein nekrotisches Gesicht
+        - Ist das, das ich mag
+    - lines:
+        - Du bist meine faule Königin
+        - Deine Hände auf meinem Herzen
+        - Heirat mich!
+---

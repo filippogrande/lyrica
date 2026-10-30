@@ -1,0 +1,54 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Orsù, cari bambini, state bene attenti
+        - Io sono la voce che viene dal cuscino
+        - Vi ho portato qualcosa
+        - L'ho strappato dal mio petto
+        - Con questo cuore ho il potere
+        - Di ricattare le palpebre
+        - Canto finché il giorno si sveglia
+        - Un chiarore luminoso nel firmamento
+    - lines:
+        - Il mio cuore brucia!
+    - lines:
+        - Vengono da voi nella notte
+        - Demoni, spiriti, fate nere
+        - Strisciano fuori dal pozzo della cantina
+        - E guarderanno sotto le vostre coperte
+    - lines:
+        - Orsù, cari bambini, state bene attenti
+        - Io sono la voce che viene dal cuscino
+        - Vi ho portato qualcosa
+        - Un chiarore luminoso nel firmamento
+    - lines:
+        - Il mio cuore brucia!
+        - Il mio cuore brucia!
+    - lines:
+        - Vengono da voi nella notte
+        - E rubano le vostre piccole lacrime calde
+        - Aspettano che la luna si svegli
+        - E le spingono nelle mie vene fredde
+    - lines:
+        - Orsù, cari bambini, state bene attenti
+        - Io sono la voce che viene dal cuscino
+        - Canto finché il giorno si sveglia
+        - Un chiarore luminoso nel firmamento
+    - lines:
+        - Il mio cuore brucia!
+        - Il mio cuore brucia!
+        - Il mio cuore brucia!
+        - Il mio cuore brucia!
+    - lines:
+        - Con questo cuore ho il potere
+        - Di ricattare le palpebre
+        - Canto finché il giorno si sveglia
+        - Un chiarore luminoso nel firmamento
+    - lines:
+        - Il mio cuore brucia!
+        - Il mio cuore brucia!
+        - Il mio cuore brucia! (Il mio cuore)
+        - Il mio cuore brucia!
+---

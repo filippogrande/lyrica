@@ -1,0 +1,65 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Oh, yeah
+    - lines:
+        - It's my calling to deliver you some warm love
+        - Five to nine, yo, one simple phone call
+        - It is made of dough, cheese, and whatever you like
+        - I don't care if you're on the east or the west side
+    - lines:
+        - Get away, get away, oh, get away
+        - Full speed ahead, there is no foreplay
+        - Stay at home, stay at home, stay at fucking home
+        - Knock, knock, open up or I will pick your lock
+    - lines:
+        - Why, oh, please tell me why
+        - I am gonna die
+        - If I only try
+        - Pineapples make me cry
+        - Oh, please tell me why
+        - I am gonna die
+        - Pizza homicide, by pizza homicide
+    - lines:
+        - Why, oh, please tell me why
+        - I am gonna die
+        - If I only try
+        - Pineapples make me cry
+        - Oh, please tell me why
+        - I am gonna die
+        - Pizza homicide, by pizza homicide
+    - lines:
+        - Fuck fruits on my pizza
+        - No pineapples on my pizza
+        - Grease and meat is all I need, all I need
+    - lines:
+        - I can't take no more of your blasphemy
+        - No apologies, brutal brutality
+        - Chop, chop, chop, chop, chop, pizza homicide
+        - They will find your body parts on the east and west side
+    - lines:
+        - Get away, get away, oh, get away
+        - Full speed ahead, there is no foreplay
+        - Stay at home, stay at home, stay at fucking home
+        - Knock, knock, open up or I will pick your lock
+    - lines:
+        - Why, oh, please tell me why
+        - I am gonna die
+        - If I only try
+        - Pineapples make me cry
+        - Oh, please tell me why
+        - I am gonna die
+        - Pizza homicide, by pizza homicide
+    - lines:
+        - Get away, get away, oh, get away
+        - Full speed ahead, there is no foreplay
+        - Get away, get away, oh, get away
+        - Knock, knock, open up or I will pick your lock
+        - Knock, knock, open up or I will pick your lock
+    - lines:
+        - Full speed ahead, there is no foreplay
+        - Full speed ahead, there is no foreplay
+        - Full speed ahead, there is no foreplay
+---

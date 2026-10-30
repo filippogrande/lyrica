@@ -1,0 +1,75 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Dicono che andremo tutti all'inferno per l'eternità
+        - Mentre ci sganciano le loro bombe dalle loro macchine da guerra
+        - Sei pronto a morire?
+        - Sei pronto a sanguinare per me?
+        - E adesso il tempo è scaduto
+    - lines:
+        - Non c'è niente di meglio
+        - Della sensazione dell'eternità
+        - Quando il tuo corpo si decompone
+        - E più leggero di una piuma
+        - E preghi "Non voglio andarmene"
+        - Lui non vuole morire
+        - Non voglio andare in paradiso
+        - Non voglio vedere la luce
+    - lines:
+        - (Benvenuti alla fine della strada)
+        - (Maledetti pezzi di merda degenerati)
+    - lines:
+        - Fanculo il mondo con una pistola carica
+        - Partono i colpi, tutti farebbero meglio a chinarsi
+        - Dai la colpa alla sfortuna
+        - (Do do do)
+    - lines:
+        - Guarda i corpi cadere
+        - Ora sei da solo
+        - È un suicidio sociale
+    - lines:
+        - Abbattendo i muri
+        - Resta in piedi amico mio, ci rivedremo
+    - lines:
+        - Eri destinato a vivere
+        - Per molto di più
+    - lines:
+        - Sono così stufo e stanco di come viviamo
+        - Bombardiamo le scuole solo per costruire una prigione
+        - Sparare per uccidere in un parcheggio pieno di gente
+        - Uno a uno finché i corpi non cadono
+    - lines:
+        - Ora sei da solo
+        - Questo proiettile conosce il tuo nome
+        - Abbattendo i muri
+        - E non puoi sfuggire al tuo destino
+    - lines:
+        - E allora che cazzo farai?
+        - Non ho paura di morire
+        - Guerra, orgoglio
+        - Il sangue è stato versato
+    - lines:
+        - Genocidio
+        - Speranza
+        - Tutto svanito
+        - Ma non importa cosa
+        - Per loro non basta mai
+        - Mai abbastanza per loro
+    - lines:
+        - Per loro
+        - Ripeti il ciclo
+        - Benedici il martire
+        - Ama il prossimo tuo
+        - Uccidi tuo padre
+        - Ripeti il ciclo
+        - Uccidi i tuoi idoli
+        - Ama il prossimo tuo
+        - Ora ripeti il ciclo
+    - lines:
+        - Ripeti il ciclo
+        - Ripeti il ciclo
+        - Ora ripeti il ciclo
+---

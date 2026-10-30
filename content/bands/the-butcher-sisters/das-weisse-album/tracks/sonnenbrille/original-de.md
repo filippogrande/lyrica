@@ -1,0 +1,75 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Ich sehe cool aus, ich sehe cool aus
+        - Ich komme cool mit der Brille aus dem Pool raus
+        - Ich sehe cool aus, ich sehe cool aus
+        - Ich komme cool mit der Brille aus dem Pool raus
+        - Sonnenbrille
+        - Sonnenbrille
+    - lines:
+        - Es ist so hell, es ist so hell
+        - Ich hole meine Sonnenbrille schnell
+        - Getönte Gläser, cool wie Laser
+        - Cooler wie ein cooler Hai, alle sagen zu mir hi
+    - lines:
+        - Ich sehe cool aus, ich sehe cool aus
+        - Ich komme cool mit der Brille aus dem Pool raus
+        - Ich sehe cool aus, ich sehe cool aus
+        - Ich komme cool mit der Brille aus dem Pool raus
+    - lines:
+        - Sonnenbrille im Gesicht
+        - Ohne Brille, ohne mich
+        - Sonnenbrille im Gesicht
+        - Heute ist Sonnenbrille Pflicht
+        - Sonnenbrille Pflicht, Sonnenbrille Pflicht
+        - Ohne Brille, ohne mich
+        - Sonnenbrille Pflicht, Sonnenbrille Pflicht
+        - Sonnenbrille im Gesicht
+    - lines:
+        - Sonnenbrille Pflicht
+        - Sonnenbrille
+    - lines:
+        - Die Sonne macht mich aggro
+        - Sie blendet mich im Auto
+        - Und auch auf dem Fahrrad
+        - Ich zieh' die Brille nie mehr ab
+    - lines:
+        - Sonnenbrillen hab' ich viel, Mann
+        - Ich bin Dauergast bei Fielmann
+        - Ich will sie alle haben, es ist mein letzter Wille
+        - Bitte gib mir bitte meine Sonnenbrille
+    - lines:
+        - Ich sehe cool aus, ich sehe cool aus
+        - Ich komme cool mit der Brille aus dem Pool raus
+        - Ich sehe cool aus, ich sehe cool aus
+        - Ich komme cool mit der Brille aus dem Pool raus
+    - lines:
+        - Sonnenbrille im Gesicht
+        - Ohne Brille, ohne mich
+        - Sonnenbrille im Gesicht
+        - Heute ist Sonnenbrille Pflicht
+        - Sonnenbrille Pflicht, Sonnenbrille Pflicht
+        - Ohne Brille, ohne mich
+        - Sonnenbrille Pflicht, Sonnenbrille Pflicht
+        - Sonnenbrille im Gesicht
+    - lines:
+        - Die Sonne lacht, ich lach' zurück (Hahaha, hahaha, ha, ha)
+        - Sie schenkt mir Freude, schenkt mir Glück, uh
+        - Schieß mir dein heißes UV
+        - In mein Gesicht und auf meinen Bauch
+    - lines:
+        - Sonnenbrille im Gesicht
+        - Ohne Brille, ohne mich
+        - Sonnenbrille im Gesicht
+        - Heute ist Sonnenbrille Pflicht
+        - Sonnenbrille Pflicht, Sonnenbrille Pflicht
+        - Ohne Brille, ohne mich
+        - Sonnenbrille Pflicht, Sonnenbrille Pflicht
+        - Sonnenbrille im Gesicht
+    - lines:
+        - Sonnenbrille Pflicht
+        - Sonnenbrille
+---

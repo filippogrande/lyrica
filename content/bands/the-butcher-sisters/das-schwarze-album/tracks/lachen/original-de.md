@@ -1,0 +1,61 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Lachen
+        - Lachen
+        - Lachen
+        - Ha-haha-ha-ha-ha-ha-haha
+        - Lachen
+    - lines:
+        - Ich hab' bei Spiderman angerufen
+        - Aber er hatte kein Netz, der Huensn (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Ich hab' das Brot angerufen, es war belegt
+        - Wegen Belag auf dem Brot (Ha-ha-ha-ha)
+        - Du verstehst?
+        - Beim Bäcker ging nur die Mehlbox ran
+        - Im Hotel war kein Empfang
+        - Keine Sau ging beim Metzger ran
+        - TBS liebt Spaß und Fun
+    - lines:
+        - Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)
+    - lines:
+        - Was macht ein Steak unter dem Sofa?
+        - Na, sich versteaken, du Opfer (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Achtung, jetzt kommt noch ein Banger
+        - Für alt-weiße Cis-Männer
+        - Warum ist der Schniedelwutz im Knast?
+        - (Achtung) Weil er gestanden hat
+    - lines:
+        - Ha, ja, ja, ich hab' auch einen
+        - Also äh, Fritzchen geht zum Bäcker und ähm
+        - Der will äh, zwei Brötchen bestellt der
+        - Und die Bäckerfrau äh, die guckt ihn an und sagt
+        - Äh, nehmen Sie doch drei äh, äh, ähm
+        - Dann hamse eins mehr
+        - Oh, hoho, ho, hoho, hoho, ja, äh
+        - Ein Mann u-und, eine Frau und also, oh
+        - Lachen
+        - Lachen
+    - lines:
+        - Lauscher auf und hört mal her
+        - Wo der herkam, gibt's noch mehr
+        - Die Witze so gut, das ist nicht fair
+        - TBS sind lustig und zwar sehr
+        - Auf der Arbeit wieder Stress
+        - Auch privat hast du nur Pech
+        - Wir sind für dich da, zu jeder Zeit
+        - Immer für 'nen Joke bereit
+        - Ha-ha-ha
+    - lines:
+        - Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha)
+        - Lachen (Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha, Ha-haha-ha-ha-ha-ha-haha)
+        - Lachen!
+        - Lachen!
+        - Lachen!
+        - Ha-haha-ha-ha-ha-ha-haha
+---

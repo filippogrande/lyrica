@@ -1,0 +1,98 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Andiamo
+    - lines:
+        - So che hai paura perché stai correndo a copertura
+        - Ma potresti correre lontano
+        - E se i demoni sanno che sei terrorizzato a morte
+        - Allora ti troveranno dove sei
+        - C'è un virus che infetta il tuo sistema?
+        - Le tagliano hanno lasciato un marchio animale?
+        - Questo ti renderà uno di noi
+        - E non saremo mai mai mai separati
+    - lines:
+        - Il male ha il suo motivo
+        - E ora anche io
+        - E ti terrò al tuo fragile alibi
+    - lines:
+        - Con questa rabbia dentro di me
+        - A te lo consegno
+        - A te lo consegno
+        - Forse ora possiamo uccidere il nemico
+        - Molto severo
+        - Alzati e fai la tua mossa
+        - Lascia che il fuoco continui, lascia che il passi da me a te
+        - Da me a te
+    - lines:
+        - Ho bisogno di un amico che non mi tradirà mai
+        - Non c'è tempo come quello che siamo
+        - Sono così annoiato, non mi importa delle conseguenze
+        - Quindi verrò a trovarti dove sei
+    - lines:
+        - È un peccato se desidero la distruzione?
+        - È una chiamata che posso fare?
+        - E invoco l'ira del cremiso sui volti sulla mia strada
+        - E va da me a te
+    - lines:
+        - Ne ho abbastanza della tua bocca
+        - Puoi infilartela
+        - Perché sai che non hai possibilità
+    - lines:
+        - Con questa rabbia dentro di me
+        - A te lo consegno
+        - A te lo consegno
+        - Forse ora possiamo uccidere il nemico
+        - Molto severo
+        - Alzati e fai la tua mossa
+        - Lascia che il fuoco continui, lascia che il passi da me a te
+    - lines:
+        - Scappa dalle tenebre
+        - Insieme alla luce
+        - Quando annunciai la fine
+        - Io sono solo
+        - Vagando nella disperazione
+    - lines:
+        - Stai facendo questo sbagliato
+        - Perché se la fine è una promessa
+        - Sta ancora guardando in alto
+        - Non posso riposare finché non sei fottutamente senza fiato
+        - Poiché la forte intenzione è stata giustificata
+        - Appeso ai bordi, riposerai con le tue bugie
+        - Riposa con le tue bugie
+    - lines:
+        - Con questa rabbia dentro di me
+        - A te lo consegno
+        - A te lo consegno
+        - Con questa rabbia dentro di me
+        - Dentro di me
+        - A te lo consegno
+        - A te lo consegno
+        - A te lo consegno
+        - Sconfiggere il nemico
+        - Forse ora possiamo uccidere il nemico
+        - Uccidi il nemico
+        - Molto severo
+        - Alzati e fai la tua mossa
+        - Lascia che il fuoco continui, lascia che il passi da me a te
+        - Da me a te
+    - lines:
+        - Con questa rabbia dentro di me
+        - A te lo consegno
+        - A te lo consegno
+        - Con questa rabbia dentro di me
+        - Dentro di me
+        - A te lo consegno
+        - A te lo consegno
+        - A te lo consegno
+        - Sconfiggere il nemico
+        - Forse ora possiamo uccidere il nemico
+        - Uccidi il nemico
+        - Molto severo
+        - Alzati e fai la tua mossa
+        - Lascia che il fuoco continui, lascia che il passi da me a te
+        - Da me a te
+---

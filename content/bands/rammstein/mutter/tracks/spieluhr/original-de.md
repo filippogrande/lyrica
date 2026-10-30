@@ -1,0 +1,68 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Ein kleiner Mensch stirbt nur zum Schein
+        - Wollte ganz alleine sein
+        - Das kleine Herz stand still für Stunden
+        - So hat man es für tot befunden
+        - Es wird verscharrt in nassem Sand
+        - Mit einer Spieluhr in der Hand
+    - lines:
+        - Der erste Schnee, das Grab bedeckt
+        - Hat ganz sanft das Kind geweckt
+        - In einer kalten Winternacht
+        - Ist das kleine Herz erwacht
+        - Als der Frost ins Kind geflogen
+        - Hat es die Spieluhr aufgezogen
+        - Eine Melodie im Wind
+        - Und aus der Erde singt das Kind
+    - lines:
+        - Hoppe, hoppe, Reiter
+        - Und kein Engel steigt herab
+        - Mein Herz schlägt nicht mehr weiter
+        - Nur der Regen weint am Grab
+        - Hoppe, hoppe, Reiter
+        - Eine Melodie im Wind
+        - Mein Herz schlägt nicht mehr weiter
+        - Und aus der Erde singt das Kind
+    - lines:
+        - Der kalte Mond in voller Pracht
+        - Hört die Schreie in der Nacht
+        - Und kein Engel steigt herab
+        - Nur der Regen weint am Grab
+        - Zwischen harten Eichendielen
+        - Wird es mit der Spieluhr spielen
+        - Eine Melodie im Wind
+        - Und aus der Erde singt das Kind
+    - lines:
+        - Hoppe, hoppe, Reiter
+        - Und kein Engel steigt herab
+        - Mein Herz schlägt nicht mehr weiter
+        - Nur der Regen weint am Grab
+        - Hoppe, hoppe, Reiter
+        - Eine Melodie im Wind
+        - Mein Herz schlägt nicht mehr weiter
+        - Und aus der Erde singt das Kind
+        - Hoppe, hoppe, Reiter
+        - Mein Herz schlägt nicht mehr weiter
+    - lines:
+        - Am Totensonntag hörten sie
+        - Aus Gottes Acker diese Melodie
+        - Da haben sie es ausgebettet
+        - Das kleine Herz im Kind gerettet
+    - lines:
+        - Hoppe, hoppe, Reiter
+        - Eine Melodie im Wind
+        - Mein Herz schlägt nicht mehr weiter
+        - Und aus der Erde singt das Kind
+        - Hoppe, hoppe, Reiter
+        - Und kein Engel steigt herab
+        - Mein Herz schlägt nicht mehr weiter
+        - Nur der Regen weint am Grab
+        - Hoppe, hoppe, Reiter
+        - Eine Melodie im Wind
+        - Mein Herz schlägt nicht mehr weiter
+        - Und aus der Erde singt das Kind
+---

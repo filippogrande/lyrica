@@ -1,0 +1,47 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Volete vedere il letto in fiamme?
+        - Volete sprofondare pelle e capelli?
+        - Volete anche voi piantare il pugnale nelle lenzuola
+        - Volete anche voi leccare il sangue dalla spada
+    - lines:
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - Vedete le croci sul cuscino
+        - Pensate che l'innocenza possa baciarvi
+        - Credete che uccidere sia difficile
+        - Ma da dove vengono tutti questi morti?
+    - lines:
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - Il sesso è una battaglia
+        - L'amore è guerra
+        - Il sesso è una battaglia, sì
+        - L'amore è guerra
+        - Il sesso è una battaglia
+        - L'amore è guerra
+        - Il sesso è una battaglia, sì
+        - L'amore è guerra
+    - lines:
+        - Volete vedere il letto in fiamme?
+        - Volete sprofondare pelle e capelli?
+        - Volete anche voi piantare il pugnale nelle lenzuola
+        - Volete anche voi leccare il sangue dalla spada
+    - lines:
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+        - Rammstein!
+    - lines:
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+        - Rammstein! Rammstein! Rammstein!
+---

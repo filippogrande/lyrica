@@ -1,0 +1,57 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Non sono mai stato uno che guardava indietro
+        - Corsa per tutta la vita, sempre rimasto in carreggiata
+        - Ci siamo persi il tempo per ricollegarci
+        - Nessuno spazio nessun modo per restituirti qualcosa
+    - lines:
+        - Inseguiamo diamanti solo per vedere
+        - Quelli che amiamo sono tutto ciò che serve
+        - Nulla è costruito per l'eternità
+        - Quindi dimmi
+    - lines:
+        - E se ti perdo?
+        - E se questa vita ti porta via?
+        - E se non riesco ad andare avanti?
+        - Quando voli via tra le nuvole
+        - Tra le nuvole
+        - Tra le nuvole
+        - Nel, nel grigio
+    - lines:
+        - Il silenzio riecheggia
+        - In spazi non detti
+        - Riesco a trovare una conclusione
+        - O ci sarà solo rimpianto?
+    - lines:
+        - Inseguiamo diamanti solo per vedere
+        - Quelli che amiamo sono tutto ciò che serve
+        - Nulla è costruito per l'eternità
+        - Quindi dimmi
+    - lines:
+        - E se ti perdo?
+        - E se questa vita ti porta via?
+        - E se non riesco ad andare avanti?
+        - Quando voli via tra le nuvole
+        - Tra le nuvole
+        - Tra le nuvole
+        - Nel, nel grigio
+    - lines:
+        - Ho troppa paura di dire
+        - Che il tempo lavierebbe il dolore
+    - lines:
+        - Ho troppa paura di dire
+        - Che potrei farcela senza di te
+        - Giorno dopo giorno
+    - lines:
+        - E se ti perdo?
+        - E se questa vita ti porta via?
+        - E se non riesco ad andare avanti?
+        - Quando voli via tra le nuvole
+        - Tra le nuvole
+        - Tra le nuvole
+        - Nel, nel grigio
+---

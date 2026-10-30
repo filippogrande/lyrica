@@ -1,0 +1,131 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - I'm a monster
+        - Give me White Monster
+        - Give me energy
+        - For my battery
+    - lines:
+        - I'm a monster
+        - Give me White Monster
+        - Give me energy
+        - For my battery
+    - lines:
+        - I'm a monster
+        - I'm a monster
+    - lines:
+        - I'm a monster
+        - I'm a monster
+        - I'm a
+    - lines:
+        - Zero calories (zero)
+        - Zero sugar (zero)
+        - I'm the monster white energy chugger (glug glug)
+    - lines:
+        - Cool like John Cena
+        - Smart like a teacher
+        - I'm the one with the self-made heart defect
+    - lines:
+        - 8 days awake - I'm hallucinating
+        - The urinal melts - when I pee
+        - I go fast – like a cheetah beast
+        - Brew the coffee with Monster
+        - Have you guys ever tried that?
+    - lines:
+        - Without taurine
+        - And caffeine
+        - Life makes no sense
+    - lines:
+        - Without taurine
+        - And caffeine
+        - Yes!
+    - lines:
+        - I'm a monster
+        - Give me White Monster
+        - Give me energy
+        - For my battery
+    - lines:
+        - I'm a monster
+        - Give me White Monster
+        - Give me energy
+        - For my battery
+    - lines:
+        - I'm a monster
+        - I'm a
+    - lines:
+        - I'm a monster
+        - Monster
+        - White Monster
+        - Yeah
+    - lines:
+        - Yeah yeah
+        - I go on the internet on gutefrage.de
+        - How many White Monster do you guys drink a day?
+        - Cause I suck very very many away daily
+        - And my GP says - that ain't okay
+    - lines:
+        - Buuut
+        - I'm not a kid, not a nursing woman
+        - I'm a chill guy with a monster in my belly
+        - I'm a chain can drinker, give me energy now
+        - I have many monsters because I bought many
+    - lines:
+        - Without taurine
+        - And caffeine
+        - Life makes no sense
+        - Without taurine
+        - And caffeine
+        - Yes!
+    - lines:
+        - Bro are you still awake
+        - "Yes"
+        - Me too
+        - What time is it?
+        - "4"
+        - Which day? Monday?
+        - Thursday, bro
+        - Do you want another Monster?
+        - Yeah, sure
+    - lines:
+        - Aaaaaah
+        - Aaaaaah
+        - Yessssss
+        - Yessssss
+        - Awake forever
+        - Awake forever
+        - I press my fingers into my eyes
+        - Awake forever
+        - Awake forever
+        - Awake awake awake awaaake
+    - lines:
+        - I'm a monster
+        - Give me White Monster
+        - Give me energy
+        - For my battery
+    - lines:
+        - I'm a monster
+        - Give me White Monster
+        - Give me energy
+        - For my battery
+    - lines:
+        - I'm a monster
+        - I'm a monster
+    - lines:
+        - Just one more little Monster
+    - lines:
+        - (I'm a monster)
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster
+    - lines:
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster
+        - White Monster...
+    - lines:
+        - Oh yeah forever and ever
+---

@@ -1,0 +1,63 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - First sight, hard crush, your touch
+        - I wanna feel it day and night
+    - lines:
+        - Messed up, too much, thought about our first touch
+    - lines:
+        - New town, unknown, restart
+        - Now I'm living on my own
+    - lines:
+        - We were ready to fly
+        - We were nothing but close to the sky
+        - Tell me the reason why
+        - You decide to push me away
+    - lines:
+        - Ready to fly
+        - We were nothing but close to the sky
+        - Ready to fly
+        - Nothing but close to the sky
+    - lines:
+        - Break up, hard stuff, fucked up
+        - I wanna leave it all behind
+    - lines:
+        - We're ready to fly
+        - We were nothing but close to the sky
+        - Ready to fly
+        - Nothing but close to the sky
+    - lines:
+        - We can't go back to
+        - The time where it began
+        - But I love to thank you
+        - For the memories we share
+    - lines:
+        - Oh baby, we save the moments; the good, the bad ones
+        - Remember you and me
+    - lines:
+        - Oh baby, we can't go back, oh, I can't forget
+        - That we were nothing but close to the sky
+    - lines:
+        - We can't go back to
+        - The time where it began
+        - But I love to thank you
+        - That we were nothing but close the sky
+    - lines:
+        - We can't go back to
+        - (All I wanted was to be with you)
+        - The time where it began
+        - (No matter what you've put me through)
+        - But I love to thank you
+        - (All I wanted was to be with you)
+        - That we were nothing but close the sky
+    - lines:
+        - We can't go back to
+        - (All I wanted was to be with you)
+        - The time where it began
+        - (No matter what you've put me through)
+        - But I love to thank you
+        - (All I wanted was to be with you)
+        - That we were nothing but close the sky
+---

@@ -1,0 +1,75 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - You're floating through space
+        - Like stars in a race
+        - You never come down
+        - Whatever they say
+        - We won't be descending
+        - As long as we stay
+        - We're in this together
+        - Dictating our Pace
+    - lines:
+        - You even out my gravity
+    - lines:
+        - They try to break you
+        - They try to break us
+        - Say we could bend
+        - But we will never fit in
+        - Don't let 'em get through
+        - Under your skin
+        - Cause you're shining bright from within
+    - lines:
+        - You're invisible to the rest
+        - But I see you in ultraviolet
+        - When your lightwaves travel through my chest
+        - I see you glow in ultraviolet
+        - I see you glow
+        - I see you glow in ultraviolet
+    - lines:
+        - Like a kaleidoscope
+    - lines:
+        - Colors hard to define
+        - We paint our own hope
+        - In shades that intertwine
+        - Their black and white scheme
+        - Fails to undermine
+        - Our vibrant life that gleams
+        - Beyond their limiting signs
+    - lines:
+        - They try to break you
+        - They try to break us
+        - Say we could bend
+        - But we will never fit in
+        - Don't let 'em get through
+        - Under your skin
+        - Cause you're shining bright from within
+    - lines:
+        - You're invisible to the rest
+        - But I see you in ultraviolet
+        - When your lightwaves travel through my chest
+        - I see you glow in ultraviolet
+    - lines:
+        - We won't shed our soul
+        - Defy their control
+        - Beneath our scars
+        - We are whole
+        - I can see you
+        - I can feel you
+        - You are half alive
+        - But levitate on the inside
+    - lines:
+        - They don't feel
+        - They don't think
+        - They don't see
+        - The way we do
+    - lines:
+        - You're invisible to the rest
+        - But I see you in ultraviolet
+        - When your lightwaves travel through my chest
+        - I see you glow in ultraviolet
+        - I see you glow
+        - I see you glow in ultraviolet
+---

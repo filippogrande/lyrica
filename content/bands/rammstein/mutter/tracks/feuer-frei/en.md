@@ -1,0 +1,50 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Blamed are those who know pain
+        - From fire that burns the skin
+        - I shine a light in my face
+        - A hot scream, fire at will!
+    - lines:
+        - Bang, bang
+        - Bang, bang
+    - lines:
+        - Knighted are those who know pain
+        - From fire that burns the lust
+        - A shock of sparks in your lap
+        - A hot scream, fire at will!
+    - lines:
+        - Bang, bang
+        - Bang, bang
+        - Open fire!
+        - Bang, bang
+        - Bang, bang
+        - Open fire!
+    - lines:
+        - Dangerous are those who know pain
+        - From fire that burns the soul (Bang, bang)
+        - Dangerous is the burnt child
+        - With fire that separates life
+        - A hot scream (Bang, bang), fire at will!
+    - lines:
+        - Your luck
+        - Is not my luck
+        - It's my bad luck
+        - Your luck
+        - Is not my luck
+        - It's my bad luck
+    - lines:
+        - Bang, bang
+        - Bang, bang
+        - Fire at will!
+        - Bang, bang
+        - Bang, bang
+        - Fire at will!
+        - Bang, bang
+        - Bang, bang
+        - Fire at will
+    - lines:
+        - Bang, bang
+---

@@ -1,0 +1,77 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Possiamo prepararci all'oltraggio
+        - Ce l'hanno messo in un polmone d'acciaio?
+        - Ogni roditore vuole vivere in una gabbia d'oro
+        - Finché non arrivano i soldati a prendersi la tua lingua
+    - lines:
+        - Dicono muoviti, muoviti
+        - Fotterti se non ti va
+        - Anche tu sei destinato
+        - Smetti di parlare come se fossi invulnerabile
+    - lines:
+        - Il mondo ha finito di fotterci?
+        - Ci inchiniamo alla corona
+        - Intrisi di sangue, illuminati dagli aloni
+        - Benvenuti qui in mezzo alla folla
+        - Siamo al sicuro e stiamo bene
+        - Ma a chi fregna se non sei uno di noi?
+    - lines:
+        - Muoviti, muoviti
+        - Muoviti, muoviti
+        - Fotterti se non ti va
+    - lines:
+        - Hai sepolto tuo vicino nel terremoto?
+        - Eri seduto accanto a un fumante?
+        - Accendi un fuoco nel santuario, siamo l'assoluto
+        - Cristo che predica alla fottuta feccia
+    - lines:
+        - Dicono muoviti, muoviti
+        - Fotterti se non ti va
+        - Gioventù destinata
+        - Stai fottutamente mentendo se dici la verità
+    - lines:
+        - Il mondo ha finito di fotterci?
+        - Ci inchiniamo alla corona
+        - Intrisi di sangue, illuminati dagli aloni
+        - Benvenuti qui in mezzo alla folla
+        - Siamo al sicuro e stiamo bene
+        - Ma a chi fregna se non sei uno di noi?
+    - lines:
+        - Echi di un passato recente
+        - Tutte le lacrime quando la cultura comincia a crollare
+        - Chiederemo mai
+        - Sono stato fatto per il colpo di frusta?
+        - Ai ratti santi
+        - E a tutti i profeti che attraggono
+        - Chiederai mai?
+        - Sono stato fatto per il colpo di frusta?
+    - lines:
+        - Sono stato fatto per il colpo di frusta?
+        - Sono stato fatto per il colpo di frusta?
+        - Sono stato fatto per il colpo di frusta?
+        - Troia
+    - lines:
+        - Hai qualcosa da dire?
+        - Cosa?
+        - Tu, cazzo di madrefucker
+        - Sì
+        - Smetti di parlare come se fossi invulnerabile
+    - lines:
+        - Il mondo ha finito di fotterci?
+        - Ci inchiniamo alla corona
+        - Intrisi di sangue, illuminati dagli aloni
+        - Benvenuti qui in mezzo alla folla
+        - Perché siamo al sicuro e stiamo bene
+        - Ma a chi fregna se non sei uno di noi?
+    - lines:
+        - Oh mio dio!
+        - (Andrà tutto bene)
+    - lines:
+        - Ti va?
+        - Madrefucker
+---

@@ -1,0 +1,52 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - The tears of a crowd of very old children
+        - I string them on a white hair
+        - I throw the wet chain into the air
+        - And wish that I had a mother
+        - No sun shines for me
+        - There was no breast that cried milk
+        - There is a tube that sticks in my throat
+        - I have no navel on my stomach
+    - lines:
+        - Mother, mother
+        - Mother, mother
+    - lines:
+        - I was not allowed to lick any nipples
+        - And there was no fold to hide in
+        - No one gave me a name
+        - Fathered in haste and without sperm
+        - For the mother who never gave birth to me
+        - I have sworn tonight
+        - I will send her a sickness
+        - And afterwards make her sink in the river
+    - lines:
+        - Mother, mother
+        - Mother, mother
+        - Mother, mother
+        - Mother, mother
+    - lines:
+        - An eel lives in her lungs
+        - On my forehead, a birthmark
+        - Remove it with the kiss of a knife
+        - Even if it causes me to die
+    - lines:
+        - Mother, mother
+        - Mother, mother
+    - lines:
+        - An eel lives in her lungs
+        - On my forehead, a birthmark
+        - Remove it with the kiss of a knife
+        - Even if it causes me to bleed to death
+    - lines:
+        - Oh give me strength
+        - Mother, mother
+        - Oh give me strength
+        - Mother, mother
+        - Oh give me strength
+        - Mother, mother
+        - Oh give me strength
+---

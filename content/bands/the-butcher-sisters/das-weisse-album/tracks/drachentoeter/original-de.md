@@ -1,0 +1,74 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Ja, die Brust gestählt und das Schwert geschärft
+        - Ja, ja, ja, er kommt, wenn der Drache nervt
+        - Drachentöter TBS
+        - (Ja)
+        - '''Äh, ja, hallo, ist hier der Drachentöter-Mann?'''
+        - '''Ja, am Apparat'''
+        - '''Oh mein Gott, wir haben Drachenalarm in der Stadt, der macht alles kaputt'''
+        - '''Drachenalarm? Ich komme'''
+    - lines:
+        - Ich bin Ritter auf der Jagd nach dem Drachen, grr
+        - Schwert ist gezückt, um ihn tot zu machen
+        - Kein Blatt auf dem Rücken, mein Body ist stählered
+        - Zaubertrank Dosibier fließt durch meine Adern
+        - Ich bin der Drache, mache Drachensachen
+        - Ich bin der Drache, will die ganze Stadt kaputt machen
+    - lines:
+        - Alle kennen seinen Namen (Woah)
+        - Jeder schwärmt von seinen Taten
+    - lines:
+        - Ja, die Brust gestählt und das Schwert geschärft
+        - Drachentöter TBS
+        - Ja, ja, ja, er kommt, wenn der Drache nervt
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - So ein cooles Schwert
+        - Drachentöter, yeah
+    - lines:
+        - Ich steh' auf dem Berg, halt' das Schwert in die Luft
+        - Der Drache macht Feuer, buff-buff
+        - Das Biest guckt mich an und ich gucke es auch an
+        - Wir gucken uns zusamm'n ganz lang ins Gesicht an
+        - Bumm, mit der Hand auf dem Kopf von dem Drachen
+        - Kippe eins, zwei Dosi Bier in den Drachenrachen
+        - Das Tier ist gezähmt, jetzt wird cool gechillt
+        - Heute Nacht mach' ich Beischlaf im Pool mit
+        - Yeah, ich war der Drache
+        - Ich kann nichts mehr machen
+        - Ich war der Drache
+        - Ich kann gar nichts mehr kaputt machen
+    - lines:
+        - Alle kennen seinen Namen (Woah)
+        - Jeder schwärmt von seinen Taten
+    - lines:
+        - Ja, die Brust gestählt und das Schwert geschärft
+        - Drachentöter TBS
+        - Ja, ja, ja, er kommt, wenn der Drache nervt
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - So ein cooles Schwert
+        - Drachentöter
+    - lines:
+        - Die Prophezeihung ist wahr
+        - Hier ist er mit seinem coolen Schwert
+        - Allen Drachen wackeln die Knie
+        - Drachentöter
+        - Ja
+        - Er war bekannt im ganzen Land
+        - Er schlug den Drachen mit der Hand
+        - Es ist doch klar, der [?]
+        - 'Sein Name: Drachentöter Superstar'
+    - lines:
+        - Ja, die Brust gestählt und das Schwert geschärft
+        - Drachentöter TBS
+        - Ja, ja, ja, er kommt, wenn der Drache nervt
+        - Drachentöter TBS
+        - Oh yeah, Drachentöter
+        - So ein cooles Schwert
+        - Drachentöter
+---

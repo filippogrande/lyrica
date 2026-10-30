@@ -1,0 +1,47 @@
+---
+lang: it
+role: translation
+stanzas:
+    - lines:
+        - Ama la madre e di fianco
+        - Il pesce lo dà a lei stesso
+        - Questo si spella davanti a testicoli vuoti
+        - La vecchia pelle cade a terra
+    - lines:
+        - Ama la sorella e da dietro
+        - Il pesce si mangia fino alla bocca
+        - Le branchie ancora sanguinanti dal succhiare
+        - Dai grandi occhi rossi
+    - lines:
+        - Stagione della frega
+        - Stagione della frega
+        - Stagione della frega
+        - Stagione della frega
+        - Stagione della frega
+        - Stagione della frega
+        - Stagione della frega
+        - È la stagione della frega
+    - lines:
+        - Ama il cane, oh Dio, dall'alto
+        - Il pesce ora bacia con la lingua
+        - Ti sputa latte morto in faccia
+        - Non osi toccarlo
+    - lines:
+        - Stagione della frega
+        - Stagione della frega
+        - Stagione della frega
+        - Stagione della frega
+        - Stagione della frega
+        - Latte di pesce dappertutto
+        - Stagione della frega
+        - È la stagione della frega
+    - lines:
+        - Il mare si è portato via la madre
+        - Stagione della frega, stagione della frega
+        - Le sorelle non hanno tempo
+        - Stagione della frega, stagione della frega
+        - Il cane sta a riva agitando la zampa
+        - Stagione della frega, stagione della frega
+        - Il pesce ha bisogno della sua solitudine
+        - Stagione della frega
+---

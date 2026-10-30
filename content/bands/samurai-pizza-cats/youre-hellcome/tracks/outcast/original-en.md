@@ -1,0 +1,96 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I can smell you
+        - Almost taste you
+        - And I can
+        - Almost waste you
+        - I'm the outcast
+        - Here I am
+    - lines:
+        - Run
+        - The fucking hunt is on
+        - I got to hurt someone
+        - I got to kill that pressure
+        - Run
+        - The nothing has begun
+        - I'm gonna have my fun
+        - I got to
+        - Kill kill kill kill
+    - lines:
+        - What is your biggest fear? (fear)
+        - Screams ring in my ear (ear)
+        - Let's make sure that this night is gonna be your
+        - Worst fucking nightmare
+    - lines:
+        - I am the outcast
+        - Coming for you tonight
+        - No one is safe
+        - There is nowhere to hide
+        - Outcasts
+        - Crawling out of the dark at night
+        - To hunt you down like animals
+        - To hunt you down like animals
+    - lines:
+        - I can smell you
+        - Almost taste you
+        - And I can
+        - Almost waste you
+        - I'm the outcast
+        - Here I am
+    - lines:
+        - One
+        - You better start to run
+        - Two
+        - Cause I'm after you
+        - Three
+        - I'm gonna set you free
+        - Four
+        - Three two one
+        - Run
+    - lines:
+        - What is your biggest fear? (fear)
+        - Screams ring in my ear (ear)
+        - Let's make sure that this night is gonna be your
+        - Worst fucking nightmare
+    - lines:
+        - Wrong turn
+        - Wrong turn
+        - You took the wrong turn
+        - Wrong turn
+        - Wrong turn
+        - You took the wrong turn
+    - lines:
+        - I am the outcast
+        - Coming for you tonight
+        - No one is safe
+        - There is nowhere to hide
+        - Outcasts
+        - Crawling out of the dark at night
+        - To hunt you down like animals
+        - To hunt you down like animals
+    - lines:
+        - I am the outcast
+        - Coming for you tonight
+        - No one is safe
+        - There is nowhere to hide
+        - Outcasts
+        - Crawling out of the dark at night
+        - Let's go
+        - Come on, come on
+    - lines:
+        - What is your biggest fear? (fear)
+        - Screams ring in my ear (ear)
+        - Let's make sure that this night is gonna be your
+        - Worst fucking nightmare
+    - lines:
+        - I am the outcast
+        - Coming for you tonight
+        - No one is safe
+        - There is nowhere to hide
+        - Outcasts
+        - Crawling out of the dark at night
+        - To hunt you down like animals
+---

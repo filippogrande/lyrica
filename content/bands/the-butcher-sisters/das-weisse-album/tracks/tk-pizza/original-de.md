@@ -1,0 +1,69 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Fauler Wichser
+        - 24/7 Tiefkühlpizza
+        - Fauler Wichser
+        - 'Blutgruppe: Margherita'
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - Pizza
+        - Lecker Pizza, Pizza Margherita
+        - Margherita, lecker, lecker Pizza
+        - Lecker Pizza, Pizza Margherita, ja, ja, ja, ha
+    - lines:
+        - Yeah (Aha)
+        - Ich speise meine Pizza von der Hand (Aha)
+        - Aua, aua, Gaumen ist verbrannt (Aha)
+        - Ich hasse, aber esse Pizzarand (Aha, aha)
+    - lines:
+        - Fauler Wichser
+        - 24/7 Tiefkühlpizza
+        - Fauler Wichser
+        - 'Blutgruppe: Margherita'
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - Pizza (Pizza)
+        - Lecker Pizza, Pizza Margherita (Margherita)
+        - Margherita, lecker, lecker Pizza (Yeah)
+        - Lecker Pizza, Pizza Margherita, ja, ja, ja
+    - lines:
+        - Yeah (Aha)
+        - Ich bin ein fauler Wichser, ich bin faul (Aha)
+        - Tausend TK-Pizza in mein Maul (Aha)
+        - Kann nicht essen, ohne YouTube zu schau'n (Aha, aha)
+    - lines:
+        - Ich hol' dich raus, ich zieh' dich aus
+        - Du siehst so wunderschön aus
+        - TK-Pizza
+        - '''Ich hab'' dich lieb'', sag'' ich und schieb'''
+        - Dich in den Ofen, ganz tief
+        - TK-Pizza, yeah
+    - lines:
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - (Fauler Wichser) Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp-döp-döp
+        - (Fauler Wichser) Döp-döp, dö-dö-döp-döp, döp, dö-dö-döp-döp
+        - Dö-dö-döp-döp, dö-dö
+    - lines:
+        - Ich hol' dich raus, ich zieh' dich aus
+        - Du siehst so wunderschön aus
+        - TK-Pizza
+        - '''Ich hab'' dich lieb'', sag'' ich und schieb'''
+        - Dich in den Ofen, ganz tief
+        - TK-Pizza
+---

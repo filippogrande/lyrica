@@ -1,0 +1,63 @@
+---
+lang: en
+role: translation
+stanzas:
+    - lines:
+        - Ouch, ouch, when I get out of bed
+        - Ouch, ouch, when I don't lift my legs
+        - I drink three beers, three days with my ass hanging
+        - Used to drink until four, now I'm walking to the doctor
+        - I wear a toupee, everyone knows
+        - Clicke out MILF onto sleazy websites
+        - I used to have a thousand fans on MySpace
+        - Now I got a thousand aches in my ass, man
+    - lines:
+        - I used to be a horny guy, I used to be a hot one (Peace)
+        - Now I'm the grass-chewer
+        - I used to be a cool guy, I used to be a cool one (Cool)
+        - Now I'll soon be cold in the grave
+    - lines:
+        - Oh no, oh no
+        - Bro, my swag ain't dope no more
+        - Oh no, oh no
+        - I'm so old, I'm almost dead already
+        - So embarrassing
+        - I'm Ü30
+        - So motherfucking embarrassing
+        - I don't want bifocals
+    - lines:
+        - Baby, oh no
+        - Baby, oh no
+    - lines:
+        - Ouch, ouch, when I put on my shoe
+        - Ouch, ouch, when I see myself naked in the mirror
+        - 'Phone font size: big, what''s my PIN again?'
+        - Face-ID doesn't know who I am in the morning
+        - I watch Titanic and start to cry
+        - My flirting dealer could be my daughter
+        - I used to be top scorer in the district league
+        - Now I'm older than all those fucking coaches out there
+    - lines:
+        - Oh god
+    - lines:
+        - I was so fresh and now I gotta rot
+        - Honey, come here, shave my back
+        - If a couple more kids call me "Sir" (No!)
+        - Then I gotta shoot myself
+    - lines:
+        - Oh no, oh no
+        - Bro, my swag ain't dope no more
+        - Oh no, oh no
+        - I'm so old, I'm almost dead already
+        - So embarrassing
+        - I'm Ü30
+        - So motherfucking embarrassing
+        - I don't want bifocals
+    - lines:
+        - Baby, oh no (Voltaren, Ibuprofen)
+        - (Alpecin and Aspirin)
+        - I used to be a horny guy, I used to be a hot one (Voltaren, Ibuprofen)
+        - Now I'm the grass-chewer
+        - I used to be a cool guy, I used to be a cool one (Alpecin and Aspirin)
+        - Now I'll soon be cold in the grave
+---

@@ -1,0 +1,47 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - One, two, three, four
+    - lines:
+        - We're separated by a margin of a greater degree
+        - The same flesh and blood but in a different lane
+        - I read the remedy too but my words, they still sounded the same
+    - lines:
+        - When we were young
+        - We thought we had the whole world figured out
+        - Now all we do is speak in tongues
+        - We play a losing game
+        - Only now we hear the shouts fading out
+        - We flew into the sun
+        - We flew into the sun
+    - lines:
+        - I'm dedicated to the shadow that's been following me
+        - It caught me counting the cards
+        - I guess the rules remain
+        - Oh it was heavenly then
+        - But the devils were calling my name
+    - lines:
+        - When we were young
+        - We thought we had the whole world figured out
+        - Now all we do is speak in tongues
+        - We play a losing game
+        - Only now we hear the shouts fading out
+        - We flew into the sun
+    - lines:
+        - Is there something in your eye?
+        - Did you fall or were you just on a high?
+        - Everybody's so afraid they could die
+        - But they never once said
+        - '"Thank God we''re alive"'
+    - lines:
+        - When we were young
+        - We thought we had the whole world figured out
+        - We flew into the sun
+        - We thought we had the whole world figured out
+        - Now all we do is speak in tongues
+        - We play a losing game
+        - Only now we hear the shouts fading out
+        - We flew into the sun
+---

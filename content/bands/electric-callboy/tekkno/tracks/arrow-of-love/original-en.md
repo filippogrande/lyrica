@@ -1,0 +1,87 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - I wanna share my heart with everyone around
+        - I wanna spread some love, I'm feeling the beat
+        - I'm gonna give my heart to everyone around
+        - I'm gonna share my love with everyone, everyone
+    - lines:
+        - I wanna share my heart with everyone around
+        - I wanna spread some love, I'm feeling the beat
+        - I'm gonna give my heart to everyone around
+        - I'm gonna share my love with everyone, everyone
+    - lines:
+        - Oh, I'm late again
+        - My people need me badly
+        - Look at Herbert here
+        - He's fighting with his homie
+        - I'm fed up with your anger and hate
+        - You always fight, punch, bite
+        - Through the whole fucking day
+    - lines:
+        - I give you love
+        - Shoot it right into your face, my love
+        - Love is everything that you need, love
+        - Is missing in this loveless place
+        - I share my heart with everyone
+    - lines:
+        - I wanna share my heart with everyone around
+        - I wanna spread some love, I'm feeling the beat
+        - I'm gonna give my heart to everyone around
+        - I'm gonna share my love with everyone
+    - lines:
+        - I wanna share my heart with everyone around
+        - I wanna spread some love, I'm feeling the beat
+        - I'm gonna give my heart to everyone around
+        - I'm gonna share my love with everyone, everyone
+    - lines:
+        - Hey, you can't escape
+        - My love is gonna get you
+        - And don't be afraid 'cause I don't wanna hurt you
+        - I'm the god of love, got the power to heal
+        - You from all the sadness and the bad things you feel
+    - lines:
+        - I give you love
+        - Shoot it right into your face, my love
+        - Love is everything that you need, love
+        - Is missing in this loveless place
+        - I share my heart with everyone
+    - lines:
+        - I wanna share my heart with everyone around
+        - I wanna spread some love, I'm feeling the beat
+        - I'm gonna give my heart to everyone around
+        - I'm gonna share my love with everyone
+    - lines:
+        - We never stop to believe in magic
+        - We're diving into the light
+        - We never stop to believe in magic
+        - We will be forever young, ever young
+    - lines:
+        - We never stop to believe in magic
+        - We're diving into the light
+        - We never stop to believe in magic
+        - We will be forever young, ever young
+    - lines:
+        - We never stop to believe in magic
+        - We're diving into the light
+        - We never stop to believe in magic
+        - We will be forever young, ever young
+    - lines:
+        - I am the one you need
+        - I am sent from above
+        - To fill your empty heart with an arrow of love
+        - I cannot leave
+        - Before you give me all your taste, your feels, your love
+    - lines:
+        - I wanna share my heart with everyone around
+        - I wanna spread some love, I'm feeling the beat
+        - I'm gonna give my heart to everyone around
+        - I'm gonna share my love with everyone
+    - lines:
+        - I wanna share my heart with everyone around
+        - I wanna spread some love, I'm feeling the beat
+        - I'm gonna give my heart to everyone around
+        - I'm gonna share my love with everyone, everyone
+---

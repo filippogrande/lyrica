@@ -1,0 +1,117 @@
+---
+lang: de
+role: original
+stanzas:
+    - lines:
+        - Hallo Herr Dokter
+        - Ich hab kein Bock mehr
+        - Bitte holen sie den gelben Block her
+    - lines:
+        - Hallo Herr Dokter
+        - Ich hab kein Bock mehr
+        - Ich hab kein Bock mehr
+        - Ich hab kein Bock mehr
+    - lines:
+        - (Hallo Herr-)
+    - lines:
+        - Hallo Herr Arzt
+        - Ich hab mich gefragt
+        - Was mache ich mit diesem schönen Tag?
+        - Gehe ich in den Park?
+        - Sauf ich mich in den Sarg?
+        - Oder erfülle ich meinen Arbeitsvertrag?
+        - (Nein!)
+        - Au!
+        - Drück ich da tut es weh
+        - Und da auch!
+        - Ich habe aua aua aua
+        - Und der Bauch
+        - Macht
+        - Komische Geräusche
+    - lines:
+        - Ich kann so nicht arbeiten oh weh
+    - lines:
+        - Ich kriege nie genug
+        - Vom Arbeitszeitbetrug
+        - Also seien sie so gut
+    - lines:
+        - Ich kriege nie genug
+        - Vom Arbeitszeitbetrug
+        - Also seien sie so gut, gut, gut
+    - lines:
+        - Hallo Herr Dokter
+        - Ich hab kein Bock mehr
+        - Bitte holen sie den gelben Block her
+    - lines:
+        - Hallo Herr Dokter
+        - Ich hab kein Bock mehr
+        - Ich hab kein Bock mehr
+        - Ich hab kein Bock mehr
+    - lines:
+        - (Hallo Herr-)
+    - lines:
+        - Ich kriege nie genug
+        - Vom Arbeitszeitbetrug
+        - Also seien sie so gut, gut, gut
+    - lines:
+        - Hallo Herr Dokter
+        - Warum muss ich arbeiten gehen?
+        - Und nicht 8 Stunden lang auf dem Strand liegen?
+        - Oder ausschlafen
+        - Oder Fernseher sehen
+        - Ich will 25/7 Bier saufen
+    - lines:
+        - In der Sonne
+        - Bis die Rübe rot ist
+        - Arbeiten kann man
+        - Wenn man ein Idiot ist (Dumm)
+        - Ich lasse meine Schlafihosi an (Sehr lang)
+        - Arbeitnehmers just wanna have fun (Ich will fun)
+    - lines:
+        - Gelb ist der Schein
+        - Rot ist der Wein
+        - Ich bleib daheim
+        - Ich bleib daheim
+    - lines:
+        - Gelb ist der Schein
+        - Rot ist der Wein
+        - Ich bleib daheim
+        - Ich bleib daheim
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+        - Dab dabba dab
+    - lines:
+        - Hallo Herr Dokter
+        - Ich hab kein Bock mehr
+        - Bitte holen sie den gelben Block her
+    - lines:
+        - Hallo Herr Dokter
+        - Ich hab kein Bock mehr
+        - Ich hab kein Bock mehr
+        - Ich hab kein Bock mehr
+    - lines:
+        - (Hallo Herr Dokter!)
+    - lines:
+        - Ich kriege nie genug
+        - Vom Arbeitszeitbetrug
+        - Also seien sie so gut, gut, gut, yeah!
+    - lines:
+        - Ich kriege nie genug
+        - Vom Arbeitszeitbetrug
+        - Also seien sie so gut, gut, gut
+    - lines:
+        - Ich hab kein Bock mehr...
+        - Ich hab kein Bock mehr...
+        - Ich hab kein Bock!
+        - Ich hab kein Bock!
+        - Ich hab kein Bock!
+        - Ich hab kein Bock!
+        - Ich hab kein Bock!
+        - Ich hab kein Bock!
+        - Ich hab kein Bock!
+        - Ich hab kein Bock!
+---

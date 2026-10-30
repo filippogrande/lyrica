@@ -1,0 +1,128 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ogni notte quando il cielo sopra diventa rosso
+        - Sento il ritmo nelle vene e cerco l'amore
+        - Lo sai che i fianchi non mentono, ti lascio ipnotizzato
+        - Dammi solo un altro tentativo per farti sentire quella vibrazione
+        - E viene giù
+    - lines:
+        - Ra ta ta ta ta ta!
+        - Il mio corpo è un'arma
+        - Ra ta ta ta ta ta!
+        - Piazzeremo il piede per terra
+        - Ra ta ta ta ta ta!
+        - Lo faremo succedere
+        - Ra ta ta ta ta ta!
+        - Ora dammene ancora
+    - lines:
+        - Lo spingerò al limite
+        - E tutti sentono il suono della notte
+        - Non voglio fermarmi
+        - Lo spingiamo al limite
+        - Insieme manderemo in frantumi la luce del mattino
+    - lines:
+        - Esplodi!
+        - Bun Bun Bun Muoviti
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Scuoti
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Salta
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Pestando i piedi
+        - Bun Bun Bun Bun Bun
+    - lines:
+        - Ah Ge!
+        - Ti farò brillare
+        - Ah Ge!
+        - Ti farò fluttuare
+        - Ah Ge!
+        - Ti farò tremare il cuore
+        - Ah Ge!
+        - Farò la piccola diavolessa, però
+        - Stai bene?
+        - Nei tuoi occhi riflessa
+        - Con la magia del sorriso
+        - Ti attiro nella trappola
+        - E viene giù
+    - lines:
+        - Ra ta ta ta ta ta!
+        - Il mio corpo è un'arma
+        - Ra ta ta ta ta ta!
+        - Piazzeremo il piede per terra
+        - Ra ta ta ta ta ta!
+        - Lo faremo succedere
+        - Ra ta ta ta ta ta!
+        - Ora dammene ancora
+    - lines:
+        - Lo spingerò al limite
+        - E tutti sentono il suono della notte
+        - Non voglio fermarmi
+        - Lo spingiamo al limite
+        - Insieme manderemo in frantumi la luce del mattino
+    - lines:
+        - Esplodi!
+        - Bun Bun Bun Muoviti
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Scuoti
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Salta
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Pestando i piedi
+        - Bun Bun Bun Bun Bun
+    - lines:
+        - Sono qui per il momento
+        - Qui per il ritmo
+        - Qui per l'amore
+        - E gli amici che mi servono
+        - Lo sai che ci sarò per sempre
+    - lines:
+        - Sono qui per il momento
+        - Qui per il ritmo
+        - Qui per l'amore
+        - E gli amici che mi servono
+        - Lo sai che ci sarò per sempre
+    - lines:
+        - RA TA TA TA!
+        - Impazzisco davvero perché aspetto il drop
+        - Sei pronto? (Sei pronto?)
+        - Andiamo!
+    - lines:
+        - Allora dimmi baby, posso avere un
+        - (Fu! Fu!)
+        - Allora ascoltami adesso
+        - (Fu! Fu!)
+        - Sai cosa voglio
+        - (Fu! Fu!)
+        - Ora tutti si scatenano
+    - lines:
+        - Lo spingerò al limite
+        - E tutti sentono il suono della notte
+        - Non voglio fermarmi
+        - Lo spingiamo al limite
+        - Insieme manderemo in frantumi la luce del mattino
+    - lines:
+        - Esplodi!
+        - Bun Bun Bun Muoviti
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Scuoti
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Salta
+        - Bun Bun Bun Bun Bun (Fu! Fu!)
+        - Bun Bun Bun Pestando i piedi
+        - Bun Bun Bun Bun Bun
+    - lines:
+        - Tutti
+        - (Fu! Fu!)
+        - Fuori controllo
+        - (Fu! Fu!)
+        - Tutti
+        - (Fu! Fu!)
+        - Fuori controllo
+        - (Fu! Fu! Fu! Fu!)
+    - lines:
+        - Ora tutti si scatenano
+---

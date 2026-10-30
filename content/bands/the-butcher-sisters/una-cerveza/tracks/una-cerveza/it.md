@@ -1,0 +1,72 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Una birra
+        - Una birra
+        - Scolala dal rubinetto
+        - Versala nel bicchiere
+        - Una birra
+        - Una birra
+        - Una birra va bene, ma dieci sanno di meglio
+    - lines:
+        - Una birra
+        - La, la, la, la, la
+        - Versala nel bicchiere
+    - lines:
+        - Camicia di lino come un proprietario di Finka
+        - Sguardo storto come una Fiat Multipla
+        - Fa caldo, fa caldo dentro casa mia
+        - Lasciala fresca, lasciala fresca scorrere nel mio ventre
+        - Ah
+    - lines:
+        - In giro ho bisogno di birra nel mondo
+        - Corro per le strade come un randagio
+        - Ho sete e non è mai scomparsa
+        - Quando ho trovato il bar
+        - Spendo un giro
+    - lines:
+        - Una birra
+        - Una birra
+        - Scolala dal rubinetto
+        - Versala nel bicchiere
+        - Una birra
+        - Una birra
+        - Una birra va bene, ma dieci sanno di meglio
+    - lines:
+        - Una birra
+        - La, la, la, la, la
+        - Versala nel bicchiere
+    - lines:
+        - Tu sei ghiacciata
+        - Io sono caldo
+        - Sono un sollevatore
+        - Robert Geiss
+    - lines:
+        - Mi hai così bene bucherellato l'ombelico
+        - Sfiammerò, voglio te profondamente nel mio ventre
+        - Facilmente ubriaco e nessun appuntamento
+        - Sono la macchina ad otto bracci ad alta velocità che sbatte
+        - Pannoio fresca e impanata sul lungomare
+        - So quello che voglio e chiamo il tuo nome
+    - lines:
+        - Una birra
+        - Una birra
+        - Scolala dal rubinetto
+        - Versala nel bicchiere
+        - Una birra
+        - Una birra
+        - Dieci birre vanno bene, ma
+        - Un maledetto miliardo di birre sanno di meglio
+    - lines:
+        - Una birra
+        - La, la, la, la, la
+        - Versala nel bicchiere
+    - lines:
+        - Una birra
+        - Una birra
+        - La, la, la, la, la
+        - Tu nel bicchiere
+---

@@ -1,0 +1,67 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - Ho davvero la sensazione di perdere il controllo
+        - Sento che mi manca un po' di rock 'n' roll
+        - Tutto questo mangiare bambù e queste perosse di kung fu
+        - Ho la batteria scarica, ho le vertigini
+    - lines:
+        - Sei insopportabile, fottutamente terribile
+        - Ma fantasmagorico, così maledettamente bello
+        - Come la cascata in un orinatoio
+        - Sei insopportabile, fottutamente terribile
+    - lines:
+        - Sono la scintilla e il divertimento nella tua routine
+        - La tua pistola ad acqua, l'ho riempita di pipì
+        - Uno, ti libero, due, creiamo uno spettacolo
+        - Tre, odiamo il mainstream
+    - lines:
+        - La mia voce del caos
+        - Sta uccidendo i tristi
+        - Sta uccidendo tutto il rumore che ho dentro la testa
+    - lines:
+        - La mia voce del caos
+        - Sta uccidendo i tristi
+        - Sta uccidendo tutto il rumore che ho dentro la testa
+        - In un mondo di caos
+        - Dove niente ha senso
+        - Non siamo mai noi, sono loro
+        - Siamo insopportabili
+    - lines:
+        - Ho davvero la sensazione di perdere il controllo
+        - Sento che mi manca un po' di rock 'n' roll
+        - Troppo carino da uccidere, troppo fottutamente stupido da scopare
+        - È una lusinga? No! Ma sono inpandatruck
+    - lines:
+        - Sei insopportabile, fottutamente terribile
+        - Ma fantasmagorico, così maledettamente bello
+        - Come la cascata in un orinatoio
+        - Sei insopportabile, fottutamente terribile
+    - lines:
+        - Sono il fiammifero e tu sei la benzina
+        - Sei la merda ma io sono Mr. Clean
+        - Uno, ti libero, due, creiamo uno spettacolo
+        - Tre - odiamo il mainstream
+    - lines:
+        - La mia voce del caos
+        - Sta uccidendo i tristi
+        - Sta uccidendo tutto il rumore che ho dentro la testa
+        - In un mondo di caos
+        - Dove niente ha senso
+        - Non siamo mai noi, sono loro
+        - Siamo insopportabili
+    - lines:
+        - Inpandatruck
+        - Inpandatruck
+    - lines:
+        - La mia voce del caos
+        - Sta uccidendo i tristi
+        - Sta uccidendo tutto il rumore che ho dentro la testa
+        - In un mondo di caos
+        - Dove niente ha senso
+        - Non siamo mai noi, sono loro
+        - Siamo insopportabili
+---

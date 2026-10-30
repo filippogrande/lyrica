@@ -1,0 +1,69 @@
+---
+lang: it
+role: translation
+translator: Filippo
+stanzas:
+    - lines:
+        - E tu dici che è il DNA
+        - Ma mai solo il modo in cui ti comporti
+        - E tu dici che sei fatto così
+        - Ma molte cose nella vita si reggono sul cambiamento
+        - Svincolati perché ne hai paura
+        - Finora te la sei cavata
+        - Una sola vita e stai ancora fallendo
+        - Faresti meglio a crescere e ad affrontare i fatti
+    - lines:
+        - Sì, hai il potere
+        - Quindi prendi il controllo
+        - E fai le tue scelte
+        - Sì, hai il potere
+        - Qualcuno lo chiama potere
+        - Qualcuno lo chiama veleno
+    - lines:
+        - Cad cad cad
+        - Smetti la finzione
+        - Fotterti le tue scuse
+        - E affronta i fatti
+        - Cad cad cad
+        - Smetti la finzione
+        - Fotterti le tue scuse
+        - E affronta i fatti
+    - lines:
+        - E tu dici che è il DNA
+        - Come se non avessi scelto come giocare
+        - E tu dici che odi i deboli
+        - Quando erano più forti di quanto tu sarai mai
+        - In nessun modo, perché in realtà
+        - Sei al sicuro dentro la tua fallacia
+        - Giochi sulla tua follia
+        - Ogni volta che arriva il momento di affrontare i fatti
+    - lines:
+        - Sì, hai il potere
+        - Quindi prendi il controllo
+        - E fai le tue scelte
+        - Sì, hai il potere
+        - Qualcuno lo chiama potere
+        - Qualcuno lo chiama veleno
+    - lines:
+        - Cad cad
+        - Smetti la finzione
+        - Fotterti le tue scuse
+        - E affronta i fatti
+        - Cad cad
+        - Smetti la finzione
+        - Fotterti le tue scuse
+        - E affronta i fatti
+    - lines:
+        - Sì, hai il potere
+        - Di fare il tuo
+        - Di fare le tue scelte
+        - Sì, hai il potere
+        - Qualcuno lo chiama veleno
+    - lines:
+        - Ma hai il potere
+        - Quindi prendi il controllo
+        - E fai le tue scelte
+        - Sì, hai il potere
+        - Qualcuno lo chiama potere
+        - Qualcuno lo chiama veleno
+---

@@ -1,0 +1,38 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Let's start a fucking war
+    - lines:
+        - No holding back
+        - Get up and face your fucking fears
+        - This is a war
+        - You'll taste your blood, your sweat and tears
+    - lines:
+        - Welcome to the fight club
+    - lines:
+        - Fists up head low
+        - Meet me on the battleground
+        - Get up
+        - Finish him
+        - This is a cagefight
+        - It's me against the world
+        - So who the fuck are you?
+    - lines:
+        - Is that all you got
+        - No more stepping back, you bitch
+    - lines:
+        - With every hit you only make me stronger
+        - Come on get close you won't have any longer
+    - lines:
+        - No holding back
+        - Get up and face your fucking fears
+        - This is a war
+        - You'll taste your blood, your sweat and tears
+    - lines:
+        - Don't try to run away
+        - I am the devil, bitch
+        - You can not hide from me
+        - Tonight we dine in hell
+---

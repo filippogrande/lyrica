@@ -1,0 +1,78 @@
+---
+lang: en
+role: original
+stanzas:
+    - lines:
+        - Rent-free living in your head
+        - '"R.I.P.", they commented'
+        - I felt it when they said
+        - '"We only ever love you when you''re seeing red"'
+        - Blegh
+        - Seeing red
+    - lines:
+        - You oughta know that I'm like a broken machine
+        - I'm not as bulletproof as you all paint me to be
+        - Time hasn't frozen, why do you want me to scream?
+        - Are you a junkie punk, medicating for free?
+    - lines:
+        - We're all you need
+        - We'll make you royalty
+        - We'll be the best of enemies
+    - lines:
+        - Read me all my rights
+        - I'll never grow tired of your great advice
+        - Won't somebody tell me what I believe?
+        - I'm sorry for your sacrifice
+        - I guess I must've sounded like the antichrist
+        - Won't somebody tell me
+        - Won't somebody tell me
+        - What I believe?
+    - lines:
+        - No debts, all love, I don't give a fuck
+        - My head, my heart, wouldn't be enough
+        - I won't think twice
+        - I'm afraid I'm the priest, you're the poltergeist
+        - We're like one big family
+        - Gee, thanks so much for the death threat
+        - Do you hear the audacity?
+        - You dummies only live on the internet
+    - lines:
+        - We're all you need (Oh yeah? That's right!)
+        - We'll make you royalty (Give me that gold)
+        - We'll be the best of enemies
+    - lines:
+        - Read me all my rights
+        - I'll never grow tired of your great advice
+        - Won't somebody tell me what I believe?
+        - I'm sorry for your sacrifice
+        - I guess I must've sounded like the antichrist
+        - Won't somebody tell me
+        - Won't somebody tell me
+        - What I believe?
+    - lines:
+        - Oh
+    - lines:
+        - '"Are you happy now?"'
+        - Rent-free living in your head
+        - '"R.I.P.", they commented'
+        - I felt it when they said
+        - '"We only ever love you when you''re seeing red"'
+    - lines:
+        - Heaven burning bright
+        - You've really gotta wonder how I sleep at night
+        - Won't somebody tell me?
+        - Won't somebody tell me?
+    - lines:
+        - Read me all my rights
+        - I'll never grow tired of your great advice
+        - Won't somebody tell me what I believe?
+        - I'm sorry for your sacrifice
+        - I guess I must've sounded like the antichrist
+        - Won't somebody tell me
+        - Won't somebody tell me
+    - lines:
+        - What I believe?
+        - What I believe?
+        - All eyes on me
+        - What I believe
+---
