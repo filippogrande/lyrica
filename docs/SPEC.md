@@ -39,7 +39,7 @@ Nessuno di questi utenti ha un account, né lo avrà.
 | `/it/segnala` | Segnala un brano | **prevista (FASE 6), non esistente** |
 | `/it/contatti` | Contatti | **prevista (FASE 6), non esistente** |
 | `/it/legali` | Note legali | **prevista (FASE 5), non esistente** |
-| `/it/404` | Non trovato | messaggio + ricerca (**la ricerca è prevista: la 404 non ha ancora il campo**) |
+| `/it/404` | Non trovato | messaggio + ricerca (il campo di ricerca è nell'header e nella 404, D110) |
 
 Endpoint non-pagina: la ricerca **non ha endpoint** — il dropdown filtra l'indice JSON generato a build time per lingua (`internal/build/search.go`, D110). Restano previsti solo `POST /it/api/segnala` e `POST /it/api/contatti` (form, FASE 6) — **non esistono oggi**.
 
