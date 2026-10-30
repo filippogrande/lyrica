@@ -27,7 +27,9 @@ selezionabile a destra. Go + Templ, contenuti come Markdown con front-matter YAM
 ```
 bash scripts/fetch-assets.sh                              # una volta (Bootstrap 5.3.8)
 go mod tidy
+
 go run github.com/a-h/templ/cmd/templ@v0.3.1020 generate   # dopo ogni modifica ai .templ
+
 go run ./cmd/lyrica build        # valida i contenuti e genera public/
 go run ./cmd/lyrica serve        # http://localhost:8080 (richiede public/)
 go run ./cmd/lyrica valida       # valida i contenuti senza generare nulla
@@ -35,7 +37,9 @@ go test ./...
 ```
 
 Senza `templ generate` il progetto **non compila**; i file `*_templ.go` non si committano.
-Serve **Go 1.27.1** e **templ v0.3.1020**.
+Le versioni esatte di **Go** e **templ** stanno in `go.mod`, `ci.yml` e `Dockerfile`: se ne
+cambi una, si aggiornano **tutti e tre nella stessa PR** (e il Dockerfile con la stessa
+patch di Go della CI).
 
 Deploy: `docker compose pull && docker compose up -d` (compose in `deploy/`, porta host
 **8097**). Merge su `main` = nuova immagine su Docker Hub.
