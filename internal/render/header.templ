@@ -1,7 +1,8 @@
 package render
 
-// Header è l'intestazione sticky: brand, ricerca, navigazione, tema, dimensione
-// testo. La ricerca sta fra brand e azioni: la casa della funzione più usata.
+// Header è l'intestazione sticky: brand, ricerca, navigazione, lingua, tema,
+// dimensione testo. La ricerca sta fra brand e azioni: la casa della funzione
+// più usata.
 templ Header(d PageData) {
 	<header class="site-header">
 		<nav class="container site-nav" aria-label={ d.T("nav.label") }>
@@ -10,6 +11,7 @@ templ Header(d PageData) {
 			<div class="site-nav-actions">
 				<a class="nav-link" href={ d.URL("") }>{ d.T("nav.home") }</a>
 				<a class="nav-link" href={ d.URL("bands") }>{ d.T("nav.bands") }</a>
+				@LangSwitch(d)
 				<button type="button" class="btn btn-sm btn-outline-secondary" data-theme-toggle="1">
 					{ d.T("nav.theme") }
 				</button>

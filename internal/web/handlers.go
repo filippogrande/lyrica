@@ -9,12 +9,22 @@ import (
 	"github.com/filippogrande/lyrica/internal/i18n"
 )
 
-// handleRootRedirect manda la radice alla lingua negoziata dal browser (D52).
+// LangCookie è il nome del cookie che ricorda la lingua scelta con lo switcher
+// (D111): la radice del sito ci riporta nella lingua salvata.
+const LangCookie = "lyrica.lang"
+
+// handleRootRedirect manda la radice alla lingua: prima la scelta salvata
+// nello switcher (cookie lyrica.lang, D111), poi la negoziazione dal browser
+// (D52).
 func handleRootRedirect(b i18n.Bundle) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		lang := b.Negotiate(r.Header.Get("Accept-Language"))
+		if cookie, err := r.Cookie(LangCookie); err == nil {
+			lang = b.Negotiate(cookie.Value)
+		}
 		// #nosec G710 -- lang esce da Negotiate su un set fisso di lingue
-		// dell'interfaccia (i file locales/), mai dall'header grezzo.
+		// dell'interfaccia (i file locales/), mai dall'header o dal cookie
+		// grezzi.
 		http.Redirect(w, r, "/"+lang+"/", http.StatusFound)
 	}
 }

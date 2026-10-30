@@ -1,5 +1,6 @@
 /* Interazioni minime del sito: toggle tema, dimensione del testo, filtro
-   alfabetico della pagina Bands e scelta della lingua del brano.
+   alfabetico della pagina Bands, scelta della lingua del brano e switcher di
+   lingua dell'interfaccia.
    Nessun framework, nessuno script inline (la CSP non lo consente).
    Riferimenti: docs/FRONTEND.md */
 (function () {
@@ -7,6 +8,7 @@
 
   var THEME_KEY = "lyrica.theme";
   var TEXT_KEY = "lyrica.textScale";
+  var LANG_COOKIE = "lyrica.lang";
   var SCALES = [0.9, 1, 1.15, 1.3];
   /* Parametro dell'URL per ogni lato del testo: il link condiviso riapre la
      pagina con la lingua scelta. */
@@ -16,6 +18,13 @@
     var letter = event.target.closest("[data-band-letter]");
     if (letter) {
       filterBands(letter);
+      return;
+    }
+    /* Lo switcher di lingua (D111): salva la scelta nel cookie e lascia che
+       il link navighi verso la stessa pagina nell'altra lingua. */
+    var switcher = event.target.closest("[data-lang-switch]");
+    if (switcher) {
+      saveLangCookie(switcher.getAttribute("data-lang-switch"));
       return;
     }
     var target = event.target.closest("[data-theme-toggle], [data-text-size]");
@@ -169,6 +178,15 @@
   function applyScale(scale) {
     document.documentElement.style.setProperty("--text-scale", String(scale));
     store(TEXT_KEY, String(scale));
+  }
+
+  /* Il cookie della lingua (D111): un anno, SameSite=Lax, visibile solo alla
+     radice del sito (path=/). Lo scrive solo lo switcher: la negoziazione
+     Accept-Language resta il comportamento di chi non ha mai scelto. */
+  function saveLangCookie(code) {
+    document.cookie =
+      LANG_COOKIE + "=" + encodeURIComponent(code) +
+      "; path=/; max-age=" + (365 * 24 * 60 * 60) + "; SameSite=Lax";
   }
 
   function store(key, value) {

@@ -1,0 +1,14 @@
+package render
+
+// LangSwitch è il selettore di lingua visibile (D111): un link alla stessa
+// pagina nell'altra lingua dell'interfaccia. L'etichetta è la bandiera con il
+// codice (LangLabel); il clic salva la scelta in un cookie
+// (assets/js/lyrica.js) e la navigazione fa il resto. Sta nell'header accanto
+// al toggle del tema.
+templ LangSwitch(d PageData) {
+	{ s := langSwitchData(d) }
+	<a class="lang-switch" href={ s.URL } data-lang-switch={ s.Code }
+		aria-label={ d.T("a11y.lang_switch") }>
+		{ LangLabel(s.Code) }
+	</a>
+}
