@@ -15,6 +15,10 @@ a11y.text_bigger: "Aumenta la dimensione del testo"
 
 a11y.breadcrumb: "Percorso di navigazione"
 
+search.label: "Cerca nei testi"
+search.placeholder: "Cerca un verso, un brano o una band…"
+search.no_results: "Nessun risultato"
+
 home.title: "Lyrica"
 home.lead: "Traduzioni di testi musicali, con l'originale e la traduzione a fronte."
 home.no_content: "Nessun contenuto pubblicato: le prime band e i primi brani arrivano con la FASE 2."
