@@ -268,13 +268,13 @@ La pagina di un album mostra, in quest'ordine (D89):
 │  └────────┘  aggiunto il … · voci …                      │
 ├──────────────────────────────────────────────────────────┤
 │  [ads]  │ ORIGINALE 🇩🇪 DE    │ TRADUZIONE [🇮🇹 IT ▾]  │  [ads]
-│  later. │  (nome cantante)    │  tradotto da …          │   (previsti,
+│  later. │  (nome cantante)    │ tradotto da …          │   (previsti,
 │         │  strofa 1           │  strofa 1               │    non esistenti)
 │  solo   │  (nome cantante)    │  (nome cantante)        │
 │  xl+    │  strofa 2           │  strofa 2               │
 ├─ [ chiedi altre canzoni → form segnalazione ] ──────────┤   (previsto, non esistente)
 ├─ [ ads: banner largo e basso ] (se attive) ─────────────┤   (previsto, non esistente)
-├─ footer (link al feed, riga dei contatori) ─────────────┤
+├─ footer (link al feed, riga dei contatori) ─────────────┘
 ```
 
 Le due intestazioni stanno **sulla stessa riga** e hanno la stessa altezza: è quello che fa partire i due testi insieme (D94, D95).
@@ -508,7 +508,7 @@ Un testo tradotto serve spesso **senza rete** (in metro, in aereo, in un posto s
 - Scritto a mano, poche decine di righe, **nessun tool di build**.
 - **In cache**: CSS, font, JS minimo (shell) e le **pagine dei brani visitate**.
 - Strategie: shell **cache-first** (aggiornata con la versione dell'app); pagine brano **stale-while-revalidate**; cover cache-first.
-- **Non in cache**: risposte di ricerca e form — meglio un errore chiaro che un comportamento ambiguo.
+- **Non in cache**: solo le risposte dei form (quando esisteranno) — meglio un errore chiaro che un comportamento ambiguo. La ricerca non ha risposte di rete: `search-index.json` è un **file statico** e si cachea come gli altri asset (D110).
 
 ## Cosa funziona offline
 
