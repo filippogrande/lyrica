@@ -35,6 +35,8 @@ func copyTree(sourceDir, destinationDir string) error {
 		}
 		target := filepath.Join(destinationDir, relative)
 		if entry.IsDir() {
+			// #nosec G301 -- output del sito pubblico: 0755 voluto, il server
+			// non-root (uid 10001) del container deve attraversare le cartelle.
 			if err := os.MkdirAll(target, 0o755); err != nil {
 				return fmt.Errorf("creazione di %s: %w", target, err)
 			}
