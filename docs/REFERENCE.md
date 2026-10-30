@@ -63,6 +63,7 @@ un simbolo, aggiorni la mappa **nella stessa PR**.
 | Dove sta la struttura comune di ogni pagina (head, header, footer)? | `docs/FRONTEND.md` | `internal/render/layout.templ` | `Layout` |
 | Dove si scrive la riga dei contatori? | `docs/FRONTEND.md` | `internal/render/stats.templ` | `StatsLine`; i numeri in `internal/render/stats.go` → `SiteStats.Line` |
 | Dove sta il campo di ricerca e il dropdown? | docs/FRONTEND.md | internal/render/searchbox.templ | SearchBox; assets/js/search.js |
+| Dove sta lo switcher di lingua (link all'altra lingua dell'interfaccia)? | docs/FRONTEND.md | internal/render/lang_switch.go | langSwitchData; markup LangSwitch in lang_switch.templ |
 
 ### Server, runtime e i18n
 

@@ -12,6 +12,7 @@ nav.theme: "Tema"
 a11y.skip_to_content: "Vai al testo"
 a11y.text_smaller: "Riduci la dimensione del testo"
 a11y.text_bigger: "Aumenta la dimensione del testo"
+a11y.lang_switch: "Cambia lingua"
 
 a11y.breadcrumb: "Percorso di navigazione"
 

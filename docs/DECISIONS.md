@@ -30,12 +30,13 @@ Ogni decisione presa ha un numero. Se una decisione viene cambiata, **non si can
 | D17 | Test: **solo validazione dei contenuti in CI** (+ compilazione, vedi D73) | i test di codice non sono richiesti ora |
 | D18 | Budget di performance **~300 KB/pagina**; immagini **webp + lazy** | sito leggero, buono anche da mobile |
 | D19 | **Font web multialfabeto** (latino, cirillico, greco, CJK di sistema) | le band possono avere testi in alfabeti non latini |
-| D20 | **CLI `lyrica new band\|album\|brano`** che genera i template di contenuto | evita errori di struttura nei front-matter |
+| D20 | **CLI `lyrica new band|album|brano`** che genera i template di contenuto | evita errori di struttura nei front-matter |
 | D21 | Cover: **600x600 webp quadrata**, nome file = slug dell'album | uniformità di resa senza dover pensare al formato |
 | D22 | Umami: **riuso dell'istanza self-hosted esistente** | nessun container in più da mantenere |
 | D23 | Favicon e icone PWA: **placeholder** ora, icone da pacchetti esistenti poi | non blocca lo sviluppo per una cosa grafica |
 | D109 | **Job di security automatico in CI**: `govulncheck` (CVE raggiungibili nelle dipendenze Go), `gosec` (analisi statica, SARIF in code scanning), `Trivy` (immagine finale + configurazioni), in un workflow separato da `ci.yml`, a ogni PR, su `main` e con cron settimanale | D17 diceva "solo validazione dei contenuti": con un sito pubblico servono anche i controlli che nessuno scrive a mano. Separato da `ci.yml` perché un rosso di sicurezza e un rosso di build sono due cose diverse. `-exclude-generated` perché i `*_templ.go` sono generati e non codice nostro. `ignore-unfixed` perché su una CVE senza fix non c'è niente da fare. Strumenti a `@latest` perché non sono dipendenti del progetto e serve un database CVE aggiornato |
 | D110 | **Ricerca live con indice JSON build-time e JS vanilla**, niente HTMX e niente endpoint (il dropdown filtra l'indice scaricato con la pagina) | HTMX era stato previsto in FRONTEND.md, ma un sito statico non ha bisogno di un endpoint: l'indice `search-index.json` si genera a build time, la normalizzazione (accenti, umlaut, ß) vive nel browser, e lo script aggiunge il campo solo quando c'è JS (stessa convenzione dei menu lingua). Zero dipendenze nuove, niente surface server |
+| D111 | **Switcher di lingua visibile nell'header + persistenza in cookie**: link alla stessa pagina nell'altra lingua dell'interfaccia (`LangSwitch`, accanto al toggle del tema), con `lyrica.lang` salvato al clic (1 anno, SameSite=Lax) | La lingua si cambiava solo via URL o Accept-Language: senza selettore visibile l'interfaccia inglese era di fatto nascosta. Il cookie vale solo per la radice (il percorso porta già la lingua, niente `?lang=`), e la radice rispetta il cookie prima di Accept-Language — la negoziazione resta per chi non ha mai scelto. Scelte dell'utente: posizione header accanto al tema; persistenza in cookie |
 
 ## C. Contenuti e URL
 
