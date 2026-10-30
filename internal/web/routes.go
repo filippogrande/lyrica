@@ -8,6 +8,7 @@ import (
 	"os"
 	"path"
 	"path/filepath"
+	"strings"
 
 	"github.com/filippogrande/lyrica/internal/i18n"
 )
@@ -28,6 +29,14 @@ func Handler() (http.Handler, error) {
 		return nil, err
 	}
 
+	// os.Root vincola ogni accesso al filesystem dentro public/: un percorso
+	// che prova a uscire (../) viene rifiutato da Root con ErrInvalid prima di
+	// toccare il disco (è la fix che chiede gosec G703/G304).
+	root, err := os.OpenRoot(publicDir)
+	if err != nil {
+		return nil, fmt.Errorf("apertura di %s: %w", publicDir, err)
+	}
+
 	files := http.FileServer(http.Dir(publicDir))
 	mux := http.NewServeMux()
 
@@ -38,7 +47,7 @@ func Handler() (http.Handler, error) {
 	mux.HandleFunc("/healthz", handleHealth)
 
 	// Tutto il resto: se il file generato esiste lo si serve, altrimenti 404.
-	mux.HandleFunc("/", serveGenerated(files, bundle))
+	mux.HandleFunc("/", serveGenerated(files, bundle, root))
 
 	return securityHeaders(mux), nil
 }
@@ -55,28 +64,30 @@ func requireBuild() error {
 
 // serveGenerated serve il file generato richiesto; se non esiste risponde con
 // la 404 generata nella lingua negoziata.
-func serveGenerated(files http.Handler, bundle i18n.Bundle) http.HandlerFunc {
+func serveGenerated(files http.Handler, bundle i18n.Bundle, root *os.Root) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		if existsGenerated(r.URL.Path) {
+		if existsGenerated(root, r.URL.Path) {
 			files.ServeHTTP(w, r)
 			return
 		}
-		serveNotFound(w, r, bundle)
+		serveNotFound(w, r, bundle, root)
 	}
 }
 
 // existsGenerated dice se il percorso corrisponde a un file generato o a una
-// cartella che contiene index.html.
-func existsGenerated(urlPath string) bool {
+// cartella che contiene index.html. Il path si normalizza e si ancora alla
+// radice (""/"+urlPath") e os.Root rifiuta comunque ogni tentativo di uscire
+// da public/.
+func existsGenerated(root *os.Root, urlPath string) bool {
 	clean := path.Clean("/" + urlPath)
-	full := filepath.Join(publicDir, filepath.FromSlash(clean))
-	info, err := os.Stat(full)
+	rel := strings.TrimPrefix(clean, "/")
+	info, err := root.Stat(rel)
 	if err != nil {
 		return false
 	}
 	if !info.IsDir() {
 		return true
 	}
-	_, err = os.Stat(filepath.Join(full, "index.html"))
+	_, err = root.Stat(filepath.Join(rel, "index.html"))
 	return err == nil
 }
