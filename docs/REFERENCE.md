@@ -110,7 +110,7 @@ Cercarle nel repo porta a conclusioni sbagliate: la risposta giusta è "previsto
 
 | Richiesta | Cosa dice la doc | Realtà |
 |---|---|---|
-| Ricerca full-text: `GET /it/api/cerca`, `public/search-index.json` | `docs/SPEC.md`, `docs/FRONTEND.md` ("Ricerca full-text") | nessun `internal/search/`; `internal/web/routes.go` registra solo `/`, `/healthz` e il file server |
+| Endpoint HTTP di ricerca (`GET /it/api/cerca`) | `docs/SPEC.md`, `docs/FRONTEND.md` | nessun endpoint: la ricerca filtra l'indice JSON per lingua generato a build time (`internal/build/search.go`, D110) |
 | Form segnalazione/contatti: `POST /it/api/segnala`, `POST /it/api/contatti`, `internal/notify/` | `docs/FEATURES.md`, `docs/SPEC.md` | nessun pacchetto `internal/notify/`, nessun handler di form |
 | Ads: `ads.yaml`, slot `track_top` / `side_left` / `side_right` / `track_bottom` | `docs/FEATURES.md`, `docs/FRONTEND.md` | nessun `ads.yaml` nel repo, nessuno slot in `internal/render/track.templ` |
 | PWA: `manifest.webmanifest`, `sw.js` | `docs/FRONTEND.md` ("PWA") | il build non li scrive: `internal/build/` non li genera |
@@ -132,7 +132,8 @@ quello che descrive esiste: ecco cosa c'è **davvero** oggi.
 | Feed RSS, sitemap, robots, contatori | **esistono** | `internal/build/rss.go`, `sitemap.go`, `robots.go`, `stats.go` |
 | Redirect radice → lingua negoziata, `/healthz` | **esistono** | `internal/web/handlers.go` |
 | Formato contenuti a cartella (`song.md` + un file per lingua) | **esiste come destinazione**: la CLI e la migrazione lo producono, il loader lo legge; i contenuti in repo sono ancora nel formato precedente | `internal/content/trackfolder.go`, `cmd/lyrica/migrate.go` |
-| Ricerca full-text, form/Telegram, ads, PWA, redirect 301, pagine tag/segnala/contatti/legali | **previsti, non implementati** | vedi la sezione precedente |
+| Ricerca full-text (indice JSON + JS vanilla) | **esiste** | `internal/build/search.go`, `assets/js/search.js`, `internal/render/searchbox.templ` |
+| form/Telegram, ads, PWA, redirect 301, pagine tag/segnala/contatti/legali | **previsti, non implementati** | vedi la sezione precedente |
 | Umami, pagine legali pubblicate, messa online | **previsti (FASE 5), non implementati** | `deploy/.env.example` (variabili commentate) |
 
 ## Trovati e limiti noti
@@ -167,8 +168,8 @@ codice sono task a parte.
     `interfaceLangs`, `pageWriter.writeLang`, `BuildTrackView`, `securityHeaders`,
     `handleRootRedirect`, `Serve`, `siteStats`, `writeRaw`, `FlagOf`/`LangLabel`.
     **Simboli verificati con `search_code`**: `validSlug`, `newBrano`, `lyrica migrate`,
-    `song.md` (formato a cartella), `ads.yaml` (assente), `search-index.json` (assente),
-    `api/cerca` (assente), `serviceWorker` (assente), `notify` in `internal/` (assente),
+    `song.md` (formato a cartella), `ads.yaml` (assente), `search-index.json` (ora esiste, D110),
+    `api/cerca` (assente — la ricerca è lato client, D110), `serviceWorker` (assente), `notify` in `internal/` (assente),
     `SECURITY.md`/`DECISION.md`/`I18N_DESIGN.md`/`SEARCH_DESIGN.md` (assenti).
     `search_code` non ha mai risposto "rate limit exceeded" durante questa verifica.
 
