@@ -22,7 +22,7 @@ Regole non negoziabili. Se una PR contraddice questo file, la PR è sbagliata �
 ## 3. Stack e vincoli tecnici
 
 - **Go** + **Templ** per l'HTML, servito **già renderizzato**.
-- **HTMX** per le interazioni (ricerca live).
+- **Nessun framework JS**: la ricerca live filtra un indice JSON generato a build time, con JS vanilla (D110).
 - **Bootstrap 5 solo CSS** (nessun bundle JS), servito **dal repo** e non da CDN.
 - JS custom ridotto al minimo indispensabile: tema, dimensione testo, service worker, apertura menu, selettore lingua. Nessun framework JS, nessun passaggio npm.
 
