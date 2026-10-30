@@ -40,6 +40,7 @@ Regole non negoziabili. Se una PR contraddice questo file, la PR è sbagliata �
 - **Vietati i file di test temporanei o usa-e-getta**: verificavano solo la sintassi e mascheravano i bug veri invece di rivelarli. I test che entrano nel repo provano una **regola** (il validatore, le lingue in pagina) e restano veri anche fra sei mesi.
 - La verifica si fa sulla **build reale** (il binario compilato dalla CI, il sito generato e aperto), non su un frammento di codice: i test la affiancano, non la sostituiscono.
 - Una cosa è "fatta" quando è **verificata sull'artefatto** (la pagina generata, l'output del comando, il container che risponde), non quando il codice è stato scritto.
+- **La sicurezza si controlla da sola** (`.github/workflows/security.yml`): govulncheck sulle dipendenze Go realmente chiamate, gosec sul codice nostro (i file generati da templ sono esclusi), Trivy sull'immagine costruita dal Dockerfile. Gira a ogni PR, su `main` e una volta a settimana. Un rosso di sicurezza non si aggira abbassando la soglia: si corregge o si dichiara nella PR perché è un falso positivo.
 
 ## 6. Performance e accessibilità
 
