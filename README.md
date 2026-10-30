@@ -2,7 +2,7 @@
 
 Sito web che raccoglie **traduzioni di testi musicali** (lyric) di qualsiasi band, con **vista a fronte**: testo originale a sinistra, traduzione selezionabile a destra.
 
-- **Produzione**: https://lyrica.filippomoscatelli.com (non ancora online)
+- **Produzione**: https://lyrica.filippomoscatelli.com
 - **Licenza codice**: MIT — **Licenza traduzioni**: CC BY-NC 4.0
 - **Nessun login, nessun account, nessun database**: il sito è **statico**, generato dai contenuti che vivono in questo repo.
 
