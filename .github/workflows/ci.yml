@@ -99,5 +99,7 @@ jobs:
           test -f public/it/index.html
           test -f public/it/bands/index.html
           test -f public/en/index.html
+          test -f public/it/search-index.json
+          test -f public/en/search-index.json
           echo "pagine generate:"
           find public -name '*.html' | sort
