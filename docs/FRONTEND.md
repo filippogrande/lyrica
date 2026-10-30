@@ -8,7 +8,7 @@ alcune cose **no**, e dove mancano la riga lo dice. Per la lista completa, vedi
 
 | Esiste oggi | Previsto, non implementato |
 |---|---|
-| Layout comune con head, header sticky, footer, skip link, breadcrumb | Ricerca live nell'header (e nella 404) |
+| Layout comune con head, header sticky, footer, skip link, breadcrumb, ricerca live nell'header e nella 404 (indice JSON per lingua + JS vanilla, D110) | — |
 | Corsie della home, pagine Bands/band/album/brano con le loro griglie | PWA: `manifest.webmanifest` e `sw.js` |
 | Filtro alfabetico delle band, selettore lingua del brano (lato client) | Ads: banner e colonne laterali |
 | Lingue dell'interfaccia (it/en), hreflang, link al feed nel `<head>` | Fascia "chiedi altre canzoni" con link al form |
@@ -83,8 +83,8 @@ Breakpoints Bootstrap standard: `sm 576`, `md 768`, `lg 992`, `xl 1200`.
 
 | Componente | Note |
 |---|---|
-| **Header** | sticky; nome del sito, nav (Home / Bands), toggle tema, A-/A+; sotto `lg` nav in **offcanvas**. La **ricerca non c'è ancora** (FASE 4) |
-| **Ricerca** | **prevista, non esistente**: dropdown live nell'header |
+| **Header** | sticky; nome del sito, nav (Home / Bands), toggle tema, A-/A+; sotto `lg` nav in **offcanvas** |
+| **Ricerca** | **esistente (D110)**: dropdown live nell'header e nella 404; indice JSON per lingua da `internal/build/search.go`, script `assets/js/search.js` (componente `SearchBox` in `internal/render/searchbox.templ`) |
 | **Breadcrumb** | su tutte le pagine interne |
 | **Card band** | foto se dichiarata (`image` in `band.md`), altrimenti **segnaposto con l'iniziale**; nome, paese, generi, numero di album |
 | **Corsia (rail)** | elenco orizzontale: titolo (`.rail-heading`), link "tutte le band" nella corsia delle band, card scorrevoli (vedi "Home a corsie"); usata in home, nella **pagina Bands** e nelle pagine **band** e **album** |
@@ -519,7 +519,7 @@ Un testo tradotto serve spesso **senza rete** (in metro, in aereo, in un posto s
 | Menu della lingua del brano (originale e traduzione) | sì (è locale) |
 | Cambio tema e dimensione testo | sì (è locale) |
 | Filtro alfabetico delle band | sì (è locale) |
-| Ricerca | no (avviso chiaro) |
+| Ricerca | sì (indice JSON lato client, D110) |
 | Segnalazioni e contatti | no (il form lo dice prima dell'invio) |
 | Nuove traduzioni non ancora aperte | no |
 
