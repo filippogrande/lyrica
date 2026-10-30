@@ -18,7 +18,9 @@
 # Segreti: già coperti da GitGuardian su ogni PR.
 #
 # Gli strumenti sono installati a @latest perché non sono dipendenze del
-# progetto: un database di CVE vecchio è peggio di un tool non pinnato.
+# progetto: un database di CVE vecchio è peggio di un tool non pinnato. Trivy
+# si installa dallo script ufficiale, non dalla action, per lo stesso motivo:
+# una versione vecchia di Trivy è il modo più sicuro di lasciar passare una CVE.
 
 name: Security
 
@@ -132,20 +134,20 @@ jobs:
       - name: Costruisci l'immagine
         run: docker build -t lyrica:security .
 
+      # Trivy dallo script ufficiale, sempre l'ultima versione: una versione
+      # vecchia di Trivy ha già lasciato passare CVE (storico noto), e il repo
+      # cambia poco mentre Trivy esce spesso.
+      - name: Installa Trivy (ultima versione)
+        run: |
+          curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh -s -- -b /usr/local/bin
+          trivy --version
+
       - name: Scansiona l'immagine (OS + pacchetti)
-        uses: aquasecurity/trivy-action@v0.36.0
-        with:
-          image-ref: lyrica:security
-          format: table
-          severity: HIGH,CRITICAL
-          ignore-unfixed: true
-          exit-code: "1"
+        run: >-
+          trivy image --severity HIGH,CRITICAL --ignore-unfixed
+          --exit-code 1 --skip-version-check lyrica:security
 
       - name: Scansiona le configurazioni (Dockerfile, workflow)
-        uses: aquasecurity/trivy-action@v0.36.0
-        with:
-          scan-type: config
-          scan-ref: .
-          format: table
-          severity: HIGH,CRITICAL
-          exit-code: "1"
+        run: >-
+          trivy config --severity HIGH,CRITICAL
+          --exit-code 1 --skip-version-check .
