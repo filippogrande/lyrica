@@ -36,6 +36,8 @@ go run ./cmd/lyrica valida       # valida i contenuti senza generare nulla
 go test ./...
 ```
 
+La sicurezza si controlla da sola: `.github/workflows/security.yml` (`govulncheck`, `gosec`, `Trivy`).
+
 Senza `templ generate` il progetto **non compila**; i file `*_templ.go` non si committano.
 Le versioni esatte di **Go** e **templ** stanno in `go.mod`, `ci.yml` e `Dockerfile`: se ne
 cambi una, si aggiornano **tutti e tre nella stessa PR** (e il Dockerfile con la stessa
