@@ -124,7 +124,7 @@ jobs:
         run: docker build -t lyrica:security .
 
       - name: Scansiona l'immagine (OS + pacchetti)
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: lyrica:security
           format: table
@@ -133,7 +133,7 @@ jobs:
           exit-code: "1"
 
       - name: Scansiona le configurazioni (Dockerfile, workflow)
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           scan-type: config
           scan-ref: .
