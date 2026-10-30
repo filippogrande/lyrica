@@ -68,8 +68,8 @@ func (w *pageWriter) writeLang(lang string) error {
 // senza album pubblicati non ha pagina: non compare in nessun elenco, quindi
 // una pagina vuota sarebbe un orfano.
 func (w *pageWriter) writeBand(lang string, band *content.Band) error {
-	albums := publishedAlbums(band)
-	if len(albums) == 0 {
+	abums := publishedAlbums(band)
+	if len(abums) == 0 {
 		return nil
 	}
 	page := w.pageData(lang, "band/"+band.Slug+"/", band.Name)
@@ -77,7 +77,7 @@ func (w *pageWriter) writeBand(lang string, band *content.Band) error {
 	if err := w.write(lang, "band/"+band.Slug+"/", render.Band(render.BuildBandView(page, band, w.catalog))); err != nil {
 		return err
 	}
-	for _, album := range albums {
+	for _, album := range abums {
 		if err := w.writeAlbum(lang, band, album); err != nil {
 			return err
 		}
@@ -163,6 +163,8 @@ func (w *pageWriter) writeFile(relative string, component templ.Component) error
 	if err := os.MkdirAll(filepath.Dir(target), 0o755); err != nil {
 		return fmt.Errorf("creazione di %s: %w", filepath.Dir(target), err)
 	}
+	// #nosec G304 -- target deriva da w.outputDir e dai percorsi del catalogo
+	// (contenuti del repo), mai da input di rete.
 	file, err := os.Create(target)
 	if err != nil {
 		return fmt.Errorf("creazione di %s: %w", target, err)
@@ -172,7 +174,7 @@ func (w *pageWriter) writeFile(relative string, component templ.Component) error
 	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 	defer cancel()
 	if err := component.Render(ctx, file); err != nil {
-		file.Close()
+		_ = file.Close()
 		return fmt.Errorf("rendering di %s: %w", target, err)
 	}
 	if err := file.Close(); err != nil {
