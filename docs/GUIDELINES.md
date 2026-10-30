@@ -61,18 +61,25 @@ Regole non negoziabili. Se una PR contraddice questo file, la PR è sbagliata �
 
 ## 9. Documentazione
 
-I documenti stanno in **`docs/`** e sono **8**, con questo scope:
+I documenti stanno in **`docs/`** e sono **9**, con questo scope:
 
-| File | Scope |
-|---|---|
-| `GUIDELINES.md` | questo file: regole di lavoro |
-| `DECISIONS.md` | registro delle decisioni (D01→), con il perché |
-| `ROADMAP.md` | fasi, artefatti, criteri di chiusura |
-| `SPEC.md` | cosa fa il sito: pagine, funzionalità, casi limite |
-| `ARCHITECTURE.md` | come è fatto: componenti, build, Docker, deploy, sicurezza |
-| `CONTENT.md` | schema dei contenuti e come si aggiungono |
-| `FRONTEND.md` | interfaccia: design system, vista brano, lingue, ricerca, PWA |
-| `FEATURES.md` | ads, analytics, legali/privacy, form, feed e contatori |
+| File | Tipo | Scope |
+|---|---|---|
+| `REFERENCE.md` | reference | **la mappa**: richiesta → file → simbolo, verificata sul codice |
+| `GUIDELINES.md` | how-to | questo file: regole di lavoro |
+| `DECISIONS.md` | reference | registro delle decisioni (D01→), con il perché |
+| `ROADMAP.md` | reference | fasi, artefatti, criteri di chiusura |
+| `SPEC.md` | reference | cosa fa il sito: pagine, funzionalità, casi limite |
+| `ARCHITECTURE.md` | explanation | come è fatto: componenti, build, Docker, deploy, sicurezza |
+| `CONTENT.md` | how-to | schema dei contenuti e come si aggiungono |
+| `FRONTEND.md` | explanation | interfaccia: design system, vista brano, lingue, ricerca, PWA |
+| `FEATURES.md` | explanation | ads, analytics, legali/privacy, form, feed e contatori |
+
+In **root** c'è un decimo file, che non sta in `docs/`:
+
+| File | Tipo | Scope |
+|---|---|---|
+| `AGENTS.md` | how-to | il file letto **sempre per primo**: identità, comandi, paletti, indice dei doc |
 
 Regole:
 
@@ -81,3 +88,5 @@ Regole:
 - **Chiusura di fase**: quando una fase è chiusa, il progetto in essa contenuto o si **assorbe** in una sezione "come funziona" del doc di competenza, o si **elimina**. La verità è il codice; una doc che mente è peggio di nessuna doc. Il taglio si fa nella PR che chiude la fase.
 - Nessun doc contiene segreti, credenziali o dati personali.
 - Le decisioni di prodotto restano in `DECISIONS.md` anche quando il dettaglio implementativo sparisce: sono la memoria del perché.
+- `DECISIONS.md` e `ROADMAP.md` **non si riscrivono né si consolidano**: se una decisione registrata non corrisponde più al codice, si **segnala nella PR**, non si corregge nel registro.
+- `REFERENCE.md` è la mappa richiesta → file → simbolo: **si aggiorna nella stessa PR** che sposta un file o rinomina un simbolo.

@@ -4,6 +4,18 @@
 
 Sito **statico generato a build time** da contenuti Markdown, servito da un binario Go che espone solo tre cose dinamiche: la ricerca, i due form e il feed.
 
+## Stato di implementazione
+
+Questo documento descrive il **progetto**; non tutto quello che descrive esiste ancora. Le due
+cose da non dimenticare leggendo il resto:
+
+- **`internal/search/` e `internal/notify/` non esistono**: la ricerca full-text (FASE 4) e i
+  form con invio a Telegram (FASE 6) sono progettati, non scritti. Il container serve **solo**
+  file statici, `/healthz` e il redirect della radice.
+- **`ads.yaml` non esiste** e non esiste il codice degli slot pubblicitari.
+
+Per la lista completa, vedi [`REFERENCE.md`](REFERENCE.md#non-esiste-ancora-dove-non-cercare).
+
 ## Flusso
 
 ```
@@ -16,8 +28,12 @@ content/  covers/  assets/  locales/
         |
         |  docker build (multi-stage: build Go -> immagine finale minimale)
         v
-   immagine Docker  ->  docker compose  ->  Cloudflare Tunnel  ->  lyrica.filippomoscatellis.com
+   immagine Docker  ->  docker compose  ->  Cloudflare Tunnel  ->  lyrica.filippomoscatelli.com
 ```
+
+L'indice di ricerca, `manifest.webmanifest`, `sw.js` e il file dei redirect sono **previsti, non
+prodotti** oggi: il build scrive HTML, `rss.xml`, `sitemap.xml`, `robots.txt`, `assets/` e
+`covers/`.
 
 ## Componenti
 
@@ -26,11 +42,11 @@ content/  covers/  assets/  locales/
 | **Content loader** | legge `content/`, parse di front-matter + strofe, costruisce i modelli | `internal/content/` |
 | **Validator** | regole di integrità: front-matter, slug, link, traduzioni incomplete, cover | `internal/content/` |
 | **Renderer** | pagine Templ (home, band, album, brano, 404, legali) | `internal/render/` |
-| **Search index** | costruisce l'indice a build time e lo interroga | `internal/search/` |
+| **Search index** | costruisce l'indice a build time e lo interroga | **non esiste** (FASE 4) |
 | **i18n** | stringhe UI e negoziazione lingua | `internal/i18n/`, `locales/` |
-| **Notifier** | invio messaggi al bot Telegram (segnalazioni, contatti) | `internal/notify/` |
-| **Web** | server, routing, endpoint HTMX, header di sicurezza, rate-limit | `internal/web/` |
-| **CLI** | `lyrica new ...`, `lyrica valida`, `lyrica build`, `lyrica serve` | `cmd/lyrica/` |
+| **Notifier** | invio messaggi al bot Telegram (segnalazioni, contatti) | **non esiste** (FASE 6) |
+| **Web** | server, routing, header di sicurezza, 404 | `internal/web/` |
+| **CLI** | `lyrica new ...`, `lyrica valida`, `lyrica build`, `lyrica serve`, `lyrica migrate` | `cmd/lyrica/` |
 
 Il codice sta in inglese, i contenuti e i doc in italiano (`GUIDELINES.md` §4).
 
@@ -39,8 +55,12 @@ Il codice sta in inglese, i contenuti e i doc in italiano (`GUIDELINES.md` §4).
 Il container serve soltanto:
 
 1. **File statici**: tutte le pagine già generate (`public/`).
-2. **`GET /it/api/cerca?q=`**: ricerca nell'indice, restituisce un **frammento HTML** per HTMX.
-3. **`POST /it/api/segnala`** e **`POST /it/api/contatti`**: validano, rate-limitano e inoltrano al bot Telegram; **non salvano nulla**.
+2. **`GET /healthz`**: risposta per gli healthcheck.
+3. **Redirect della radice**: `/` verso la lingua negoziata da `Accept-Language`.
+
+**Non esistono ancora** `GET /it/api/cerca?q=` (ricerca nell'indice, frammento HTML per HTMX) e
+`POST /it/api/segnala` / `POST /it/api/contatti` (validazione, rate-limit, inoltro al bot Telegram):
+sono FASE 4 e FASE 6.
 
 Non esiste database, non esiste sessione, non esiste stato utente. Conseguenze volute: nessuna migrazione, nessun backup di dati applicativi, nessun dato personale a riposo.
 
@@ -82,22 +102,23 @@ Lo script si invoca con `bash` esplicito, non con `./`: nel repo non ha il bit d
 |---|---|
 | `lyrica valida` | controlla i contenuti e stampa errori e avvisi, **senza generare nulla** — **disponibile** |
 | `lyrica serve` | serve il sito in locale — **disponibile** |
+| `lyrica build` | valida i contenuti e genera `public/` — **disponibile** |
+| `lyrica new band \| album \| brano` | genera i template di contenuto — **disponibile** |
+| `lyrica migrate [--band <slug>] [--apply]` | migra i brani dal file unico alla cartella (prova senza `--apply`) — **disponibile** |
 | `lyrica help` | mostra i comandi — **disponibile** |
-| `lyrica build` | valida i contenuti e genera `public/` — **FASE 2** |
-| `lyrica new band \| album \| brano` | genera i template di contenuto — **FASE 2** |
 
 I comandi non ancora implementati **restituiscono un errore esplicito**, non fingono di aver funzionato.
 
 `lyrica valida` esce con codice ≠ 0 se c'è anche un solo problema bloccante, e stampa **tutti** i problemi trovati (non si ferma al primo). Gli avvisi non fanno fallire il comando: restano visibili su stderr.
 
-### Cosa farà `lyrica build`, in ordine (FASE 2)
+### Cosa fa `lyrica build`, in ordine
 
 1. **Parse** di tutto `content/` in modelli in memoria.
 2. **Validazione**. Se fallisce: `public/` **non viene prodotto**, exit code ≠ 0.
-3. **Indice di ricerca** → `public/search-index.json`.
+3. **Indice di ricerca** → `public/search-index.json` — **non ancora implementato** (FASE 4).
 4. **Render** delle pagine con Templ.
 5. **Asset**: CSS, font, JS minimo, cover.
-6. **Output di distribuzione**: `rss.xml` (per ogni lingua dell'interfaccia, in `public/<lang>/rss.xml`), `sitemap.xml` (uno solo, alla root), `robots.txt` (alla root), `manifest.webmanifest`, `sw.js`, file dei redirect.
+6. **Output di distribuzione**: `rss.xml` (per ogni lingua dell'interfaccia, in `public/<lang>/rss.xml`), `sitemap.xml` (uno solo, alla root), `robots.txt` (alla root). `manifest.webmanifest`, `sw.js` e il file dei redirect sono **previsti, non prodotti**.
 
 I file XML e `robots.txt` non sono componenti Templ: si scrivono con `encoding/xml` e con `writeRaw` (`internal/build/raw.go`), perché sono dati e non markup. Un errore nella loro scrittura **fa fallire la build**: un feed a metà è un feed rotto e nessuno se ne accorgerebbe.
 
@@ -105,11 +126,14 @@ I file XML e `robots.txt` non sono componenti Templ: si scrivono con `encoding/x
 
 | Workflow | Evento | Cosa fa |
 |---|---|---|
-| `ci.yml` | **PR** e **push su `main`** | job `Compila`: `go mod tidy` → `templ generate` → `go vet` → `go test ./...` (D98) → `go build` |
-| `ci.yml` | **PR** e **push su `main`** | job `Valida i contenuti`: `go run ./cmd/lyrica valida`; contenuti rotti = PR rossa |
+| `ci.yml` → job `compila` | **PR** e **push su `main`** | `go mod tidy` → `templ generate` → `go vet` → `go build` → `go test ./...` (D98) |
+| `ci.yml` → job `valida` | **PR** e **push su `main`** | `go run ./cmd/lyrica valida`, poi `lyrica build` e controllo che le pagine attese esistano |
 | `docker-build-push.yml` | **push su `main`** | build dell'immagine e push su Docker Hub (`:latest` e `:<sha>`) |
+| `immagini-mancanti.yml` | **manuale** (`workflow_dispatch`) | cerca le immagini che mancano, le scarica dagli archivi pubblici e apre una PR |
+| `immagini.yml` | **manuale** (`workflow_dispatch`) | scarica **una** immagine da un MBID e apre una PR |
+| `migrazione-brani.yml` | **manuale** (`workflow_dispatch`) | esegue `lyrica migrate` e apre una PR |
 
-Perché esiste il job `Compila`: l'ambiente in cui scrive l'agente **non ha un compilatore Go**, quindi gli errori di sintassi si vedono solo qui. Non è un test unitario: è la verifica dell'artefatto.
+Perché esiste il job `compila`: l'ambiente in cui scrive l'agente **non ha un compilatore Go**, quindi gli errori di sintassi si vedono solo qui. Non è un test unitario: è la verifica dell'artefatto.
 
 Il workflow dell'immagine **non gira sulle PR**: una PR non deve poter pubblicare un tag `latest`.
 
@@ -119,11 +143,11 @@ Il workflow dell'immagine **non gira sulle PR**: una PR non deve poter pubblicar
 
 - Registry **Docker Hub**, `filippogrande/lyrica`, tag `latest` + `<sha del commit>` (il tag con la SHA serve al rollback).
 - `Dockerfile` **multi-stage**:
-  - stage `build`: `golang:1.27.1-alpine3.24` → `apk add curl bash` → dipendenze → `templ generate` → script asset → binario statico `CGO_ENABLED=0`;
-  - stage finale: `alpine:3.24.2` + `ca-certificates`, utente non privilegiato (`lyrica`, uid 10001), **solo** binario, `assets/`, `locales/`.
+  - stage `build`: `golang:1.27.1-alpine3.24` → `apk add curl bash` → dipendenze → `templ generate` → script asset → `lyrica build` → binario statico `CGO_ENABLED=0`;
+  - stage finale: `alpine:3.24.2` + `ca-certificates`, utente non privilegiato (`lyrica`, uid 10001), **solo** binario, `public/`, `locales/`.
 - `HEALTHCHECK` su `/healthz`.
 
-Ordine dei passi studiato perché una modifica a un **testo** non invalidi la cache delle dipendenze: `go.mod` → `go mod download` → `COPY . .` → `go mod tidy` → `templ generate` → asset → build.
+Ordine dei passi studiato perché una modifica a un **testo** non invalidi la cache delle dipendenze: `go.mod` → `go mod download` → `COPY . .` → `go mod tidy` → `templ generate` → asset → `lyrica build` → build del binario.
 
 ### Deploy sul home-lab
 
@@ -159,9 +183,9 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 ### Superficie reale
 
 1. **Contenuti** (scritti dall'autore, non da utenti): se un testo contenesse markup, il rischio è XSS verso i lettori.
-2. **I due form**: abuso, spam, flood.
-3. **Token del bot Telegram**: se trapelato, qualcuno può scrivere nella chat dell'autore.
-4. **Endpoint di ricerca**: abuso leggero (scraping dell'indice).
+2. **I due form**: abuso, spam, flood — **previsti, non implementati**.
+3. **Token del bot Telegram**: se trapelato, qualcuno può scrivere nella chat dell'autore — **previsto, non implementato**.
+4. **Endpoint di ricerca**: abuso leggero (scraping dell'indice) — **previsto, non implementato**.
 5. **Dipendenze**: Bootstrap vendored, moduli Go, immagini base Docker.
 
 ### Contromisure
@@ -171,22 +195,27 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 | Output | **Escaping di default** in Templ; mai HTML grezzo dai contenuti; Markdown renderizzato con sanitizzazione |
 | Header | HSTS, `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `Permissions-Policy` minimale, **CSP senza `unsafe-inline`** |
 | Tema | lo script che applica il tema è un **file esterno** (`assets/js/theme.js`), non inline: è così che la CSP resta senza `unsafe-inline` |
-| Form | **Rate-limit per IP** in memoria + **honeypot** + tempo minimo di compilazione; nessun salvataggio dei dati |
+| Form | **Rate-limit per IP** in memoria + **honeypot** + tempo minimo di compilazione; nessun salvataggio dei dati — **previsto, non implementato** |
 | Segreti | Token solo in `.env`/variabili d'ambiente, **mai** nel repo, nei log o nei messaggi di errore |
 | Dipendenze | `.github/dependabot.yml` obbligatorio, aggiornato nella stessa PR che aggiunge un manifest |
 | Esposizione | Dietro **Cloudflare Tunnel**: nessuna porta aperta in casa, nessun IP del home-lab esposto |
 | Log | Log di accesso minimali, **nessun contenuto dei form**, nessuna retention lunga degli IP |
+
+Nota: la CSP attuale (`internal/web/headers.go` → `securityHeaders`) è
+`default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none';
+form-action 'self'; frame-ancestors 'none'`. **Non contiene HSTS**: si aggiunge quando il sito è
+realmente online dietro Cloudflare.
 
 ### Cosa NON si fa
 
 - Non si aggiunge autenticazione "per sicurezza": qui l'autenticazione **crea** superficie, non la riduce.
 - Non si salvano i dati dei form "tanto per averli".
 - Non si aprono porte del home-lab per far passare un servizio: si usa il tunnel.
-- Non si committa un `.env`, nemmeno "temporaneamente".
+- Non si commetta un `.env`, nemmeno "temporaneamente".
 
 ### In caso di abuso
 
-1. Il rate-limit risponde **429** senza spiegare la soglia esatta.
+1. Il rate-limit risponde **429** senza spiegare la soglia esatta — **previsto, non implementato**.
 2. Se lo spam è sistematico: si disattiva temporaneamente l'endpoint e si valuta un captcha leggero **come decisione**, non come patch silenziosa.
 3. Se il token Telegram è sospetto: si rigenera dal BotFather e si aggiorna la `.env` sul server.
 
@@ -196,28 +225,32 @@ Il sito **non ha login, non ha account, non ha database e non ha un pannello adm
 2. **`golang:*-alpine` non ha bash**: lo stage di build deve fare `apk add --no-cache curl bash`, altrimenti lo script asset muore con `env: bash: No such file or directory`.
 3. **Lo script asset si invoca come `bash scripts/fetch-assets.sh`**: senza il bit di esecuzione, `./scripts/...` fallisce con **exit 126** e fa fallire la build dell'immagine.
 4. **`*_templ.go` non si committano mai**: sono artefatti di generazione.
-5. **La porta host va scelta guardando cosa è già occupato** (`docker ps --format '{{.Names}} - {{.Ports}}'` o `ss -tlnp`), non copiando un default: sul master la 8085 era libera solo in teoria.
+5. **La porta host va scelta guardando cosa è già occupato** (`docker ps --format '{{.Names}} - {{.Ports}}'` o `ss -tlnp`), non copiando un default: sul master la **8097** è la porta scelta perché 8090-8096 sono occupate.
 6. **Anche i comandi che non generano nulla richiedono `templ generate`**: `lyrica valida` compila `internal/web` → `internal/render`, quindi un job CI che lo invoca deve generare i template prima di eseguirlo.
 7. **I file di output non-HTML non passano da `writeFile`**: `writeFile` accetta solo componenti templ e va avanti a `index.html`. Feed, sitemap e robots passano da `writeRaw` (`internal/build/raw.go`).
 8. **La sitemap elenca le pagine che esistono davvero**: una voce di tracklist con `status: pending` non ha pagina, quindi non va in sitemap. Lo stesso vale per i contatori: usano `publishedAlbums` e `HasTranslations`, gli stessi criteri con cui il build decide se generare una pagina.
+9. **`PageData.Description` è calcolato ma non stampato**: `internal/render/layout.templ` non emette `<meta name="description">` né tag `og:`. Se servono, vanno aggiunti nel layout.
 
 ## Limiti noti
 
-- L'indice di ricerca è caricato in memoria a runtime: accettabile fino a decine di migliaia di versi.
+- La ricerca (quando arriverà) caricherà l'indice in memoria: accettabile fino a decine di migliaia di versi.
 - La ricerca è **full-text**, deliberatamente: niente semantica, niente tolleranza ai refusi.
 - I contenuti richiedono un **nuovo build + deploy**: non si pubblica nulla "a caldo".
 - Nessun ambiente di staging: `main` è produzione.
-- Il validatore **non** controlla ancora le chiavi dei locale mancanti rispetto a `it.yaml` (warning previsto da `CONTENT.md`): arriva con l'i18n delle pagine.
+- Il validatore **non** confronta le chiavi dei locale fra lingue: il solo controllo è che una lingua di traduzione abbia il suo file `locales/<lang>.yaml` (`interfaceLangs`, in `internal/build/build.go`). Le chiavi mancanti si vedono solo a runtime, come fallback italiano o errore di `MustT`.
 - Il dominio è una **costante**: il sito va pubblicato allo stesso indirizzo, e un dominio diverso richiede una modifica al codice, non una configurazione.
+- **La CSP non ha HSTS** (vedi "Contromisure"): si aggiunge con la messa online.
 
 ## Dove vive cosa
 
 | Area | Doc | Codice |
 |---|---|---|
+| La mappa richiesta → file | `REFERENCE.md` | — |
 | Regole di lavoro | `GUIDELINES.md` | — |
 | Decisioni | `DECISIONS.md` | — |
 | Pagine e funzioni | `SPEC.md` | `internal/render/` |
 | Schema contenuti e authoring | `CONTENT.md` | `internal/content/`, `cmd/lyrica/` |
-| Interfaccia, brano, lingue, ricerca, PWA | `FRONTEND.md` | `internal/render/`, `internal/i18n/`, `internal/search/`, `assets/` |
-| Ads, analytics, legali, form, feed e contatori | `FEATURES.md` | `ads.yaml`, `internal/notify/`, template head |
+| Interfaccia, brano, lingue | `FRONTEND.md` | `internal/render/`, `internal/i18n/`, `assets/` |
+| Ads, analytics, legali, form | `FEATURES.md` | **non implementati**: nessun `ads.yaml`, nessun `internal/notify/` |
 | Output generati dal build (feed, sitemap, robots, URL base) | `FEATURES.md` (cap. "Feed RSS e contatori") | `internal/build/rss.go`, `sitemap.go`, `robots.go`, `stats.go`, `urls.go`, `raw.go` |
+| Server e sicurezza | `ARCHITECTURE.md` (cap. "Sicurezza") | `internal/web/headers.go`, `routes.go`, `handlers.go` |

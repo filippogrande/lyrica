@@ -2,15 +2,33 @@
 
 Le funzioni che stanno **attorno** al testo: pubblicità, statistiche, obblighi legali, form e distribuzione.
 
+## Stato di implementazione
+
+Metà di questo documento descrive cose che **esistono**, metà cose che **non esistono ancora**.
+La riga giusta è questa:
+
+| Esiste oggi | Previsto, non implementato |
+|---|---|
+| Feed RSS (una per lingua), sitemap, robots, contatori pubblici | Ads (`ads.yaml` e slot) |
+| Link al feed nel `<head>` e nel footer | Analytics (Umami) |
+| | Pagine `/it/legali`, `/it/contatti` |
+| | Form segnalazione/contatti e bot Telegram |
+
+Se cerchi il codice di una riga della colonna destra, **non lo trovi**: è progettato, non scritto.
+
 ---
 
 # Pubblicità
 
 ## Stato al lancio
 
-**Spente.** Gli slot esistono nel codice ma `enabled: false` in `ads.yaml`: nessuno spazio pubblicitario viene renderizzato finché non è una decisione esplicita.
+**Spente — e non esiste nemmeno il codice.** Non c'è `ads.yaml` nel repo e non ci sono slot
+pubblicitari in `internal/render/track.templ`: nessuno spazio pubblicitario viene renderizzato,
+perché nessuno spazio pubblicitario è stato scritto. Le sezioni che seguono descrivono **come
+sarà** quando gli ads diventeranno una decisione esplicita.
 
-Quando sono spente, **il DOM non contiene nemmeno i contenitori**: il testo prende tutta la larghezza e il layout non ha buchi.
+Quando saranno spente, **il DOM non conterrà nemmeno i contenitori**: il testo prende tutta la
+larghezza e il layout non ha buchi.
 
 ## Principi (se e quando si attivano)
 
@@ -39,7 +57,7 @@ ads            <- banner largo e basso, dopo la sezione "chiedi altre canzoni"
 
 Regole delle colonne laterali:
 
-- Il **testo non si stringa** per far posto agli ads: sotto `xl` le colonne laterali **non esistono** e il testo usa tutto lo spazio.
+- Il **testo non si stringe** per far posto agli ads: sotto `xl` le colonne laterali **non esistono** e il testo usa tutto lo spazio.
 - **Non sono sticky**: scorrono con la pagina. Un banner che segue lo scroll è la definizione di invasivo.
 - Non si mettono **tra** originale e traduzione: spezzerebbe la lettura a fronte, che è il motivo per cui il sito esiste.
 - Niente ads **dentro** il blocco delle strofe.
@@ -55,9 +73,9 @@ Gli slot **non compaiono** su 404, pagine legali e form.
 
 ## Configurazione
 
-`ads.yaml` contiene l'interruttore globale `enabled: false` e, per ogni slot, se è attivo, il frammento HTML o l'immagine locale, il link di destinazione, l'etichetta "sponsorizzato".
+`ads.yaml` conterrà l'interruttore globale `enabled: false` e, per ogni slot, se è attivo, il frammento HTML o l'immagine locale, il link di destinazione, l'etichetta "sponsorizzato". **Oggi il file non esiste**: è previsto, da creare con la decisione di attivare gli ads.
 
-Le immagini pubblicitarie vivono nel repo, come le cover: il sito non chiama domini terzi.
+Le immagini pubblicitarie vivranno nel repo, come le cover: il sito non chiamerà domini terzi.
 
 ## Requisiti prima di attivare
 
@@ -77,6 +95,10 @@ Le immagini pubblicitarie vivono nel repo, come le cover: il sito non chiama dom
 ---
 
 # Analytics — Umami
+
+**Stato: previsto (FASE 5), non implementato.** Non c'è lo script tag e non ci sono eventi: il
+`<head>` (`internal/render/layout.templ`) non lo contiene. Le sezioni che seguono descrivono **come
+sarà**.
 
 ## Perché Umami
 
@@ -119,12 +141,15 @@ Nessun evento contiene **dati personali** né il testo cercato: si traccia il fa
 
 # Legali, licenze e privacy
 
+**Stato: previsto (FASE 5), non implementato.** La pagina `/it/legali` non esiste e non è linkata
+nel footer (`internal/render/footer.templ`). Il disclaimer e la licenza **ci sono già** nel footer.
+
 Il sito pubblica **traduzioni di testi di cui non detiene i diritti**: è la prima cosa da gestire con chiarezza.
 
 ## Copyright dei testi originali
 
 - I testi appartengono ai rispettivi autori, compositori ed editori. Lyrica **non li rivendica** e non ne trae profitto.
-- In **ogni pagina**, nel footer, un disclaimer esplicito con rimando alla pagina legale.
+- In **ogni pagina**, nel footer, un disclaimer esplicito con rimando alla pagina legale — **il disclaimer c'è, il rimando no** finché la pagina legale non esiste.
 - Le traduzioni sono presentate come **opere amatoriali** dell'autore del sito, non come edizioni ufficiali.
 - **Procedura di rimozione**: chi detiene i diritti può chiedere la rimozione tramite il form contatti; il contenuto viene rimosso e l'eventuale URL rediretto o dismesso.
 
@@ -181,6 +206,10 @@ Vanno rispettate le condizioni della sezione Pubblicità: niente tracking, nient
 ---
 
 # Form: segnalazioni e contatti
+
+**Stato: previsto (FASE 6), non implementato.** Non esistono le pagine `/it/segnala` e
+`/it/contatti`, non esiste `internal/notify/`, e nessun endpoint riceve un form. Le sezioni che
+seguono descrivono **come sarà**.
 
 ## Perché esistono
 
@@ -241,15 +270,19 @@ Messaggio libero + email facoltativa + oggetto. Usato anche per le **richieste d
 
 # Feed RSS e contatori
 
-Tutti e tre i file qui sotto (`rss.xml`, `sitemap.xml`, `robots.txt`) sono **generati dal build**, statici come il resto del sito: nessun servizio esterno, nessuna dipendenza a runtime. Il dominio assoluto è una **costante in `internal/build`** (`https://lyrica.filippomoscatelli.com`, D103): i tre file contengono URL assoluti e il dominio vive in un posto solo, senza variabili d'ambiente.
+**Stato: implementato.** Queste tre cose (`rss.xml`, `sitemap.xml`, `robots.txt`) e i contatori
+**esistono** e sono generate dal build: nessun servizio esterno, nessuna dipendenza a runtime. Il
+dominio assoluto è una **costante in `internal/build`** (`siteBaseURL` in
+`internal/build/urls.go`, D103): i file contengono URL assoluti e il dominio vive in un posto solo,
+senza variabili d'ambiente.
 
 ## Feed RSS
 
 - **Un feed per lingua dell'interfaccia**: `/it/rss.xml` e `/en/rss.xml`. Nessun feed a root e **nessun feed per band al lancio** (D102).
-- Contiene le **ultime traduzioni pubblicate**, ordinate per `added_date` decrescente, **limite 30 voci** (corretto da 20 a 30 dall'autore).
+- Contiene le **ultime traduzioni pubblicate**, ordinate per `added_date` decrescente, **limite 30 voci** (`feedLimit`, corretto da 20 a 30 dall'autore).
 - Solo brani con **almeno una traduzione pubblicata**: una voce compare quando la traduzione c'è, non quando il brano viene creato a metà.
 - Ogni voce: titolo del brano, **link assoluto** alla pagina del brano in quella lingua, `guid` stabile (permalink assoluto), `pubDate` in RFC1123 UTC ricavato da `added_date`, e descrizione generata = la meta description (titolo, band, album) più un'anteprima breve delle prime righe della traduzione in italiano (o nella lingua del feed, se presente).
-- RSS 2.0 con **struct tipizzate e `encoding/xml`**: i testi contengono virgolette, apostrofi, `&` e il minore, e solo l'encodificatore li scappa come si deve.
+- RSS 2.0 con **struct tipizzate e `encoding/xml`**: i testi contengono virgolette, apostrofi, `&` e il minore, e solo l'encodatore li scappa come si deve.
 - Nel `<head>` di ogni pagina: `<link rel="alternate" type="application/rss+xml">` con `href` **assoluto** verso il feed della lingua corrente.
 - Link al feed nel **footer**.
 
@@ -278,7 +311,7 @@ Mostrano il valore del sito a colpo d'occhio:
 
 La semantica delle **lingue** è una decisione esplicita (D105): si mostra ciò che un lettore può trovare — oggi italiano e inglese, quindi **2** — e **non** tutte le lingue originali tradotte, che darebbero 3 per via del tedesco "completo" di un brano bilingue (D96). Il tedesco è una versione completa in pagina, non un'interfaccia in tedesco.
 
-- Sono **calcolati a build time** dai contenuti (D104): nessun numero scritto a mano che possa divergere dalla realtà.
+- Sono **calcolati a build time** dai contenuti (`siteStats`, in `internal/build/stats.go`, D104): nessun numero scritto a mano che possa divergere dalla realtà.
 - Usano le **stesse regole con cui il build decide se una pagina esiste**: un contatore con un criterio diverso conterrebbe pagine che non ci sono.
 - **Comprimono**: un brano con 4 lingue conta 1 brano, non 4. L'obiettivo è mostrare che il sito cresce, non gonfiare i numeri.
 - Dove: **homepage** (sotto la presentazione) e **footer**, stessa riga e stessi numeri.
