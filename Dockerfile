@@ -44,7 +44,7 @@ RUN go run ./cmd/lyrica build
 RUN CGO_ENABLED=0 go build -trimpath -ldflags="-s -w" -o /out/lyrica ./cmd/lyrica
 
 # --- Stage 2: runtime ---------------------------------------------------
-FROM alpine:3.24.2
+FROM alpine:3.24.3
 
 RUN apk add --no-cache ca-certificates \
     && adduser -D -u 10001 -h /app lyrica
